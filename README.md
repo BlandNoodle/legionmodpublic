@@ -25,6 +25,10 @@ Forming Germany is changed so it isnt all at once, broken up into smaller parts 
 there is a cb for unifying germany but conquering the german states is otherwise not possible outside of decisions
 Germany itself isnt nerfed other than some life rating changes which were lowered throughout Europe
 
+AUS - 
+Can either go for Austria Hungary or South Germany, holding Bavaria gives a modifier buff, holding Bavaria and getting Baden and Wurttemburg sphered by 1870 gives the modifier permanently and the tile from Prussia. Forming South Germany in this way keeps Hungary
+Otherwise, forming South Germany without winning the contest over southern germany releases hungary when it is formed, get Czech accepted either way. Croat and Hungarian are accepted with A-H. 
+
 SPA - 
 Super buffed compared to base game, I'm just waiting for someone to abuse it before I stop buffing it, full of secrets
 
