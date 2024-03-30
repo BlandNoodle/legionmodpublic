@@ -1,0 +1,1105 @@
+#Siam Region (2080000)
+#Siam Region (2080000)
+#under the rule of Siam in 1836
+#Bangkok (1108000/277000 POPS)
+1346 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 8100
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 675
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 855
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 4275
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 18000
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 4050
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 347445
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 10800
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1350
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 945
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 18000
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 18000
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 18000
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 5400
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1035
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 39375
+    }
+}
+#Lopburi (324000/81000 POPS)
+1347 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 2835
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 1485
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 7200
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 127080
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 5400
+    }
+}
+#Nakhon Sawan (188000/47000 POPS)
+1348 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1440
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2700
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 67140
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 5400
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 2970
+    }
+}
+#Sukothai (136000/34000 POPS)
+1349 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1170
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 630
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3060
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 53820
+    }
+}
+#Nakhon Ratchasima (160000/40000 POPS)
+1350 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1440
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 765
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 64395
+    }
+}
+#Prachin Buri (164000/41000 POPS)
+1351 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1035
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2520
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 49905
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 12105
+    }
+}
+#Kra Region (492000)
+#under the rule of Siam in 1836
+#Phuket (124000/31000 POPS)
+1352 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 810
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1890
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 36045
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 6885
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 4950
+    }
+}
+#Ratchaburi (172000/43000 POPS)
+1353 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 630
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3240
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 59670
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2700
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 9405
+    }
+}
+#Nakhon Si Thammanet (196000/49000 POPS)
+1354 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1125
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 585
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2340
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 51840
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2295
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 6390
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1080
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 19755
+    }
+}
+#Shan Region (600000)
+#under the rule of Siam in 1836
+#Chiang Mai (332000/83000 POPS)
+1355 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 990
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 585
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2880
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 585
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 51705
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 2565
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 900
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 4590
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 945
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 83250
+    }
+}
+#Nan (268000/67000 POPS)
+2572 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 36090
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 765
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2070
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 450
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 37935
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 675
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 36360
+    }
+}
+#Laos Region (776000)
+#under the rule of Siam in 1836
+#Udon Thani (596000/149000 POPS) #now part of Thailand
+1358 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1890
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 37845
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 4500
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 2340
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 11520
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 2160
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 209880
+    }
+}
+#Sisaket (180000/45000 POPS) #now part of Thailand
+1359 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 765
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2070
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 450
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 37710
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 585
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 315
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1575
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 315
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 31410
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 4950
+    }
+}
+#Cambodia Region (72000)
+#under the rule of Siam in 1836
+#Chanthaburi (72000/18000 POPS) #now part of Thailand
+1365 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 8280
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 900
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 16470
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1350
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 3870
+    }
+}
+#Malaya Region (132000) #see Malaysia.txt for balance of region
+#under the rule of Siam in 1836
+#Patani (132000/33000 POPS) #now part of Thailand
+1392 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 990
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2700
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 51210
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1170
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 2295
+    }
+}

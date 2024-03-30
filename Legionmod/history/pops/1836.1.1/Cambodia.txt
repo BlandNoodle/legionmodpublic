@@ -1,0 +1,288 @@
+#Cambodia Region (864000)
+#Cambodia Region (864000)
+#under the rule of Cambodia in 1836
+#Phnom Penh (468000/117000 POPS)
+1364 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 2025
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 9900
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 7200
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 176445
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 4815
+    }
+}
+#Kampot (160000/40000 POPS)
+1367 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1305
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 675
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3150
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 61470
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 900
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 2655
+    }
+}
+#Stongtreng (84000/21000 POPS)
+1368 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 315
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1620
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 315
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 29610
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 4950
+    }
+}
+#under the rule of Siam in 1836
+#Battambang (152000/48000 POPS)
+1366 = {
+    aristocrats = {
+        culture = thai
+        religion = animist
+        size = 25
+    }
+
+    bureaucrats = {
+        culture = thai
+        religion = animist
+        size = 50
+    }
+
+    officers = {
+        culture = thai
+        religion = animist
+        size = 75
+    }
+
+    clergymen = {
+        culture = thai
+        religion = animist
+        size = 25
+    }
+
+    artisans = {
+        culture = thai
+        religion = animist
+        size = 50
+    }
+
+    soldiers = {
+        culture = thai
+        religion = animist
+        size = 50
+    }
+
+    farmers = {
+        culture = thai
+        religion = animist
+        size = 725
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1350
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 765
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 70965
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1350
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 3870
+    }
+}

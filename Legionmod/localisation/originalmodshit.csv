@@ -1,0 +1,369 @@
+HND_ADJ;Indian;;;;;;;;x
+HND_directorate;East India Company;;;;;;;;x
+HND_hms_government;British Raj;;;;;;;x
+country_reforms;Country reforms;;;;;;;;;;;;;;x
+country_reforms_desc;We have reformed our country.;;;;;;;;;;;;;;x
+democratic_nation;Democratic nation;;;;;;;;;;;;;;x
+democratic_nation_desc;We have liberated our country.;;;;;;;;;;;;;;x
+IBE;Iberian Union;;;;;;;;;;;;;x;;;;
+IBE_ADJ;Iberian;;;;;;;;;;;;;x;;;;
+IBE_absolute_monarchy;Carlist Union;;;;;;;;;;;;;x;;;;
+IBE_prussian_constitutionalism;Iberian Union;;;;;;;;;;;;;x;;;;
+IBE_hms_government;Iberian Union;;;;;;;;;;;;;x;;;;
+IBE_presidential_dictatorship;Iberian Republic;;;;;;;;;;;;;x;;;;
+IBE_bourgeois_dictatorship;Iberian Republic;;;;;;;;;;;;;x;;;;
+IBE_democracy;Republic of Iberia;;;;;;;;;;;;;x;;;;
+IBE_proletarian_dictatorship;Iberian Commune;;;;;;;;;;;;;x;;;;
+IBE_fascist_dictatorship;Gran Hispania;;;;;;;;;;;;;x;;;;
+form_iberia_title;Form Iberia;;;;;;;;;;;;;x;;;;
+form_iberia_desc;Form Iberia;;;;;;;;;;;;;x;;;;
+OTC;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_ADJ;Ottoman;;;;;;;;;;;;;x;;;;
+OTC_absolute_monarchy;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_prussian_constitutionalism;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_hms_government;Ottoman Caliphate;;;;;;;;;;;;;x;;;;
+OTC_presidential_dictatorship;Greater Caliphate;;;;;;;;;;;;;x;;;;
+OTC_bourgeois_dictatorship;Islamic Republic;;;;;;;;;;;;;x;;;;
+OTC_democracy;Islamic Republic;;;;;;;;;;;;;x;;;;
+OTC_proletarian_dictatorship;People's Caliphate;;;;;;;;;;;;;x;;;;
+OTC_fascist_dictatorship;Islamic State;;;;;;;;;;;;;x;;;;
+SAU;South American Union;;;;;;;;;;;;;x;;;;
+SAU_ADJ;South American;;;;;;;;;;;;;x;;;;
+SAU_absolute_monarchy;Latin Empire;;;;;;;;;;;;;x;;;;
+SAU_prussian_constitutionalism;South American Union;;;;;;;;;;;;;x;;;;
+SAU_hms_government;South American Union;;;;;;;;;;;;;x;;;;
+SAU_presidential_dictatorship;Greater Latin Union;;;;;;;;;;;;;x;;;;
+SAU_bourgeois_dictatorship;Republic of Latin America;;;;;;;;;;;;;x;;;;
+SAU_democracy;Latin Union;;;;;;;;;;;;;x;;;;
+SAU_proletarian_dictatorship;Worker's State of South America;;;;;;;;;;;;;x;;;;
+SAU_fascist_dictatorship;Greater Latin Empire;;;;;;;;;;;;;x;;;;
+BNX;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_ADJ;United Dutch;;;;;;;;;;;;;x;;;;
+BNX_absolute_monarchy;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_prussian_constitutionalism;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_hms_government;United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_presidential_dictatorship;Netherlands United Republic;;;;;;;;;;;;;x;;;;
+BNX_bourgeois_dictatorship;Free United Netherlands;;;;;;;;;;;;;x;;;;
+BNX_democracy;United Provinces;;;;;;;;;;;;;x;;;;
+BNX_proletarian_dictatorship;United Netherlands Syndicates;;;;;;;;;;;;;x;;;;
+BNX_fascist_dictatorship;Greater Netherlands;;;;;;;;;;;;;x;;;;
+BEI;Beijing;;;;;;;;;;;;;x;;;;
+BEI_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+FZH;Fuzhou;;;;;;;;;;;;;x;;;;
+FZH_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+HKG;Hong Kong;;;;;;;;;;;;;x;;;;
+HKG_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+MAC;Macau;;;;;;;;;;;;;x;;;;
+MAC_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+NAN;Nanning;;;;;;;;;;;;;x;;;;
+NAN_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+NGB;Nangbo;;;;;;;;;;;;;x;;;;
+NGB_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+QNG;Qingdao;;;;;;;;;;;;;x;;;;
+QNG_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+SHA;Shanghai;;;;;;;;;;;;;x;;;;
+SHA_ADJ;Chinese;;;;;;;;;;;;;x;;;;
+JAP_absolute_monarchy;Japan;;;;;;;;;;;;;x;;;;
+JAP_prussian_constitutionalism;Japan;;;;;;;;;;;;;x;;;;
+JAP_hms_government;Japan;;;;;;;;;;;;;x;;;;
+JAP_presidential_dictatorship;Japan;;;;;;;;;;;;;x;;;;
+JAP_bourgeois_dictatorship;Japan;;;;;;;;;;;;;x;;;;
+JAP_democracy;Japan;;;;;;;;;;;;;x;;;;
+JAP_proletarian_dictatorship;Union of Nippon;;;;;;;;;;;;;x;;;;
+JAP_fascist_dictatorship;Empire of Japan;;;;;;;;;;;;;x;;;;
+JAP_shogunate;Shogunate Japan;;;;;;;;;;;;;x;;;;
+RUS_imperial;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+GER;German Empire;;;;;;;;;;;;;x;;;;
+GER_ADJ;German Empire;;;;;;;;;;;;;x;;;;
+GER_absolute_monarchy;German Empire;;;;;;;;;;;;;x;;;;
+GER_prussian_constitutionalism;German Empire;;;;;;;;;;;;;x;;;;
+GER_hms_government;German Empire;;;;;;;;;;;;;x;;;;
+GER_presidential_dictatorship;Germany;;;;;;;;;;;;;x;;;;
+GER_bourgeois_dictatorship;Germany;;;;;;;;;;;;;x;;;;
+GER_democracy;Weimarer Republic;;;;;;;;;;;;;x;;;;
+GER_proletarian_dictatorship;Socialist German Republic;;;;;;;;;;;;;x;;;;
+GER_fascist_dictatorship;Third Reich;;;;;;;;;;;;;x;;;;
+FRA_absolute_monarchy;French Empire;;;;;;;;;;;;;x;;;;
+FRA_prussian_constitutionalism;French Empire;;;;;;;;;;;;;x;;;;
+FRA_hms_government;France;;;;;;;;;;;;;x;;;;
+FRA_presidential_dictatorship;France;;;;;;;;;;;;;x;;;;
+FRA_bourgeois_dictatorship;France;;;;;;;;;;;;;x;;;;
+FRA_democracy;French Republic;;;;;;;;;;;;;x;;;;
+FRA_proletarian_dictatorship;Paris Commune;;;;;;;;;;;;;x;;;;
+FRA_fascist_dictatorship;French State;;;;;;;;;;;;;x;;;;
+ENG_proletarian_dictatorship;Union of Britain;;;;;;;;;;;;;x;;;;
+ENG_fascist_dictatorship;British Union;;;;;;;;;;;;;x;;;;
+ITA_absolute_monarchy;Kingdom of Italy;;;;;;;;;;;;;x;;;;
+ITA_proletarian_dictatorship;Italian Union;;;;;;;;;;;;;x;;;;
+ITA_fascist_dictatorship;Italian Social Republic;;;;;;;;;;;;;x;;;;
+RUS_absolute_monarchy;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_prussian_constitutionalism;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_hms_government;Tsardom of Russia;;;;;;;;;;;;;x;;;;
+RUS_presidential_dictatorship;Russian Republic;;;;;;;;;;;;;x;;;;
+RUS_bourgeois_dictatorship;Russian Republic;;;;;;;;;;;;;x;;;;
+RUS_democracy;Russian Republic;;;;;;;;;;;;;x;;;;
+RUS_fascist_dictatorship;Russian Empire;;;;;;;;;;;;;x;;;;
+AUS_absolute_monarchy;Austrian Empire;;;;;;;;;;;;;x;;;;
+AUS_prussian_constitutionalism;Austrian Empire;;;;;;;;;;;;;x;;;;
+AUS_hms_government;Austrian Empire;;;;;;;;;;;;;x;;;;
+AUS_presidential_dictatorship;Austria Federal State;;;;;;;;;;;;;x;;;;
+AUS_bourgeois_dictatorship;Austria Federal State;;;;;;;;;;;;;x;;;;
+AUS_democracy;Austria Federal State;;;;;;;;;;;;;x;;;;
+AUS_proletarian_dictatorship;Austrian Commune;;;;;;;;;;;;;x;;;;
+AUS_fascist_dictatorship;Austrian Empire;;;;;;;;;;;;;x;;;;
+KUK_absolute_monarchy;Austrian Empire;;;;;;;;;;;;;x;;;;
+KUK_prussian_constitutionalism;Austrian Empire;;;;;;;;;;;;;x;;;;
+KUK_hms_government;Austrian Empire;;;;;;;;;;;;;x;;;;
+KUK_presidential_dictatorship;Austria Federal State;;;;;;;;;;;;;x;;;;
+KUK_bourgeois_dictatorship;Austria Federal State;;;;;;;;;;;;;x;;;;
+KUK_democracy;Austria Federal State;;;;;;;;;;;;;x;;;;
+KUK_proletarian_dictatorship;Austrian Commune;;;;;;;;;;;;;x
+KUK_fascist_dictatorship;Austrian Empire;;;;;;;;;;;;;x
+MEC_HOLSTEIN;Holstein;Holstein;Holstein;;Holstein;;;;;;;;;x
+HAM_HELGOLAND;Heligoland;Heligoland;Heligoland;;Heligoland;;;;;;;;;x
+MEC_MECKLEMBURG;Mecklenburg;Mecklenburg;Mecklenburg;;Mecklenburg;;;;;;;;;x
+PRU_VORPOMMERN;Vorpommern;Vorpommern;Vorpommern;;Vorpommern;;;;;;;;;x
+SPA_BALEAREN;Balearen;Balearen;Balearen;;Balearen;;;;;;;;;x
+modern_command_principle;Trained Leadership;;;;;;;;;;;;;x
+modern_rifles;Modern Rifles;;;;;;;;;;;;;x
+modern_fortifications;Starforts;;;;;;;;;;;;;x
+modern_land_organisation;Reorganized Army;;;;;;;;;;;;;x
+modern_guns;Modern Guns;;;;;;;;;;;;;x
+traditional_navy;Traditional Navy;;;;;;;;;;;;;x
+modern_naval_thought;Naval Schools;;;;;;;;;;;;;x
+modern_ship_designs;Modern Ships;;;;;;;;;;;;;x
+modern_export;Merchant Fleet;;;;;;;;;;;;;x
+modern_naval_office;Naval Hierachy;;;;;;;;;;;;;x
+modern_trade;Private Shipping;;;;;;;;;;;;;x
+modern_machines;Modern Machines;;;;;;;;;;;;;x
+modern_chemistry;Chemistry;;;;;;;;;;;;;x
+modern_banks;Institutionalize Banking;;;;;;;;;;;;;x
+modern_railroad;Import Railways;;;;;;;;;;;;;x
+modern_administration;A New Administration;;;;;;;;;;;;;x
+modern_education;Public Schools;;;;;;;;;;;;;x
+modern_loan;Create National Bank;;;;;;;;;;;;;x
+modern_theory;New Economic Theory;;;;;;;;;;;;x
+modern_thought;Human Rights;;;;;;;;;;;;;x
+reform_our_empire;Reform our Empire;;;;;;;;;;;;;;x
+reform_our_empire_desc;We reformed our Empire into a modern state.;;;;;;;;;;;;;;x
+we_need_to_move_forward_title;We need to move forward;;;;;;;;;;;;;;x
+we_need_to_move_forward_desc;Scince the foundation of the Austrian Empire not really much happend internal, exept some small attemts in the napoleonic age to reform the bureaucratic system. Our administrative is today incapable to keep our great country in order, we have to reform it into a truely modern state.;;;;;;;;;;;;;;x
+encourage_mining;Intensify Mining;;;;;;;;;;;;;;x
+encourage_farming;Intensify Farming;;;;;;;;;;;;;;x
+encourage_industry;Intensify Industry;;;;;;;;;;;;;;x
+increase_living_standards;Increase living standards;;;;;;;;;;;;;;x
+spirit_of_unification;Spirit of Unification;;;;;;;;;;;;;x;;;;
+spirit_of_unification;Our people rejoice: At long last we stand united!;;;;;;;;;;;;;x;;;;
+MAC_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+MAC_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+MAC_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+MAC_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+MAC_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+MAC_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+MAC_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+HKG_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+HKG_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+HKG_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+HKG_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+HKG_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+HKG_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+HKG_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+FZH_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+FZH_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+FZH_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+FZH_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+FZH_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+FZH_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+FZH_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+NGB_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+NGB_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+NGB_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+NGB_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+NGB_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+NGB_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+NGB_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+SHA_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+SHA_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+SHA_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+SHA_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+SHA_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+SHA_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+SHA_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+QNG_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+QNG_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+QNG_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+QNG_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+QNG_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+QNG_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+QNG_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+BEI_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+BEI_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+BEI_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+BEI_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+BEI_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+BEI_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+BEI_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
+NAN_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
+NAN_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+NAN_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
+NAN_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+NAN_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
+NAN_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
+NAN_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x
+names_of_the_revolution_title;The Imperial Stain;;;;;;;;;;;;;x
+names_of_the_revolution_desc;The workers revolution succeeded in Russia, but there are still old imperialist and monarchist names in our cities and provinces, paying tribute to the oppressors of the proletariat. Let's erase this chapter and write a new one based on the heroes of the revolution.;;;;;;;;;;;;;x
+remove_names_of_the_revolution_title;The Communist Stain;;;;;;;;;;;;;x
+remove_names_of_the_revolution_desc;The communists took the power by force and renamed our proud cities to their terrorist leaders names. It's time to go back to the old traditions and bury the names of the ones who brought our country to ruin.;;;;;;;;;;;;;x
+names_of_the_revolution_ukraine_title;The Imperial Stain in Ukraine;;;;;;;;;;;;;x
+names_of_the_revolution_ukraine_desc;The workers revolution succeeded, but there are still old imperialist and monarchist names in our cities and provinces, paying tribute to the oppressors of the proletariat. Let's erase this chapter and write a new one based on the heroes of the revolution.;;;;;;;;;;;;;x
+remove_names_of_the_revolution_ukraine_title;The Communist Stain in Ukraine;;;;;;;;;;;;;x
+remove_names_of_the_revolution_ukraine_desc;The communists took the power by force and renamed our proud cities to their terrorist leaders names. It's time to go back to the old traditions and bury the names of the ones who brought our country to ruin.;;;;;;;;;;;;;x
+petrograd_renaming_act_title;Renaming Saint Petersburg;;;;;;;;;;;;;x
+petrograd_renaming_act_desc;The war with the Germans rage on and our government has a proposal to rename the city of Saint Petersburg to Petrograd, meaning "Peter's City", to remove the German words Sankt and Burg.;;;;;;;;;;;;;x
+names_of_western_poland_title;Names of Westpolen;;;;;;;;;;;;;x
+names_of_western_poland_desc;In 1793, Prussia conquered the western part of poland in the 2nd Partition of Poland. For the next 13 years we tried to colonize the land, which failed because of napoleons victory 1806/7. After the congress of vienna we only got the western part of it back, but scince we defeated the russian bear, who took our rightful land back in the day, we can once again establish the german rule over western poland.;;;;;;;;;;;;;x
+names_of_eastern_poland_title;Names of Masowien;;;;;;;;;;;;;x
+names_of_eastern_poland_desc; In 1795, Prussia conquered the eastern part of poland in the 3nd Partition of Poland. For the next 11 years we tried to colonize the land, which failed because of napoleons victory 1806/7. After the congress of vienna the zar got all of this land, but scince we defeated the russian bear, who took our rightful land back in the day, we can once again establish the german rule over eastern poland.;;;;;;;;;;;;;x 
+names_of_latvia_title;Names of Litauen;;;;;;;;;;;;;x
+names_of_latvia_desc; Scince the 14nd century there is a german minority in lithuania. They came mostly as traders of the Hanseatic League, but today they are just there as germans. Now where the russian empire is crumbling and we could take this land, we should rename it to show our pride for the 500 years of history of the Litauendeutsche.;;;;;;;;;;;;;x 
+names_of_south_tirol_title;Names of South Tyrol;;;;;;;;;;;;;x
+names_of_south_tirol_desc;The italian people in south tyrol were oppressed by the austrian tyrants for far too long. It is finally time to reclaim our rightful lands. Viva l'Italia!;;;;;;;;;;;;;x 
+names_of_istria_title;Names of Istria;;;;;;;;;;;;;x
+names_of_istria_desc;The italian people in istria were oppressed by the austrian tyrants for far too long. It is finally time to reclaim our rightful lands. Viva l'Italia!;;;;;;;;;;;;;x 
+names_of_dalmatia_title;Names of Dalmatia;;;;;;;;;;;;;x
+names_of_dalmatia_desc;The italian people in dalmatia were oppressed by the austrian tyrants for far too long. It is finally time to reclaim our rightful lands. Viva l'Italia!;;;;;;;;;;;;;x 
+remove_names_of_south_tirol_title;Names of South Tyrol;;;;;;;;;;;;;x
+remove_names_of_south_tirol_desc;The italian stole our lands! But we defeated them and can finally reclaim our rightful lands. Gott ist mit uns!;;;;;;;;;;;;;x
+remove_names_of_istria_title;Names of Istria;;;;;;;;;;;;;x
+remove_names_of_istria_desc;The italian stole our lands! But we defeated them and can finally reclaim our rightful lands. Gott ist mit uns!;;;;;;;;;;;;;x
+remove_names_of_dalmatia_title;Names of Dalmatia;;;;;;;;;;;;;x
+remove_names_of_dalmatia_desc;The italian stole our lands! But we defeated them and can finally reclaim our rightful lands. Gott ist mit uns!;;;;;;;;;;;;;x
+japanese_outer_manchuria_title;The Enkaishu Region;;;;;;;;;;;;;x
+japanese_outer_manchuria_desc;The northern coast of the Asiatic continent, known to us by the name of Enkaishu, now is firmly in our hands. Nothing better to demonstrate that, and to encourage immigration, than renaming it to proper Japanese names.;;;;;;;;;;;;;
+EVTNAME500059;Economic Sanctions;;;;;;;;;;;;x
+EVTDESC500059;"We do not seek the destruction of any government, nor do we covet a foot of any territory. We do not want an expanding struggle with consequences that no one can perceive, nor will we bluster or bully or flaunt our power, but we will not surrender."\n\nFinishing his speech, the ambassador of one of the Great Powers that gathered to discuss the situation of our country finished convincing the other great powers to sign a round of economical and diplomatic sanctions against our country. The Great Power conference sent us a warning against any more aggression from our part and said they are ready to escalate if we don't cease and change our behavior.;;;;;;;;;;;;x
+EVTOPT500059A;Fools!;;;;;;;;;;;;x
+kinda_bad_badboy;International Sanctions;;;;;;;;;;;;;x
+kinda_bad_badboy_desc;We have been declared a threat to global safety and international balance of power. Sanctions have been applied to our country and citizens and we have been warned that the great powers will worsen these sanctions in case we continue our aggressiveness.;;;;;;;;;;;;;x
+dismantle_cb;TOTAL LEGION DEATH;;;;;;;x
+dismantle_cb_desc;rip bozo;;;;;;;x
+acquire_all_cores_usa;Manifest Destiny;;;;;;;;;;x
+acquire_all_cores_usa_desc;only one janny war!;;;;;;;;;;x
+conquest_low;Minor Conquest;;;;;;;;;;;;;x
+conquest_low_desc;Annex a country of small size and population by conquest;;;;;;;;;;;;;x
+conquest_low_setup;Annex minor nation of $RECIPIENT$;;;;;;;;;;;;;x
+conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+demand_reperations;Reparations;;;;;;;;x
+demand_reperations_short;We will snatch $RECIPIENT$'s foams!;;;;;x
+demand_reperations_setup;We will snatch $RECIPIENT$'s foams!;;;;;x
+demand_reperations_desc;Pay up [Caucasian Brother]!;;;;;;;;x
+negotiated_transfer;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_short;Snatch a state from $RECIPIENT$;;;;;;x
+negotiated_transfer_setup;Snatch a state from $RECIPIENT$;;;;;;x
+negotiated_transfer_desc;transfer a state;;;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
+minor_conquest;Tiny Conquest;;;;;;;;x
+minor_conquest_setup;Annex $RECIPIENT$ at great discount;;;;;;;;x
+minor_conquest_short;Annex $RECIPIENT$ at great discount;;;;;;;;x
+minor_conquest_desc;4 foot 11 activities, or 149cm for Euros;;;;;;;;x
+acquire_capital;Acquire Capital;;;;;;x
+acquire_capital_short;Take $RECIPIENT$'s capital;;;;;;;x
+acquire_capital_setup;Take capital region $STATE$ from $RECIPIENT$;;;;;;;;x
+acquire_capital_desc;Relocate the bums!;;;;;;;;x
+conquer_germany;Conquer Germany;;;;;;;;;x
+conquer_germany_short;Unify with $RECIPIENT$;;;;;x
+conquer_germany_setup;Force $RECIPIENT$ to awknowledge our hegemony;;;;;x
+conquer_germany_desc;Do it by Blood and Iron, like the old head said.;;;;;;;;;;x
+acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;x
+acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;x
+acquire_all_cores_desc;Aquire all enemy ｧYstatesｧW where we have ｧYcore provincesｧW;;;;;;;;;;;;;x
+acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;x
+AGRESSION_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;x
+AGRESSION_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;x
+NORMAL_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;x
+NORMAL_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;x
+AGRESSION_WAR_PUPPET_NAME_TUR_EGY;Oriental Crisis;;;;;;;;;;;;x
+Royal_Navy;Royal Navy;;;;;;;;;;;;;;x
+Royal_Navy_desc;We have established the Royal Navy.;;;;;;;;;;;;;;x
+Rebuild_our_Fleets;Rebuild our Fleets;;;;;;;;;;;;;;x
+Rebuild_our_Fleets_desc;We have done the measures to bring our fleet to old glory.;;;;;;;;;;;;;;x
+Emergency_ship_building_effort_title;Emergency Ship Building Effort;;;;;;;;;;;;;;x
+Emergency_ship_building_effort_desc;Our enemies are trying to threaten our homeland with their naval buildup and are clearly prepearing to invade us. We will not standing idly by, we will expand our fleet with an ambitious naval program. Britons never will be slaves!;;;;;;;;;;;;;;x
+Establish_the_Royal_Navy_title;Establish the Royal Navy;;;;;;;;;;;;;;x
+Establish_the_Royal_Navy_desc;From the middle decades of the 17th century, and through the 18th century, the Royal Navy vied with the Dutch Navy and later with the French Navy for maritime supremacy. From the mid 18th century, it was the world's most powerful navy until the Second World War. The Royal Navy played a key part in establishing and defending the British Empire. Brittania rules the Waves!;;;;;;;;;;;;;;x
+algeria_boom;Algeria Boom;;;;;;;;;;;;;;x
+algeria_boom_desc;Algeria is very attractive for frenchman, scince we civilised it. There should be 1.111.000 french people in 1959.;;;;;;;;;;;;;;x
+claim_savoy_title;Claim Savoy;;;;;;;;;;;;;x
+claim_savoy_desc;While we had hoped to one day regain control over Savoy through diplomatic means, the sardinians don't want to compensate France for the formation of italy. We must lay claim to Savoy, and liberate the French therein through force of arms.;;;;;;;;;;;;;x
+louis_napoleon_iii;Napoleon III.;;;;;;;;;;;;;;x
+louis_napoleon_iii_desc;Napoleon III. is inspiring our whole nation!;;;;;;;;;;;;;;x
+Expand_our_Navy_title;Expand our Navy;;;;;;;;;;;;;x
+Expand_our_Navy_desc;While we have a growing economy, we need a strong navy to protect our interests.;;;;;;;;;;;;;x
+Rebuild_our_Fleet;Expanded Dockyards;;;;;;;;;;;;;x
+Rebuild_our_Fleet_desc;We have increased our Dockyard Production.;;;;;;;;;;;;;x
+bigger_Navy;Expanded Fleet;;;;;;;;;;;;;;x
+bigger_Navy_desc;We have invested heavily in our great fleet.;;;;;;;;;;;;;;x
+Levee_en_masse;Levee en masse ;;;;;;;;;;;;;;x
+Levee_en_masse_desc;The Republic calls for us! Let’s know how to vanquish or how to fail. For she has given the Frenchman his life. And for her he must give to prevail!;;;;;;;;;;;;;;x
+appoint_napoleon_title;Make Napoleon III. Emperor;;;;;;;;;;;;;x
+appoint_napoleon_desc;Napoleon III was the first president of France from 1848 to 1852 and the emperor of the French from 1852 to 1870. A nephew of Napoleon I, he was the last monarch to reign over France. Elected to the presidency of the Second Republic in 1848, he seized power by force in 1851, when he could not constitutionally be reelected; he later proclaimed himself Emperor of the French.;;;;;;;;;;;;;x
+The_legacy_of_Napoleon_title;The Legacy of Napoleon;;;;;;;;;;;;;x
+The_legacy_of_Napoleon_desc;Napoleon revolutionized the warfare of his time, with ideas like the corps system, modern artillery support and the exessive use of the element of surprise. Now where we are again in a war with our old enemies who threatened already Napoleon, we should look back to his inspirations and use them against the foes of france. Vive la France!;;;;;;;;;;;;;x
+luxembourg_crisis_title;Luxembourg Crisis;;;;;;;;;;;;;x
+luxembourg_crisis_desc;For the German Brother War, Bismarck promised compensation in the west for france's neutrality. Assuming that Bismarck would honour his part of the agreement, the French government offered King William III of the Netherlands 5,000,000 guilders for Luxembourg. Being in deep financial trouble, William accepted the offer on 23 March 1867. But will the germans hold their promise?;;;;;;;;;;;;;x
+helgoland_treaty_title;Helgoland Treaty;;;;;;;;;;;;;;x
+helgoland_treaty_desc;We should  do the Helgoland Treaty;;;;;;;;;;;;;;x
+an_mein_volk_title; An mein Volk;;;;;;;;;;;;;;x
+an_mein_volk_desc;The proclamation An Mein Volk was issued by King Frederick William III of Prussia on 17 March 1813 in Breslau, to adress his subjects for the fight against the french occopuier. With the Unification of all Prussians and Germans, Napoleon was finally defeated at the Battle of Leipzig, also known as the Battle of Nations. Never again we will accept the french subjugation and never before was Germany defeated when it was united. Pro gloria et patria!;;;;;;;;;;;;;;x
+An_mein_Volk;An mein Volk;;;;;;;;;;;;;;x
+An_mein_Volk_desc;We have mobilized our people.;;;;;;;;;;;;;;x
+schlieffen_plan_title;The Schlieffen-Plan;;;;;;;;;;;;;;x
+schlieffen_plan_desc;Field Marshal Alfred von Schlieffen was Chief of the General Staff of the German Army from 1891 to 1906. In 1905 and 1906, Schlieffen devised an army deployment plan for a war-winning offensive against the French Third Republic, in case of a two front war with russia. Now that his scenario has become reality, we know exactly what to do and will not hesitate, to take action. Gott mit uns!;;;;;;;;;;;;;;x
+schlieffens_plan;Schlieffen-Plan;;;;;;;;;;;;;;x
+schlieffens_plan_desc;We have mobilized our armies and are ready to strike on the enemy!;;;;;;;;;;;;;;x
+das_buergerliche_gesetzbuch_title;Das Buergerliche Gesetzbuch;;;;;;;;;;;;;;x
+das_buergerliche_gesetzbuch_desc;The introduction in France of the Napoleonic code in 1804 created in Germany a similar desire for obtaining a civil code, which would systematize and unify the various heterogeneous laws that were in effect in the country.A first draft code, in 1888, did not meet with favour. A second committee of 22 members, comprising not only jurists but also representatives of financial interests and of the various ideological currents of the time, compiled a second draft. After significant revisions, the BGB was passed by the Reichstag in 1896. It was put into effect on 1 January 1900, and has been the central codification of Germany's civil law ever since.;;;;;;;;;;;;;;x
+appoint_von_bismarck_title;Appoint Otto von Bismarck;;;;;;;;;;;;;x
+appoint_von_bismarck_desc;Our nation needs a great statesman as its Chancellor, and we have just the man. Otto von Bismarck is currently the country's First Minister, but appointed as the leader of our nation he could see it transformed on the world stage.;;;;;;;;;;;;;x
+otto_von_bismarck;Otto von Bismarck;;;;;;;;;;;;;x
+otto_von_bismarck_desc;The current Chancellor of our nation, von Bismarck is a remarkable statesman… perhaps one of the finest our nation will ever know.;;;;;;;;;;;;;x
+german_colonial_society_desc;We have expanded the German Colonial Society;;;;;;;;;;;;;;x
+taiwan_administration_title;Japanese Formosa;;;;;;;;;;;;x
+taiwan_administration_desc;Japan now controls Formosa, and our modern administration will get rid of Gaijin names and change the island accordingly.;;;;;;;;;;;;x
+create_a_national_language_title;Create a compulsory school system;;;;;;;;;;;;;;x
+create_a_national_language_desc;The introduction of compulsory schooling brought with it heavy resistence espacially of the rural population, though they couln't pay the school fees. It took until 1910 to fully indroduce it everywhere, but it was for a low cost, because in foreign lands it was the only possibility to integrate them under japanese rule.;;;;;;;;;;;;;;x
+created_a_national_language;Compulsory school system;;;;;;;;;;;;;;x
+created_a_national_language_desc;We have created a compulsory school system;;;;;;;;;;;;;;x
+iwakura_mission_title;The Iwakura Mission;;;;;;;;;;;;;;x
+iwakura_mission_desc;The Iwakura Mission was a Japanese diplomatic voyage to the United States and Europe conducted between 1871 and 1873 by leading statesmen and scholars of the Meiji period. The aim of the mission was threefold. To gain recognition for the newly reinstated imperial dynasty under the Emperor Meiji, to begin preliminary renegotiation of the unequal treaties with the dominant world powers, and to make a comprehensive study of modern industrial, political, military and educational systems and structures in the United States and Europe.;;;;;;;;;;;;;;x
+meiji_constitution_title;Meiji Constitution;;;;;;;;;;;;;x
+meiji_constitution_desc;After an exhaustive study of western democratic methods, Japanese scholars have settled on a method of government where the Emperor will preside over an Imperial Diet, elected by the people and yet preserving both Imperial power as well as our traditions. This, they believe, is the best way for Japan to move forward into the modern era.;;;;;;;;;;;;;x
+abolish_the_han_system_title;Abolish the Han System;;;;;;;;;;;;;x
+abolish_the_han_system_desc;The han system, under which the daimyo rule as feudal lords with very little central authority remaining to the government, is an antiquated relic that must be eliminated. The domains shall be replaced with prefectures, and the daimyos given roles as governors and bureaucrats. There will be resistance, but all will come to understand that this is for the greater good of Japan.;;;;;;;;;;;;;x
+bonin_administration_title;Japanese Bonin;;;;;;;;;;;;x
+bonin_administration_desc;Japan now controls the archipelago, and our modern administration will get rid of Gaijin names and change them accordingly.;;;;;;;;;;;;x
+unshakable_autocracy;Unshakable autocracy;;;;;;;;;;;;;x
+japanese_sakhalin_title;Japanese Sakhalin;;;;;;;;;;;;;x
+japanese_sakhalin_desc;With Japan now in full control of Sakhalin and the Kurils, the world must recognize that these islands are essentially part of the Japanese archipelago and know them by their Japanese names.;;;;;;;;;;;;;x
+russian_sakhalin_desc;With the hated Japanese finally driven out of Sakhalin and Russia in full control of the islands, Russian administration and names can at last be restored.;;;;;;;;;;;;;x
+colonize_uriankhai_title;Claim Uriankhai;;;;;;;;;;;;x
+colonize_uriankhai_desc;After the demarcation of the Sino-Russian border by the Treaty of Kyakhta (1727), the Qing inexplicably placed border guards south of the Tannu-ola Mountains separating Tannu Uriankhai from Outer Mongolia, not along the Sayan Mountains separating the region from Russia. During the 19th century, Russians began to settle in Tuva. The Qing Dynasty allowed Russians to settle providing that they lived in boats or tents. This historical basis and the Russian population living there provides us with an excuse to add the territory of Tannu Tuva to the Russian borders, and the founding of a new Russian city will only strengthen our claims.;;;;;;;;;;;;x
+expel_the_poles_GLM_title;Polish Population Transfers;;;;;;;;;;;x
+expel_the_poles_GLM_desc;The territories in Galicia-Lodomeria claimed by the Polish and the Ukrainians are bound to cause some territorial dispute in the future. A recent proposal came forward to to end the Polish claims by transferring these Poles to the their homelands, by force if it need be.;;;;;;;;;;;x
+construct_statue_of_liberty_title;Construct the Statue of Liberty;;;;;;;;;;;;;;x
+construct_statue_of_liberty_desc;Give me your tired, your poor/Your huddled masses yearning to breathe free;;;;;;;;;;;;;;x
+commodore_perry;Commodore Perry;;;;;;;;;;;;;;
+commodore_perry_desc;The USA send us Commodore Perry.;;;;;;;;;;;;;;x
+commodore_perry_expedition_title;The Perry Expedition;;;;;;;;;;;;;;x
+commodore_perry_expedition_desc;The Perry Expedition, or as it's known in Japan the "Arrival of the Black Ships" was a diplomatic and military expedition to the Tokugawa Shogunate, involving two separate voyages by warships of the United States Navy, which took place during 1853 to 54. The goals of this expedition included exploration, surveying, and the establishment of diplomatic relations and negotiation of trade agreements with various nations of the region.;;;;;;;;;;;;x
+treaty_of_london;Treaty of London;;;;;;;;;;;;;;x
+treaty_of_london_desc;We have signed the Treaty of London;;;;;;;;;;;;;;x
+totalitarian_system;Totalitarianism;;;;;;;;;;;;;;;;;;x
+totalitarian_system_desc;Totalitarianism is a political system in which the state holds total authority over the society and seeks to control all aspects of public and private life wherever possible.;;;;;;;;;;;;;;;;;;x
+the_totalitarian_regime_title;The Totalitarian System;;;;;;;;;;;x
+the_totalitarian_regime_desc;We must finish once and for all with the neutrality of chess. We must condemn once and for all the formula 'chess for the sake of chess', like the formula 'art for art's sake'. We must organize shock brigades of chess-players, and begin immediate realization of a Five-Year Plan for chess. Our nation took all the necessary steps and the framework for a new kind of political system, a political system in which the state holds total authority over the society and seeks to control all aspects of public and private life wherever possible. We must make all this official, tie the loose ends, and establish absolute control over society.;;;;;;;;;;;x
+forced_assimilation;Forced assimilation;;;;;;;;;;;;;;x
+forced_assimilation_desc;We have forced the lesser people to assimilate, to  take on our great culture!;;;;;;;;;;;;;;x
+luderitz_expedition_title;Found the $COUNTRY_ADJ$ South West Africa Colony;;;;;;;;;;;;x
+luderitz_expedition_desc;First discovered in 1487 by the Portuguese explorer Bartolomeu Dias, the small coastal area known as Angra Pequena was made into a trading station by German trader Adolf Luederitz in 1883. He concluded treaties with the neighbouring chiefs, buying large tracts of land for a total sum of 560 pounds sterling's and 260 rifles. The new land was then named "Luederitzland". Luederitz has plans to send expeditions further north, in the place the natives call Otjozondjii, known in German as Swakopmund but under the belief that a Great Power was about to claim the area as a protectorate, Luederitz stalled his plans and asked for the protection of the $COUNTRY_ADJ$ Government in $YEAR$. Extending our protection to him and hoisting the $COUNTRY_ADJ$ flag in Luederitzbucht, declaring these lands "protection areas" can start the $COUNTRY_ADJ$ South West Africa Colony, though we risk some attrition with other Great Powers..;;;;;;;;;;;;x

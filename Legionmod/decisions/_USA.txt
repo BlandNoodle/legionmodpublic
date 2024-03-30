@@ -1,0 +1,188 @@
+political_decisions = {
+	construct_statue_of_liberty = {
+		picture = liberty_enlightening_the_world
+		potential = {
+			tag = USA					
+			NOT = {
+				has_global_flag = statue_of_liberty_has_been_built
+			}
+		}
+		
+		allow = {
+			government = democracy
+			war = no
+			mass_culture_n_the_avant_garde = 1
+			money = 6000000
+			owns = 425
+		}
+		
+		effect = {
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			USA = {
+				country_event = { id=19300 days=0 }
+			}
+			set_global_flag = statue_of_liberty_has_been_built
+		}
+	}
+	commodore_perry_expedition = {
+		picture = commodore_perry_expedition
+       		
+		potential = { 			NOT = {
+			revolution_n_counterrevolution = 1
+			}
+			tag = USA
+			NOT = { has_country_flag = commodore_perry_expedition }
+		}
+
+		allow = {
+			state_n_government = 1
+			OR = {
+				is_greater_power = yes
+				is_seconday_power = yes
+			}
+			war = no
+			total_amount_of_ships = 4
+			JAP = {
+			part_of_sphere = no
+			government = shogunate
+				}
+		}
+
+		effect = {
+		set_country_flag = commodore_perry_expedition
+					JAP = {
+				country_event = { id=99900021 days=1 }
+						}
+		THIS = {
+		diplomatic_influence = {
+			who = JAP
+			value = 300
+		}
+		random_country = {
+				limit = { 
+					exists = yes
+						tag = JAP
+				}
+				relation = { who = THIS value = -200 }
+			}
+			badboy = 5
+			prestige = 10
+			money = 100000
+			years_of_research = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+	monroecanada = {
+		picture = "monroe"
+		potential = {
+			tag = USA
+			NOT = {exists = CAN}
+			ai = no
+		}
+		allow = {
+			war = no
+			NOT = {constructing_cb_progress = 0.1}
+			state_n_government = 1
+			USA = {
+				all_core = {
+					owned_by = USA
+				}
+			}
+		}
+		effect = {
+			badboy = 10
+			ENG={add_casus_belli = {
+				target = THIS
+				type = liberate_country country = CAN
+				months = 36
+				}
+			}
+		}
+	}
+	
+	mexicotreaty = {
+		potential = {
+			tag = USA
+			NOT = {has_country_flag = guadelupe}
+		}
+		allow = {
+			war = no
+			NOT = {constructing_cb_progress = 0.1}
+			state_n_government = 1
+			USA = {
+				all_core = {
+					owned_by = USA
+				}
+			}
+			owns = 84
+			owns = 138
+			owns = 101
+			owns = 97
+		}
+		effect = {
+			prestige = 5
+			any_owned = {
+				limit = {
+					AND = {
+						is_core = THIS
+						is_core = MEX
+					}
+				}
+				remove_core = MEX
+			}
+			diplomatic_influence = {
+				who = MEX
+				value = 300
+			}
+			MEX = {
+				relation = {
+					who = THIS
+					value = 200
+				}
+			}
+			create_alliance = MEX
+			set_country_flag = guadelupe
+		}
+	}
+	
+	monroenorthamerica = {
+		picture = "monroe"
+		potential = {
+			tag = USA
+		}
+		allow = {
+			AND = {
+				MEX = {
+					exists = yes
+					is_independant = yes
+					all_core = {owned_by = MEX}
+				}
+				CAN = {
+					exists = yes
+					is_independant = yes
+					all_core = {owned_by = CAN}
+				}
+				USA = {
+					all_core = { owned_by = USA }
+					owns = 1
+				}
+			}
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 10
+			add_country_modifier = {
+				name = monroena
+				duration = -1
+			}
+			set_country_flag = monroe_na
+		}
+	}
+}

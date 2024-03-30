@@ -1,0 +1,36 @@
+capital = 390
+primary_culture = french
+culture = dutch
+religion = protestant
+government = hms_government
+plurality = 50
+nationalvalue = nv_equality
+literacy = 0.75
+non_state_culture_literacy = 0.6
+civilized = yes
+prestige = 60
+
+# Political reforms
+
+
+ruling_party = BRG_liberal_1
+upper_house = {
+	fascist = 0
+	liberal = 40
+	conservative = 40
+	reactionary = 20
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Technologies
+
+
+#Inventions
+
+# Starting Consciousness
+consciousness = 3
+nonstate_consciousness = 1
+
+oob = "BRG_oob.txt"

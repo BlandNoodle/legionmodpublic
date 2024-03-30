@@ -1,0 +1,96 @@
+#19000089 Russian navy stuff
+country_event = {
+	id = 19000089
+	title = "EVTNAME19000089"
+	desc = "EVTDESC19000089"
+	picture = "crimea"
+	
+	trigger = {
+		OR = {
+			AND = {
+				tag = RUS
+				owns = 964
+				owns = 966
+				owns = 967
+				NOT = { has_country_flag = crimea }
+			}
+			AND = {
+				OR = {
+					tag = TUR
+					tag = OTC
+				}
+				owns = 964
+				owns = 966
+				owns = 967
+				NOT = { has_country_flag = crimea }
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000089"
+		add_country_modifier = {
+			name = crimea
+			duration = -1
+		}
+		prestige = 5
+		set_country_flag = crimea
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+}
+#19000090 Turks take it back
+country_event = {
+	id = 19000090
+	title = "EVTNAME19000090"
+	desc = "EVTDESC19000090"
+	picture = "lost"
+	
+	trigger = {
+		OR = {
+			AND = {
+				has_country_flag = crimea
+				NOT = { owns = 964
+						owns = 966
+						owns = 967
+						}
+				OR = {
+					tag = TUR
+					tag = OTC
+				}
+			}
+			AND = {
+				has_country_flag = crimea
+				NOT = { owns = 964
+						owns = 966
+						owns = 967
+						}
+				tag = RUS
+				}
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000090"
+		remove_country_modifier = {
+			name = crimea
+		}
+		prestige = -10
+		clr_country_flag = crimea
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+	
+
+

@@ -1,0 +1,96 @@
+political_decisions = {
+
+	establish_la_guardia_civil = {
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+			}
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = {
+				has_country_flag = guardia_civil_established
+			}
+		}
+		allow = { money = 500000
+			NOT = {
+				num_of_revolts = 1
+			}
+			OR = {
+				average_militancy = 3
+				average_consciousness = 4
+			}
+		}
+		effect = { money = -500000
+			add_country_modifier = {
+				name = la_guardia_civil
+				duration = -1
+			}
+			set_country_flag = guardia_civil_established
+		}
+	}
+
+	confiscations_of_mendizabal = {
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+			}
+			NOT = {
+				has_country_flag = mendizabal_confiscated
+			}
+		}
+
+		allow = {
+			ideological_thought = 1
+		}
+
+		effect = {
+			treasury = 250000
+			prestige = 10
+			relation = {
+				who = PAP
+				value = -100
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = conservative
+					factor = 4
+				}
+				dominant_issue = {
+					value = pro_atheism
+					factor = 0.15
+				}
+			}
+			set_country_flag = mendizabal_confiscated
+		}
+	}
+	
+	gameimpactbomb = {
+		picture = "gandalf"
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = broughtgameimpact
+			}
+			ai = no
+		}
+
+		allow = {
+			tag = SPA
+		}
+
+		effect = {
+			treasury = 50000
+			add_country_modifier = {
+				name = gameimpact
+				duration = 3650
+			}
+			activate_technology = muzzle_loaded_rifles
+			set_country_flag = broughtgameimpact
+		}
+	}
+}

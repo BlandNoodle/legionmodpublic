@@ -1,0 +1,154 @@
+#####Buying colonies decisions#####
+political_decisions = {
+	lm_buy_british_guyana = {
+		picture = british_guyana
+		news = yes
+		
+		potential = {
+			tag = PBV
+			owns = 2408
+			NOT = {
+				has_country_flag = british_guyana_deal
+			}
+		}
+		
+		allow = {
+			war = no
+			1979 = {
+				owner = {
+					relation = { who = THIS value = 150 }
+				}
+			}
+			money = 250000
+		}
+		
+		effect = {
+			set_country_flag = british_guyana_deal
+			add_core = 2242
+			add_core = 2243
+			add_core = 2239
+			add_core = 1979
+			1979 = {
+				owner = {
+					country_event = {
+						id = 780100
+						days = 0
+					}
+				}
+			}			
+		}
+	}
+	lm_buy_dutch_guyana = {
+		picture = dutch_guyana
+		news = yes
+		
+		potential = {
+			tag = PBV
+			OR = {
+				owns = 2239
+				owns = 2408
+			}
+			NOT = {
+				has_country_flag = dutch_guyana_deal
+			}
+		}
+		
+		allow = {
+			war = no
+			2240 = {
+				owner = {
+					relation = { who = THIS value = 150 }
+				}
+			}
+			money = 150000
+		}
+		
+		effect = {
+			set_country_flag = dutch_guyana_deal
+			add_core = 2245
+			add_core = 2240
+			2240 = {
+				owner = {
+					country_event = {
+						id = 780200
+						days = 0
+					}
+				}
+			}			
+		}
+	}
+	lm_buy_french_guyana = {
+		picture = french_guyana
+		news = yes
+		
+		potential = {
+			tag = PBV
+			OR = {
+				owns = 2240
+				owns = 2408
+			}
+			NOT = {
+				has_country_flag = french_guyana_deal
+			}
+		}
+		
+		allow = {
+			war = no
+			2241 = {
+				owner = {
+					relation = { who = THIS value = 150 }
+				}
+			}
+			money = 200000
+		}
+		
+		effect = {
+			set_country_flag = french_guyana_deal
+			add_core = 2246
+			add_core = 2241
+			2241 = {
+				owner = {
+					country_event = {
+						id = 780300
+						days = 0
+					}
+				}
+			}			
+		}
+	}
+	lm_buy_falkland_islands = {
+		picture = falklands
+		news = yes
+		
+		potential = {
+			tag = PBV
+			owns = 2348
+			NOT = {
+				has_country_flag = falklands_deal
+			}
+		}
+		
+		allow = {
+			war = no
+			2131 = {
+				owner = {
+					relation = { who = THIS value = 150 }
+				}
+			}
+			money = 300000
+		}
+		
+		effect = {
+			set_country_flag = falklands_deal
+			add_core = 2131
+			2131 = {
+				owner = {
+					country_event = {
+						id = 780400
+						days = 0
+					}
+				}
+			}			
+		}
+	}
+}

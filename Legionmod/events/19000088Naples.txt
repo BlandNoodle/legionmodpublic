@@ -1,0 +1,61 @@
+#19000088 Sicilian troll stuff
+country_event = {
+	id = 19000088
+	title = "EVTNAME19000088"
+	desc = "EVTDESC19000088"
+	picture = "baldi"
+	
+	trigger = {
+		tag = SAR
+		war = no
+		NOT = { has_country_flag = baldi }
+		OR = {
+			year = 1855
+			exists = NGF
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	#option = {
+	#	name = "EVTOPTA19000088"
+	#	add_country_modifier = {
+	#		name = baldieffect
+	#		duration = 120000
+	#	}
+	#	set_country_flag = baldi
+	#	ai_chance = {
+	#		factor = 100
+	#	}
+	#}
+	
+	option = {
+		name = "EVTOPTB19000088"
+		add_country_modifier = {
+			name = sweep
+			duration = 480
+		}
+			change_tag = ITA
+			capital = 749
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			any_country = {
+				limit = {
+					is_culture_group = italian
+					NOT = { tag = THIS }
+				}
+				country_event = { id=11101 days=0 }
+			}
+			any_country = {
+				limit = {
+					NOT = { tag = THIS }
+				}
+				
+			}
+			set_country_flag = peaceful_italian_unification
+			set_country_flag = baldi
+		}
+		
+	}

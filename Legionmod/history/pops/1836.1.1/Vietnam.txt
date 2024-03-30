@@ -1,0 +1,1165 @@
+#Tonkin Region (2784000)
+#Tonkin Region (2784000)
+#under the rule of Annam in 1836
+#Hanoi (808000/202000 POPS)
+1369 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 6480
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 1125
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 2925
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 18000
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 18000
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 8100
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 3015
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 239175
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 14400
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 315
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 6300
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 36585
+    }
+}
+#Haiphong (596000/149000 POPS)
+1370 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 4950
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 2385
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 11790
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 2385
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 214290
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 23760
+    }
+}
+#Cao Bang (272000/68000 POPS)
+1371 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1890
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 900
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 4680
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 84240
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 10125
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 900
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 180
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 16380
+    }
+}
+#Son La (300000/75000 POPS)
+1372 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 990
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 4860
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 87570
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 10125
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 495
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 22950
+    }
+}
+#Lang Son (324000/81000 POPS)
+1373 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 2565
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 6210
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 112329
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 630
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 11880
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2970
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 2295
+    }
+}
+#Thanh Hoa (484000/121000 POPS)
+1374 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 4050
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 2025
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 9900
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 180045
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 5400
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 990
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 18720
+    }
+}
+#Annam Region (2148000)
+#under the rule of Annam in 1836
+#Hue (1080000/270000 POPS)
+1375 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 8550
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1530
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 945
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 4050
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 13455
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 4050
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 368820
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 16200
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1845
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 53550
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 7200
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 5265
+    }
+}
+#Vinh (524000/131000 POPS)
+1376 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 4500
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 2205
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 11070
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 2250
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 201375
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 13590
+    }
+}
+#Tourane (276000/69000 POPS)
+1377 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1440
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 64440
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 6750
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 810
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 35955
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 45
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 990
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 765
+    }
+}
+#Pleiku (148000 37000 POPS)
+1378 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 585
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3060
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 630
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 55665
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 3600
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 360
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 6750
+    }
+}
+#Quinhon (120000/30000 POPS)
+1379 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 9765
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 900
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 405
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2160
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 450
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 39285
+    }
+}
+#Cochinchina Region (1384000)
+#under the rule of Annam in 1836
+#Saigon (848000/212000 POPS)
+1380 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 6480
+    }
+
+    bureaucrats = {
+        culture = asian_minor
+        religion = animist
+        size = 585
+    }
+
+    officers = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 3195
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 13500
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 3195
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 291105
+    }
+
+    slaves = {
+        culture = asian_minor
+        religion = animist
+        size = 14400
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 3780
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 3285
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 2880
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 2430
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 33975
+    }
+}
+#Dongquai (244000/61000 POPS)
+1381 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 1620
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 855
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 4320
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 855
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 78750
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 450
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 8460
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 315
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 720
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 135
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 13095
+    }
+}
+#Hatien (172000/43000 POPS)
+1382 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 270
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 22905
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = theravada
+        size = 540
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = theravada
+        size = 2610
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = theravada
+        size = 450
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = theravada
+        size = 48600
+    }
+}
+#Vinhlong (120000/30000 POPS)
+1383 = {
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 540
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 225
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 1260
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 1980
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 21375
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = theravada
+        size = 270
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = theravada
+        size = 1440
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = theravada
+        size = 270
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = theravada
+        size = 26820
+    }
+}

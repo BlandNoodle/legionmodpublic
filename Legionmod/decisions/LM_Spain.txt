@@ -1,0 +1,155 @@
+
+political_decisions = {
+	lm_ten_year_siesta = {
+		picture = siesta
+		
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+			}
+			NOT = {
+				has_country_flag = siesta_time
+			}
+		}
+		
+		allow = {
+			NOT = { constructing_cb_progress = 0.1 }
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = siesta_time
+			add_country_modifier = {
+				name = ten_years_siesta
+				duration = 3650
+			}
+		}
+	}
+	
+	lm_all_the_kings_men_spa = {
+		picture = kings_men
+		
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+			}
+			NOT = {
+				has_country_flag = all_king_men_spa
+			}
+		}
+		
+		allow = {
+			war = no
+			army_professionalism = 1
+			owns = 1680
+			owns = 517
+		}
+		
+		effect = {
+			set_country_flag = all_king_men_spa
+			add_country_modifier = {
+				name = kings_men_spain
+				duration = -1
+			}
+		}
+	}
+	
+	lm_buy_gibraltar = {
+		picture = gibraltar
+		
+		potential = {
+			OR = {
+				tag = SPA
+				tag = IBE
+			}
+			NOT = {
+				has_country_flag = offer_to_buy_gibratlar
+				own = 517
+			}
+		}
+		
+		allow = {
+			war = no
+			money = 100000
+			517 = {
+				owner = {
+					relation = { who = THIS value = 150 }
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = offer_to_buy_gibratlar
+			add_core = 517
+			517 = {
+				owner = {
+					country_event = {
+						id = 790000
+						days = 0
+					}
+				}
+			}
+		}
+	}
+	
+	lm_core_spain_colonies = {
+		picture = cuba
+		
+		potential = {
+			tag = IBE
+			NOT = {
+				has_country_flag = filipino_accepted
+			}
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			breech_loaded_rifles = 1
+		}
+		
+		effect = {
+			set_country_flag = filipino_accepted
+			add_accepted_culture = filipino
+			prestige = 5
+			CUB = { all_core = { add_core = THIS } }
+			SPA_1463 = { add_core = THIS }
+			SPA_1455 = { add_core = THIS }
+			SPA_1459 = { add_core = THIS }
+			add_core = 2222
+		}
+	}
+	
+	lm_core_morocco_spa = {
+		picture = morocco
+		
+		potential = {
+			tag = IBE
+			has_country_flag = filipino_accepted
+			NOT = {
+				has_country_flag = morocco_integrated
+			}
+		}
+		
+		allow = {
+			war = no
+			MOR = { all_core = { owned_by = THIS } }
+			nationalism_n_imperialism = 1
+			empiricism = 1
+			inorganic_chemistry = 1
+		}
+		
+		effect = {
+			set_country_flag = morocco_integrated
+			prestige = 10
+			MOR = { 
+				all_core = { 
+					add_core = THIS 
+				}
+			}
+			add_accepted_culture = maghrebi
+		}
+	}
+}

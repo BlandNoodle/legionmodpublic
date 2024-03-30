@@ -1,0 +1,110 @@
+CHI = {
+	value = 125		#relation
+}
+SWI = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+leader = {
+	name = "Nunes Vidigal"
+	date = 1808.1.1
+	type = land
+	personality = aggressive
+	background = hated
+	prestige = 0.2
+}
+
+leader = {
+	name = "Luís Barreto"
+	date = 1824.1.1
+	type = land
+	personality = resolute
+	background = gifted_administrator
+	prestige = 0.2
+}
+
+leader = {
+	name = "Vicente de Mesquita"
+	date = 1808.1.1
+	type = land
+	personality = dauntless
+	background = madman
+	prestige = 0.0
+}
+
+army = {
+	name = "Exército Português"
+	location = 521
+	regiment = {
+		name= "1. Brigada de Infantaria"
+		type = infantry
+		home = 521
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantaria"
+		type = infantry
+		home = 524
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantaria"
+		type = infantry
+		home = 518
+	}
+
+	regiment = {
+		name= "4. Brigada de Infantaria"
+		type = infantry
+		home = 520
+	}
+
+	regiment = {
+		name= "5. Brigada de Infantaria"
+		type = infantry
+		home = 522
+	}
+
+	regiment = {
+		name= "1. Brigada de Caballaria"
+		type = cuirassier
+		home = 519
+	}
+
+}
+
+army = {
+	name = "Exército do Africa Ocidental"
+	location = 1999
+	
+	regiment = {
+		name = "1. Divisão Colonial"
+		type = infantry
+		home = 525
+	}
+}
+
+army = {
+	name = "Exército do Africa Oriental"
+	location = 2057
+	
+	regiment = {
+		name = "2. Divisão Colonial"
+		type = infantry
+		home = 2134
+	}
+}
+
+army = {
+	name = "Exército da Índia"
+	location = 1303
+	
+	regiment = {
+		name = "3. Divisão Colonial"
+		type = infantry
+		home = 1303
+	}
+}
+
+

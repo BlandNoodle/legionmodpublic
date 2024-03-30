@@ -1,0 +1,684 @@
+#Sphere of Influence
+
+SWE = {
+
+	value = 125
+	level = 3 	
+	influence_value = 40
+}
+
+GEO = {
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+AZB = {
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+SER = {
+	
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+GRE = {
+	
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+AFG = {
+	
+	value = 125
+	level = 3
+	influence_value = 25
+}
+
+KRA = {
+	
+	value = 125
+	level = 4
+	influence_value = 25
+}
+
+SWI = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+JAN = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+CHI = {
+	value = 75
+}
+
+PRU = {
+	value = 125
+}
+
+AUS = {
+	value = 100
+}
+
+ENG = {
+	value = 0
+}
+
+FRA = {
+	value = -75
+}
+
+TUR = {
+	value = 25
+}
+
+SPA = {
+	value = 0
+}
+
+USA = {
+	value = 0
+}
+
+PER = {
+	value = 125
+	level = 4
+	influence_value = 45
+}
+
+DEN = {
+	
+	value = 125
+}
+
+leader = {
+	name = "Prince Vasilchikov"
+	date = 1801.1.1
+	type = land
+	personality = competent
+	background = powerful_friends
+	prestige = 0.4
+}
+
+leader = {
+	name = "Prince Mikhail Vorontsov"
+	date = 1814.1.1
+	type = land
+	personality = daring
+	background = gifted_administrator
+	prestige = 0.3
+}
+
+leader = {
+	name = "Pyotr Chicherin"
+	date = 1835.1.1
+	type = land
+	personality = earnest
+	background = cavalry_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Alexander Chernyshev"
+	date = 1821.1.1
+	type = land
+	personality = intelligent
+	background = diplomat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Prince Menshikov"
+	date = 1833.1.1
+	type = sea
+	personality = lackluster
+	background = clueless
+	prestige = 0.1
+}
+
+leader = {
+	name = " Ivan Paskevich"
+	date = 1812.1.1
+	type = land
+	personality = merciless
+	background = school_of_offense
+	prestige = 0.3
+}
+
+leader = {
+	name = "Matvey Khrapovitsky"
+	date = 1835.1.1
+	type = land
+	personality = able
+	background = war_college
+	prestige = 0.1
+}
+
+leader = {
+	name = "Mikhail Lazarev"
+	date = 1827.1.1
+	type = sea
+	personality = au_fait
+	background = innovative_tactician
+	prestige = 0.2
+}
+
+leader = {
+	name = "Muraviev-Karsky"
+	date = 1832.1.1
+	type = land
+	personality = defiant
+	background = natural_born_leader
+	prestige = 0.1
+}
+
+leader = {
+	name = "Pyotr Volkonsky"
+	date = 1812.1.1
+	type = land
+	personality = intelligent
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "Pavel Grabbe"
+	date = 1836.1.1
+	type = land
+	personality = keen
+	background = school_of_firepower
+	prestige = 0.0
+}
+
+leader = {
+	name = "Vasily Bebutov"
+	date = 1825.1.1
+	type = land
+	personality = stout
+	background = generals_aide
+	prestige = 0.1
+}
+
+leader = {
+	name = "Fedor von Berg"
+	date = 1836.1.1
+	type = land
+	personality = sharp
+	background = cartographer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ferdinand Wrangel"
+	date = 1836.1.1
+	type = sea
+	personality = active_p
+	background = cartographer
+	prestige = 0.0
+}
+
+army = {
+	name = "soger1"
+	location = 964
+	regiment = {
+		name= "1.2. on Cosacks"
+		type = infantry
+		home = 1039
+	}
+
+	regiment = {
+		name= "2.2. Do Cosacks"
+		type = hussar
+		home = 1019
+	}
+	regiment = {
+		name= "2.2. Don osacks"
+		type = infantry
+		home = 355
+	}
+	regiment = {
+		name= "2.2. Don Cosas"
+		type = infantry
+		home = 355
+	}
+	regiment = {
+		name= "2.2. Don Cosaks"
+		type = infantry
+		home = 361
+	}
+	regiment = {
+		name= "2.2. Don Cssaks"
+		type = artillery
+		home = 362
+	}
+	regiment = {
+		name= "2.2. Don Coscks"
+		type = artillery
+		home = 362
+	}
+	regiment = {
+		name= "2.2. ossacks"
+		type = artillery
+		home = 362
+	}
+	regiment = {
+		name= "2.2. Do Cossacks"
+		type = artillery
+		home = 363
+	}
+	regiment = {
+		name= "2.2. n Cossacks"
+		type = artillery
+		home = 363
+	}
+	
+
+}
+
+army = {
+	name = "soger2"
+	location = 706
+	regiment = {
+		name= "1.2. Donacks"
+		type = infantry
+		home = 364
+	}
+	regiment = {
+		name= "2.2. Don Cssacks"
+		type = infantry
+		home = 364
+	}
+	regiment = {
+		name= "2.2. Don ossacks"
+		type = infantry
+		home = 365
+	}
+	regiment = {
+		name= "2.2. Don Cossack"
+		type = infantry
+		home = 365
+	}
+	regiment = {
+		name= "2.2. Don Cossacs"
+		type = infantry
+		home = 206
+	}
+	regiment = {
+		name= "2.2. Don Cossaks"
+		type = artillery
+		home = 711
+	}
+	regiment = {
+		name= "2.2. Docks"
+		type = artillery
+		home = 712
+	}
+	regiment = {
+		name= "2.2. Don Cocks"
+		type = artillery
+		home = 718
+	}
+	regiment = {
+		name= "2.2. Don ssacks"
+		type = artillery
+		home = 937
+	}
+	regiment = {
+		name= "2.2. Don sacks"
+		type = artillery
+		home = 940
+	}
+	
+
+}
+
+army = {
+	name = "soger3"
+	location = 1008
+	regiment = {
+		name= "1.2. Don sddsfsf"
+		type = infantry
+		home = 943
+	}
+	regiment = {
+		name= "2.2. Don Cossdddfsacks"
+		type = infantry
+		home = 945
+	}
+	regiment = {
+		name= "2.2. Don Cosddffsacks"
+		type = infantry
+		home = 956
+	}
+	regiment = {
+		name= "2.2. Don Cossdgwweacks"
+		type = infantry
+		home = 957
+	}
+	regiment = {
+		name= "2.2. Don Cosrwerwesacks"
+		type = infantry
+		home = 958
+	}
+	regiment = {
+		name= "2.2. Don Cossrewacks"
+		type = artillery
+		home = 946
+	}
+	regiment = {
+		name= "2.2. Don Cossaerwercks"
+		type = artillery
+		home = 948
+	}
+	regiment = {
+		name= "2.2. Don Cossarwefwecks"
+		type = artillery
+		home = 949
+	}
+	regiment = {
+		name= "2.2. Don Cossdfsfacks"
+		type = artillery
+		home = 954
+	}
+	regiment = {
+		name= "2.2. Don Corfwhdtrhsacks"
+		type = artillery
+		home = 955
+	}
+	
+
+}
+army = {
+	name = "soger4"
+	location = 994
+	regiment = {
+		name= "1.2. Don sfsf"
+		type = infantry
+		home = 360
+	}
+	regiment = {
+		name= "2.2. Don Cossddacks"
+		type = infantry
+		home = 360
+	}
+	regiment = {
+		name= "2.2. Don Cosdsacks"
+		type = infantry
+		home = 966
+	}
+	regiment = {
+		name= "2.2. Don Cossdeacks"
+		type = infantry
+		home = 966
+	}
+	regiment = {
+		name= "2.2. Don Cosrwwesacks"
+		type = infantry
+		home = 966
+	}
+	regiment = {
+		name= "2.2. Don Cossacks"
+		type = artillery
+		home = 961
+	}
+	regiment = {
+		name= "2.2. Don Coerwercks"
+		type = artillery
+		home = 961
+	}
+	regiment = {
+		name= "2.2. Don Cosefwecks"
+		type = artillery
+		home = 961
+	}
+	regiment = {
+		name= "2.2. Don Cosfacks"
+		type = artillery
+		home = 961
+	}
+	regiment = {
+		name= "2.2. Don Coessrthrtacks"
+		type = artillery
+		home = 968
+	}
+	
+
+}
+
+navy = {
+	name = "Imperial Black Sea Fleet"
+	location = 967
+	
+	ship = {
+		name= "Gleb"
+		type = manowar
+	}
+
+	ship = {
+		name= "Severnaya Zvezda"
+		type = manowar
+	}
+
+	ship = {
+		name= "Borei"
+		type = manowar
+	}
+
+	ship = {
+		name= "Orel"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ianuarii"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ioann"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ne Tron Menya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Panteleimon"
+		type = manowar
+	}
+
+	ship = {
+		name= "Michael"
+		type = manowar
+	}
+
+	ship = {
+		name= "Feodor Stralitat"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "Tickvinskaya Bogoroditsa"
+		type = frigate
+	}
+
+	ship = {
+		name= "Tosmanska"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nazareth"
+		type = frigate
+	}
+
+	ship = {
+		name= "Kronstadt"
+		type = frigate
+	}
+
+	ship = {
+		name= "Getoi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Venus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bystryï"
+		type = frigate
+	}
+
+	ship = {
+		name= "Argus"
+		type = frigate
+	}
+
+	ship = {
+		name= "Feodosii Totemskii"
+		type = frigate
+	}
+
+	ship = {
+		name= "Chtchastlivyï"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Legkii4"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Legkii5"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Legkii6"
+		type = frigate
+	}
+	
+}
+
+navy = {
+	name = "Imperial Northern Fleet"
+	location = 994
+
+	ship = {
+		name= "Yaroslav"
+		type = manowar
+	}
+
+	ship = {
+		name= "Izyaslav"
+		type = manowar
+	}
+
+	ship = {
+		name= "Pravyi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Isidor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Anapa"
+		type = manowar
+	}
+
+	ship = {
+		name= "Maria"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dimitri Donskoi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Paraskevia"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sv Ytoslav"
+		type = manowar
+	}
+
+	ship = {
+		name= "Spyesttunyi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Narva"
+		type = frigate
+	}
+
+	ship = {
+		name= "Premyslav"
+		type = frigate
+	}
+
+	ship = {
+		name= "Riga"
+		type = frigate
+	}
+
+	ship = {
+		name= "Viatcheslav"
+		type = frigate
+	}
+
+	ship = {
+		name= "Emmanuel"
+		type = frigate
+	}
+
+	ship = {
+		name= "Borislav"
+		type = frigate
+	}
+
+	ship = {
+		name= "Legkii"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Legkii1"
+		type = frigate
+	}
+	ship = {
+		name= "Legkii2"
+		type = frigate
+	}
+	ship = {
+		name= "Legkii3"
+		type = frigate
+	}
+
+}
+

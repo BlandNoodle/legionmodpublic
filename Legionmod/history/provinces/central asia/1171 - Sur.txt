@@ -1,0 +1,5 @@
+owner = OMA
+controller = OMA
+add_core = OMA
+trade_goods = coffee
+life_rating = 35

@@ -1,0 +1,2 @@
+trade_goods = oil
+life_rating = 10

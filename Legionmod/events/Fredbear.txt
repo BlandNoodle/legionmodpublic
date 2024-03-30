@@ -1,0 +1,536 @@
+country_event = {
+	id = 19000087
+	title = "EVTNAME19000087"
+	desc = "EVTDESC19000087"
+	picture = "fredbear"
+	
+	
+	trigger = {
+		civilized = yes
+		is_independant = yes
+		year = 1887
+		NOT = {
+			has_country_flag = fredbear
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5000
+		
+		modifier = {
+			factor = 0.6
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.55
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 6
+		}
+	}
+		
+		option = {
+			name = "EVTOPTA19000087"
+			add_country_modifier = {
+				name = fredbear
+				duration = 420
+			}
+			set_country_flag = fredbear
+		}
+	
+}
+
+
+country_event = {
+	id = 19000093
+	title = "EVTNAME19000093"
+	desc = "EVTDESC19000093"
+	picture = "cats"
+	
+	
+	trigger = {
+		civilized = yes
+		is_independant = yes
+		year = 1836
+		ai = no
+		NOT = {
+			has_country_flag = chosen
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		
+	}
+		
+		option = {
+			name = "EVTOPTA19000093"
+			set_country_flag = chosen
+			define_general = {
+				name = Goku
+				personality = defence_3.1
+				background = attack_2.1
+			}
+			define_general = {
+					name = Vegeta
+					personality = defence_2.1
+					background = attack_3.1
+			}
+			prestige = 5
+		}
+		
+		option = {
+			name = "EVTOPTB19000093"
+				define_general = {
+					name = Emperor-Frieza
+					personality = defence_1.1
+					background = attack_5.1
+				}
+				define_general = {
+					name = King-Cool
+					personality = defence_5.1
+					background = attack_1.1
+				}
+			prestige = 6
+			set_country_flag = chosen
+		}
+	}
+	
+	country_event = {
+	id = 19000125
+	title = "EVTNAME19000125"
+	desc = "EVTDESC19000125"
+	major = yes
+	
+	
+	trigger = {
+		OR = {
+			tag = SPA
+			tag = IBE
+		}
+		owns = 1680
+		owns = 1688
+		owns = 1690
+		year = 1914
+		NOT = {has_country_flag = alrif}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+		
+		option = {
+			name = "EVTOPTA19000125"
+			prestige = 5
+			any_pop = {
+				dominant_issue = {
+					value = pacifism
+					factor = 0.05
+				}
+			}
+			release = MOR
+			MOR = {country_event = {id=19000126 days=2}}
+			set_country_flag = alrif
+		}
+		
+		option = {
+			name = "EVTOPTB19000125"
+				define_general = {
+					name = Al_Shuk
+					personality = defence_3.1
+					background = attack_1.1
+				}
+			prestige = -10
+			any_pop = {
+				dominant_issue = {
+					value = pacifism
+					factor = 0.15
+				}
+				
+			}
+			release = MOR
+			set_country_flag = alrif
+		}
+	}
+	
+	country_event = {
+	id = 19000126
+	name = "EVTNAME19000126"
+	desc = "EVTDESC19000126"
+	picture = "gurkha"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000126"
+		define_general = {
+			name = Al_Andalus
+			personality = defence_3.1
+			background = attack_3.1
+		}
+		define_general = {
+			name = The-JAH
+			personality = defence_2.1
+			background = attack_4.1
+		}
+		define_general = {
+			name = Him
+			personality = defence_5.1
+			background = attack_5.1
+		}
+		define_general = {
+			name = Herr-Mayo
+			personality = defence_3.1
+			background = attack_1.1
+		}
+		define_general = {
+			name = Herr-Sadchovy
+			personality = defence_4.1
+			background = attack_2.1
+		}
+		define_general = {
+			name = Abd-el-Krim
+			personality = defence_4.1
+			background = attack_4.1
+		}
+		1680 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 5
+		}
+		1688 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 5
+		}
+		1686 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 5
+		}
+		1685 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 5
+		}
+		2563 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 5
+		}
+		1690 = {
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = infantry
+				value = current
+			}
+			sub_unit = {
+				type = hussar
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			fort = 5
+		}
+		1691 = {
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = artillery
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			sub_unit = {
+				type = guard
+				value = current
+			}
+			fort = 5
+		}
+		money = 1000000
+		add_country_modifier = {
+			name = freedomfighters
+			duration = 3650
+		}
+		FROM = {country_event = {id=19000127 days = 80}}
+	}
+}
+	
+	country_event = {
+	id = 19000127
+	title = "EVTNAME19000127"
+	desc = "EVTDESC19000127"
+	picture = "alrif"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000127"
+		war = {
+				target = MOR
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = status_quo }
+			}
+		}
+	}

@@ -1,0 +1,1859 @@
+#############################
+#        GOLD EVENTS        #
+#############################
+province_event = {
+	
+	id = 1100
+
+	trigger = {
+		year = 1836
+		or = {
+			province_id = 1				# Sitka
+			province_id = 2				# Yakutat
+			province_id = 1384			# Singapore
+			province_id = 1453			# West Guinea
+			province_id = 1422			# Muraleve
+			province_id = 1440			# Sumbawa	
+			province_id = 2153			# Durango
+			province_id = 2157			# Culiacan
+			province_id = 2179			# Acapulco
+			province_id = 2295			# Lima
+			province_id = 2323			# La Serena
+			province_id = 2500			# Kalgoorlie
+			province_id = 2503			# Wiluna
+			province_id = 2205			# Panama City
+			province_id = 2601			# Sandy Desert
+			province_id = 2605			# Gibson's Desert
+			province_id = 2142			# Chihuahua
+			province_id = 2255			# Barranquilla
+			province_id = 1157
+			province_id = 4
+			province_id = 313
+		}
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		add_province_modifier = {
+			name = gold_rush
+			duration = 730
+		}
+	}
+}
+
+province_event = {
+	
+	id = 1101
+
+	trigger = {
+		year = 1848
+		or = {
+			province_id = 88			# Mariposa
+			province_id = 1783			# Africa
+		}
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		# life_rating = 5
+	}
+}
+
+
+province_event = {
+	
+	id = 1102
+
+	trigger = {
+		year = 1850
+		province_id = 1084				# Utchan
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		# life_rating = 5
+	}
+}
+
+province_event = {
+	
+	id = 1103
+
+	trigger = {
+		year = 1861
+		province_id = 93			# Pocatello
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		# life_rating = 5
+	}
+}
+
+#Witwatersrand Gold Rush
+province_event = {
+	id = 1139
+	
+	trigger = {
+		year = 1886
+		province_id = 2106
+		NOT = {
+			trade_goods = precious_metal
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	title = "EVTNAME1139"
+	desc = "EVTDESC1139"
+	
+	option = {
+		name = "EVTOPTA1139"
+		trade_goods = precious_metal
+		add_province_modifier = {
+			name = gold_rush
+			duration = 5475
+		}
+		change_province_name = "Johannesburg"
+		owner = {
+			add_country_modifier = {
+				name = witwatersrand_gold_rush
+				duration = 1460
+			}
+		}
+	}
+}
+
+# Gold in The Black Hills
+country_event = {
+	id = 1140
+	title = "EVTNAME1140"
+	desc = "EVTDESC1140"
+	news = yes
+    news_desc_long = "EVTDESC1140_NEWS_LONG"
+	news_desc_medium = "EVTDESC1140_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1140_NEWS_SHORT"
+	picture = "goldrush"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1874
+		has_country_flag = custers_expedition_sent
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option  ={
+		name = "EVTOPTA1140"
+		122 = {
+			trade_goods = precious_metal
+			add_province_modifier = {
+				name = gold_rush
+				duration = 3650
+			}
+		}
+	}
+}
+
+province_event = {
+	
+	id = 1104
+
+	trigger = {
+		year = 1896
+		or = {
+			province_id = 6			# Whitehorse
+			province_id = 7			# Dawson
+			province_id = 2630		# Cordova
+		}
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		# life_rating = 5
+	}
+}
+
+################################
+#        DIAMOND EVENTS        #
+################################
+province_event = {
+	
+	id = 1105
+
+	trigger = {
+		year = 1836
+		or = {
+			province_id = 2084			# Angra Pequeña
+			province_id = 2091			# Mossel Bay
+			province_id = 2092			# Beaufort
+			province_id = 1697			# Figuig
+			province_id = 2108			# Mosega
+			province_id = 2107			# Klerksdorp
+			province_id = 2068			# Salisbury
+		}
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1105"
+	desc = "EVTDESC1105"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1105"
+		trade_goods = precious_metal
+		# life_rating = 5
+	}
+}
+
+province_event = {
+	
+	id = 1106
+
+	trigger = {
+		year = 1867
+		or = {
+			province_id = 2097			# Graaf Reinet
+			province_id = 1849			# Massawa
+			province_id = 1323
+		}
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1105"
+	desc = "EVTDESC1105"
+
+	option = {
+		name = "EVTOPTA1105"
+		trade_goods = precious_metal
+		# life_rating = 5
+	}
+}
+
+###############################
+#        RUBBER EVENTS        #
+###############################
+province_event = {
+	
+	id = 1107
+
+	trigger = {
+		year = 1880
+		or = {
+			province_id = 1354
+			province_id = 1364
+			province_id = 1367
+			province_id = 1382
+			province_id = 1390
+			province_id = 1385
+			province_id = 1386
+			province_id = 1389
+			province_id = 1402
+			province_id = 1404
+			province_id = 1827
+			province_id = 1829
+			province_id = 1833
+			province_id = 1836
+			province_id = 1837
+			province_id = 1848
+			province_id = 1850
+			province_id = 1890
+			province_id = 1891
+			province_id = 1923
+			province_id = 1321
+			province_id = 1322
+			province_id = 1324
+			province_id = 1398
+			province_id = 1438
+			province_id = 1985
+			province_id = 1406
+			province_id = 1318
+			province_id = 2057
+			province_id = 1426
+			province_id = 2058
+			province_id = 977
+			province_id = 1978
+			province_id = 1980
+			province_id = 1981
+			province_id = 2624
+		}
+		not = { trade_goods = rubber }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+			}
+			year = 1900
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+
+	}
+
+	title = "EVTNAME1107"
+	desc = "EVTDESC1107"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1107"
+		trade_goods = rubber
+		# life_rating = 5
+	}
+}
+
+province_event = {
+	
+	id = 1108
+
+	trigger = {
+		year = 1890
+		or = {
+			province_id = 1926
+			province_id = 1929
+			province_id = 1931
+			province_id = 1932
+			province_id = 1957
+			province_id = 1986
+			province_id = 1988
+			province_id = 1989
+			province_id = 1996
+			province_id = 2192
+			province_id = 2317
+			province_id = 2318
+			province_id = 2319
+			province_id = 2321
+			province_id = 2402
+			province_id = 2404
+			province_id = 2405
+			province_id = 2549
+			province_id = 2550
+			province_id = 2600
+			province_id = 1395
+			province_id = 1394
+			province_id = 1376
+			province_id = 1375
+			province_id = 1377
+			province_id = 790
+			province_id = 1818
+			province_id = 1838
+			province_id = 1842
+			province_id = 1962
+			province_id = 1963
+			province_id = 1985
+			province_id = 1992
+			province_id = 1993
+			province_id = 1994
+			province_id = 1997
+			province_id = 2007
+			province_id = 2011
+			province_id = 2014
+			province_id = 2022
+			province_id = 2023
+			province_id = 2046
+		}
+		not = { trade_goods = rubber }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = edison_light_bulb
+					infiltration = 1
+					aeronautics = 1
+					}
+			}
+			year = 1900
+		}
+	}
+
+	mean_time_to_happen =  {
+		months = 36
+
+	}
+
+	title = "EVTNAME1107"
+	desc = "EVTDESC1107"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1107"
+		trade_goods = rubber
+		# life_rating = 5
+	}
+}
+
+############################
+#        OIL EVENTS        #
+############################
+province_event = {
+
+	id = 1109
+
+	trigger = {
+		year = 1870
+		or = {
+			province_id = 1102		# Baku
+			province_id = 1205		# Kizil Arvat
+			province_id = 1101		
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1110
+
+	trigger = {
+		year = 1871
+		province_id = 1104		# Sheki
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1111
+
+	trigger = {
+		year = 1872
+		province_id = 1186		# Alma Ata
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1112
+
+	trigger = {
+		year = 1873
+		province_id = 1202		# Kokand
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1113
+
+	trigger = {
+		year = 1874
+		province_id = 1107		# Lankaran
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1114
+
+	trigger = {
+		year = 1875
+		province_id = 132		# Houston
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1115
+
+	trigger = {
+		year = 1876
+		province_id = 667		# Tirgoviste
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1116
+
+	trigger = {
+		year = 1877
+		province_id = 672		# Bacau
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1117
+
+	trigger = {
+		year = 1879
+		province_id = 1168		# Dubai
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1118
+
+	trigger = {
+		year = 1881
+		province_id = 110		# Cheyenne
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1119
+
+	trigger = {
+		year = 1882
+		or = {
+			province_id = 89		# Los Angeles
+			province_id = 133		# Austin
+			province_id = 126		# Topeka
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1120
+
+	trigger = {
+		year = 1883
+		or = {
+			province_id = 1399		# Palembang
+			province_id = 1055		# Grozny
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1121
+
+	trigger = {
+		year = 1885
+		or = {
+			province_id = 1393		# Brunei
+			province_id = 1401		# Siak
+			province_id = 1425		# Tarakan
+			province_id = 1432		# Mamuju
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+
+province_event = {
+
+	id = 1122
+
+	trigger = {
+		year = 1886
+		or = {
+			province_id = 1335		# Kyaukse
+			province_id = 134		# Dallas
+			
+			province_id = 309
+			province_id = 307
+			province_id = 982
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1123
+
+	trigger = {
+		year = 1889
+		province_id = 1260		# Dibrugarh
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1124
+
+	trigger = {
+		year = 1892
+		province_id = 1086		# Pogobi
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1125
+
+	trigger = {
+		year = 1893
+		or = {
+			province_id = 129		# Oklahoma City
+			province_id = 1680		# Fez
+			province_id = 1735		# Ghazi
+			province_id = 1731		# Tripoli
+			province_id = 1694
+			province_id = 1695
+			province_id = 1720
+			province_id = 1729
+			province_id = 3
+			province_id = 5
+			province_id = 2599
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1126
+
+	trigger = {
+		year = 1894
+		province_id = 2173		# Queretaro
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1127
+
+	trigger = {
+		year = 1896
+		or = {
+			province_id = 87		# Monterey
+			province_id = 2162		# Veracruz
+			province_id = 2163		# Tampico
+			province_id = 702		# Lvov
+			province_id = 1893		# gold coast
+			province_id = 1892
+			province_id = 1908
+			province_id = 1914
+			province_id = 1919
+			province_id = 1923
+			province_id = 705		# Przemysl
+			province_id = 1780
+			province_id = 1781
+			province_id = 1782
+			province_id = 1805
+			province_id = 1806
+			province_id = 1807
+			province_id = 1808
+			province_id = 1809
+			province_id = 1816
+			province_id = 1817
+			province_id = 1824
+			province_id = 1839
+			province_id = 1840
+			province_id = 1847
+			province_id = 1869
+			province_id = 1870
+			province_id = 1875
+			province_id = 1987
+			province_id = 2019
+			province_id = 2020
+			province_id = 2024
+			province_id = 2034
+			province_id = 2084
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1128
+
+	trigger = {
+		year = 1897
+		province_id = 1397		# Sandakan
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1129
+
+	trigger = {
+		year = 1902
+		province_id = 2237		# Trinidad
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1130
+
+	trigger = {
+		year = 1907
+		OR = {
+			province_id = 2396		# Rawson
+			province_id = 23
+			province_id = 31
+			province_id = 43
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1131
+
+	trigger = {
+		year = 1908
+		province_id = 1131		# Ahvaz
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1132
+
+	trigger = {
+		year = 1910
+		or = {
+			province_id = 1732		# Ghayran
+			province_id = 1720		# Timimoun
+			province_id = 1167		# Abu Dhabi
+			province_id = 1163		# Qatif
+			province_id = 2270		# Maracaibo
+			province_id = 1170		# Nizwa 
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1133
+
+	trigger = {
+		year = 1912
+		OR = {
+			province_id = 1132		# Abadan
+			province_id = 1136
+			province_id = 1146
+			province_id = 1145
+			province_id = 2562		# taiwan
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1134
+
+	trigger = {
+		year = 1913
+		province_id = 26		# Calgary
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1135
+
+	trigger = {
+		year = 1915
+		province_id = 2291		# Piura
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1136
+
+	trigger = {
+		year = 1917
+		province_id = 849		# Tirana
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1137
+
+	trigger = {
+		year = 1923
+		province_id = 928		# Mendeli
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1138
+
+	trigger = {
+		year = 1927
+		province_id = 932		# Not jkuwait
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
+		# life_rate = 5
+	}
+}

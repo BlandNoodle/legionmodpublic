@@ -1,0 +1,85 @@
+
+
+#========================= H E A D E R =========================
+
+capital = 1236
+primary_culture = asian_minor
+religion = hindu
+government = absolute_monarchy
+plurality = 25
+nationalvalue = nv_order
+literacy = 0.05
+civilized = yes 
+prestige = 0
+schools = army_tech_school
+
+
+
+#========================= H O U S E - O F - L O R D S =========================
+
+ruling_party = SEP_conservative_92
+upper_house = {
+fascist = 0
+reactionary = 40
+conservative = 60
+socialist = 0
+communist = 0
+liberal = 0
+anarcho_liberal = 0
+}
+slavery = yes_slavery
+vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+political_parties = underground_parties
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+unemployment_subsidies = no_subsidies
+pensions = no_pensions
+health_care = no_health_care
+school_reforms = no_schools
+
+
+#========================= T E C H N O L O G I E S =========================
+
+post_napoleonic_thought = 1
+strategic_mobility = 1
+flintlock_rifles = 1
+muzzle_loaded_rifles = 1
+bronze_muzzle_loaded_artillery = 1
+iron_muzzle_loaded_artillery = 1
+military_staff_system = 1
+military_plans = 1
+army_command_principle = 1
+army_professionalism = 1
+private_banks = 1
+stock_exchange = 1
+no_standard = 1
+ad_hoc_money_bill_printing = 1
+private_bank_money_bill_printing = 1
+early_classical_theory_and_critique = 1
+late_classical_theory = 1
+collectivist_theory = 1
+freedom_of_trade = 1
+business_regulations = 1
+guild_based_production = 1
+organized_factories = 1
+introspectionism = 1
+associationism = 1
+experimental_railroad = 1
+early_railroad = 1
+basic_chemistry = 1
+medicine = 1
+inorganic_chemistry = 1
+
+
+#========================= I N V E N T I O N S =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

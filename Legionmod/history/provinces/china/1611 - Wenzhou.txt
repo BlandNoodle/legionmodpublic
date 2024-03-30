@@ -1,0 +1,7 @@
+owner = NGB
+controller = NGB
+add_core = NGB
+trade_goods = fish
+life_rating = 32
+
+add_core = CHI

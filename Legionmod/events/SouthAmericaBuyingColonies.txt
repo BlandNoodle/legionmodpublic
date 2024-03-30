@@ -1,0 +1,283 @@
+#Buying Events
+#780100 British Guyana
+country_event = {
+	id = 780100
+	title = "EVTTITLE780100"
+	desc = "EVTDESC780100"
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+	
+	option = {
+		name = "780100.A"
+		2243 = { secede_province = PBV }
+		2242 = { secede_province = PBV }
+		2239 = { secede_province = PBV }
+		1979 = { secede_province = PBV }
+		money = 250000
+		ai_chance = {
+			factor = 1
+		}
+		2408 = {
+			owner = {
+				country_event = {
+					id = 780110
+					days = 0
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "780100.B"
+		relations = { who = PBV value = -200 }
+		ai_chance = {
+			factor = 0
+		}
+		2408 = {
+			owner = {
+				country_event = {
+					id = 780111
+					days = 0
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 780110
+	title = "EVTTITLE780110"
+	desc = "EVTDESC780110"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EZ CLAY!!!!"
+		money = -250000
+		prestige = 5
+	}
+}
+country_event = {
+	id = 780111
+	title = "EVTTITLE780111"
+	desc = "EVTDESC780111"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "780111.A"
+		prestige = -10
+	}
+}
+#780200 Dutch Guyana Buying
+country_event = {
+	id = 780200
+	title = "EVTTITLE780200"
+	desc = "EVTDESC780200"
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+	
+	option = {
+		name = "780100.A"
+		2240 = {secede_province = PBV }
+		2245 = {secede_province = PBV }
+		money = 150000
+		ai_chance = {
+			factor = 1
+		}
+		2408 = {
+				owner = {
+					country_event = {
+						id = 780220
+						days = 0
+					}
+				}
+		}
+	}
+	
+	option = {
+		name = "780100.B"
+		relations = { who = PBV value = -200 }
+		ai_chance = {
+			factor = 0
+		}
+		2408 = {
+			owner = {
+				country_event = {
+					id = 780222
+					days = 0
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 780220
+	title = "EVTTITLE780110"
+	desc = "EVTDESC780110"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EZ CLAY!!!!"
+		money = -150000
+		prestige = 5
+	}
+}
+country_event = {
+	id = 780222
+	title = "EVTTITLE780111"
+	desc = "EVTDESC780111"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "780111.A"
+		prestige = -10
+	}
+}
+#780300 French Guyana Buying
+country_event = {
+	id = 780300
+	title = "EVTTITLE780300"
+	desc = "EVTDESC780300"
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+	
+	option = {
+		name = "780100.A"
+		2241 = {secede_province = PBV }
+		2246 = {secede_province = PBV }
+		money = 200000
+		ai_chance = {
+			factor = 1
+		}
+		2408 = {
+			owner = {
+				country_event = {
+					id = 780330
+					days = 0
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "780100.B"
+		relations = { who = PBV value = -200 }
+		ai_chance = {
+			factor = 0
+		}
+		2408 = {
+			owner = {
+				country_event = {
+					id = 780333
+					days = 0
+				}
+			}
+		}
+		
+	}
+}
+country_event = {
+	id = 780330
+	title = "EVTTITLE780110"
+	desc = "EVTDESC780110"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EZ CLAY!!!!"
+		money = -200000
+		prestige = 5
+	}
+}
+country_event = {
+	id = 780333
+	title = "EVTTITLE780111"
+	desc = "EVTDESC780111"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "780111.A"
+		prestige = -10
+	}
+}
+#780400 Falklands
+country_event = {
+	id = 780400
+	title = "EVTTITLE780400"
+	desc = "EVTDESC780400"
+	
+	is_triggered_only = yes
+	fire_only_once = yes	
+	
+	option = {
+		name = "780100.A"
+		2131 = {secede_province = PBV }
+		money = 300000
+		ai_chance = {
+			factor = .25
+		}
+		2348 = {
+			owner = {
+				country_event = {
+					id = 780440
+					days = 0
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "780100.B"
+		relations = { who = PBV value = -200 }
+		ai_chance = {
+			factor = .75
+		}
+		2348 = {
+			owner = {
+				country_event = {
+					id = 780444
+					days = 0
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = 780440
+	title = "EVTTITLE780110"
+	desc = "EVTDESC780110"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EZ CLAY!!!!"
+		money = -300000
+		prestige = 5
+	}
+}
+country_event = {
+	id = 780444
+	title = "EVTTITLE780111"
+	desc = "EVTDESC780111"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "780111.A"
+		prestige = -10
+	}
+}

@@ -1,0 +1,49 @@
+political_decisions = {
+	chinese_reform = {
+		potential = {
+			tag = CHI
+			has_global_flag = the_century
+			NOT = {has_country_flag = sunyatsen}
+			year = 1850
+		}
+		allow = {
+			government = absolute_monarchy
+			OR = {
+				all_core = {
+					owned_by = THIS
+				}
+				year = 1900
+			}
+			civilized = no
+		}
+		effect = {
+			money = 2000000
+			civilized = yes
+			add_accepted_culture = asian_minor
+			government = democracy
+			political_reform = wealth_voting
+			political_reform = state_equal_weight
+			political_reform = secret_ballots
+			political_reform = free_press
+			set_country_flag = sunyatsen
+			add_country_modifier = {
+				name = yatsen
+				duration = 3650
+			}
+			release = MCK
+			inherit = SHA
+			inherit = QNG
+			inherit = MAC
+			inherit = NGB
+			inherit = HKG
+			inherit = FZH
+			inherit = NAN
+			remove_country_modifier = century_humiliate
+			ENG = {
+				remove_country_modifier = free_china_trade
+				remove_country_modifier = large_opium
+				badboy = 4
+			}
+		}
+	}
+}

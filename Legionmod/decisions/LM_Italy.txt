@@ -1,0 +1,125 @@
+political_decisions = {
+	lm_accept_croats_slovenes_ita = {
+		picture = croatia
+		
+		potential = {
+			tag = ITA
+			NOT = { has_country_flag = croatsslovenesaccepted }
+		}
+		
+		allow = {
+			war = no
+			owns = 781
+			owns = 736
+			owns = 729
+			state_n_government = 1
+		}
+		
+		effect = {
+			set_country_flag = croatsslovenesaccepted
+			prestige = 5
+			add_accepted_culture = croat
+			add_accepted_culture = slovene
+			add_core = 774
+			add_core = 773
+			add_core = 768
+		}
+	}
+	
+	lm_accept_albanians_ita = {
+		picture = albania
+		
+		potential = {
+			tag = ITA
+			NOT = { has_country_flag = albanianaccepted }
+		}
+		
+		allow = {
+			war = no
+			owns = 851
+			nationalism_n_imperialism = 1
+			prestige = 50
+		}
+		
+		effect = {
+			set_country_flag = albanianaccepted
+			ALB = { all_core = { add_core = THIS } }
+			prestige = -20
+			add_accepted_culture = albanian
+		}
+	}
+	
+	lm_accept_catalonian_ita = {
+		picture = catalonia
+		
+		potential = {
+			tag = ITA
+			NOT = { has_country_flag = catalanaccepted }
+		}
+		
+		allow = {
+			war = no
+			owns = 498
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = catalanaccepted
+			CAT = { all_core = { add_core = THIS } }
+			prestige = 5
+			add_accepted_culture = catalan
+		}
+	}
+	
+	lm_relize_roman_ambitions = {
+		
+		
+		potential = {
+			tag = ITA
+			NOT = { has_country_flag = romanambitions }
+		}
+		
+		allow = {
+			war = no
+			owns = 736
+			empiricism = 1
+			is_greater_power = yes
+		}
+		
+		effect = {
+			set_country_flag = romanambitions
+			prestige = 5
+			badboy = 17
+			464 = { add_core = THIS }
+			FRA_451 = { add_core = THIS }
+			FRA_461 = { add_core = THIS }
+		}
+	}
+	
+	lm_ita_accept_occitan = {
+		potential = {
+			OR = {
+				tag = ITA
+				tag = SPA
+				tag = IBE
+			}
+			NOT = { has_country_flag = occitanaccepted }
+			is_greater_power = yes
+		}
+		
+		allow = {
+			war = no
+			owns = 461
+			owns = 467
+			revolution_n_counterrevolution = 1
+			prestige = 50
+		}
+		
+		effect = {
+			add_accepted_culture = occitan
+			badboy = 5
+			set_country_flag = occitanaccepted
+		}
+	}
+}
+

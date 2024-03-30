@@ -1,0 +1,364 @@
+political_decisions = {
+
+campsystem = {
+		picture = "startgulags"
+		potential = {
+			tag = RUS
+			year = 1903
+			ruling_party_ideology = communist
+			NOT = {has_country_flag = gulagcamp}
+		}
+		allow = {
+			money = 2000000
+			owns = 983
+			owns = 1064
+		}
+		effect = {
+			money = -2000000
+			1062 = {
+				add_province_modifier = {
+					name = gulag
+					duration = -1
+				}
+			}
+			1064 = {
+				add_province_modifier = {
+					name = gulag
+					duration = -1
+				}
+			}
+			2655 = {
+				add_province_modifier = {
+					name = gulag
+					duration = -1
+				}
+			}
+			983 = {
+				add_province_modifier = {
+					name = gulag
+					duration = -1
+				}
+			}
+			set_country_flag = gulagcamp
+		}
+	}
+
+	octoberrev = {
+		potential = {
+			year = 1903
+			tag = RUS
+			is_ideology_enabled = communist
+			NOT = {has_country_flag = redoctober}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			prestige = -30
+			ruling_party_ideology = communist
+			government = proletarian_dictatorship
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = state_press
+			political_reform = underground_parties
+			political_reform = all_trade_unions
+			any_pop = {
+				militancy = 3
+				consciousness = 1
+				ideology = {
+					value = communist
+					factor = 0.2
+				}
+			}
+			remove_country_modifier = alexander_ii
+			remove_country_modifier = unshakable_autocracy
+			set_country_flag = redoctober
+		}
+	}
+	
+	firstpolitiburo = {
+		potential = {
+			tag = RUS
+			government = proletarian_dictatorship
+			NOT = {has_country_flag = poliburo}
+			has_country_flag = big_brother_is_watching
+			year = 1918
+		}
+		allow = {
+			ruling_party_ideology = communist
+		}
+		effect = {
+			prestige = 5
+			add_country_modifier = {
+				name = politiburo
+				duration = -1
+			}
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+				ideology = {
+					value = communist
+					factor = 0.15
+				}
+			}
+			set_country_flag = poliburo
+		}
+	}
+	
+	sovietpoland = {
+		picture = "soviets"
+		potential = {
+			tag = RUS
+			government = proletarian_dictatorship
+			NOT = {has_country_flag = sovpoland}
+			exists= POL
+			has_country_flag = gulagcamp
+		}
+		allow = {
+			ruling_party_ideology = communist
+			NOT = {exists = POL}
+			owns = 706
+			owns = 713
+		}
+		effect = {
+			prestige = 15
+			any_pop = {
+				limit = {
+					location = {
+						is_core = POL
+					}
+				}
+				militancy = -1
+				consciousness = -1
+				ideology = {
+					value = communist
+					factor = 0.4
+				}
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = polish
+					OR = {
+						pop_majority_ideology = reactionary
+						pop_majority_ideology = conservative
+					}
+				}
+				move_pop = { 983 }
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = polish
+					pop_majority_ideology = liberal
+				}
+				reduce_pop = 0.33
+			}
+			any_owned = {
+				limit = {
+					is_core = POL
+				}
+				add_core = THIS
+				add_province_modifier = {
+					name = sovietization
+					duration = 3650
+				}
+			}
+			set_country_flag = sovpoland
+		}
+	}
+	
+	sovietbaltic = {
+		picture = "soviets"
+		potential = {
+			tag = RUS
+			government = proletarian_dictatorship
+			NOT = {has_country_flag = sovbaltic}
+			OR = {	
+					exists = LIT
+					exists = LAT
+					exists = EST
+				}
+			has_country_flag = gulagcamp
+		}
+		allow = {
+			ruling_party_ideology = communist
+			NOT = {exists = LIT}
+			NOT = {exists = EST}
+			NOT = {exists = LAT}
+			owns = 354
+			owns = 351
+			owns = 364
+		}
+		effect = {
+			prestige = 15
+			any_pop = {
+				limit = {
+					location = {
+						OR = {
+							is_core = UBD
+							is_core = LIT
+						}
+					}
+				}
+				militancy = -1
+				consciousness = -1
+				ideology = {
+					value = communist
+					factor = 0.4
+				}
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = lithuanian
+						has_pop_culture = estonian
+						has_pop_culture = latvian
+					}
+					OR = {
+						pop_majority_ideology = reactionary
+						pop_majority_ideology = conservative
+					}
+				}
+				move_pop = { 1062 }
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = lithuanian
+						has_pop_culture = estonian
+						has_pop_culture = latvian
+					}
+					pop_majority_ideology = liberal
+				}
+				reduce_pop = 0.33
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = UBD
+						is_core = LIT
+					}
+				}
+				add_core = THIS
+				add_province_modifier = {
+					name = sovietization
+					duration = 3650
+				}
+			}
+			set_country_flag = sovbaltic
+		}
+	}
+	
+	sovietfinland = {
+		picture = "soviets"
+		potential = {
+			tag = RUS
+			government = proletarian_dictatorship
+			NOT = {has_country_flag = sovfinland}
+			has_country_flag = finnishfight
+			has_country_flag = gulagcamp
+		}
+		allow = {
+			ruling_party_ideology = communist
+			NOT = {exists = FIN}
+			owns = 339
+			owns = 343
+		}
+		effect = {
+			prestige = 15
+			any_pop = {
+				limit = {
+					location = {
+						is_core = FIN
+					}
+				}
+				militancy = -1
+				consciousness = -1
+				ideology = {
+					value = communist
+					factor = 0.4
+				}
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = finnish
+					OR = {
+						pop_majority_ideology = reactionary
+						pop_majority_ideology = conservative
+					}
+				}
+				move_pop = { 1064 }
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = finnish
+					pop_majority_ideology = liberal
+				}
+				reduce_pop = 0.33
+			}
+			any_owned = {
+				limit = {
+					is_core = FIN
+				}
+				add_core = THIS
+				add_province_modifier = {
+					name = sovietization
+					duration = 3650
+				}
+			}
+			set_country_flag = sovfinland
+		}
+	}
+	
+	ukrainepacify = {
+		picture = "soviets"
+		potential = {
+			tag = RUS
+			government = proletarian_dictatorship
+			NOT = {has_country_flag = sovukraine}
+			has_country_flag = ukrainerising
+			has_country_flag = gulagcamp
+		}
+		allow = {
+			ruling_party_ideology = communist
+			NOT = {exists = UKR}
+			owns = 958
+			owns = 980
+			owns = 970
+		}
+		effect = {
+			prestige = 15
+			any_pop = {
+				limit = {
+					location = {
+						is_core = UKR
+					}
+				}
+				militancy = -5
+				consciousness = -2
+				ideology = {
+					value = communist
+					factor = 0.4
+				}
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+					OR = {
+						pop_majority_ideology = reactionary
+						pop_majority_ideology = conservative
+					}
+				}
+				move_pop = { 2655 }
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+					pop_majority_ideology = liberal
+				}
+				reduce_pop = 0.5
+			}
+			set_country_flag = sovukraine
+		}
+	}
+
+}

@@ -1,0 +1,75 @@
+political_decisions = {
+	offer_grants = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = offer_grants	}		
+		}
+		
+		allow = {
+			NOT = {in_default = yes}
+		}
+		
+		effect = {
+			set_country_flag = offer_grants
+		}
+	}
+
+	discontinue_offer_grants = {
+		potential = {
+			has_country_flag = offer_grants			
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			clr_country_flag = offer_grants
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+	request_grants = {
+		potential = {
+			ai = no
+		}
+	
+		allow = {
+		}
+
+		effect = {
+			any_country = {
+				limit = {
+					has_country_flag = offer_grants
+				}
+				country_event = { id=9990003 days=0 }
+			}
+		}
+	}
+	
+	
+	get_stockpile = {
+		potential = {
+			ai = no
+			NOT = { year = 1837 }
+			NOT = { has_country_flag = got_stockpile }
+		}
+		
+		allow = {}
+		
+		effect = {
+			set_country_flag = got_stockpile
+			money = 50000
+			clipper_convoy = 25
+			small_arms = 30
+			canned_food = 40
+			artillery = 30
+			ammunition = 35
+			luxury_clothes = 10
+		}
+	}
+}

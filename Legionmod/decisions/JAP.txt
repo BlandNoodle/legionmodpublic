@@ -1,0 +1,92 @@
+political_decisions = {
+	korean_admin = {
+		potential = {
+			tag = JAP
+			civilized = yes
+			owns = 1619
+			owns = 1624
+			NOT = {has_country_flag = koreans}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			KOR = {all_core = {owned_by = THIS} }
+		}
+		effect = {
+			prestige = 5
+			KOR = {all_core = { add_core = THIS} }
+			add_accepted_culture = korean
+			set_country_flag = koreans
+		}
+	}
+	
+	form_kwantung = {
+		potential = {
+			tag = JAP
+			nationalism_n_imperialism = 1
+		}
+		allow = {
+			owns = 1481
+			owns = 1555
+			money = 2000000
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			CHI_1553 = {
+				add_province_modifier = {
+					name = kwantung_occupation
+					duration = -1
+				}
+			}
+			1481 = {
+				add_province_modifier = {
+					name = kwantunghq
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = kwantungarmy
+				duration = -1
+			}
+			set_country_flag = kwantung_formed
+			prestige = 5
+			money = -2000000
+			any_pop = {
+				ideology = {
+					value = fascist
+					factor = 0.05
+				}
+			}
+		}
+	}
+			
+	appoint_tojo = {
+		potential = {
+			tag = JAP
+			revolution_n_counterrevolution = 1
+			has_country_flag = kwantung_formed
+			NOT = {has_country_flag = tojo_has_arrived}
+		}
+		allow = {
+			ruling_party_ideology = fascist
+			invention = the_doctrine_of_fascism
+		}
+		effect = {
+			government = fascist_dictatorship
+			political_reform = underground_parties
+			political_reform = none_voting
+			political_reform = party_appointed
+			social_reform = good_schools
+			add_country_modifier = {
+				name = hideki_tojo
+				duration = -1
+			}
+			set_country_flag = tojo_has_arrived
+			any_pop = {
+				ideology = {
+					value = fascist
+					factor = 0.15
+				}
+			}
+		}
+	}
+}

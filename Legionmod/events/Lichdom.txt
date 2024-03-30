@@ -1,0 +1,38 @@
+#780010 Evo Morales gets ascended to lichdom
+country_event = {
+	id = 780010	
+	title = "Evo Morales Becomes the Lich King"
+	desc = EVTDESC780010
+	picture = "evo_morales_lich"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PBV
+		NOT = {
+			has_country_flag = evo_morales_lichdom
+		}
+		all_core = {
+			owned_by = THIS
+		}
+		CHL = {
+			all_core = {
+				owned_by = PBV
+			}
+		}
+		ECU = {
+			all_core = {
+				owned_by = PBV
+			}
+		}
+	}		
+	
+	mean_time_to_happen = {
+		months = 12
+	}	
+	
+	option = {
+		name = "HE IS HIM!!!!!"
+		prestige = 10
+		set_country_flag = evo_morales_lichdom
+	}
+}

@@ -1,0 +1,7 @@
+name = "Legionmod"
+path = "mod/Legionmod"
+user_dir = "Legionmod"
+replace_path = "events"
+replace_path = "decisions"
+replace_path = "common"
+replace_path = "history/provinces"

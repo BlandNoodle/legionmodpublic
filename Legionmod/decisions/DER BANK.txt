@@ -1,0 +1,46 @@
+political_decisions = {
+open_the_mines = {
+	potential = {
+		tag = JAN
+		NOT = { has_country_flag = shadowweed }
+	}
+	allow = {
+		year = 1836
+	}
+	effect = {
+		capital_scope = {
+			add_province_modifier = {
+				name = mayan_miner
+				duration = -1
+			}
+		}
+		set_country_flag = shadowweed
+		money = 2000000
+	}
+	ai_will_do = {
+			factor = 1
+		}
+}
+
+pay_government = {
+	potential = {
+		tag = JAN
+	}
+	allow = {
+		money = 1000000
+	}
+	effect = {
+		money = -1000000
+		any_pop = {
+			limit = { 
+				type = zbankers
+			}
+			money = 1000000
+		}
+		
+	}
+		ai_will_do = {
+			factor = 1
+		}
+}
+}

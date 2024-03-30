@@ -1,0 +1,8 @@
+POR = {
+	value = 125		#relation
+}
+BUR = {
+	value = -150		#relation
+}
+
+CHI = { truce_until = 1840.1.1 }

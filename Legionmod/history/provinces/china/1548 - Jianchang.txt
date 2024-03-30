@@ -1,0 +1,7 @@
+owner = FZH
+controller = FZH
+add_core = CHI
+add_core = FZH
+add_core = TPG
+trade_goods = silk
+life_rating = 32

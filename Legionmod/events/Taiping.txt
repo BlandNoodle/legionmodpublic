@@ -1,0 +1,234 @@
+#Taiping Rebellion
+country_event = {
+	id = 160001
+	title = "EVTNAME160001"
+	desc = "EVTDESC160001"
+	picture = rebellion
+	news = yes
+	news_desc_long = "EVTDESC160001_NEWS_LONG"
+	news_desc_medium = "EVTDESC160001_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC160001_NEWS_SHORT"
+
+	major = yes	
+	trigger = {
+		tag = CHI
+		NOT = { has_global_flag = taiping_has_happened }
+		has_global_flag = the_century
+		year = 1855
+		NOT = {year = 1880}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA160001"
+		any_owned = {
+			limit = {
+				is_core = TPG
+				not = { province_id = 1616 }
+			}
+			secede_province = TPG
+		}
+		TPG = {
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
+		}
+		soldiers = {
+			militancy = 8
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_religion = sunni
+					has_pop_culture = nanfaren
+					has_pop_culture = zhuang
+					has_pop_culture = asian_minor
+				}
+			}
+			militancy = 5
+		}
+		activate_technology = bronze_muzzle_loaded_artillery
+		activate_technology = military_staff_system
+		activate_technology = private_banks
+		activate_technology = no_standard
+		activate_technology = freedom_of_trade
+		activate_technology = water_wheel_power
+		activate_technology = basic_chemistry
+		activate_technology = iron_muzzle_loaded_artillery
+		war = {
+			target = TPG
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		TPG = {
+			wool = 100
+			artillery = 25
+			ammunition = 30
+		}
+		set_global_flag = taiping_has_happened
+	}
+	
+	option = {
+		name = "EVTOPTB160001"
+		any_owned = {
+			limit = {
+				is_core = TPG
+				not = { province_id = 1616 }
+			}
+			secede_province = TPG
+		}
+		TPG = {
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
+		}
+		soldiers = {
+			militancy = 8
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_religion = sunni
+					has_pop_culture = nanfaren
+					has_pop_culture = zhuang
+					has_pop_culture = asian_minor
+				}
+			}
+			militancy = 5
+		}		
+		war = {
+			target = TPG
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		TPG = {
+			wool = 100
+			artillery = 25
+			ammunition = 30
+		}
+		set_global_flag = taiping_has_happened
+		change_tag_no_core_switch = TPG
+	}
+}
+
+#Anti-Manchu feeling
+province_event = {
+	id = 160502
+	title = "EVTNAME160502"
+	desc = "EVTDESC160502"
+	picture = rebellion
+	
+	trigger = {
+		owner = { tag = CHI }
+		not = { average_consciousness = 3 }
+		NOT = { has_global_flag = taiping_has_happened }
+		year = 1840
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+		
+		modifier = {
+			factor = 0.7
+			has_province_modifier = local_opium_habit
+		}
+		modifier = {
+			factor = 0.7
+			has_province_modifier = western_presence		
+		}
+		modifier = {
+			factor = 0.7
+			has_province_modifier = foreign_smugglers
+		}
+		modifier = {
+			factor = 0.7
+			has_province_modifier = foreign_trading_post
+		}
+		modifier = {
+			factor = 0.7
+			has_province_modifier = european_military_mission
+		}
+		modifier = {
+			factor = 0.7
+			has_province_modifier = legation_quarter
+		}
+		modifier = {
+			factor = 0.7
+			has_province_modifier = kettler_denkmal
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA160502"
+		any_pop = {
+			limit = { is_primary_culture = no }
+			militancy = 5
+			consciousness = 3
+			reduce_pop = 0.98
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB160502"
+		any_pop = {
+			limit = { is_primary_culture = no }
+			consciousness = 5
+			militancy = 3
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = {
+	id = 19000116
+	title = "EVTNAME19000105"
+	desc = "EVTDESC19000105"
+	
+	trigger = {
+		tag = CHI
+		war_with = TPG
+		any_owned_province = {
+			AND = {
+				controlled_by = TPG
+				province_control_days = 15
+				NOT = { is_core = TPG }
+				}
+			}
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA19000105"
+		any_owned = {
+			limit = {
+				controlled_by = TPG
+				province_control_days = 15
+			}
+			secede_province = TPG
+			add_core = TPG
+			}
+		}
+	}

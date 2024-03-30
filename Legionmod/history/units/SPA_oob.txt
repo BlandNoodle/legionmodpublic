@@ -1,0 +1,396 @@
+#Sphere of Influence
+
+SWI = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+MEX = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+JAN = {
+	value = -200		#relation
+	level = 0		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 0
+}
+
+ECU = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PEU = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BOL = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CHL = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PRG = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+UCA = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CLM = {
+	value = 100		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+URU = {
+	value = 75		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+ARG = {
+	value = 75		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+VNZ = {
+	value = 75		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+POR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+FRA = {
+	value = 55
+}
+
+#leaders
+leader = {
+	name = "J.A.Y. Unit"
+	date = 1834.1.1
+	type = land
+	personality = defence_5.1
+	background = school_of_defense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Chupie05"
+	date = 1834.1.1
+	type = land
+	personality = daring
+	background = attack_5.1
+	prestige = 0.1
+}
+
+leader = {
+	name = "Chupiette"
+	date = 1834.1.1
+	type = land
+	personality = defence_2.1
+	background = attack_2.1
+	prestige = 0.1
+}
+
+#army
+army = {
+	name = "Siesta Army"
+	location = 487
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 474
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 475
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 476
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 481
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 482
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 483
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 487
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 488
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 489
+	}
+}
+
+army = {
+	name = "Ultimate Lifeform Army"
+	location = 498
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 495
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 497
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 498
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 502
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 503
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 509
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 510
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 512
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 514
+	}
+}
+
+army = {
+	name = "Brat Tamers"
+	location = 492
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 515
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 516
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 2209
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1455
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1456
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 1457
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 1463
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 487
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 474
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 489
+	}
+}
+
+#navy
+navy = {
+	name = "Ybarra Armada"
+	location = 512
+
+	ship = {
+		name = "The Santa Maria"
+		type = manowar
+	}
+
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name = "Frigate"
+		type = frigate
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+
+	ship = {
+		name = "Clippers"
+		type = clipper_transport
+	}
+}

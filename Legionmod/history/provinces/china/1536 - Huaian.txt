@@ -1,0 +1,7 @@
+owner = SHA
+controller = SHA
+add_core = SHA
+trade_goods = fish
+life_rating = 32
+
+add_core = CHI

@@ -1,0 +1,144 @@
+POR = {
+	value = 125		#relation
+}
+BUR = {
+	value = -150		#relation
+}
+
+army = {
+	name = "1. Green Banner Army"
+	location = 1472
+	regiment = {
+		name= "1.61 Green Banner"
+		type = hussar
+		home = 1611
+	}
+
+	regiment = {
+		name= "2.67 Green Banner"
+		type = infantry
+		home = 1509
+	}
+
+	regiment = {
+		name= "3.67 Green Banner"
+		type = infantry
+		home = 1512
+	}
+
+	regiment = {
+		name= "1.68 Green Banner"
+		type = infantry
+		home = 1472
+	}
+
+	regiment = {
+		name= "2.68 Green Banner"
+		type = infantry
+		home = 1517
+	}
+
+	regiment = {
+		name= "3.68 Green Banner"
+		type = infantry
+		home = 1517
+	}
+
+	regiment = {
+		name= "3.70 Green Banner"
+		type = infantry
+		home = 1516
+	}
+
+	regiment = {
+		name= "1.71 Green Banner"
+		type = infantry
+		home = 1522
+	}
+
+	regiment = {
+		name= "2.71 Green Banner"
+		type = infantry
+		home = 1518
+	}
+
+	regiment = {
+		name= "3.71 Green Banner"
+		type = infantry
+		home = 1516
+	}
+
+}
+
+army = {
+	name = "2. Green Banner Army"
+	location = 1612
+	regiment = {
+		name= "1.13 Green Banner"
+		type = infantry
+		home = 1613
+	}
+
+	regiment = {
+		name= "2.13 Green Banner"
+		type = infantry
+		home = 1613
+	}
+
+	regiment = {
+		name= "3.13 Green Banner"
+		type = infantry
+		home = 1616
+	}
+
+	regiment = {
+		name= "1.14 Green Banner"
+		type = infantry
+		home = 1612
+	}
+
+	regiment = {
+		name= "2.14 Green Banner"
+		type = hussar
+		home = 1612
+	}
+
+	regiment = {
+		name= "3.14 Green Banner"
+		type = infantry
+		home = 1617
+	}
+
+	regiment = {
+		name= "1.15 Green Banner"
+		type = infantry
+		home = 1615
+	}
+
+	regiment = {
+		name= "2.15 Green Banner"
+		type = infantry
+		home = 1618
+	}
+
+	regiment = {
+		name= "3.15 Green Banner"
+		type = infantry
+		home = 1570
+	}
+
+	regiment = {
+		name= "1.16 Green Banner"
+		type = infantry
+		home = 1570
+	}
+
+}
+
+HKG = { truce_until = 1850.1.1 }
+NAN = { truce_until = 1850.1.1 }
+MAC = { truce_until = 1850.1.1 }
+NGB = { truce_until = 1844.1.1 }
+FZH = { truce_until = 1844.1.1 }
+QNG = { truce_until = 1840.1.1 }
+SHA = { truce_until = 1840.1.1 }

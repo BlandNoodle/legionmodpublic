@@ -1,0 +1,46 @@
+political_decisions = {
+	awakenhim = {
+		potential = {
+			tag = CHI
+			year = 1900
+			NOT = {has_country_flag = lubuawake}
+		}
+		allow = {
+			war = no
+			civilized = yes
+			NOT = {OR = {
+				exists = MCK
+				exists = XIN
+				exists = XBI
+				exists = SXI
+				exists = YNN
+				exists = GXI
+			} }
+			money = 1000000
+		}
+		effect = {
+			money = -1000000
+			add_country_modifier = {
+			name = lubu
+			duration = -1
+			}
+			remove_country_modifier = yatsen
+			set_country_flag = lubuawake
+			define_general = {
+					name = Lu-Bu
+					personality = defence_5.1
+					background = attack_5.1
+				}
+			define_general = {
+					name = Lu-Bu-Clone1
+					personality = defence_4.1
+					background = attack_4.1
+				}
+			define_general = {
+					name = Lu-Bu-Clone2
+					personality = defence_4.1
+					background = attack_4.1
+				}
+		}
+	}
+}

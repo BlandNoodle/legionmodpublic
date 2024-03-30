@@ -1,0 +1,6 @@
+owner = CHI
+controller = CHI
+trade_goods = iron
+life_rating = 32
+
+add_core = CHI

@@ -1,0 +1,137 @@
+EVTNAME443034;Peace-Time Mobilization;;;;;;x
+EVTDESC443034;Stop having fun;;;;;;x
+EVTOPTA443034;Shitty Mod allegations +1;;;;;;;x
+flood_the_lowlands_title;Flood the Lowlands;;;;;;x
+flood_the_lowlands_desc;Invaders are threatening the heartland of our nation, we have one last desperate measure to defend the capital.;;;;;;;x
+devastating_flood;Devastating Flood;;;;;;x
+devastating_flood_desc;Opening the floodgates has destroyed much of our developed land and left thousands homeless;;;;;;x
+dutch_flood_cooldown;Flood Cooldown;;;;;;;x
+dutch_flood_cooldown_desc;Gotta let the water build up again before you can bust;;;;;x
+EVTNAME60168004;Fort Destroyed;;;;;;;x
+EVTDESC60168004;Combat in §Y$PROVINCE$§W has destroyed the fort!;;;;;;x
+EVTOPTA60168004;Who cares;;;;;;x
+EVTNAME60168005;Railway Destroyed;;;;;;x
+EVTDESC60168005;Combat in §Y$PROVINCE$W has destroyed the local rail line!;;;;;;x
+EVTOPTA60168005;No shot;;;;;;x
+peacetime_mobilization;Peacetime Mobilization;;;;;;;x
+peacetime_mobilization_desc;womp womp;;;;;;;x
+campsystem_title;Begin Correctional Program;;;;;;x
+campsystem_desc;The many counterrevolutionaries born from our liberation of Russia need to be contained somewhere far, so that their poisonous ideas do not sap our nations newfound strength.;;;;;;;x
+gulag;Gulag Camp;;;;;;x
+gulag_desc;Correctional facility is located here;;;;;x
+ukrainepacify_title;Pacify Ukraine;;;;;;x
+ukrainepacify_desc;The Ukrainian people are upset at recent economic decisions, we must show them the error of their ways.;;;;;;x
+form_german_federation_title;Form German Nation;;;;;;;x
+form_german_federation_desc;You survived to this point, time to be broken;;;;;;x
+PROV963;Lubensk;;;;;;;;x
+PROV3251;Poltava;;;;;;;;x
+BRG;Burgundy;Bourgogne;Burgund;;;;;;;;;;;;;;x
+BRG_ADJ;Burgundian;Bourguinion;Burgundisch;;;;;;;;;;;;;;x
+BRG_absolute_monarchy;The Kingdom of Burgundy;;;;;;;;;;;;;x
+BRG_prussian_constitutionalism;The Kingdom of Burgundy;;;;;;;;;;;;;x
+BRG_hms_government;The Kingdom of Burgundy;;;;;;;;;;;;;x
+BRG_fascist_dictatorship;L’Empire de Bourgogne;;;;;;;;;;;;;x
+BRG_reactionary_1;Les Gardiens du Rhin;;;;;;;;;;;x
+BRG_conservative_1;Parti Unioniste;;;;;;;;;;;;;x
+BRG_liberal_1;Parti Réformiste;;;;;;;;;;;;x 
+BRG_liberal_2;Faction Parlementaire Libérale;;;;;;;;;;;;x 
+BRG_liberal_3;Parti Libéral Classique;;;;;;;;;;;;x 
+BRG_anarcho_liberal_1;Parti Réformiste Radical;;;;;;;;;;;;;;x 
+BRG_anarcho_liberal_2;Faction Parlementaire Radical;;;;;;;;;;;;;;x
+BRG_reactionary_2;Parti Jeaniste;;;;;;;;;;;;;;x
+BRG_conservative_2;Parti Royaliste;;;;;;;;;;;;;;;x 
+BRG_socialist_1;Socialisten;;;;;;;;;;;;;x 
+BRG_communist_1;Communistische Partij;;;;;;;;;;;x
+BRG_reactionary_3;Parti Bouillonniste;;;;;;;;;;;x
+BRG_conservative_3;Parti de l'Ordre;;;;;;;;;;;;;x
+BRG_anarcho_liberal_3;Indépendants;;;;;;;;;;;;;x
+BRG_socialist_2;Parti fédéral-socialiste;;;;;;;;;x
+BRG_communist_2;Front uni communiste;;;;;;;;;;x 
+BRG_fascist;Parti du pays réel;;;;;;;;;;;;;x
+newparis;Paris Renovated;;;;;;;x
+newparis_desc;This place is finally habitable;;;;;;x
+EVTNAME19000140;The German Question;;;;;;;x
+EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. §GHold onto your German holdings/spheres to be rewarded.§W;;;;;;x
+EVTOPTA19000140;Let the games begin;;;;;;x
+EVTNAME19000141;We Lost;;;;;;;x
+EVTDESC19000141;Our competitor's have managed to outmanuever us in Germany, we no longer have any say in their formation;;;;;;x
+EVTOPTA19000141;Bummer;;;;;;x
+monroena;North America Safe;;;;;;;x
+monroena_desc;North America is safe from outside imperialists. ;;;;;;x
+monroesa;South America Safe;;;;;;;x
+monroesa_desc;South America is safe from outside imperialists;;;;;;x
+max_title;Import Maximilian;;;;;;;x
+max_desc;A member of the House of Habsburg-Lorraine, Maximilian was the younger brother of Emperor Franz Joseph I of Austria. Prior to his becoming Emperor of Mexico, he was commander-in-chief of the small Imperial Austrian Navy and briefly the Austrian viceroy of Lombardy-Venetia, but was removed by the emperor. Two years before his dismissal, he briefly met with French emperor Napoleon III in Paris, where he was approached by conservative Mexican monarchists seeking a European royal to rule Mexico. Initially Maximilian was not interested, but following his dismissal as viceroy, the Mexican monarchists' plan was far more appealing to him.;;;;;;;;x
+EVTNAME19000142;Foreign Policy Pays Dividends;;;;;;;x
+EVTDESC19000142;The southern Germans within our sphere are becoming increasingly cooperative;;;;;;x
+EVTOPTA19000142;Splendid;;;;;;x
+EVTNAME19000143;Foreign Policy Pays Dividends 2;;;;;;;x
+EVTDESC19000143;We have convinced the South Germans that France is a valid protector of the region;;;;;;x
+EVTOPTA19000143;Magnificient;;;;;;x
+legitimacy;Legitimate;;;;;;x
+legitimacy_desc;We have a strong position in the German Confederation;;;;;x
+form_south_german_confederation_real_title;Form Strong South Germany;;;;;;x
+form_south_german_confederation_real_desc;Our position in teh German Confederation allows us to integrate the rest of the south germans without sacrificing our own imperial holdings, and we can avoid direct war with the Prussians;;;;;;x
+EVTNAME19000144;Foreign Policy Pays Dividends;;;;;;;x
+EVTDESC19000144;The southern Germans within our sphere are becoming increasingly cooperative;;;;;;x
+EVTOPTA19000144;Splendid;;;;;;x
+EVTNAME19000145;Foreign Policy Pays Dividends 2;;;;;;;x
+EVTDESC19000145;We have convinced the South Germans that Austria is the one to unify Germany!§RForming South Germany will now be easier and have less downsides§W;;;;;;x
+EVTOPTA19000145;Magnificient;;;;;;x
+monroecanada_title;Free Canada;;;;;;x
+monroecanada_desc;Our brethren in Canada must be freed!;;;;;;x
+monroenorthamerica_title;Monroe Doctrine in North America;;;;;;x
+monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism §BIf we break our agreement there will be consequences§W;;;;;;;x 
+germancoops;German Cooperation;;;;;x
+germancoops_desc;Germans are cooperating with us;;;;;;;x
+newvienna;Vienna Renovated;;;;;;;x
+newvienna_desc;Almost as good as Paris. . .;;;;;;x
+restore_order_hun_title;Restore Order to Hungary;;;;;;;x
+restore_order_hun_desc;Send them a letter with a heart sticker saying sorry, maybe they forgive and forget?;;;;;;;x
+EVTNAME19000146;Hungarian Chimp Event;;;;;;;x
+EVTDESC19000146;We look weak after throwing in Saxony, they think they can run us down, uhm, can they?;;;;;;x
+EVTOPTA19000146;I want the rebels obl-iter-ated!;;;;;;x
+EVTOPTB19000146;Forgive and Forget;;;;;;x
+EVTNAME19000147;Saxony has Fallen;;;;;;;x
+EVTDESC19000147;We gave up Saxony a little easy, our subordinates will think they can get away just as easy, maybe we wait till 1840 next time;;;;;;x
+EVTOPTA19000147;Shitty Mod Dev +1;;;;;;x
+dominatepersia_title;Dominate Persia;;;;;;;x
+dominatepersia_desc;Imma stop yapping, only kramer diplo getting you this far;;;;;;;x
+force_conflict_title;Force a Confrontation;;;;;;;;x
+force_conflict_desc;Our operatives smuggling opium to balance our trade with China have yet to be detected it seems, without a full-scale war we cannot justify any further action against the Qing's policies. Perhaps we can change that. . . ;;;;;;;x
+britishrajinfancy;Academic Recovery;;;;;;x
+britishrajinfancy_desc;We are recovering from a long period of academic decline;;;;;;x
+mexicotreaty_title;Treaty of Guadelupe Hidalgo;;;;;;x
+mexicotreaty_desc;Request the Mexican government to rescind their claims north of the Rio Grand.;;;;;;;x
+earlygamerussia;Early Game Russia;;;;;;;x
+earlygamerussia_desc;Bring in the game impact!;;;;;;;x
+midgamerussia;Mid Game Russia;;;;;;x
+midgamerussia_desc;let it simmer. . . ;;;;;;;x
+lategamerussia;Late Game Russia;;;;;;x
+lategamerussia_desc;I'll be seeing you in 1910!;;;;;;;x
+esotericgnosticism;Esoteric Knowledge;;;;;;x
+esotericgnosticism_desc;Wise ass council of men are guiding your hand, they are not very accustomed to modern ammenities however;;;;;;x
+choosethebuild_title;Choose the Build;;;;;;;;;;;x
+choosethebuild_desc;As a backwards but politically powerful nation, we have the tough choice of choosing the strategy that will prevent our downfall.;;;;;;;x
+EVTNAME19000150;Picking the Build;;;;;;;x
+EVTDESC19000150;Our advisors have agreed to three options we have to secure our position as a Great European Power, which do you prefer?;;;;;;x
+EVTOPTA19000150;I wish to crush my enemies, see them driven before me, and to hear the lamentations of their women!;;;;;;x
+EVTOPTB19000150;If you wish to be successful, promise everything and deliver nothing;;;;;;x
+EVTOPTC19000150;The great aim of education is not knowledge but action!;;;;;;x
+thefourthoption_title;The Fourth Option;;;;;;;x
+thefourthoption_desc;Appearantly, a council of wizards has arrived from 'Hyperborea' to give advice to the Tsar, they were late due to poor temporal weather, whatever the hell that means. Since you didn't opt for any of the other advisors offers perhaps its worth hearing them out;;;;;;x
+gameimpact;Game Impact In-Progress;;;;;;x
+gameimpact_desc;Currently bringing on the game impact;;;;;;x
+gameimpactbomb_title;Bring on the Game Impact!;;;;;;x
+gameimpactbomb_desc;Recently there have been calls for more game impact from our more disadvantaged nations such as Spain and Russia, so here is your shot, one opportunity, will you take it? or let it slip. Thats deep and im a 9 year old in a coal mine.;;;;;;;;;x
+EVTNAME19000151;FIRED!;;;;;;;x
+EVTDESC19000151;You broke one of the best deals in American history. Not only are you a traitor to Canada and Mexico, but you've betrayed the American public. This deal was one of the best, truly, and you had to blow it, huh? Shoulda gone and screwed around in South America. Instead, im gonna have to fire you. YOU'RE FIRED!!!!!!;;;;;;;;x
+EVTOPTA19000151;An Unexpected Outcome;;;;;;;x
+kazakhpeople_title;Integrate the Kazakhs;;;;;;x
+kazakhpeople_desc;Gimme accepted pops yessir yessir!;;;;;;x
+napoleonslegacy_title;Napoleon's Legacy Italy;;;;;;x
+napoleonslegacy_desc;We have to run it back in Italy;;;;;;;x
+napoleonslegacy2_title;Napoleon's Legacy Spain;;;;;;;x
+napoleonslegacy2_desc;We have to run it back in Spain;;;;;;;x
+napoleonslegacy3_title;Fruits of our Labor;;;;;;x
+napoleonslegacy3_desc;Our hard work in Germany has rewarded us the opportunity to integrate the southern states and cement our hegemony in the region;;;;;;x

@@ -1,0 +1,36 @@
+country_event = {
+	id = 19000092
+	title = "EVTNAME19000092"
+	desc = "EVTDESC19000092"
+	picture = "hollowearth2"
+	
+	trigger = {
+		tag = HYP
+		NOT = { has_country_flag = hollow_earth }
+	}
+	mean_time_to_happen = {
+		months = 1 
+	}
+	
+	option = {
+		name = "EVTOPTA19000092"
+		ai_chance = { factor = 10 }
+		set_country_flag = hollow_earth
+		307 = {
+				naval_base = 4
+				add_province_modifier = { name = hollowearthp duration = -1 }
+				trade_goods = precious_metal
+			}
+		any_state = {
+			limit = {
+				is_primary_culture = yes
+			}
+			any_owned = {
+				add_province_modifier = { name = hyperboreaexodus duration = 9001 }
+				}
+			}
+			
+		treasury = -300000
+		}
+		
+	}

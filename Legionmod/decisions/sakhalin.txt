@@ -1,0 +1,104 @@
+political_decisions = {
+
+	japanese_sakhalin = {
+		picture = map_yellow_sea
+		potential = {
+				tag = JAP
+			civilized = yes
+			NOT = { has_global_flag = japanese_sakhalin }
+		}
+		allow = {
+
+			owns = 1086 #Pogobi
+			owns = 1087 #Ootomari
+			owns = 1088 #Shumshu
+			owns = 1089 #Etorofu
+		}
+		effect = {
+			prestige = 20
+			add_country_modifier = {
+				name = forced_assimilation
+				duration = 1825
+			}
+			any_country = {
+				limit = {
+					tag = RUS
+					exists = yes
+				}
+				prestige = -20
+			}
+		random_country = {
+				limit = { 
+					exists = yes
+					OR = {
+						tag = RUS
+					}
+				}
+				relation = { who = THIS value = -100 }
+			}
+			2832 = { change_province_name = "Mamiya Strait" }
+			2838 = { change_province_name = "Coast of Karafuto" }
+			1088 = { change_province_name = "Shumushu" }
+			1086 = { change_province_name = "Sagaren" }
+			1087 = {
+				change_province_name = "Toyohara"
+				state_scope = {
+					change_region_name = "Karafuto"
+				}
+			}
+			set_global_flag = japanese_sakhalin
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	russian_sakhalin = {
+		picture = map_yellow_sea
+		potential = {
+			tag = RUS
+			has_global_flag = japanese_sakhalin
+		}
+		allow = {
+
+			owns = 1086 #Pogobi/Sagaren
+			owns = 1087 #Ootomari/Toyohara
+			owns = 1088 #Shumshu/Shumushu
+			owns = 1089 #Etorofu
+		}
+		effect = {
+			prestige = 20
+			any_country = {
+				limit = {
+					tag = JAP
+					exists = yes
+				}
+				prestige = -20
+			}
+		random_country = {
+				limit = { 
+					exists = yes
+					OR = {
+						tag = JAP
+					}
+				}
+				relation = { who = THIS value = -100 }
+			}
+			2832 = { change_province_name = "Tatar Strait" }
+			2838 = { change_province_name = "Coast of Sakhalin" }
+			1088 = { change_province_name = "Shumshu" }
+			1089 = { change_province_name = "Iturrup" }
+			1086 = { change_province_name = "Pogobi" }
+			1087 = {
+				change_province_name = "Yuzhno"
+				state_scope = {
+					change_region_name = "Sakhalin"
+				}
+			}
+			clr_global_flag = japanese_sakhalin
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+}

@@ -1,0 +1,411 @@
+country_event = {
+	title = "EVTNAME90900"
+	desc = "EVTDESC90900"
+	picture = "Celebration"
+
+	id = 90900
+	news = yes
+	news_desc_long = "EVTDESC90900_NEWS_LONG"
+	news_desc_medium = "EVTDESC90900_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90900_NEWS_SHORT"
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CHI
+		NOT = { has_global_flag = the_dragon_wakes }
+		}
+
+	option = {				
+		name = "EVTOPTA90900"
+		set_global_flag = the_dragon_wakes
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				OR = {
+					tag = MCK
+					tag = TIB
+					tag = NAN
+					tag = QNG
+					tag = NGB
+					tag = SHA
+					tag = HKG
+					tag = FZH
+					tag = MAC
+				}
+			}
+			country_event = { id=90901 days=0 }
+		}
+		prestige = 10
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+# Event to Inherit
+country_event = {
+	id = 90901
+	title = "EVTNAME90900"
+	desc = "EVTDESC90901"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90901"
+		civilized = yes
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 100
+			 modifier = {
+				factor = 1000
+				relation = { who = FROM value = 100 }
+			} 
+		}
+	}
+
+	option = {
+		name = "EVTOPTB90100"
+		ai_chance = {
+			factor = -1
+		}
+		prestige = 10
+		relation = {
+			who = FROM
+			value = -200
+		}
+		civilized = yes
+		release_vassal = THIS
+		leave_alliance = CHI
+	}
+}
+
+# Event to reject
+country_event = {
+	id = 90902 #The Breakup of China
+	news = yes
+	news_desc_long = "EVTDESC90902_NEWS_LONG"
+	news_desc_medium = "EVTDESC90902_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC90902_NEWS_SHORT"
+	
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90902"
+		release_vassal = THIS
+		leave_alliance = CHI
+		civilized = yes
+	}
+}
+
+country_event = {
+	title = "westernize_nation_title"
+	desc = "westernize_nation_desc"
+	picture = "Celebration"
+
+	id = 90903
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = the_dragon_wakes }
+		OR = { 
+		tag = GXI
+		tag = MCK
+		tag = XIN
+		tag = YNN
+		tag = XBI
+		tag = MGL
+		}
+		}
+
+	option = {				
+		name = "EVTOPTA90902"
+		set_global_flag = the_dragon_wakes
+		release_vassal = THIS
+		leave_alliance = CHI
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				substate_of = CHI
+				num_of_cities = 1
+			}
+			country_event = { id=90902 days=0 }
+		}
+		CHI = {
+			country_event = { id=90904 days=0 }
+		}
+		prestige = 10
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+country_event = {
+	id = 90904
+	title = "EVTNAME90902"
+	desc = "EVTDESC90902"
+	picture = "Celebration"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA90902"
+		civilized = yes
+	}
+}
+
+country_event = {
+	id = 19000123
+	title = "EVTNAME19000123"
+	desc = "EVTDESC19000123"
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CHI
+		government = democracy
+		civilized = yes
+		NOT = {has_country_modifier = {yatsen}}
+		all_core = { owned_by = THIS}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA19000123"
+		SHA = {all_core = {remove_core = SHA}}
+		QNG = {all_core = {remove_core = QNG}}
+		NGB = {all_core = {remove_core = NGB}}
+		HKG = {all_core = {remove_core = HKG}}
+		FZH = {all_core = {remove_core = FZH}}
+		NAN = {all_core = {remove_core = NAN}}
+		MAC = {all_core = {remove_core = MAC}}
+		CHI_1600 = {add_core = XIN}
+		release = XIN
+		CHI_2608 = {add_core = MGL}
+		release = MGL
+		CHI_1557 = {add_core = XBI}
+		CHI_1490 = {add_core = XBI}
+		CHI_2062 = {add_core = XBI}
+		1535 = {add_core = XBI}
+		1532 = {add_core = XBI}
+		release = XBI
+		CHI_1513 = {add_core = SXI}
+		release = SXI
+		CHI_1578 = {add_core = YNN}
+		CHI_1601 = {add_core = YNN}
+		CHI_1581 = {add_core = YNN}
+		release = YNN
+		CHI_1504 = {add_core = GXI}
+		CHI_1499 = {add_core = GXI}
+		CHI_1494 = {add_core = GXI}
+		release = GXI
+		activate_technology = enlightenment_thought
+		activate_technology = ideological_thought
+		activate_technology = state_n_government
+		activate_technology = nationalism_n_imperialism
+		activate_technology = late_enlightenment_philosophy
+		activate_technology = water_wheel_power
+		activate_technology = mechanized_mining
+	}
+}
+		
+		
+country_event = {
+	id = 19000128
+	title = "EVTNAME19000128"
+	desc = "EVTDESC19000128"
+	major = yes
+	
+	trigger = {
+		tag = CHI
+		year = 1900
+		has_country_flag = lubuawake
+		NOT = {has_country_modifier = chinadead}
+		NOT = {has_country_flag = heavenwar}
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000128"
+			random_country = {
+				limit = {
+					NOT = {alliance_with = THIS}
+					neighbour = THIS
+				}
+				country_event = {id=19000131 days = 5}
+			}
+			set_country_flag = heavenwar
+			clr_country_flag = heavenwarover
+			money = 2000000
+			money = 2000000
+		}
+		
+	}
+
+country_event = {
+	id = 19000129
+	title = "EVTNAME19000129"
+	desc = "EVTDESC19000129"
+	major = yes
+	
+	trigger = {
+		tag = CHI
+		year = 1900
+		has_country_flag = heavenwar
+		NOT = {has_country_flag = heavenwarover}
+		has_recently_lost_war = no
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000129"
+		clr_country_flag = heavenwar
+		set_country_flag = heavenwarover
+		prestige = 50
+		badboy = -25
+	}
+}
+
+country_event = {
+	id = 19000130
+	title = "EVTNAME19000130"
+	desc = "EVTDESC19000130"
+	major = yes
+	
+	trigger = {
+		tag = CHI
+		year = 1900
+		has_country_flag = heavenwar
+		has_recently_lost_war = yes
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000130"
+			clr_country_flag = lubuawake
+			clr_country_flag = heavenwar
+			set_country_flag = heavenwarover
+			prestige = -1000
+			add_country_modifier = {
+				name = chinadead
+				duration = 913
+			}
+		}
+	}
+
+country_event = {
+	id = 19000131
+	title = "EVTNAME19000131"
+	desc = "EVTDESC19000131"
+	picture = "lubu"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000131"
+		CHI = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = cut_down_to_size_boxer }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 19000132
+	title = "EVTNAME19000132"
+	desc = "EVTDESC19000132"
+	picture = "devastation"
+	
+	trigger = {
+		year = 1900
+		war_with = CHI
+		any_owned_province = {
+			AND = {
+				controlled_by = CHI
+				province_control_days = 30
+				NOT = {is_capital = yes}
+			}
+		}
+		CHI = {
+			has_country_flag = heavenwar 
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA19000132"
+		any_owned = {
+			limit = {
+				controlled_by = CHI
+				province_control_days = 30
+				NOT = {is_capital = yes}
+			}
+			secede_province = CHI
+			add_core = CHI
+			add_province_modifier = {
+				name = devastation
+				duration = 3650
+				}
+			}
+		}
+	}
+

@@ -1,0 +1,386 @@
+country_event = {
+    id = 19000094
+    title = "EVTNAME19000094"
+    desc = "EVTDESC19000094"
+	picture = "opiumyum"
+	
+	trigger = {
+		tag = ENG
+		year = 1836
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+		ai_chance = { factor = 1 }
+		name = "EVTOPTA19000094"
+		set_global_flag = underground_za
+		add_country_modifier = {
+			name = low_opium
+			duration = -1
+		}
+		add_country_modifier = {
+			name = strict_china_trade
+			duration = -1
+		}
+		1251 = { 
+				add_province_modifier = {
+				name = opium_market_low
+				duration = -1
+				}
+			}
+		1253 = { 
+				add_province_modifier = {
+				name = opium_market_low
+				duration = -1
+				}
+			}
+		1256 = { 
+			add_province_modifier = {
+			name = opium_market_low
+			duration = -1
+			}
+		}
+		HND = {
+			add_country_modifier = {
+				name = indiacountry
+				duration = -1
+			}
+		}
+    }
+	
+	option = {
+	name = "EVTOPTB19000094"
+	ai_chance = { factor = 0 }
+	prestige = -10
+	add_country_modifier = {
+			name = strict_china_trade
+			duration = -1
+		}
+	HND = {
+			add_country_modifier = {
+				name = indiacountry
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+    id = 19000095
+    title = "EVTNAME19000095"
+    desc = "EVTDESC19000095"
+    picture = "opiumouch"
+
+	trigger = {
+		tag = ENG
+		has_global_flag = confrontation
+		has_global_flag = underground_za
+	}
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+
+    option = {
+	name = "EVTOPTA19000095"
+	ai_chance = { factor = 1 }
+	set_global_flag = occupykong
+		remove_country_modifier = low_opium
+		remove_country_modifier = strict_china_trade
+		add_country_modifier = { name = med_opium duration = -1 }
+		add_country_modifier = { name = mild_china_trade duration = -1 }
+			1251 = { 
+				remove_province_modifier = opium_market_low
+				add_province_modifier = {
+				name = opium_market_med
+				duration = -1
+				}
+			}
+			1253 = { 
+				remove_province_modifier = opium_market_low
+				add_province_modifier = {
+				name = opium_market_med
+				duration = -1
+				}
+			}
+			1256 = { 
+				remove_province_modifier = opium_market_low
+				add_province_modifier = {
+				name = opium_market_med
+				duration = -1
+				}
+			}
+			set_global_flag = kongers
+		}
+    }
+country_event = {
+    id = 99900009
+    title = "The Sleeping Dragon"
+    desc = "EVTDESC99900009"
+    picture = "Expansion"
+
+	trigger = {
+		tag = CHI
+		AND = {
+			year = 1839
+			has_global_flag = kongers
+		}
+		NOT =  {has_global_flag = treaty_ports_activated}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+
+    option = {
+	name = "Treaty Ports"
+	ai_chance = { factor = 1 }
+	set_global_flag = treaty_ports_activated
+	country_event = { id=13270 days=0 }
+	CHI_1600 = {remove_core = MCK}
+	CHI_2608 = {remove_core = MCK}
+    }
+}
+
+province_event = {
+	id = 19000096
+	name = "EVTNAME19000096"
+	desc = "EVTDESC19000096"
+	
+	trigger = {
+		OR = {
+			is_core = CHI
+			is_core = HKG
+			is_core = MAC
+			is_core = SHA
+			is_core = NGB
+			is_core = BEI
+			is_core = FZH
+			is_core = QNG
+			}
+		any_pop = { addicts = 0.005 }
+		NOT = { has_province_modifier = local_opium_habit }
+		NOT = {year = 1900}
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+	name = "EVTOPTA19000096"
+		add_province_modifier = {
+			name = local_opium_habit
+			duration = 2000
+				}
+			}
+		}
+		
+province_event = {
+	id = 19000097
+	name = "EVTNAME19000097"
+	desc = "EVTDESC19000097"
+	
+	trigger = {
+		OR = {
+			is_core = CHI
+			is_core = HKG
+			is_core = MAC
+			is_core = SHA
+			is_core = NGB
+			is_core = BEI
+			is_core = FZH
+			is_core = QNG
+			}
+		any_neighbor_province = { has_province_modifier = local_opium_habit }
+		NOT = { has_province_modifier = local_opium_habit }
+		NOT = {year = 1900}
+		}
+	mean_time_to_happen = {
+		months = 500
+	}
+	option = {
+	name = "EVTOPTA19000097"
+		add_province_modifier = {
+			name = local_opium_habit
+			duration = 3000
+				}
+			}
+		}
+		
+country_event = {
+    id = 19000098
+    title = "EVTNAME19000098"
+    desc = "EVTDESC19000098"
+
+	is_triggered_only = yes
+	
+	major = yes
+	
+    option = {
+	name = "Opium Confiscated"
+	ai_chance = { factor = 1 }
+	1496 = {
+		secede_province = ENG
+		}
+    }
+}
+
+country_event = {
+    id = 19000086
+    title = "Century of Humiliation"
+    desc = "EVTDESC19000086"
+
+	trigger = {
+		tag = CHI
+		AND = {
+			year = 1839
+			war = no
+			has_recently_lost_war = yes
+			NOT = { owns = 1496 }
+		}
+		NOT =  {has_global_flag = the_century}
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+	name = "We Stand Defeated"
+	ai_chance = { factor = 1 }
+	set_global_flag = the_century
+	add_country_modifier = {
+		name = century_humiliate
+		duration = -1
+	}
+	ENG = {
+		country_event = { id=19000099 days=30 }
+		}
+	1496 = { 
+		remove_core = CHI 
+		add_core = ENG
+		}
+	1550 = {
+		secede_province = HKG
+	}
+	1530 = {
+		secede_province = HKG
+	}
+	1547 = {
+		secede_province = HKG
+	}
+	1527 = {
+		secede_province = HKG
+	}
+    }
+}
+
+country_event = {
+    id = 19000099
+    title = "EVTNAME19000099"
+    desc = "EVTDESC19000099"
+	picture = "qing_defeat"
+
+	is_triggered_only = yes
+
+    option = {
+	name = "EVTOPTA19000099"
+	ai_chance = { factor = 1 }
+	
+		remove_country_modifier = med_opium
+		remove_country_modifier = mild_china_trade
+		add_country_modifier = { name = large_opium duration = -1 }
+		add_country_modifier = { name = free_china_trade duration = -1 }
+			1251 = {
+				remove_province_modifier = opium_market_med
+				add_province_modifier = {
+				name = opium_market_lar
+				duration = -1
+				}
+			}
+			1253 = {
+				remove_province_modifier = opium_market_med
+				add_province_modifier = {
+				name = opium_market_lar
+				duration = -1
+				}
+			}
+			1256 = {
+				remove_province_modifier = opium_market_med
+				add_province_modifier = {
+				name = opium_market_lar
+				duration = -1
+				}
+			}
+    }
+}
+
+country_event = {
+	id = 19000100
+	name = "EVTNAME19000100"
+	desc = "EVTDESC19000100"
+	picture = "Expansion"
+	
+	trigger = {
+	OR = {
+		is_greater_power = yes
+		is_secondary_power = yes
+	}
+	NOT = { has_country_modifier = african_colony }
+	any_state = {
+		trade_goods = precious_metal
+		is_colonial = yes
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	effect = {
+		name = "EVTOPTA19000100"
+		add_country_modifier = {
+			name = african_colony
+			duration = -1
+		}
+		prestige = 5
+	}
+}
+
+country_event = {
+	id = 19000101
+	name = "EVTNAME19000101"
+	desc = "EVTDESC19000101"
+	
+	trigger = {
+	OR = {
+		is_greater_power = yes
+		is_secondary_power = yes
+	}
+	has_country_modifier = african_colony
+	NOT = {
+		any_state = {
+			trade_goods = precious_metal
+			is_colonial = yes
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	effect = {
+		name = "EVTOPTA19000101"
+		remove_country_modifier = { african_colony }
+		prestige = -5
+	}
+}

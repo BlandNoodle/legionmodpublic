@@ -1,0 +1,7 @@
+owner = SHA
+controller = SHA
+add_core = CHI
+add_core = SHA
+add_core = TPG
+trade_goods = tea
+life_rating = 32
