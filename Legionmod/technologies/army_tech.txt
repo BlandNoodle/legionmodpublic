@@ -806,8 +806,8 @@ heavy_armament_dunno = {
 	unciv_military = yes
 
 	artillery = {
-		attack = 1.7
-		defence = 0.8
+		attack = 1.5
+		defence = 0.5
 		support = 0.5
 		supply_consumption = 0.35
 	}

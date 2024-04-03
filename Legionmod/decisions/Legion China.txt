@@ -4,17 +4,19 @@ political_decisions = {
 			tag = CHI
 			has_global_flag = the_century
 			NOT = {has_country_flag = sunyatsen}
-			year = 1850
 		}
 		allow = {
 			government = absolute_monarchy
 			OR = {
 				all_core = {
-					owned_by = THIS
+					OR = owned_by = MCK
+						owned_by = THIS
+					}
 				}
 				year = 1900
 			}
 			civilized = no
+			year = 1840
 		}
 		effect = {
 			money = 2000000

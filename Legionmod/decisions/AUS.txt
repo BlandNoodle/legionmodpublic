@@ -166,4 +166,43 @@ political_decisions = {
 			set_country_flag = hunrestored
 		}
 	}
+	
+	hungryhippos = {
+		potential = {
+			OR = {
+				tag = GER
+				tag = SGF
+			}
+			exists = HUN
+			NOT = {has_country_flag = huneaten}
+		}
+		allow = {
+			tag = GER
+			war = no
+			HUN = {in_sphere = THIS}
+			is_our_vassal = HUN
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			inherit = HUN
+			add_accepted_culture = hungarian
+			prestige = 15
+			HUN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			any_greater_power = {
+				limit = {
+					NOT = {alliance_with = THIS }
+				}
+				casus_belli = {
+					target = THIS
+					type = liberate_country
+					months = 48
+				}
+			}
+			set_country_flag = huneaten
+		}
+	}
 }

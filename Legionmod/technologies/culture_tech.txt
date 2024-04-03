@@ -340,7 +340,7 @@ malthusian_thought = {
 	cost = 3600
 
 	colonial_migration = 0.05
-	education_efficiency = 0.05
+	education_efficiency = 0.10
 	
 	ai_chance = {
 		factor = 1.01

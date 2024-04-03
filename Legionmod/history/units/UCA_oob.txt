@@ -1,30 +1,68 @@
 leader = {
-	name = "Francisco Morazán"
+	name = "Memer"
 	type = land
 	date = 1836.1.1
-	personality = stout
-	background = generals_aide
+	personality = defence_1.1
+	background = attack_1.1
+}
+
+leader = {
+	name = "Octal"
+	type = land
+	date = 1836.1.1
+	personality = defence_2.1
+	background = attack_4.1
 }
 
 army = {
-	name = "Ejército Federal"
+	name = "Memer's Raiders"
 	location = 2187
 	regiment = {
-		name= "1. División de Infantería"
+		name= "Memer's 1st Regiment of Foot"
 		type = infantry
 		home = 2187
 	}
 
 	regiment = {
-		name= "2. División de Infantería"
+		name= "Memer's 2nd Regiment of Foot"
 		type = infantry
 		home = 2191
 	}
 
 	regiment = {
-		name= "3. División de Infantería"
+		name= "Memer's 3rd Regiment of Foot"
 		type = infantry
 		home = 2186
+	}
+	
+	regiment = {
+		name= "Memer's 4th Regiment of Foot"
+		type = infantry
+		home = 2186
+	}
+	
+	regiment = {
+		name= "Memer's 5th Regiment of Foot"
+		type = infantry
+		home = 2187
+	}
+	
+	regiment = {
+		name= "Memer's 1st Bombadier Corps"
+		type = artillery
+		home = 2191
+	}
+	
+	regiment = {
+		name= "Memer's 2nd Bombadier Corps"
+		type = artillery
+		home = 2192
+	}
+	
+	regiment = {
+		name= "Octal's Lancers"
+		type = cuirassier
+		home = 2197
 	}
 
 }

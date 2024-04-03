@@ -33,9 +33,9 @@ ruling_party = UCA_liberal
 last_election = 1835.2.14
 upper_house = {
 	fascist = 0
-	liberal = 25
-	conservative = 31
-	reactionary = 44
+	liberal = 50
+	conservative = 40
+	reactionary = 10
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -53,10 +53,18 @@ no_standard = 1
 guild_based_production = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
+positivism = 1
 enlightenment_thought = 1
 water_wheel_power = 1
 publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
 medicine = 1
+malthusian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+freedom_of_trade = 1
+early_classical_theory_and_critique = 1
 
 # Inventions
 

@@ -104,42 +104,42 @@ political_decisions = {
 				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
-				duration = 3650
+				duration = 5475
 				}
 			}
 			2307 = {
 				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
-				duration = 3650
+				duration = 5475
 				}
 			}
 			2308 = {
 				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
-				duration = 3650
+				duration = 5475
 				}
 			}
 			2309 = {
 				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
-				duration = 3650
+				duration = 5475
 				}
 			}
 			2312 = {
 				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
-				duration = 3650
+				duration = 5475
 				}
 			}
 			2314 = {
 				infrastructure = 5
 				add_province_modifier = {
 				name = atacama_boom
-				duration = 3650
+				duration = 5475
 				}
 			}			
 			set_country_flag = atacama_boom_happened

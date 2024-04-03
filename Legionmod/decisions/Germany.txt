@@ -415,7 +415,6 @@ luderitz_expedition = {
 		allow = {
 			army_decision_making = 1
 			military_statistics = 1
-			iron_breech_loaded_artillery = 1
 			money = 1000000
 		}
 		effect = {

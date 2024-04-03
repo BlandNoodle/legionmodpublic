@@ -75,9 +75,11 @@ political_decisions = {
 			inherit = TRA
 			inherit = KUT
 			inherit = PAN
-			government = absolute_monarchy
-				}
-			prestige = 20
+			government = hms_government
+			political_reform = landed_voting
+			political_reform = secret_ballots
+			}
+			prestige = 25
 			any_pop = {
 				militancy = -2
 			}
@@ -275,13 +277,11 @@ southaf = {
 		allow = {
 			nationalism_n_imperialism = 1
 			money = 1000000
-			}
+		}
 		effect = {
-			any_owned_province = {
-				IRE = {
-					any_core = {
-						add_core = ENG
-					}
+			IRE = {
+				any_core = {
+					add_core = ENG
 				}
 			}
 			treasury = -1000000
@@ -379,10 +379,10 @@ southaf = {
 		allow = {
 			war = no
 			CHI = {civilized = no}
-			money = 50001
+			money = 20001
 		}
 		effect = {
-			money = -50000
+			money = -20000
 			badboy = 5
 			prestige = 5
 			CHI = {country_event = { id = 19000098 days = 7 } }

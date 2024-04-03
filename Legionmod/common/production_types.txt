@@ -679,7 +679,7 @@ lumber_mill = {
 fabric_factory = {       
 	template = factory_template
 	input_goods = {     
-		cotton = 18			
+		cotton = 16		
 	}
 	output_goods = fabric 
 	value = 45			#81
@@ -693,10 +693,10 @@ fabric_factory = {
 woolfabric_factory = {       
 	template = factory_template
 	input_goods = {     
-		wool = 18		
+		wool = 12		
 	}
 	output_goods = fabric 
-	value = 45			#81
+	value = 40			#81
 	bonus = {
 		trigger = { trade_goods_in_state = wool }
 		value = 0.20

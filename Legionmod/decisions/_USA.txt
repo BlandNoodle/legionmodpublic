@@ -85,6 +85,7 @@ political_decisions = {
 			tag = USA
 			NOT = {exists = CAN}
 			ai = no
+			NOT = {has_country_flag = freecanada}
 		}
 		allow = {
 			war = no
@@ -97,6 +98,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+			set_country_flag = freecanada
 			badboy = 10
 			ENG={add_casus_belli = {
 				target = THIS
@@ -156,6 +158,7 @@ political_decisions = {
 		picture = "monroe"
 		potential = {
 			tag = USA
+			NOT = {has_country_flag = monroe_na}
 		}
 		allow = {
 			AND = {

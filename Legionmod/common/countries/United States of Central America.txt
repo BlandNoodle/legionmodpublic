@@ -1,6 +1,7 @@
 color = { 90 175 255 }
 graphical_culture = SouthAmericanGC
 proletarian_dictatorship = { 198 29 29 }
+presidential_dictatorship = { 220 213 0 }
 party = {
 	name = "UCA_conservative"
 	start_date = 1830.1.1
@@ -25,7 +26,7 @@ party = {
 	economic_policy = laissez_faire
 	trade_policy = free_trade
 	religious_policy = secularized
-	citizenship_policy = limited_citizenship
+	citizenship_policy = full_citizenship
 	war_policy = pro_military
 }
 
@@ -37,9 +38,9 @@ party = {
 	ideology = reactionary
 
 	economic_policy = state_capitalism
-	trade_policy = protectionism
+	trade_policy = free_trade
 	religious_policy = moralism
-	citizenship_policy = residency
+	citizenship_policy = limited_citizenship
 	war_policy = jingoism
 }
 

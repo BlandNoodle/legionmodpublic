@@ -687,7 +687,7 @@ fort = {
 	one_per_state = yes
 	max_level = 6
 	province = yes
-	fort_level = 2
+	fort_level = 1
 }
 
 naval_base = {    

@@ -29,6 +29,7 @@ province_event = {
 			province_id = 1157
 			province_id = 4
 			province_id = 313
+			province_id = 690
 		}
 		not = { trade_goods = precious_metal }
 	}

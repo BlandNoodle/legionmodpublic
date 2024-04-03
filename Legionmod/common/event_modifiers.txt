@@ -67,10 +67,10 @@ treaty_port_beijing = {
 }
 
 theraj = {
-	icon = 1
 	pop_militancy_modifier = -0.1
 	pop_consciousness_modifier = 0.05
-	local_ruling_party_support = 0.2
+	local_ruling_party_support = 0.25
+	icon = 1
 }
 	
 #### RUSSIAN MANIFESTO ON UNSHAKABLE AUTOCRACY ####
@@ -93,29 +93,27 @@ earlygamerussia = {
 	factory_output = -0.15
 	mobilisation_economy_impact = -0.35
 	mobilisation_size = 0.01
-	research_points_on_conquer = 0.66
-	education_efficiency_modifier = -0.20
-	research_points_modifier = -0.50
+	research_points_on_conquer = 0.75
+	education_efficiency_modifier = -0.25
+	research_points_modifier = -0.70
 	cb_generation_speed_modifier = 0.50
 	icon = 15
 }
 
 midgamerussia = {
-	administrative_efficiency_modifier = 0.10
-	influence_modifier = 0.10
+	research_points_modifier = 0.25
+	military_tech_research_bonus = 0.15
 	commerce_tech_research_bonus = 0.15
 	culture_tech_research_bonus = -0.20
 	industry_tech_research_bonus = -0.15
-	education_efficiency_modifier = -0.15
-	research_points_modifier = 0.25
+	education_efficiency_modifier = -0.10
 	icon = 9
 }
 
 lategamerussia = {
-	administrative_efficiency_modifier = 0.15
 	loan_interest = -0.01
 	influence_modifier = 0.25
-	education_efficiency_modifier = 0.15
+	education_efficiency_modifier = 0.25
 	industry_tech_research_bonus = 0.15
 	army_tech_research_bonus = -0.10
 	political_reform_desire = 0.50
@@ -138,7 +136,7 @@ esotericgnosticism = {
 }
 
 gameimpact = {
-	factory_cost = 0.50
+	factory_output = -0.05
 	mobilisation_economy_impact = -0.40
 	mobilisation_size = 0.03
 	research_points_on_conquer = 0.66
@@ -747,9 +745,8 @@ prussian_general_staff = {
    	org_regain = 0.3
   	land_organisation = 0.10
   	mobilisation_economy_impact = -0.25
-	land_unit_start_experience = 5.0
+	land_unit_start_experience = 10.0
 	supply_consumption = -0.05
-	research_points_modifier = -0.15
 	leadership_modifier = 0.2
 	icon = 15
 }
@@ -779,10 +776,10 @@ indiacountry = {
 }
 
 britishrajinfancy = {
-	education_efficiency_modifier = 0.20
+	education_efficiency_modifier = 0.25
 	research_points_modifier = -0.1
 	research_points_on_conquer = -1
-	factory_cost = 1
+	factory_throughput = -0.5
 	mobilisation_size = -0.06
 	prestige = -1
 	icon = 18
@@ -949,20 +946,18 @@ free_china_trade = {
 	icon = 6
 	rgo_throughput = 0.05
 	prestige = 0.002
-	tariff_efficiency_modifier = -0.15
+	tariff_efficiency_modifier = -0.25
 }
 
 large_opium = {
 	icon = 9
 	rgo_throughput = 0.05
-	badboy = 0.05
 }
 
 century_humiliate = {
 	icon = 8
 	prestige = -0.02
 	org_regain = -0.20
-	ruling_party_support = -0.1
 	supply_consumption = 0.10
 	research_points_on_conquer = -3
 	research_points_modifier = -1
@@ -1015,8 +1010,8 @@ the_eiffel_tower = {
 signed_the_geneva_convention = {
 	war_exhaustion = -0.02
 	org_regain = 0.15
-	cb_generation_speed_modifier = -0.2
-	research_points_modifier = 0.2
+	cb_generation_speed_modifier = -0.1
+	research_points_modifier = 0.1
 	icon = 7
 }
 
@@ -1259,7 +1254,6 @@ swiss_boni = {
 	tax_efficiency = 0.1
 	administrative_efficiency_modifier = 0.1
 	army_tech_research_bonus = 0.25
-	import_cost = -1
 	icon = 15
 }
 forced_assimilation = {
@@ -1269,7 +1263,6 @@ forced_assimilation = {
 
 
 kinda_bad_badboy = {
-	import_cost = 2
 	loan_interest = 2
 	tariff_efficiency_modifier = -0.5
 	mobilisation_economy_impact = 1
@@ -1286,13 +1279,12 @@ kinda_bad_badboy = {
 	RGO_throughput = -0.25
 	prestige = -0.5
 	war_exhaustion = 1
-	research_points_modifier = -0.1
+	research_points_modifier = -0.33
 	cb_generation_speed_modifier = -0.5
 	icon = 8
 }
 
 bad_badboy = {
-	import_cost = 4
 	loan_interest = 4
 	tariff_efficiency_modifier = -1
 	mobilisation_economy_impact = 2
@@ -1309,7 +1301,7 @@ bad_badboy = {
 	RGO_throughput = -0.5
 	prestige = -0.2
 	war_exhaustion = 2
-	research_points_modifier = -0.33
+	research_points_modifier = -0.66
 	cb_generation_speed_modifier = -0.75
 	icon = 8
 }
@@ -1334,9 +1326,8 @@ mayan_miner = {
 
 ###Kramer Section
 atacama_boom = {
-	mine_rgo_eff = 2
-	population_growth = 0.011
-	life_rating = 0.1
+	mine_rgo_eff = 1
+	population_growth = 0.01
 	icon = 11
 }
 
@@ -1344,7 +1335,7 @@ bolivian_port_of_the_new_world = {
 	life_rating = 0.15
 	immigrant_attract = 1
 	local_repair = 0.5
-	local_ship_build = -0.5
+	local_ship_build = -0.33
 	icon = 15
 }
 
@@ -1703,3 +1694,11 @@ newvienna = {
 	icon = 11
 }
 
+dkong = {
+	global_assimilation_rate = 1
+	education_efficiency_modifier = 0.10
+	political_reform_desire = 0.25
+	non_accepted_pop_militancy_modifier = -0.05
+	leadership_modifier = 0.2
+	icon = 5 
+}

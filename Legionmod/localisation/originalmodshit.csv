@@ -1,6 +1,6 @@
 HND_ADJ;Indian;;;;;;;;x
 HND_directorate;East India Company;;;;;;;;x
-HND_hms_government;British Raj;;;;;;;x
+HND_hms_government;Raj;;;;;;;x
 country_reforms;Country reforms;;;;;;;;;;;;;;x
 country_reforms_desc;We have reformed our country.;;;;;;;;;;;;;;x
 democratic_nation;Democratic nation;;;;;;;;;;;;;;x
@@ -271,6 +271,10 @@ acquire_capital;Acquire Capital;;;;;;x
 acquire_capital_short;Take $RECIPIENT$'s capital;;;;;;;x
 acquire_capital_setup;Take capital region $STATE$ from $RECIPIENT$;;;;;;;;x
 acquire_capital_desc;Relocate the bums!;;;;;;;;x
+acquire_treaty_port;Acquire Treaty Port;;;;;x
+acquire_treaty_port_short;Treaty Port $RECIPIENT$;;;;;;x
+acquire_treaty_port_desc;Force $RECIPIENT$ to awknowledge our rights to trade;;;;;x
+acquire_treaty_port_setup;yadda yadda yadda;;;;;;;x
 conquer_germany;Conquer Germany;;;;;;;;;x
 conquer_germany_short;Unify with $RECIPIENT$;;;;;x
 conquer_germany_setup;Force $RECIPIENT$ to awknowledge our hegemony;;;;;x

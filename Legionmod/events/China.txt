@@ -203,10 +203,21 @@ country_event = {
 	
 	trigger = {
 		tag = CHI
-		government = democracy
+		war = no
 		civilized = yes
-		NOT = {has_country_modifier = {yatsen}}
-		all_core = { owned_by = THIS}
+		OR = {
+			NOT = {has_country_modifier = {yatsen}}
+			year = 1910
+		}
+		AND = {
+			NOT = {exists = SHA}
+			NOT = {exists = QNG}
+			NOT = {exists = NGB}
+			NOT = {exists = HKG}
+			NOT = {exists = FZH}
+			NOT = {exists = NAN}
+			NOT = {exists = MAC}
+		}
 	}
 	
 	mean_time_to_happen = {

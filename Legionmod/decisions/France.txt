@@ -549,14 +549,15 @@ political_decisions = {
 
 trash = {
 		potential = {
-			has_country_flag = { inteyes }
+			has_country_flag = inteyes
+			NOT = { has_country_flag = haiintegrate }
+			NOT = { tag = UCA }
+		}
+		allow = {
 			OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
 			}
-			NOT = { has_country_flag = haiintegrate }
-		}
-		allow = {
 			HAI = {
 				all_core = {
 					owned_by = THIS
@@ -576,20 +577,21 @@ trash = {
 	
 ybarra = {
 		potential = {
-			has_country_flag = { inteyes }
-			OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
-			}
+			has_country_flag = inteyes
 			NOT = {
 				OR = {
 					tag = FRA
 					tag = BRG
 				}
 			}
+			NOT = { tag = UCA }
 			NOT = { has_country_flag = mexintegrate }
 		}
 		allow = {
+			OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+			}
 			AND = {
 				owns = 2172
 				owns = 2184
@@ -598,15 +600,14 @@ ybarra = {
 				owns = 2167
 				owns = 2160
 			}
-			money = 500000
+			money = 1000000
 		}
 		
 		effect = {
 			set_country_flag = mexintegrate
 			MEX = { all_core = { add_core = THIS } }
-			inherit = MEX
 			add_accepted_culture = mexican
-			treasury = -500000
+			treasury = -1000000
 		}
 	}
 	

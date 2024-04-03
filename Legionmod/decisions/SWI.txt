@@ -122,7 +122,7 @@ political_decisions = {
 				name = signed_the_geneva_convention
 				duration = -1
 			}
-			badboy = 5
+			badboy = 3
 		}
 	}
 }

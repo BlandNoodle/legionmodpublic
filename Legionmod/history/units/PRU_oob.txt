@@ -204,7 +204,7 @@ OLD = {
 
 SAX = {
 
-	value = 50
+	value = 75
 
 	level = 2
 
@@ -276,8 +276,8 @@ leader = {
 	name = "von Zieten"
 	date = 1813.1.1
 	type = land
-	personality = soldierly
-	background = cavalry_school
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -285,8 +285,8 @@ leader = {
 	name = "Hermann von Boyen"
 	date = 1814.1.1
 	type = land
-	personality = intelligent
-	background = old_school
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -294,8 +294,8 @@ leader = {
 	name = "Wilhelm von Krauseneck"
 	date = 1814.1.1
 	type = land
-	personality = reserved
-	background = engineer
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -303,8 +303,8 @@ leader = {
 	name = "Baron von Müffling"
 	date = 1813.1.1
 	type = land
-	personality = diplomatic
-	background = generals_aide
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -312,8 +312,8 @@ leader = {
 	name = "August von Colomb"
 	date = 1829.1.1
 	type = land
-	personality = active_p
-	background = cavalry_school
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -321,8 +321,8 @@ leader = {
 	name = "von Grolman"
 	date = 1816.1.1
 	type = land
-	personality = openminded
-	background = warmonger
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -330,8 +330,8 @@ leader = {
 	name = "Rühle von Lilienstern"
 	date = 1819.1.1
 	type = land
-	personality = intelligent
-	background = professor
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -339,8 +339,8 @@ leader = {
 	name = "zu Dohna-Schlobitten"
 	date = 1820.1.1
 	type = land
-	personality = tactful
-	background = old_school
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -348,8 +348,8 @@ leader = {
 	name = "Heinrich von Wrangel"
 	date = 1823.1.1
 	type = land
-	personality = efficient
-	background = elderly
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.2
 }
 
@@ -357,8 +357,8 @@ leader = {
 	name = "Wilhelm von Neumann-Cosel"
 	date = 1836.1.1
 	type = land
-	personality = gallant
-	background = old_school
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.1
 }
 
@@ -366,8 +366,8 @@ leader = {
 	name = "Karl von Prittwitz"
 	date = 1836.1.1
 	type = land
-	personality = harsh
-	background = powerful_friends
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
@@ -375,15 +375,15 @@ leader = {
 	name = "von Reyher"
 	date = 1836.1.1
 	type = land
-	personality = careful
-	background = exranker
+	personality = defence_1.1
+	background = attack_1.1
 	prestige = 0.0
 }
 
 #Army
 
 army = {
-	name = "army1"
+	name = "Army Group 1"
 	location = 553
 	regiment = {
 		name= "I. Linieninfanteriebrigade"
@@ -404,7 +404,7 @@ army = {
 	}
 
 	regiment = {
-		name= "retyard"
+		name= "Him"
 		type = hussar
 		home = 577
 	}
@@ -416,25 +416,25 @@ army = {
 	}
 
 	regiment = {
-		name= "boom"
+		name= "Boom"
 		type = artillery
 		home = 582
 	}
 
 	regiment = {
-		name= "kill"
+		name= "Kill Mayo Brigade"
 		type = artillery
 		home = 582
 	}
 
 	regiment = {
-		name= "mayo"
+		name= "Save Mayo Brigade"
 		type = artillery
 		home = 584
 	
 	}
 	regiment = {
-		name = "bubby"
+		name = "Bubby Brigade"
 		type = artillery
 		home = 701
 	}
@@ -447,7 +447,7 @@ army = {
 }
 
 army = {
-	name = "army2"
+	name = "Army Group 2"
 	location = 682
 	regiment = {
 		name= "VII. Linieninfanteriebrigade"
@@ -468,13 +468,13 @@ army = {
 	}
 
 	regiment = {
-		name= "idiot"
+		name= "Smelly Brigade"
 		type = infantry
 		home = 684
 	}
 
 	regiment = {
-		name= "trash"
+		name= "Trash Brigade"
 		type = hussar
 		home = 684
 	}
@@ -546,7 +546,7 @@ army = {
 }
 
 army = {
-	name = "die"
+	name = "Der Krieg Ist Verloren"
 	location = 548
 	regiment = {
 		name= "XIX. Linieninfanteriebrigade"
@@ -579,7 +579,7 @@ army = {
 	}
 
 	regiment = {
-		name= "infant"
+		name= "Ayo"
 		type = artillery
 		home = 548
 	}

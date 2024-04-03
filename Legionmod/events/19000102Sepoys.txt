@@ -423,7 +423,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA19000106"
 		inherit = HND
-		country_event = { id = 19000085 days = 30 }
+		THIS = {country_event = { id = 19000085 days = 60 }}
 	}
 	option = {
 		name = "EVTOPTB19000106"

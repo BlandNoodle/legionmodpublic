@@ -8,22 +8,14 @@ political_decisions = {
 		}
 		
 		allow = {
-			NET = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
-
-			BEL = {
-				all_core = {
-					owned_by = THIS
-				}
-			}
-
+			owns = 375
+			owns = 382
+			owns = 384
+			owns = 387
+			owns = 392
 		}
 		
 		effect = {
-			BEL = { annex_to = THIS }
 			change_tag = BNX
 			add_accepted_culture = wallonian
 			add_accepted_culture = flemish
@@ -183,10 +175,10 @@ political_decisions = {
 			NOT = {has_country_flag = zuiderzee}
 		}
 		allow = {
-			money = 2000000
+			money = 1000000
 		}
 		effect = {
-			money = -2000000
+			money = -1000000
 			prestige = 30
 			377 = {
 				infrastructure = 5

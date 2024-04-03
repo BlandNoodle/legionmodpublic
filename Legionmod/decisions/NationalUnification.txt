@@ -56,6 +56,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 10
+			change_tag = SGF
 			any_country = {
 				limit = {
 					primary_culture = south_german
@@ -81,7 +82,6 @@ political_decisions = {
 			}
 			add_accepted_culture = czech
 			release_vassal = HUN
-			change_tag = SGF
 		}
 		ai_will_do = {
 			factor = 1

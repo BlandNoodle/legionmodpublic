@@ -354,19 +354,19 @@ flexible_counterattacks = {
 	}
 	effect = {
 		infantry = {
-			attack = 3
+			attack = 2
 		}
 		guard = {
-			attack = 4
+			attack = 3
 		}
 		engineer = {
 			attack = 3
 		}
 		dragoon = {
-			attack = 3
+			attack = 2
 		}
 		hussar = {
-			attack = 3
+			attack = 2
 		}
 		cavalry = {
 			attack = 1
@@ -752,7 +752,7 @@ breech_loaded_rifle_armament = {
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 2
+			attack = 3
 			supply_consumption = 0.20
 		}
 		engineer = {
@@ -791,15 +791,15 @@ machine_gun_armament = {
 	}
 	effect = {
 		infantry = {
-			defence = 4
+			defence = 2
 			supply_consumption = 0.20
 		}
 		guard = {
-			defence = 4
+			defence = 2
 			supply_consumption = 0.20
 		}
 		engineer = {
-			defence = 4
+			defence = 2
 			supply_consumption = 0.20
 		}
 		cuirassier = {
@@ -807,11 +807,11 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		dragoon = {
-			defence = 2
+			defence = 1
 			supply_consumption = 0.20
 		}
 		hussar = {
-			defence = 3
+			defence = 1
 			supply_consumption = 0.20
 		}
 		cavalry = {
@@ -858,7 +858,7 @@ colonial_negotiations = {
 		}
 		modifier = {
 			factor = -1000
-			NOT = { year = 1880 }
+			NOT = { year = 1870 }
 		}
 	}
 	effect = {
@@ -878,12 +878,12 @@ bolt_action_rifle_armament = {
 	}
 	effect = {
 		infantry = {
-			attack = 5
-			defence = 2
+			attack = 2
+			defence = 1
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 5
+			attack = 3
 			defence = 2
 			supply_consumption = 0.20
 		}
@@ -929,18 +929,18 @@ interwar_infantry = {
 	}
 	effect = {
 		infantry = {
-			attack = 6
-			defence = 6
+			attack = 5
+			defence = 5
 			supply_consumption = 0.20
 		}
 		guard = {
-			attack = 6
-			defence = 6
+			attack = 5
+			defence = 5
 			supply_consumption = 0.20
 		}
 		engineer = {
-			attack = 2.5
-			defence = 2.5
+			attack = 3
+			defence = 3
 			supply_consumption = 0.20
 		}
 		irregular = {
@@ -1054,8 +1054,8 @@ tankette = {
 	}
 	effect = {
 		tank = {
-			attack = 7
-			defence = 6
+			attack = 2
+			defence = 3
 			support = 0.50
 			supply_consumption = 0.5
 		}
@@ -1076,8 +1076,8 @@ light_tank = {
 	}
 	effect = {
 		tank = {
-			attack = 7
-			defence = 6
+			attack = 4
+			defence = 2
 			support = 0.50
 			supply_consumption = 0.5
 		}
@@ -1105,7 +1105,7 @@ armoured_cars = {
 			maximum_speed = 1
 			siege = 1
 			discipline = 0.5
-			defence = 5
+			defence = 2
 			attack = 4
 			supply_consumption = 0.5
 		}
@@ -1127,7 +1127,7 @@ anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			defence = 1
+			defence = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1149,7 +1149,7 @@ improved_anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			defence = 1
+			defence = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1170,7 +1170,7 @@ light_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1191,7 +1191,7 @@ medium_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 1
+			attack = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}

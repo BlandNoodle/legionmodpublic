@@ -149,4 +149,56 @@ political_decisions = {
 			set_global_flag = persiansdominated	
 		}
 	}
+	
+	integrate_egypt = {
+		potential = {
+			tag = OTC
+			NOT = { has_global_flag = egypt_integrated }				
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				EGY = {
+					all_core = {
+						owned_by = OTC
+					}
+				}
+				OTC = {
+					is_our_vassal = EGY
+				}
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = maghrebi
+			add_accepted_culture = misri
+			EGY = { 
+				all_core = {
+					add_core = OTC
+					remove_core = EGY
+				}
+			}
+
+			set_global_flag = egypt_integrated		
+		}
+	}
+	
+		
+	integrate_bos = {
+		potential = {
+			BOS = {in_sphere = THIS}
+			}
+		allow = {
+			BOS = {in_sphere = THIS}
+			war = no
+			state_n_government = 1
+		}
+		effect = {
+			THIS = {inherit = BOS}
+			prestige = 10
+			add_accepted_culture = bosniak
+			BOS = {all_core = {add_core = THIS}}
+		}
+	}
 }

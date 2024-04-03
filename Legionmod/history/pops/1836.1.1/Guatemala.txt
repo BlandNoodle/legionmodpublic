@@ -36,7 +36,7 @@
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 3465
+        size = 6465
     }
 
     farmers = {
@@ -60,7 +60,7 @@
     soldiers = {
         culture = mayan
         religion = catholic
-        size = 425
+        size = 3425
     }
 
     farmers = {
@@ -92,7 +92,7 @@
     soldiers = {
         culture = central_american
         religion = catholic
-        size = 3465
+        size = 5465
     }
 
     farmers = {
@@ -116,7 +116,7 @@
     soldiers = {
         culture = mayan
         religion = catholic
-        size = 225
+        size = 2325
     }
 
     farmers = {
