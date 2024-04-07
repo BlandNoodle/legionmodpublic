@@ -43,7 +43,7 @@ political_decisions = {
 						}
 					}
 				}
-				DEN = {
+				NOR = {
 					all_core = {
 						OR = {
 							OR = {

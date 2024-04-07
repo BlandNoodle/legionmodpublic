@@ -648,7 +648,7 @@ political_decisions = {
 				tag = FRA
 				tag = BRG
 			}
-
+			has_country_modifier = louis_napoleon_iii
 			NOT = { has_country_flag = maxmil }
 
 		}
