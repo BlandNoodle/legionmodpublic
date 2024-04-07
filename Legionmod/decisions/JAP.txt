@@ -19,6 +19,47 @@ political_decisions = {
 		}
 	}
 	
+	westerntech = {
+		potential = {
+			tag = JAP
+			NOT = {has_country_flag = needtech}
+		}
+		allow = {
+			year = 1850
+			civilized = yes
+		}
+		effect = {
+			activate_technology = water_wheel_power
+			activate_technology = practical_steam_engine
+			activate_technology = private_banks
+			activate_technology = publishing_industry
+			activate_technology = experimental_railroad
+			activate_technology = mechanical_production
+			activate_technology = mechanized_mining
+			activate_technology = no_standard
+			activate_technology = medicine
+			activate_technology = late_enlightenment_philosophy
+			activate_technology = idealism
+			activate_technology = malthusian_thought
+			activate_technology = positivism
+			activate_technology = functionalism
+			activate_technology = enlightenment_thought
+			activate_technology = ideological_thought
+			activate_technology = early_classical_theory_and_critique
+			activate_technology = army_command_principle
+			activate_technology = flintlock_rifles
+			activate_technology = post_napoleonic_thought
+			activate_technology = military_staff_system
+			activate_technology = bronze_muzzle_loaded_artillery
+			activate_technology = post_nelsonian_thought
+			activate_technology = clipper_design
+			activate_technology = naval_design_bureaus
+			activate_technology = freedom_of_trade
+			research_points = 7200
+			set_country_flag = needtech
+		}
+	}
+	
 	form_kwantung = {
 		potential = {
 			tag = JAP
@@ -27,7 +68,7 @@ political_decisions = {
 		allow = {
 			owns = 1481
 			owns = 1555
-			money = 2000000
+			money = 1000000
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
@@ -42,6 +83,7 @@ political_decisions = {
 					name = kwantunghq
 					duration = -1
 				}
+				fort = 5
 			}
 			add_country_modifier = {
 				name = kwantungarmy
@@ -49,11 +91,11 @@ political_decisions = {
 			}
 			set_country_flag = kwantung_formed
 			prestige = 5
-			money = -2000000
+			money = -1000000
 			any_pop = {
 				ideology = {
 					value = fascist
-					factor = 0.05
+					factor = 0.1
 				}
 			}
 		}
@@ -84,7 +126,7 @@ political_decisions = {
 			any_pop = {
 				ideology = {
 					value = fascist
-					factor = 0.15
+					factor = 0.25
 				}
 			}
 		}

@@ -13,7 +13,7 @@ rebel =
 }
 
 everyday_needs = {
-	opium = 10
+	opium = 15
 }
 
 life_needs = {
@@ -93,12 +93,8 @@ country_migration_target =
 		vote_franschise = universal_voting
 	}
 	modifier = {
-		factor = 4.0
-		OR = { 
-			continent = north_america
-			continent = south_america
-			continent = oceania
-		}
+		factor = 4.0 
+		continent = europe
 	}
 	modifier = {
 		factor = 0.1
@@ -238,7 +234,7 @@ promote_to =
 		factor = 0.01
 		group = {
 			modifier = {
-				factor = -4
+				factor = 2
 				recruited_percentage = 0.0
 			}
 			modifier = {
@@ -277,19 +273,19 @@ promote_to =
 				military_spending = 0.30
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				military_spending = 0.40
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				military_spending = 0.5
 			}
 			modifier = {
-				factor = 2
+				factor = 1
 				military_spending = 0.6
 			}
 			modifier = {
-				factor = 2
+				factor = 1.5
 				military_spending = 0.7
 			}
 			modifier = {
@@ -297,11 +293,11 @@ promote_to =
 				military_spending = 0.8
 			}
 			modifier = {
-				factor = 2
+				factor = 2.5
 				military_spending = 0.9
 			}
 			modifier = {
-				factor = 2
+				factor = 3
 				military_spending = 0.99
 			}
 		}

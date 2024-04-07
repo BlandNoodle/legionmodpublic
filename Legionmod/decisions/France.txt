@@ -226,10 +226,7 @@ political_decisions = {
 	french_military_mission_to_japan = {
 		picture = french_military_exp_japan
 		potential = {
-			OR = {
-				tag = FRA
-				tag = BRG
-			}
+			tag = FRA
 			exists = JAP
 			JAP = {
 			government = shogunate
@@ -249,9 +246,11 @@ political_decisions = {
 				who = JAP
 				value = 100
 			}
+			money = 300000
 		}
 		
 		effect = {
+			money = -300000
 			prestige = 20
 			relation = {
 				who = JAP
@@ -262,6 +261,7 @@ political_decisions = {
 				money = 300000
 				prestige = 10
 			}
+			research_points = 7200
 			set_country_flag = military_mission_in_japan
 		}
 	}
@@ -547,7 +547,7 @@ political_decisions = {
 	
 		
 
-trash = {
+	trash = {
 		potential = {
 			has_country_flag = inteyes
 			NOT = { has_country_flag = haiintegrate }
@@ -575,35 +575,30 @@ trash = {
 		}
 	}
 	
-ybarra = {
+	ybarra = {
 		potential = {
 			has_country_flag = inteyes
-			NOT = {
-				OR = {
-					tag = FRA
-					tag = BRG
-				}
-			}
 			NOT = { tag = UCA }
 			NOT = { has_country_flag = mexintegrate }
+			NOT = {has_country_flag = guadelupe}
 		}
 		allow = {
 			OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
-			}
-			AND = {
-				owns = 2172
-				owns = 2184
-				owns = 2149
-				owns = 2174
-				owns = 2167
-				owns = 2160
+				AND = {
+					year = 1880
+					MEX = { in_sphere = THIS }
+				}
+				AND = {
+					tag = FRA
+					FRA = { is_our_vassal = MEX }
+					year = 1860
+				}
 			}
 			money = 1000000
 		}
 		
 		effect = {
+			inherit = MEX
 			set_country_flag = mexintegrate
 			MEX = { all_core = { add_core = THIS } }
 			add_accepted_culture = mexican
@@ -653,21 +648,23 @@ ybarra = {
 				tag = FRA
 				tag = BRG
 			}
-			year = 1850
+
 			NOT = { has_country_flag = maxmil }
-			has_country_modifier = louis_napoleon_iii
+
 		}
 		allow = {
-			money = 200000
+			money = 100000
 		}
 		
 		effect = {
 			set_country_flag = maxmil
-			treasury = -200000
-			MEX={add_casus_belli = {
-				target = THIS
-				type = conquest
-				months = 36
+			money = -100000
+			badboy = 5
+			THIS = {
+				casus_belli = {
+					target = MEX
+					type = make_puppet
+					months = 36
 				}
 			}
 		}

@@ -156,20 +156,10 @@ province_event = {
 	desc = "EVTDESC19000096"
 	
 	trigger = {
-		OR = {
-			is_core = CHI
-			is_core = HKG
-			is_core = MAC
-			is_core = SHA
-			is_core = NGB
-			is_core = BEI
-			is_core = FZH
-			is_core = QNG
-			}
-		any_pop = { addicts = 0.005 }
+		is_core = CHI
+		any_pop = { addicts = 0.01 }
 		NOT = { has_province_modifier = local_opium_habit }
-		NOT = {year = 1900}
-		}
+	}
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -178,9 +168,9 @@ province_event = {
 		add_province_modifier = {
 			name = local_opium_habit
 			duration = 2000
-				}
 			}
 		}
+	}
 		
 province_event = {
 	id = 19000097
@@ -188,20 +178,10 @@ province_event = {
 	desc = "EVTDESC19000097"
 	
 	trigger = {
-		OR = {
-			is_core = CHI
-			is_core = HKG
-			is_core = MAC
-			is_core = SHA
-			is_core = NGB
-			is_core = BEI
-			is_core = FZH
-			is_core = QNG
-			}
+		is_core = CHI
 		any_neighbor_province = { has_province_modifier = local_opium_habit }
 		NOT = { has_province_modifier = local_opium_habit }
-		NOT = {year = 1900}
-		}
+	}
 	mean_time_to_happen = {
 		months = 500
 	}
@@ -210,9 +190,9 @@ province_event = {
 		add_province_modifier = {
 			name = local_opium_habit
 			duration = 3000
-				}
-			}
 		}
+	}
+}
 		
 country_event = {
     id = 19000098

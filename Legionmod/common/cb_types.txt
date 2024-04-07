@@ -1399,7 +1399,6 @@ make_puppet = {
 			tag = JAN
 		}
 		NOT = { is_our_vassal = THIS }
-		NOT = { number_of_states = 4 }
 		is_greater_power = no
 		is_vassal = no
 	}

@@ -1486,7 +1486,7 @@ kwantungarmy = {
 }
 
 kwantung_occupation = {
-	assimilation_rate = 0.2
+	assimilation_rate = 0.33
 	immigrant_attract = 0.15
 	pop_consciousness_modifier = 0.01
 	pop_militancy_modifier = -0.02
@@ -1499,7 +1499,7 @@ hideki_tojo = {
 	core_pop_consciousness_modifier = -0.01
 	diplomatic_points_modifier = 0.25
 	ruling_party_support = 1
-	cb_generation_speed_modifier = 0.33
+	cb_generation_speed_modifier = 0.5
 	tax_efficiency = 0.05
 	icon = 17
 }
@@ -1509,8 +1509,6 @@ kwantunghq = {
 	assimilation_rate = 0.5
 	pop_consciousness_modifier = -0.02
 	pop_militancy_modifier = -0.05
-	local_ship_build = 0.4
-	fort_level = 4
 	icon = 13
 }
 
