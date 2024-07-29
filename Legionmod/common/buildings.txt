@@ -546,7 +546,7 @@ charcoal_burner = {
 	{
 		iron = 100
 		cement = 100
-		timber = 200
+		timber = 100
 	}
 	time = 360
 	visibility = yes

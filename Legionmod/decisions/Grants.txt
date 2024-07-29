@@ -52,9 +52,53 @@ political_decisions = {
 	}
 	
 	
+	get_stockpile_big = {
+		potential = {
+			ai = no
+			is_greater_power = yes
+			NOT = { year = 1837 }
+			NOT = { tag = USA }
+			NOT = { has_country_flag = got_stockpile_big }
+		}
+		
+		allow = {}
+		
+		effect = {
+			set_country_flag = got_stockpile_big
+			money = 200000
+			clipper_convoy = 50
+			small_arms = 200
+			canned_food = 100
+			artillery = 100
+		}
+	}
+	
+	get_stockpile_small = {
+		potential = {
+			ai = no
+			is_secondary_power = yes
+			NOT = { year = 1837 }
+			NOT = { tag = USA }
+			NOT = { has_country_flag = got_stockpile_small }
+		}
+		
+		allow = {}
+		
+		effect = {
+			set_country_flag = got_stockpile_small
+			money = 100000
+			clipper_convoy = 25
+			small_arms = 100
+			canned_food = 50
+			artillery = 50
+		}
+	}
+	
 	get_stockpile = {
 		potential = {
 			ai = no
+			NOT = {is_greater_power = yes}
+			NOT = {is_secondary_power = yes}
 			NOT = { year = 1837 }
 			NOT = { has_country_flag = got_stockpile }
 		}
@@ -65,11 +109,251 @@ political_decisions = {
 			set_country_flag = got_stockpile
 			money = 50000
 			clipper_convoy = 25
-			small_arms = 30
-			canned_food = 40
-			artillery = 30
-			ammunition = 35
-			luxury_clothes = 10
+			small_arms = 50
+			opium = 1
 		}
 	}
+	
+	change_national_value_on = {
+		alert = yes
+		picture = lightbulb_off
+		potential = {
+			NOT = {	has_country_flag = nv_change }
+			ai = no
+		}
+		
+		allow = {
+			NOT = {	has_country_modifier = academic_confusion }
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = { set_country_flag = nv_change }
+		
+	}
+
+	change_national_value_off = {
+		alert = no
+		picture = lightbulb_on
+		potential = {
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = { }
+		
+		effect = { clr_country_flag = nv_change }
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_diplomacy = {
+		picture = switch_to_diplomacy
+		potential = {
+			NOT = { nationalvalue = nv_diplomacy }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = academic_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_diplomacy
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_education = {
+		picture = switch_to_education
+		potential = {
+			NOT = { nationalvalue = nv_education }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = academic_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_education
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+	switch_to_order = {
+		picture = switch_to_order
+		potential = {
+			NOT = { nationalvalue = nv_order }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = academic_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_order
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	switch_to_production = {
+		picture = switch_to_productivity
+		potential = {
+			NOT = { nationalvalue = nv_productivity }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = academic_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_productivity
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	switch_to_equality = {
+		picture = switch_to_equality
+		potential = {
+			NOT = { nationalvalue = nv_equality }
+			#NOT = { has_country_flag = switched_nv }
+			has_country_flag = nv_change
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			NOT = { has_country_modifier = academic_confusion }
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = {
+			clr_country_flag = nv_change
+			set_country_flag = switched_nv
+			nationalvalue = nv_equality
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 1825
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 2
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+}
 }

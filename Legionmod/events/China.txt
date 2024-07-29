@@ -243,8 +243,6 @@ country_event = {
 		1535 = {add_core = XBI}
 		1532 = {add_core = XBI}
 		release = XBI
-		CHI_1513 = {add_core = SXI}
-		release = SXI
 		CHI_1578 = {add_core = YNN}
 		CHI_1601 = {add_core = YNN}
 		CHI_1581 = {add_core = YNN}
@@ -257,7 +255,6 @@ country_event = {
 		activate_technology = ideological_thought
 		activate_technology = state_n_government
 		activate_technology = nationalism_n_imperialism
-		activate_technology = late_enlightenment_philosophy
 		activate_technology = water_wheel_power
 		activate_technology = mechanized_mining
 	}

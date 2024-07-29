@@ -154,59 +154,59 @@ encourage_industry;Intensify Industry;;;;;;;;;;;;;;x
 increase_living_standards;Increase living standards;;;;;;;;;;;;;;x
 spirit_of_unification;Spirit of Unification;;;;;;;;;;;;;x;;;;
 spirit_of_unification;Our people rejoice: At long last we stand united!;;;;;;;;;;;;;x;;;;
-MAC_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-MAC_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+MAC_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+MAC_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 MAC_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-MAC_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+MAC_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 MAC_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 MAC_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 MAC_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-HKG_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-HKG_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+HKG_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+HKG_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 HKG_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-HKG_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+HKG_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 HKG_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 HKG_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 HKG_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-FZH_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-FZH_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+FZH_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+FZH_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 FZH_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-FZH_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+FZH_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 FZH_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 FZH_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 FZH_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-NGB_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-NGB_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+NGB_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+NGB_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 NGB_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-NGB_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+NGB_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 NGB_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 NGB_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 NGB_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-SHA_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-SHA_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+SHA_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+SHA_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 SHA_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-SHA_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+SHA_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 SHA_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 SHA_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 SHA_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-QNG_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-QNG_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+QNG_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+QNG_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 QNG_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-QNG_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+QNG_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 QNG_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 QNG_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 QNG_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-BEI_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-BEI_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+BEI_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+BEI_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 BEI_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-BEI_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+BEI_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 BEI_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 BEI_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 BEI_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x;;;;
-NAN_conservative;Imperial Faction;Faction impériale;Kaiserliche Fraktion;;Facción imperial;;;;;;;;;x;;;;
-NAN_liberal;Reformers;Réformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
+NAN_conservative;Imperial Faction;Faction imperiale;Kaiserliche Fraktion;;Faccion imperial;;;;;;;;;x;;;;
+NAN_liberal;Reformers;Reformateurs;Reformer;;Reformistas;;;;;;;;;x;;;;
 NAN_reactionary;Conservatives;Conservateurs;Konservative;;Conservadores;;;;;;;;;x;;;;
-NAN_anarcho_liberal;Republicans;Républicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
+NAN_anarcho_liberal;Republicans;Republicains;Republikaner;;Republicanos;;;;;;;;;x;;;;
 NAN_socialist;Socialists;Socialistes;Sozialisten;;Socialistas;;;;;;;;;x;;;;
 NAN_communist;Communist Party of China;Parti communiste chinois;Kommunistische Partei Chinas;;Partido Comunista de China;;;;;;;;;x;;;;
 NAN_fascist;Fascists;Fascistes;Faschisten;;Fascistas;;;;;;;;;x
@@ -281,7 +281,7 @@ conquer_germany_setup;Force $RECIPIENT$ to awknowledge our hegemony;;;;;x
 conquer_germany_desc;Do it by Blood and Iron, like the old head said.;;;;;;;;;;x
 acquire_all_cores;Acquire All Cores;;;;;;;;;;;;;x
 acquire_all_cores_short;Acquire all cores from $RECIPIENT$;;;;;;;;;;;;;x
-acquire_all_cores_desc;Aquire all enemy ｧYstatesｧW where we have ｧYcore provincesｧW;;;;;;;;;;;;;x
+acquire_all_cores_desc;Aquire all enemy �Ystates�W where we have �Ycore provinces�W;;;;;;;;;;;;;x
 acquire_all_cores_setup;Acquire all core provinces from $RECIPIENT$;;;;;;;;;;;;;x
 AGRESSION_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;x
 AGRESSION_WAR_ALL_CORES_NAME_USA_MEX;$ORDER$Mexican-American War;;;;;;;;;;;;;x
@@ -309,7 +309,7 @@ Rebuild_our_Fleet_desc;We have increased our Dockyard Production.;;;;;;;;;;;;;x
 bigger_Navy;Expanded Fleet;;;;;;;;;;;;;;x
 bigger_Navy_desc;We have invested heavily in our great fleet.;;;;;;;;;;;;;;x
 Levee_en_masse;Levee en masse ;;;;;;;;;;;;;;x
-Levee_en_masse_desc;The Republic calls for us! Let’s know how to vanquish or how to fail. For she has given the Frenchman his life. And for her he must give to prevail!;;;;;;;;;;;;;;x
+Levee_en_masse_desc;The Republic calls for us! Let�fs know how to vanquish or how to fail. For she has given the Frenchman his life. And for her he must give to prevail!;;;;;;;;;;;;;;x
 appoint_napoleon_title;Make Napoleon III. Emperor;;;;;;;;;;;;;x
 appoint_napoleon_desc;Napoleon III was the first president of France from 1848 to 1852 and the emperor of the French from 1852 to 1870. A nephew of Napoleon I, he was the last monarch to reign over France. Elected to the presidency of the Second Republic in 1848, he seized power by force in 1851, when he could not constitutionally be reelected; he later proclaimed himself Emperor of the French.;;;;;;;;;;;;;x
 The_legacy_of_Napoleon_title;The Legacy of Napoleon;;;;;;;;;;;;;x
@@ -331,7 +331,7 @@ das_buergerliche_gesetzbuch_desc;The introduction in France of the Napoleonic co
 appoint_von_bismarck_title;Appoint Otto von Bismarck;;;;;;;;;;;;;x
 appoint_von_bismarck_desc;Our nation needs a great statesman as its Chancellor, and we have just the man. Otto von Bismarck is currently the country's First Minister, but appointed as the leader of our nation he could see it transformed on the world stage.;;;;;;;;;;;;;x
 otto_von_bismarck;Otto von Bismarck;;;;;;;;;;;;;x
-otto_von_bismarck_desc;The current Chancellor of our nation, von Bismarck is a remarkable statesman… perhaps one of the finest our nation will ever know.;;;;;;;;;;;;;x
+otto_von_bismarck_desc;The current Chancellor of our nation, von Bismarck is a remarkable statesman�c perhaps one of the finest our nation will ever know.;;;;;;;;;;;;;x
 german_colonial_society_desc;We have expanded the German Colonial Society;;;;;;;;;;;;;;x
 taiwan_administration_title;Japanese Formosa;;;;;;;;;;;;x
 taiwan_administration_desc;Japan now controls Formosa, and our modern administration will get rid of Gaijin names and change the island accordingly.;;;;;;;;;;;;x

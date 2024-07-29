@@ -8,14 +8,12 @@ political_decisions = {
 		allow = {
 			war = no
 			civilized = yes
-			NOT = {OR = {
-				exists = MCK
-				exists = XIN
-				exists = XBI
-				exists = SXI
-				exists = YNN
-				exists = GXI
-			} }
+			NOT = {exists = MCK}
+			NOT = {exists = XIN}
+			NOT = {exists = XBI}
+			NOT = {exists = SXI}
+			NOT = {exists = YNN}
+			NOT = {exists = GXI}
 			money = 1000000
 		}
 		effect = {

@@ -546,7 +546,7 @@ clean_coal = {
 		coal = 0.25
 	}
 	rgo_size = {
-		coal = 0.25
+		coal = 0.5
 	}
 	rgo_goods_output = {
 		sulphur = 0.15
@@ -616,13 +616,13 @@ cheap_iron = {
 		precious_metal = 0.2
 	}
 	rgo_goods_output = {
-		coal = 0.1
+		coal = 0.15
 	}
 	rgo_goods_output = {
-		iron = 0.25
+		iron = 0.50
 	}
 	rgo_size = {
-		iron = 0.25
+		iron = 0.33
 	}
 	
 	ai_chance = {
@@ -736,16 +736,19 @@ advanced_metallurgy = {
 	cost = 18000
 
 	rgo_goods_output = {
-		sulphur = 0.33
+		sulphur = 0.25
 	}
 	rgo_goods_output = {
-		coal = 0.33
+		coal = 0.25
 	}
 	rgo_goods_output = {
-		iron = 0.5
+		iron = 0.25
 	}
 	rgo_size = {
-		sulphur = 0.2
+		sulphur = 0.15
+	}
+	factory_goods_output = {
+			steel = 0.1
 	}
 	
 	ai_chance = {
@@ -798,13 +801,13 @@ electric_furnace = {
 	cost = 21600
 
 	factory_goods_output = {
-		steel = 0.05 
+		steel = 0.15 
 	}
 	rgo_goods_output = {
-		coal = 1
+		coal = 0.5
 	}
 	rgo_goods_output = {
-		iron = 1
+		iron = 0.5
 	}
 	
 	ai_chance = {

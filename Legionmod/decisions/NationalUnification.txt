@@ -643,73 +643,39 @@ unite_moldavia_wallachia = {
 		allow = {
 			war = no
 			SER = {
-				OR = {
-					AND = {
-						exists = yes
-						OR = {
-							part_of_sphere = no
-							in_sphere = THIS
-							sphere_owner = { is_sphere_leader_of = THIS }
-						}
-					}
 					all_core = {
 						OR = {
 							owned_by = THIS
 							owner = { in_sphere = THIS }
 							owner = {
 								is_culture_group = south_slavic
-								relation = { who = THIS value = 100 }
-							}
 						}
 					}
 				}
 			}
 			BOS = {
-				OR = {
-					AND = {
-						exists = yes
-						OR = {
-							part_of_sphere = no
-							in_sphere = THIS
-							sphere_owner = { is_sphere_leader_of = THIS }
-						}
-					}
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = { in_sphere = THIS }
-							owner = {
-								is_culture_group = south_slavic
-								relation = { who = THIS value = 100 }
-							}
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = {
+							is_culture_group = south_slavic
 						}
 					}
 				}
 			}
 			CRO = {
-				OR = {
-					AND = {
-						exists = yes
-						OR = {
-							part_of_sphere = no
-							in_sphere = THIS
-							sphere_owner = { is_sphere_leader_of = THIS }
-						}
-					}
-					all_core = {
-						OR = {
-							owned_by = THIS
-							owner = { in_sphere = THIS }
-							owner = {
-								is_culture_group = south_slavic
-								relation = { who = THIS value = 100 }
-							}
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = {
+							is_culture_group = south_slavic
 						}
 					}
 				}
 			}
 		}
-
 		effect = {
 			set_global_flag = yugoslavia_formed
 			prestige = 20
@@ -755,7 +721,6 @@ unite_moldavia_wallachia = {
 					OR = {
 						in_sphere = THIS
 						sphere_owner = { is_sphere_leader_of = THIS }
-						relation = { who = THIS value = 50 }
 					}
 				}
 				country_event = 11108

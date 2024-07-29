@@ -412,6 +412,9 @@ political_decisions = {
 			set_country_flag = bolivian_domination
 			prestige = 10
 			all_core = {
+				limit = {
+					is_core = THIS
+				}
 				remove_core = CLM
 				remove_core = PEU
 				remove_core = CHL

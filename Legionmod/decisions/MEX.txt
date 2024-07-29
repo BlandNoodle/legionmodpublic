@@ -53,11 +53,11 @@ political_decisions = {
 			add_accepted_culture = central_american 
 			prestige = 10
 			set_global_flag = mexican_claim_on_central_america
-
-			UCA = {
-				any_core = {
-					add_core = MEX
+			all_core = {
+				limit = {
+					is_core = UCA
 				}
+				add_core = THIS
 			}
 			badboy = 10
 		}
@@ -188,7 +188,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 2
-			COL = {all_core = {add_core = THIS} }
+			CLM = {all_core = {add_core = THIS} }
 			VNZ = {all_core = {add_core = THIS} }
 			ECU = {all_core = {add_core = THIS} }
 			add_accepted_culture = north_andean
@@ -316,7 +316,7 @@ political_decisions = {
 			any_owned = {remove_core = HON}
 			any_owned = {remove_core = GUA}
 			any_owned = {remove_core = ELS}
-			CLM_1723 = {remove_core = COL}
+			CLM_1723 = {remove_core = CLM}
 			build_factory_in_capital_state = winery
 			any_owned = {
 				limit = {

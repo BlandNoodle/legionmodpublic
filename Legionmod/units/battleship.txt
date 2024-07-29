@@ -24,10 +24,9 @@ battleship = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		steamer_convoy = 80
-		artillery = 20
-		canned_food = 10
-		fuel = 25
+		steamer_convoy = 60
+		artillery = 50
+		canned_food = 75
 	}
 	min_port_level = 4
 	limit_per_port = -1 #-1 is unlimited, but it is possible to limit number of ships per port level.
@@ -36,15 +35,15 @@ battleship = {
 	supply_consumption = 1.0
 	supply_cost = {
 		steamer_convoy = 2.6
-		artillery = 0.6
+		artillery = 0.15
 		canned_food = 0.6
-		fuel = 2.5
+		fuel = 1.5
 		ammunition = 0.14
 	}
 	
 	#Naval Abilties
 	hull = 75
 	gun_power = 55
-	fire_range = 0.75
+	fire_range = 1.00
 	evasion = 0
 }

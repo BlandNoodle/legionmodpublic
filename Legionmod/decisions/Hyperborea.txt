@@ -305,7 +305,7 @@ integrate_nitaly = {
 			is_greater_power = yes
 			is_secondary_power = yes
 		}
-		NOT = { year = 1870 }
+		ITA = { ai = yes }
 		NOT = { tag = ITA }
 		NOT = { has_global_flag = nintegrate }
 	}
@@ -348,7 +348,7 @@ integrate_shitaly = {
 			is_greater_power = yes
 			is_secondary_power = yes
 		}
-		NOT = { year = 1870 }
+		ITA = { ai = yes }
 		NOT = { tag = ITA }
 		NOT = { has_global_flag = sintegrate }
 	}

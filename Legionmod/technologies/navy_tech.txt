@@ -623,8 +623,8 @@ iron_steamers = {
 	year = 1860
 	cost = 10800
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 supply_consumption = 0.2 }
-	clipper_transport = { maximum_speed = -2}
+	navy_base = { maximum_speed = 2 supply_consumption = 0.1 }
+	clipper_transport = { maximum_speed = -2 }
 	frigate = { maximum_speed = -2 }
 	manowar = { maximum_speed = -2 }
 	steam_transport = { maximum_speed = 1}
@@ -703,13 +703,12 @@ steel_steamers = {
 	year = 1880
 	cost = 14400
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 supply_consumption = 0.2 } 
-	clipper_transport = { maximum_speed = -2}
-	frigate = { maximum_speed = -2 }
-	manowar = { maximum_speed = -2 
-	steam_transport = { maximum_speed = 1}
-	ironclad = { maximum_speed = -2 }
-	commerce_raider = { maximum_speed = -2 }
+	navy_base = { supply_consumption = 0.1 } 
+	battleship = { maximum_speed = 2 }
+	cruiser = { maximum_speed = 2 }
+	dreadnought = { maximum_speed = 2 }
+	steam_transport = { maximum_speed = 3 }
+	monitor = { maximum_speed = 2 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -785,13 +784,12 @@ steam_turbine_ships = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 supply_consumption = 0.2 } 
-	clipper_transport = { maximum_speed = -2}
-	frigate = { maximum_speed = -2 }
-	manowar = { maximum_speed = -2 }
-	steam_transport = { maximum_speed = 1}
-	ironclad = { maximum_speed = -2 }
-	commerce_raider = { maximum_speed = -2 }
+	navy_base = { supply_consumption = 0.1 } 
+	battleship = { maximum_speed = 2 }
+	cruiser = { maximum_speed = 2 }
+	dreadnought = { maximum_speed = 2 }
+	steam_transport = { maximum_speed = 3 }
+	
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this
@@ -867,13 +865,11 @@ oil_driven_ships = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
-	navy_base = { maximum_speed = 2 supply_consumption = 0.2 } 
-	clipper_transport = { maximum_speed = -2}
-	frigate = { maximum_speed = -2 }
-	manowar = { maximum_speed = -2 }
-	steam_transport = { maximum_speed = 1}
-	ironclad = { maximum_speed = -2 }
-	commerce_raider = { maximum_speed = -2 }
+	navy_base = { supply_consumption = 0.2 } 
+	battleship = { maximum_speed = 2 }
+	cruiser = { maximum_speed = 2 }
+	dreadnought = { maximum_speed = 2 }
+	steam_transport = { maximum_speed = 1 }
 	ai_chance = {
 		factor = 1
 		# Land-locked countries don't research this

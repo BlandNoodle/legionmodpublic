@@ -8,11 +8,11 @@ devastating_flood_desc;Opening the floodgates has destroyed much of our develope
 dutch_flood_cooldown;Flood Cooldown;;;;;;;x
 dutch_flood_cooldown_desc;Gotta let the water build up again before you can bust;;;;;x
 EVTNAME60168004;Fort Destroyed;;;;;;;x
-EVTDESC60168004;Combat in §Y$PROVINCE$§W has destroyed the fort!;;;;;;x
-EVTOPTA60168004;Who cares;;;;;;x
+EVTDESC60168004;Combat in §Y$PROVINCE$§B has destroyed the fort!;;;;;;x
+EVT60168004OPTA;Who cares;;;;;;x
 EVTNAME60168005;Railway Destroyed;;;;;;x
-EVTDESC60168005;Combat in §Y$PROVINCE$W has destroyed the local rail line!;;;;;;x
-EVTOPTA60168005;No shot;;;;;;x
+EVTDESC60168005;Combat in §Y$PROVINCE$§B has destroyed the local rail line!;;;;;;x
+EVT60168005OPTA;No shot;;;;;;x
 peacetime_mobilization;Peacetime Mobilization;;;;;;;x
 peacetime_mobilization_desc;womp womp;;;;;;;x
 campsystem_title;Begin Correctional Program;;;;;;x
@@ -165,3 +165,70 @@ hungryhippos_title;Hungary Hungary Hippos;;;;;;x
 hungryhippos_desc;Go on. Make it. Super Germany. No one's stopped you yet, so might as well finish the map, right? Nothing could go wrong, right? Become the Hungriest of Hippos;;;;;;x
 westerntech_title;Fix Tech;;;;;;x
 westerntech_desc;I have an unclaimed Westernization and I need techs now!;;;;;;x
+PRU_690;Danzig;;;;;;;x
+HEK_567;Hessen;;;;;;x
+HEK_568;Magdeburg;;;;;;;;x
+EVTNAME19000148;UK Guide;;;;;;;x
+EVTNAME19000149;Russia Guide;;;;;;x
+EVTNAME19000152;Austria Guide;;;;;;x
+EVTNAME19000153;Prussia Guide;;;;;;x
+EVTNAME19000154;Ottoman Guide;;;;;;x
+EVTNAME19000155;France Guide;;;;;;;x
+EVTDESC19000148;YOU START THE OPIUM WAR (it gives you cash money and throughput when you win it). Sepoy Rebellion happens sometime after breechloaders so be ready with many gentlemen in India. Great Game starts before the game even unpauses so get invest those dollas!. Southwest England starts with 70k unemployed craftsmen so go Tory and build something for them. If you need tax dolla annex Panjab for easy pops and you should be floating on it after that. You're the UK!!! So, this means that YOU get to setup how this game will turnout pretty much you're very hard scaling AND strong at game start so use this to possbily help a brother in need (example: Ottomans, Spain, Prussia, Japan, these nations all suffer in earlygame but are lategame powerhouses so if you help them they'll never forget it! o7. Start influences Afgan at game 0 for the great game decision. Unless you're planning on fighting Russia on land over India your navy will keep you safe (I will keeeeep you safe!) So you should def navy max always have one leg up on the guy next to you and keep an eye out on who's actually keeping up with navy. IT'S ALL OR NOTHING!!! (My rec) Keep your army either full European focus Africa focus or Asia focus if you spread yourself too thin you'll own nothing and be happy.;;;;;;;x
+EVTDESC19000149;You dumb ah hell boi choose your tech with the next 5 years in mind unironically. National stockpile is how to make free Arty at the very start so just click it when you que up. What you choose (Early, Mid, Late) will impact how you play the rest of the game so choose wisely and all in on it. No money? Dont do commerce its a trap do practical steam engine it gives farming output +15 mining BUT gives 25 grain production which is your most exported good so you make mega tariff money. Green alliance?  Only if you want to kill Austria at game start. remember what happened?. People like to ally Ottomans and peacefully split up Southern Europe, or you could ally Austria and take it during Egypt civil war. You get Caucasus accepted and ottomans gets azerbaijan accepted so help or hurt them. Central Asia is cash money. if you take Great Game you get Persia for free! Communist Russia is actually viable! Late game Russia go full education maxxing get those people reading! Early game Russia. . . Lets kill these guys go full mil tech and int missile your neighbors for land and research points. Great Game is a late game russia decider you better start influencing at game start because UK gonna be gunnin for it. Communist decisions are very good but also very scary choose wisely.;;;;;;x
+EVTDESC19000152;Green alliance is scary. . . Need State and Government + Italy and NGF formed to make Austria-Hungary. You in everybody's sights day 1. If you lose your spheres early you lose prestige n shit. Build Factories early and not near where places are likely to be annexed (Italy Russia Ottoman Prussia border). You NEED an ally, suggested you get one bordering you so they don't kill you at game start. Secret EVIL ally: France Austria alliance (hugbox imminent). You might get put on chopped ones day one so be ready to mil up. You got very good terrain vs Russia and Italy (urban tile milan) Ottomans is a shitshow front. Austria Hungary decision needs either Italy and NGF + State and government (common path) or EVIL path (kill one of them and wait until rev and counterrev). ;;;;;;x
+EVTDESC19000153;Ems Dispatch is not a guaranteed war with France they can say yes or no. An mein Volk only lasts for 2 years so use it up! Beg UK to not let France get Belgium over you, if there is a Netherlands you got to glaze him up sexual style. Free money! A gold mine is in your future young man. You're one of the biggest Industrial powerhouses in the game so act like it and do it early before your capitalists ruin it for you. I would keep army funding up for fear of a France declaration/being able to dec on France. Try to form the secret nation if all else is lost (lose Sigmaringen AND Rhineland or Schlesien ). Study the alsace shape like it's your life, try to call in baden to expand the small front. If you can get a secret mob off then declare on France you're set, Prussia cheese strats are always funny to watch (surprise is key sometimes). Mil maxxing, you don't need to focus education just remember to do philosophy and political thought.;;;;;;x
+EVTDESC19000154;You CANNOT lose Egypt NO MATTER THE COST (game ruining). Learn to beg (you are the poor homeless man on fent in Europe). Whenever you feel down. . . just remember lategame hyperscaler. Defund/Delete your ships (unless insta war). Focus economic reform (tanzimat reforms). The more tiny nations you conquest the more pops you get to tax (egypt is free money!). Learn your opps quickly lest they dispatch you on day one!. Absolute African domination, you own it act like it! Omans free too. Caucasus focus day one (you get azerbaijan accepted and they got some good stuff there. Egypt war in 1837 is scripted ask people to support you and if they support Egypt don't get butthurt just let the Egyptians attrition themselves to death in the deserts. TAKE PUPPET EGYPT PEACEDEAL YOU GET CORES BACK FOR FREE PLUS PUPPET. Education maxxing (even if people threaten early its not worth getting early mil tech -kramer).;;;;;;x
+EVTDESC19000155;Being Evil as this nation gets you rewarded (History only remembers the Villains, Don't be a Hero). You have no opps you are THE opp (take Tunis asap). Only winners can be Napoleon. . . You make money printers feel free to give grants in exchange for quickie sex. Build military goods from the start and keep a heavy focus on your limited factory space. Prussia is racing to kill you at a minutes notice if you slip up you're done! You get rewarded for being Evil so make sure to kill a player early! (Your paths of expansion are limited). Take Tunis ASAP you need it for La Legion Entrangere. Try for an Asian delicacy or two. EVIL STRAT: Kill players day 1 (Spain, Germany, Italy, anyone) and show no mercy. Tslegit strat: Encourage soldiers day 1 get a goonish amount of pops and roll over Germany. Secret DoD formable if you can find it (take benelux and become #1gp). Don't try to save Levee en Masse just abuse it to buy yourself time.;;;;;;;x
+OPTA19000148;Thank you brother;;;;;;;x
+OPTA19000149;Thank you brother;;;;;;x
+OPTA19000152;Thank you brother;;;;;;x
+OPTA19000153;Thank you brother;;;;;;x
+OPTA19000154;Thank you brother;;;;;;x
+OPTA19000155;Thank you brother;;;;;;;x
+uk_guide_title;UK Guide;;;;;;;x
+rus_guide_title;Russia Guide;;;;;;x
+kuk_guide_title;Austria Guide;;;;;;x
+pru_guide_title;Prussia Guide;;;;;;x
+tur_guide_title;Ottoman Guide;;;;;;x
+fra_guide_title;France Guide;;;;;;;x
+uk_guide_desc;For new players, will disappear in 12 months;;;;;;;x
+rus_guide_desc;For new players, will disappear in 12 months;;;;;;x
+kuk_guide_desc;For new players, will disappear in 12 months;;;;;;x
+pru_guide_desc;For new players, will disappear in 12 months;;;;;;x
+tur_guide_desc;For new players, will disappear in 12 months;;;;;;x
+fra_guide_desc;For new players, will disappear in 12 months;;;;;;;x
+indirect_fire;Indirect Fire;;;;;;x
+minie_ball;Mini Ball;;;;;x
+spray_n_pray;Spray N Pray;;;;;;x
+concrete_pillboxes;Concrete Forts;;;;;x
+EVTNAME19000156;Don't Blink;;;;;;;x
+EVTNAME19000157;Don't Speak;;;;;;x
+EVTNAME19000158;Don't Run;;;;;;;;x
+EVTDESC19000156;A betrayal;;;;;;;;;x
+EVTDESC19000157;A sneak attack;;;;;;;;;x
+EVTDESC19000158;It's too late;;;;;;;;x
+OPTA19000156;help;;;;;;;;;;;x
+OPTA19000157;help;;;;;;;;;;x
+OPTA19000158;HELP;;;;;;;;;;x
+nv_order;Order;;;;;;;;;;;;;;;;;;;;;;;;x
+nv_tradition;Tradition;;;;;;;;;;;;;;;;;;;;;;;;x
+nv_productivity;Productivity;;;;;;;;;;;;;;;;;;;;;;;;x
+nv_diplomacy;Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;x
+nv_education;Education;;;;;;;;;;;;;;;;;;;;;;;;x
+change_national_value_off_title;Change National Value Off;;;;;;;;;;;;x
+change_national_value_off_desc;TURN IT OFF!!!!;;;;;;;;;;;;x
+change_national_value_on_title;Change National Value On;;;;;;;;;;;;x
+change_national_value_on_desc;Let me cook!!!!;;;;;;;;;;;;x
+switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +50%§W;;;;;;;;;;;;;x
+switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +40%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
+switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +5%\nLeadership Points Gain: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
+switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +15%\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5§W;;;;;;;;;;;;x

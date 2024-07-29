@@ -312,6 +312,7 @@ flintlock_rifles = {
 	cost = 3600
 	unciv_military = yes
 	
+	mobilisation_size = 0.02
 	activate_unit = infantry
 	combat_width = -1
 

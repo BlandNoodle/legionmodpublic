@@ -13,7 +13,7 @@ province_event = {
 		has_building = fort
 	}
 	
-	mean_time_to_happen = { months = 600 }
+	mean_time_to_happen = { months = 500 }
 	
 	option = {
 		name = "EVT60168004OPTA"
@@ -36,7 +36,7 @@ province_event = {
 		has_building = railroad
 	}
 	
-	mean_time_to_happen = { months = 500 }
+	mean_time_to_happen = { months = 400 }
 	
 	option = {
 		name = "EVT60168005OPTA"

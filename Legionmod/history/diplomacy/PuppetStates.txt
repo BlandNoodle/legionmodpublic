@@ -49,12 +49,6 @@ vassal = {
 	end_date = 1890.11.23
 }
 
-vassal = {
-	first = TUR
-	second = BOS
-	start_date = 1815.1.1
-	end_date = 1890.11.23
-}
 
 vassal = {
 	first = TUR

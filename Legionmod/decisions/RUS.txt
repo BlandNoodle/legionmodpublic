@@ -124,10 +124,12 @@ political_decisions = {
 				}
 				reduce_pop = 0.33
 			}
-			casus_belli = {
-				target = GEO
-				type = conquest
-				months = 48
+			GEO = {
+				add_casus_belli = {
+					target = THIS
+					type = conquest
+					months = 48
+				}
 			}
 		}
 	}
@@ -155,7 +157,8 @@ political_decisions = {
 				}
 			}
 			add_accepted_culture = georgian
-			AZB ={add_casus_belli = {
+			AZB = {
+				add_casus_belli = {
 					target = THIS
 					type = conquest
 					months = 48
@@ -635,10 +638,11 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = {has_country_flag = buildchosen}
+			NOT = {year = 1838}
 		}
 		allow = {
 			tag = RUS
-			NOT = {year = 1837}
+			NOT = {year = 1838}
 		}
 		effect = {
 			RUS = {country_event = {id = 19000150}}
@@ -647,6 +651,7 @@ political_decisions = {
 	}
 	
 	thefourthoption = {
+		picture = "wiseguy"
 		potential = {
 			tag = RUS
 			NOT = {has_country_flag = buildchosen}
@@ -659,10 +664,9 @@ political_decisions = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = esotericgnositicism
+				name = wizardry
 				duration = 3650
 			}
-			set_country_flag = buildchosen
 			set_country_flag = fourthchoice
 		}
 	}
@@ -670,7 +674,7 @@ political_decisions = {
 	kazakhpeople = {
 		potential = {
 			tag = RUS
-			NOT = {has_country_flag = kazazkhstrong}
+			NOT = {has_country_flag = kazakhstrong}
 		}
 		allow = {
 			tag = RUS
@@ -684,7 +688,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
-			add_accepted_culture = kazakh
+			add_accepted_culture = kazak
 			set_country_flag = kazakhstrong
 		}
 	}

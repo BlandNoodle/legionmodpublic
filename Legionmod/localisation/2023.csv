@@ -1,32 +1,32 @@
-exploit_kiruna_iron_mine_title;Exploit the Kiruna Iron Mine;;;;;;;;;;;;;;
-exploit_kiruna_iron_mine_desc;With new technological advances, the giant iron reserves in Kiruna are finally ready for full exploitation.;;;;;;;;;;;;;;
-expand_kiruna_iron_mine_title;Expand Kiruna Iron Mine;;;;;;;;;;;;;;
-expand_kiruna_iron_mine_desc;Thanks to new explosive Nitroglycerin, we can expand our mining operations even further.;;;;;;;;;;;;;;
-establish_mining_colony_title;Establish Mining Colony;;;;;;;;;;;;;;
-establish_mining_colony_desc;Our mining operations are now in full swing and the reserves will not be depleted for centuries. By improving living conditions in the arctic climate for our miners, we can increase our yield for generations to come!;;;;;;;;;;;;;;
-intensify_mining_kiruna_iron_mine_title;Further intensify Mining;;;;;;;;;;;;;;
-intensify_mining_kiruna_iron_mine_desc;With new rail technology, we can expand our operation even further!;;;;;;;;;;;;;;
-kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;
-expanded_kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;
-intensify_kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;
-kiruna_mining_colony;Well-Run Mining Colony;;;;;;;;;;;;;;
-EVTNAME9990001;New Iron Ore Deposit discovered;;;;;;;;;;;;;;
-EVTDESC9990001;Our miners have hit a new rich deposit of iron ore in our Kiruna Iron Mine. We have not yet explored it fully, but are certain of a huge increase of iron production.;;;;;;;;;;;;;;
-EVTOPTA9990001;Let's see what we got!;;;;;;;;;;;;;;
-chop_down_amazon_rainforest_title;Use the Amazon Rainforest;;;;;;;;;;;;;;
-chop_down_amazon_rainforest_desc;Our rainforest is the largest on Earth. Many beautiful and, most importantly, expensive types of timber can be found here. We should make full use of our resources.;;;;;;;;;;;;;;
-charcoal_burner;Charcoal Burner;;;;;;;;;;;;;;
-charcoal_burner_desc;Timber is heated into charcoal for further industrial applications;;;;;;;;;;;;;;
-woolfabric_factory;Wool Fabric Mill;;;;;;;;;;;;
-woolfabric_factory_desc;Wool is woven into fabric and dyed here;;;;;;;;;;;;;
+exploit_kiruna_iron_mine_title;Exploit the Kiruna Iron Mine;;;;;;;;;;;;;;x
+exploit_kiruna_iron_mine_desc;With new technological advances, the giant iron reserves in Kiruna are finally ready for full exploitation.;;;;;;;;;;;;;;x
+expand_kiruna_iron_mine_title;Expand Kiruna Iron Mine;;;;;;;;;;;;;;x
+expand_kiruna_iron_mine_desc;Thanks to new explosive Nitroglycerin, we can expand our mining operations even further.;;;;;;;;;;;;;;x
+establish_mining_colony_title;Establish Mining Colony;;;;;;;;;;;;;;x
+establish_mining_colony_desc;Our mining operations are now in full swing and the reserves will not be depleted for centuries. By improving living conditions in the arctic climate for our miners, we can increase our yield for generations to come!;;;;;;;;;;;;;;x
+intensify_mining_kiruna_iron_mine_title;Further intensify Mining;;;;;;;;;;;;;;x
+intensify_mining_kiruna_iron_mine_desc;With new rail technology, we can expand our operation even further!;;;;;;;;;;;;;;x
+kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;x
+expanded_kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;x
+intensify_kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;x
+kiruna_mining_colony;Well-Run Mining Colony;;;;;;;;;;;;;;x
+EVTNAME9990001;New Iron Ore Deposit discovered;;;;;;;;;;;;;;x
+EVTDESC9990001;Our miners have hit a new rich deposit of iron ore in our Kiruna Iron Mine. We have not yet explored it fully, but are certain of a huge increase of iron production.;;;;;;;;;;;;;;x
+EVTOPTA9990001;Let's see what we got!;;;;;;;;;;;;;;x
+chop_down_amazon_rainforest_title;Use the Amazon Rainforest;;;;;;;;;;;;;;x
+chop_down_amazon_rainforest_desc;Our rainforest is the largest on Earth. Many beautiful and, most importantly, expensive types of timber can be found here. We should make full use of our resources.;;;;;;;;;;;;;;x
+charcoal_burner;Charcoal Burner;;;;;;;;;;;;;;x
+charcoal_burner_desc;Timber is heated into charcoal for further industrial applications;;;;;;;;;;;;;;x
+woolfabric_factory;Wool Fabric Mill;;;;;;;;;;;;x
+woolfabric_factory_desc;Wool is woven into fabric and dyed here;;;;;;;;;;;;;x
 release_vasall_title;Release Vassals;;;;;;;;;;;;;;x
 release_vasall_desc;We will release all our vassals that are currently NOT in our sphere;;;;;;;;;;;;;;x
-offer_grants_title;Offer grants;;;;;;;;;;;;;;
-offer_grants_desc;Allow other nations to ask us for grants;;;;;;;;;;;;;;
-discontinue_offer_grants_title;Stop offering grants;;;;;;;;;;;;;;
-discontinue_offer_grants_desc;Stop allowing other nations to ask us for grants;;;;;;;;;;;;;;
-request_grants_title;Ask for grants;;;;;;;;;;;;;;
-request_grants_desc;Asks all nations who are currently offering grants for financial aid. Check first if other nations are offering grants!;;;;;;;;;;;;;;
+offer_grants_title;Offer grants;;;;;;;;;;;;;;x
+offer_grants_desc;Allow other nations to ask us for grants;;;;;;;;;;;;;;x
+discontinue_offer_grants_title;Stop offering grants;;;;;;;;;;;;;;x
+discontinue_offer_grants_desc;Stop allowing other nations to ask us for grants;;;;;;;;;;;;;;x
+request_grants_title;Ask for grants;;;;;;;;;;;;;;x
+request_grants_desc;Asks all nations who are currently offering grants for financial aid. Check first if other nations are offering grants!;;;;;;;;;;;;;;x
 EVTNAME999999901;Tractors;;;;;;x
 EVTDESC999999901;mayo drive tractor,plant soybean, make money!;;;;;;x
 EVTOPTA999999901;go mayo go!;;;;;;x
@@ -42,9 +42,9 @@ EVTOPTA999999904;shop like a billionaire!;;;;;;;;x
 EVTNAME999999905;Machine Tools;;;;;;x
 EVTDESC999999905;HOI4 industry tech but in 1800's, hitler couldnt get it right so they have to research it all over again for some reason.;;;;;;x
 EVTOPTA999999905;SCARLET FEVER YOURSELF, NOW!;;;;;;;;x
-EVTNAME19000087;I AM HERE;;;;;;;;;;x
-EVTDESC19000087;The bite of 1887?;;;;;;;x
-EVTOPTA19000087;...;;;;;;;;x
+EVTNAME19000087;The Strongest Creature on Earth;;;;;;;;;;x
+EVTDESC19000087;If someone is born a male, at least once in his life he'll dream of becoming the strongest man alive. Grappler, the martial artist who aims to become the strongest in the world!;;;;;;;x
+EVTOPTA19000087;. . .;;;;;;;;x
 EVTNAME19000088;Baldi's Basics in Nation Building;;;;;;;x
 EVTDESC19000088;You Picked Sardinia Piedmont! Big winning now.;;;;;;;;;;x
 EVTOPTA19000088;I wish you the best, too;;;;;;;x
@@ -63,8 +63,8 @@ sweep;Cleaners;;;;;;;x
 sweep_desc;This modifier dont even do anything anymore;;;;;;;;x
 baldieffect;Baldi;;;;;;;;x
 baldieffect_desc;How did you end up like this, assuming you aren't AI rn. Bro you are FUCKED, F-U-C-K-E-D!;;;;;;;x
-fredbear;Golden Freddy;;;;;;;;;x
-fredbear_desc;Fuckin' Golden Freddy is RAMPAGING through your shit right now! GET IT TOGETHER!!!;;;;;;;x
+fredbear;The King;;;;;;;;;x
+fredbear_desc;§RThe King§W is here. . . .;;;;;;;x
 russian_tech_school;Westernizer vs Slavophile;;;;;;;;x
 PROV3249;Bardeneccio;;;;;;;x
 wakanda_buff;Wakanda;;;;;;;;;x
@@ -98,8 +98,8 @@ EVTDESC19000092;There be treasure beneath the crust of the Earth;;;;;;x
 EVTOPTA19000092;WE ARE LEGION;;;;;;;x
 hollowearthp;Hollow Earth Site;;;;;;x
 hyperboreaexodus;The Exodus;;;;;;x
-EVTNAME19000093;The Decision;;;;;;x
-EVTDESC19000093;Time to Chose. in the Beginning, there was. . .;;;;;;x
+EVTNAME19000093;Hello Everypony!;;;;;;x
+EVTDESC19000093;There are no more barriers to cross. All I have in common with the uncontrollable and the insane, the vicious and the evil, all the mayhem I have caused and my utter indifference toward it, I have now surpassed. My pain is constant and sharp and I do not hope for a better world for anyone, in fact, I want my pain to be inflicted on others. I want no one to escape. But even after admitting this, there is no catharsis. My punishment continues to elude me, and I gain no deeper knowledge of myself. No new knowledge can be extracted from my telling. This confession has meant nothing.;;;;;;x
 EVTOPTA19000093;Saiyans United!;;;;;;;;x
 EVTOPTB19000093;I will rule this world, or see it burnt around me!;;;;;;;x
 integrate_poles_title;Integrate Poland;;;;;;x
@@ -159,7 +159,7 @@ free_china_trade;Free China Trade;;;;;;;x
 free_china_trade_desc;Trade with the Qing is finally free!;;;;;;;x
 political_reformed_nation;REFORMED!;;;;;;;x
 save_the_nation0.5;Goku;;;;;;;;x
-save_the_nation0.5_desc;Hi im Goku!;;;;;;;x
+save_the_nation0.5_desc;Hi im Goku!;;;;;;;;x
 save_the_nation1;Vegeta;;;;;;x
 save_the_nation1_desc;Hello, I am Vegeta, Prince of Saiyans;;;;;;x
 save_the_nation1.5;Freiza;;;;;;x
@@ -404,8 +404,8 @@ lm_accept_catalonian_ita_title;Integrate Catalonia;;;;;;x
 lm_accept_catalonian_ita_desc;I mean, they don't even wanna be with spain you know what I'm sayin my man, like they should be Italian and shit fr fr.  Link up for real, for my legions and shit, ROME TILL I DIE!!!;;;;;;x
 tanzimat_reforms_army_title;Oh Mein Moltke Pasha;;;;;;x
 tanzimat_reforms_army_desc;Moltke shows us the way of the killing people.  Very interesting. . .;;;;;;;x
-get_stockpile_title;Get National Stockpile;;;;;;;x
-get_stockpile_desc;Get ez monies and goods.;;;;;;;x
+get_stockpile_big_title;Get Large National Stockpile;;;;;;;x
+get_stockpile_big_desc;Get that money big dawg!.;;;;;;;x
 lm_relize_roman_ambitions_title;Realize Roman Ambitions;;;;;;;;x
 lm_relize_roman_ambitions_desc;We wuz Rome and shit!  We gotta get back to the glory days and FUCK on these Frenchies.  ITALY #1!!!!!!!;;;;;;x
 lm_ita_accept_occitan_title;Accept the Occitans;;;;;;x
@@ -668,3 +668,7 @@ Lasalle_desc;Lasalle has an alarming following of socialists who have been sprea
 firsttowelfare_title;Contain Socialism;;;;;;x
 firsttowelfare_desc;While useful for curtailing the liberals, the socialists have continued to enjoy political power as a result of cooperation. Their trademark promises are welfare for the elderly and the unemployed, who says we can't enact these as a part of our "practical Christian" doctrine?;;;;;x
 EVTDESC19000139;Random Polish event has commenced;;;;;;x
+get_stockpile_small_title;Get National Stockpile;;;;;;;x
+get_stockpile_small_desc;Pick yourself up and try again.;;;;;;;x
+get_stockpile_title;Get Scraps;;;;;;;x
+get_stockpile_desc;I guess you get some scraps. . .;;;;;;;x

@@ -1282,17 +1282,12 @@ country_event = {
 			}
 			AND = {
 				tag = FRA
-				NOT = {
-					OR = {
-						BAD = {in_sphere = THIS}
-						WUR = {in_sphere = THIS}
-						owns = 412
-					}
-				}
-			}			
+				NOT = {BAD = {in_sphere = THIS}}
+				NOT = {WUR = {in_sphere = THIS}}
+			}
 			tag = KUK
 		}
-	}
+	}			
 			
 	mean_time_to_happen =  {
 		months = 1
@@ -1361,6 +1356,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_country_flag = germancontest
+		NOT = {has_country_flag = germanwinner}
 		year = 1870
 		NOT = {GER = exists}
 		NOT = {SGF = exists}
@@ -1378,7 +1374,7 @@ country_event = {
 		clr_country_flag = germancontest
 		prestige = 50
 		add_accepted_culture = south_german
-		594 = {owner = {594 = {secede_province = AUS} } }
+		594 = {owner = {594 = {secede_province = FRA} } }
 		set_country_flag = germanwinner
 	}
 }

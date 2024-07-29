@@ -1337,6 +1337,9 @@ empirical_interdiction_reports = {
 		navy_base = {
 			default_organisation = 1
 		}
+		factory_goods_output = {
+			artillery = 0.02
+		}
 	}
 }
 
@@ -1397,6 +1400,9 @@ ammunition_conservation_system = {
 	effect = {
 		navy_base = {
 			default_organisation = 1
+		}
+		factory_goods_output = {
+			artillery = 0.02
 		}
 	}
 }
@@ -1478,6 +1484,9 @@ local_military_government = {
 		navy_base = {
 			default_organisation = 1
 		}
+		factory_goods_output = {
+			artillery = 0.02
+		}
 	}
 }
 
@@ -1519,6 +1528,9 @@ combined_arms_planning = {
 	effect = {
 		navy_base = {
 			default_organisation = 1
+		}
+		factory_goods_output = {
+			artillery = 0.02
 		}
 	}
 }

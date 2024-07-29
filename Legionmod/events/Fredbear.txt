@@ -8,26 +8,18 @@ country_event = {
 	trigger = {
 		civilized = yes
 		is_independant = yes
-		year = 1887
+		year = 1850
 		NOT = {
-			has_country_flag = fredbear
+			has_global_flag = fredbear
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 5000
+		months = 8000
 		
 		modifier = {
-			factor = 0.6
+			factor = 0.65
 			average_militancy = 8
-		}
-		modifier = {
-			factor = 0.55
-			average_militancy = 7
-		}
-		modifier = {
-			factor = 0.5
-			average_militancy = 6
 		}
 	}
 		
@@ -35,11 +27,27 @@ country_event = {
 			name = "EVTOPTA19000087"
 			add_country_modifier = {
 				name = fredbear
-				duration = 420
+				duration = 1095
 			}
-			set_country_flag = fredbear
+			any_pop = {
+				limit = {
+					is_accepted_culture = NO
+				}
+				militancy = 8
+				consciousness = 8
+			}
+			any_neighbor_country = {
+				limit = {
+					NOT = { alliance_with = THIS }
+				}
+				add_casus_belli = {
+					target = THIS
+					type = cut_down_to_size
+					months = 24
+				}
+			}
+			set_global_flag = fredbear
 		}
-	
 }
 
 
@@ -70,13 +78,8 @@ country_event = {
 			set_country_flag = chosen
 			define_general = {
 				name = Goku
-				personality = defence_3.1
-				background = attack_2.1
-			}
-			define_general = {
-					name = Vegeta
-					personality = defence_2.1
-					background = attack_3.1
+				personality = defence_5.1
+				background = attack_1.1
 			}
 			prestige = 5
 		}
@@ -88,12 +91,7 @@ country_event = {
 					personality = defence_1.1
 					background = attack_5.1
 				}
-				define_general = {
-					name = King-Cool
-					personality = defence_5.1
-					background = attack_1.1
-				}
-			prestige = 6
+			prestige = 5
 			set_country_flag = chosen
 		}
 	}

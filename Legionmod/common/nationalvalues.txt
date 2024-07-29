@@ -1,20 +1,31 @@
 nv_order = {
-	mobilisation_size = 0.02
-	mobilisation_economy_impact = 1.0
-	land_organisation = 0.2
-	org_regain = 0.1
-}
-
-nv_liberty = {
-	mobilisation_size = 0.02
-	mobilisation_economy_impact = 1.0
-	global_immigrant_attract = 0.3
-	political_reform_desire = 0.25
+	org_regain = 0.05
+	leadership_modifier = 1
+	land_unit_start_experience = 5
+	army_tech_research_bonus = 0.05
 }
 
 nv_equality = {
-	mobilisation_size = 0.03
-	global_immigrant_attract = 0.25
-	mobilisation_economy_impact = 1.1
-	non_accepted_pop_militancy_modifier = -0.02
+	non_accepted_pop_militancy_modifier = -0.1
+	global_assimilation_rate = 0.5
+	culture_tech_research_bonus = 0.05
+}
+
+nv_productivity = {
+	factory_input = -0.05
+	factory_output = 0.15
+	commerce_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
+}
+
+nv_education = {
+	education_efficiency_modifier = 0.40
+	culture_tech_research_bonus = 0.05
+}
+
+nv_diplomacy = {
+	diplomatic_points_modifier = 2
+	influence_modifier = 0.5
+	badboy = -0.05
+	cb_generation_speed_modifier = 0.5
 }

@@ -4,7 +4,7 @@ campsystem = {
 		picture = "startgulags"
 		potential = {
 			tag = RUS
-			year = 1903
+			is_ideology_enabled = communism
 			ruling_party_ideology = communist
 			NOT = {has_country_flag = gulagcamp}
 		}
@@ -45,7 +45,6 @@ campsystem = {
 
 	octoberrev = {
 		potential = {
-			year = 1903
 			tag = RUS
 			is_ideology_enabled = communist
 			NOT = {has_country_flag = redoctober}
@@ -82,10 +81,10 @@ campsystem = {
 			government = proletarian_dictatorship
 			NOT = {has_country_flag = poliburo}
 			has_country_flag = big_brother_is_watching
-			year = 1918
 		}
 		allow = {
 			ruling_party_ideology = communist
+			mass_politics = 1
 		}
 		effect = {
 			prestige = 5
@@ -111,7 +110,7 @@ campsystem = {
 			tag = RUS
 			government = proletarian_dictatorship
 			NOT = {has_country_flag = sovpoland}
-			exists= POL
+			has_country_flag = polishuprising
 			has_country_flag = gulagcamp
 		}
 		allow = {
@@ -172,11 +171,7 @@ campsystem = {
 			tag = RUS
 			government = proletarian_dictatorship
 			NOT = {has_country_flag = sovbaltic}
-			OR = {	
-					exists = LIT
-					exists = LAT
-					exists = EST
-				}
+			has_country_flag = balticfight
 			has_country_flag = gulagcamp
 		}
 		allow = {

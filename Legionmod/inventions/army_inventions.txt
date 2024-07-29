@@ -219,6 +219,15 @@ staff_command_support = {
 	}
 }
 #deep_defense_system
+concrete_pillboxes = {
+	limit = { deep_defense_system = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		soldier_to_pop_loss = -0.01
+	}
+}
 trench_systems = {
 	limit = { deep_defense_system = 1 }
 	chance = {
@@ -270,9 +279,22 @@ gas_attack_capability = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 100
-			has_country_flag = gas_attacking
-		}		
+			factor = 1
+			inorganic_chemistry = 1
+		}
+		modifier = {
+			factor = 1
+			organic_chemistry = 1
+		}
+		modifier = {
+			factor = 1
+			electricity = 1
+		}
+		modifier = {
+			factor = 2
+			war = yes
+			war_countries = { invention = gas_attack_capability }
+		}
 	}
 	effect = {
 		gas_attack = yes
@@ -360,7 +382,7 @@ flexible_counterattacks = {
 			attack = 3
 		}
 		engineer = {
-			attack = 3
+			attack = 2
 		}
 		dragoon = {
 			attack = 2
@@ -671,27 +693,27 @@ flintlock_rifle_armament = {
 	effect = {
 		infantry = {
 			attack = 1
-			supply_consumption = 0.10
+			
 		}
 		guard = {
 			attack = 1
-			supply_consumption = 0.10
+			
 		}
 		dragoon = {
 			attack = 1
-			supply_consumption = 0.10
+			
 		}
 		hussar = {
 			attack = 1
-			supply_consumption = 0.10
+			
 		}
 		cavalry = {
 			attack = 0.5
-			supply_consumption = 0.10
+			
 		}
 		irregular = {
 			attack = 0.5
-			supply_consumption = 0.10
+			
 		}
 	}
 }
@@ -710,28 +732,38 @@ muzzle_loaded_rifle_armament = {
 	effect = {
 		infantry = {
 			attack = 2
-			supply_consumption = 0.10
+			
 		}
 		engineer = {
 			attack = 2
-			supply_consumption = 0.10
+			
 		}
 		guard = {
 			attack = 2
-			supply_consumption = 0.10
+			
 		}
 		dragoon = {
 			attack = 0.5
-			supply_consumption = 0.10
+			
 		}
 		cavalry = {
 			attack = 0.5
-			supply_consumption = 0.10
+			
 		}
 		irregular = {
 			attack = 0.5
-			supply_consumption = 0.10
+			
 		}
+	}
+}
+
+minie_ball = {
+	limit = { muzzle_loaded_rifles = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		soldier_to_pop_loss = -0.01
 	}
 }
 
@@ -749,34 +781,35 @@ breech_loaded_rifle_armament = {
 	effect = {
 		infantry = {
 			attack = 2
-			supply_consumption = 0.20
+			
 		}
 		guard = {
 			attack = 3
-			supply_consumption = 0.20
+			
 		}
 		engineer = {
-			attack = 2
-			supply_consumption = 0.20
+			attack = 1
+			
 		}
 		dragoon = {
 			attack = 2
-			supply_consumption = 0.20
+			
 		}
 		hussar = {
 			attack = 2
-			supply_consumption = 0.20
+			
 		}
 		cavalry = {
 			attack = 0.5
-			supply_consumption = 0.20
+		
 		}
 		irregular = {
 			attack = 0.5
-			supply_consumption = 0.20
+		
 		}
 	}
 }
+
 
 #machine_guns
 machine_gun_armament = {
@@ -792,36 +825,46 @@ machine_gun_armament = {
 	effect = {
 		infantry = {
 			defence = 2
-			supply_consumption = 0.20
+			
 		}
 		guard = {
 			defence = 2
-			supply_consumption = 0.20
+			
 		}
 		engineer = {
-			defence = 2
-			supply_consumption = 0.20
+			defence = 1
+			
 		}
 		cuirassier = {
 			defence = 1
-			supply_consumption = 0.20
+			
 		}
 		dragoon = {
 			defence = 1
-			supply_consumption = 0.20
+			
 		}
 		hussar = {
 			defence = 1
-			supply_consumption = 0.20
+			
 		}
 		cavalry = {
 			defence = 1
-			supply_consumption = 0.20
+		
 		}
 		irregular = {
 			defence = 1
-			supply_consumption = 0.20
+		
 		}
+	}
+}
+
+spray_n_pray = {
+	limit = { machine_guns = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		soldier_to_pop_loss = -0.01
 	}
 }
 colonial_negotiations = {
@@ -880,36 +923,36 @@ bolt_action_rifle_armament = {
 		infantry = {
 			attack = 2
 			defence = 1
-			supply_consumption = 0.20
+			
 		}
 		guard = {
 			attack = 3
 			defence = 2
-			supply_consumption = 0.20
+			
 		}
 		engineer = {
 			attack = 1
-			supply_consumption = 0.20
+		
 		}
 		cuirassier = {
 			attack = 1
-			supply_consumption = 0.20
+		
 		}
 		dragoon = {
 			attack = 1
-			supply_consumption = 0.20
+		
 		}
 		hussar = {
 			attack = 1
-			supply_consumption = 0.20
+		
 		}
 		cavalry = {
 			attack = 0.5
-			supply_consumption = 0.20
+		
 		}
 		irregular = {
 			attack = 0.5
-			supply_consumption = 0.20
+		
 		}
 	}
 }
@@ -931,22 +974,22 @@ interwar_infantry = {
 		infantry = {
 			attack = 5
 			defence = 5
-			supply_consumption = 0.20
+		
 		}
 		guard = {
 			attack = 5
 			defence = 5
-			supply_consumption = 0.20
+		
 		}
 		engineer = {
 			attack = 3
 			defence = 3
-			supply_consumption = 0.20
+		
 		}
 		irregular = {
 			attack = 1
 			defence = 2
-			supply_consumption = 0.20
+		
 		}
 	}
 }
@@ -968,25 +1011,25 @@ interwar_cavalry = {
 			attack = 2
 			defence = 2
 			reconnaissance = 2
-			supply_consumption = 0.20
+		
 		}
 		dragoon = {
 			attack = 2
 			defence = 2
 			reconnaissance = 1
-			supply_consumption = 0.20
+		
 		}
 		hussar = {
 			attack = 2
 			defence = 2
 			reconnaissance = 1
-			supply_consumption = 0.20
+		
 		}
 		cavalry = {
 			attack = 1
 			defence = 2
 			reconnaissance = 2
-			supply_consumption = 0.20
+			
 		}
 	}
 }
@@ -1038,6 +1081,15 @@ interwar_warfare_0.5 = {
 }
 #iron_breech_loaded_artillery
 #indirect_artillery_fire
+indirect_fire = {
+	limit = { indirect_artillery_fire = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		soldier_to_pop_loss = -0.01
+	}
+}
 #heavy_armament
 tankette = {
 	limit = { heavy_armament_dunno = 1 }
@@ -1057,7 +1109,7 @@ tankette = {
 			attack = 2
 			defence = 3
 			support = 0.50
-			supply_consumption = 0.5
+			
 		}
 	}
 }
@@ -1079,7 +1131,7 @@ light_tank = {
 			attack = 4
 			defence = 2
 			support = 0.50
-			supply_consumption = 0.5
+			
 		}
 	}
 }
@@ -1107,7 +1159,7 @@ armoured_cars = {
 			discipline = 0.5
 			defence = 2
 			attack = 4
-			supply_consumption = 0.5
+			
 		}
 	}
 }
@@ -1129,7 +1181,7 @@ anti_aircraft_artillery = {
 			attack = 0.1
 			defence = 0.5
 			support = 0.1
-			supply_consumption = 0.25
+			
 		}
 	}
 }
@@ -1151,7 +1203,7 @@ improved_anti_aircraft_artillery = {
 			attack = 0.1
 			defence = 0.5
 			support = 0.1
-			supply_consumption = 0.25
+			
 		}
 	}
 }
@@ -1172,7 +1224,7 @@ light_artillery = {
 		artillery = {
 			attack = 0.5
 			support = 0.1
-			supply_consumption = 0.25
+			supply_consumption = 0.2
 		}
 	}
 }
@@ -1193,7 +1245,7 @@ medium_artillery = {
 		artillery = {
 			attack = 0.5
 			support = 0.1
-			supply_consumption = 0.25
+			supply_consumption = 0.2
 		}
 	}
 }
@@ -1214,7 +1266,7 @@ heavy_artillery = {
 		artillery = {
 			attack = 1
 			support = 0.1
-			supply_consumption = 0.25
+			supply_consumption = 0.2
 		}
 	}
 }

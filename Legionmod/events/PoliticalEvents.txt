@@ -3745,3 +3745,82 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = 19000148
+	title = "EVTNAME19000148"
+	desc = "EVTDESC19000148"
+	picture = "hello_everypony"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000148"
+	}
+}
+
+country_event = {
+	id = 19000149
+	title = "EVTNAME19000149"
+	desc = "EVTDESC19000149"
+	picture = "hello_everypony"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000149"
+	}
+}
+
+country_event = {
+	id = 19000152
+	title = "EVTNAME19000152"
+	desc = "EVTDESC19000152"
+	picture = "hello_everypony"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000152"
+	}
+}
+
+country_event = {
+	id = 19000153
+	title = "EVTNAME19000153"
+	desc = "EVTDESC19000153"
+	picture = "hello_everypony"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000153"
+	}
+}
+
+country_event = {
+	id = 19000154
+	title = "EVTNAME19000154"
+	desc = "EVTDESC19000154"
+	picture = "hello_everypony"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000154"
+	}
+}
+
+country_event = {
+	id = 19000155
+	title = "EVTNAME19000155"
+	desc = "EVTDESC19000155"
+	picture = "hello_everypony"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000155"
+	}
+}
+	

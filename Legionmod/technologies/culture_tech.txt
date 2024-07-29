@@ -340,7 +340,7 @@ malthusian_thought = {
 	cost = 3600
 
 	colonial_migration = 0.05
-	education_efficiency = 0.10
+	education_efficiency = 0.05
 	
 	ai_chance = {
 		factor = 1.01
@@ -423,7 +423,7 @@ social_science = {
 	cost = 18000
 
 	colonial_migration = 0.1
-	education_efficiency = 0.25
+	education_efficiency = 0.10
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -443,7 +443,7 @@ social_alienation = {
 	cost = 21600
 	
 	colonial_migration = 0.15
-	education_efficiency = 0.35
+	education_efficiency = 0.15
 	ai_chance = {
 		factor = 1.01
 		modifier = {
