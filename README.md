@@ -1,6 +1,6 @@
 # legionmodpublic
 public version of legionmod
-Half Meme Half Competitive Mod for Vanilla Vic2, supposed to be light for performance reasons
+Meme mod for Vanilla Vic2, supposed to be light for performance reasons
 
 Combination of multiple mods, built on top of someone else's mod that I got from "Nero's Paradox Spiel Gruppe"
 Ill try to summarize changes from base game with each nation
