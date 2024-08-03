@@ -920,7 +920,6 @@ province_event = {
 	trigger = {
 		year = 1882
 		or = {
-			province_id = 89		# Los Angeles
 			province_id = 133		# Austin
 			province_id = 126		# Topeka
 		}
@@ -1296,7 +1295,6 @@ province_event = {
 	trigger = {
 		year = 1896
 		or = {
-			province_id = 87		# Monterey
 			province_id = 2162		# Veracruz
 			province_id = 2163		# Tampico
 			province_id = 702		# Lvov

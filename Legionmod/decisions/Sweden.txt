@@ -82,6 +82,7 @@ political_decisions = {
 				tag = SWE
 				tag = SCA
 			}
+			SCH = {exists = yes}
 			THIS = {is_our_vassal = SCH}
 			NOT = {has_country_flag = schleswig_bye}
 		}
@@ -103,6 +104,7 @@ political_decisions = {
 				tag = SWE
 				tag = SCA
 			}
+			HOL = {exists = yes}
 			THIS = {is_our_vassal = HOL}
 			NOT = {has_country_flag = holstein_bye}
 		}

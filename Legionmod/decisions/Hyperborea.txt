@@ -477,6 +477,7 @@ integrate_central_america = {
 		picture = claim_central_america
 		
 		potential = {
+			NOT = {tag = MEX}
 			has_country_flag = inteyes
 			OR = {
 			is_greater_power = yes

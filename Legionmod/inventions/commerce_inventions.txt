@@ -6,7 +6,7 @@ multitude_of_financial_instruments = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 2
@@ -217,7 +217,7 @@ buying_on_margin = {
 		}
 		modifier = {
 			factor = 1
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -483,7 +483,7 @@ john_elliot_cairnes = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1
@@ -799,7 +799,7 @@ william_cunningham = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -872,7 +872,7 @@ carl_menger = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -908,7 +908,7 @@ alfred_marshall = {
 		}
 		modifier = {	
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -980,7 +980,7 @@ knut_wicksell = {
 		}
 		modifier = {
 			factor = 3
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -1140,7 +1140,7 @@ polypoly_structure = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -1634,22 +1634,7 @@ time_studies = {
 		factory_output = 0.02
 	}
 }
-naval_maintenance1 = {
-	limit = { time_saving_measures = 1 }
-	news = no
-	chance = {
-		base = 0
-		modifier = {
-			factor = 25
-			naval_plans = 1
-			}
-		}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.05
-		}
-	}
-	}
+
 time_clock = {
 	limit = { time_saving_measures = 1 }
 	news = no
@@ -1707,22 +1692,7 @@ old_style_family_business = {
 		factory_input = -0.03
 	}
 }
-naval_maintenance2 = {
-	limit = { management_strategy = 1 }
-	news = no
-	chance = {
-		base = 0
-		modifier = {
-			factor = 25
-			naval_statistics = 1
-			}
-		}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.05
-		}
-	}
-	}
+
 anynomous_investor_business = {
 	limit = { management_strategy = 1 }
 	news = no
@@ -1778,22 +1748,7 @@ i_scientific_management = {
 		factory_output = 0.02
 	}
 }
-naval_maintenance3 = {
-	limit = { organizational_development = 1 }
-	news = no
-	chance = {
-		base = 0
-		modifier = {
-			factor = 25
-			naval_logistics = 1
-			}
-		}
-	effect = {
-		navy_base = {
-			supply_consumption = -0.05
-		}
-	}
-	}
+
 human_resource_development = {
 	limit = { organizational_development = 1 }
 	news = no

@@ -188,4 +188,229 @@ political_decisions = {
 			set_country_flag = monroe_na
 		}
 	}
+
+	relief1 = {
+		picture = "relief"
+		potential = {
+			has_country_flag = panic37
+			NOT = {has_country_flag = relief1}
+			tag = USA
+		}
+		allow = {
+			private_bank_money_bill_printing = 1
+			money = 100000
+			war = no
+		}
+		effect = {
+			money = -100000
+			set_country_flag = relief1
+			add_country_modifier = {
+				name = deregulation
+				duration = -1
+			}
+		}
+	}
+	
+	relief2 = {
+		picture = "relief"
+		potential = {
+			has_country_flag = panic37
+			NOT = {has_country_flag = relief2}
+			tag = USA
+		}
+		allow = {
+			romanticism = 1
+			owns = 89
+			money = 100000
+		}
+		effect = {
+			money = -100000
+			set_country_flag = relief2
+			prestige = 20
+			add_country_modifier = {
+				name = american_pride
+				duration = -1
+			}
+			MEX = {prestige = -20}
+		}
+	}
+	
+	relief3 = {
+		picture = "relief"
+		potential = {
+			has_country_flag = panic37
+			NOT = {has_country_flag = relief3}
+			tag = USA
+		}
+		allow = {
+			early_railroad = 1
+			money = 100000
+			war = no
+			151 = {owned_by = THIS}
+			123 = {owned_by = THIS}
+			110 = {owned_by = THIS}
+		}
+		effect = {
+			money = -100000
+			set_country_flag = relief3
+			151 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			123 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			124 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			110 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			111 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	relief4 = {
+		picture = "relief"
+		potential = {
+			has_country_flag = panic37
+			has_country_flag = relief3
+			NOT = {has_country_flag = relief4}
+			tag = USA
+		}
+		allow = {
+			early_railroad = 1
+			money = 100000
+			war = no
+			97 = {owned_by = THIS}
+			89 = {owned_by = THIS}
+		}
+		effect = {
+			money = -100000
+			set_country_flag = relief4
+			97 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			95 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			88 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			89 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			90 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			87 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+			84 = {
+				infrastructure = 2
+				add_province_modifier = {
+					name = invested
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	relief5 = {
+		picture = "relief"
+		potential = {
+			has_country_flag = panic37
+			NOT = {has_country_flag = relief5}
+			tag = USA
+		}
+		allow = {
+			interchangeable_parts = 1
+			owns = 89
+			owns = 87
+			money = 100000
+		}
+		effect = {
+			money = -100000
+			set_country_flag = relief5
+			prestige = 5
+			89 = {
+				trade_goods = precious_metal
+			}
+			87 = {
+				trade_goods = precious_metal
+			}
+		}
+	}
+	
+	calmpanic = {
+		picture = "evil"
+		potential = {
+			tag = USA
+			has_country_flag = panic1837
+		}
+		allow = {
+			interchangeable_parts = 1
+			business_regulations = 1
+			romanticism = 1
+			89 = { 
+				trade_goods = precious_metal
+				has_province_modifier = invested
+			}
+			87 = { 
+				trade_goods = precious_metal
+			}
+			151 = {
+				has_province_modifier = invested
+			}
+		}
+		effect = {
+			remove_country_modifier = panic1837
+			clear_country_flag = panic1837
+		}
+	}
 }

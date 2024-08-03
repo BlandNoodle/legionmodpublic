@@ -1138,3 +1138,108 @@ country_event = {
 		remove_country_modifier = monrona
 	}
 }
+
+country_event = {
+	id = 19000159
+	title = "EVTNAME19000159"
+	desc = "EVTDESC19000159"
+	picture = "Jackson"
+
+	trigger = {
+		tag = USA
+		year = 1836
+		month = 2
+		day = 1
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "OPTA19000159"
+		prestige = 1
+		money = 500000
+		set_country_flag = jacksonlore
+	}
+	
+	option = {
+		name = "OPTB19000159"
+		prestige = 1
+		money = 400000
+		set_country_flag = jacksonlore
+	}
+}
+
+country_event = {
+	id = 19000160
+	title = "EVTNAME19000160"
+	desc = "EVTDESC19000160"
+	picture = "Panic1837"
+	major = yes
+	
+	trigger = {
+		tag = USA
+		year = 1837
+		month = 5
+		day = 3
+		has_country_flag = jacksonlore
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "OPTA19000160"
+		add_country_modifier = {
+			name = panic1837
+			duration = -1
+		}
+		set_country_flag = panic37
+	}
+}
+
+country_event = {
+	id = 19000161
+	title = "EVTNAME19000161"
+	desc = "EVTDESC19000161"
+	picture = "badmoney"
+	
+	trigger = {
+		tag = USA
+		year = 1836
+		month = 7
+		day = 5
+		has_country_flag = jacksonlore
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "OPTA19000161"
+		any_pop = {
+			limit = {
+				is_accepted_culture = yes
+				strata = rich
+			}
+			money = -600
+		}
+		any_pop = {
+			limit = {
+				is_accepted_culture = yes
+				strata = middle
+			}
+			money = -100
+		}
+		any_pop = {
+			limit = {
+				is_accepted_culture = yes
+				strata = poor
+			}
+			money = -50
+		}
+	}
+}

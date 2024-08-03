@@ -116,7 +116,7 @@ political_decisions = {
 			}
 			AZB = {add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_low
 				months = 36
 				}
 			}

@@ -1039,7 +1039,7 @@ individualism = {
 		base = 2
 		modifier = {
 			factor = 3
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1
@@ -1219,7 +1219,7 @@ meritocracy_vs._aristocracy = {
 		}
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -1275,7 +1275,7 @@ manifest_destiny = {
 		base = 2
 		modifier = {
 			factor = 3
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = -1
@@ -1430,7 +1430,7 @@ terrorism = {
 		}
 		modifier = {
 			factor = -1
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -1481,7 +1481,7 @@ womens_suffrage_movement = {
 		modifier = {
 			factor = 2
 			OR = {
-				nationalvalue = nv_liberty
+				nationalvalue = nv_equality
 				nationalvalue = nv_equality
 			}
 		}
@@ -1512,7 +1512,7 @@ rhetoric_of_hate = {
 		}
 		modifier = {
 			factor = -1
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 	}
 	effect = {
@@ -1662,7 +1662,7 @@ mass_advertising = {
 		base = 2
 		modifier = {
 			factor = 7
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 2
@@ -1712,7 +1712,7 @@ the_talkies = {
 		base = 2
 		modifier = {
 			factor = 2
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 2

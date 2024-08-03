@@ -435,10 +435,11 @@ country_event = {
 		tag = AUS
 		NOT = {has_country_flag = germancontest}
 		has_country_flag = saxonyfallen
+		num_of_revolts = 1
 		NOT = {
 			OR = {
 				exists = HUN
-				has_global_flag = hunrevolt
+				has_country_flag = hunrevolt
 			}
 		}
 	}
@@ -447,20 +448,7 @@ country_event = {
  
 	mean_time_to_happen =  {
 		months = 6
-
-		modifier = {
-			factor = 0.75 #increase likelihood to happen
-			average_militancy = 5
-		}
-
-
-		modifier = {
-			factor = 0.95 #increase likelihood to happen
-			average_militancy = 6
-		}
 	}
-
-	
 
 	option = {
 		name = "EVTOPTA19000146" 
@@ -477,7 +465,7 @@ country_event = {
 		HUN = {
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = make_puppet
 				months = 36
 			}
 		}
@@ -515,7 +503,7 @@ country_event = {
 		NOT = {
 			OR = {
 				exists = HUN
-				has_global_flag = saxonyfallen
+				has_country_flag = saxonyfallen
 			}
 		}
 	}

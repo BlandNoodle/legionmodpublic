@@ -2164,7 +2164,7 @@ conquest_low = {
 	
 	can_use = {
 		# this = { NOT = { badboy = 1 } }
-		NOT = {	total_pops = 801000 }
+		NOT = {	total_pops = 901000 }
 
 		NOT = {
 			tag = JAN
@@ -2180,7 +2180,7 @@ conquest_low = {
 		OR = {
 			AND = {
 				civilized = yes
-				NOT = { number_of_states = 2 }
+				NOT = { number_of_states = 3 }
 			}
 			AND = {
 				civilized = no

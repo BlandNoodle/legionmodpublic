@@ -1322,7 +1322,7 @@ ideologies = {
 		}
 		modifier = {
 			factor = 1.1
-			nationalvalue = nv_liberty
+			nationalvalue = nv_equality
 		}
 		modifier = {
 			factor = 1.1
@@ -2144,27 +2144,27 @@ issues =
 		}
 		modifier = {
 			factor = 1.1
-			nationalvalue = nv_liberty 
+			nationalvalue = nv_equality 
 			consciousness = 5
 		}
 		modifier = {
 			factor = 1.1
-			nationalvalue = nv_liberty 
+			nationalvalue = nv_equality 
 			consciousness = 6
 		}
 		modifier = {
 			factor = 1.1
-			nationalvalue = nv_liberty 
+			nationalvalue = nv_equality 
 			consciousness = 7
 		}
 		modifier = {
 			factor = 1.1
-			nationalvalue = nv_liberty 
+			nationalvalue = nv_equality 
 			consciousness = 8
 		}
 		modifier = {
 			factor = 1.1
-			nationalvalue = nv_liberty 
+			nationalvalue = nv_equality 
 			consciousness = 9
 		}
 		modifier = {

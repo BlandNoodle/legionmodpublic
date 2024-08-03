@@ -579,6 +579,7 @@ political_decisions = {
 		potential = {
 			has_country_flag = inteyes
 			NOT = { tag = UCA }
+			NOT = { tag = MEX }
 			NOT = { has_country_flag = mexintegrate }
 			NOT = {has_country_flag = guadelupe}
 		}
@@ -680,11 +681,11 @@ political_decisions = {
 			owns = 498
 			owns = 493
 			owns = 503
-			money = 2000000
+			money = 3000000
 		}
 		
 		effect = {
-			money = -2000000
+			money = -3000000
 			set_country_flag = peninsularwar2
 			add_accepted_culture = spanish
 			prestige = 5
@@ -707,11 +708,11 @@ political_decisions = {
 			WUR = {in_sphere = THIS}
 			BAV = {in_sphere = THIS}
 			revolution_n_counterrevolution = 1
-			money = 1000000
+			money = 2000000
 		}
 		
 		effect = {
-			money = -1000000
+			money = -2000000
 			set_country_flag = germanvictory
 			inherit = BAV
 			inherit = BAD

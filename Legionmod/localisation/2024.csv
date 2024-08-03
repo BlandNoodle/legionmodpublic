@@ -232,3 +232,41 @@ switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;
 switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x
 switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5§W;;;;;;;;;;;;x
+social_reformed_nation; Socially REFORMED! Nation;;;;;;;;;x
+EVTNAME19000159;Ol' Hickory's Last Year;;;;;;;;;;x
+EVTDESC19000159;Following two terms in office, Andrew Jackson has one last year. Whoever follows in his footsteps will have the pleasure of having no national debt, no federal banks, and no paper currency shenanigans!;;;;;;;;;x
+OPTA19000159;Bless up;;;;;;;x
+OPTB19000159;I'm a hater, actually;;;;;;;x
+bubbleburst;Bubble Burst;;;;;;;x
+bubbleburst_desc;The Bubble burst. . .;;;;;;;x
+panic1837;Panic of 1837;;;;;;;x
+panic1837_desc;Lack of physical money and recent speculative bubbles have frozen our economy;;;;;;x
+EVTNAME19000160;Panic of 1837;;;;;;;x
+EVTDESC19000160;We don't have a federal reserve to fix the money shortages. People keep running banks dry of their cash. British lenders have also begun raising interest in response to the bubbles, further worsening the situation. Atleast we are debt free. . .;;;;;;;;x
+OPTA19000160;Broke Fellow Alert;;;;;;;;x
+EVTNAME19000161;Westward Halt;;;;;;x
+EVTDESC19000161;Speculation in westward land developments along with strict regulation on paper money have caused the bubble to burst leaving many penniless.;;;;;;;;x
+OPTA19000161;The West has Fallen;;;;;;;;x
+invested;Railroad Investments;;;;;;x
+invested_desc;Local investments spur growth and encourage settlers;;;;;x
+relief1_title;Lift Currency Regulations;;;;;x
+relief1_desc;The Specie Circular lead to the bubble in the West. We should allow paper money purchases again.;;;;;;;;x
+relief2_title;Make Fun of Mexico;;;;;;x
+relief2_desc;With a new generation of artists rising, we should sponsor them and offer them an inspirational topic. This will surely patch up our national pride;;;;;;;;x
+relief3_title;Begin the Trans-Continental Railroad;;;;;;x
+relief3_desc;Iowa lore;;;;;;;x
+relief4_title;Finish the Railroad;;;;;;x
+relief4_desc;Santa Maria lore;;;;;;x
+relief5_title;Sponsor Prospectors in the New Territories;;;;;;;x
+relief5_desc;Rumors have spread about the riches that can be found in the far western territories of California and Nevada-Utah. Maybe these riches can alleviate our burdens. . .;;;;;;;x
+calmpanic_title;Calm the Panic;;;;;;x
+calmpanic_desc;After lightening regulations and putting Federal funds in the people's pockets, the Panic that once shook us as finally passed!;;;;;;;x
+deregulation;Deregulation;;;;;;;x
+deregulation_desc;A deregulated economy can correct itself.;;;;;;;;x
+american_pride;American Pride;;;;;;;x
+american_pride_desc;We are simply, the best, ever;;;;;;;;;;;x
+EVT19000162;This is taken by STONE COLD!;;;;;;;;;x
+mex_expand_the_empire_title;Expand The Mexican Empire;;;;;;x
+mex_expand_the_empire_desc;DOD New Granada, in the palm of my hand!;;;;;;;;x
+mex_accept_afro_americans_title;Do What They Cannot;;;;;;;x
+mex_accept_afro_americans_desc;He's black you know.;;;;;;;x

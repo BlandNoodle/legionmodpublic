@@ -2,6 +2,7 @@ political_decisions = {
 	integrate_north = {
 		potential = {
 			owns = 549
+			is_core = 549
 			NOT = {has_country_flag = intenorth}
 		}
 		allow = {
@@ -45,6 +46,7 @@ political_decisions = {
 	integrate_center = {
 		potential = {
 			owns = 549
+			is_core = 549
 			NOT = {has_country_flag = intecenter}
 			has_country_flag = intenorth
 		}
@@ -90,6 +92,7 @@ political_decisions = {
 	integrate_south = {
 		potential = {
 			owns = 549
+			is_core = 549
 			NOT = {has_country_flag = intesouth}
 			has_country_flag = intecenter
 		}

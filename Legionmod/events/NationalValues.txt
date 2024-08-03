@@ -107,7 +107,7 @@ country_event = {
 	picture = "Invention"
 	
 	trigger = {
-		nationalvalue = nv_liberty
+		nationalvalue = nv_equality
 	}
 	
 	mean_time_to_happen = {
@@ -133,7 +133,7 @@ country_event = {
 	picture = "Expansion"
 	
 	trigger = {
-		nationalvalue = nv_liberty
+		nationalvalue = nv_equality
 		badboy = 0.7
 	}
 	
@@ -162,7 +162,7 @@ country_event = {
 	
 	trigger = {
 		average_militancy = 8
-		nationalvalue = nv_liberty
+		nationalvalue = nv_equality
 	}
 	
 	mean_time_to_happen = {
