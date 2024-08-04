@@ -103,7 +103,7 @@ country_event = {
 			NOT = { owns = 816 }
 			NOT = { owns = 830 } }
 			owns = 876
-		
+		NOT = { is_our_vassal = BUL }
 	}
 
 	mean_time_to_happen = {
