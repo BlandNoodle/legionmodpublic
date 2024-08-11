@@ -670,7 +670,7 @@ country_event = {
 	picture = "lost"
 	
 	trigger = {
-		has_country_flag = persiangulf
+		has_country_modifier = persian_gulf
 		NOT = { owns = 1132 }
 	}
 	
@@ -680,11 +680,9 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000119"
-		clr_country_modifier = {
-			name = persian_gulf
-		}
+		remove_country_modifier = persian_gulf
 		prestige = -10
-		remove_country_flag = persiangulf
+		clr_country_flag = persiangulf
 		ai_chance = {
 			factor = 100
 		}
@@ -728,7 +726,7 @@ country_event = {
 	picture = "lost"
 	
 	trigger = {
-		has_country_flag = mimosa
+		has_country_modifier = mimosas
 		NOT = { owns = 658 }
 	}
 	
@@ -738,11 +736,9 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000122"
-		clr_country_modifier = {
-			name = mimosas
-		}
+		remove_country_modifier = mimosas
 		prestige = -10
-		remove_country_flag = mimosa
+		clr_country_flag = mimosa
 		ai_chance = {
 			factor = 100
 		}

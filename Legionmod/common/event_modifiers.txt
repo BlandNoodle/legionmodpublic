@@ -1297,7 +1297,7 @@ bad_badboy = {
 fredbear = {
 	non_accepted_pop_militancy_modifier = 0.33
 	non_accepted_pop_consciousness_modifier = 0.33
-	mobilisation_size = 0.2
+	mobilisation_size = 0.1
 	badboy = -0.25
 	soldiers = 0.06
 	cb_generation_speed_modifier = 2
@@ -1328,7 +1328,7 @@ bolivian_port_of_the_new_world = {
 }
 
 ten_years_siesta = {
-	population_growth = 0.006
+	global_population_growth = 0.006
 	mine_rgo_eff = -0.15
 	farm_rgo_eff = -0.15
 	global_pop_militancy_modifier = -0.02

@@ -391,7 +391,7 @@ political_decisions = {
 		picture = "evil"
 		potential = {
 			tag = USA
-			has_country_flag = panic1837
+			has_country_flag = panic37
 		}
 		allow = {
 			interchangeable_parts = 1
@@ -410,7 +410,7 @@ political_decisions = {
 		}
 		effect = {
 			remove_country_modifier = panic1837
-			clear_country_flag = panic1837
+			clr_country_flag = panic37
 		}
 	}
 }
