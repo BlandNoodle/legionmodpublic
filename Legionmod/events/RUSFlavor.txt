@@ -680,11 +680,11 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000119"
-		clr_country_modifier = {
+		remove_country_modifier = {
 			name = persian_gulf
 		}
 		prestige = -10
-		remove_country_flag = persiangulf
+		clr_country_flag = persiangulf
 		ai_chance = {
 			factor = 100
 		}
@@ -742,7 +742,7 @@ country_event = {
 			name = mimosas
 		}
 		prestige = -10
-		remove_country_flag = mimosa
+		clr_country_flag = mimosa
 		ai_chance = {
 			factor = 100
 		}
