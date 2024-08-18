@@ -743,19 +743,17 @@ prussian_general_staff = {
 }
 
 hollowearthp = {
-	life_rating = 1
-	mine_rgo_eff = 3
-	immigrant_attract = 2
-	mine_rgo_size = 2
+	immigrant_attract = 0.15
+	mine_rgo_size = 0.6
+	population_growth = 0.001
 	icon = 13
 }
 
 hyperboreaexodus = {
-	immigrant_attract = -2
-	immigrant_push = 2
-	pop_consciousness_modifier = 0.5
+	immigrant_push = 0.25
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.25
 	icon = 12
-	
 }
 
 indiacountry = {

@@ -1268,7 +1268,7 @@ country_event = {
 		}
 		has_country_flag = germancontest
 		NOT = {has_country_flag = germanwinner}
-		year = 1838
+		year = 1839
 		OR = {
 			NOT = {
 				GER = {
@@ -1343,39 +1343,6 @@ country_event = {
 				duration = -1
 			}
 		}
-	}
-}
-
-country_event = {
-	
-	title = "EVTNAME19000143"
-	desc = "EVTDESC19000143"
-	picture = "germandominion"
-	id = 19000143
-
-	trigger = {
-		tag = FRA
-		has_country_flag = germancontest
-		NOT = {has_country_flag = germanwinner}
-		year = 1870
-		NOT = {GER = exists}
-		NOT = {SGF = exists}
-		BAD = {in_sphere = THIS}
-		WUR = {in_sphere = THIS}
-		BAV = {in_sphere = THIS}
-	}
-			
-	mean_time_to_happen =  {
-		months = 1
-	}
-
-	option = {
-		name = "EVTOPTA19000143" 
-		clr_country_flag = germancontest
-		prestige = 50
-		add_accepted_culture = south_german
-		594 = {owner = {594 = {secede_province = FRA} } }
-		set_country_flag = germanwinner
 	}
 }
 

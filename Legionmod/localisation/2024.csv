@@ -8,10 +8,10 @@ devastating_flood_desc;Opening the floodgates has destroyed much of our develope
 dutch_flood_cooldown;Flood Cooldown;;;;;;;x
 dutch_flood_cooldown_desc;Gotta let the water build up again before you can bust;;;;;x
 EVTNAME60168004;Fort Destroyed;;;;;;;x
-EVTDESC60168004;Combat in §Y$PROVINCE$§B has destroyed the fort!;;;;;;x
+EVTDESC60168004;Combat in Â§Y$PROVINCE$Â§B has destroyed the fort!;;;;;;x
 EVT60168004OPTA;Who cares;;;;;;x
 EVTNAME60168005;Railway Destroyed;;;;;;x
-EVTDESC60168005;Combat in §Y$PROVINCE$§B has destroyed the local rail line!;;;;;;x
+EVTDESC60168005;Combat in Â§Y$PROVINCE$Â§B has destroyed the local rail line!;;;;;;x
 EVT60168005OPTA;No shot;;;;;;x
 peacetime_mobilization;Peacetime Mobilization;;;;;;;x
 peacetime_mobilization_desc;womp womp;;;;;;;x
@@ -30,13 +30,13 @@ BRG_ADJ;Burgundian;Bourguinion;Burgundisch;;;;;;;;;;;;;;x
 BRG_absolute_monarchy;The Kingdom of Burgundy;;;;;;;;;;;;;x
 BRG_prussian_constitutionalism;The Kingdom of Burgundy;;;;;;;;;;;;;x
 BRG_hms_government;The Kingdom of Burgundy;;;;;;;;;;;;;x
-BRG_fascist_dictatorship;L’Empire de Bourgogne;;;;;;;;;;;;;x
+BRG_fascist_dictatorship;Lâ€™Empire de Bourgogne;;;;;;;;;;;;;x
 BRG_reactionary_1;Les Gardiens du Rhin;;;;;;;;;;;x
 BRG_conservative_1;Parti Unioniste;;;;;;;;;;;;;x
-BRG_liberal_1;Parti Réformiste;;;;;;;;;;;;x 
-BRG_liberal_2;Faction Parlementaire Libérale;;;;;;;;;;;;x 
-BRG_liberal_3;Parti Libéral Classique;;;;;;;;;;;;x 
-BRG_anarcho_liberal_1;Parti Réformiste Radical;;;;;;;;;;;;;;x 
+BRG_liberal_1;Parti RÃ©formiste;;;;;;;;;;;;x 
+BRG_liberal_2;Faction Parlementaire LibÃ©rale;;;;;;;;;;;;x 
+BRG_liberal_3;Parti LibÃ©ral Classique;;;;;;;;;;;;x 
+BRG_anarcho_liberal_1;Parti RÃ©formiste Radical;;;;;;;;;;;;;;x 
 BRG_anarcho_liberal_2;Faction Parlementaire Radical;;;;;;;;;;;;;;x
 BRG_reactionary_2;Parti Jeaniste;;;;;;;;;;;;;;x
 BRG_conservative_2;Parti Royaliste;;;;;;;;;;;;;;;x 
@@ -44,14 +44,14 @@ BRG_socialist_1;Socialisten;;;;;;;;;;;;;x
 BRG_communist_1;Communistische Partij;;;;;;;;;;;x
 BRG_reactionary_3;Parti Bouillonniste;;;;;;;;;;;x
 BRG_conservative_3;Parti de l'Ordre;;;;;;;;;;;;;x
-BRG_anarcho_liberal_3;Indépendants;;;;;;;;;;;;;x
-BRG_socialist_2;Parti fédéral-socialiste;;;;;;;;;x
+BRG_anarcho_liberal_3;IndÃ©pendants;;;;;;;;;;;;;x
+BRG_socialist_2;Parti fÃ©dÃ©ral-socialiste;;;;;;;;;x
 BRG_communist_2;Front uni communiste;;;;;;;;;;x 
-BRG_fascist;Parti du pays réel;;;;;;;;;;;;;x
+BRG_fascist;Parti du pays rÃ©el;;;;;;;;;;;;;x
 newparis;Paris Renovated;;;;;;;x
 newparis_desc;This place is finally habitable;;;;;;x
 EVTNAME19000140;The German Question;;;;;;;x
-EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. §GHold onto your German holdings/spheres to be rewarded.§W;;;;;;x
+EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. Â§GHold onto your German holdings/spheres to be rewarded.Â§W;;;;;;x
 EVTOPTA19000140;Let the games begin;;;;;;x
 EVTNAME19000141;We Lost;;;;;;;x
 EVTDESC19000141;Our competitor's have managed to outmanuever us in Germany, we no longer have any say in their formation;;;;;;x
@@ -76,12 +76,12 @@ EVTNAME19000144;Foreign Policy Pays Dividends;;;;;;;x
 EVTDESC19000144;The southern Germans within our sphere are becoming increasingly cooperative;;;;;;x
 EVTOPTA19000144;Splendid;;;;;;x
 EVTNAME19000145;Foreign Policy Pays Dividends 2;;;;;;;x
-EVTDESC19000145;We have convinced the South Germans that Austria is the one to unify Germany!§RForming South Germany will now be easier and have less downsides§W;;;;;;x
+EVTDESC19000145;We have convinced the South Germans that Austria is the one to unify Germany!Â§RForming South Germany will now be easier and have less downsidesÂ§W;;;;;;x
 EVTOPTA19000145;Magnificient;;;;;;x
 monroecanada_title;Free Canada;;;;;;x
 monroecanada_desc;Our brethren in Canada must be freed!;;;;;;x
 monroenorthamerica_title;Monroe Doctrine in North America;;;;;;x
-monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism §BIf we break our agreement there will be consequences§W;;;;;;;x 
+monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism Â§BIf we break our agreement there will be consequencesÂ§W;;;;;;;x 
 germancoops;German Cooperation;;;;;x
 germancoops_desc;Germans are cooperating with us;;;;;;;x
 newvienna;Vienna Renovated;;;;;;;x
@@ -134,7 +134,7 @@ napoleonslegacy_desc;We have to run it back in Italy;;;;;;;x
 napoleonslegacy2_title;Napoleon's Legacy Spain;;;;;;;x
 napoleonslegacy2_desc;We have to run it back in Spain;;;;;;;x
 napoleonslegacy3_title;Fruits of our Labor;;;;;;x
-napoleonslegacy3_desc;Our hard work in Germany has rewarded us the opportunity to integrate the southern states and cement our hegemony in the region;;;;;;x
+napoleonslegacy3_desc;The Acquisition of 87. . .;;;;;;x
 bananapropaganda_title;Begin Expanding Dong;;;;;;x
 bananapropaganda_desc;Our bountiful banana harvests have attracted attention from a wise clan calling themselves the DK Family. Do we being Expansion?;;;;;;;x
 DKK_presidential_dictatorship;The Banana Republic;;;;;;x
@@ -221,17 +221,17 @@ change_national_value_off_desc;TURN IT OFF!!!!;;;;;;;;;;;;x
 change_national_value_on_title;Change National Value On;;;;;;;;;;;;x
 change_national_value_on_desc;Let me cook!!!!;;;;;;;;;;;;x
 switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +50%§W;;;;;;;;;;;;;x
+switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +50%Â§W;;;;;;;;;;;;;x
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +40%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GEducation Efficiency: +40%\nCulture Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;x
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +5%\nLeadership Points Gain: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
+switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +5%\nLeadership Points Gain: +100%\nArmy Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;x
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +15%\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GFactory Input: -5%\nFactory Output: +15%\nÂ§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x
-switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5§W;;;;;;;;;;;;x
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5Â§W;;;;;;;;;;;;x
 social_reformed_nation; Socially REFORMED! Nation;;;;;;;;;x
 EVTNAME19000159;Ol' Hickory's Last Year;;;;;;;;;;x
 EVTDESC19000159;Following two terms in office, Andrew Jackson has one last year. Whoever follows in his footsteps will have the pleasure of having no national debt, no federal banks, and no paper currency shenanigans!;;;;;;;;;x
@@ -270,3 +270,5 @@ mex_expand_the_empire_title;Expand The Mexican Empire;;;;;;x
 mex_expand_the_empire_desc;DOD New Granada, in the palm of my hand!;;;;;;;;x
 mex_accept_afro_americans_title;Do What They Cannot;;;;;;;x
 mex_accept_afro_americans_desc;He's black you know.;;;;;;;x
+napoleonslegacy4_title;Begin Integrating Germany;;;;;;x
+napoleonslegacy4_desc;(in evil voice)Because I am fucking evil! "house starts rumbling" wait, wait! I'm still in here! You can't just pick up my house while I'm still monologueing to my PC! STOP!!;;;;;;;x

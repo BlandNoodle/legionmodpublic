@@ -692,6 +692,45 @@ political_decisions = {
 		}
 	}
 	
+	napoleonslegacy4 = {
+		picture = "napoleonepic"
+		potential = {
+			tag = FRA
+			has_country_flag = germancontest
+			NOT = { has_country_flag = germanwinner }
+		}
+		allow = {
+			war = no
+			BAD = {in_sphere = THIS}
+			WUR = {in_sphere = THIS}
+			BAV = {in_sphere = THIS}
+			nationalism_n_imperialism = 1
+			year = 1870
+			money = 1000000
+		}
+		
+		effect = {
+			money = -1000000
+			set_country_flag = germanwinner
+			create_vassal = BAV
+			create_vassal = WUR
+			create_vassal = BAD
+			594 = {owner = {594 ={secede_province = FRA} } }
+			BAV = {571 = {secede_province = FRA} }
+			412 = {
+				fort = 3
+			}
+			409 = {
+				fort = 3
+			}
+			410 = {
+				fort = 3
+			}
+			add_accepted_culture = south_german
+			prestige = 15
+		}
+	}
+	
 	napoleonslegacy3 = {
 		picture = "napoleonepic"
 		potential = {
@@ -704,10 +743,26 @@ political_decisions = {
 		}
 		allow = {
 			war = no
-			BAD = {in_sphere = THIS}
-			WUR = {in_sphere = THIS}
-			BAV = {in_sphere = THIS}
+			BAD = {
+				AND = {
+					in_sphere = THIS 
+					vassal_of = THIS
+				}
+			}
+			WUR = {
+				AND = {
+					in_sphere = THIS 
+					vassal_of = THIS
+				}
+			}
+			BAV = {
+				AND = {
+					in_sphere = THIS 
+					vassal_of = THIS
+				}
+			}
 			revolution_n_counterrevolution = 1
+			year = 1887
 			money = 2000000
 		}
 		
@@ -717,7 +772,7 @@ political_decisions = {
 			inherit = BAV
 			inherit = BAD
 			inherit = WUR
-			prestige = 5
+			prestige = 50
 		}
 	}
 }
