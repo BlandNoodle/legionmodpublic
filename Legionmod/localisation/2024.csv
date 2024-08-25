@@ -8,10 +8,10 @@ devastating_flood_desc;Opening the floodgates has destroyed much of our develope
 dutch_flood_cooldown;Flood Cooldown;;;;;;;x
 dutch_flood_cooldown_desc;Gotta let the water build up again before you can bust;;;;;x
 EVTNAME60168004;Fort Destroyed;;;;;;;x
-EVTDESC60168004;Combat in Â§Y$PROVINCE$Â§B has destroyed the fort!;;;;;;x
+EVTDESC60168004;Combat in §Y$PROVINCE$§B has destroyed the fort!;;;;;;x
 EVT60168004OPTA;Who cares;;;;;;x
 EVTNAME60168005;Railway Destroyed;;;;;;x
-EVTDESC60168005;Combat in Â§Y$PROVINCE$Â§B has destroyed the local rail line!;;;;;;x
+EVTDESC60168005;Combat in §Y$PROVINCE$§B has destroyed the local rail line!;;;;;;x
 EVT60168005OPTA;No shot;;;;;;x
 peacetime_mobilization;Peacetime Mobilization;;;;;;;x
 peacetime_mobilization_desc;womp womp;;;;;;;x
@@ -25,18 +25,19 @@ form_german_federation_title;Form German Nation;;;;;;;x
 form_german_federation_desc;You survived to this point, time to be broken;;;;;;x
 PROV963;Lubensk;;;;;;;;x
 PROV3251;Poltava;;;;;;;;x
-BRG;Burgundy;Bourgogne;Burgund;;;;;;;;;;;;;;x
+BRG;DOD Burgundy;Bourgogne;Burgund;;;;;;;;;;;;;;x
 BRG_ADJ;Burgundian;Bourguinion;Burgundisch;;;;;;;;;;;;;;x
-BRG_absolute_monarchy;The Kingdom of Burgundy;;;;;;;;;;;;;x
-BRG_prussian_constitutionalism;The Kingdom of Burgundy;;;;;;;;;;;;;x
-BRG_hms_government;The Kingdom of Burgundy;;;;;;;;;;;;;x
-BRG_fascist_dictatorship;Lâ€™Empire de Bourgogne;;;;;;;;;;;;;x
+BRG_absolute_monarchy;The Kingdom of DOD;;;;;;;;;;;;;x
+BRG_prussian_constitutionalism;The Kingdom of DOD;;;;;;;;;;;;;x
+BRG_hms_government;His Majesty's DOD Burgundy;;;;;;;;;;;;;x
+BRG_fascist_dictatorship;L’Empire de DOD Bourgogne;;;;;;;;;;;;;x
+BRG_proletarian_dictatorship;The People's DOD Republic;;;;;;;x
 BRG_reactionary_1;Les Gardiens du Rhin;;;;;;;;;;;x
 BRG_conservative_1;Parti Unioniste;;;;;;;;;;;;;x
-BRG_liberal_1;Parti RÃ©formiste;;;;;;;;;;;;x 
-BRG_liberal_2;Faction Parlementaire LibÃ©rale;;;;;;;;;;;;x 
-BRG_liberal_3;Parti LibÃ©ral Classique;;;;;;;;;;;;x 
-BRG_anarcho_liberal_1;Parti RÃ©formiste Radical;;;;;;;;;;;;;;x 
+BRG_liberal_1;Parti Réformiste;;;;;;;;;;;;x 
+BRG_liberal_2;Faction Parlementaire Libérale;;;;;;;;;;;;x 
+BRG_liberal_3;Parti Libéral Classique;;;;;;;;;;;;x 
+BRG_anarcho_liberal_1;Parti Réformiste Radical;;;;;;;;;;;;;;x 
 BRG_anarcho_liberal_2;Faction Parlementaire Radical;;;;;;;;;;;;;;x
 BRG_reactionary_2;Parti Jeaniste;;;;;;;;;;;;;;x
 BRG_conservative_2;Parti Royaliste;;;;;;;;;;;;;;;x 
@@ -44,14 +45,14 @@ BRG_socialist_1;Socialisten;;;;;;;;;;;;;x
 BRG_communist_1;Communistische Partij;;;;;;;;;;;x
 BRG_reactionary_3;Parti Bouillonniste;;;;;;;;;;;x
 BRG_conservative_3;Parti de l'Ordre;;;;;;;;;;;;;x
-BRG_anarcho_liberal_3;IndÃ©pendants;;;;;;;;;;;;;x
-BRG_socialist_2;Parti fÃ©dÃ©ral-socialiste;;;;;;;;;x
+BRG_anarcho_liberal_3;Indépendants;;;;;;;;;;;;;x
+BRG_socialist_2;Parti fédéral-socialiste;;;;;;;;;x
 BRG_communist_2;Front uni communiste;;;;;;;;;;x 
-BRG_fascist;Parti du pays rÃ©el;;;;;;;;;;;;;x
+BRG_fascist;Parti du pays réel;;;;;;;;;;;;;x
 newparis;Paris Renovated;;;;;;;x
 newparis_desc;This place is finally habitable;;;;;;x
 EVTNAME19000140;The German Question;;;;;;;x
-EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. Â§GHold onto your German holdings/spheres to be rewarded.Â§W;;;;;;x
+EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. §GHold onto your German holdings/spheres to be rewarded.§W;;;;;;x
 EVTOPTA19000140;Let the games begin;;;;;;x
 EVTNAME19000141;We Lost;;;;;;;x
 EVTDESC19000141;Our competitor's have managed to outmanuever us in Germany, we no longer have any say in their formation;;;;;;x
@@ -76,12 +77,12 @@ EVTNAME19000144;Foreign Policy Pays Dividends;;;;;;;x
 EVTDESC19000144;The southern Germans within our sphere are becoming increasingly cooperative;;;;;;x
 EVTOPTA19000144;Splendid;;;;;;x
 EVTNAME19000145;Foreign Policy Pays Dividends 2;;;;;;;x
-EVTDESC19000145;We have convinced the South Germans that Austria is the one to unify Germany!Â§RForming South Germany will now be easier and have less downsidesÂ§W;;;;;;x
+EVTDESC19000145;We have convinced the South Germans that Austria is the one to unify Germany!§RForming South Germany will now be easier and have less downsides§W;;;;;;x
 EVTOPTA19000145;Magnificient;;;;;;x
 monroecanada_title;Free Canada;;;;;;x
 monroecanada_desc;Our brethren in Canada must be freed!;;;;;;x
 monroenorthamerica_title;Monroe Doctrine in North America;;;;;;x
-monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism Â§BIf we break our agreement there will be consequencesÂ§W;;;;;;;x 
+monroenorthamerica_desc;The only way American ideals can be realised is when the Hemisphere is secured against imperialism §BIf we break our agreement there will be consequences§W;;;;;;;x 
 germancoops;German Cooperation;;;;;x
 germancoops_desc;Germans are cooperating with us;;;;;;;x
 newvienna;Vienna Renovated;;;;;;;x
@@ -178,7 +179,7 @@ EVTDESC19000148;YOU START THE OPIUM WAR (it gives you cash money and throughput 
 EVTDESC19000149;You dumb ah hell boi choose your tech with the next 5 years in mind unironically. National stockpile is how to make free Arty at the very start so just click it when you que up. What you choose (Early, Mid, Late) will impact how you play the rest of the game so choose wisely and all in on it. No money? Dont do commerce its a trap do practical steam engine it gives farming output +15 mining BUT gives 25 grain production which is your most exported good so you make mega tariff money. Green alliance?  Only if you want to kill Austria at game start. remember what happened?. People like to ally Ottomans and peacefully split up Southern Europe, or you could ally Austria and take it during Egypt civil war. You get Caucasus accepted and ottomans gets azerbaijan accepted so help or hurt them. Central Asia is cash money. if you take Great Game you get Persia for free! Communist Russia is actually viable! Late game Russia go full education maxxing get those people reading! Early game Russia. . . Lets kill these guys go full mil tech and int missile your neighbors for land and research points. Great Game is a late game russia decider you better start influencing at game start because UK gonna be gunnin for it. Communist decisions are very good but also very scary choose wisely.;;;;;;x
 EVTDESC19000152;Green alliance is scary. . . Need State and Government + Italy and NGF formed to make Austria-Hungary. You in everybody's sights day 1. If you lose your spheres early you lose prestige n shit. Build Factories early and not near where places are likely to be annexed (Italy Russia Ottoman Prussia border). You NEED an ally, suggested you get one bordering you so they don't kill you at game start. Secret EVIL ally: France Austria alliance (hugbox imminent). You might get put on chopped ones day one so be ready to mil up. You got very good terrain vs Russia and Italy (urban tile milan) Ottomans is a shitshow front. Austria Hungary decision needs either Italy and NGF + State and government (common path) or EVIL path (kill one of them and wait until rev and counterrev). ;;;;;;x
 EVTDESC19000153;Ems Dispatch is not a guaranteed war with France they can say yes or no. An mein Volk only lasts for 2 years so use it up! Beg UK to not let France get Belgium over you, if there is a Netherlands you got to glaze him up sexual style. Free money! A gold mine is in your future young man. You're one of the biggest Industrial powerhouses in the game so act like it and do it early before your capitalists ruin it for you. I would keep army funding up for fear of a France declaration/being able to dec on France. Try to form the secret nation if all else is lost (lose Sigmaringen AND Rhineland or Schlesien ). Study the alsace shape like it's your life, try to call in baden to expand the small front. If you can get a secret mob off then declare on France you're set, Prussia cheese strats are always funny to watch (surprise is key sometimes). Mil maxxing, you don't need to focus education just remember to do philosophy and political thought.;;;;;;x
-EVTDESC19000154;You CANNOT lose Egypt NO MATTER THE COST (game ruining). Learn to beg (you are the poor homeless man on fent in Europe). Whenever you feel down. . . just remember lategame hyperscaler. Defund/Delete your ships (unless insta war). Focus economic reform (tanzimat reforms). The more tiny nations you conquest the more pops you get to tax (egypt is free money!). Learn your opps quickly lest they dispatch you on day one!. Absolute African domination, you own it act like it! Omans free too. Caucasus focus day one (you get azerbaijan accepted and they got some good stuff there. Egypt war in 1837 is scripted ask people to support you and if they support Egypt don't get butthurt just let the Egyptians attrition themselves to death in the deserts. TAKE PUPPET EGYPT PEACEDEAL YOU GET CORES BACK FOR FREE PLUS PUPPET. Education maxxing (even if people threaten early its not worth getting early mil tech -kramer).;;;;;;x
+EVTDESC19000154;You CANNOT lose Egypt NO MATTER THE COST (game ruining). Learn to beg (you are the poor homeless man on fent in Europe). Whenever you feel down. . . just remember lategame hyperscaler.\n Wait for the Egyptian puppet peace deal to gain cores back.\n There is a decision group to choose which puppet to annex, choose wisely because there is a cooldown.\n When you become the Caliphate, the decisions to annex/accept the puppets is locked!.\nFocus Education, you illiterate not even imam can help you;;;;;;x
 EVTDESC19000155;Being Evil as this nation gets you rewarded (History only remembers the Villains, Don't be a Hero). You have no opps you are THE opp (take Tunis asap). Only winners can be Napoleon. . . You make money printers feel free to give grants in exchange for quickie sex. Build military goods from the start and keep a heavy focus on your limited factory space. Prussia is racing to kill you at a minutes notice if you slip up you're done! You get rewarded for being Evil so make sure to kill a player early! (Your paths of expansion are limited). Take Tunis ASAP you need it for La Legion Entrangere. Try for an Asian delicacy or two. EVIL STRAT: Kill players day 1 (Spain, Germany, Italy, anyone) and show no mercy. Tslegit strat: Encourage soldiers day 1 get a goonish amount of pops and roll over Germany. Secret DoD formable if you can find it (take benelux and become #1gp). Don't try to save Levee en Masse just abuse it to buy yourself time.;;;;;;;x
 OPTA19000148;Thank you brother;;;;;;;x
 OPTA19000149;Thank you brother;;;;;;x
@@ -221,17 +222,17 @@ change_national_value_off_desc;TURN IT OFF!!!!;;;;;;;;;;;;x
 change_national_value_on_title;Change National Value On;;;;;;;;;;;;x
 change_national_value_on_desc;Let me cook!!!!;;;;;;;;;;;;x
 switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +50%Â§W;;;;;;;;;;;;;x
+switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +50%§W;;;;;;;;;;;;;x
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GEducation Efficiency: +40%\nCulture Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;x
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +25%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +5%\nLeadership Points Gain: +100%\nArmy Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;x
+switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +30\nNaval Unit Starting Experience: +30\nLeadership Points Gain: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GFactory Input: -5%\nFactory Output: +15%\nÂ§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +10%\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%Â§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x
-switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n\nÂ§YThe modifiers for this NV are:Â§W\nÂ§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5Â§W;;;;;;;;;;;;x
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5§W;;;;;;;;;;;;x
 social_reformed_nation; Socially REFORMED! Nation;;;;;;;;;x
 EVTNAME19000159;Ol' Hickory's Last Year;;;;;;;;;;x
 EVTDESC19000159;Following two terms in office, Andrew Jackson has one last year. Whoever follows in his footsteps will have the pleasure of having no national debt, no federal banks, and no paper currency shenanigans!;;;;;;;;;x
@@ -272,3 +273,153 @@ mex_accept_afro_americans_title;Do What They Cannot;;;;;;;x
 mex_accept_afro_americans_desc;He's black you know.;;;;;;;x
 napoleonslegacy4_title;Begin Integrating Germany;;;;;;x
 napoleonslegacy4_desc;(in evil voice)Because I am fucking evil! "house starts rumbling" wait, wait! I'm still in here! You can't just pick up my house while I'm still monologueing to my PC! STOP!!;;;;;;;x
+interwar_troops;Interwar Troops;;;;;;;x
+EVTNAME800008;Defeat in Egypt!;;;;;;x
+EVTDESC800008;I thought we were trading. . .;;;;;;x
+EVTOPTA800008;"Eh, eh, eh, eh, eh,";;;;;;x
+britishraj;Der Colonies;;;;;;;x
+britishraj_desc;BBL Drizzy;;;;;;;x
+NORMAL_WAR_EYALET_NAME;$ORDER$FIRST$ War of §R$COUNTRY_ADJ$§W Liberation;;;;;;;;;;x
+release_eyalet;Liberate Eyalet;;;;;;;x
+release_eyalet_desc;Reduce the Sublime Porte's influence over Europe;;;;;;;x
+release_eyalet_setup;Free $THIRD$ from Turkish management;;;;;;;;x
+release_eyalet_short;Free $THIRD$;;;;;;;;;x
+eyalet_cooldown;Eyalet Cooldown;;;;;;;;x
+eyalet_cooldown_desc;This is just a timer;;;;;;;x
+crocodile_victory_title;Egyptian Victory;;;;;;x
+crocodile_victory_desc;I will be king of this world. Even if it kills me.;;;;;;;;x
+EVTNAME19000162;Eyalet System;;;;;;;;;x
+EVTDESC19000162;After State n Government, choose one puppet to annex.\nIf that culture isn't accepted, another decision will be available to accept them once the cooldown is gone.\nAnnexing and Accepting have a §R10 year§b and a §R5 year§b cooldown, respectively.\nThis system disappears once the Caliphate is formed, but Middle Eastern accepted's will not be available until it is formed.\n§RStandard integrate decisions are not available to either tag§W;;;;;;;x
+EVTOPTA19000162;Thank you, Vizier;;;;;;;;x
+annex_albania_title;Contain Albania;;;;;;x
+annex_albania_desc;§GThey are too dangerous to be left alone!§W;;;;;;;x
+annex_bosnia_title;Integrate the Bosnian Eyalet;;;;;;x
+annex_bosnia_desc;Our cooperation can be better appreciated under one banner, the Ottoman one;;;;;;;x
+annex_bulgaria_title;Integrate the Bulgarian Eyalet;;;;;;x
+annex_bulgaria_desc;Our cooperation can be better appreciated under one banner, the Ottoman one;;;;;;;x
+annex_grecos_title;Integrate the Greek Eyalet;;;;;;x
+annex_grecos_desc;Our cooperation can be better appreciated under one banner, the Ottoman one;;;;;;;x
+annex_hungary_title;Integrate the Hungarian Eyalet;;;;;;x
+annex_hungary_desc;Our cooperation can be better appreciated under one banner, the Ottoman one;;;;;;;x
+accept_hungary_title;Date on the Danube;;;;;;x
+accept_hungary_desc;Nice place, I think I'll keep it! Because I'm fucking evil!;;;;;;x
+accept_greek_title;Date on the Aegean;;;;;;x
+accept_greek_desc;Nice place, I think I'll keep it! Because I'm fucking evil!;;;;;;x
+accept_romanian_title;Date on the Dunare;;;;;;x
+accept_romanian_desc;Nice place, I think I'll keep it! Because I'm fucking evil!;;;;;;x
+accept_sitalian_title;Date in Napoli;;;;;;x
+accept_sitalian_desc;Nice place, I think I'll keep it! Because I'm fucking evil!;;;;;;x
+accept_ukrainian_title;Date on the Dnieper;;;;;;x
+accept_ukrainian_desc;Nice place, I think I'll keep it! Because I'm fucking evil!;;;;;;x
+accept_bulgarian_title;Date on the Maritsa;;;;;;x
+accept_bulgarian_desc;Nice place, I think I'll keep it! Because I'm fucking evil!;;;;;;x
+annex_sitalian_title;Integrate the Italian Eyalet;;;;;;x
+annex_sitalian_desc;Our cooperation can be better appreciated under one banner, the Ottoman one;;;;;;;x
+annex_ukrainian_title;Integrate the Ukrainian Eyalet;;;;;;x
+annex_ukrainian_desc;Our cooperation can be better appreciated under one banner, the Ottoman one;;;;;;;x
+integrate_eyalets_title;Eyalet Tab;;;;;;;x
+integrate_eyalets_desc;Click here to either integrate or accept a European puppet state;;;;;;;x
+albanians;Albanians;;;;;;x
+albanians;desc;run;;;;;;;x
+albania_strong_title;Albania Strong;;;;;;x
+albania_strong_desc;Time for us to rise up!;;;;;x
+EVTNAME19000163;Albanian Growth;;;;;;;x
+EVTDESC19000163;Albania has always been a close ally and vassal of the Ottoman Empire, and they have recently seen fast growth in their territory.;;;;;;;x
+EVTOPTA19000163;let's keep an eye on that;;;;;;;;x
+EVTNAME19000164;Albanian Expansion;;;;;;x
+EVTDESC19000164;It would appear this "growth spurt" has alternative explanations, reports have been coming in of blackmarket deals containing great quantities of arms and clothing. Perhaps things aren't as peachy as they seem?;;;;;;;;x
+EVTOPTA19000164;Launch a full investigation!;;;;;;;x
+EVTNAME19000165;Albanian Threat;;;;;;;x
+EVTDESC19000165;We have failed to prevent Albania's ascension, our only option now is to rely on our Janissary corps. Albania has been mobilizing military resources this entire time!;;;;;;x
+EVTOPTA19000165;May Allah guide us. . .;;;;;;;x
+albania_awaken_title;Awaken Albania;;;;;;;x
+albania_awaken_desc;Begin the Utopia Project;;;;;;;;;;x
+albanian_guns_title;Make Weapons Purchase;;;;;;;x
+albanian_guns_desc;Black market sources have become available to supply us with much needed arms at a reasonable price.;;;;;;;;x
+albanian_casino_title;Visit the Casino;;;;;;x
+albanian_casino_desc;A black market casino has recently been opened. Time to win big! 99% of gamblers quit before winning big!;;;;;;;x
+EVTNAME19000166;The Results;;;;;;x
+EVTDESC19000166;Choose if they win or not;;;;;;;;x
+EVTOPTA19000166;They Lose;;;;;;;;x
+EVTOPTB19000166;They Break Even;;;;;;;;x
+EVTOPTC19000166;They Win Big!;;;;;;;;x
+EVTNAME19000167;Loss;;;;;;;x
+EVTDESC19000167;We lost the bet, we could just make it back if we do it again though!;;;;;;;x
+EVTOPTA19000167;TRUE!;;;;;;;;x
+EVTNAME19000168;Win;;;;;;;x
+EVTDESC19000168;We won the bet and got 100,000 smackaroonies! If we keep doing it we easily become billionaires!;;;;;;;;x
+EVTOPTA19000168;TRUKE!;;;;;;;;x
+EVTNAME19000169;MEGA WINS;;;;;;;x
+EVTDESC19000169;Holy shit. . . . We won so hard they banned us for 2 years!;;;;;;;x
+EVTOPTA19000169;The House always losses;;;;;;;;x
+gun_cooldown;Gun Cooldown;;;;;x
+gun_cooldown_desc;just a timer;;;;;;x
+casino_cooldown_desc;just a timer for gamblers;;;;;;x
+casino_cooldown;Casino Cooldown;;;;;;x
+casino_banned;Banned from Gambling;;;;;x
+casino_banned_desc;Get your ass banned!;;;;;;;x
+EVTNAME19000170;Romanian Question;;;;;;x
+EVTDESC19000170;Our consuls in what used-to-be Wallachia and Moldavia have reported back to us claiming that the Sultan has formally integrated the states as a part of the Ottoman Empire. If these rumors are true, it would be a clear breach of our previous agreements regarding the Romanians. How are we to approach the issue, Tsar?;;;;;;;x
+EVTOPTA19000170;West has Fallen, Nothingburger;;;;;;;;x
+EVTOPTB19000170;Ask the meta-allies;;;;;;x
+EVTOPTC19000170;WAAAAAAGGHHHH!;;;;;;;;;x
+EVTNAME19000171;Romanian Crisis;;;;;;;;x
+EVTDESC19000171;Diplomats from Russia have just visited requesting assistance against the Ottoman incursion into Romania. They claim the Sultan has broken previous treaties and violated Romanian sovereignty. The Sultan's formal announcement claimed the act was done in cooperation with the Romanian states, and the states we under no outside pressure to comply. Who are we to believe?;;;;;;x
+EVTOPTA19000171;"Who?" 'Roma-' "-cares?".;;;;;;;;x
+EVTOPTB19000171;Russia is truthing;;;;;;;x
+EVTOPTC19000171;Saber Toothed Falsers!;;;;;;;x
+EVTNAME19000173;$FROMCOUNTRY$ agrees with us!;;;;;;;;x
+EVTDESC19000173;$FROMCOUNTRY$ sees clear facts and logic in our argument against the belligerent Sultan, and they have even pledged military assistance!;;;;;x
+EVTOPTA19000173;ZE-HAHAHA;;;;;;;x
+EVTNAME19000176;$FROMCOUNTRY$ agrees with us!;;;;;;;;x
+EVTDESC19000176;$FROMCOUNTRY$ was not convinced by the dim-witted Tsar and his quest to tear apart the Balkans for his own gain. Hopefully this wisdom shines through their military prowess as well.;;;;;;;x
+EVTOPTA19000176;May Allah guide them;;;;;;;x
+EVTNAME19000175;$FROMCOUNTRY$ disagrees with us!;;;;;;;;x
+EVTDESC19000175;$FROMCOUNTRY$ was sweet talked by the Sultan and his riches in the Sublime Porte! Now we must face $FROMCOUNTRY$ and the Ottomans!;;;;;;;;x
+EVTOPTA19000175;We off-screen them, easy;;;;;;;x
+EVTNAME19000174;$FROMCOUNTRY$ disagrees with us!;;;;;;;;x
+EVTDESC19000174;$FROMCOUNTRY$ did not have the wisdom to see through the Tsar's greed and ignorance when approached by his diplomats. We will have to defend Romania and the Empire from $FROMCOUNTRY$ now!;;;;;;;x
+EVTOPTA19000174;May Allah show them mercy;;;;;;;x
+EVTNAME19000177;The Final Decision;;;;;;;;x
+EVTDESC19000177;With France and the United Kingdom's responses, it is time to finally decide whether to go to war for Romania's independence, or to drop the issue all-together.;;;;;;;;x
+EVTOPTA19000177;First Romania, then the World!;;;;;;;x
+EVTOPTB19000177;Actually, I could use a nap;;;;;;;;x
+begin_expansion_title;Begin Expanding;;;;;;x
+begin_expansion_desc;With customers secured, we can begin setting up branch offices within those countries to further spread the Albanian Project!;;;;;;x
+remove_albanians_title;Remove the Mafia;;;;;;;x
+remove_albanians_desc;Too much trouble has been caused by the mafia, with their benefactor removed, the system can be demolished for good!;;;;;;;;x
+EVTNAME19000178;The Mafia;;;;;;;x
+EVTDESC19000178;It would seem our blackmarket deals have attracted a permanent audience in the capital, they have enough resources to elude the state's grasp as well. . .;;;;;x
+EVTOPTA19000178;They've already infiltrated us. . .;;;;;;;x
+EVTNAME19000179;Albanian Fever;;;;;;x
+EVTDESC19000179;Recent reports have come in from $PROVINCENAME$ that residents have started painting themselves red in whatever substance they could get first, then smearing charcoal dust in the rough shape of an eagle on their chest shouting-\n §R"RED AND BLACK I DRESS,\n EAGLE ON MY CHEST,\n IT'S GOOD TO BE AN ALBANIAN!§b;;;;;;;;x 
+EVTOPTA19000179;Oh good heavens;;;;;;x
+EVTNAME19000180;Albanian Revolt;;;;;;x
+EVTDESC19000180;Enough unrest has spread throughout $PROVINCENAME$ that Albanian agents were able to capture the area wholesale!;;;;;;x
+EVTOPTA19000180;The §RRed Tide§b is upon us;;;;;;;x
+albanian_mafia;The Mafia;;;;;;x
+albanian_mafia_desc;They here;;;;;;x
+albanian_plague;Albanian Fever;;;;;;x
+albanian_plague_desc;it spreads;;;;;;x
+begin_expansion2_title:§RDeclare Greater Albania§b;;;;;;x
+begin_expansion2_desc;Finish the Utopia Project;;;;;;x
+albania_awakened;Albania Awakened;;;;;;x
+albania_awakened_desc:awakened;;;;;;;x
+taiping_reform1_title;Heavenly Reforms;;;;;;x
+taiping_reform1_desc;Flex on the hoes, in a heavenly way of course. Bless up.;;;;;;;x
+taiping_reform2_title;Kingdom of Heaven;;;;;x
+taiping_reform2_desc;Having secured our previous borders, the rest of East Asia deserves the Lord's guidance. May His light guide them into our greater whole so we may walk in the path He set for us.;;;;;;x
+heaven_project1_title;The Heaven Project;;;;;;;x
+heaven_project1_desc;We shall begin guiding the rest of the world to His good word. His will is marching on!;;;;;;;x
+battlecryofmemer;Battle Cry of Memer;;;;;;x
+battlecryofmemer_desc;His weight is marching on!;;;;;;;x
+EVTNAME19000181;Ghost of Albania;;;;;;x
+EVTDESC19000181;Although the state has been vanquished and the Mafia behind the Red Scare has receeded into the background, agents still terrorize the countryside in the hopes of bringing back Greater Albania.;;;;;;x
+EVTOPTA19000181;Poor souls;;;;;;;x
+indonesian;Indonesian;;;;;;x
+men_for_the_colonies_title;Men for the Colonies;;;;;;x
+men_for_the_colonies_desc;Since we don't directly own our Great Green Gem of the Raj anymore, we should send some thugs across the seas to get some late game scaling started.;;;;;;x
+dutchmen_title;Honorary Dutchmen;;;;;;;x
+dutchmen_desc;You're part of my crew now, and our job is to sail around and frighten people. It'll be grueling, mind-numbing, and repetitive. Just like, Gremlin Legion.;;;;;;;;x
+recognize_desert_title;Claim the Desert;;;;;x
+recognize_desert_desc;Before the rest of the world realizes the value hidden beneath the sands of Egypt, we must lay claim and reclaim the rest of the kingdom!;;;;;;x

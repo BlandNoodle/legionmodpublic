@@ -29,47 +29,40 @@ everyday_needs_income =
 luxury_needs_income =
 {
 	type = administration
-	weight = 1
+	weight = 0.5
 }
 
 
 luxury_needs = {
-	canned_food = 0.75
-	fruit = 1
-	wool = 3
-	opium = 1
-	luxury_clothes = 1
-	luxury_furniture = 1.5
+	opium = 1.0
+	luxury_clothes = 2
+	luxury_furniture = 2
 	telephones = 1.25
-	automobiles = 1
+	automobiles = 1.0
 	wine = 10
-	aeroplanes = 0.4
-	radio = 1
-	fuel = 0.2
+	#aeroplanes = 0.75
+	radio = 2.0 #1.0
+	#fuel = 0.2
 }
 
 everyday_needs = {
-	coal = 2			#4.6
-	liquor = 4			#17.6
-	regular_clothes = 5 #29
-	furniture = 4		#19.6
-	paper = 5			#17
-	glass = 1			#2.9
-	tobacco = 3			#3.3
-	tea = 5				#13
-	coffee = 2			#4.2
-	radio = 0.50		#8
-	telephones = 0.5	#8
-	cement = 0.5		#8
-	steel = 1			#4.7
+	coal = 1
+	liquor = 5
+	regular_clothes = 4
+	furniture = 4
+	paper = 5
+	glass = 1
+	tobacco = 3
+	tea = 5
+	coffee = 2
+	cattle = 2.5
 }
-
 life_needs = {
-	cattle = 1.5
-	wool =  1.5
-	fish =  2
-	fruit =  2
-	grain =  5
+	cattle = 0.75
+	wool =  0.85
+	fish =  1.05
+	fruit =  1.25
+	grain =  2.5
 }
 
 

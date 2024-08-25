@@ -11,6 +11,12 @@ EGY = {
 	influence_value = 25
 }
 
+ALB = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
 GRE = {
 	value = -25		#relation
 	level = 0		#3=cordial, 4 = friendly, 5 sphere

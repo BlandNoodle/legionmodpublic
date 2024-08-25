@@ -43,14 +43,14 @@ PAP = {
 }
 
 BAD = {	
-	value = 125
-	level = 5
+	value = 100
+	level = 4
 	influence_value = 25
 }
 
 WUR = {
-	value = 125
-	level = 5
+	value = 100
+	level = 3
 	influence_value = 25
 }
 
@@ -209,30 +209,30 @@ army = {
 	location = 425
 	regiment = {
 		name= "1.Garde Royale"
-		type = guard
+		type = infantry
 		home = 425
 	}
 
 	regiment = {
 		name= "2.Garde Royale"
-		type = guard
+		type = infantry
 		home = 426
 	}
 
 	regiment = {
 		name= "3.Garde Royale"
-		type = guard
+		type = infantry
 		home = 427
 	}
 
 	regiment = {
 		name= "4.Garde Royale"
-		type = guard
+		type = infantry
 		home = 440
 	}
 	regiment = {
 		name= "1.1ère Division d'Infanterie"
-		type = guard
+		type = infantry
 		home = 438
 	}
 

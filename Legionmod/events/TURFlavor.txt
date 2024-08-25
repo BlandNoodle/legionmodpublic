@@ -120,3 +120,117 @@ country_event = {
 		capital = 876
 	}
 }
+
+country_event = {
+	id = 19000163
+	title = "EVTNAME19000163"
+	desc = "EVTDESC19000163"
+	picture = "containment_breach"
+	
+	trigger = {
+		tag = TUR
+		ALB = {
+			total_pops = 750000
+		}
+		is_our_vassal = ALB
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA19000163"
+		prestige = -5
+		ALB = {
+			research_points = 1200
+			treasury = 20000
+		}
+	}
+}
+
+country_event = {
+	id = 19000164
+	title = "EVTNAME19000164"
+	desc = "EVTDESC19000164"
+	picture = "containment_breach"
+	
+	trigger = {
+		tag = TUR
+		ALB = {
+			total_pops = 850000
+		}
+		is_our_vassal = ALB
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA19000164"
+		prestige = -10
+		ALB = {
+			research_points = 2400
+			treasury = 50000
+			small_arms = 150
+			canned_food = 20
+			regular_clothes = 6
+			any_owned = {
+				fort = 2
+			}
+		}
+		set_global_flag = albania_rise
+	}
+}
+
+country_event = {
+	id = 19000165
+	title = "EVTNAME19000165"
+	desc = "EVTDESC19000165"
+	picture = "containment_breach"
+
+	trigger = {
+		tag = TUR
+		ALB = {
+			total_pops = 950000
+		}
+		is_our_vassal = ALB
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA19000165"
+		prestige = -15
+		release_vassal = ALB
+		leave_alliance = ALB
+		end_military_access = ALB
+		diplomatic_influence = {
+			who = ALB
+			value = -500
+		}
+		remove_accepted_culture = albanian
+		
+		ALB = {
+			research_points = 4800
+			treasury = 100000
+			artillery = 250
+			canned_food = 100
+			regular_clothes = 18
+			small_arms = 375
+			luxury_clothes = 5
+			any_owned = {
+				fort = 2
+			}
+		}
+	}
+}

@@ -67,8 +67,9 @@ treaty_port_beijing = {
 }
 
 theraj = {
-	pop_militancy_modifier = -0.1
-	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = -0.2
+	population_growth = -0.0006
+	pop_consciousness_modifier = 0.1
 	local_ruling_party_support = 0.25
 	icon = 1
 }
@@ -90,43 +91,42 @@ unshakable_autocracy = {
 }
 
 earlygamerussia = {
-	factory_output = -0.15
 	mobilisation_size = 0.01
-	research_points_on_conquer = 0.75
-	education_efficiency_modifier = -0.30
-	research_points_modifier = -0.75
-	cb_generation_speed_modifier = 0.50
+	research_points_on_conquer = 4
+	education_efficiency_modifier = -0.40
+	research_points_modifier = -1
+	cb_generation_speed_modifier = 0.33
 	icon = 15
 }
 
 midgamerussia = {
-	research_points_modifier = 0.75
-	military_tech_research_bonus = 0.15
-	culture_tech_research_bonus = -0.30
+	research_points_modifier = 2
+	military_tech_research_bonus = 0.20
+	navy_tech_research_bonus = 0.25
+	culture_tech_research_bonus = -0.50
+	industry_tech_research_bonus = -0.40
 	education_efficiency_modifier = -0.25
 	icon = 9
 }
 
 lategamerussia = {
-	loan_interest = -0.01
 	influence_modifier = 0.25
 	education_efficiency_modifier = 0.15
-	industry_tech_research_bonus = 0.15
-	army_tech_research_bonus = -0.10
+	industry_tech_research_bonus = 0.05
+	army_tech_research_bonus = -0.15
 	political_reform_desire = 0.50
 	mobilisation_size = -0.01
 	icon = 17
 }
 
 wizardry = {
-	global_assimilation_rate = 1
-	research_points = 3
+	research_points = 5
 	rgo_throughput = 0.33
-	cb_generation_speed_modifier = -1
+	badboy = 0.1
 	influence_modifier = -0.20
 	supply_consumption = -0.25
-	mobilisation_size = -0.02
-	reinforce_rate = 0.25
+	mobilisation_size = -0.03
+	reinforce_rate = 0.33
 	icon = 7
 }
 
@@ -689,7 +689,7 @@ organic_work = {
 ##### GREAT POWERS #####
 protector_of_eastern_christendom = {
 	prestige = 0.1
-	badboy = 0.05
+	badboy = -0.05
 	mobilisation_size = 0.01
 	icon = 17
 }
@@ -765,10 +765,11 @@ indiacountry = {
 
 britishrajinfancy = {
 	education_efficiency_modifier = 0.25
-	research_points_modifier = -0.1
-	research_points_on_conquer = -1
+	research_points_modifier = -0.2
+	research_points_on_conquer = -3
 	factory_throughput = -0.5
-	mobilisation_size = -0.06
+	factory_cost = 1
+	mobilisation_size = -0.02
 	prestige = -1
 	icon = 18
 }
@@ -857,19 +858,16 @@ economic_boom = {
 #### ENG - ENGLAND #####
 corn_laws_repealed = {
 	max_tariff = -0.2
-	core_pop_militancy_modifier = -0.01
-	core_pop_consciousness_modifier = 0.01	
 	rgo_throughput = 0.1
-	prestige = 0.1
-	global_immigrant_attract = 0.3
+	factory_cost = -0.2
 	icon = 1
 }
 
 the_yard = {
 	tax_efficiency = 0.05
-	suppression_points_modifier = 0.1
-	ruling_party_support = 0.05
-	core_pop_militancy_modifier = -0.001
+	suppression_points_modifier = 0.25
+	ruling_party_support = 0.15
+	core_pop_militancy_modifier = -0.01
 	prestige = 0.01
 	icon = 1
 }
@@ -953,11 +951,13 @@ century_humiliate = {
 yatsen = {
 	supply_consumption = -0.40
 	administrative_efficiency_modifier = 0.33
-	education_efficiency_modifier = 1
-	culture_tech_research_bonus = 0.90
+	education_efficiency_modifier = 0.5
+	culture_tech_research_bonus = 0.60
+	army_tech_research_bonus = 0.60
+	commerce_tech_research_bonus = 0.60
 	social_reform_desire = 0.75
-	mobilisation_size = -0.15
-	research_points = 10
+	mobilisation_size = -0.06
+	research_points = 4
 	icon = 17
 }
 
@@ -977,9 +977,8 @@ bread_basketm = {
 #### FRA - France ####
 the_french_foreign_legion = {	
 	prestige = 0.01
-	leadership_modifier = 0.05
-	global_immigrant_attract = 0.2
-	mobilisation_size = 0.005
+	leadership_modifier = 0.15
+	land_unit_start_experience = 10
 	icon = 17
 }
 
@@ -1122,9 +1121,8 @@ algeria_boom= {
 	icon = 5
 }
 An_mein_Volk = {
-	mobilisation_size = 0.03
-	core_pop_militancy_modifier = -0.02
-	land_unit_start_experience = 10.0
+	mobilisation_size = 0.02
+	land_unit_start_experience = 20.0
 	org_regain = 0.2
 	supply_consumption = -0.2
 	badboy = 0.1
@@ -1172,21 +1170,17 @@ levee_en_masse = {
 }
 
 otto_von_bismarck = {
-	prestige = 0.1
-	core_pop_militancy_modifier = -0.01
-	core_pop_consciousness_modifier = -0.01
-	diplomatic_points_modifier = 0.25
+	prestige = 0.2
+	diplomatic_points_modifier = 0.50
 	influence_modifier = 0.33
 	ruling_party_support = 0.5
-	administrative_efficiency_modifier = 0.15
+	badboy = -0.05
 	icon = 17
 }
 louis_napoleon_iii = {
 	prestige = 0.2
 	ruling_party_support = 0.5
-	core_pop_militancy_modifier = -0.02
-	core_pop_consciousness_modifier = -0.05
-	cb_generation_speed_modifier = 0.25
+	badboy = -0.05
 	icon = 17
 }
 german_colonial_society = {	
@@ -1456,9 +1450,9 @@ zuiderzee_werkz = {
 }
 
 batavian_education = {
-	education_efficiency_modifier = 0.33
-	administrative_efficiency_modifier = 0.2
-	research_points = 1
+	education_efficiency_modifier = 0.35
+	administrative_efficiency_modifier = 0.25
+	research_points = 2
 	mobilisation_size = 0.02
 	icon = 7
 }
@@ -1481,12 +1475,9 @@ kwantung_occupation = {
 
 hideki_tojo = {
 	badboy = -0.1
-	core_pop_militancy_modifier = -0.02
-	core_pop_consciousness_modifier = -0.01
 	diplomatic_points_modifier = 0.25
 	ruling_party_support = 1
-	cb_generation_speed_modifier = 0.15
-	tax_efficiency = 0.05
+	cb_generation_speed_modifier = 0.1
 	icon = 17
 }
 
@@ -1521,10 +1512,11 @@ lubu = {
 	land_organisation = 0.75
 	land_unit_start_experience = 70
 	org_regain = 0.8
-	research_points_ = 4
-	army_tech_research_bonus = 0.90
-	navy_tech_research_bonus = 0.90
-	culture_tech_research_bonus = 0.90
+	research_points_ = 10
+	army_tech_research_bonus = 0.85
+	navy_tech_research_bonus = 0.85
+	culture_tech_research_bonus = 0.85
+	commerce_tech_research_bonus = 0.85
 	mobilisation_size = 0.10
 	icon = 17
 }
@@ -1658,15 +1650,15 @@ monroesa = {
 germancoops = {
 	assimilation_rate = 0.25
 	pop_militancy_modifier = -0.1
-	local_RGO_output = 0.20
+	local_RGO_output = 0.25
 	icon = 11
 }
 
 legitimacy = {
-	ruling_party_support = 0.25
+	ruling_party_support = 0.33
 	non_accepted_pop_consciousness_modifier = -0.1
 	non_accepted_pop_militancy_modifier = -0.1
-	global_assimilation_rate = 0.25
+	global_assimilation_rate = 0.5
 	factory_throughput = 0.1
 	prestige = 0.03
 	icon = 17
@@ -1720,4 +1712,85 @@ american_pride = {
 	rgo_throughput = 0.05
 	global_pop_militancy_modifier = -0.01
 	icon = 17
+}
+
+britishraj = {
+	assimilation_rate = 1
+	immigrant_attract = 1
+	population_growth = 0.004
+	icon = 9
+}
+
+eyalet_cooldown = {
+	prestige = 0.01
+	icon = 2
+}
+
+albanians = {
+	population_growth = 0.006
+	local_ruling_party_support = 1
+	pop_militancy_modifier = -0.75
+	immigrant_attract = -1
+	mine_rgo_size = 10
+	icon = 19
+}
+
+albania_awakened = {
+	global_pop_militancy_modifier = -0.5
+	research_points = 8
+	global_assimilation_rate = 80
+	global_population_growth = -0.008
+	supply_consumption = -0.50
+	diplomatic_points_modifier = 1
+	factory_cost = -0.7
+	mobilisation_size = 0.03
+	icon = 3
+}
+
+casino_cooldown = {
+	commerce_tech_research_bonus = -0.04
+	prestige = -0.02
+	icon = 6
+}
+
+casino_banned = {
+	commerce_tech_research_bonus = 0.04
+	prestige = 0.02
+	icon = 5
+}
+
+gun_cooldown = {
+	army_tech_research_bonus = -0.02
+	prestige = -0.02
+	icon = 10
+}
+
+albanian_mafia = {
+	pop_militancy_modifier = 0.08
+	pop_consciousness_modifier = 0.08
+	local_ruling_party_support = -0.25
+	local_RGO_throughput = 0.20
+	local_factory_throughput = 0.10
+	icon = 18
+}
+
+albanian_plague = {
+	pop_militancy_modifier = 0.1
+	pop_consciousness_modifier = 0.1
+	local_ruling_party_support = -0.5
+	local_RGO_throughput = -0.30
+	population_growth = 0.01
+	icon = 20
+}
+
+battlecryofmemer = {
+	mobilisation_economy_impact = -0.33
+	mobilisation_size = 0.04
+	leadership_modifier = 1
+	unit_start_experience = 25
+	core_pop_militancy_modifier = -1
+	factory_output = 0.25
+	org_regain = 0.5
+	supply_consumption = -0.33
+	icon = 15
 }

@@ -30,14 +30,16 @@ guard = {
 		small_arms = 0.02 #0.015
 		canned_food = 0.09 # 0.08
 		ammunition = 0.225 #0
+		liquor = 0.06
+		wine = 0.02
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 0
-	attack = 6
-	defence = 4
-	discipline = 1.1
-	support = 0.0
+	reconnaissance = 3
+	attack = 5
+	defence = 5
+	discipline = 1.2
+	support = 0.25
 	maneuver = 2
 }

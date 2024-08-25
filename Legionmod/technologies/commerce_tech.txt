@@ -333,7 +333,7 @@ early_classical_theory_and_critique = {
 	cost = 3600
 	
 	activate_building = lumber_mill
-	factory_input = -0.02
+	factory_input = -0.01
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -355,7 +355,7 @@ late_classical_theory = {
 	year = 1836
 	cost = 7200
 	
-	factory_input = -0.02
+	factory_input = -0.01
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -385,7 +385,7 @@ collectivist_theory = {
 	year = 1836
 	cost = 10800
 
-	factory_input = -0.03
+	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -415,7 +415,7 @@ the_historical_theory = {
 	year = 1850
 	cost = 14400
 
-	factory_input = -0.03
+	factory_input = -0.02
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -475,7 +475,7 @@ keynesian_economics = {
 	year = 1900
 	cost = 21600
 
-	factory_input = -0.05
+	factory_input = -0.03
 	ai_chance = {
 		factor = 1.01
 		modifier = {

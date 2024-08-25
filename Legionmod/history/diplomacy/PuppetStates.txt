@@ -12,6 +12,20 @@ vassal = {
 	end_date = 1937.1.1
 }
 
+vassal = {
+	first = TUR
+	second = ALB
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TUR
+	second = BOS
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
 #vassal = {
 #	first = CHI
 #	second = KOR

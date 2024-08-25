@@ -2,6 +2,7 @@ sprite = 4
 color = { 18 129 10 }
 strata = rich
 state_capital_only = yes
+is_artisan = yes
 
 demote_migrant = yes
 
@@ -19,39 +20,52 @@ rebel =
 
 can_build = yes
 
+{
+	cavalry = 0
+	artillery = 0.1
+	cuirassier = 0
+	dragoon = 0
+	guard = 0.3
+	hussar = 0
+	infantry = 0.6
+	irregular = 0
+}
+
 everyday_needs = {
 	coal = 20
-	paper = 20
-	luxury_clothes = 20
-	luxury_furniture = 20
-	wine = 20
+	paper = 25
+	regular_clothes = 40
+	furniture = 40
 	tobacco = 20 
-	coffee = 10
-	tea = 10
+	coffee = 20
+	cattle = 2.5
 }
 
 life_needs = {
 	cattle = 0.75
-	wool =  1
-	fish =  1
+	wool =  0.85
+	fish =  1.05
 	fruit =  1
 	grain =  2.5
+	wine = 10
 }
 
 
 luxury_needs = {
+	luxury_clothes = 40
+	luxury_furniture = 40
 	opium = 20
-	oil = 10
-	rubber = 10
+	#oil = 10
+	#rubber = 10
 	telephones = 20
 	automobiles = 20
-	aeroplanes = 5
+	#aeroplanes = 5
 	radio = 20
-	fuel = 30
-	ammunition = 1 
-	small_arms = 1 
-	clipper_convoy = 2
-	steamer_convoy = 2
+	#fuel = 20
+	#ammunition = 1 
+	#small_arms = 1 
+	clipper_convoy = 1
+	steamer_convoy = 1
 }
 
 

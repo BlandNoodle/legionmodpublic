@@ -432,8 +432,11 @@ EVTOPTC800002;Stay Neutral;;;;;;x
 EVTNAME800003;$FROMCOUNTRY$ has sent us Aid!;;;;;;;x
 EVTDESC800003;We appreciate them dearly, this will help us lots!;;;;;;x
 EVTOPTA800003;May Allah bless them with many virgins.;;;;;;x
+EVTNAME800004;$FROMCOUNTRY$ gave us Aid!;;;;;;x
+EVTDESC800004;$FROMCOUNTRY$ sees the weakness in the Sultan's grip and blesses our military utopia!;;;;;;x
+EVTOPTA800004;Eh, Eh, Eh, Eh. . .;;;;;;x
 EVTNAME800005;$FROMCOUNTRY$ has sent Aid to Egypt!;;;;;;x
-EVTDESC800005;We deppreciate them greatly, we hope they're oncologist appointment goes horribly.;;;;;;x
+EVTDESC800005;We depreciate them greatly, we hope they're oncologist appointment goes horribly.;;;;;;x
 EVTOPTA800005;May Allah curse them with many stonings.;;;;;;x
 EVTNAME800006;War on Egypt!;;;;;;x
 EVTDESC800006;Enough waiting, the powers of the world have chosen they're sides, we now will declare war on the Egyptians and reclaim our former glory!;;;;;;x
@@ -479,7 +482,7 @@ EVTNAME19000105;Occupation;;;;;;x
 EVTDESC19000105;Rebels have occupied another position;;;;;;x
 EVTOPTA19000105;Rip;;;;;;x
 EVTNAME19000106;Aftermath of the Mutiny;;;;;;x
-EVTDESC19000106;The Indian mutiny has failed, and many princes either stood by or were unable to provide meaningful aid to the crisis. The East India Company also proved its worthlessness with its inability to contain the situation. Perhaps a modernization of administration is required. . . ;;;;;;x
+EVTDESC19000106;The Indian mutiny has failed, and many princes either stood by or were unable to provide meaningful aid to the crisis. The East India Company also proved its worthlessness with its inability to contain the situation. Perhaps a modernization of administration is required. . .\n§RKeeping India as a vassal will open a decision to gain assimilation and pop growth elsewhere in the Commonwealth.§b;;;;;;x
 EVTOPTA19000106;YOOOOUUUUUURRR, FIRED!;;;;;;x
 theraj;The Raj;;;;;;x
 theraj_desc;The Raj and its consequences have been devestating for Indian society;;;;;;;;x

@@ -2129,13 +2129,13 @@
 	soldiers = {
 		culture = cree
 		religion = animist
-		size = 2500
+		size = 200
 	}
 
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 4650
+		size = 6650
 	}
 
 }
@@ -2196,13 +2196,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1400
+		size = 1000
 	}
 
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 45000
+		size = 46000
 	}
 }
 #Windsor (36000/9000 POPS)
@@ -2222,13 +2222,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1300
+		size = 1000
 	}
 
 	labourers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 18350
+		size = 19350
 	}
 }
 #Hamilton (68000/17000 POPS)
@@ -2248,13 +2248,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1100
+		size = 600
 	}
 
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 29700
+		size = 30700
 	}
 }
 #Kingston (72000/18000 POPS)
@@ -2324,13 +2324,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1200
+		size = 400
 	}
 
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 34550
+		size = 35550
 	}
 
 	clergymen = {
@@ -2698,13 +2698,13 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 800
+		size = 400
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 51000
+		size = 56000
 	}
 }
 #Chicoutimi (11200/2800 POPS)
@@ -2892,13 +2892,13 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 1150
+		size = 550
 	}
 
 	labourers = {
 		culture = french_canadian
 		religion = catholic
-		size = 30675
+		size = 32675
 	}
 }
 #Quebec City (188000/47000 POPS)
@@ -2918,13 +2918,13 @@
 	soldiers = {
 		culture = french_canadian
 		religion = catholic
-		size = 1000
+		size = 400
 	}
 
 	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 51000
+		size = 53000
 	}
 }
 #Sherbrooke (68000/17000 POPS)
@@ -3029,13 +3029,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1000
+		size = 300
 	}
 
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 19750
+		size = 21750
 	}
 
 	clergymen = {
@@ -3079,13 +3079,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1150
+		size = 550
 	}
 
 	labourers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 17175
+		size = 18175
 	}
 
 	clergymen = {
@@ -3204,13 +3204,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 1125
+		size = 425
 	}
 
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 29075
+		size = 30075
 	}
 
 	labourers = {

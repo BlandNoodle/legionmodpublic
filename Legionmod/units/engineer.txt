@@ -19,21 +19,23 @@ engineer = {
 	build_cost = {
 		small_arms = 75
 		canned_food = 10
+		regular_clothes = 2
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.012 #0.01
-		ammunition = 0.1 # 0
-		canned_food = 0.06 # 0.02
-		explosives = 0.05
+		small_arms = 0.0126 #0.01
+		ammunition = 0.103 # 0
+		canned_food = 0.063 # 0.02
+		explosives = 0.06
+		liquor = 0.04
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 3
-	defence = 6
+	attack = 2
+	defence = 2
 	discipline = 1.0
 	support = 1
 	maneuver = 2

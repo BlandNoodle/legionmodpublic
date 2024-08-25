@@ -113,9 +113,12 @@ political_decisions = {
 		}
 	}
 integrateenabled = {
+	alert = no
 	potential = {
 		NOT = { has_country_flag = inteyes }
 		ai = no
+		NOT = {tag = TUR}
+		NOT = {tag = OTC}
 	}
 	allow = {
 		ai = no
@@ -125,6 +128,7 @@ integrateenabled = {
 	}
 }
 integratedisabled = {
+	alert = no
 	potential = {
 		has_country_flag = inteyes
 		ai = no
@@ -184,7 +188,7 @@ integrate_poles = {
 integrate_walloons = {
 	potential = {
 		has_country_flag = inteyes
-		nationalism_n_imperialism = 1
+		revolution_n_counterrevolution = 1
 		OR = {
 			tag = FRA
 			tag = KUK
@@ -224,7 +228,7 @@ integrate_walloons = {
 integrate_flems = {
 	potential = {
 		has_country_flag = inteyes
-		nationalism_n_imperialism = 1
+		revolution_n_counterrevolution = 1
 		OR = {
 			tag = FRA
 			tag = ENG
@@ -300,7 +304,7 @@ integrate_dutch = {
 integrate_nitaly = {
 	potential = {
 		has_country_flag = inteyes
-		nationalism_n_imperialism = 1
+		revolution_n_counterrevolution = 1
 		OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
@@ -419,7 +423,7 @@ integrate_greek = {
 		NOT = { has_global_flag = gintegrate }
 	}
 	allow = {
-		nationalism_n_imperialism = 1
+		revolution_n_counterrevolution = 1
 		is_greater_power = yes
 		GRE = {
 					all_core = {
@@ -489,7 +493,7 @@ integrate_central_america = {
 		}
 		
 		allow = {
-			nationalism_n_imperialism = 1
+			revolution_n_counterrevolution = 1
 			UCA = { all_core = { owned_by = THIS } }
 		}
 		

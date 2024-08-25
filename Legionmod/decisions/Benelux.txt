@@ -224,13 +224,9 @@ political_decisions = {
 				tag = NET
 				tag = BNX
 			}
-			NOT = {
-				OR = {
-					owns = 375
-					owns = 387
-				}
-				has_country_flag = relocated
-			}
+			NOT = {owns = 387}
+			NOT = {owns = 375}
+			NOT = {has_country_flag = relocated}
 			ai = no
 		}
 		allow = {
@@ -241,7 +237,7 @@ political_decisions = {
 			capital = 1413
 			NET_1413 = { add_core = THIS }
 			NET_1398 = { add_core = THIS }
-			add_accepted_culture = asian_minor
+			add_accepted_culture = indonesian
 			set_country_flag = relocated
 		}
 	}
@@ -263,6 +259,26 @@ political_decisions = {
 				duration = 3650
 			}
 			set_country_flag = smarter
+		}
+	}
+	
+	dutchmen = {
+		potential = {
+			OR = {
+				tag = BNX
+				tag = NET
+			}
+			NOT = {has_country_flag = dutchmen}
+		}
+		allow = {
+			money = 2000000
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			prestige = 25
+			money = -2000000
+			add_accepted_culture = indonesian
+			set_country_flag = dutchmen
 		}
 	}
 	

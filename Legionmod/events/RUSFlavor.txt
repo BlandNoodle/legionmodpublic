@@ -995,12 +995,12 @@ country_event = {
 		set_country_flag = earlygamerussia
 		add_country_modifier = {
 			name = earlygamerussia
-			duration = 7300
+			duration = 10950
 		}
 		ai_chance = {
 			factor = 25
 		}
-		activate_technology = army_professionalism
+		activate_technology = muzzle_loaded_rifles
 	}
 	
 	option = {
@@ -1008,12 +1008,12 @@ country_event = {
 		set_country_flag = midgamerussia
 		add_country_modifier = {
 			name = midgamerussia
-			duration = 7300
+			duration = 10950
 		}
 		ai_chance = {
 			factor = 1
 		}
-		activate_technology = iron_muzzle_loaded_artillery
+		activate_technology = experimental_railroad
 	}
 	
 	option = {
@@ -1021,7 +1021,7 @@ country_event = {
 		set_country_flag = lategamerussia
 		add_country_modifier = {
 			name = lategamerussia
-			duration = 7300
+			duration = 10950
 		}
 		ai_chance = {
 			factor = 75

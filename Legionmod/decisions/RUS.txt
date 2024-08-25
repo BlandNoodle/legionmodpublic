@@ -210,31 +210,39 @@ political_decisions = {
 				has_country_flag = eastern_christians_up_in_here_yall
 			}
 			exists = TUR
-			TUR = {
-				has_country_flag = armenian_genocide
-			}
+			has_country_flag = protected_romania
 		}
 		
 		allow = {
+			exists = ROM
+			is_sphere_leader_of = ROM
 			NOT = {
 				relation = {
 					who = TUR
-					value = 0
+					value = 100
 				}
 			}
-			TUR = {
-				owns = 917
+			NOT = {
+				TUR = {
+					AND = {
+						owns = 664
+						owns = 672
+					}
+				}
 			}
+			
 		}
 		
 		effect = {
-			badboy = 8
+			badboy = 5
 			set_country_flag = eastern_christians_up_in_here_yall
 			add_country_modifier = {
 				name = protector_of_eastern_christendom
 				duration = -1
 			}
-			TUR_886 = { add_core = RUS }
+			1096 = {add_core = RUS}
+			886 = {add_core = RUS}
+			885 = {add_core = RUS}
 		}
 	}
 	peking_convention = {
@@ -509,10 +517,11 @@ political_decisions = {
 							935 = {
 								owner = { alliance_with = THIS }
 							}
-							year = 1870
+							year = 1880
 							owns = 935
 						}
 						is_our_vassal = AFG
+						PER = { in_sphere = THIS }
 					}
 				AND = {
 					OR = {
@@ -524,7 +533,7 @@ political_decisions = {
 							}
 							owns = 935
 						}
-						year = 1880
+						year = 1890
 						owns = 860
 						PER = { in_sphere = THIS }
 					}
@@ -656,16 +665,16 @@ political_decisions = {
 			tag = RUS
 			NOT = {has_country_flag = buildchosen}
 			NOT = {has_country_flag = fourthchoice}
-			year = 1844
+			year = 1838
 		}
 		allow = {
 			tag = RUS
-			NOT = {year = 1848}
+			NOT = {year = 1840}
 		}
 		effect = {
 			add_country_modifier = {
 				name = wizardry
-				duration = 3650
+				duration = 7300
 			}
 			set_country_flag = fourthchoice
 		}

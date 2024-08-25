@@ -1,7 +1,8 @@
 nv_order = {
 	org_regain = 0.05
 	leadership_modifier = 1
-	land_unit_start_experience = 5
+	land_unit_start_experience = 30 #5
+	naval_unit_start_experience = 30
 	army_tech_research_bonus = 0.05
 }
 
@@ -13,13 +14,13 @@ nv_equality = {
 
 nv_productivity = {
 	factory_input = -0.05
-	factory_output = 0.15
+	factory_output = 0.10
 	commerce_tech_research_bonus = 0.05
 	industry_tech_research_bonus = 0.05
 }
 
 nv_education = {
-	education_efficiency_modifier = 0.40
+	education_efficiency_modifier = 0.25
 	culture_tech_research_bonus = 0.05
 }
 

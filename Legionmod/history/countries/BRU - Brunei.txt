@@ -1,5 +1,5 @@
 capital = 1393
-primary_culture = asian_minor
+primary_culture = indonesian
 culture = yue
 religion = animist
 government = absolute_monarchy

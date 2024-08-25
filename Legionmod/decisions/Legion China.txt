@@ -31,7 +31,7 @@ political_decisions = {
 			set_country_flag = sunyatsen
 			add_country_modifier = {
 				name = yatsen
-				duration = 3650
+				duration = 1825
 			}
 			release = MCK
 			inherit = SHA
@@ -45,6 +45,123 @@ political_decisions = {
 			ENG = {
 				remove_country_modifier = free_china_trade
 				remove_country_modifier = large_opium
+			}
+		}
+	}
+	
+	taiping_reform1 = {
+		picture = "Him"
+		potential = {
+			tag = TPG
+			NOT = {has_country_flag = taipingwin}
+		}
+		allow = {
+			NOT = {exists = CHI}
+			war = no
+		}
+		effect = {
+			money = 1000000
+			research_points = 8000
+			MCK = {all_core = {add_core = THIS} }
+			SHA = {all_core = {add_core = THIS} }
+			QNG = {all_core = {add_core = THIS} }
+			MAC = {all_core = {add_core = THIS} }
+			NGB = {all_core = {add_core = THIS} }
+			HKG = {all_core = {add_core = THIS} }
+			FZH = {all_core = {add_core = THIS} }
+			NAN = {all_core = {add_core = THIS} }
+			CHI = {all_core = {add_core = THIS} }
+			set_country_flag = taipingwin
+		}
+	}
+	
+	taiping_reform2 = {
+		picture = "Him"
+		potential = {
+			tag = TPG
+			NOT = {has_country_flag = reformed}
+			has_country_flag = taipingwin
+		}
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			civilized = yes
+			war = no
+		}
+		effect = {
+			set_country_flag = reformed
+			money = 2000000
+			government = democracy
+			political_reform = universal_voting
+			political_reform = state_equal_weight
+			political_reform = secret_ballots
+			political_reform = free_press
+			add_country_modifier = {
+				name = yatsen
+				duration = 1825
+			}
+			ENG = {
+				remove_country_modifier = free_china_trade
+				remove_country_modifier = large_opium
+			}
+			KOR = {all_core = {add_core = THIS} }
+			TIB = {all_core = {add_core = THIS} }
+			any_owned = {
+				remove_core = MCK
+				remove_core = SHA
+				remove_core = QNG
+				remove_core = MAC
+				remove_core = NGB
+				remove_core = HKG
+				remove_core = FZH
+				remove_core = NAN
+				remove_core = CHI
+			}
+		}
+	}
+	
+	heaven_project1 = {
+		picture = "Him"
+		potential = {
+			tag = TPG
+			has_country_flag = reformed
+			NOT = {has_country_modifier = battlecryofmemer}
+		}
+		allow = {
+			war = no
+			money = 2000000
+			any_neighbor_country = {
+				OR = {
+					NOT = { alliance_with = THIS }
+					NOT = { is_sphere_leader_of = THIS }
+					NOT = { vassal_of = THIS }
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = battlecryofmemer
+				duration = 365
+			}
+			money = -2000000
+			any_neighbor_country = {
+				limit = {
+					OR = {
+						NOT = { alliance_with = THIS }
+						NOT = { is_sphere_leader_of = THIS }
+						NOT = { vassal_of = THIS }
+					}
+				}
+				add_casus_belli = {
+					target = TPG
+					type = acquire_state
+					months = 12
+				}
+				relation = {
+					who = TPG
+					value = -300
+				}
 			}
 		}
 	}

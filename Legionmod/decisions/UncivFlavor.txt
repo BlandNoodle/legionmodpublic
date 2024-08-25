@@ -131,10 +131,10 @@ political_decisions = {
 			NOT = {
 				has_country_flag = muhammad_alis_reforms_enacted
 			}
+			has_country_flag = raindinners
 		}
 		allow = {
 			prestige = 5
-			average_consciousness = 2
 		}
 		effect = {
 			add_country_modifier = {
@@ -294,4 +294,285 @@ political_decisions = {
         }
         ai_will_do = {  factor = 1 }
     }
+	
+	##Egypt
+	
+	crocodile_victory = {
+		picture = "crocwin"
+		potential = {
+			tag = EGY
+			has_country_flag = oriental_crisis
+			NOT = {has_country_flag = raindinners}
+		}
+		allow = {
+			war = no
+			TUR = {has_recently_lost_war = yes}
+			owns = 900
+			owns = 913
+			owns = 917
+			is_independant = yes
+			truce_with = TUR
+		}
+		effect = {
+			set_country_flag = raindinners
+			TUR = {country_event = {id = 800008 days = 1} }
+			prestige = 20
+			research_points = 6000
+			activate_technology = experimental_railroad
+			activate_technology = late_enlightenment_philosophy
+			activate_technology = medicine
+			clr_country_flag = oriental_crisis
+		}
+	}
+	
+	albania_strong = {
+		potential = {
+			tag = ALB
+			NOT = {has_country_flag = albaniastrong}
+		}
+		allow = {
+			money = 1
+		}
+		effect = {
+			set_country_flag = albaniastrong
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				add_province_modifier = {
+					name = albanians
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	albania_awaken = {
+		picture = "doffy"
+		potential = {
+			tag = ALB
+			NOT = {has_country_flag = albaniaawake}
+		}
+		allow = {
+			total_pops = 1000000
+			is_independant = yes
+		}
+		effect = {
+			set_country_flag = albaniaawake
+			research_points = 10000
+			money = 250000
+			activate_technology = medicine
+			activate_technology = muzzle_loaded_rifles
+			activate_technology = iron_muzzle_loaded_artillery
+			activate_technology = military_plans
+			activate_technology = strategic_mobility
+			activate_technology = idealism
+			add_country_modifier = {
+				name = albania_awakened
+				duration = -1
+			}
+			any_owned = {
+				infrastructure = 5
+			}
+		}
+	}
+	
+	albanian_guns = {
+		potential = {
+			capital_scope = {
+				NOT = {
+					OR = {
+						continent = south_america
+						continent = north_america
+						continent = asia
+						continent = oceania
+					}
+				}
+			}
+			civilized = yes
+			NOT = {tag = ALB}
+			NOT = {has_country_modifier = gun_cooldown}
+			has_global_flag = albania_rise
+			exists = ALB
+		}
+		allow = {
+			money = 25000
+			NOT = {war_with = ALB}
+		}
+		effect = {
+			money = -25000
+			artillery = 300
+			small_arms = 400
+			ammunition = 50
+			canned_food = 100
+			regular_clothes = 20
+			add_country_modifier = {
+				name = gun_cooldown
+				duration = 121
+			}
+			ALB = {
+				money = 25000
+				research_points = 200
+			}
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = -100
+				NOT = {
+					AND = {
+						money = 100000
+						war = yes
+					}
+				}
+			}
+		}
+	}
+	
+	albanian_casino = {
+		picture = "get_stockpile_big"
+		potential = {
+			capital_scope = {
+				NOT = {
+					OR = {
+						continent = south_america
+						continent = north_america
+						continent = asia
+						continent = oceania
+					}
+				}
+			}
+			civilized = yes
+			NOT = {tag = ALB}
+			NOT = {has_country_modifier = casino_cooldown}
+			NOT = {has_country_modifier = casino_banned}
+			has_global_flag = albania_rise
+			exists = ALB
+			NOT = {has_global_flag = activegambler}
+		}
+		allow = {
+			money = 100000
+			NOT = {war_with = ALB}
+		}
+		effect = {
+			money = -100000
+			ALB = {
+				money = 100000
+				research_points = 200
+				country_event = {id = 19000166 days = 1}
+			}
+			add_country_modifier = {
+				name = casino_cooldown
+				duration = 182
+			}
+			set_global_flag = activegambler
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 2
+				money = 1000000
+			}
+			modifier = {
+				factor = -50
+				war = yes
+			}
+		}
+	}
+	
+	begin_expansion = {
+		picture = "doffy"
+		potential = {
+			tag = ALB
+			has_global_flag = albania_rise
+			NOT = {has_country_flag = expandedalb}
+		}
+		allow = {
+			money = 1000000
+			is_independant = yes
+			war = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						is_greater_power = yes
+						has_country_modifier = gun_cooldown
+						has_country_modifier = casino_cooldown
+					}
+				}
+				country_event = {id = 19000178 days = 1}
+			}
+			money = -1000000
+			prestige = 50
+			activate_technology = breech_loaded_rifles
+			activate_technology = point_defense_system
+			849 = {trade_goods = iron}
+			853 = {trade_goods = sulphur}
+			851 = {trade_goods = precious_metal fort = 4}
+			set_country_flag = expandedalb
+		}
+	}
+	
+	begin_expansion2 = {
+		picture = "doffy"
+		potential = {
+			tag = ALB
+			has_global_flag = albania_rise
+			has_country_flag = expandedalb
+			NOT = {has_country_flag = expandedalb2}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			money = 1000000
+			is_independant = yes
+			war = no
+		}
+		effect = {
+			YUG = {all_core = {add_core = ALB} }
+			BUL = {all_core = {add_core = ALB} }
+			GRE = {all_core = {add_core = ALB} }
+			ROM = {all_core = {add_core = ALB} }
+			money = -1000000
+			prestige = 50
+			set_country_flag = expandedalb2
+		}
+	}
+	
+	remove_albanians = {
+		picture = "doffy_jail"
+		potential = {
+			NOT = {tag = ALB}
+			has_global_flag = albania_rise
+			NOT = {has_country_flag = byemafia}
+		}
+		allow = {
+			money = 500000
+			NOT = {exists = ALB}
+			war = no
+		}
+		effect = {
+			any_owned = {
+				limit = {
+					is_core = ALB
+					owned_by = THIS
+				}
+				remove_core = ALB
+				add_core = THIS
+			}
+			THIS = {capital_scope = {remove_province_modifier = albanian_mafia} }
+			any_owned = {
+				remove_province_modifier = albanian_plague
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = albanian
+				}
+				reduce_pop = 0.001
+			}
+			money = -500000
+			prestige = 20
+			set_country_flag = byemafia
+		}
+	}
 }

@@ -534,7 +534,7 @@
     soldiers = {
         culture = mashriqi
         religion = sunni
-        size = 275
+        size = 775
     }
 
     farmers = {

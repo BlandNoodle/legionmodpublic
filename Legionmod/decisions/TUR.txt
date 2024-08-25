@@ -177,20 +177,21 @@ political_decisions = {
 
 	annex_romania = {
 		potential = {
-			tag = OTC
+			tag = TUR
 			AND = { exists = WAL
 				exists = MOL
 				}
 			NOT = {
 				has_country_flag = annexed_romania
-			}		
+			}
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
 		}
 
 		
 		allow = {
-			prestige = 100
 			war = no
-			revolution_n_counterrevolution = 1
+			nationalism_n_imperialism = 1
 			is_our_vassal = WAL
 			is_our_vassal = MOL
 		}
@@ -201,22 +202,470 @@ political_decisions = {
 			prestige = 10
 			WAL = { annex_to = THIS }
 			MOL = { annex_to = THIS }
-			add_accepted_culture = romanian
-			RUS = {
-			relation = { who = THIS value = -100 }
-			casus_belli = {
-				target = OTC
-				type = humiliate
-				months = 24
-
-				}
-			casus_belli = {
-				target = OTC
-				type = free_peoples
-				months = 24
-
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			RUS = {country_event = {id = 19000170 days = 3}}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 200
+				stronger_army_than = RUS
+			}
+			modifier = {
+				factor = -100
+				is_our_vassal = BUL
+			}
+		}
+	}
+	
+	integrate_eyalets = {
+		picture = "eyalet"
+		potential = {
+			tag = TUR
+			NOT = {has_country_modifier = eyalet_cooldown}
+			NOT = {has_country_flag = eyaletchoice}
+		}
+		allow = {
+			war = no
+			NOT = {constructing_cb_progress = 0.1}
+			state_n_government = 1
+		}
+		effect = {
+			THIS = {country_event = {id = 19000162 days = 0}}
+			set_country_flag = eyaletchoice
+		}
+	}
+	
+	annex_albania = {
+		picture = "albania"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = ALB
+		}
+		allow = {
+			exists = ALB
+			is_our_vassal = ALB
+			relation = {
+				who = ALB
+				value = 125
+			}
+		}
+		effect = {
+			inherit = ALB
+			ALB = {
+				all_core = {
+					add_core = THIS
 				}
 			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+		ai_will_do = {
+			factor = 60
+			modifier = {
+				factor = 100
+				NOT = {
+					is_our_vassal = EGY
+				}
+			}
+			modifier = {
+				factor = -20
+				NOT = {
+					ALB = {
+						total_pops = 500000
+					}
+				}
+			}
+			modifier = {
+				factor = -30
+				NOT = {
+					ALB = {
+						total_pops = 600000
+					}
+				}
+			}
+			modifier = {
+				factor = -10
+				NOT = {
+					ALB = {
+						total_pops = 700000
+					}
+				}
+			}
+		}
+	}
+	
+	annex_bosnia = {
+		picture = "firsttowelfare"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = BOS
+		}
+		allow = {
+			exists = BOS
+			is_our_vassal = BOS
+			relation = {
+				who = BOS
+				value = 125
+			}
+		}
+		effect = {
+			inherit = BOS
+			BOS = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				is_our_vassal = EGY
+			}
+			modifier = {
+				factor = -50
+				ALB = {
+					total_pops = 850000
+				}
+			}
+		}
+	}
+	
+	annex_bulgaria = {
+		picture = "integrate_bul"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = BUL
+		}
+		allow = {
+			exists = BUL
+			is_our_vassal = BUL
+			relation = {
+				who = BUL
+				value = 125
+			}
+		}
+		effect = {
+			inherit = BUL
+			BUL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				is_our_vassal = EGY
+			}
+			modifier = {
+				factor = -50
+				is_our_vassal = BOS
+			}
+			modifier = {
+				factor = -50
+				ALB = {
+					total_pops = 800000
+				}
+			}
+		}
+	}
+	
+	annex_grecos = {
+		picture = "integrate_greek"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = GRE
+		}
+		allow = {
+			exists = GRE
+			is_our_vassal = GRE
+			relation = {
+				who = GRE
+				value = 125
+			}
+		}
+		effect = {
+			inherit = GRE
+			GRE = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	annex_hungary = {
+		picture = "restore_order_hun"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = HUN
+		}
+		allow = {
+			exists = HUN
+			is_our_vassal = HUN
+			relation = {
+				who = HUN
+				value = 125
+			}
+		}
+		effect = {
+			inherit = HUN
+			HUN = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	accept_hungary = {
+		picture = "restore_order_hun"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			NOT = {accepted_culture = hungarian}
+			owns = 791
+		}
+		allow = {
+			
+		}
+		effect = {
+			add_accepted_culture = hungarian
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	accept_greek = {
+		picture = "integrate_greek"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			NOT = {accepted_culture = greek}
+		}
+		allow = {
+			owns = 834
+			owns = 822
+			owns = 832
+		}
+		effect = {
+			add_accepted_culture = greek
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	accept_bulgarian = {
+		picture = "integrate_bulgaria"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			owns = 809
+			NOT = {accepted_culture = bulgarian}
+		}
+		allow = {
+			
+		}
+		effect = {
+			add_accepted_culture = bulgarian
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			clr_country_flag = eyaletchoice
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				is_our_vassal = EGY
+			}
+			modifier = {
+				factor = -50
+				is_our_vassal = BOS
+			}
+			modifier = {
+				factor = -50
+				ALB = {
+					total_pops = 750000
+				}
+			}
+		}
+	}
+	
+	accept_romanian = {
+		picture = "integrate_rom"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			owns = 664
+			NOT = {accepted_culture = romanian}
+		}
+		allow = {
+			
+		}
+		effect = {
+			add_accepted_culture = romanian
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	annex_ukrainian = {
+		picture = "ukraine"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = UKR
+		}
+		allow = {
+			exists = UKR
+			is_our_vassal = UKR
+			relation = {
+				who = UKR
+				value = 125
+			}
+		}
+		effect = {
+			inherit = UKR
+			UKR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	accept_ukrainian = {
+		picture = "ukraine"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			owns = 967
+			NOT = {accepted_culture = ukrainian}
+		}
+		allow = {
+			
+		}
+		effect = {
+			add_accepted_culture = ukrainian
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	annex_sitalian = {
+		picture = "form_italy_peacefully"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			exists = SIC
+		}
+		allow = {
+			exists = SIC
+			is_our_vassal = SIC
+			relation = {
+				who = SIC
+				value = 125
+			}
+		}
+		effect = {
+			inherit = SIC
+			SIC = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 3650
+			}
+			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	accept_sitalian = {
+		picture = "form_italy_peacefully"
+		potential = {
+			tag = TUR
+			has_country_flag = eyaletchoice
+			NOT = {has_country_modifier = eyalet_cooldown}
+			owns = 754
+			NOT = {accepted_culture = south_italian}
+		}
+		allow = {
+			
+		}
+		effect = {
+			add_accepted_culture = south_italian
+			add_country_modifier = {
+				name = eyalet_cooldown
+				duration = 1825
+			}
+			clr_country_flag = eyaletchoice
 		}
 	}
 }

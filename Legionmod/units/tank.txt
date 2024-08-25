@@ -23,20 +23,22 @@ tank = {
 		artillery = 10
 		canned_food = 10
 		fuel = 5
+		regular_clothes = 2
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		barrels = 0.3
-		artillery = 0.10
-		canned_food = 0.15 #0.04
-		fuel = 0.02
+		barrels = 0.072
+		artillery = 0.081
+		canned_food = 0.063 #0.04
+		fuel = 0.0495
 		ammunition = 0.2
+		wine = 0.02
 	}
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 3
 	attack = 22
 	defence = 22
 	discipline = 1.5

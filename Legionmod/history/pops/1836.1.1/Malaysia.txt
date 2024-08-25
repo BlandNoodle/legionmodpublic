@@ -447,43 +447,43 @@
 #Brunei (24000/6000 POPS)
 1393 = {
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     officers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 25
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 300
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 5425
     }
@@ -491,79 +491,79 @@
 #Kuching (88000/22000 POPS)
 1394 = {
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 500
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 1100
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 8300
     }
 
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 125
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 100
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 525
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 125
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 10125
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 25
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 475
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 500
     }
@@ -571,61 +571,61 @@
 #Bintulu (44000/11000 POPS)
 1395 = {
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 25
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 150
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 2725
     }
 
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 100
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 350
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 100
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 7375
     }
@@ -633,79 +633,79 @@
 #Api (56000/14000 POPS)
 1396 = {
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 250
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 5575
     }
 
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 350
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 6425
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 25
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 500
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 475
     }
@@ -714,61 +714,61 @@
 #Sandakan (40000/10000 POPS)
 1397 = {
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 300
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 6475
     }
 
     aristocrats = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 25
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 50
     }
 
     artisans = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 150
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 25
     }
 
     farmers = {
-        culture = asian_minor
+        culture = indonesian
         religion = animist
         size = 2750
     }

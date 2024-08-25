@@ -31,3 +31,50 @@ country_event = {
 		set_country_flag = evo_morales_in_power
 	}
 }
+
+###Liberty Enlightening the World Choice###
+country_event = {
+	id = 19000182
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	title = "Statue Choice"
+	desc = "Who needs a dolla, dolla, dolla?"
+	picture = "gandalf"
+	
+	option = {
+		name = "USA!"
+		233 = {
+			owner = {
+				country_event = {id=19300 days=0}
+			}
+		}
+	}
+	option = {
+		name = "Uh, Senor, dinero dinero?"
+		2172 = {
+			owner = {
+				country_event = {id=19300 days=0}
+			}
+		}
+	}
+	option = {
+		name = "Banana Legion"
+		2191 = {
+			owner = {
+				country_event = {id=19300 days=0}
+			}
+		}
+	}
+	option = {
+		name = "The Plurinational State"
+		2313 = {
+			owner = {
+				country_event = {id=19300 days=0}
+			}
+		}
+	}
+}
+

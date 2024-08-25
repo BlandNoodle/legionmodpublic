@@ -23,8 +23,19 @@ foreign_weapons = yes_foreign_weapons
 land_reform = yes_land_reform
 
 # Technology
+
+pre_indust = modern_chemistry
+foreign_training = modern_rifles
+admin_reform = modern_administration
+
+basic_chemistry = 1
+water_wheel_power = 1
 flintlock_rifles = 1
-post_nelsonian_thought = 1
+stock_exchange = 1
+private_banks = 1
+army_command_principle = 1
+no_standard = 1
+
 
 # Starting Consciousness
 consciousness = 0

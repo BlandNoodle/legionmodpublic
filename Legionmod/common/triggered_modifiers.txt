@@ -15,6 +15,17 @@ democratic_nation = {
     research_points_modifier = 0.05
 }
 
+help_ai = {
+	trigger = {
+		ai = yes
+	}
+	min_tariff = 3
+	max_tariff = 3
+	mobilisation_economy_impact = -0.20
+	supply_consumption = -0.10
+	rgo_throughput = 0.1
+	education_efficiency_modifier = 0.10
+}
 
 help_CSA = {
     trigger = {
@@ -336,13 +347,11 @@ the_british_raj = {
             owned_by = THIS
         }
     }
-    research_points = 0.5
     core_pop_militancy_modifier = -0.05
-    supply_consumption = 0.1
+    supply_consumption = 0.15
     administrative_efficiency_modifier = -0.2
-	mobilisation_size = 0.02
-	land_organisation = 0.1
-    prestige = 0.03
+	land_organisation = 0.15
+    prestige = 0.02
     icon = 19
 }
 

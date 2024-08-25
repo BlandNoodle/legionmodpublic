@@ -1312,7 +1312,7 @@ expansionism = {
 }
 mission_to_civilize = {
 	limit = { 
-		year = 1860 
+		year = 1850 
 		state_n_government = 1
 	}
 	news = no
@@ -1341,6 +1341,10 @@ mission_to_civilize = {
 			any_neighbor_country = {
 				invention = mission_to_civilize
 			}
+		}
+		modifier = {
+			factor = -100
+			NOT = { year = 1860 }
 		}
 	}
 	effect = {

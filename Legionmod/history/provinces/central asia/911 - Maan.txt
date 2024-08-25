@@ -3,6 +3,7 @@ life_rating = 35
 controller = TUR
 owner = TUR
 add_core = TUR
+add_core = EGY
 
 1861.1.1 = {
 	controller = TUR 

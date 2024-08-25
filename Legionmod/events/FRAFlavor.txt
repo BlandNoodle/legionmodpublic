@@ -1271,11 +1271,14 @@ country_event = {
 		year = 1839
 		OR = {
 			NOT = {
-				GER = {
-					any_core = {
-						OR = {
-							owned_by = THIS
-							owner = { in_sphere = THIS}
+				AND = {
+					tag = FRA
+					GER = {
+						any_core = {
+							OR = {
+								owned_by = THIS
+								owner = { in_sphere = THIS}
+							}
 						}
 					}
 				}
@@ -1284,8 +1287,10 @@ country_event = {
 				tag = FRA
 				NOT = {BAD = {in_sphere = THIS}}
 				NOT = {WUR = {in_sphere = THIS}}
+				NOT = {owns = 412}
 			}
 			tag = KUK
+			tag = HYP
 		}
 	}			
 			
@@ -1385,7 +1390,7 @@ country_event = {
 	trigger = {
 		tag = AUS
 		has_country_flag = germancontest
-		year = 1870
+		year = 1875
 		NOT = {has_country_flag = germanwinner}
 		NOT = {exists = GER}
 		BAD = {in_sphere = THIS}

@@ -12,6 +12,12 @@ PER = {
 	influence_value = 25
 }
 
+ALB = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
 EGY = {
 	value = -75		#relation
 	level = 5		#3=cordial, 4 = friendly, 5 sphere
@@ -61,15 +67,15 @@ WAL = {
 }
 
 BOS = {
-	value = 125
-	level = 4
-	influence_value = 100
+	value = 200
+	level = 5
+	influence_value = 50
 }
 
 BUL = {
-	value = 125
-	level = 4
-	influence_value = 100
+	value = 150
+	level = 5
+	influence_value = 50
 }
 
 leader = {
@@ -162,18 +168,18 @@ army = {
 	regiment = {
 		name= "3. Bostancy-yy Hassa"
 		type = infantry
-		home = 853
+		home = 879
 	}
 
 	regiment = {
 		name= "4. Bostancy-yy Hassa"
 		type = infantry
-		home = 849
+		home = 888
 	}
 	regiment = {
 		name= "1. Sipahis"
 		type = hussar
-		home = 850
+		home = 887
 	}
 
 	regiment = {
@@ -197,13 +203,13 @@ army = {
 	regiment = {
 		name= "2. Piyade Tümeni"
 		type = artillery
-		home = 849
+		home = 860
 	}
 
 	regiment = {
 		name= "3. Piyade Tümeni"
 		type = artillery
-		home = 851
+		home = 829
 	}
 
 	
@@ -218,7 +224,7 @@ army = {
 	regiment = {
 		name= "1. Redif Bursa"
 		type = infantry
-		home = 849
+		home = 859
 	}
 
 	regiment = {
@@ -449,27 +455,7 @@ navy = {
 		name= "Bisharet Nyuma"
 		type = manowar
 	}
-
-	ship = {
-		name= "Killid i Barhi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Heybetendaz"
-		type = manowar
-	}
-
-	ship = {
-		name= "Melek i Barhi"
-		type = manowar
-	}
-
-	ship = {
-		name= "Sayyad i Barhi"
-		type = manowar
-	}
-
+	
 	ship = {
 		name= "Gulbang i Nusret"
 		type = manowar
@@ -478,16 +464,6 @@ navy = {
 	ship = {
 		name= "Jebel Andaz"
 		type = manowar
-	}
-
-	ship = {
-		name= "Iskenderiya"
-		type = frigate
-	}
-
-	ship = {
-		name= "Badere i Zaffar"
-		type = frigate
 	}
 
 	ship = {

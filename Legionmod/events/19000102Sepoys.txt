@@ -395,7 +395,7 @@ country_event = {
 	
 country_event = {
 	id = 19000106
-	name = "EVTNAME19000106"
+	title = "EVTNAME19000106"
 	desc = "EVTDESC19000106"
 	major = yes
 	fire_only_once = yes
@@ -404,9 +404,10 @@ country_event = {
 		tag = ENG
 		NOT = { exists = SEP }
 		has_country_flag = sepoy_rebellion
+		NOT = {has_country_flag = prepared}
 	}
 	mean_time_to_happen = {
-		months = 15
+		months = 8
 		modifier = {
 			factor = 0.8 #increase likelihood to happen
 			year = 1859
@@ -423,7 +424,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA19000106"
 		inherit = HND
-		THIS = {country_event = { id = 19000085 days = 60 }}
+		country_event = { id = 19000085 days = 60 }
 	}
 	option = {
 		name = "EVTOPTB19000106"
@@ -433,6 +434,7 @@ country_event = {
 				is_colonial = yes
 			}
 			secede_province = HND
+		}
 			HND = {
 				civilized = yes
 				add_accepted_culture = asian_minor
@@ -440,15 +442,15 @@ country_event = {
 				political_reform = wealth_voting
 				political_reform = non_secret_ballots
 				remove_country_modifier = {indiacountry}
-				add_country_modifier = {
-				name = britishrajinfancy
-				duration = -1
-				}
+					add_country_modifier = {
+						name = britishrajinfancy
+						duration = -1
+					}
 			}
+			clr_country_flag = sepoy_rebellion
 		}
-		clr_country_flag = sepoy_rebellion
+		
 	}
-}
 
 country_event = {
 	id = 19000085

@@ -174,7 +174,7 @@ late_enlightenment_philosophy = {
 	cost = 3600
 
 
-	increase_research = 0.50
+	increase_research = 0.40
 	
 	ai_chance = {
 		factor = 51
@@ -209,7 +209,7 @@ idealism = {
 	year = 1840
 	cost = 3600
 
-	increase_research = 0.25
+	increase_research = 0.40
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -244,7 +244,7 @@ empiricism = {
 	year = 1860
 	cost = 5400
 	
-	increase_research = 0.25
+	increase_research = 0.40
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -270,7 +270,7 @@ analytic_philosophy = {
 	year = 1870
 	cost = 14400
 
-	increase_research = 0.5
+	increase_research = 0.35
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -292,7 +292,7 @@ phenomenology_n_hermeneutic = {
 	year = 1880
 	cost = 18000
 
-	increase_research = 1.0
+	increase_research = 0.75
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -314,7 +314,7 @@ anti__rationalism = {
 	year = 1900
 	cost = 21600
 
-	increase_research = 1.0
+	increase_research = 0.50
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -341,6 +341,7 @@ malthusian_thought = {
 
 	colonial_migration = 0.05
 	education_efficiency = 0.05
+	increase_research = 0.10
 	
 	ai_chance = {
 		factor = 1.01
@@ -364,6 +365,8 @@ positivism = {
 	cost = 7200
 	colonial_migration = 0.05
 	education_efficiency = 0.1
+	increase_research = 0.10
+	
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -384,6 +387,8 @@ functionalism = {
 
 	colonial_migration = 0.05
 	education_efficiency = 0.10
+	increase_research = 0.10
+	
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -404,6 +409,8 @@ biologism = {
 
 	colonial_migration = 0.1
 	education_efficiency = 0.10
+	increase_research = 0.15
+	
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -424,6 +431,8 @@ social_science = {
 
 	colonial_migration = 0.1
 	education_efficiency = 0.10
+	increase_research = 0.25
+	
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -444,6 +453,8 @@ social_alienation = {
 	
 	colonial_migration = 0.15
 	education_efficiency = 0.15
+	increase_research = 0.50
+	
 	ai_chance = {
 		factor = 1.01
 		modifier = {

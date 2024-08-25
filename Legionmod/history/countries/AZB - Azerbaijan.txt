@@ -2,17 +2,17 @@ capital = 1102
 primary_culture = azerbaijani
 culture = turkish
 religion = sunni
-government = democracy
+government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.28
-civilized = yes
+literacy = 0.1
+civilized = no
 prestige = 10
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+upper_house_composition = appointed
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = no_trade_unions
@@ -39,6 +39,12 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+#Reforms
+admin_reform = modern_theory
+pre_indust = land_reform
+foreign_training = modern_fortifications
+naval_schools = modern_export
 
 # Technologies
 post_napoleonic_thought = 1

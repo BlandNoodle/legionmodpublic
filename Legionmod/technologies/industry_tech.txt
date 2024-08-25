@@ -1023,6 +1023,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
+	pop_growth = 0.0003
 	
 	ai_chance = {
 		factor = 1.5
@@ -1046,6 +1047,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	pop_growth = 0.0002
 	
 	ai_chance = {
 		factor = 1.1
@@ -1081,6 +1083,7 @@ organic_chemistry = {
 	cost = 14400
 
 	supply_limit = 0.25
+	pop_growth = 0.0002
 	
 	ai_chance = {
 		factor = 1.1
@@ -1117,6 +1120,8 @@ electricity = {
 	
 	supply_limit = 0.50
 	factory_cost = 0.1
+	pop_growth = 0.0002
+	
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -1153,6 +1158,8 @@ synthetic_polymers = {
 
 	supply_limit = 0.50
 	factory_cost = 0.1
+	pop_growth = 0.0003
+	
 	ai_chance = {
 		factor = 1.1
 		modifier = {

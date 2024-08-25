@@ -6,6 +6,8 @@ political_decisions = {
 		}
 		allow = {
 			iron_steamers = 1
+			blue_and_brown_water_schools = 1
+			weapon_platforms = 1
 			money = 4000000
 		}
 		effect = {
@@ -17,10 +19,5 @@ political_decisions = {
 				duration = -1
 			}
 		}
-}
-
-
-
-
-
+	}
 }

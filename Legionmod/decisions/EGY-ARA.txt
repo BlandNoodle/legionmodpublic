@@ -69,5 +69,25 @@ political_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	recognize_desert = {
+		potential = {
+			tag = EGY
+			NOT = {
+				has_country_flag = desert_conquest
+			}
+			has_country_flag = raindinners
+		}
+		allow = {
+			civilized = yes
+			war = no
+		}
+		effect = {
+			EGY_1750 = {add_core = EGY life_rating = 10}
+			EGY_1771 = {add_core = EGY life_rating = 10}
+			EGY_1827 = {add_core = EGY life_rating = 10}
+			EGY_1750 = {add_core = EGY life_rating = 10}
+			set_country_flag = desert_conquest
+		}
 	}	
 }

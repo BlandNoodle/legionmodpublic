@@ -7,8 +7,8 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			nationalism_n_imperialism = 1
-
+			revolution_n_counterrevolution = 1
+			
 			1151 = { 
 				OR = {
 					owned_by = THIS 
@@ -58,7 +58,6 @@ political_decisions = {
 				all_core  = { add_core = OTC }
 				annex_to = THIS 
 			}
-			add_accepted_culture = azerbaijani
 			add_accepted_culture = mashriqi
 			any_country = { 
 				limit = { 
@@ -136,10 +135,13 @@ political_decisions = {
 			owns = 1121
 			owns = 1147
 			owns = 1139
+			money = 2000000
 		}
 		
 		effect = {
 			add_accepted_culture = persian
+			add_accepted_culture = azerbaijani
+			money = -2000000
 			PER = {
 				all_core = {
 					add_core = THIS
@@ -168,18 +170,22 @@ political_decisions = {
 					is_our_vassal = EGY
 				}
 			}
+			money = 2000000
+			invention = mission_to_civilize
+			invention = colonial_negotiations
 		}
 		
 		effect = {
 			add_accepted_culture = maghrebi
 			add_accepted_culture = misri
+			money = -2000000
 			EGY = { 
 				all_core = {
 					add_core = OTC
 					remove_core = EGY
 				}
 			}
-
+			inherit = EGY
 			set_global_flag = egypt_integrated		
 		}
 	}
@@ -188,9 +194,13 @@ political_decisions = {
 	integrate_bos = {
 		potential = {
 			BOS = {in_sphere = THIS}
-			}
+			NOT = {tag = TUR}
+		}
 		allow = {
-			BOS = {in_sphere = THIS}
+			BOS = {
+				in_sphere = THIS
+				is_independant = yes
+			}
 			war = no
 			state_n_government = 1
 		}

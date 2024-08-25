@@ -8,7 +8,7 @@ country_event = {
 	
 	trigger = {
 		tag = TUR
-		year = 1838
+		year = 1837
 		EGY = { in_sphere = TUR }
 		NOT = { has_country_flag = oriental_crisis }
 	}
@@ -16,7 +16,7 @@ country_event = {
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		months = 4
+		months = 1
 	}
 	
 	option = {
@@ -26,6 +26,7 @@ country_event = {
 		diplomatic_influence = { who = EGY value = -200 }
 		leave_alliance = EGY
 		TUR = { country_event = { id = 800001 days = 15 } }
+		EGY = {set_country_flag = oriental_crisis}
 	}
 }
 #800001 Concert of Europe gets involved (economically)
@@ -66,6 +67,17 @@ country_event = {
 		diplomatic_influence = { who = EGY value = -200 }
 		relation = { who = TUR value = 100 }
 		TUR = { country_event = { id = 800003 days = 10 } }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 20
+				relation = {who = TUR value = 20}
+			}
+			modifier = {
+				factor = -100
+				NOT = {treasury = 50000}
+			}
+		}
 	}
 	
 	option = {
@@ -76,12 +88,30 @@ country_event = {
 		relation = { who = TUR value = -200 }
 		EGY = { country_event = { id = 800004 days = 10 } }
 		TUR = { country_event = { id = 800005 days = 10 } }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 20
+				relation = {who = EGY value = 20}
+			}
+			modifier = {
+				factor = -100
+				NOT = {treasury = 50000}
+			}
+		}
 	}
 	
 	option = {
 		name = "EVTOPTC800002"
 		relation = { who = EGY value = -25 }
 		relation = { who = TUR value = 25 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 100
+				NOT = {treasury = 50000}
+			}
+		}
 	}
 }
 #800003 Ottomans get aid
@@ -98,11 +128,11 @@ country_event = {
 		name = "EVTOPTA800003"
 		money = 50000
 		relation = { who = FROM value = 100 }
-		clipper_convoy = 25
-		small_arms = 20
-		canned_food = 30
-		artillery = 20
-		ammunition = 25
+		clipper_convoy = 20
+		small_arms = 40
+		canned_food = 20
+		artillery = 25
+		ammunition = 15
 	}
 }
 #800004 Egypt get aid
@@ -119,30 +149,15 @@ country_event = {
 		name = "EVTOPTA800004"
 		money = 50000
 		relation = { who = FROM value = 150 }
-		clipper_convoy = 25
-		small_arms = 20
-		canned_food = 30
-		artillery = 20
+		clipper_convoy = 30
+		small_arms = 60
+		canned_food = 20
+		artillery = 35
 		ammunition = 25
+		research_points = 1000
 		1745 = {
 			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
 				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = hussar
 				value = current
 			}
 		}
@@ -173,7 +188,7 @@ country_event = {
 	
 	trigger = {
 		tag = TUR
-		year = 1841
+		year = 1839
 		has_country_flag = oriental_crisis	
 	}
 	
@@ -204,7 +219,8 @@ country_event = {
 	trigger = {
 		tag = TUR
 		is_our_vassal = EGY
-		year = 1841
+		war = no
+		year = 1840
 		NOT = { has_country_flag = oriental_crisis_lost }
 	}
 	
@@ -224,8 +240,609 @@ country_event = {
 					is_core = TUR
 				}
 				secede_province = TUR
-			} 
+				remove_core = EGY
+			}
+			clr_country_flag = oriental_crisis
 		}
 		set_country_flag = oriental_crisis_won
+		clr_country_flag = oriental_crisis
+	}
+}
+
+#800008 Ottomans loss the war and give the levant
+country_event = {
+	id = 800008
+	
+	title = "EVTNAME800008"
+	desc = "EVTDESC800008"
+	picture = "turkloss"
+	major = yes
+	#triggered by egypt
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA800008"
+		prestige = -20
+		any_core = {
+			limit = {
+				is_core = EGY
+			}
+			secede_province = EGY
+			remove_core = TUR
+		}
+		set_country_flag = oriental_crisis_lost
+		clr_country_flag = oriental_crisis
+	}
+}
+
+## Eyalet Guide
+country_event = {
+	id = 19000162
+	
+	title = "EVTNAME19000162"
+	desc = "EVTDESC19000162"
+	picture = "eyaletguide"
+
+	#triggered by decision
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000162"
+		prestige = 1
+	}
+}
+
+#### Romania Question ####
+##Russia Starts##
+country_event = {
+	id = 19000170
+	title = "EVTNAME19000170"
+	desc = "EVTDESC19000170"
+	picture = "happy_garp"
+
+	#triggered by decision
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000170"
+		prestige = -10
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB19000170"
+		prestige = 5
+		FRA = {country_event = {id = 19000171 days = 1}}
+		ENG = {country_event = {id = 19000171 days = 1}}
+		country_event = {id = 19000177 days = 32}
+		ai_chance = {
+			factor = 80
+		}
+		leave_alliance = TUR
+	}
+	
+	option = {
+		name = "EVTOPTC19000170"
+		prestige = 10
+		leave_alliance = TUR
+		casus_belli = {
+			target = TUR
+			type = liberate_country country = ROM
+			months = 24
+		}
+		war = {
+			target = TUR
+			attacker_goal = { casus_belli = liberate_country country = ROM }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = yes
+		}
+		set_country_flag = protected_romania
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+}
+##France and UK Choose##
+country_event = {
+	id = 19000171
+	title = "EVTNAME19000171"
+	desc = "EVTDESC19000171"
+	picture = "happy_blackbeard"
+
+	#triggered by decision
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000171"
+		prestige = -5
+		ai_chance = {
+			factor = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB19000171"
+		prestige = 5
+		money = -50000
+		RUS = {
+			country_event = {id = 19000173 days = 1 }
+			create_alliance = THIS
+		}
+		TUR = {
+			country_event = {id = 19000174 days = 1 }
+			relation = {who = THIS value = -100} 
+			leave_alliance = THIS
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC19000171"
+		prestige = 5
+		money = -50000
+		RUS = {
+			country_event = {id = 19000175 days = 1 }
+			relation = {who = THIS value = -100} 
+			leave_alliance = THIS
+		}
+		TUR = {
+			country_event = {id = 19000176 days = 1 }
+			create_alliance = THIS
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+}
+##Reactions##
+country_event = {
+	id = 19000174
+	
+	title = "EVTNAME19000174"
+	desc = "EVTDESC19000174"
+	picture = "happy_blackbeard"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000174"
+		relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = {
+	id = 19000175
+	
+	title = "EVTNAME19000175"
+	desc = "EVTDESC19000175"
+	picture = "happy_garp"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000175"
+		relation = { who = FROM value = -100 }
+	}
+}
+
+country_event = {
+	id = 19000173
+	
+	title = "EVTNAME19000173"
+	desc = "EVTDESC19000173"
+	picture = "happy_blackbeard"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000173"
+		money = 50000
+		relation = { who = FROM value = 100 }
+		small_arms = 150
+		canned_food = 50
+		artillery = 100
+		ammunition = 40
+	}
+}
+
+country_event = {
+	id = 19000176
+	
+	title = "EVTNAME19000176"
+	desc = "EVTDESC19000176"
+	picture = "happy_garp"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000176"
+		money = 50000
+		relation = { who = FROM value = 100 }
+		small_arms = 150
+		canned_food = 50
+		artillery = 100
+		ammunition = 40
+	}
+}
+
+country_event = {
+	id = 19000177
+	
+	title = "EVTNAME19000177"
+	desc = "EVTDESC19000177"
+	picture = "happy_blackbeard"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000177"
+		prestige = 10
+		casus_belli = {
+			target = TUR
+			type = liberate_country country = ROM
+			months = 24
+		}
+		war = {
+			target = TUR
+			attacker_goal = { casus_belli = liberate_country country = ROM }
+			defender_goal = { casus_belli = humiliate }
+			call_ally = yes
+		}
+		set_country_flag = protected_romania
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB19000177"
+		prestige = -25
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#### Albania Section ####
+country_event = {
+	id = 19000166
+	
+	title = "EVTNAME19000166"
+	desc = "EVTDESC19000166"
+	picture = "happy_crocodile"
+
+	#triggered by decision
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000166"
+		FROM = {country_event = {id = 19000167 days = 1}}
+		clr_global_flag = activegambler
+		ai_chance = {
+			factor = 74
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB19000166"
+		FROM = {country_event = {id = 19000168 days = 1}}
+		clr_global_flag = activegambler
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = {
+		name = "EVTOPTC19000166"
+		FROM = {country_event = {id = 19000169 days = 1}}
+		clr_global_flag = activegambler
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = 19000167
+	
+	title = "EVTNAME19000167"
+	desc = "EVTDESC19000167"
+	picture = "lostbet"
+
+	#triggered by event
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000167"
+		prestige = -1
+	}
+	
+}
+
+country_event = {
+	id = 19000168
+	
+	title = "EVTNAME19000168"
+	desc = "EVTDESC19000168"
+	picture = "equalbet"
+
+	#triggered by event
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000168"
+		prestige = 1
+		money = 100000
+	}
+	
+}
+
+country_event = {
+	id = 19000169
+	
+	title = "EVTNAME19000169"
+	desc = "EVTDESC19000169"
+	picture = "winbet"
+
+	#triggered by event
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000169"
+		prestige = 5
+		money = 200000
+		add_country_modifier = {
+			name = casino_banned
+			duration = 720
+		}
+	}
+	
+}
+
+###Begin Mafia City ###
+country_event = {
+	id = 19000178
+	
+	title = "EVTNAME19000178"
+	desc = "EVTDESC19000178"
+	picture = "doffy_albania"
+
+	#triggered by decision
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000178"
+		any_owned = {
+			limit = {
+				is_capital = yes
+			}
+			add_province_modifier = {
+				name = albanian_mafia
+				duration = -1
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 19000179
+	
+	title = "EVTNAME19000179"
+	desc = "EVTDESC19000179"
+
+	trigger = {
+		OR = {
+			any_neighbor_province = {has_province_modifier = albanian_plague}
+			any_neighbor_province = {owner = {tag = ALB} }
+		}
+		NOT = {has_province_modifier = albanian_plague}
+		has_global_flag = albania_rise
+		exists = ALB
+		ALB = {is_independant = yes}
+		NOT = {owner = { tag = ALB} }
+		NOT = {owner = {war_with = ALB} }
+	}
+	
+	 mean_time_to_happen = {
+		months = 48
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = {
+				any_pop = {
+					has_pop_culture = albanian
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				has_province_modifier = albanian_plague
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = {
+				has_province_modifier = albanian_mafia
+			}
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.8
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.7
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 2.5
+			owner = {tag = AUS}
+		}
+		modifier = {
+			factor = 0.5
+			owner = {tag = KUK}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA19000179"
+		add_province_modifier = {
+			name = albanian_plague
+			duration = 720
+		}
+		any_pop = {
+			limit = {
+				AND = {
+					NOT = {has_pop_culture = albanian}
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+			}
+			move_pop = 849
+		}			
+	}
+}
+
+province_event = {
+	id = 19000180
+	
+	title = "EVTNAME19000180"
+	desc = "EVTDESC19000180"
+
+	trigger = {
+		has_province_modifier = albanian_plague
+		has_global_flag = albania_rise
+		exists = ALB
+		ALB = {is_independant = yes}
+		NOT = {owner = { tag = ALB} }
+		OR = {
+			continent = asia
+			continent = europe
+			continent = africa
+		}
+		any_neighbor_province = {owner = {tag = ALB} }
+		NOT = {owner = {war_with = ALB} }
+	}
+	
+	 mean_time_to_happen = {
+		months = 100
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = {
+				any_pop = {
+					has_pop_culture = albanian
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				has_province_modifier = albanian_plague
+			}
+		}
+		modifier = {
+			factor = 0.8
+			any_neighbor_province = {
+				has_province_modifier = albanian_mafia
+			}
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 2
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA19000180"
+		remove_province_modifier = albanian_plague
+		add_core = ALB
+		secede_province = ALB
+	}
+}
+
+province_event = {
+	id = 19000181
+	
+	title = "EVTNAME19000181"
+	desc = "EVTDESC19000181"
+
+	trigger = {
+		NOT = {exists = ALB}
+		any_pop = {
+			has_pop_culture = albanian
+		}
+		has_global_flag = albania_rise
+	}
+	
+	 mean_time_to_happen = {
+		months = 300
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				any_pop = {
+					has_pop_culture = albanian
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 3
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			is_core = ALB
+		}
+		modifier = {
+			factor = 0.5
+			culture = albanian
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA19000181"
+		add_province_modifier = {
+			name = albanian_plague
+			duration = 180
+		}
+		prestige = -1
 	}
 }

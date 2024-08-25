@@ -47,11 +47,18 @@ school_reforms = no_schools
 consciousness = 0
 nonstate_consciousness = 0
 
-land_reform = yes_land_reform
-foreign_weapons = yes_foreign_weapons
-finance_reform = yes_finance_reform
+pre_indust = modern_chemistry
+foreign_training = modern_rifles
+admin_reform = modern_administration
 
+basic_chemistry = 1
+water_wheel_power = 1
 flintlock_rifles = 1
+stock_exchange = 1
+private_banks = 1
+army_command_principle = 1
+no_standard = 1
+
 
 oob = "PER_oob.txt"
 

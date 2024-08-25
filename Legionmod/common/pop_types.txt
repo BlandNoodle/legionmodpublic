@@ -592,6 +592,7 @@ assimilation_chance =
     	factor = -20
 		has_culture_core = yes
 	}
+	
 	modifier = {
 		factor = 10
 		AND = {
@@ -601,6 +602,14 @@ assimilation_chance =
 				continent = south_america
 				continent = oceania
 			}
+		}
+	}
+	
+	modifier = {
+		factor = 1000
+		AND = {
+			is_accepted_culture = no
+			owned_by = ALB
 		}
 	}
 
@@ -680,7 +689,14 @@ conversion_chance =
 			literacy = 0.6
 		}
 	}
-
+	
+	modifier = {
+		factor = 500
+		AND = {
+			is_accepted_culture = no
+			owned_by = ALB
+		}
+	}
 
 	group = {
 		modifier = {

@@ -51,8 +51,8 @@ country_event = {
 country_event = {
 	id = 99900031
 	is_triggered_only = yes
-	title = "$FROMCOUNTRY$ has given us 100000Â£"
-	desc = "$FROMCOUNTRY$ has granted us financial aid of 100K Â£"
+	title = "$FROMCOUNTRY$ has given us 100000£"
+	desc = "$FROMCOUNTRY$ has granted us financial aid of 100K £"
 	picture = "market"
 
 	
@@ -64,8 +64,8 @@ country_event = {
 country_event = {
 	id = 99900032
 	is_triggered_only = yes
-	title = "$FROMCOUNTRY$ has given us 500000Â£"
-	desc = "$FROMCOUNTRY$ has granted us financial aid of 500K Â£"
+	title = "$FROMCOUNTRY$ has given us 500000£"
+	desc = "$FROMCOUNTRY$ has granted us financial aid of 500K £"
 	picture = "market"
 
 	
@@ -77,8 +77,8 @@ country_event = {
 country_event = {
 	id = 99900033
 	is_triggered_only = yes
-	title = "$FROMCOUNTRY$ has given us 1000000Â£"
-	desc = "$FROMCOUNTRY$ has granted us financial aid of 1M Â£"
+	title = "$FROMCOUNTRY$ has given us 1000000£"
+	desc = "$FROMCOUNTRY$ has granted us financial aid of 1M £"
 	picture = "market"
 
 	

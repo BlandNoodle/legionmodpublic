@@ -300,7 +300,7 @@ southaf = {
 		}
 		allow = {
 			AFG = { in_sphere = THIS }
-			state_n_government = 1
+			nationalism_n_imperialism = 1
 			}
 		effect = {
 			THIS = {
@@ -331,10 +331,11 @@ southaf = {
 							935 = {
 								owner = { alliance_with = THIS }
 							}
-							year = 1870
+							year = 1880
 							owns = 935
 						}
 						is_our_vassal = AFG
+						PER = { in_sphere = THIS }
 					}
 				AND = {
 					OR = {
@@ -346,7 +347,7 @@ southaf = {
 							}
 							owns = 935
 						}
-						year = 1880
+						year = 1890
 						owns = 1168
 						PER = { in_sphere = THIS }
 					}
@@ -388,6 +389,69 @@ southaf = {
 			CHI = {country_event = { id = 19000098 days = 7 } }
 			set_country_flag = confrontational
 			set_global_flag = confrontation
+		}
+	}
+	
+	men_for_the_colonies = {
+		picture = "dk5"
+		potential = {
+			tag = ENG
+			has_country_flag = empress_of_india
+			NOT = {has_country_flag = colonizer}
+		}
+		allow = {
+			war = no
+			HND = {
+				exists = yes
+				vassal_of = ENG
+				civilized = yes
+			}
+		}
+		effect = {
+			set_country_flag = colonizer
+			prestige = 15
+			ENG_58 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
+			ENG_36 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
+			ENG_9 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
+			ENG_22 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
+			ENG_2513 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
+			ENG_2497 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
+			ENG_2468 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 10950
+				}
+			}
 		}
 	}
 }

@@ -507,7 +507,7 @@ south_slavic = {
 		}
 	}
 	bosniak = {
-		color = {30 200 200}
+		color = {0  0  152}
 		first_names = { Abdulvehhab Adnan Ahmed Ali Alija Asim Atif Beriz Dzemal Dzemaludin
 		Elvir Enver Fikret Fuad Gazi Hakija Hamdija Hamid Haris Hasan
 		Husein Irfan Isa Ivan Izet Jusuf Mehmed Meho Mirsad Muhamed
@@ -729,7 +729,7 @@ baltic = {
 levantine = {
 	leader = european
 	greek = {
-		color = {200 50 100}
+		color = {14 96 178}
 		first_names = { Adamantios Alexandros Anastasios Andreas Antonios Aristidis Athanasios Augustinos Benizelos Charalambos
 		Charilaos Dimitrios Diomidis Eleftherios Emmanouil Epameinontas Evripidis Gennaios Georgios Ilias
 		Ionnis Kitsos Konstantinos Kyriakos Kyriakoulis Leonidas Makarios Markos Mikhael Militiadis
@@ -1364,6 +1364,17 @@ southeast_asian = {
 	}
 	moluccan = {
 		color = {90 132 76}
+		first_names = { Ellyas Ignacio Jordao Michael Sonny Denny Mohammad Edinho Jos Levi Abul Muhammad Safiuddin Ahmad Muhieddin Zainul Cirebon Amir Arifin Panembahan Haji Anom 
+
+		}
+		
+		last_names = { Leiwakabessy Mainaky Weisapy Bouma Palyama Pattinama Pelmelay Lilipaly Hafiedz alihin Mufakhir Alaeddin Muttakin Sepuh Nurus Khairuddin Djalaluddin Emiruddin Akbaruddin Tajul Natadiningrat
+        
+		}
+	}
+	
+	indonesian = {
+		color = {61 0 232}
 		first_names = { Ellyas Ignacio Jordao Michael Sonny Denny Mohammad Edinho Jos Levi
 			
 		}
@@ -1372,6 +1383,7 @@ southeast_asian = {
                
 		}
 	}
+	
 	thai = {
 		color = {76 99 150}
 		first_names = { Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
