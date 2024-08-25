@@ -2,3 +2,4 @@
 * text=auto
 *.txt working-tree-encoding=cp1252 git-encoding=cp1252
 *.csv working-tree-encoding=cp1252 git-encoding=cp1252
+*.sln text eol=crlf
