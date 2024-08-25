@@ -11,9 +11,9 @@ India can be annexed or turned to Raj after Sepoy Rebellion (rebellion fires aft
 after all of that UK is basically free to do whatever
 
 FRA -
-Mob sized nerfed, but they start with guards which are buffed and can get increased mob size from decisions
+Mob sized nerfed
 If they maintain spheres in South Germany they get modifiers and forts, if they sphere Bavaria by 1870 without GER or South GER forming they get south german accepted
-They have a couple extra decisions but not much more yet
+They have a couple extra decisions, le napoleon
 
 RUS - 
 Choose one of the now infamous builds at game start. Vladivostok can be taken after Opium War and the Great Game can lead to ownership of Persia
@@ -26,21 +26,21 @@ there is a cb for unifying germany but conquering the german states is otherwise
 Germany itself isnt nerfed other than some life rating changes which were lowered throughout Europe
 
 AUS - 
-Can either go for Austria Hungary or South Germany, holding Bavaria gives a modifier buff, holding Bavaria and getting Baden and Wurttemburg sphered by 1870 gives the modifier permanently and the tile from Prussia. Forming South Germany in this way keeps Hungary
+Can either go for Austria Hungary or South Germany, holding Bavaria gives a modifier buff, holding Bavaria and Baden and Wurttemburg by 1870 gives the modifier permanently and the tile from Prussia. Forming South Germany in this way keeps Hungary
 Otherwise, forming South Germany without winning the contest over southern germany releases hungary when it is formed, get Czech accepted either way. Croat and Hungarian are accepted with A-H. 
 
 SPA - 
 Super buffed compared to base game, I'm just waiting for someone to abuse it before I stop buffing it, full of secrets
 
 ITA - 
-Similar to Spain, although its a little more obvious, I cant stop them from industrializing all over the place
+Similar to Spain, although its a little more obvious, I cant stop them from industrializing all over the place #this was nerfed
 Italy forms automatically whenever North Germany forms or by 1850, the pops are increased and some RGOS were changed
 Garibaldis do not form Italy anymore
 
 TUR - 
 Can become Caliphate for accepted pops, Balkan, Anatolian, Caucasian, and Egyptian pops increased but there are more independent puppet states
 decisions allow for integration but Egypt has Oriental Crisis to deal with (epic Crocodile vs Garp contest)
-Broken nation if you are left to afk for 60 years
+Broken nation if you are left to afk for 60 years, Albania. . .
 
 USA - 
 I had to be prevented from super nerfing this thing, it exists but it never does anything cause all the action is in Europe or Asia
