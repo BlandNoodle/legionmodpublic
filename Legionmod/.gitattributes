@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.c encoding=cp1252
+*.html encoding=utf-8
