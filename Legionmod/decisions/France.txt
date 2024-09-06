@@ -770,4 +770,144 @@ political_decisions = {
 			prestige = 50
 		}
 	}
+	
+	letranger = {
+		picture = "stranger"
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = algerianstranger }
+			has_country_flag = frenchcolonies
+		}
+		allow = {
+			war = no
+			owns = 1705
+			owns = 1704
+			owns = 1725
+			owns = 1708
+			owns = 1681
+			owns = 2563
+			money = 1000000
+		}
+		
+		effect = {
+			money = -1000000
+			set_country_flag = algerianstranger
+			add_accepted_culture = maghrebi
+			prestige = 5
+		}
+	}
+	
+	backstab = {
+		picture = "stab"
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = stabber }
+			has_country_flag = frenchcolonies
+			NOT = {owns = 412}
+		}
+		
+		allow = {
+			war = no
+			GER = {war_with = RUS}
+		}
+		
+		effect = {
+			set_country_flag = stabber
+			412 = {
+				add_core = FRA
+			}
+			409 = {
+				add_core = FRA
+			}
+			410 = {
+				add_core = FRA
+			}	
+			GER = {
+				add_country_modifier = {
+					name = spycicle
+					duration = 365
+				}
+			}
+			war = {
+				target = GER
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal = { casus_belli = humiliate }
+				call_ally = yes
+			}
+			prestige = 5
+		}
+	}
+	
+	headstart = {
+		picture = "stranger"
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = headstart }
+			has_country_flag = frenchcolonies
+		}
+		
+		allow = {
+			war = no
+			invention = mission_to_civilize
+			money = 2000000
+		}
+		
+		effect = {
+			money = -2000000
+			set_country_flag = headstart
+			1957 = {
+				secede_province = THIS
+				life_rating = 5
+			}
+			1956 = {
+				secede_province = THIS
+				life_rating = 5
+			}
+			1958 = {
+				secede_province = THIS
+				life_rating = 5
+			}
+			1973 = {
+				secede_province = THIS
+				life_rating = 5
+			}
+			1972 = {
+				secede_province = THIS
+				life_rating = 5
+			}
+			1974 = {
+				secede_province = THIS
+				life_rating = 5
+			}
+			prestige = 5
+		}
+	}
+	
+	headstartchina = {
+		picture = "stranger"
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = guangjoe }
+			has_country_flag = frenchcolonies
+		}
+		
+		allow = {
+			war = no
+			invention = ironclads
+			owns = 1380
+			money = 1000000
+		}
+		
+		effect = {
+			money = -1000000
+			set_country_flag = guangjoe
+			casus_belli = {
+				target = CHI
+				type = acquire_treaty_port
+				months = 36
+			}
+			prestige = 5
+		}
+	}
 }
+

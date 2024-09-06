@@ -10,60 +10,12 @@ unequal_treaty = {
 	icon = 9
 }
 
-treaty_port_nanning = {
-	prestige = 0.03
-	rgo_throughput = 0.02
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_macau = {
-	prestige = 0.03
-	rgo_throughput = 0.02
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_hongkong = {
-	prestige = 0.03
-	rgo_throughput = 0.05
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_fuzhou = {
-	prestige = 0.03
-	rgo_throughput = 0.02
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_ningbo = {
-	prestige = 0.03
-	rgo_throughput = 0.02
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_shanghai = {
-	prestige = 0.03
-	rgo_throughput = 0.05
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_qingdao = {
-	prestige = 0.03
-	rgo_throughput = 0.02
-	influence_modifier = 0.1
-	icon = 9
-}
-
-treaty_port_beijing = {
-	prestige = 0.03
-	rgo_throughput = 0.1
-	influence_modifier = 0.1
-	icon = 9
+treaty_port_buff = {
+	mine_rgo_size = 4
+	farm_rgo_size = 4
+	local_rgo_output = 4
+	immigrant_attract = 3
+	icon = 7
 }
 
 theraj = {
@@ -897,16 +849,14 @@ strict_china_trade = {
 
 opium_market_low = {
 	icon = 13
-	local_RGO_output = 0.1
-	farm_rgo_size = 0.25
-	farm_rgo_eff = 0.1
+	farm_rgo_size = 0.5
+	farm_rgo_eff = 0.15
 }
 
 opium_market_med = {
 	icon = 13
-	local_RGO_output = 0.2
-	farm_rgo_size = 0.50
-	farm_rgo_eff = 0.2
+	farm_rgo_size = 1
+	farm_rgo_eff = 0.33
 }
 
 mild_china_trade = {
@@ -923,16 +873,15 @@ med_opium = {
 
 opium_market_lar = {
 	icon = 13
-	local_RGO_output = 0.33
-	farm_rgo_size = 1
-	farm_rgo_eff = 0.33
+	farm_rgo_size = 2
+	farm_rgo_eff = 0.75
 }
 
 free_china_trade = {
 	icon = 6
 	rgo_throughput = 0.05
 	prestige = 0.002
-	tariff_efficiency_modifier = -0.25
+	tariff_efficiency_modifier = -0.1
 }
 
 large_opium = {
@@ -945,7 +894,7 @@ century_humiliate = {
 	prestige = -0.02
 	org_regain = -0.30
 	supply_consumption = -0.30
-	research_points_on_conquer = -5
+	research_points_on_conquer = -4
 }
 
 yatsen = {
@@ -1064,8 +1013,20 @@ the_walhalla = {
 }
 
  dar_al_funun = {
-	research_points_modifier = 0.50
+	research_points_modifier = 0.15
 	icon = 5
+}
+
+hammurabi_code = {
+	research_points_modifier = 0.35
+	administrative_efficiency_modifier = 0.25
+	icon = 5
+}
+
+persianrugs = {
+	RGO_throughput = 2
+	immigrant_attract = 1
+	icon = 11
 }
 
 french_growth_nerf = {
@@ -1125,7 +1086,7 @@ An_mein_Volk = {
 	land_unit_start_experience = 20.0
 	org_regain = 0.2
 	supply_consumption = -0.2
-	badboy = 0.1
+	badboy = 0.05
 	icon = 15
 }
 schlieffens_plan = {
@@ -1793,4 +1754,69 @@ battlecryofmemer = {
 	org_regain = 0.5
 	supply_consumption = -0.33
 	icon = 15
+}
+
+world_bank_rp_nerf = {
+	global_pop_militancy_modifier = -100.0
+	research_points_modifier = -1
+	prestige = -10
+	icon = 10
+}
+
+ghost_rp_nerf = {
+	diplomatic_points_modifier = -1000.0
+	global_pop_militancy_modifier = -100.0
+	research_points_modifier = -1
+	prestige = -10
+	icon = 10
+}
+
+####################################Economic Inflation/Deflation######################
+
+inflation_check_month = {
+    icon = 12
+}
+
+inflation_early_check_done = {
+    icon = 15
+}
+
+inflation_late_check_done = {
+    icon = 15
+}
+
+WB_level_check_done = {
+    icon = 15
+}
+
+flatline = {
+    icon = 15
+}
+
+ED_1 = {
+    max_tax = 0.95
+    mine_rgo_eff = -0.05
+    farm_rgo_eff = -0.05
+	icon = 15
+}
+
+ED_2 = {
+    max_tax = -0.05
+    mine_rgo_eff = -0.05
+    farm_rgo_eff = -0.05
+	icon = 15
+}
+
+ED_3 = {
+    max_tax = -0.05
+    mine_rgo_eff = -0.05
+    farm_rgo_eff = -0.05
+	icon = 15
+}
+
+spycicle = {
+	mobilisation_size = -0.05
+	global_pop_consciousness_modifier = 0.1
+	org_regain = -0.2
+	icon = 6
 }

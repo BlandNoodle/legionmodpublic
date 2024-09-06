@@ -3,6 +3,7 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
+
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"
 RUS		= "countries/Russia.txt"
@@ -23,6 +24,8 @@ NOR		= "countries/Norway.txt"
 SCA		= "countries/Scandinavia.txt"
 SWE		= "countries/Sweden.txt"
 HYP     = "countries/Hyperborea.txt"
+GHO		= "countries/Host.txt"
+LIC		= "countries/GhostCountry.txt"
 
 # Western Europe
 BEL		= "countries/Belgium.txt"

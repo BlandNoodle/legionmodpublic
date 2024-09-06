@@ -1029,3 +1029,79 @@ country_event = {
 		activate_technology = positivism
 	}
 }
+
+###Persia event###
+country_event = {
+	id = 19000182
+	title = "EVTNAME19000182"
+	desc = "EVTDESC19000182"
+	picture = "cry"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000182"
+		PER = {
+				1132 = {secede_province = FROM}
+				1131 = {secede_province = FROM}
+				1138 = {secede_province = FROM}
+				1141 = {secede_province = FROM}
+				1142 = {secede_province = FROM}
+				1145 = {secede_province = FROM}
+				1146 = {secede_province = FROM}
+				1136 = {secede_province = FROM}
+				money = 100000
+				research_points = 3000
+		}
+		FROM = {
+			create_vassal = PER
+		}
+
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB19000182"
+		FROM = {
+			prestige = 25
+			country_event = {id=19000183, days = 1}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+###Persia event reaction###
+country_event = {
+	id = 19000183
+	title = "EVTNAME19000183"
+	desc = "EVTDESC19000183"
+	picture = "whitechaser"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000183"
+		PER = {
+			add_casus_belli = {
+				target = THIS
+				type = make_puppet
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB19000182"
+		prestige = -15
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

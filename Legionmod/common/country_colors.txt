@@ -1051,3 +1051,10 @@ TRA = {
     color2= { 122 182 242 }
     color3= { 255 255 255  }
 }
+
+# Liechtenstein
+LIC = {
+    color1= { 123 183 244  }
+    color2= { 255 255 255  }
+    color3= { 188 80 87  }
+}

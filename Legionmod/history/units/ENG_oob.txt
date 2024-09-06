@@ -1445,140 +1445,6 @@ navy = {
 
 }
 
-navy = {
-	name = "Lisbon Station"
-	location = 517 #Gibraltar
-	ship = {
-		name= "HMS Africaine"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Cerberus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Nemesis"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "North America Station"
-	location = 71 #Halifax
-	ship = {
-		name= "HMS Saint Vincent"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Wellesley"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Aeolus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Barham"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Daedalus"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Druid"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Dublin"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Hebe"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Mercury"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Mermaid"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Rhadamanthus"
-		type = commerce_raider
-	}
-
-}
-
-navy = {
-	name = "South Atlantic Station"
-	location = 2131 # Falklands
-	ship = {
-		name= "HMS Hamadryad"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Lancaster"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Thames"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Thisbe"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "West Africa Station"
-	location = 1884 #Freetown
-	ship = {
-		name= "HMS Diana"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "East Indies Station"
-	location = 1321 #Colombo
-	ship = {
-		name= "HMS Madagascar"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Portland"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Winchester"
-		type = frigate
-	}
-
-}
 
 navy = {
 	name = "1st Transport Squadron"
@@ -1629,12 +1495,12 @@ navy = {
 		name= "26th Transport Flotilla"
 		type = clipper_transport
 	}
-
+	
 }
 
 navy = {
 	name = "2nd Transport Squadron"
-	location = 854
+	location = 1251
 	ship = {
 		name= "7th Transport Flotilla"
 		type = clipper_transport
@@ -1671,46 +1537,14 @@ navy = {
 		name= "22th Transport Flotilla"
 		type = clipper_transport
 	}
-
-}
-
-navy = {
-	name = "3rd Transport Squadron"
-	location = 1321 #Colombo
+	
 	ship = {
-		name= "11th Transport Flotilla"
+		name= "27th Transport Flotilla"
 		type = clipper_transport
 	}
-
+	
 	ship = {
-		name= "12th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "13th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "14th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "15th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "16th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "17th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "18th Transport Flotilla"
+		name= "28th Transport Flotilla"
 		type = clipper_transport
 	}
 

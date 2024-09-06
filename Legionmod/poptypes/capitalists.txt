@@ -74,6 +74,10 @@ country_migration_target =
 	factor = 1
 
 	modifier = {
+		factor = -1000
+		has_country_flag = ghostland
+	}
+	modifier = {
 		factor = 2
 		unemployment = 0.1
 	}

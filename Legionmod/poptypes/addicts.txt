@@ -125,6 +125,10 @@ migration_target =
 	factor = 0.01
 	
 	modifier = {
+		factor = -1000
+		has_country_flag = ghostland
+	}
+	modifier = {
 		factor = 0.1
 		unemployment = 0.1
 		state_scope = {

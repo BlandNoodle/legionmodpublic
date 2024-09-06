@@ -379,10 +379,10 @@ political_decisions = {
 			set_country_flag = relief5
 			prestige = 5
 			89 = {
-				trade_goods = precious_metal
+				trade_goods = iron
 			}
 			87 = {
-				trade_goods = precious_metal
+				trade_goods = coal
 			}
 		}
 	}
@@ -398,11 +398,11 @@ political_decisions = {
 			business_regulations = 1
 			romanticism = 1
 			89 = { 
-				trade_goods = precious_metal
+				trade_goods = 89
 				has_province_modifier = invested
 			}
 			87 = { 
-				trade_goods = precious_metal
+				trade_goods = coal
 			}
 			151 = {
 				has_province_modifier = invested

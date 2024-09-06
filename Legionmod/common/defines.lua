@@ -1,7 +1,7 @@
 defines = {
 
 start_date = '1836.1.1',
-end_date = '1935.12.31',
+end_date = '1946.12.31',
 
 country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
@@ -10,7 +10,7 @@ country = {
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.15,
 	GOLD_TO_CASH_RATE = 1, -- Amount of money generated per gold unit
-	GOLD_TO_WORKER_PAY_RATE = 3, -- Multiplier for how much money gold pays to pops
+	GOLD_TO_WORKER_PAY_RATE = 10, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
@@ -512,13 +512,13 @@ diplomacy = {
 	WARGOAL_JINGOISM_REQUIREMENT = 0.00,
 
 	LIBERATE_STATE_RELATION_INCREASE = 50,
-	DISHONORED_CALLALLY_PRESTIGE_PENALTY = -3,
-	BASE_TRUCE_MONTHS = 60,
+	DISHONORED_CALLALLY_PRESTIGE_PENALTY = 0,
+	BASE_TRUCE_MONTHS = 0,
 	MAX_INFLUENCE = 100,
-	WARSUBSIDIES_PERCENT = 0.20, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
+	WARSUBSIDIES_PERCENT = 0.25, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.50, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.2, -- Bonus to countries in your sphere neighbouring when influencing
-	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.50, -- Bonus to neighbouring countries when influencing
+	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.25, -- Bonus to neighbouring countries when influencing
 	PUPPET_BONUS_INFLUENCE_PERCENT = 1.0, -- bonus if they are our puppet
 	
 	-- effects of manually releasing a nation
@@ -610,8 +610,8 @@ diplomacy = {
 	TWS_FULFILLED_IDLE_SPACE = 0.75, -- How much % the CB fulfillment must done, so TWS starts ticking.
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
-	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
-	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
+	LARGE_POPULATION_INFLUENCE_PENALTY = -0.5,
+	LONE_BACKER_PRESTIGE_FACTOR = 0.20 -- prestige boost for being only defender backer in crisis
 },  
 
 

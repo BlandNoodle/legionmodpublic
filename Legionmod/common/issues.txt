@@ -11,8 +11,38 @@ party_issues = {
 			max_tariff = 0.25
 			min_tariff = -1
 		}
+		world_bank = {
+			max_tariff = 0.01
+			min_tariff = 0
+		}
 	}
 	economic_policy = {
+		world_bank_economics = {
+			max_tax = 1
+			min_tax = 0.99
+			
+			rules = {
+				build_factory = yes
+				expand_factory = yes
+				open_factory = yes
+				destroy_factory = no
+				build_railway = no
+				factory_priority = yes
+				can_subsidise = yes
+				pop_build_factory = no
+				pop_expand_factory = no
+				pop_open_factory = no
+				delete_factory_if_no_input = no
+				pop_build_factory_invest = no
+				pop_expand_factory_invest = no
+				open_factory_invest = no
+				build_factory_invest = no
+				expand_factory_invest = no
+				build_railway_invest = no
+				allow_foreign_investment = no
+				can_invest_in_pop_projects = no
+			}
+		}
 		laissez_faire = {
 			factory_owner_cost = 0.2
 			factory_output = 0.15
@@ -612,6 +642,9 @@ economic_reforms = {
 			technology_cost = 3000
 			global_pop_militancy_modifier = -0.004
 			civilization_progress_modifier = 0.05
+			allow = {
+				NOT = { has_country_flag = ghostland }
+			}
 			on_execute = {
 				effect = {
 					activate_technology = water_wheel_power
@@ -742,6 +775,9 @@ economic_reforms = {
 			global_pop_militancy_modifier = -0.004
 			max_loan_modifier = -1
 			civilization_progress_modifier = 0.05
+			allow = {
+				NOT = { has_country_flag = ghostland }
+			}
 			on_execute = {
 				effect = {
 					activate_technology = no_standard
@@ -874,6 +910,9 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.004
 			research_points_on_conquer = 0.05
 			civilization_progress_modifier = 0.05
+			allow = {
+				NOT = { has_country_flag = ghostland }
+			}
 			on_execute = {
 				effect = {
 					activate_technology = army_command_principle
@@ -991,6 +1030,9 @@ military_reforms = {
 			global_pop_militancy_modifier = -0.004
 			research_points_on_conquer = 0.05
 			civilization_progress_modifier = 0.05
+			allow = {
+				NOT = { has_country_flag = ghostland }
+			}
 			on_execute = {
 				effect = {
 					activate_technology = post_nelsonian_thought

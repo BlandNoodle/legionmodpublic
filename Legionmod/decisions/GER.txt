@@ -16,15 +16,6 @@ political_decisions = {
 					}
 				}
 			}
-			HOL = {all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
-				}
-			}
 			HAN = {all_core = {
 					OR = {
 						owned_by = THIS
@@ -37,9 +28,18 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = intenorth
-			inherit = MEC
-			inherit = HOL
-			inherit = HAN
+			any_country = {
+				limit = {
+					in_sphere = THIS
+					OR = {
+						tag = MEC
+						tag = HAN
+						tag = SCH
+						tag = HOL
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
 		}
 	}
 	

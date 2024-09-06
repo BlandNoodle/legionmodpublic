@@ -69,33 +69,9 @@
 #Palau (8000/2000 POPS)
 2518 = {
 	aristocrats = {
-		culture = micronesian
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = micronesian
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = micronesian
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = micronesian
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
-		culture = micronesian
-		religion = animist
-		size = 1800
+		culture = polar_bears
+		religion = sunni
+		size = 1
 	}
 }
 #Yap (2200/550 POPS)

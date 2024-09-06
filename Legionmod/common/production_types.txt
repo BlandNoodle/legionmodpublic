@@ -34,6 +34,33 @@ factory_template = {
 	workforce = 10000 
 }
 
+world_bank_template = {
+	owner =
+	{
+		poptype = capitalists
+		effect = output
+	}
+		
+	employees = {
+		{ 
+			poptype = craftsmen
+			effect = throughput
+			amount = 1
+		}
+	}
+	type = factory
+	workforce = 10000
+}
+
+world_bank_factory = {       
+	template = world_bank_template
+	input_goods = {
+		precious_metal = 0.01
+	}
+	output_goods = precious_metal
+	value = 100
+}
+
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.25 #if no cement, work at 75% efficiency #cost = Åí4/level

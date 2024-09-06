@@ -26,6 +26,16 @@ oob = "JAP_oob.txt"
 1861.1.1 = {
 	oob = "/1861/JAP_oob.txt"
 }
+
+foreign_training = modern_rifles
+admin_reform = modern_administration
+
+army_command_principle = 1
+no_standard = 1
+flintlock_rifles = 1
+private_banks = 1
+
+
 1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1

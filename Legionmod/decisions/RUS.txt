@@ -541,23 +541,8 @@ political_decisions = {
 			}
 		effect = {
 			PER = {
-				1132 = {secede_province = RUS}
-				1131 = {secede_province = RUS}
-				1133 = {secede_province = RUS}
-				1120 = {secede_province = RUS}
-				1119 = {secede_province = RUS}
-				1128 = {secede_province = RUS}
-				1122 = {secede_province = RUS}
-				1118 = {secede_province = RUS}
-				1117 = {secede_province = RUS}
-				1123 = {secede_province = RUS}
-				1111 = {secede_province = RUS}
-				1112 = {secede_province = RUS}
-				1109 = {secede_province = RUS}
-				1110 = {secede_province = RUS}
-				1108 = {secede_province = RUS}
+				country_event = {id=19000182, days=1}
 			}
-			RUS = { create_vassal = PER }
 			set_country_flag = ruspersia
 		}
 	}

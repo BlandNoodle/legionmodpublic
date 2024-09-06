@@ -275,8 +275,8 @@ enact_liquor_prohibition = {
 		}
 		effect = {
 			set_country_flag = the_meiji_restoration
-			money = 1000000
-			years_of_research = 5
+			money = 500000
+			years_of_research = 4
 			add_country_modifier = {
 				name = meiji_restoration_boost
 				duration = 5475
@@ -285,11 +285,11 @@ enact_liquor_prohibition = {
 			any_pop = {
 				scaled_militancy = {
 					ideology = conservative
-					factor = 1
+					factor = 4
 				}
 				scaled_militancy = {
 					ideology = reactionary
-					factor = 4
+					factor = 6
 				}
 			}
 		}
@@ -305,41 +305,6 @@ enact_liquor_prohibition = {
 						}
 					year = 1875		
 					}
-				}
-			}
-		}
-	}
-
-
-	the_meiji_restoration2 = {
-		picture = meiji_restoration
-		potential = {
-			civilized = no
-			tag = JAP
-			NOT = { has_country_flag = meiji_boost }
-			NOT = { has_country_flag = meiji_restoration }
-		}
-		allow = {
-			war = no
-			part_of_sphere = no
-		}
-		effect = {
-			set_country_flag = meiji_boost
-			money = 300000
-			years_of_research = 1
-			prestige = 10
-			add_country_modifier = {
-				name = meiji_restoration_boost
-				duration = 7200
-			}
-			any_pop = {
-				scaled_militancy = {
-					ideology = conservative
-					factor = 5
-				}
-				scaled_militancy = {
-					ideology = reactionary
-					factor = 8
 				}
 			}
 		}

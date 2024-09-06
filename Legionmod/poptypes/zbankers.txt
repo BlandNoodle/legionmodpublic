@@ -2,12 +2,6 @@ sprite = 14
 color = { 75 193 237 }
 strata = rich
 unemployment = yes
-max_size = 1000
-
-life_needs_income = {
-	type = administration
-	weight = 1
-}
 
 rebel =
 {
@@ -22,38 +16,40 @@ rebel =
 }
 
 everyday_needs = {
-	rubber = 3000
-	tropical_wood = 2000
-	silk = 2000
-	#dye = 2000
-	artillery = 6000
-	barrels = 1000
-	aeroplanes = 1000
-	fuel = 3000
-	small_arms = 6000
-	ammunition = 6000
-	canned_food = 12000
-	cotton = 5000
-	tea = 4000
-	coffee = 4000
-	tobacco = 4000
-	wool = 15000
-	sulphur = 2500
-	timber = 5000
-	coal = 15000
-	iron = 15000
-	oil = 3000
-	clipper_convoy = 3000
-	steamer_convoy = 3000
-	grain = 40000
-	fruit = 15000
-	fish = 20000
-	cattle = 15000
-	opium = 4000
+#	iron = 1000000
+#	coal = 1000000
+#	cotton = 1000000
+#	wool = 1000000
+#	silk = 1000000
+#	sulphur = 1000000
+#	timber = 1000000
+#	tropical_wood = 1000000
+#	rubber = 1000000
+#	oil = 1000000
+#	cattle = 1000000
+#	fish = 1000000
+#	fruit = 1000000
+#	grain = 1000000
+#	tobacco = 1000000
+#	tea = 1000000
+#	coffee = 1000000
+#	opium = 1000000
+#consumer goods
+#	fertilizer = 1000000
+#	explosives = 1000000
+#	glass = 1000000
+#	liquor = 1000000
+#	wine = 1000000
+#	steel = 1000000
+#	paper = 1000000
+#	furniture = 1000000
+#	regular_clothes = 1000000
+#	luxury_clothes = 1000000
+#	luxury_furniture = 1000000
+#	clipper_convoy = 1000000
 }
 
 life_needs = {
-
 }
 
 
@@ -73,7 +69,6 @@ migration_target =
 
 promote_to =
 {
-	factor = 0
 }
 
 
@@ -82,5 +77,5 @@ ideologies = {
 
 issues =
 {
-
+	
 }

@@ -423,3 +423,43 @@ dutchmen_title;Honorary Dutchmen;;;;;;;x
 dutchmen_desc;You're part of my crew now, and our job is to sail around and frighten people. It'll be grueling, mind-numbing, and repetitive. Just like, Gremlin Legion.;;;;;;;;x
 recognize_desert_title;Claim the Desert;;;;;x
 recognize_desert_desc;Before the rest of the world realizes the value hidden beneath the sands of Egypt, we must lay claim and reclaim the rest of the kingdom!;;;;;;x
+EVTNAME19000182;Persian Gulf Matter;;;;;;x
+EVTDESC19000182;$FROMCOUNTRY$ wants to own the Persian Gulf directly, do we fold under zero pressure or go gangster on these thugs?;;;;;;;x
+EVTOPTA19000182;Bend the Knee;;;;;;x
+EVTOPTB19000182;Gangster Rap made me do it;;;;;;;x
+EVTNAME19000183;Persian Response;;;;;;x
+EVTDESC19000183;They didn't fold under zero pressure, time to janny up or tuck in;;;;;;;x
+EVTOPTA19000183;Guess I'll janny. . .;;;;;;;x
+EVTOPTB19000183;Bedtime sounds good;;;;;;;x
+annexegypt_title;Annex Egypt;;;;;;x
+annexegypt_desc;The time has come to reap our rewards for defending Egypt. This decision enables the Conquer Egypt CB;;;;;;;x
+treaty_port_buff;Treaty Port;;;;;;x
+treaty_port_buff_desc;Sloppy;;;;;;;x
+PROV3252;Liechtenstein;;;;;;;x
+LIC;Host;;;;;;;x
+LIC_ADJ;Ghostly;;;;;;;;x
+GHO_exclusive;Liechtenstein Setting;;;;;;;x
+world_bank_economics;World Bank Economics;;;;;;;x
+world_bank;World Bank Trade;;;;;;;x
+world_bank_factory;World Bank;;;;;;;
+GHO;Ghost Nation;;;;;;;;x
+GHO_ADJ;Ghost;;;;;;;x
+hammurabi_code;Hammurabi's Code
+hammurabi_code_desc;EU-phrates River!;;;;;;;x
+persian_rugs_title;Revive the Silk Industry;;;;;;;x
+persian_rugs_desc;Safavid textiles are praised as the pinnacle of Iranian loom weaving. When the Safavids came to power at the turn of the sixteenth century, the Iranian textile industry was already well developed in the production and sale of woven silk textiles and rugs as well as raw silk for export. The textile industry consisted of urban workshops producing textiles independently, provincial centers focusing on rug weaving, and small farms cultivating silk in the Caspian region. As the Safavids set up their capital cities of Tabriz, Qazvin, and finally Isfahan, the textile industry became centralized and was swiftly incorporated into the national economy, creating an expansive revenue stream. After the death of Shah ÅeAbbas in 1629, the Safavid dynasty began to lose central power, and regional governance relegated the monarch to the position of a figurehead. Textile production in court-sponsored workshops declined, while the private sector of the textile industry regained independence, producing silks for the expanding international demand. From the last quarter of the seventeenth century until the dynastyÅfs end following the Afghan invasion in 1722, there was a marked change in the textiles produced as Iranian weavers stepped down their aesthetic and working methods to suit the tastes and economy of the declining regime.;;;;;;;;x
+persianrugs;Persian Rugs;;;;;;;;x
+persianrugs_desc;This shit kinda silky!;;;;;;;x
+EVTDESC19000184;Following our defeat at the hands of the Germans, we are left without Alsace and our honor. Do we holdout the hope of reclaiming our lost territory, or do we look elsewhere to claim our glory?;;;;;;;x
+EVTOPTA19000184;Since we're all going to die, it's obvious that when and how don't matter.;;;;;;;x
+EVTOPTB19000184;I may not have been sure about what really did interest me, but I was absolutely sure about what didn't.;;;;;;;x
+spycicle;Spycicle'd;;;;;;;x
+spycicle_desc;You got spycicled, your mob size is frozen!;;;;;;x
+letranger_title;L'Etranger;;;;;;;x
+letranger_desc;That was when everything shook... The sky seemed to be splitting from end to end and raining down sheets of flame. My whole being went tense and I tightened my grip on the gun. The trigger gave, I felt the underside of the polished butt and it was there, in that sharp but deafening noise, that it all started. I realized that I'd destroyed the balance of the day and the perfect silence of this beach where I'd been happy. And I fired four more times at a lifeless body and the bullets sank without leaving a mark. And it was like giving four sharp knocks at the door of unhappiness.;;;;;;x
+backstab_title;Backstab Germany;;;;;;x
+backstab_desc;You know what you must do;;;;;;;x
+headstart_title;Headstart in Africa;;;;;;;x
+headstart_desc;It was as if that great rush of anger had washed me clean, emptied me of hope, and, gazing up at the dark sky spangled with its signs and stars, for the first time, the first, I laid my heart open to the benign indifference of the universe. To feel it so like myself, indeed, so brotherly, made me realize that I'd been happy, and that I was happy still. For all to be accomplished, for me to feel less lonely, all that remained to hope was that on the day of my execution there should be a huge crowd of spectators and that they should greet me with howls of execration.;;;;;;;;x
+headstartchina_title;Mission to China;;;;;;;x
+headstartchina_desc;The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.;;;;;;;;x

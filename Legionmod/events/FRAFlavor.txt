@@ -1413,3 +1413,43 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	
+	title = "Alsace Matter"
+	desc = "EVTDESC19000184"
+	picture = "letranger"
+	id = 19000184
+
+	trigger = {
+		tag = FRA
+		NOT = {
+			owns = 412
+		}
+	}
+	fire_only_once = yes
+			
+	mean_time_to_happen =  {
+		months = 3
+	}
+
+	option = {
+		name = "EVTOPTA19000184"
+		prestige = 5
+	}
+	option = {
+		name = "EVTOPTB19000184"
+		prestige = -5
+		badboy = -22
+		412 = {
+			remove_core = FRA
+		}
+		409 = {
+			remove_core = FRA
+		}
+		410 = {
+			remove_core = FRA
+		}
+		set_country_flag = frenchcolonies
+	}
+}

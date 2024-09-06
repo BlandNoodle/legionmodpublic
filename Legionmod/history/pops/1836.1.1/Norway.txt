@@ -136,17 +136,11 @@
 }
 #Jan Mayen (60/15 POPS)
 3246 = {
-    farmers = {
-        culture = norwegian
-        religion = protestant
-        size = 300
-    }
-
-    bureaucrats = {
-        culture = norwegian
-        religion = protestant
-        size = 100
-    }
+    zbankers = {
+		culture = polar_bears
+		religion = sunni
+		size = 100000
+	}
 }
 #Vestlandet-Sorlandet Region : 544000
 #Bergen (180000/45000 POPS)

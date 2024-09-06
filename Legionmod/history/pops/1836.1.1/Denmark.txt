@@ -2,30 +2,16 @@
 #Faroe Islands Region (7000)
 #Torshavn (7000/1750 POPS)
 253 = {
-	bureaucrats = {
-		culture = danish
-		religion = protestant
-		size = 15
+	aristocrats = {
+		culture = polar_bears
+		religion = sunni
+		size = 1
 	}
-
-	clergymen = {
-		culture = danish
-		religion = protestant
-		size = 75
-	}
-
-	artisans = {
-		culture = danish
-		religion = protestant
-		size = 135
-	}
-
 	farmers = {
-		culture = danish
-		religion = protestant
-		size = 1575
+		culture = polar_bears
+		religion = sunni
+		size = 1
 	}
-
 }
 #Jutland Region : 548000
 #Aarhus (248000/62000 POPS)

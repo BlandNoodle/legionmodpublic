@@ -89,5 +89,38 @@ political_decisions = {
 			EGY_1750 = {add_core = EGY life_rating = 10}
 			set_country_flag = desert_conquest
 		}
-	}	
+	}
+	
+	annexegypt = {
+		potential = {
+			NOT = {tag = EGY}
+			NOT = {
+				has_country_flag = egyptconquer
+			}
+			state_n_government = 1
+		}
+		allow = {
+			war = no
+			invention = colonial_negotiations
+			EGY = {
+				in_sphere = THIS
+				NOT = {vassal_of = THIS}
+			}
+		}
+		effect = {
+			EGY = {
+				leave_alliance = THIS
+				relation = {
+					who = THIS
+					value = -300
+				}
+				diplomatic_influence = {
+					who = THIS
+					value = -400
+				}
+			}
+			set_country_flag = egyptconquer
+		}
+	}
+	
 }

@@ -24,7 +24,6 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_nanning
-			remove_country_modifier = treaty_port_nanning
 		}
 	}
 	#Add to Sphere & Modifier
@@ -34,9 +33,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_nanning
-		add_country_modifier = {
-			name = treaty_port_nanning
-			duration = -1
+		1495 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -75,7 +76,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_macau 
-			remove_country_modifier = treaty_port_macau
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -85,9 +86,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_macau 
-		add_country_modifier = {
-			name = treaty_port_macau
-			duration = -1
+		1498 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -126,7 +129,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_hongkong
-			remove_country_modifier = treaty_port_hongkong
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -136,9 +139,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_hongkong
-		add_country_modifier = {
-			name = treaty_port_hongkong
-			duration = -1
+		1496 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -177,7 +182,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_fuzhou 
-			remove_country_modifier = treaty_port_fuzhou
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -187,9 +192,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_fuzhou 
-		add_country_modifier = {
-			name = treaty_port_fuzhou
-			duration = -1
+		1482 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -228,7 +235,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_ningbo 
-			remove_country_modifier = treaty_port_ningbo 
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -238,9 +245,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_ningbo 
-		add_country_modifier = {
-			name = treaty_port_ningbo 
-			duration = -1
+		1608 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -279,7 +288,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_shanghai 
-			remove_country_modifier = treaty_port_shanghai 
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -289,9 +298,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_shanghai 
-		add_country_modifier = {
-			name = treaty_port_shanghai 
-			duration = -1
+		1538 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -330,7 +341,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_qingdao
-			remove_country_modifier = treaty_port_qingdao
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -340,9 +351,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_qingdao
-		add_country_modifier = {
-			name = treaty_port_qingdao
-			duration = -1
+		1566 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port
@@ -381,7 +394,7 @@ country_event = {
 				value = -900
 			}
 			clr_country_flag = treatyport_beijing 
-			remove_country_modifier = treaty_port_beijing
+
 		}
 	}
 	#Add to Sphere & Modifier
@@ -391,9 +404,11 @@ country_event = {
 			value = 900
 		}
 		set_country_flag = treatyport_beijing 
-		add_country_modifier = {
-			name = treaty_port_beijing
-			duration = -1
+		1481 = {
+			add_province_modifier = {
+				name = treaty_port_buff
+				duration = -1
+			}
 		}
 	}
 	#Add Modifier to Treaty Port

@@ -1156,13 +1156,13 @@
     soldiers = {
         culture = boer
         religion = protestant
-        size = 132000
+        size = 6000
     }
 
     farmers = {
         culture = boer
         religion = protestant
-        size = 50400
+        size = 140400
     }
 
     aristocrats = {
@@ -1357,13 +1357,13 @@
     soldiers = {
         culture = boer
         religion = protestant
-        size = 132000
+        size = 5000
     }
 
     farmers = {
         culture = boer
         religion = protestant
-        size = 38400
+        size = 138400
     }
 
     aristocrats = {
@@ -1810,43 +1810,43 @@
     clergymen = {
         culture = african_minor
         religion = animist
-        size = 75
+        size = 375
     }
 
     artisans = {
         culture = african_minor
         religion = animist
-        size = 400
+        size = 4000
     }
 
     soldiers = {
         culture = african_minor
         religion = animist
-        size = 75
+        size = 16000
     }
 
     farmers = {
         culture = african_minor
         religion = animist
-        size = 7275
+        size = 89275
     }
 
     aristocrats = {
         culture = african_minor
         religion = animist
-        size = 425
+        size = 825
     }
 
     clergymen = {
         culture = african_minor
         religion = animist
-        size = 225
+        size = 725
     }
 
     artisans = {
         culture = african_minor
         religion = animist
-        size = 1050
+        size = 3050
     }
 
     soldiers = {
@@ -1872,25 +1872,25 @@
     clergymen = {
         culture = african_minor
         religion = animist
-        size = 400
+        size = 800
     }
 
     artisans = {
         culture = african_minor
         religion = animist
-        size = 1950
+        size = 3950
     }
 
     soldiers = {
         culture = african_minor
         religion = animist
-        size = 7000
+        size = 15000
     }
 
     farmers = {
         culture = african_minor
         religion = animist
-        size = 28900
+        size = 98900
     }
 }
 #Ulundi (320000/80000 POPS)
@@ -1904,13 +1904,13 @@
     bureaucrats = {
         culture = african_minor
         religion = animist
-        size = 25
+        size = 1425
     }
 
     officers = {
         culture = african_minor
         religion = animist
-        size = 150
+        size = 850
     }
 
     clergymen = {
@@ -1922,19 +1922,19 @@
     artisans = {
         culture = african_minor
         religion = animist
-        size = 4000
+        size = 5000
     }
 
     soldiers = {
         culture = african_minor
         religion = animist
-        size = 16000
+        size = 28000
     }
 
     farmers = {
         culture = african_minor
         religion = animist
-        size = 57450
+        size = 187450
     }
 }
 #Mbabane (80000/20000 POPS)  #now Swaziland

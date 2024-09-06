@@ -1,0 +1,59 @@
+political_decisions = {
+	hammurabi = {
+		potential = {
+			tag = PER
+			has_country_flag = dar_al_funun_built
+			NOT = {
+				has_country_flag = the_code
+			}
+		}
+		allow = {
+			literacy = 0.25
+			civilized = yes
+		}
+		effect = {
+			any_pop = {
+				consciousness = 1
+			}
+			set_country_flag = the_code
+			add_country_modifier = {
+				name = hammurabi_code
+				duration = -1
+			}
+		}
+	}
+	
+	persian_rugs = {
+		potential = {
+			tag = PER
+			has_country_flag = dar_al_funun_built
+			NOT = {
+				has_country_flag = silkedup
+			}
+		}
+		allow = {
+			literacy = 0.30
+			civilized = yes
+		}
+		effect = {
+			money = -250000
+			set_country_flag = silkedup
+			1121 = {
+				trade_goods = {silk}
+				add_province_modifier = {
+					name = persianrugs
+					duration = -1
+				}
+			}
+			1113 = {
+				trade_goods = {silk}
+				add_province_modifier = {
+					name = persianrugs
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	
+}

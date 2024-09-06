@@ -2,7 +2,7 @@ owner = HND
 controller = HND
 add_core = BUN
 add_core = HND
-trade_goods = fruit
+trade_goods = tea
 life_rating = 32
 colonial = 2
 

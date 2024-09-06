@@ -89,6 +89,8 @@ gunboat = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		NOT = {
 			tag = JAN
@@ -132,6 +134,8 @@ status_quo = {
 	constructing_cb = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -159,6 +163,8 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -235,6 +241,8 @@ conquer_south_america = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		THIS = { tag = BRZ }
 		OR = {
@@ -283,6 +291,8 @@ minor_conquest = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {total_pops = 600000}
 		NOT = {
 			tag = JAN
@@ -335,6 +345,8 @@ civil_war = {
 	crisis = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -385,6 +397,8 @@ add_to_sphere = {
 	construction_speed = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -429,6 +443,8 @@ take_from_sphere = {
 	construction_speed = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
@@ -477,6 +493,8 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -521,6 +539,8 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			is_core = THIS
@@ -564,6 +584,8 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		num_of_substates = 1 # if has any substate
 		any_substate = {
@@ -613,6 +635,8 @@ acquire_treaty_port = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		THIS = { is_greater_power = yes }
 		has_global_flag = treaty_ports_activated
 		NOT = { is_our_vassal = THIS }
@@ -674,6 +698,8 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -752,23 +778,28 @@ conquer_egypt = {
 	months = 12
 	construction_speed = 1
 	
-	badboy_factor = 0.5
+	badboy_factor = 0.3
 	prestige_factor = 1
-	peace_cost_factor = 0.75
+	peace_cost_factor = 0.5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 12
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
-		THIS = { tag = OTC }
+		OR = {
+			tag = OTC
+			has_country_flag = egyptconquer
+		}
 	}
 	
 	allowed_states = {
@@ -805,6 +836,8 @@ acquire_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -894,6 +927,8 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			is_colonial = yes
@@ -942,7 +977,9 @@ italian_unification = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {	
+	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		THIS = { 
 			OR = { 
 				tag = SAR 
@@ -1082,6 +1119,8 @@ cut_down_to_size = {
 	war_name = WAR_NAME
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1158,6 +1197,8 @@ free_peoples = {
 	construction_speed = 1
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1238,6 +1279,8 @@ liberate_country = {
 	construction_speed = 1
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		NOT = { ai = no }
 	}
@@ -1321,6 +1364,8 @@ dismantle_forts = {
 	construction_speed = 1
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1371,6 +1416,8 @@ release_puppet = {
 	construction_speed = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 	}
@@ -1416,6 +1463,8 @@ make_puppet = {
 	construction_speed = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1465,6 +1514,8 @@ become_independent = {
 	construction_speed = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		is_our_vassal = THIS
 	}
 	
@@ -1507,7 +1558,7 @@ humiliate = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 30
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1522,6 +1573,8 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1555,6 +1608,8 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1619,6 +1674,8 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = {
 			tag = JAN
 		}
@@ -1688,6 +1745,8 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1735,6 +1794,8 @@ unification_release_puppet_cb = {
 	always = yes
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
@@ -1789,6 +1850,8 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1853,6 +1916,8 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1892,7 +1957,7 @@ rude_boy = {
 	badboy_factor = 0
 	prestige_factor = 0.5
 	peace_cost_factor = 1.5
-	penalty_factor = 1
+	penalty_factor = 60
 
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
@@ -1906,6 +1971,8 @@ rude_boy = {
 	always = yes
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
 	}
@@ -2016,6 +2083,8 @@ uninstall_communist_gov_cb = {
 	construction_speed = 1
 
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		THIS = {
 			# If actor ruling party is not communist
 			NOT = {
@@ -2053,7 +2122,7 @@ great_war_penalty_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 06
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2081,10 +2150,10 @@ great_war_penalty_cb = {
 negotiated_transfer = {
 	sprite_index = 5
 	is_triggered_only = yes
-	constructing_cb = no
+	months = 0
 	crisis = no
+	constructing_cb = no
 	always = yes
-
 	badboy_factor = 0
 	prestige_factor = 0
 	peace_cost_factor = 0
@@ -2101,27 +2170,45 @@ negotiated_transfer = {
 
 
 	can_use = {
+		
+
 		number_of_states = 2 # annex if you want their last state
-		OR = {
-			ai = no
-			AND = {
-				ai = yes
-				is_independant = no
-				overlord = { ai = no }
-			}
-		}
-		THIS = { ai = no }
+		NOT = { truce_with = THIS } 
+		THIS = { civilized = yes }
 	}
 	
+	allowed_countries = {
+		OR = {
+			FROM = { vassal_of = THIS }
+			FROM = { substate_of = THIS }
+			FROM = { tag = THIS } 
+			AND = { 
+				FROM = { ai = no } 
+				THIS = { alliance_with = FROM }
+			} 
+		}
+		FROM = {
+			exists = yes
+		}
+	}
+
 	allowed_states = {
 		not = { any_owned_province = { is_capital = yes } }
 	}
 
-	po_demand_state = yes
+	po_transfer_provinces = yes
 	
 	war_name = WAR_NEGOTIATE_NAME
 	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.00
+		}
+	}
 }
+
 # Cut Down to size (Reperations)
 demand_reperations = {
 	sprite_index = 13
@@ -2165,6 +2252,8 @@ conquest_low = {
 	construction_speed = 1
 	
 	can_use = {
+		NOT = { tag = LIC }
+		NOT = { tag = GHO }
 		# this = { NOT = { badboy = 1 } }
 		NOT = {	total_pops = 901000 }
 
@@ -2237,7 +2326,7 @@ conquer_germany = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 60
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2281,7 +2370,7 @@ release_eyalet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 60
+	truce_months = 72
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1

@@ -355,16 +355,8 @@ southaf = {
 			}
 		effect = {
 			PER = {
-				1132 = {secede_province = ENG}
-				1131 = {secede_province = ENG}
-				1138 = {secede_province = ENG}
-				1141 = {secede_province = ENG}
-				1142 = {secede_province = ENG}
-				1145 = {secede_province = ENG}
-				1146 = {secede_province = ENG}
-				1136 = {secede_province = ENG}
+				country_event = {id=19000182, days=1}
 			}
-			ENG = { create_vassal = PER }
 			set_country_flag = engpersia
 		}
 	}
