@@ -4,3 +4,5 @@
 *.csv working-tree-encoding=cp1252 git-encoding=cp1252
 *.txt text eol=lf
 *.csv text eol=lf
+*.lua text eol=lf
+*.gitattributes text eol=lf
