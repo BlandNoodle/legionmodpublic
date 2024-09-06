@@ -215,7 +215,9 @@ infiltration = {
 	year = 1900
 	cost = 18000
 	unciv_military = yes
-		
+	activate_unit = tank
+	activate_building = barrel_factory	
+	
 	army_base = {
 		supply_consumption = 0.05
 	} 

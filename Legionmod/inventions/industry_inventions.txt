@@ -45,7 +45,7 @@ wright_n_langleys_aeroplanes = {
 		}
 	}
 	effect = {
-		activate_building =aeroplane_factory 
+		activate_building = aeroplane_factory 
 		factory_goods_output = {
 			machine_parts = 0.02 
 		}
@@ -900,6 +900,26 @@ stainless_steel = {
 			steel = 0.05
 		}
 	}
+}
+lombard_and_holts_continuous_track = {
+	limit = { electric_furnace = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 10
+			war = yes
+		}
+		modifier = {
+			factor = 10
+			invention = steel_alloys
+		}
+	}
+	effect = {
+		shared_prestige = 50
+		factory_goods_throughput = {
+			barrels = 0.03 
+		}
+	}	
 }
 #early_railroad
 #iron_railroad

@@ -18,6 +18,8 @@ democratic_nation = {
 help_ai = {
 	trigger = {
 		ai = yes
+		NOT = {tag = LIC}
+		NOT = {tag = GHO}
 	}
 	min_tariff = 3
 	max_tariff = 3

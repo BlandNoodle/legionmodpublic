@@ -2170,8 +2170,8 @@ negotiated_transfer = {
 
 
 	can_use = {
-		
-
+		FROM = {NOT = {ai = yes} }
+		THIS = {NOT = {ai = yes} }
 		number_of_states = 2 # annex if you want their last state
 		NOT = { truce_with = THIS } 
 		THIS = { civilized = yes }
