@@ -156,10 +156,6 @@ political_decisions = {
 	
 		allow = {
 			cheap_steel = 1
-			USA = { slavery = no_slavery 
-			government = democracy
-			owns = 232
-			}
 		}
 	
 		effect = {
@@ -167,7 +163,7 @@ political_decisions = {
 			any_pop = {
 				militancy = -0.5
 			}
-			country_event = {id = 19000182 days=0}
+			country_event = {id = 19000185 days=0}
 #			USA = {
 #				country_event = {id=19300 days=0}
 #			}

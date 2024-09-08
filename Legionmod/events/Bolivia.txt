@@ -34,7 +34,7 @@ country_event = {
 
 ###Liberty Enlightening the World Choice###
 country_event = {
-	id = 19000182
+	id = 19000185
 	
 	is_triggered_only = yes
 	

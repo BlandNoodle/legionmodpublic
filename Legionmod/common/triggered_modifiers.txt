@@ -18,8 +18,7 @@ democratic_nation = {
 help_ai = {
 	trigger = {
 		ai = yes
-		NOT = {tag = LIC}
-		NOT = {tag = GHO}
+		NOT = {has_country_flag = ghostland}
 	}
 	min_tariff = 3
 	max_tariff = 3
@@ -357,70 +356,11 @@ the_british_raj = {
     icon = 19
 }
 
-money_hoarder_1 = {
-	trigger = {
-		money = 10000000
-		NOT = { money = 20000000 }
-	}
-	tax_efficiency = -0.05
-	max_tariff = -0.05
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
-}
-
-money_hoarder_2 = {
-	trigger = {
-		money = 20000000
-		NOT = { money = 30000000 }
-	}
-	tax_efficiency = -0.10
-	max_tariff = -0.10
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
-}
-
-money_hoarder_3 = {
-	trigger = {
-		money = 30000000
-		NOT = { money = 40000000 }
-	}
-	tax_efficiency = -0.20
-	max_tariff = -0.20
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
-}
-
-money_hoarder_4 = {
-	trigger = {
-		money = 40000000
-		NOT = { money = 50000000 }
-	}
-	tax_efficiency = -0.25
-	max_tariff = -0.25
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
-}
-
-money_hoarder_5 = {
-	trigger = {
-		money = 50000000
-		NOT = { money = 60000000 }
-	}
-	tax_efficiency = -0.40
-	max_tariff = -0.40
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
-}
-
 money_hoarder_6 = {
 	trigger = {
 		money = 60000000
 		NOT = { money = 100000000 }
+		NOT = {has_country_flag = ghostland}
 	}
 	tax_efficiency = -0.75
 	max_tariff = -0.75
@@ -432,6 +372,7 @@ money_hoarder_6 = {
 money_hoarder_7 = {
 	trigger = {
 		money = 100000000
+		NOT = {has_country_flag = ghostland}
 	}
 	max_tariff = -1
 	max_tax = -1

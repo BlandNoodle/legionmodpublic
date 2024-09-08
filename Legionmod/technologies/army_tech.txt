@@ -1077,6 +1077,8 @@ aeronautics = {
 		default_organisation = 10
 		supply_consumption = 0.05
 	}
+	activate_unit = plane
+	activate_building = aeroplane_factory
 	
 	unciv_military = yes
 	
