@@ -1196,6 +1196,7 @@ country_event = {
 			name = panic1837
 			duration = -1
 		}
+		prestige = -50
 		set_country_flag = panic37
 	}
 }

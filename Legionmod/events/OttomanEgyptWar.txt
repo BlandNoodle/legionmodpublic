@@ -795,8 +795,8 @@ province_event = {
 
 	trigger = {
 		NOT = {exists = ALB}
-		any_pop = {
-			has_pop_culture = albanian
+		any_owned = {
+			has_core = ALB
 		}
 		has_global_flag = albania_rise
 	}

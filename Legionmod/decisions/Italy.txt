@@ -204,10 +204,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			OR = {
-				invention = national_fraternity
-				is_greater_power = yes
-			}
+			invention = national_fraternity
+			owns = 726
+			owns = 729
+			owns = 720
+			owns = 749
+			prestige = 20
 		}
 		
 		effect = {
@@ -229,9 +231,6 @@ political_decisions = {
 			470 = {
 				add_core = ITA
 			}			
-			729 = {
-				add_core = ITA
-			}
 			471 = {
 				add_core = ITA
 			}
@@ -250,21 +249,6 @@ political_decisions = {
 			465 = {
 				add_core = ITA
 			}			
-			729 = {
-				add_core = ITA
-			}
-			730 = {
-				add_core = ITA
-			}
-			731 = {
-				add_core = ITA
-			}
-			732 = {
-				add_core = ITA
-			}
-			733 = {
-				add_core = ITA
-			}
 			734 = {
 				add_core = ITA
 			}

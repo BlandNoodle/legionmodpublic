@@ -10,8 +10,8 @@ country_event = {
 		war = no
 		NOT = { has_country_flag = baldi }
 		OR = {
-			year = 1855
-			exists = NGF
+			year = 1860
+			owns = 726
 		}
 	}
 	

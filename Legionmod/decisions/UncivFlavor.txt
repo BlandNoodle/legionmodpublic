@@ -354,7 +354,7 @@ political_decisions = {
 			NOT = {has_country_flag = albaniaawake}
 		}
 		allow = {
-			total_pops = 1000000
+			total_pops = 1200000
 			is_independant = yes
 		}
 		effect = {
@@ -379,39 +379,29 @@ political_decisions = {
 	
 	albanian_guns = {
 		potential = {
-			capital_scope = {
-				NOT = {
-					OR = {
-						continent = south_america
-						continent = north_america
-						continent = asia
-						continent = oceania
-					}
-				}
-			}
 			civilized = yes
 			NOT = {tag = ALB}
 			NOT = {has_country_modifier = gun_cooldown}
-			has_global_flag = albania_rise
+			year = 1842
 			exists = ALB
 		}
 		allow = {
-			money = 25000
+			money = 50000
 			NOT = {war_with = ALB}
 		}
 		effect = {
-			money = -25000
+			money = -50000
 			artillery = 300
 			small_arms = 400
 			ammunition = 50
 			canned_food = 100
-			regular_clothes = 20
+			regular_clothes = 50
 			add_country_modifier = {
 				name = gun_cooldown
 				duration = 121
 			}
 			ALB = {
-				money = 25000
+				money = 50000
 				research_points = 200
 			}
 		}
@@ -432,22 +422,12 @@ political_decisions = {
 	albanian_casino = {
 		picture = "get_stockpile_big"
 		potential = {
-			capital_scope = {
-				NOT = {
-					OR = {
-						continent = south_america
-						continent = north_america
-						continent = asia
-						continent = oceania
-					}
-				}
-			}
 			civilized = yes
 			NOT = {tag = ALB}
 			NOT = {has_country_modifier = casino_cooldown}
 			NOT = {has_country_modifier = casino_banned}
-			has_global_flag = albania_rise
 			exists = ALB
+			year = 1844
 			NOT = {has_global_flag = activegambler}
 		}
 		allow = {
@@ -471,7 +451,7 @@ political_decisions = {
 			factor = 0
 			modifier = {
 				factor = 2
-				money = 1000000
+				money = 500000
 			}
 			modifier = {
 				factor = -50
@@ -488,7 +468,7 @@ political_decisions = {
 			NOT = {has_country_flag = expandedalb}
 		}
 		allow = {
-			money = 1000000
+			money = 2000001
 			is_independant = yes
 			war = no
 		}
@@ -503,7 +483,7 @@ political_decisions = {
 				}
 				country_event = {id = 19000178 days = 1}
 			}
-			money = -1000000
+			money = -2000000
 			prestige = 50
 			activate_technology = breech_loaded_rifles
 			activate_technology = point_defense_system
@@ -524,7 +504,7 @@ political_decisions = {
 		}
 		allow = {
 			nationalism_n_imperialism = 1
-			money = 1000000
+			money = 2000001
 			is_independant = yes
 			war = no
 		}
@@ -533,7 +513,7 @@ political_decisions = {
 			BUL = {all_core = {add_core = ALB} }
 			GRE = {all_core = {add_core = ALB} }
 			ROM = {all_core = {add_core = ALB} }
-			money = -1000000
+			money = -2000001
 			prestige = 50
 			set_country_flag = expandedalb2
 		}

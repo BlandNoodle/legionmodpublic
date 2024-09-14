@@ -794,7 +794,7 @@ turko_semitic = {
 	is_overseas = no
 	unit = MiddleEasternGC
 	turkish = {
-		color = {250 55 55}
+		color = {170 0 6}
 		first_names = { 
 			Abdullah Abdulhamid Abdulkerim Abdulrahim Ahmet Akif Ali Arif 
 			Bahaeddin Bekir Cemal Cevad Celaleddin Cevdet Daud Edhem Emin Enver 
