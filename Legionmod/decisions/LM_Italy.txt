@@ -82,14 +82,16 @@ political_decisions = {
 		allow = {
 			war = no
 			owns = 736
-			empiricism = 1
+			owns = 781
+			owns = 851
+			invention = national_fraternity
 			is_greater_power = yes
 		}
 		
 		effect = {
 			set_country_flag = romanambitions
 			prestige = 5
-			badboy = 17
+			badboy = 16
 			464 = { add_core = THIS }
 			FRA_451 = { add_core = THIS }
 			FRA_461 = { add_core = THIS }
@@ -117,7 +119,7 @@ political_decisions = {
 		
 		effect = {
 			add_accepted_culture = occitan
-			badboy = 5
+			badboy = 8
 			set_country_flag = occitanaccepted
 		}
 	}

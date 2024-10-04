@@ -278,7 +278,7 @@ political_decisions = {
 	}
 	
 	switch_to_production = {
-		picture = switch_to_productivity
+		picture = switch_to_production
 		potential = {
 			NOT = { nationalvalue = nv_productivity }
 			#NOT = { has_country_flag = switched_nv }

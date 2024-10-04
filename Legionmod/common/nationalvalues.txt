@@ -8,7 +8,6 @@ nv_order = {
 
 nv_equality = {
 	non_accepted_pop_militancy_modifier = -0.1
-	global_assimilation_rate = 0.5
 	culture_tech_research_bonus = 0.05
 }
 
@@ -20,7 +19,7 @@ nv_productivity = {
 }
 
 nv_education = {
-	education_efficiency_modifier = 0.25
+	education_efficiency_modifier = 0.30
 	culture_tech_research_bonus = 0.05
 }
 

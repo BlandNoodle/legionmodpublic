@@ -85,12 +85,12 @@ political_decisions = {
 			}
 		}
 		allow = {
-			money = 1000000
+			money = 2000000
 			iron_railroad = 1
 			cheap_iron = 1
 		}
 		effect = {
-			money = -1000000
+			money = -2000000
 			619 = {
 				any_pop = {
 					ideology = {
@@ -98,7 +98,62 @@ political_decisions = {
 						factor = 0.2
 					}
 				}
-				life_rating = 5
+				life_rating = 6
+				add_province_modifier = {
+					name = newvienna
+					duration = -1
+				}
+			}
+			620 = {
+				limit = {
+					state_id = AUS_619
+				}
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 2
+				add_province_modifier = {
+					name = newvienna
+					duration = -1
+				}
+			}
+			621 = {
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 2
+				add_province_modifier = {
+					name = newvienna
+					duration = -1
+				}
+			}
+			622 = {
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 2
+				add_province_modifier = {
+					name = newvienna
+					duration = -1
+				}
+			}
+			624 = {
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 2
 				add_province_modifier = {
 					name = newvienna
 					duration = -1

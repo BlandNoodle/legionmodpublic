@@ -5,6 +5,7 @@ is_slave = yes
 color = { 17 17 17 }
 unemployment = yes
 
+
 rebel =
 {
 	cavalry = 0.0

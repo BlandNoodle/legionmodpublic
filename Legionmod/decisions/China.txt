@@ -4,6 +4,7 @@ political_decisions = {
 			tag = CHI
 			year = 1900
 			NOT = {has_country_flag = lubuawake}
+			NOT = {has_country_flag = lubuclicked}
 		}
 		allow = {
 			war = no
@@ -14,16 +15,17 @@ political_decisions = {
 			NOT = {exists = SXI}
 			NOT = {exists = YNN}
 			NOT = {exists = GXI}
-			money = 1000000
+			money = 2000000
 		}
 		effect = {
-			money = -1000000
+			money = -2000000
 			add_country_modifier = {
 			name = lubu
 			duration = -1
 			}
 			remove_country_modifier = yatsen
 			set_country_flag = lubuawake
+			set_country_flag = lubuclicked
 			define_general = {
 					name = Lu-Bu
 					personality = defence_5.1

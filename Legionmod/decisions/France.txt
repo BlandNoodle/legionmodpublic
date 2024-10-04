@@ -519,13 +519,34 @@ political_decisions = {
 			iron_railroad = 1
 			business_banks = 1
 			government = democracy
-			money = 1000000
+			money = 2000000
 		}
 		
 		effect = {
-			money = -1000000
+			money = -2000000
 			425 = {
 				life_rating = 5
+				add_province_modifier = {
+					name = newparis
+					duration = -1
+				}
+			}
+			406 = {
+				life_rating = 2
+				add_province_modifier = {
+					name = newparis
+					duration = -1
+				}
+			}
+			426 = {
+				life_rating = 2
+				add_province_modifier = {
+					name = newparis
+					duration = -1
+				}
+			}
+			427 = {
+				life_rating = 2
 				add_province_modifier = {
 					name = newparis
 					duration = -1
@@ -535,7 +556,6 @@ political_decisions = {
 			set_country_flag = extreme_home_makeover
 		}
 	}
-	
 		
 
 	trash = {
@@ -835,7 +855,6 @@ political_decisions = {
 	}
 	
 	headstart = {
-		picture = "stranger"
 		potential = {
 			tag = FRA
 			NOT = { has_country_flag = headstart }
@@ -880,7 +899,6 @@ political_decisions = {
 	}
 	
 	headstartchina = {
-		picture = "stranger"
 		potential = {
 			tag = FRA
 			NOT = { has_country_flag = guangjoe }
@@ -905,5 +923,34 @@ political_decisions = {
 			prestige = 5
 		}
 	}
+	
+	surrenderalsace = {
+		picture = "surrender"
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = surrendered }
+			exists = GER
+		}
+		
+		allow = {
+			war = no
+			NOT = {owns = 412}
+		}
+		
+		effect = {
+			set_country_flag = surrendered
+			set_country_flag = frenchcolonies
+			412 = {
+			remove_core = FRA
+			}
+			409 = {
+				remove_core = FRA
+			}
+			410 = {
+				remove_core = FRA
+			}
+			prestige = -15
+			badboy = -25
+		}
+	}
 }
-

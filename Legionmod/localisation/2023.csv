@@ -656,12 +656,13 @@ EVTOPTA19000137;We shall see about that;;;;;;;x
 EVTNAME19000138;Finnish Revolts;;;;;;;x
 EVTDESC19000138;In the midst of the chaos, finnish nationalists have decided to take advantage and declare independence from the USSR!;;;;;;x
 EVTOPTA19000138;We shall see about that;;;;;;;x
-sovietbaltic;Sovietization of the Baltic;;;;;;;;x
+sovietbaltic_title;Sovietization of the Baltic;;;;;;;;x
 sovietbaltic_desc;The citizens are being reeducated;;;;;;x
-sovietpoland;Sovietization of Poland;;;;;;;;x
+sovietpoland_title;Sovietization of Poland;;;;;;;;x
 sovietpoland_desc;The citizens are being reeducated;;;;;;x
-sovietfinland;Sovietization of Finland;;;;;;;;x
+sovietfinland_title;Sovietization of Finland;;;;;;;;x
 sovietfinland_desc;The citizens are being reeducated;;;;;;x
+sovietization;Sovietization;;;;;;x
 EVTNAME19000139;No;;;;;;;x
 EVTDESC19000139;Polish Revolt;;;;;;x
 EVTOPTA19000139;My guitar gently weeps. . . ;;;;;;;x

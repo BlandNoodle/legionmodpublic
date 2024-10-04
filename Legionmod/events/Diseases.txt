@@ -12,7 +12,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 800
+		months = 1600
 		
 		modifier = {
 			factor = 0.9
@@ -27,7 +27,7 @@ country_event = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3.0
 			organic_chemistry = 1
 		}
 	}
@@ -78,7 +78,7 @@ country_event = {
 				reduce_pop = 0.96
 			}
 		}
-		add_tax_relative_income	= -20
+		add_tax_relative_income	= -10
 		#treasury = -1500
 	}
 	
@@ -121,7 +121,7 @@ country_event = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3.0
 			organic_chemistry = 1
 		}
 		modifier = {
@@ -200,11 +200,11 @@ country_event = {
 			}
 		}
 		modifier = {
-			factor = 1.5
+			factor = 3.0
 			organic_chemistry = 1
 		}
 		modifier = {
-			factor = 0.01
+			factor = 0.1
 			any_neighbor_country = {
 				has_country_modifier = pandemic_influenza
 			}
@@ -218,7 +218,7 @@ country_event = {
 			name = pandemic_influenza
 			duration = 365
 		}
-		add_tax_relative_income	= -20
+		add_tax_relative_income	= -10
 	}
 	
 	option = {
@@ -258,7 +258,7 @@ country_event = {
 #			}
 #		}
 		modifier = {
-			factor = 1.5
+			factor = 3.0
 			organic_chemistry = 1
 		}
 	}

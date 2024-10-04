@@ -1244,3 +1244,32 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 19000185
+	title = "New Worlder"
+	desc = "this just happens for immigrant purposes"
+	picture = "Slaves"
+	
+	trigger = {
+		year = 1836
+		THIS = {
+			capital = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		NOT = {has_country_flag = new_world_nation}
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "lets go"
+		prestige = 1
+		set_country_flag = new_world_nation
+	}
+}

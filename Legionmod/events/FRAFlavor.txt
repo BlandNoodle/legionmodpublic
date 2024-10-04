@@ -49,13 +49,6 @@ country_event = {
 				type = add_to_sphere
 				months = 12
 			}
-		war = {
-			target = SWI
-			attacker_goal = {
-				casus_belli = humiliate
-			}
-			call_ally = no
-		}
 		set_global_flag = LouisNapoleonExtradite
 	}
 
@@ -1263,30 +1256,22 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = FRA
-			tag = PRU
 			tag = AUS
+			tag = KUK
+			tag = HYP
 		}
 		has_country_flag = germancontest
 		NOT = {has_country_flag = germanwinner}
 		year = 1839
 		OR = {
-			NOT = {
-				AND = {
-					tag = FRA
-					GER = {
-						any_core = {
-							OR = {
-								owned_by = THIS
-								owner = { in_sphere = THIS}
-							}
-						}
-					}
-				}
+			AND = {
+				tag = AUS
+				NOT = {BAV = {in_sphere = THIS} }
+				NOT = {BAD = {in_sphere = THIS} }
+				NOT = {WUR = {in_sphere = THIS} }
 			}
 			AND = {
 				tag = FRA
-				NOT = {BAD = {in_sphere = THIS}}
-				NOT = {WUR = {in_sphere = THIS}}
 				NOT = {owns = 412}
 			}
 			tag = KUK
@@ -1411,45 +1396,5 @@ country_event = {
 			name = legitimacy
 			duration = -1
 		}
-	}
-}
-
-country_event = {
-	
-	title = "Alsace Matter"
-	desc = "EVTDESC19000184"
-	picture = "letranger"
-	id = 19000184
-
-	trigger = {
-		tag = FRA
-		NOT = {
-			owns = 412
-		}
-	}
-	fire_only_once = yes
-			
-	mean_time_to_happen =  {
-		months = 3
-	}
-
-	option = {
-		name = "EVTOPTA19000184"
-		prestige = 5
-	}
-	option = {
-		name = "EVTOPTB19000184"
-		prestige = -5
-		badboy = -22
-		412 = {
-			remove_core = FRA
-		}
-		409 = {
-			remove_core = FRA
-		}
-		410 = {
-			remove_core = FRA
-		}
-		set_country_flag = frenchcolonies
 	}
 }

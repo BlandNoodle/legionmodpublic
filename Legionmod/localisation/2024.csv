@@ -232,7 +232,7 @@ switch_to_production_desc;The foreigners progress through an industrious society
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x
-switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n§YThe modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5§W;;;;;;;;;;;;x
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.\n§YThe assimilation is built-in. The modifiers for this NV are:§W\n§GBonus Assimilation Rate: +50%\nCulture Tech Research Bonus: +5%\nNon-Core Pop Militancy -0.5§W;;;;;;;;;;;;x
 social_reformed_nation; Socially REFORMED! Nation;;;;;;;;;x
 EVTNAME19000159;Ol' Hickory's Last Year;;;;;;;;;;x
 EVTDESC19000159;Following two terms in office, Andrew Jackson has one last year. Whoever follows in his footsteps will have the pleasure of having no national debt, no federal banks, and no paper currency shenanigans!;;;;;;;;;x
@@ -467,3 +467,5 @@ lombard_and_holts_continuous_track;Lombard and Holts Continuous Track;;;;;;;x
 interruptor_gears;Interruptor Gears;;;;;;x
 TRIGMODLOST_HEADER;Our ministers report that,;;;;;;
 TRIGMOD_HEADER;Our ministers report that;;;;;;;
+surrenderalsace_title;Surrender Alsace;;;;;;;x
+surrenderalsace_desc;We are cooked, we will have to befriend Germany or give up entirely on Alsace if we hope to survive as a Great Power.;;;;;;;;x

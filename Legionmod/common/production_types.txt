@@ -141,7 +141,7 @@ charcoal_burner = {
 woolfabric_factory = {       
 	template = factory_template
 	input_goods = {     
-		wool = 45
+		wool = 30
 		
 	}
 	output_goods = fabric
@@ -529,10 +529,6 @@ luxury_clothes_factory = {
 		trigger = { trade_goods_in_state = silk }
 		value = 0.15
 	}
-	bonus = {
-		trigger = { has_building = regular_clothes_factory }
-		value = 0.15
-	}
 }
 
 luxury_furniture_factory = {       
@@ -818,8 +814,7 @@ lumber_mill = {
 fabric_factory = {       
 	template = factory_template
 	input_goods = {     
-		cotton = 10	
-					
+		cotton = 10		
 	}
 	output_goods = fabric 
 	value = 22			#81
