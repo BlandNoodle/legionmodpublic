@@ -295,31 +295,31 @@
 #Arviat (3200/800 POPS)
 43 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 40
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 725
 	}
@@ -327,31 +327,31 @@
 #Baker Lake (2000/500 POPS)
 44 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 450
 	}
@@ -359,31 +359,31 @@
 #Baffin Island (4000/1000 POPS)
 45 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -392,31 +392,31 @@
 #Whale Cove (2800/700 POPS)
 2595 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 35
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 630
 	}
@@ -2396,31 +2396,31 @@
 #Erik Cove (2400/600 POPS)
 2592 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 20
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 360
 	}
@@ -2459,31 +2459,31 @@
 #Port Harrison (2400/600 POPS)
 2626 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 3
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 180
 	}
@@ -2521,31 +2521,31 @@
 #Fort Chimo (2400/600 POPS)
 2627 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 20
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 360
 	}
@@ -3345,31 +3345,31 @@
 #Hopedale (2000/500 POPS)
 76 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 450
 	}
@@ -3378,31 +3378,31 @@
 #Cartwright (6000/1500 POPS)
 2625 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 1350
 	}

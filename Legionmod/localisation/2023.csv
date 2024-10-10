@@ -1,3 +1,4 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;
 exploit_kiruna_iron_mine_title;Exploit the Kiruna Iron Mine;;;;;;;;;;;;;;x
 exploit_kiruna_iron_mine_desc;With new technological advances, the giant iron reserves in Kiruna are finally ready for full exploitation.;;;;;;;;;;;;;;x
 expand_kiruna_iron_mine_title;Expand Kiruna Iron Mine;;;;;;;;;;;;;;x
@@ -6,7 +7,7 @@ establish_mining_colony_title;Establish Mining Colony;;;;;;;;;;;;;;x
 establish_mining_colony_desc;Our mining operations are now in full swing and the reserves will not be depleted for centuries. By improving living conditions in the arctic climate for our miners, we can increase our yield for generations to come!;;;;;;;;;;;;;;x
 intensify_mining_kiruna_iron_mine_title;Further intensify Mining;;;;;;;;;;;;;;x
 intensify_mining_kiruna_iron_mine_desc;With new rail technology, we can expand our operation even further!;;;;;;;;;;;;;;x
-kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;x
+kiruna_mine;Kiruna Mine;;;;;;;;;;x
 expanded_kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;x
 intensify_kiruna_mine;Kiruna Mine;;;;;;;;;;;;;;x
 kiruna_mining_colony;Well-Run Mining Colony;;;;;;;;;;;;;;x
@@ -253,12 +254,12 @@ EVTNAME19000099;Defeat of the Qing;;;;;;;x
 EVTDESC19000099;Despite the efforts of the Canton ministers and the emperor himself, the Qing were unable prevent free trade from spreading to the Heavenly Mandate. The peoples of Britain may now freely buy tea and silk as they wish.;;;;;;x
 EVTOPTA19000099;Talley-ho!;;;;;;;x
 EVTNAME19000100;African Colonies;;;;;;x
-EVTDESC19000100;Chachinga;;;;;;x
-EVTOPTA19000100;SO MUCH WIN!;;;;;;x
-EVTNAME19000101;YOU LOST;;;;;;x
-EVTDESC19000101;How;;;;;;x
-EVTOPTA19000101;Its so over;;;;;;x
-african_colony;African Colony;;;;;;;x
+EVTDESC19000100;Chachinga;;;;;;;;;x
+EVTOPTA19000100;SO MUCH WIN!;;;;;;;;x
+EVTNAME19000101;YOU LOST;;;;;;;;;x
+EVTDESC19000101;How;;;;;;;;x
+EVTOPTA19000101;Its so over;;;;;;;;x
+african_colony;African Colony;;;;;;;;;x
 african_colony_desc;you did it!;;;;;;;x
 treaty_port_beijing;Port Arthur;;;;;;;;x
 treaty_port_beijing_desc;We own Port Arthur;;;;;;;x
@@ -631,7 +632,7 @@ welcomegeorgiam_title;Welcome Georgia;;;;;;;;;x
 welcomegeorgiam_desc;We have to welcome our orthodox brethren into our empire;;;;;;;;;;x
 armsdead;Armenian Persuasion;;;;;;;;;x
 armsdead_desc;We are reeducating the populace;;;;;;;x
-thesource_title;Conquer the Source;;;;;x
+thesource_title;Conquer the Source;;;;;;;;x
 thesource_desc;Time to finish them from the source, and then keep going to reunite with our brothers in islam;;;;;;;x
 developdonbass_title;Develop Donbass Region;;;;;;;;x
 developdonbass_desc;As the Industrial Revolution took hold across Europe, the vast coal resources of the region, discovered in 1721, began to be exploited in the mid-late 19th century. A map of the sparsely populated Wild Fields in the 17th century It was at this point that the name Donbas came into use, derived from the term "Donets Coal Basin" referring to the area along the Donets river where most of the coal reserves were found. The rise of the coal industry led to a population boom in the region, largely driven by Russian settlers.;;;;;;;;x

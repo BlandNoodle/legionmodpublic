@@ -2,5 +2,5 @@ owner = RUS
 controller = RUS
 add_core = RUS
 add_core = CRI
-trade_goods = sulphur
+trade_goods = coal
 life_rating = 32

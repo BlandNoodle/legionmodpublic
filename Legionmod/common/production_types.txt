@@ -127,14 +127,18 @@ machine_part_user_template = {
 charcoal_burner = {       
 	template = cheap_factory_template
 	input_goods = {       
-		timber = 36		#90	total input+maint = 100
+		lumber = 24		#2.6*2/0.51 + 4 = 6.652/1.1 = 6.05
 	}
 	output_goods = coal
 	
-	value = 2.62			#110
+	value = 21			#110
 	bonus = {
 		trigger = { trade_goods_in_state = timber }
-		value = 0.25
+		value = 0.1
+	}
+	bonus = {
+		trigger = { has_building = lumber_mill }
+		value = 0.15
 	}
 }
 
@@ -422,6 +426,10 @@ electric_gear_factory = {
 		value = 0.1
 	}
 	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.05
+	}
+	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.05
 	}
@@ -442,6 +450,10 @@ machine_parts_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
+	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.05
+	}
 }
 
 synthetic_oil_factory = {       
@@ -454,6 +466,10 @@ synthetic_oil_factory = {
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
+	}
+	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.05
 	}
 }
 
@@ -512,6 +528,10 @@ steamer_shipyard = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.0625 #0.125
 	}
+	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.05
+	}
 }
 
 ############# LUXURY GOODS FACTORIES
@@ -568,6 +588,10 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
+	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.05
+	}
 }
 
 artillery_factory = {       
@@ -611,7 +635,7 @@ clipper_shipyard = {
 		value = 0.035 #0.05
 	}
 	bonus = {
-		trigger = { has_building = wool_fabric_factory }
+		trigger = { has_building = woolfabric_factory }
 		value = 0.05
 	}
 }
@@ -683,7 +707,7 @@ regular_clothes_factory = {
 		value = 0.15
 	}    #CE addition 
 	bonus = {
-		trigger = { has_building = wool_fabric_factory }
+		trigger = { has_building = woolfabric_factory }
 		value = 0.05
 	}
 #	bonus = {
@@ -833,7 +857,11 @@ cement_factory = {
 	value = 3.25		#48
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
-		value = 0.25
+		value = 0.2
+	}
+	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.1
 	}
 }
 
@@ -846,7 +874,11 @@ glass_factory = {
 	value = 25			#52.2
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
-		value = 0.25
+		value = 0.2
+	}
+	bonus = {
+		trigger = { has_building = charcoal_burner }
+		value = 0.1
 	}
 }
 

@@ -435,7 +435,7 @@ annexegypt_title;Annex Egypt;;;;;;x
 annexegypt_desc;The time has come to reap our rewards for defending Egypt. This decision enables the Conquer Egypt CB;;;;;;;x
 treaty_port_buff;Treaty Port;;;;;;x
 treaty_port_buff_desc;Sloppy;;;;;;;x
-PROV3252;Liechtenstein;;;;;;;x
+PROV3252;Kamyshin;;;;;;;x
 LIC;Host;;;;;;;x
 LIC_ADJ;Ghostly;;;;;;;;x
 GHO_exclusive;Liechtenstein Setting;;;;;;;x
@@ -444,7 +444,7 @@ world_bank;World Bank Trade;;;;;;;x
 world_bank_factory;World Bank;;;;;;;
 GHO;Ghost Nation;;;;;;;;x
 GHO_ADJ;Ghost;;;;;;;x
-hammurabi_code;Hammurabi's Code
+hammurabi_code;Hammurabi's Code;;;;;;;;x
 hammurabi_code_desc;EU-phrates River!;;;;;;;x
 persian_rugs_title;Revive the Silk Industry;;;;;;;x
 persian_rugs_desc;Safavid textiles are praised as the pinnacle of Iranian loom weaving. When the Safavids came to power at the turn of the sixteenth century, the Iranian textile industry was already well developed in the production and sale of woven silk textiles and rugs as well as raw silk for export. The textile industry consisted of urban workshops producing textiles independently, provincial centers focusing on rug weaving, and small farms cultivating silk in the Caspian region. As the Safavids set up their capital cities of Tabriz, Qazvin, and finally Isfahan, the textile industry became centralized and was swiftly incorporated into the national economy, creating an expansive revenue stream. After the death of Shah ÅeAbbas in 1629, the Safavid dynasty began to lose central power, and regional governance relegated the monarch to the position of a figurehead. Textile production in court-sponsored workshops declined, while the private sector of the textile industry regained independence, producing silks for the expanding international demand. From the last quarter of the seventeenth century until the dynastyÅfs end following the Afghan invasion in 1722, there was a marked change in the textiles produced as Iranian weavers stepped down their aesthetic and working methods to suit the tastes and economy of the declining regime.;;;;;;;;x
@@ -469,3 +469,5 @@ TRIGMODLOST_HEADER;Our ministers report that,;;;;;;
 TRIGMOD_HEADER;Our ministers report that;;;;;;;
 surrenderalsace_title;Surrender Alsace;;;;;;;x
 surrenderalsace_desc;We are cooked, we will have to befriend Germany or give up entirely on Alsace if we hope to survive as a Great Power.;;;;;;;;x
+bureaucrats_fix_title;Fire Minority Bureaucrats;;;;;;;;;;x
+bureaucrats_fix_desc;YOU'RE FIIIIIRRREEEEDDD!!!!!

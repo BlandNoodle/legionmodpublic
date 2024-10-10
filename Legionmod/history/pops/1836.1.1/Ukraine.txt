@@ -2446,16 +2446,10 @@
         size = 10000
     }
 
-    craftsmen = {
-        culture = ukrainian
-        religion = orthodox
-        size = 7479
-    }
-
     farmers = {
         culture = tatar
         religion = sunni
-        size = 30375
+        size = 37375
     }
 
     aristocrats = {

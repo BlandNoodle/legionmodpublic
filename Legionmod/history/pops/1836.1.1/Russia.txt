@@ -1724,7 +1724,7 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 1200
+		size = 2200
 	}
 
 	artisans = {
@@ -1775,10 +1775,10 @@
 		size = 10000
 	}
 
-	artisans = {
+	craftsmen = {
 		culture = russian
 		religion = orthodox
-		size = 8750
+		size = 10000
 	}
 
 	soldiers = {
@@ -1802,7 +1802,7 @@
 	bureaucrats = {
 		culture = north_german
 		religion = protestant
-		size = 700
+		size = 1100
 	}
 
 	officers = {
@@ -1932,7 +1932,7 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 325
+		size = 725
 	}
 
 	artisans = {
@@ -1950,7 +1950,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 30175
+		size = 78175
 	}
 }
 #Gdov (120000/30000 POPS)
@@ -1964,7 +1964,7 @@
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 275
+		size = 675
 	}
 
 	artisans = {
@@ -1982,7 +1982,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 25850
+		size = 87850
 	}
 
 	clergymen = {
@@ -4029,6 +4029,38 @@
 		culture = russian
 		religion = orthodox
 		size = 850
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 77725
+	}
+}
+#Kamyshin
+3252 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 1150
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 825
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 900
 	}
 
 	farmers = {
@@ -8508,98 +8540,98 @@
 		size = 230
 	}
 }
-#Novo Mariinsk (2000/500 POPS) #inuit = chukchi   }
+#Novo Mariinsk (2000/500 POPS) #native_american_minor = chukchi   }
 2637 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 7
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 8
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 450
 	}
 }
-#Ugolniye (1000/250 POPS) #inuit = chukchi  }
+#Ugolniye (1000/250 POPS) #native_american_minor = chukchi  }
 2590 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 3
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 230
 	}
 }
-#Pevek (600/150 POPS) #inuit = chukchi  }
+#Pevek (600/150 POPS) #native_american_minor = chukchi  }
 2666 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 3
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 4
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 2
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = animist
 		size = 135
 	}

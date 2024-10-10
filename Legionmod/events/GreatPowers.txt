@@ -789,16 +789,21 @@ country_event = {
 			value = -200}
 			}
 	option = {	
-		name = "EVTOPTA19201"
+		name = "Run them down!"
 		leave_alliance = FROM
-		add_casus_belli = {
-			target = FROM
-			type = humiliate
-			months = 24
+		THIS = {
+			casus_belli = {
+				target = FROM
+				type = humiliate
+				months = 24
+			}
 		}
 		war = {
 			target = FROM
 			attacker_goal = {
+				casus_belli = humiliate
+			}
+			defender_goal = {
 				casus_belli = humiliate
 			}
 			call_ally = no

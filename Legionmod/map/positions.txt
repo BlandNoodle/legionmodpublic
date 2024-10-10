@@ -42705,44 +42705,41 @@
 } # Tsaritsyn
 
 1039 = {
-    unit = {
-        x = 3493.000000
-        y = 1624.000000
-    }
-
     text_position = {
-        x = 3483.000000
-        y = 1631.000000
+        x = 3493.400000
+        y = 1602.816667
     }
 
-    text_scale = 4.099998
-    building_construction = {
-        x = 3493.000000
-        y = 1641.000000
+    text_scale = 3
+    unit = {
+        x = 3494.151667
+        y = 1604.320000
     }
 
-    military_construction = {
-        x = 3497.000000
-        y = 1618.000000
+    city = {
+        x = 3493.468333
+        y = 1601.723333
     }
 
     factory = {
-        x = 3473.000000
-        y = 1644.000000
+        x = 3499.140000
+        y = 1603.363333
+    }
+
+    building_construction = {
+        x = 3497.568333
+        y = 1605.003333
+    }
+
+    military_construction = {
+        x = 3496.543333
+        y = 1603.090000
     }
 
     building_position = {
         fort = {
             x = 3504.000000
             y = 1628.000000
-        }
-
-    }
-
-    spawn_railway_track = {
-        {
-            x = 3463.302246
-            y = 1641.605713
         }
 
     }
@@ -119384,6 +119381,54 @@
 
     building_rotation = {
         naval_base = 5.672319
+    }
+
+} # Kamyshin
+
+3252 = {
+    text_position = {
+        x = 3482.590000
+        y = 1635.085000
+    }
+
+    text_rotation = 5.982100
+    text_scale = 4
+    unit = {
+        x = 3481.830000
+        y = 1632.235000
+    }
+
+    city = {
+        x = 3506.340000
+        y = 1623.590000
+    }
+
+    factory = {
+        x = 3507.480000
+        y = 1624.730000
+    }
+
+    building_construction = {
+        x = 3504.820000
+        y = 1621.595000
+    }
+
+    military_construction = {
+        x = 3501.210000
+        y = 1626.155000
+    }
+
+    building_position = {
+        fort = {
+            x = 732.000000
+            y = 1944.000000
+        }
+
+        railroad = {
+            x = 727.000000
+            y = 1975.000000
+        }
+
     }
 
 }

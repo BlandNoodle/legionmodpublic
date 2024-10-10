@@ -738,7 +738,7 @@ fort = {
 	goods_cost =
 	{
 		lumber = 500
-		cement = 1000
+		cement = 500
 		explosives = 200
 		small_arms = 250
 		artillery = 75
@@ -746,7 +746,7 @@ fort = {
 	time = 360
 	visibility = yes
 	onmap = yes
-	one_per_state = yes
+	one_per_state = no
 	max_level = 6
 	province = yes
 	fort_level = 1
