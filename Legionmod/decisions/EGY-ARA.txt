@@ -98,6 +98,9 @@ political_decisions = {
 				has_country_flag = egyptconquer
 			}
 			state_n_government = 1
+			EGY = {
+				is_greater_power = no
+			}
 		}
 		allow = {
 			war = no

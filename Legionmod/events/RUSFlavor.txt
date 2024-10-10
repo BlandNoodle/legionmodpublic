@@ -798,12 +798,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000135"
-		any_pop = {
-			limit = {
-				has_pop_culture = ukrainian
-			}
-			militancy = 7
-		}
+		release = UKR
 		set_country_flag = ukrainerise
 		ai_chance = {
 			factor = 55
@@ -835,14 +830,6 @@ country_event = {
 		prestige = -10
 		release = POL
 		remove_accepted_culture = polish
-		POL = { 
-			any_owned = {
-				limit = {
-					is_core = POL
-				}
-				remove_core = RUS
-			}
-		}
 		set_country_flag = polandfight
 		ai_chance = {
 			factor = 55
@@ -877,30 +864,6 @@ country_event = {
 		release = LAT
 		release = EST
 		release = LIT
-		LAT = {
-			any_owned = {
-				limit = {
-					is_core = UBD
-				}
-				remove_core = RUS
-			}
-		}
-		EST = {
-			any_owned = {
-				limit = {
-					is_core = UBD
-				}
-				remove_core = RUS
-			}
-		}
-		LIT = {
-			any_owned = {
-				limit = {
-					is_core = LIT
-				}
-				remove_core = RUS
-			}
-		}
 		set_country_flag = balticfight
 		ai_chance = {
 			factor = 55
@@ -930,14 +893,6 @@ country_event = {
 		name = "EVTOPTA19000138"
 		prestige = -10
 		release = FIN
-		FIN = {
-			any_owned = {
-				limit = {
-					is_core = FIN
-				}
-				remove_core = RUS
-			}
-		}
 		set_country_flag = finnishfight
 		ai_chance = {
 			factor = 55
