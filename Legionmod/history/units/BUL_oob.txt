@@ -1,0 +1,38 @@
+army = {
+	name = "Bulgar Legion"
+	leader = {
+		name = "Bulgaria Strong"
+		date = 1830.1.1
+		type = land
+		personality = defence_4.1
+		background = attack_1.1
+		prestige = 0.3
+	}
+	location = 809
+	regiment = {
+		name= "1st Infantry Legion"
+		type = infantry
+		home = 809
+	}
+	regiment = {
+		name= "2nd Infantry Legion"
+		type = infantry
+		home = 808
+	}
+	regiment = {
+		name= "3rd Infantry Legion"
+		type = infantry
+		home = 815
+	}
+	regiment = {
+		name= "4th Infantry Legion"
+		type = infantry
+		home = 816
+	}
+	regiment = {
+		name= "All the Kings Men"
+		type = cuirassier
+		home = 806
+	}
+}
+

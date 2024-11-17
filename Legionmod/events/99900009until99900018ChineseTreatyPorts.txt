@@ -8,6 +8,7 @@ country_event = {
 		owns = 1495
 		NOT = { has_country_flag = treatyport_nanning }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -60,6 +61,7 @@ country_event = {
 		owns = 1498
 		NOT = { has_country_flag = treatyport_macau }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -113,6 +115,7 @@ country_event = {
 		owns = 1496
 		NOT = { has_country_flag = treatyport_hongkong }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -166,6 +169,7 @@ country_event = {
 		owns = 1482
 		NOT = { has_country_flag = treatyport_fuzhou }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -219,6 +223,7 @@ country_event = {
 		owns = 1608
 		NOT = { has_country_flag = treatyport_ningbo }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -272,6 +277,7 @@ country_event = {
 		owns = 1538
 		NOT = { has_country_flag = treatyport_shanghai }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -325,6 +331,7 @@ country_event = {
 		owns = 1566
 		NOT = { has_country_flag = treatyport_qingdao }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {
@@ -378,6 +385,7 @@ country_event = {
 		owns = 1481
 		NOT = { has_country_flag = treatyport_beijing }	
 		is_greater_power = yes
+		NOT = { tag = TPG }
 	}
 	
 	mean_time_to_happen = {

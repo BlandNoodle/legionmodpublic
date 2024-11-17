@@ -8,6 +8,15 @@ leader = {
 }
 
 leader = {
+	name = "MR.1"
+	type = land
+	date="1832.1.1"
+	personality = defence_4.1
+	background = attack_3.1
+	prestige = 0.5
+}
+
+leader = {
 	name = "Suleyman Pasha"
 	type = land
 	date="1832.1.1"

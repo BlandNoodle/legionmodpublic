@@ -280,6 +280,7 @@ political_decisions = {
             colonial_nation = yes
             any_owned_province = { is_colonial = yes is_overseas = yes }
             NOT = { has_country_flag = colonial_armies }
+			has_country_flag = inteyes
         }
 
         allow = {
@@ -321,6 +322,11 @@ political_decisions = {
 			activate_technology = experimental_railroad
 			activate_technology = late_enlightenment_philosophy
 			activate_technology = medicine
+			define_general = {
+				name = Sir-Crocodile
+				personality = defence_5.1
+				background = attack_3.1
+			}
 			clr_country_flag = oriental_crisis
 		}
 	}
@@ -513,7 +519,7 @@ political_decisions = {
 			BUL = {all_core = {add_core = ALB} }
 			GRE = {all_core = {add_core = ALB} }
 			ROM = {all_core = {add_core = ALB} }
-			money = -2000001
+			money = -2000000
 			prestige = 50
 			set_country_flag = expandedalb2
 		}
@@ -527,7 +533,7 @@ political_decisions = {
 			NOT = {has_country_flag = byemafia}
 		}
 		allow = {
-			money = 500000
+			money = 200000
 			NOT = {exists = ALB}
 			war = no
 		}
@@ -550,7 +556,7 @@ political_decisions = {
 				}
 				reduce_pop = 0.001
 			}
-			money = -500000
+			money = -200000
 			prestige = 20
 			set_country_flag = byemafia
 		}

@@ -12,7 +12,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 400 
+		size = 1300 
 	}
 
 	officers = {
@@ -128,7 +128,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 400 
+		size = 1100 
 	}
 	
 	artisans = {
@@ -360,7 +360,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 75 
+		size = 975 
 	}
 
 	officers = {
@@ -442,7 +442,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 600 
+		size = 2600 
 	}
 
 	officers = {
@@ -538,7 +538,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 500  
+		size = 900  
 	}
 
 	officers = {
@@ -1030,7 +1030,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 700 
+		size = 1300 
 	}
 
 	artisans = {
@@ -1142,7 +1142,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 500 
+		size = 1300 
 	}
 	
 	artisans = {
@@ -1252,7 +1252,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 600 
+		size = 1400 
 	}
 
 	clergymen = {
@@ -1368,7 +1368,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 600 
+		size = 1100 
 	}
 	
 	clergymen = {

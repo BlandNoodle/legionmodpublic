@@ -7,6 +7,7 @@ campsystem = {
 			is_ideology_enabled = communist
 			government = proletarian_dictatorship
 			NOT = {has_country_flag = gulagcamps}
+			has_country_flag = poliburo
 		}
 		allow = {
 			money = 2000000
@@ -48,9 +49,19 @@ campsystem = {
 			tag = RUS
 			is_ideology_enabled = communist
 			NOT = {has_country_flag = redoctober}
+			revolution_n_counterrevolution = 1
 		}
 		allow = {
-			revolution_n_counterrevolution = 1
+			OR = {
+				AND = {
+					is_greater_power = yes
+					mass_politics = 1
+				}
+				AND = {
+					is_greater_power = no
+					revolution_n_counterrevolution = 1
+				}
+			}
 		}
 		effect = {
 			prestige = -30
@@ -84,7 +95,6 @@ campsystem = {
 		}
 		allow = {
 			ruling_party_ideology = communist
-			mass_politics = 1
 		}
 		effect = {
 			prestige = 5
@@ -358,7 +368,6 @@ campsystem = {
 					name = sovietization
 					duration = 3650
 				}
-				remove_province_modifier = bread_basketm
 			}
 		}
 	}
@@ -378,6 +387,7 @@ campsystem = {
 				has_country_flag = redoctober
 				government = proletarian_dictatorship
 			}
+			NOT = {has_country_flag = stopthem}
 		}
 		allow = {
 			war = no
@@ -389,6 +399,7 @@ campsystem = {
 				duration = 1825
 			}
 			prestige = 10
+			add_country_flag = stopthem
 		}
 	}
 }

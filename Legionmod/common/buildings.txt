@@ -213,10 +213,10 @@ synthetic_oil_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
-		steel = 200
+		machine_parts = 250
+		steel = 250
 		cement = 200
-		lumber = 200
+		lumber = 100
 	}
 	time = 30
 	visibility = yes
@@ -235,10 +235,10 @@ synthetic_rubber_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
-		steel = 200
+		machine_parts = 250
+		steel = 250
 		cement = 200
-		lumber = 200
+		lumber = 100
 	}
 	time = 30
 	visibility = yes
@@ -257,10 +257,10 @@ fuel_refinery = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 200
-		steel = 200
+		machine_parts = 250
+		steel = 250
 		cement = 200
-		lumber = 200
+		lumber = 100
 	}
 	time = 30
 	visibility = yes

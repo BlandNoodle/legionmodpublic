@@ -53,12 +53,7 @@ political_decisions = {
 			add_accepted_culture = central_american 
 			prestige = 10
 			set_global_flag = mexican_claim_on_central_america
-			all_core = {
-				limit = {
-					is_core = UCA
-				}
-				add_core = THIS
-			}
+			UCA = {all_core = {add_core = THIS} }
 			badboy = 10
 		}
 	}

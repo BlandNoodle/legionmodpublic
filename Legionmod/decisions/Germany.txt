@@ -393,7 +393,7 @@ luderitz_expedition = {
 			533 = { state_scope = { change_region_name = "Helgoland" } }
 			533 = {
 				add_core = GER
-				add_core = HYP # Heligoland is my last territorial demand!
+				
 			}
 			set_country_flag = has_questioned_heligoland
 		}

@@ -54,7 +54,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 1550 
+		size = 5550 
 	}
 
 	officers = {
@@ -547,7 +547,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 450 
+		size = 2450 
 	}
 
 	officers = {
@@ -739,7 +739,7 @@
 	bureaucrats = {
 		culture = south_german
 		religion = catholic
-		size = 140 
+		size = 940 
 	}
 
 	clergymen = {

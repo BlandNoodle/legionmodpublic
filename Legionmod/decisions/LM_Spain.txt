@@ -102,6 +102,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = filipino_accepted
 			}
+			NOT = {has_country_flag = broughtgameimpact}
 		}
 		
 		allow = {

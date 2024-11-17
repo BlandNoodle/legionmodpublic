@@ -1851,6 +1851,12 @@
         religion = mahayana
         size = 9753
     }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 10000
+    }
 
     clergymen = {
         culture = asian_minor
@@ -4018,9 +4024,9 @@
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = mahayana
-        size = 3612
+        size = 9900
     }
 
     officers = {
@@ -4316,7 +4322,7 @@
         religion = mahayana
         size = 7225
     }
-
+	
     artisans = {
         culture = asian_minor
         religion = mahayana
@@ -4395,6 +4401,12 @@
         culture = asian_minor
         religion = mahayana
         size = 11017
+    }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 8000
     }
 
     clergymen = {
@@ -4576,7 +4588,13 @@
         religion = mahayana
         size = 14450
     }
-
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 8000
+    }
+	
     clergymen = {
         culture = asian_minor
         religion = mahayana
@@ -4642,9 +4660,9 @@
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = mahayana
-        size = 4768
+        size = 9900
     }
 
     officers = {
@@ -4779,6 +4797,12 @@
         culture = asian_minor
         religion = mahayana
         size = 14811
+    }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 8000
     }
 
     clergymen = {
@@ -5338,6 +5362,12 @@
         religion = mahayana
         size = 11198
     }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 8000
+    }
 
     clergymen = {
         culture = asian_minor
@@ -5571,6 +5601,12 @@
         culture = asian_minor
         religion = mahayana
         size = 5202
+    }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 9900
     }
 
     clergymen = {
@@ -8584,9 +8620,9 @@
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = mahayana
-        size = 1336
+        size = 10000
     }
 
     officers = {
@@ -8936,9 +8972,9 @@
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = mahayana
-        size = 4840
+        size = 8000
     }
 
     officers = {
@@ -9472,9 +9508,9 @@
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = mahayana
-        size = 2347
+        size = 9900
     }
 
     officers = {
@@ -9592,7 +9628,7 @@
         religion = mahayana
         size = 12173
     }
-
+	
     clergymen = {
         culture = asian_minor
         religion = mahayana
@@ -9972,9 +10008,9 @@
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = mahayana
-        size = 4425
+        size = 9900
     }
 
     officers = {
@@ -10269,6 +10305,12 @@
         culture = asian_minor
         religion = mahayana
         size = 15461
+    }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 10000
     }
 
     clergymen = {
@@ -11964,7 +12006,7 @@
     bureaucrats = {
         culture = manchu
         religion = mahayana
-        size = 9100
+        size = 23000
     }
 
     officers = {
@@ -12251,6 +12293,12 @@
         culture = manchu
         religion = mahayana
         size = 8400
+    }
+	
+	bureaucrats = {
+        culture = manchu
+        religion = mahayana
+        size = 9900
     }
 
     artisans = {

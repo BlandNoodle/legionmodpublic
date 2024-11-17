@@ -1,31 +1,5 @@
 political_decisions = {
-	construct_statue_of_liberty = {
-		picture = liberty_enlightening_the_world
-		potential = {
-			tag = USA					
-			NOT = {
-				has_global_flag = statue_of_liberty_has_been_built
-			}
-		}
-		
-		allow = {
-			government = democracy
-			war = no
-			mass_culture_n_the_avant_garde = 1
-			money = 6000000
-			owns = 425
-		}
-		
-		effect = {
-			money = -2000000
-			money = -2000000
-			money = -2000000
-			USA = {
-				country_event = { id=19300 days=0 }
-			}
-			set_global_flag = statue_of_liberty_has_been_built
-		}
-	}
+	
 	commodore_perry_expedition = {
 		picture = commodore_perry_expedition
        		
@@ -123,10 +97,13 @@ political_decisions = {
 					owned_by = USA
 				}
 			}
-			owns = 84
+			owns = 90
 			owns = 138
-			owns = 101
+			owns = 102
 			owns = 97
+			owns = 104
+			NOT = {owns = 2157}
+			NOT = {owns = 2149}
 		}
 		effect = {
 			prestige = 5

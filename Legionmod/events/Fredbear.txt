@@ -57,6 +57,7 @@ country_event = {
 	desc = "EVTDESC19000093"
 	picture = "cats"
 	
+	allow_multiple_instance= yes
 	
 	trigger = {
 		civilized = yes
@@ -64,7 +65,13 @@ country_event = {
 		year = 1836
 		ai = no
 		NOT = {
-			has_country_flag = chosen
+			has_country_flag = choosing
+		}
+		NOT = {
+			OR = {
+				has_leader = "Goku"
+				has_leader = "Emperor-Frieza"
+			}
 		}
 	}
 	
@@ -72,10 +79,13 @@ country_event = {
 		months = 1
 		
 	}
-		
+	immediate = {
+		set_country_flag = choosing
+	}
+	
 		option = {
 			name = "EVTOPTA19000093"
-			set_country_flag = chosen
+			remove_country_flag = choosing
 			define_general = {
 				name = Goku
 				personality = defence_5.1
@@ -92,7 +102,7 @@ country_event = {
 					background = attack_5.1
 				}
 			prestige = 5
-			set_country_flag = chosen
+			remove_country_flag = choosing
 		}
 	}
 	

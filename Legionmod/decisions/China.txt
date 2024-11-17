@@ -15,6 +15,7 @@ political_decisions = {
 			NOT = {exists = SXI}
 			NOT = {exists = YNN}
 			NOT = {exists = GXI}
+			CHI = {all_core = {owned_by = THIS} }
 			money = 2000000
 		}
 		effect = {

@@ -156,12 +156,14 @@ political_decisions = {
 	
 		allow = {
 			cheap_steel = 1
+			money = 2000000
 		}
 	
 		effect = {
 			set_global_flag = statue_of_liberty_has_been_built
+			money = -2000000
 			any_pop = {
-				militancy = -0.5
+				militancy = -1
 			}
 			country_event = {id = 19000185 days=0}
 #			USA = {
@@ -598,7 +600,10 @@ political_decisions = {
 			OR = {
 				AND = {
 					year = 1880
-					MEX = { in_sphere = THIS }
+					MEX = { 
+						in_sphere = THIS
+						is_secondary_power = no
+					}
 				}
 				AND = {
 					tag = FRA

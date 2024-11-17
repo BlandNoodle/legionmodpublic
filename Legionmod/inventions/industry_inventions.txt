@@ -1170,7 +1170,11 @@ chemical_wood_pulp_process = {
 rubber_vulcanization = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 0
+		modifier = {
+			factor = -10
+			NOT = {invention = cracking}
+		}
 		modifier = {
 			factor = 2
 			combustion_engine = 1
@@ -1373,10 +1377,52 @@ rayon = {
 	}
 	effect = {
 		factory_goods_output = {
-			fabric = 0.20
+			fabric = 0.05
 		} 
 	}
 }
+
+synthetic_rubber = {
+	limit = { synthetic_polymers = 1 }
+	chance = {
+		base = 3
+		modifier = {
+			factor = 2
+			invention = rayon
+		}
+		modifier = {
+			factor = -10
+			NOT = {invention = cracking}
+		}
+	}
+	effect = {
+		activate_building = synthetic_rubber_factory
+	}
+}
+
+nylon = {
+	limit = { synthetic_polymers = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = rayon
+		}
+		modifier = {
+			factor = -10
+			NOT = {invention = synthetic_rubber}
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			fabric = 0.1
+		} 
+		factory_goods_output = {
+			rubber = 0.20
+		}
+	}
+}
+
 bakelite = {
 	limit = { synthetic_polymers = 1 }
 	chance = {
@@ -1392,7 +1438,7 @@ bakelite = {
 	}
 	effect = {
 		factory_goods_output = {
-			glass  = 0.20
+			glass  = 0.05
 		} 
 	}
 }

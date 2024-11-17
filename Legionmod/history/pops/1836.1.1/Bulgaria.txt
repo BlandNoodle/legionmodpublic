@@ -62,9 +62,9 @@
     }
 
     bureaucrats = {
-        culture = turkish
-        religion = sunni
-        size = 400
+        culture = bulgarian
+        religion = orthodox
+        size = 800
     }
 
     officers = {
@@ -424,9 +424,9 @@
     }
 
     bureaucrats = {
-        culture = turkish
-        religion = sunni
-        size = 550
+        culture = bulgarian
+        religion = orthodox
+        size = 800
     }
 
     officers = {

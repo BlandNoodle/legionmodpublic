@@ -244,7 +244,11 @@ promote_to =
 
 	clerks = {
 		factor = 0.01
-	
+			modifier = {
+			factor = -200
+			craftsmen = 0.05
+			culture = asian_minor
+			}
 			modifier = {
 				factor =  -50
 				not = { literacy = 0.50 }
@@ -412,7 +416,7 @@ promote_to =
 			NOT = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = -100
+			factor = -1000
 			civilized = yes
 		}
 		modifier = {
@@ -919,6 +923,11 @@ promote_to =
 	}
 	craftsmen = {
 		factor = 0.01
+		modifier = {
+			factor = -200
+			craftsmen = 0.20
+			culture = asian_minor
+			}
 		group = {
 			modifier = {
 				factor =  2

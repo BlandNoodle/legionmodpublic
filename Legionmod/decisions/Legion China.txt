@@ -105,7 +105,6 @@ political_decisions = {
 				remove_country_modifier = free_china_trade
 				remove_country_modifier = large_opium
 			}
-			KOR = {all_core = {add_core = THIS} }
 			TIB = {all_core = {add_core = THIS} }
 			any_owned = {
 				remove_core = MCK
@@ -126,43 +125,34 @@ political_decisions = {
 		potential = {
 			tag = TPG
 			has_country_flag = reformed
-			NOT = {has_country_modifier = battlecryofmemer}
+			NOT = {has_country_flag = heaven_project2}
 		}
 		allow = {
 			war = no
-			money = 2000000
-			any_neighbor_country = {
-				OR = {
-					NOT = { alliance_with = THIS }
-					NOT = { is_sphere_leader_of = THIS }
-					NOT = { vassal_of = THIS }
-				}
-			}
+			money = 1000000
 		}
 		effect = {
 			add_country_modifier = {
 				name = battlecryofmemer
-				duration = 365
+				duration = 3650
 			}
-			money = -2000000
-			any_neighbor_country = {
+			money = -1000000
+			any_pop = {
 				limit = {
 					OR = {
-						NOT = { alliance_with = THIS }
-						NOT = { is_sphere_leader_of = THIS }
-						NOT = { vassal_of = THIS }
+						type = addicts
+						unemployment = 0.60
 					}
+					NOT = {type = artisans}
 				}
-				add_casus_belli = {
-					target = TPG
-					type = acquire_state
-					months = 12
-				}
-				relation = {
-					who = TPG
-					value = -300
-				}
+				pop_type = artisans
 			}
+			1493 = {life_rating = 4}
+			1538 = {life_rating = 4}
+			2221 = {life_rating = 4}
+			1544 = {life_rating = 4}
+			1577 = {life_rating = 4}
+			set_country_flag = heaven_project2
 		}
 	}
 }

@@ -225,7 +225,7 @@ trench_systems = {
 		base = 0
 		modifier = {
 			factor = 1
-			breech_loaded_rifles = 2
+			breech_loaded_rifles = 1
 		}
 		modifier = {
 			factor = 1
@@ -289,7 +289,7 @@ trench_systems = {
 gas_attack_capability = {
 	limit = { military_directionism = 1 }
 	chance = {
-		base = 100
+		base = -2
 		modifier = {
 			factor = 2
 			invention = cracking
@@ -297,6 +297,10 @@ gas_attack_capability = {
 		modifier = {
 			factor = 2
 			invention = carbon_soil_enrichment
+		}
+		modifier = {
+			factor = 4
+			inorganic_chemistry = 1
 		}
 		modifier = {
 			factor = 6

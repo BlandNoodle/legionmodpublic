@@ -81,9 +81,9 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			owns = 736
-			owns = 781
-			owns = 851
+			owns = 461
+			owns = 467
+			owns = 454
 			invention = national_fraternity
 			is_greater_power = yes
 		}

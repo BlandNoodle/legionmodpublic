@@ -1,6 +1,7 @@
 political_decisions = {
 	release_vasall = {
 		potential = {
+			has_country_flag = inteyes
 			ai = no
 			num_of_vassals = 1						
 		}

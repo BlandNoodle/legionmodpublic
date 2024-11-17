@@ -107,21 +107,13 @@ political_decisions = {
 			invention = colonial_negotiations
 			EGY = {
 				in_sphere = THIS
-				NOT = {vassal_of = THIS}
+				NOT = {vassal_of = TUR}
+				is_secondary_power = no
 			}
 		}
 		effect = {
-			EGY = {
-				leave_alliance = THIS
-				relation = {
-					who = THIS
-					value = -300
-				}
-				diplomatic_influence = {
-					who = THIS
-					value = -400
-				}
-			}
+			badboy = 11
+			inherit = EGY
 			set_country_flag = egyptconquer
 		}
 	}

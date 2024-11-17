@@ -1167,6 +1167,7 @@ country_event = {
 		name = "OPTB19000159"
 		prestige = 1
 		money = 400000
+		political_reform = non_secret_ballots
 		set_country_flag = jacksonlore
 	}
 }
@@ -1246,7 +1247,7 @@ country_event = {
 }
 
 country_event = {
-	id = 19000185
+	id = 19000186
 	title = "New Worlder"
 	desc = "this just happens for immigrant purposes"
 	picture = "Slaves"

@@ -264,7 +264,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -328,7 +328,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -372,7 +372,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -420,7 +420,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -451,7 +451,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -588,7 +588,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -641,7 +641,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 3650
+				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -666,6 +666,64 @@ political_decisions = {
 				duration = 1825
 			}
 			clr_country_flag = eyaletchoice
+		}
+	}
+	
+	bulgarian_empire = {
+		picture = "dk9"
+		potential = {
+			tag = BUL
+			NOT = {has_country_flag = bulgempire}
+		}
+		allow = {
+			war = no
+			NOT = {constructing_cb_progress = 0.1}
+			BUL = {all_core = {owned_by = THIS} }
+			is_independant = yes
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 50
+			TUR_860 = {add_core = THIS}
+			TUR_819 = {add_core = THIS}
+			TUR_803 = {add_core = THIS}
+			674 = {add_core = THIS}
+			675 = {add_core = THIS}
+			define_general = {
+				name = Tsar-Ferdinand
+				personality = defence_3.1
+				background = attack_2.1
+			}
+			set_country_flag = bulgempire
+		}
+	}
+	
+	bulgarian_empire2 = {
+		picture = "dk7"
+		potential = {
+			tag = BUL
+			NOT = {has_country_flag = bulgempire2}
+			has_country_flag = bulgempire
+		}
+		allow = {
+			war = no
+			NOT = {constructing_cb_progress = 0.1}
+			BUL = {all_core = {owned_by = THIS} }
+			is_independant = yes
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			prestige = 80
+			capital = 860
+			add_accepted_culture = greek
+			860 = {
+				change_province_name = "Constantinople"
+				add_province_modifier = {
+					name = bulgars
+					duration = 3650
+				}
+			}
+			set_country_flag = bulgempire2
 		}
 	}
 }

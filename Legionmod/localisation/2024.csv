@@ -52,7 +52,7 @@ BRG_fascist;Parti du pays réel;;;;;;;;;;;;;x
 newparis;Paris Renovated;;;;;;;x
 newparis_desc;This place is finally habitable;;;;;;x
 EVTNAME19000140;The German Question;;;;;;;x
-EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. §GHold onto your German holdings/spheres to be rewarded.§W;;;;;;x
+EVTDESC19000140;Germany has been without a centralized government, will we seek to fill this role or stomp it out? With revolution over the horizon, the populace will be impatient and quick to change sides. §GHold onto your German holdings/spheres to be rewarded.§W\nPrussia:Follow the new decisions to slowly annex everyone, Germany is your reward!\n§YFrance:Hold on to Alsace-Lorraine and sphere Southern Germany to claim hegemony over the region!\n§RAustria:Maintain the Status Quo over Southern Germany to soldify your own empire, and gain the opportunity to unite it all!§b;;;;;;x
 EVTOPTA19000140;Let the games begin;;;;;;x
 EVTNAME19000141;We Lost;;;;;;;x
 EVTDESC19000141;Our competitor's have managed to outmanuever us in Germany, we no longer have any say in their formation;;;;;;x
@@ -124,7 +124,7 @@ thefourthoption_desc;Appearantly, a council of wizards has arrived from 'Hyperbo
 gameimpact;Game Impact In-Progress;;;;;;x
 gameimpact_desc;Currently bringing on the game impact;;;;;;x
 gameimpactbomb_title;Bring on the Game Impact!;;;;;;x
-gameimpactbomb_desc;Recently there have been calls for more game impact from our more disadvantaged nations such as Spain and Russia, so here is your shot, one opportunity, will you take it? or let it slip. Thats deep and im a 9 year old in a coal mine.;;;;;;;;;x
+gameimpactbomb_desc;Recently there have been calls for more game impact from our more disadvantaged nations such as Spain and Russia, so here is your shot, one opportunity, will you take it? or let it slip. Thats deep and im a 9 year old in a coal mine.\n§RThis will lock away your Philippine option§b;;;;;;;;;x
 EVTNAME19000151;FIRED!;;;;;;;x
 EVTDESC19000151;You broke one of the best deals in American history. Not only are you a traitor to Canada and Mexico, but you've betrayed the American public. This deal was one of the best, truly, and you had to blow it, huh? Shoulda gone and screwed around in South America. Instead, im gonna have to fire you. YOU'RE FIRED!!!!!!;;;;;;;;x
 EVTOPTA19000151;An Unexpected Outcome;;;;;;;x
@@ -179,7 +179,7 @@ EVTDESC19000148;YOU START THE OPIUM WAR (it gives you cash money and throughput 
 EVTDESC19000149;You dumb ah hell boi choose your tech with the next 5 years in mind unironically. National stockpile is how to make free Arty at the very start so just click it when you que up. What you choose (Early, Mid, Late) will impact how you play the rest of the game so choose wisely and all in on it. No money? Dont do commerce its a trap do practical steam engine it gives farming output +15 mining BUT gives 25 grain production which is your most exported good so you make mega tariff money. Green alliance?  Only if you want to kill Austria at game start. remember what happened?. People like to ally Ottomans and peacefully split up Southern Europe, or you could ally Austria and take it during Egypt civil war. You get Caucasus accepted and ottomans gets azerbaijan accepted so help or hurt them. Central Asia is cash money. if you take Great Game you get Persia for free! Communist Russia is actually viable! Late game Russia go full education maxxing get those people reading! Early game Russia. . . Lets kill these guys go full mil tech and int missile your neighbors for land and research points. Great Game is a late game russia decider you better start influencing at game start because UK gonna be gunnin for it. Communist decisions are very good but also very scary choose wisely.;;;;;;x
 EVTDESC19000152;Green alliance is scary. . . Need State and Government + Italy and NGF formed to make Austria-Hungary. You in everybody's sights day 1. If you lose your spheres early you lose prestige n shit. Build Factories early and not near where places are likely to be annexed (Italy Russia Ottoman Prussia border). You NEED an ally, suggested you get one bordering you so they don't kill you at game start. Secret EVIL ally: France Austria alliance (hugbox imminent). You might get put on chopped ones day one so be ready to mil up. You got very good terrain vs Russia and Italy (urban tile milan) Ottomans is a shitshow front. Austria Hungary decision needs either Italy and NGF + State and government (common path) or EVIL path (kill one of them and wait until rev and counterrev). ;;;;;;x
 EVTDESC19000153;Ems Dispatch is not a guaranteed war with France they can say yes or no. An mein Volk only lasts for 2 years so use it up! Beg UK to not let France get Belgium over you, if there is a Netherlands you got to glaze him up sexual style. Free money! A gold mine is in your future young man. You're one of the biggest Industrial powerhouses in the game so act like it and do it early before your capitalists ruin it for you. I would keep army funding up for fear of a France declaration/being able to dec on France. Try to form the secret nation if all else is lost (lose Sigmaringen AND Rhineland or Schlesien ). Study the alsace shape like it's your life, try to call in baden to expand the small front. If you can get a secret mob off then declare on France you're set, Prussia cheese strats are always funny to watch (surprise is key sometimes). Mil maxxing, you don't need to focus education just remember to do philosophy and political thought.;;;;;;x
-EVTDESC19000154;You CANNOT lose Egypt NO MATTER THE COST (game ruining). Learn to beg (you are the poor homeless man on fent in Europe). Whenever you feel down. . . just remember lategame hyperscaler.\n Wait for the Egyptian puppet peace deal to gain cores back.\n There is a decision group to choose which puppet to annex, choose wisely because there is a cooldown.\n When you become the Caliphate, the decisions to annex/accept the puppets is locked!.\nFocus Education, you illiterate not even imam can help you;;;;;;x
+EVTDESC19000154;You CANNOT lose Egypt NO MATTER THE COST (game ruining). Learn to beg (you are the poor homeless man on fent in Europe). Whenever you feel down. . . just remember lategame hyperscaler.\n Wait for the Egyptian puppet peace deal to gain cores back.\n There is a decision group to choose which puppet to annex, choose wisely because there is a cooldown.\n When you become the Caliphate, the decisions to annex/accept the puppets §Ris locked!§W.\nFocus Education, you illiterate not even imam can help you;;;;;;x
 EVTDESC19000155;Being Evil as this nation gets you rewarded (History only remembers the Villains, Don't be a Hero). You have no opps you are THE opp (take Tunis asap). Only winners can be Napoleon. . . You make money printers feel free to give grants in exchange for quickie sex. Build military goods from the start and keep a heavy focus on your limited factory space. Prussia is racing to kill you at a minutes notice if you slip up you're done! You get rewarded for being Evil so make sure to kill a player early! (Your paths of expansion are limited). Take Tunis ASAP you need it for La Legion Entrangere. Try for an Asian delicacy or two. EVIL STRAT: Kill players day 1 (Spain, Germany, Italy, anyone) and show no mercy. Tslegit strat: Encourage soldiers day 1 get a goonish amount of pops and roll over Germany. Secret DoD formable if you can find it (take benelux and become #1gp). Don't try to save Levee en Masse just abuse it to buy yourself time.;;;;;;;x
 OPTA19000148;Thank you brother;;;;;;;x
 OPTA19000149;Thank you brother;;;;;;x
@@ -206,9 +206,9 @@ concrete_pillboxes;Concrete Forts;;;;;x
 EVTNAME19000156;Don't Blink;;;;;;;x
 EVTNAME19000157;Don't Speak;;;;;;x
 EVTNAME19000158;Don't Run;;;;;;;;x
-EVTDESC19000156;A betrayal;;;;;;;;;x
-EVTDESC19000157;A sneak attack;;;;;;;;;x
-EVTDESC19000158;It's too late;;;;;;;;x
+EVTDESC19000156;A betrayal?;;;;;;;;;x
+EVTDESC19000157;A surprise attack.;;;;;;;;;x
+EVTDESC19000158;It's too late, your downfall is pre-ordained. . .;;;;;;;;x
 OPTA19000156;help;;;;;;;;;;;x
 OPTA19000157;help;;;;;;;;;;x
 OPTA19000158;HELP;;;;;;;;;;x
@@ -226,7 +226,7 @@ switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +25%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +30\nNaval Unit Starting Experience: +30\nLeadership Points Gain: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
+switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +15\nLeadership Points Gain: +50%\nArmy Tech Research Bonus: +5%\n Core Pop Militancy -0.05§W;;;;;;;;;;;;;x
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +10%\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -279,7 +279,7 @@ EVTDESC800008;I thought we were trading. . .;;;;;;x
 EVTOPTA800008;"Eh, eh, eh, eh, eh,";;;;;;x
 britishraj;Der Colonies;;;;;;;x
 britishraj_desc;BBL Drizzy;;;;;;;x
-NORMAL_WAR_EYALET_NAME;$ORDER$FIRST$ War of §R$COUNTRY_ADJ$§W Liberation;;;;;;;;;;x
+NORMAL_WAR_EYALET_NAME;$ORDER$$FIRST$ War of §R$COUNTRY_ADJ$ Liberation§W;;;;;;;;;;x
 release_eyalet;Liberate Eyalet;;;;;;;x
 release_eyalet_desc;Reduce the Sublime Porte's influence over Europe;;;;;;;x
 release_eyalet_setup;Free $THIRD$ from Turkish management;;;;;;;;x
@@ -289,7 +289,7 @@ eyalet_cooldown_desc;This is just a timer;;;;;;;x
 crocodile_victory_title;Egyptian Victory;;;;;;x
 crocodile_victory_desc;I will be king of this world. Even if it kills me.;;;;;;;;x
 EVTNAME19000162;Eyalet System;;;;;;;;;x
-EVTDESC19000162;After State n Government, choose one puppet to annex.\nIf that culture isn't accepted, another decision will be available to accept them once the cooldown is gone.\nAnnexing and Accepting have a §R10 year§b and a §R5 year§b cooldown, respectively.\nThis system disappears once the Caliphate is formed, but Middle Eastern accepted's will not be available until it is formed.\n§RStandard integrate decisions are not available to either tag§W;;;;;;;x
+EVTDESC19000162;After State n Government, choose one puppet to annex.\nIf that culture isn't accepted, another decision will be available to accept them once the cooldown is gone.\nAnnexing and Accepting have a §R5 year§b cooldown.\nThis system disappears once the Caliphate is formed, but Middle Eastern accepted's will not be available until it is formed.\n§GThe nations you may integrate and accept through this system is greater than what you start with§b;;;;;;;x
 EVTOPTA19000162;Thank you, Vizier;;;;;;;;x
 annex_albania_title;Contain Albania;;;;;;x
 annex_albania_desc;§GThey are too dangerous to be left alone!§W;;;;;;;x
@@ -432,7 +432,7 @@ EVTDESC19000183;They didn't fold under zero pressure, time to janny up or tuck i
 EVTOPTA19000183;Guess I'll janny. . .;;;;;;;x
 EVTOPTB19000183;Bedtime sounds good;;;;;;;x
 annexegypt_title;Annex Egypt;;;;;;x
-annexegypt_desc;The time has come to reap our rewards for defending Egypt. This decision enables the Conquer Egypt CB;;;;;;;x
+annexegypt_desc;The time has come to reap our rewards for defending Egypt.;;;;;;;x
 treaty_port_buff;Treaty Port;;;;;;x
 treaty_port_buff_desc;Sloppy;;;;;;;x
 PROV3252;Kamyshin;;;;;;;x
@@ -470,8 +470,23 @@ TRIGMOD_HEADER;Our ministers report that;;;;;;;
 surrenderalsace_title;Surrender Alsace;;;;;;;x
 surrenderalsace_desc;We are cooked, we will have to befriend Germany or give up entirely on Alsace if we hope to survive as a Great Power.;;;;;;;;x
 bureaucrats_fix_title;Fire Minority Bureaucrats;;;;;;;;;;x
-bureaucrats_fix_desc;YOU'RE FIIIIIRRREEEEDDD!!!!!
+bureaucrats_fix_desc;YOU'RE FIIIIIRRREEEEDDD!!!!!;;;;;;;
 stop_communism_title;Stop Communism!;;;;;;;;;x
 stop_communism_desc;Now is our chance to prepare against the Red Tide!;;;;;;;x
 stop_the_bolsheviks;Stop the Bolsheviks;;;;;;;x
 stop_the_bolsheviks_desc;Le Buff;;;;;;;;;x
+mass_culture_n_the_avant_garde;Absurdism;;;;;;;x
+mass_culture_n_the_avant_garde_desc;Absurdism;;;;;;;x
+summer;The Eternal Summer;;;;;;;x
+summer_desc;I realized, through it all, that in the midst of winter, I found there was, within me, an invincible summer. And that makes me happy. For it says that no matter how hard the world pushes against me, within me, there's something stronger something better, pushing right back.;;;;;;;x
+nylon;Nylon;;;;;;x
+synthetic_rubber_factory;Rubber Factory;;;;;;;x
+synthetic_rubber;Synthetic Rubber;;;;;;x
+bulgars;Bulgarian Settlers;;;;;;x
+bulgars_desc;underlime slomper;;;;;x
+bulgarian_empire_title;Proclaim the Bulgarian Empire;;;;;;x
+bulgarian_empire_desc;Total Larp Victory.;;;;;;;;;x
+bulgarian_empire2_title;Reclaim Constantinople;;;;;x
+bulgarian_empire2_desc;Rest in Pieces Turkey fans, its a §GBulgarian§b world and you're just living in it!;;;;;;;;x
+gameimpactbomb2_title;Finish the Game Impact;;;;;;;x
+gameimpactbomb2_desc;Unify the lands of Castile, Aragon, Portugal, and Naples once more! Then we take a 50 year nap I think that sounds nice;;;;;;;x

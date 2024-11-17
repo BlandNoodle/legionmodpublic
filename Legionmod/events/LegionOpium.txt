@@ -157,7 +157,7 @@ province_event = {
 	
 	trigger = {
 		is_core = CHI
-		any_pop = { addicts = 0.01 }
+		any_pop = { addicts = 0.02 }
 		NOT = { has_province_modifier = local_opium_habit }
 	}
 	mean_time_to_happen = {
@@ -167,7 +167,7 @@ province_event = {
 	name = "EVTOPTA19000096"
 		add_province_modifier = {
 			name = local_opium_habit
-			duration = 2000
+			duration = 1825
 			}
 		}
 	}
@@ -189,7 +189,7 @@ province_event = {
 	name = "EVTOPTA19000097"
 		add_province_modifier = {
 			name = local_opium_habit
-			duration = 3000
+			duration = 1825
 		}
 	}
 }

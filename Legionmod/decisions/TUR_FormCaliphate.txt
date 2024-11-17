@@ -125,7 +125,8 @@ political_decisions = {
 	dominatepersia = {
 		potential = {
 			tag = OTC
-			NOT = { has_global_flag = persiansdominated }					
+			NOT = { has_global_flag = persiansdominated }
+			has_country_flag = inteyes
 		}
 		
 		allow = {
@@ -155,7 +156,8 @@ political_decisions = {
 	integrate_egypt = {
 		potential = {
 			tag = OTC
-			NOT = { has_global_flag = egypt_integrated }				
+			NOT = { has_global_flag = egypt_integrated }
+			has_country_flag = inteyes
 		}
 		
 		allow = {
@@ -195,6 +197,7 @@ political_decisions = {
 		potential = {
 			BOS = {in_sphere = THIS}
 			NOT = {tag = TUR}
+			has_country_flag = inteyes
 		}
 		allow = {
 			BOS = {

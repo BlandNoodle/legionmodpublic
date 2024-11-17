@@ -339,6 +339,31 @@ avantgarde_music = {
 		shared_prestige = 25 
 	}
 }
+summer = {
+	limit = { mass_culture_n_the_avant_garde = 1 }
+	news = no
+	chance = {
+		base = -2
+		modifier = {
+			factor = 1
+			anti__rationalism = 1
+		}
+		modifier = {
+			factor = 6
+			invention = the_decline_of_the_west_and_the_lost_generation
+		}
+		modifier = {
+			factor = 1
+			invention = secularization
+		}
+	}
+	effect = {
+		army_base = {
+			default_organisation = 5
+		} 
+		morale = 0.25 
+	}
+}
 surrealism = {
 	limit = { mass_culture_n_the_avant_garde = 1 }
 	news = no

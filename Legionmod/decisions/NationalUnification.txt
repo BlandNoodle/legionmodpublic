@@ -97,6 +97,7 @@ political_decisions = {
 				exists = SGF
 				tag = KUK
 			}
+			NOT = {has_country_flag = supersgf}
 			has_country_flag = germanwinner
 		}	
 		allow = {
@@ -171,6 +172,7 @@ political_decisions = {
 				add_core = THIS
 			}
 			change_tag = SGF
+			set_country_flag = supersgf
 		}
 		ai_will_do = {
 			factor = 1

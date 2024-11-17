@@ -217,6 +217,10 @@ political_decisions = {
 					change_region_name = "Southern Rhodesia"
 					any_owned = {
 						add_core = RHO
+						add_province_modifier = {
+							name = britishraj
+							duration = 1825
+						}
 					}
 				}
 			}

@@ -234,6 +234,7 @@ country_event = {
 		name = "EVTOPTA800007"
 		prestige = 20
 		relation = { who = EGY value = 200 }
+		diplomatic_influence = { who = EGY value = 400 }
 		EGY = { 
 			any_owned = {
 				limit = {
@@ -290,7 +291,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000162"
-		prestige = 1
 	}
 }
 
@@ -536,7 +536,7 @@ country_event = {
 		FROM = {country_event = {id = 19000168 days = 1}}
 		clr_global_flag = activegambler
 		ai_chance = {
-			factor = 25
+			factor = 24
 		}
 	}
 	
@@ -545,7 +545,7 @@ country_event = {
 		FROM = {country_event = {id = 19000169 days = 1}}
 		clr_global_flag = activegambler
 		ai_chance = {
-			factor = 1
+			factor = 2
 		}
 	}
 }

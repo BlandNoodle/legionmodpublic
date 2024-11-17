@@ -1888,7 +1888,7 @@
     bureaucrats = {
         culture = romanian
         religion = orthodox
-        size = 455
+        size = 855
     }
 
     officers = {
@@ -2023,7 +2023,7 @@
         size = 585
     }
 
-    farmers = {
+    labourers = {
         culture = romanian
         religion = orthodox
         size = 56192
@@ -2106,7 +2106,7 @@
     bureaucrats = {
         culture = romanian
         religion = orthodox
-        size = 747
+        size = 1400
     }
 
     officers = {
@@ -2203,7 +2203,7 @@
         size = 2600
     }
 
-    farmers = {
+    labourers = {
         culture = romanian
         religion = orthodox
         size = 129285
@@ -2251,7 +2251,7 @@
         size = 715
     }
 
-    farmers = {
+    labourers = {
         culture = romanian
         religion = orthodox
         size = 13585
@@ -2263,7 +2263,7 @@
         size = 975
     }
 
-    farmers = {
+    labourers = {
         culture = bulgarian
         religion = orthodox
         size = 18525
@@ -2281,7 +2281,7 @@
         size = 250
     }
 
-    farmers = {
+    labourers = {
         culture = greek
         religion = orthodox
         size = 500
@@ -2323,7 +2323,7 @@
         size = 1100
     }
 
-    farmers = {
+    labourers = {
         culture = turkish
         religion = sunni
         size = 4165

@@ -349,7 +349,7 @@ the_british_raj = {
         }
     }
     core_pop_militancy_modifier = -0.1
-    supply_consumption = 0.15
+    supply_consumption = 0.1
     mobilisation_size = 0.02
 	land_organisation = 0.15
     prestige = 0.02

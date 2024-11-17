@@ -99,8 +99,8 @@ EVTDESC19000092;There be treasure beneath the crust of the Earth;;;;;;x
 EVTOPTA19000092;WE ARE LEGION;;;;;;;x
 hollowearthp;Hollow Earth Site;;;;;;x
 hyperboreaexodus;The Exodus;;;;;;x
-EVTNAME19000093;Hello Everypony!;;;;;;x
-EVTDESC19000093;There are no more barriers to cross. All I have in common with the uncontrollable and the insane, the vicious and the evil, all the mayhem I have caused and my utter indifference toward it, I have now surpassed. My pain is constant and sharp and I do not hope for a better world for anyone, in fact, I want my pain to be inflicted on others. I want no one to escape. But even after admitting this, there is no catharsis. My punishment continues to elude me, and I gain no deeper knowledge of myself. No new knowledge can be extracted from my telling. This confession has meant nothing.;;;;;;x
+EVTNAME19000093;The Decision. . . ;;;;;;x
+EVTDESC19000093;Pirates are evil? The Marines are righteous? These terms have always changed throughout the course of history! Kids who have never seen peace and kids who have never seen war have different values! Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say? But of course it will! Whoever wins this war becomes justice!;;;;;;;x
 EVTOPTA19000093;Saiyans United!;;;;;;;;x
 EVTOPTB19000093;I will rule this world, or see it burnt around me!;;;;;;;x
 integrate_poles_title;Integrate Poland;;;;;;x
@@ -297,7 +297,7 @@ freedomfighters_desc;SONIC THE HEDGEHOG ANIMATED SHOW;;;;;;;x
 remove_him_title;Remove this Guy;;;;;;;x
 remove_him_desc;Ever since this guys been in charge, he has been totally floundering the game, get this guy outta here! Vivre la Troisieme Republique!§RWe will lose the trust of the South Germans if we do this§W;;;;;;;x
 integrate_north_title;Integrate the North;;;;;;x
-integrate_north_desc;Begin the unification of Germany, with the defeat of the Scandinavians.;;;;;;x
+integrate_north_desc;Begin the unification of Germany, with the defeat of the Scandinavians.\n§RThis decision does not require Schleswig or Holstein, but they can be integrated§b;;;;;;x
 integrate_center_title;Integrate the Center;;;;;;x
 integrate_center_desc;The Austrians have been eclipsed and we may continue to form a unified Germany, on our terms.;;;;;;x
 integrate_south_title;Integrate the South;;;;;;x
@@ -394,7 +394,7 @@ lm_all_the_kings_men_spa_desc;We must gather all the kings men for the army, so 
 lm_buy_gibraltar_title;Offer to buy Gibraltar;;;;;;x
 lm_buy_gibraltar_desc;IM ON MY KNEES BRITIAN, PLEASE GIVE ME THAT PORT, I NEED IT SO BAD MMMMMMMMMM PLEASE.;;;;;;x
 lm_core_spain_colonies_title;Integrate the Colonies;;;;;;x
-lm_core_spain_colonies_desc;We must accepted the Darks and the Uluvars of the world to be able to keep up with the rest of the great powers.  Feel that? Thats true.;;;;;;x
+lm_core_spain_colonies_desc;We must accepted the Darks and the Uluvars of the world to be able to keep up with the rest of the great powers.  Feel that? Thats true.\n§R This will lock you from bringing game impact§b;;;;;;x
 lm_core_morocco_spa_title;Assimilate Morocco;;;;;;x
 lm_core_morocco_spa_desc;These no good Moroccans keep interrupting my siestas!  They must be taught the ways of the slumber, then they can really be accepted into the greater Spanish society.;;;;;;x
 lm_accept_croats_slovenes_ita_title;Accept the Croats and Slovenes;;;;;;x
@@ -420,7 +420,7 @@ EVTDESC790010;rbut what if?;;;;;;x
 EVTTITLE790020;ME WHEN I SEE THE 10/10 GYATT WALKING BY;;;;;;x
 EVTDESC900020;What about dat prick's face when he saw the gyatt?;;;;;;x
 EVTNAME800000;The Oriental Crisis;;;;;;x
-EVTDESC800000;The Egyptians have ruined our day for far too long, they're map looks ugly and makes us look like frauds.  They are now getting uppity and are all like "Erm I'm gonna go independant", fuck no little bitches.  They keep talking about how we're not ready to face they're 'superior forces', but we'll see about that. . .;;;;;;x
+EVTDESC800000;The Egyptians have ruined our day for far too long, they're map looks ugly and makes us look like frauds.  They are now getting uppity and are all like "Erm I'm gonna go independant", fuck no little bitches.  They keep talking about how we're not ready to face they're 'superior forces', but we'll see about that. . .\n§REurope will place their bets,\n and the war will automatically begin shortly after. . .§b;;;;;;x
 EVTOPTA800000;We'll see how this developes. . .;;;;;;x
 EVTNAME800001;Great Power's Interest in the Crisis;;;;;;x
 EVTDESC800001;The great powers of the world have become interested in the developing crisis in Egypt.  We can only hope they see the obvious answer to this all and send aide to support us, the Ottomans, rightful rulers of Egypt.  Although we won't mind neutrality, we will very much be upset with those who choose too aide the Egyptians.;;;;;;x
@@ -440,7 +440,7 @@ EVTNAME800005;$FROMCOUNTRY$ has sent Aid to Egypt!;;;;;;x
 EVTDESC800005;We depreciate them greatly, we hope they're oncologist appointment goes horribly.;;;;;;x
 EVTOPTA800005;May Allah curse them with many stonings.;;;;;;x
 EVTNAME800006;War on Egypt!;;;;;;x
-EVTDESC800006;Enough waiting, the powers of the world have chosen they're sides, we now will declare war on the Egyptians and reclaim our former glory!;;;;;;x
+EVTDESC800006;Enough waiting, the powers of the world have chosen they're sides, we now will declare war on the Egyptians and reclaim our former glory!\n§REnforce the Puppet wargoal to regain the Levant§b;;;;;;x
 EVTOPTA800006;DEATH WAR!!!!!;;;;;;x
 EVTNAME800007;Victory in Egypt!;;;;;;x
 EVTDESC800007;We've beat em down, now we incorporate our former lands, awww yeah brother, this is goooood.;;;;;;x
@@ -538,10 +538,10 @@ integrate_pommerania_title;Integrate Pommerania;;;;;;x
 integrate_pommerania_desc;dod scandinavia;;;;;;x
 integrate_baltic_title;Integrate Baltics;;;;;;x
 integrate_baltic_desc;snatch they foams;;;;;;x
-integratedisabled_title;Disable Integrate Decisions;;;;;;x
-integratedisabled_desc;get this off my desk;;;;;;;x
-integrateenabled_title;Enable Integrate Decisions;;;;;;;;x
-integrateenabled_desc;get this on my desk;;;;;;;x
+integratedisabled_title;Close the Folder;;;;;;x
+integratedisabled_desc;get this off my desk!;;;;;;;x
+integrateenabled_title;Open the Folder;;;;;;;;x
+integrateenabled_desc;This has general decisions like building canals, demoting unaccepted bureacrats, etc.;;;;;;;x
 EVTNAME19000108;Peking Convention;;;;;;x
 EVTDESC19000108;Russia is getting the slop in China without us!;;;;;;x
 EVTOPTA19000108;We gotta get some too!;;;;;;x
