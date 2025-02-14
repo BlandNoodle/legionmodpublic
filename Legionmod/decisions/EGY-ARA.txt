@@ -104,7 +104,9 @@ political_decisions = {
 			state_n_government = 1
 			EGY = {
 				is_greater_power = no
+				in_sphere = THIS
 			}
+			
 		}
 		allow = {
 			war = no

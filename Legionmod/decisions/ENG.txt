@@ -384,36 +384,67 @@ southaf = {
 		potential = {
 			tag = ENG
 			has_country_flag = empress_of_india
-			NOT = {has_country_flag = colonizer}
+			NOT = {has_country_flag = colonizer1}
 		}
 		allow = {
 			war = no
 			NOT = {
-				any_owned = {
-					is_core = HND
+				HND = {
+					any_core = {
+						owned_by = THIS
+					}
 				}
 			}
 			nationalism_n_imperialism = 1
 			muzzle_loaded_rifles = 1
 		}
 		effect = {
-			set_country_flag = colonizer
 			prestige = 15
-			any_owned = {
-				limit = {
-					OR = {
-						is_core = CAN
-						is_core = AST
-						is_core = NZL
-						is_core = NEN
-						is_core = EGY
+			CAN = {
+				any_core = {
+					limit = {
+						owned_by = THIS
+					}
+					add_province_modifier = {
+						name = britishraj
+						duration = 10950
 					}
 				}
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
+			}
+			SAF = {
+				any_core = {
+					limit = {
+						owned_by = THIS
+					}
+					add_province_modifier = {
+						name = britishraj
+						duration = 10950
+					}
 				}
 			}
+			AST = {
+				any_core = {
+					limit = {
+						owned_by = THIS
+					}
+					add_province_modifier = {
+						name = britishraj
+						duration = 10950
+					}
+				}
+			}
+			NZL = {
+				any_core = {
+					limit = {
+						owned_by = THIS
+					}
+					add_province_modifier = {
+						name = britishraj
+						duration = 10950
+					}
+				}
+			}
+			set_country_flag = colonizer1
 		}
 	}
 	
