@@ -1,0 +1,114 @@
+;;;;;;;;;;;;;;;;;;x
+chinesemilitia;Chinese Miltia;;;;;;;x
+EGY_1761;Eastern Sahara;;;;;;;x
+MOR_1773;Western Sahara;;;;;;;x
+release_vassals_title;Release Vassals;;;;;;;x
+release_vassals_desc;This decision will send an event for each vassal to choose which to release if not all of them.;;;;;;;x
+EVTNAME91307;Puppet Slop;;;;;;;;x
+EVTDESC91307;Just put the fries in the bag, puppet;;;;;;;;x
+EVTOPTA91307;Sir Yes sir!;;;;;;;;x
+EVTNAME91308;$FROMCOUNTRY$ Can Have Freedom?;;;;;;;;;x
+EVTDESC91308;Can we go now? (read the tooltip to see which nation this is);;;;;;;;x
+EVTOPTA91308;You may. . .;;;;;;;;;x
+EVTOPTB91308;SIKE!;;;;;;;;x
+russianpersia2_title;Integrate Persia;;;;;;;x
+russianpersia2_desc;Bring the Persians into the fold officially, big wins!!;;;;;;;x
+russianafghan_title;Integrate Afghanistan;;;;;;;x
+russianafghan_desc;Secure our position at the doorstep of India, maybe we could learn a thing or two from the Mughals. . .;;;;;;x
+colonize_sinkiang_title;Colonize Xinjiang;;;;;;;x
+colonize_sinkiang_desc;Our expeditions into Central Asia have drawn us closer to the people currently persecuted by the Qing, perhaps we could convince them in a new mandate.;;;;;;;x
+warplangrey_title;War Plan Grey;;;;;;x
+warplangrey_desc;We will strike into Prussia Proper so we may secure our control over Poland!;;;;;;x
+warplanpink_title;War Plan Pink;;;;;;x
+warplanpink_desc;We will strike into Galicia so we may secure our hold over Ukraine!;;;;;;;x
+warplangreen_title;War Plan Green;;;;;;x
+warplangreen_desc;We will strike into Norway so we may easily bypass the Danish Belts!;;;;;;;
+greyvictory_title;Victory in Prussia;;;;;x
+greyvictory_desc;SO MUCH WIN!! Lets keep it up;;;;;;x
+pinkvictory_desc;SO MUCH WIN!! Lets keep it up;;;;;;x
+greenvictory_desc;SO MUCH WIN!! Lets keep it up;;;;;;x
+siberian_ports_title;Siberian Ports;;;;;;x
+siberian_ports_desc;In order to host the biggest, best party on the Pacific, we need the ports to bring in the tourists and drinks!!!;;;;;;x
+alaskan_ports_title;Alaskan Ports;;;;;;x
+alaskan_ports_desc;We can't forget about our brothers across the Strait! Maybe we can hook them up properly for once and get that colony on its feet! First, a little R&R. . ;;;;;;;x
+far_east_armory_title;Open the Far East Armories;;;;;;x
+far_east_armory_desc;A Pacific Fleet will require many guns and shipbuilders to keep the party going. Vladivostok offers the perfect location to ship-in resources to develop these industries.;;;;;;;x
+oregon_party_title;Contest the Oregon Territories;;;;;;x
+oregon_party_desc;When the Americans and British discussed their borders on the Pacific, there was someone they forgot to ask. We will correct this error!;;;;;;x
+russian_naval_guns_title;Russian Naval Guns;;;;;;x
+russian_naval_guns_desc;Our officers have come to us with the breakthrough that they should just put the recently developed super-howitzers onto our boats in order to claim dominance over the Pacific. They would certainly move quicker on water atleast.;;;;;;x
+pacific_islanders_title;Check Out Some Islands;;;;;x
+pacific_islanders_desc;All the European and even some Asian nations have been dreaming of claiming the islands of the Pacific. We should get their bright and early since we cant seem to be friends.;;;;;;x
+pacific_coast_party_title;Pacific Coast Party;;;;;;x
+pacific_coast_party_desc;We finally made it, all the pieces are together for the world's greatest rager. From Vladivostok and Port Arthur to Oregon and California, the world will be reminded that no one can do it like Russia!.;;;;;;;x
+EVTNAME19000187;The Pacific Coast Party;;;;;;x
+EVTDESC19000187;Get your motor running, California Interstate 1, Pacific Coast Party, If you got to work today, Get yourself a new vocation, Pacific Coast Party, You don't have to mind father time, mother nature, Get yourself in line, take your time, And watch it slip away, Just quit your bitching, bite your tongue, Save it for a rainy day, son, Pacific Coast Party, Get your ticket pack your bags, Come and join the celebration, Pacific Coast Party, If you wanna find peace of mind come and get it, Get yourself in line take your time, And watch it slip away, Pacific Coast Party, Hey, I heard somebody say, Work harder than you play, But I never missed a single day's party, Word, I never heard a word, I turned the other way, Pacific Coast Party.;;;;;;;x
+EVTOPTA19000187;R.I.P. Steve Harwell;;;;;;;x
+pacific_ports;Pacific Ports;;;;;x
+pacific_ports_desc;Start the 'Ports!;;;;;;x
+EVTNAME91306;Release Vassals?;;;;;;;x
+EVTDESC91306;Schlawgga think he going free! is this true?;;;;;;x
+EVTOPTA91306;Have each vassal send us an event to release or not;;;;;;x
+EVTOPTB91306;No;;;;;;;;x
+internal_migration;Internal Migration;;;;;;x
+tier1_focus;Promotion;;;;;;;x
+tier2_focus;Boosts I;;;;;;;x
+tier3_focus;Boosts II;;;;;;x
+tier4_focus;Boosts III;;;;;;x
+assimilation_bonus1;Assimilation Boost;;;;;;;x
+assimilation_bonus2;Assimilation Boost II;;;;;;;x
+assimilation_bonus3;Assimilation Boost III;;;;;;;x
+assimilation_bonus1_desc;Boost Assimilation by 100%;;;;;;;x
+assimilation_bonus2_desc;Boost Assimilation by 200%;;;;;;;x
+assimilation_bonus3_desc;Boost Assimilation by 300%;;;;;;;x
+assimilation_bonus1_header;Assimilation I;;;;;;;x
+assimilation_bonus2_header;Assimilation II;;;;;;;x
+assimilation_bonus3_header;Assimilation III;;;;;;;x
+ship_focus;Ship Repair;;;;;;;x
+militancy_and_reform_focus;Reform Desire;;;;;;;x
+factory_input_bonus;Factory Input Boost;;;;;;;;x
+factory_output_bonus;Factory Output Boost;;;;;;;x
+mining_bonus;Mining Boost;;;;;;x
+farming_bonus;Farming Boost;;;;;;x
+factory_input_output_bonus;Reduce Factory Inputs and Increase Factory Outputs;;;;;;;;;x
+input_output_craftsmen;Promote Craftsmen and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x
+input_output_clerks;Promote Clerks and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x
+input_output_soldiers;Promote Soldiers and Reduce Factory Inputs as well as Increase Factory Outputs;;;;;;;;;x
+input_output_rgos;Reduce Factory Inputs, Increase Factory Outputs, and Increase Mining/Farming Efficiency;;;;;;;;;x
+soldier_assimilation_bonus;Promote Soldiers and Boost Assimilation Rate;;;;;;;;;x
+craftsmen_assimilation_bonus;Promote Craftsmen and Boost Assimilation Rate;;;;;;;;;x
+bureaucrat_migration_bonus;Promote Bureaucrats and Increase Internal Migrant Priority;;;;;;;;;x
+promote_bureaucrats_4;Encourage Bureaucrats Boost;;;;;;;;;x
+promote_capitalists_4;Encourage Capitalists Boost;;;;;;;;;x
+promote_clergymen_4;Encourage Clergymen Boost;;;;;;;;;x
+promote_clerks_4;Encourage Clerks Boost;;;;;;;;;x
+promote_craftsmen_4;Encourage Craftsmen Boost;;;;;;;;;x
+promote_officers_4;Encourage Officers Boost;;;;;;;;;x
+promote_soldiers_4;Encourage Soldiers Boost;;;;;;;;;x
+tier_2_title;§GBoosts I Unlocked!;;;;;;;;;;;;;;x
+tier_2_desc;With the discovery of Phenomenalism, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_3_title;§GBoosts II!;;;;;;;;;;;;;;x
+tier_3_desc;With the discovery of Experimental Psychology, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_4_title;§GBoosts III Unlocked!;;;;;;;;;;;;;;x
+tier_4_desc;With the discovery of Psychoanalysis, you have begun to explore new methods of controlling your nations thinking.;;;;;;;;;;;;;;x
+tier_2;Boosts I Unlock from Phenomenalism;;;;;;;;;x
+tier_3;Boosts II Unlock from Experimental Psychology;;;;;;;;;x
+tier_4;Boosts III Unlock from Psychoanalysis;;;;;;;;;x
+pop_shift_invention_2;§GBoosts I Unlock;;;;;;;;;;;;;;;;;;;;x
+pop_shift_invention_2_desc;Your Boosts I have unlocked!;;;;;;;;;;;;;;;;;;;;x
+pop_shift_invention_3;§GBoosts II Unlock;;;;;;;;;;;;;;;;;;;;x
+pop_shift_invention_3_desc;Your Boosts II have unlocked!;;;;;;;;;;;;;;;;;;;;x
+pop_shift_invention_4;§GBoosts III Unlock;;;;;;;;;;;;;;;;;;;;x
+pop_shift_invention_4_desc;Your Boosts III have unlocked!;;;;;;;;;;;;;;;;;;;;x
+black_hand;The Black Hand;;;;;;x
+black_hand_desc;The Black Hand has arrived!;;;;;;x
+form_black_hand_title;Form the Black Hand;;;;;;;x
+form_black_hand_desc;The Brotherhood has entrusted me. It is time for a harvest. Fields of green. . ..;;;;;;;x
+kane1;Teaching's of Kane;;;;;;;x
+kane1_desc;Peace Through Power;;;;;;x
+kane_title;The Teachings of Kane;;;;;;;x
+kane_desc;Peace Through Power will be the slogan to unite Earth!;;;;;;x
+temple_prime_title;Construct Temple Prime;;;;;;;x
+temple_prime_desc;Serbia has treated us well, but it is time we expand our operation and begin mining Tiberium in earnest. . .;;;;;;;x
+please_redeem_title;Retake India;;;;;;x
+please_redeem_desc;They got away somehow. . . (release the other one by decision if you only lost one puppet).;;;;;;;x

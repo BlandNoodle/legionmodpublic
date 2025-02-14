@@ -27,6 +27,7 @@ battleship = {
 		steamer_convoy = 60
 		artillery = 30
 		canned_food = 150
+		coal = 50
 	}
 	min_port_level = 4
 	limit_per_port = -1 #-1 is unlimited, but it is possible to limit number of ships per port level.
@@ -37,13 +38,13 @@ battleship = {
 		steamer_convoy = 2.4
 		artillery = 0.075
 		canned_food = 0.4
-		fuel = 1.05
+		coal = 2
 		ammunition = 0.14
 	}
 	
 	#Naval Abilties
 	hull = 75
 	gun_power = 55
-	fire_range = 1.00
+	fire_range = 1.10
 	evasion = 0
 }

@@ -1,8 +1,5 @@
-add_core = MAC
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = sulphur
 life_rating = 32
-
-owner = MAC
-controller = MAC
-
-add_core = CHI

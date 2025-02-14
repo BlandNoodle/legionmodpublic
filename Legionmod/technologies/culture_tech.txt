@@ -270,7 +270,7 @@ analytic_philosophy = {
 	year = 1870
 	cost = 14400
 
-	increase_research = 0.35
+	increase_research = 0.40
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -292,7 +292,7 @@ phenomenology_n_hermeneutic = {
 	year = 1880
 	cost = 18000
 
-	increase_research = 0.75
+	increase_research = 0.50
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -409,7 +409,7 @@ biologism = {
 
 	colonial_migration = 0.1
 	education_efficiency = 0.15
-	increase_research = 0.15
+	increase_research = 0.10
 	
 	ai_chance = {
 		factor = 1.01

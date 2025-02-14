@@ -23,37 +23,37 @@
     officers = {
         culture = dutch
         religion = protestant
-        size = 65
+        size = 125
     }
 
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 2116
+        size = 2516
     }
 
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 726
+        size = 926
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 13225
+        size = 13725
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 13225
+        size = 13725
     }
 
     artisans = {
         culture = dutch
         religion = protestant
-        size = 13225
+        size = 13725
     }
 
     artisans = {
@@ -65,13 +65,13 @@
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1454
+        size = 1854
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 82391
+        size = 102391
     }
 
     artisans = {
@@ -91,7 +91,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 825
+        size = 925
     }
 
     artisans = {
@@ -109,13 +109,13 @@
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1652
+        size = 1752
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 157541
+        size = 177541
     }
 
     artisans = {
@@ -141,7 +141,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 231
+        size = 431
     }
 
     artisans = {
@@ -153,19 +153,19 @@
     artisans = {
         culture = dutch
         religion = protestant
-        size = 2645
+        size = 2945
     }
 
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1454
+        size = 1754
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 32433
+        size = 46433
     }
 }
 #Middelburg (170000/42500 POPS)
@@ -179,7 +179,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 264
+        size = 564
     }
 
     artisans = {
@@ -191,25 +191,25 @@
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1454
+        size = 1654
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 49329
+        size = 76329
     }
 
     artisans = {
         culture = flemish
         religion = catholic
-        size = 150
+        size = 340
     }
 
     farmers = {
         culture = flemish
         religion = catholic
-        size = 1100
+        size = 1700
     }
 }
 #Limburg-Gelderland Region - 979400
@@ -230,19 +230,19 @@
     officers = {
         culture = dutch
         religion = protestant
-        size = 0
+        size = 50
     }
 
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 132
+        size = 345
     }
 
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 396
+        size = 687
     }
 
     artisans = {
@@ -260,7 +260,7 @@
     farmers = {
         culture = dutch
         religion = protestant
-        size = 70753
+        size = 89753
     }
 
     clergymen = {
@@ -278,7 +278,7 @@
     farmers = {
         culture = flemish
         religion = catholic
-        size = 3000
+        size = 6000
     }
 }
 #Breda (173200/43300 POPS)
@@ -292,7 +292,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 264
+        size = 456
     }
 
     artisans = {
@@ -310,7 +310,7 @@
     labourers = {
         culture = dutch
         religion = protestant
-        size = 46353
+        size = 75353
     }
 }
 #Maastricht (164200/41050 POPS)
@@ -324,7 +324,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 264
+        size = 486
     }
 
     artisans = {
@@ -336,19 +336,19 @@
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1454
+        size = 1854
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 44369
+        size = 56369
     }
 
     farmers = {
         culture = flemish
         religion = catholic
-        size = 1100
+        size = 3100
     }
 }
 #Arnhem (412000/103000 POPS)
@@ -368,7 +368,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 661
+        size = 961
     }
 
     artisans = {
@@ -386,7 +386,7 @@
     farmers = {
         culture = dutch
         religion = protestant
-        size = 131389
+        size = 161389
     }
 
     clergymen = {
@@ -404,7 +404,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 3200
+        size = 4200
     }
 }
 #Friesland-Groningen Region : 713800
@@ -431,13 +431,13 @@
     bureaucrats = {
         culture = dutch
         religion = protestant
-        size = 1058
+        size = 1358
     }
 
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 264
+        size = 764
     }
 
     artisans = {
@@ -455,7 +455,7 @@
     farmers = {
         culture = dutch
         religion = protestant
-        size = 46882
+        size = 78882
     }
 
     labourers = {
@@ -475,7 +475,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 396
+        size = 596
     }
 
     artisans = {
@@ -493,7 +493,7 @@
     farmers = {
         culture = dutch
         religion = protestant
-        size = 56603
+        size = 86603
     }
 
     artisans = {
@@ -505,7 +505,7 @@
     farmers = {
         culture = north_german
         religion = protestant
-        size = 900
+        size = 2400
     }
 }
 #Leeuwarden (209200/52300 POPS)
@@ -519,7 +519,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 363
+        size = 763
     }
 
     artisans = {
@@ -537,7 +537,7 @@
     farmers = {
         culture = dutch
         religion = protestant
-        size = 59147
+        size = 78147
     }
 }
 #Assen (80000/20000 POPS)
@@ -551,7 +551,7 @@
     clergymen = {
         culture = dutch
         religion = protestant
-        size = 132
+        size = 476
     }
 
     artisans = {
@@ -563,18 +563,18 @@
     soldiers = {
         culture = dutch
         religion = protestant
-        size = 1454
+        size = 1854
     }
 
     farmers = {
         culture = dutch
         religion = protestant
-        size = 22151
+        size = 47151
     }
 
     farmers = {
         culture = north_german
         religion = protestant
-        size = 1100
+        size = 3100
     }
 }

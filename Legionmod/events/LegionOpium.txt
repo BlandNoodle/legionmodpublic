@@ -145,8 +145,8 @@ country_event = {
 	ai_chance = { factor = 1 }
 	set_global_flag = treaty_ports_activated
 	country_event = { id=13270 days=0 }
-	CHI_1600 = {remove_core = MCK}
-	CHI_2608 = {remove_core = MCK}
+	CHI_1600 = {remove_core = CHI}
+	CHI_2608 = {remove_core = CHI}
     }
 }
 
@@ -250,18 +250,6 @@ country_event = {
 		remove_core = CHI 
 		add_core = ENG
 		}
-	1550 = {
-		secede_province = HKG
-	}
-	1530 = {
-		secede_province = HKG
-	}
-	1547 = {
-		secede_province = HKG
-	}
-	1527 = {
-		secede_province = HKG
-	}
     }
 }
 
@@ -303,64 +291,4 @@ country_event = {
 				}
 			}
     }
-}
-
-country_event = {
-	id = 19000100
-	name = "EVTNAME19000100"
-	desc = "EVTDESC19000100"
-	picture = "Expansion"
-	
-	trigger = {
-	OR = {
-		is_greater_power = yes
-		is_secondary_power = yes
-	}
-	NOT = { has_country_modifier = african_colony }
-	any_state = {
-		trade_goods = precious_metal
-		is_colonial = yes
-		}
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	effect = {
-		name = "EVTOPTA19000100"
-		add_country_modifier = {
-			name = african_colony
-			duration = -1
-		}
-		prestige = 5
-	}
-}
-
-country_event = {
-	id = 19000101
-	name = "EVTNAME19000101"
-	desc = "EVTDESC19000101"
-	
-	trigger = {
-	OR = {
-		is_greater_power = yes
-		is_secondary_power = yes
-	}
-	has_country_modifier = african_colony
-	NOT = {
-		any_state = {
-			trade_goods = precious_metal
-			is_colonial = yes
-			}
-		}
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	effect = {
-		name = "EVTOPTA19000101"
-		remove_country_modifier = { african_colony }
-		prestige = -5
-	}
 }

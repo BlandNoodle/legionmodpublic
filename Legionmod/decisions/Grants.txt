@@ -3,7 +3,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			NOT = { has_country_flag = offer_grants	}		
+			NOT = { has_country_flag = will_give_grants	}		
 		}
 		
 		allow = {
@@ -11,21 +11,22 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = offer_grants
+			set_country_flag = will_give_grants
 		}
 	}
 
 	discontinue_offer_grants = {
 		alert = no
 		potential = {
-			has_country_flag = offer_grants			
+			has_country_flag = will_give_grants			
 		}
 		
 		allow = {
+			ai= no
 		}
 		
 		effect = {
-			clr_country_flag = offer_grants
+			clr_country_flag = will_give_grants
 		}
 
 		ai_will_do = {
@@ -39,18 +40,14 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
+			NOT = {has_country_flag = will_receive_grants}
 		}
 	
 		allow = {
 		}
 
 		effect = {
-			any_country = {
-				limit = {
-					has_country_flag = offer_grants
-				}
-				country_event = { id=9990003 days=0 }
-			}
+			country_event = {id = 100000 days = 0}
 		}
 	}
 	

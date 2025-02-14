@@ -6,97 +6,97 @@
     aristocrats = {
         culture = asian_minor
         religion = animist
-        size = 1083
+        size = 736
     }
 
     bureaucrats = {
         culture = asian_minor
         religion = animist
-        size = 289
+        size = 196
     }
 
     officers = {
         culture = asian_minor
         religion = animist
-        size = 523
+        size = 355
     }
 
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 884
+        size = 601
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 4442
+        size = 3020
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 1062
+        size = 722
     }
 
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 79926
+        size = 54349
     }
 
     aristocrats = {
         culture = asian_minor
         religion = animist
-        size = 2167
+        size = 1473
     }
 
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 1734
+        size = 1179
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 7225
+        size = 4913
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 1445
+        size = 982
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 2040
+        size = 1387
     }
 
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 159094
+        size = 108183
     }
 
     bureaucrats = {
         culture = asian_minor
         religion = animist
-        size = 35
+        size = 23
     }
 
     officers = {
         culture = asian_minor
         religion = animist
-        size = 17
+        size = 11
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 42
+        size = 28
     }
 }
 #Tainan (1528000/382000 POPS) #now part of Taiwan
@@ -104,66 +104,66 @@
     aristocrats = {
         culture = asian_minor
         religion = animist
-        size = 1101
+        size = 748
     }
 
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 957
+        size = 650
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 4768
+        size = 3242
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 1126
+        size = 765
     }
 
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 87584
+        size = 59557
     }
 
     aristocrats = {
         culture = asian_minor
         religion = animist
-        size = 2528
+        size = 1719
     }
 
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 1806
+        size = 1228
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 7225
+        size = 4913
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 1806
+        size = 1228
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 2125
+        size = 1445
     }
 
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 165452
+        size = 112507
     }
 }

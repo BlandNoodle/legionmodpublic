@@ -37,7 +37,7 @@ declarewar = {
 	file = "DeclarationofWar.wav"
 }
 declarewar_onus = {
-	file = "DeclarationofWarUs.wav"
+	file = "DeclarationofWar.wav"
 }
 
 peace = {

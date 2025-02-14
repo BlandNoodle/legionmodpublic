@@ -452,16 +452,12 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA19000146" 
-		prestige = -5
-		HUN = {
-			any_core = {
-				limit = {
-					is_core = AUS
-					}
-				remove_core = AUS
+		any_core = {
+			limit = {
+				is_core = HUN
 			}
+			remove_core = AUS
 		}
-		release = HUN
 		HUN = {
 			add_casus_belli = {
 				target = THIS
@@ -469,24 +465,35 @@ country_event = {
 				months = 60
 			}
 		}
+		release = HUN
 		relation = {
 			who = HUN
 			value = -200
 		}
 		set_country_flag = hunrevolt
+		set_country_flag = hunfight
 	}
 	
 	option = {
 		name = "EVTOPTB19000146" 
-		prestige = -5
 		any_core = {
 			limit = {
 				is_core = HUN
 			}
 			remove_core = AUS
 		}
+		relation = {
+			who = HUN
+			value = 200
+		}
+		create_alliance = HUN
+		diplomatic_influence = {
+			who = HUN
+			value = 100
+		}
 		release = HUN
 		set_country_flag = hunrevolt
+		set_country_flag = hunfriend
 	}
 }
 

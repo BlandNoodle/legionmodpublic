@@ -6,23 +6,12 @@ political_decisions = {
 			NOT = {has_country_flag = sunyatsen}
 		}
 		allow = {
-			government = absolute_monarchy
-			OR = {
-				all_core = {
-					OR = {
-						owned_by = MCK
-						owned_by = THIS
-					}
-				}
-				year = 1900
-			}
-			civilized = no
-			year = 1840
+			year = 1900
 		}
 		effect = {
 			money = 2000000
 			civilized = yes
-			add_accepted_culture = asian_minor
+			add_accepted_culture = hans
 			government = democracy
 			political_reform = wealth_voting
 			political_reform = state_equal_weight
@@ -33,14 +22,6 @@ political_decisions = {
 				name = yatsen
 				duration = 1825
 			}
-			release = MCK
-			inherit = SHA
-			inherit = QNG
-			inherit = MAC
-			inherit = NGB
-			inherit = HKG
-			inherit = FZH
-			inherit = NAN
 			remove_country_modifier = century_humiliate
 			ENG = {
 				remove_country_modifier = free_china_trade
@@ -62,14 +43,6 @@ political_decisions = {
 		effect = {
 			money = 1000000
 			research_points = 8000
-			MCK = {all_core = {add_core = THIS} }
-			SHA = {all_core = {add_core = THIS} }
-			QNG = {all_core = {add_core = THIS} }
-			MAC = {all_core = {add_core = THIS} }
-			NGB = {all_core = {add_core = THIS} }
-			HKG = {all_core = {add_core = THIS} }
-			FZH = {all_core = {add_core = THIS} }
-			NAN = {all_core = {add_core = THIS} }
 			CHI = {all_core = {add_core = THIS} }
 			set_country_flag = taipingwin
 		}
@@ -107,14 +80,6 @@ political_decisions = {
 			}
 			TIB = {all_core = {add_core = THIS} }
 			any_owned = {
-				remove_core = MCK
-				remove_core = SHA
-				remove_core = QNG
-				remove_core = MAC
-				remove_core = NGB
-				remove_core = HKG
-				remove_core = FZH
-				remove_core = NAN
 				remove_core = CHI
 			}
 		}

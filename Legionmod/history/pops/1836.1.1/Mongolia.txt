@@ -4,389 +4,389 @@
 #Ugra (376000/94000 POPS)
 1465 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 1336
+        size = 908
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 53
+        size = 36
     }
 
     officers = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 234
+        size = 159
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 2890
+        size = 1965
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 3251
+        size = 2210
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 765
+        size = 520
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 60942
+        size = 41440
     }
 
     bureaucrats = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 90
+        size = 61
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 53
+        size = 36
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 289
+        size = 196
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 85
+        size = 57
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 2384
+        size = 1621
     }
 }
 #Dalandzadgad (212000/53000 POPS)
 1466 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 758
+        size = 515
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 396
+        size = 269
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 1914
+        size = 1301
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 467
+        size = 317
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 34824
+        size = 23680
     }
 }
 #Bayan Tumen (176000/44000 POPS)
 1467 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 595
+        size = 404
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 306
+        size = 208
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 1480
+        size = 1006
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 361
+        size = 245
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 26930
+        size = 18312
     }
 
     aristocrats = {
-        culture = yakut
+        culture = asian_minor
         religion = animist
-        size = 50
+        size = 34
     }
 
     clergymen = {
-        culture = yakut
+        culture = asian_minor
         religion = animist
-        size = 50
+        size = 34
     }
 
     artisans = {
-        culture = yakut
+        culture = asian_minor
         religion = animist
-        size = 125
+        size = 85
     }
 
     soldiers = {
-        culture = yakut
+        culture = asian_minor
         religion = animist
-        size = 25
+        size = 17
     }
 
     farmers = {
-        culture = yakut
+        culture = asian_minor
         religion = animist
-        size = 2750
+        size = 1870
     }
 }
 #Uliastay (140000/35000 POPS)
 1468 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 469
+        size = 318
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 252
+        size = 171
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 1263
+        size = 858
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 297
+        size = 201
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 23047
+        size = 15671
     }
 }
 #Sainshand (71100/17775 POPS)
 2207 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 252
+        size = 171
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 125
+        size = 85
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 631
+        size = 429
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 148
+        size = 100
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 11704
+        size = 7958
     }
 }
 #Khatgal (152000/38000 POPS)
 2608 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 541
+        size = 367
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 270
+        size = 183
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 1083
+        size = 736
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 318
+        size = 216
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 25287
+        size = 17195
     }
 }
 #Bulgan (84000/21000 POPS)
 2678 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
-        size = 289
+        size = 196
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 144
+        size = 97
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 758
+        size = 515
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 191
+        size = 129
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 12372
+        size = 8412
     }
 }
 #Khovd (120000/30000 POPS)
 2679 = {
     aristocrats = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 252
+        size = 171
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 125
+        size = 85
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 650
+        size = 442
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 148
+        size = 100
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 11849
+        size = 8057
     }
 
     aristocrats = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 144
+        size = 97
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = mongol
+        religion = animist
+        size = 48
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 294
+    }
+
+    soldiers = {
+        culture = mongol
         religion = animist
         size = 72
     }
 
-    artisans = {
-        culture = asian_minor
-        religion = animist
-        size = 433
-    }
-
-    soldiers = {
-        culture = asian_minor
-        religion = animist
-        size = 106
-    }
-
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
-        size = 7928
+        size = 5391
     }
 }
 #Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan
 1469 = {
     aristocrats = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
         size = 150
     }
 
     clergymen = {
-        culture = asian_minor
+        culture = manchu
         religion = animist
         size = 75
     }
 
     artisans = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
         size = 400
     }
 
     soldiers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
         size = 75
     }
 
     farmers = {
-        culture = asian_minor
+        culture = mongol
         religion = animist
         size = 7300
     }

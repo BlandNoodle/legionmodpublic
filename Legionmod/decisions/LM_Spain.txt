@@ -4,10 +4,7 @@ political_decisions = {
 		picture = siesta
 		
 		potential = {
-			OR = {
-				tag = SPA
-				tag = IBE
-			}
+			primary_culture = spanish
 			NOT = {
 				has_country_flag = siesta_time
 			}
@@ -31,10 +28,7 @@ political_decisions = {
 		picture = kings_men
 		
 		potential = {
-			OR = {
-				tag = SPA
-				tag = IBE
-			}
+			primary_culture = spanish
 			NOT = {
 				has_country_flag = all_king_men_spa
 			}
@@ -60,10 +54,7 @@ political_decisions = {
 		picture = gibraltar
 		
 		potential = {
-			OR = {
-				tag = SPA
-				tag = IBE
-			}
+			primary_culture = spanish
 			NOT = {
 				has_country_flag = offer_to_buy_gibratlar
 				own = 517
@@ -98,7 +89,7 @@ political_decisions = {
 		picture = cuba
 		
 		potential = {
-			tag = IBE
+			primary_culture = spanish
 			NOT = {
 				has_country_flag = filipino_accepted
 			}
@@ -127,7 +118,7 @@ political_decisions = {
 		picture = morocco
 		
 		potential = {
-			tag = IBE
+			primary_culture = spanish
 			has_country_flag = filipino_accepted
 			NOT = {
 				has_country_flag = morocco_integrated

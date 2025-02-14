@@ -30,13 +30,13 @@ clipper_transport = {
 
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.12
+		clipper_convoy = 0.08
 	}
 	
 	#Naval Abilties
 	hull = 1
 	gun_power = 1
-	fire_range = 0.4
+	fire_range = 0.25
 	evasion = 0
 }
 

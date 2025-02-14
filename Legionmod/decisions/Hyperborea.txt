@@ -68,7 +68,7 @@ political_decisions = {
 			add_accepted_culture = icelandic
 			add_accepted_culture = sami
 			capital = 307
-			money = 300000
+			money = 200000
 			HYP = {
 				inherit = SWE
 				inherit = DEN
@@ -138,32 +138,5 @@ integratedisabled = {
 		clr_country_flag = inteyes
 	}
 }
-
-integrate_central_america = {
-		picture = claim_central_america
-		
-		potential = {
-			NOT = {tag = MEX}
-			has_country_flag = inteyes
-			OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
-			}
-			NOT = {
-				has_global_flag = caintegrate
-			}
-		}
-		
-		allow = {
-			revolution_n_counterrevolution = 1
-			UCA = { all_core = { owned_by = THIS } }
-		}
-		
-		effect = {
-			add_accepted_culture = central_american
-			UCA = { all_core = { add_core = THIS } }
-			set_global_flag = caintegrate
-		}
-	}
 
 }

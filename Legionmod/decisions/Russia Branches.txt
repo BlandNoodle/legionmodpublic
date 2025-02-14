@@ -1,0 +1,445 @@
+political_decisions = {
+	warplangrey = {
+		potential = {
+			tag = RUS
+			has_country_flag = earlygamerussia
+			NOT = {has_country_flag = warplangrey}
+			NOT = {has_country_flag = warprogressing}
+		}
+		allow = {
+			war = no
+			money = 200000
+			is_mobilised = yes
+			706 = {
+				country_units_in_province = THIS
+			}
+		}
+		effect = {
+			set_country_flag = warplangrey
+			set_country_flag = warprogressing
+			PRU_690 = {add_core = THIS}
+			PRU_695 = {add_core = THIS}
+			badboy = 16
+		}
+	}
+	
+	greyvictory = {
+		picture = "winning"
+		potential = {
+			tag = RUS
+			has_country_flag = earlygamerussia
+			has_country_flag = warplangrey
+			has_country_flag = warprogressing
+			NOT = {has_country_flag = greyvictory}
+		}
+		allow = {
+			PRU_690 = {owned_by = THIS}
+			PRU_695 = {owned_by = THIS}
+			war = no
+		}
+		effect = {
+			set_country_flag = greyvictory
+			clr_country_flag = warprogressing
+			prestige = 15
+		}
+	}
+	
+	warplanpink = {
+		potential = {
+			tag = RUS
+			has_country_flag = earlygamerussia
+			NOT = {has_country_flag = warplanpink}
+			NOT = {has_country_flag = warprogressing}
+		}
+		allow = {
+			war = no
+			money = 200000
+			is_mobilised = yes
+			956 = {
+				country_units_in_province = THIS
+			}
+			715 = {
+				country_units_in_province = THIS
+			}
+		}
+		effect = {
+			set_country_flag = warplanpink
+			set_country_flag = warprogressing
+			AUS_702 = {add_core = THIS}
+			AUS_662 = {add_core = THIS}
+			badboy = 16
+		}
+	}
+	
+	pinkvictory = {
+		picture = "winning"
+		potential = {
+			tag = RUS
+			has_country_flag = earlygamerussia
+			has_country_flag = warplanpink
+			has_country_flag = warprogressing
+			NOT = {has_country_flag = pinkvictory}
+		}
+		allow = {
+			AUS_702 = {owned_by = THIS}
+			AUS_662 = {owned_by = THIS}
+			war = no
+		}
+		effect = {
+			set_country_flag = pinkvictory
+			clr_country_flag = warprogressing
+			prestige = 15
+		}
+	}
+	
+	warplangreen = {
+		potential = {
+			tag = RUS
+			has_country_flag = earlygamerussia
+			NOT = {has_country_flag = warplangreen}
+			NOT = {has_country_flag = warprogressing}
+		}
+		allow = {
+			war = no
+			money = 200000
+			is_mobilised = yes
+			338 = {
+				country_units_in_province = THIS
+			}
+			345 = {
+				country_units_in_province = THIS
+			}
+		}
+		effect = {
+			set_country_flag = warplangreen
+			set_country_flag = warprogressing
+			SWE_308 = {add_core = THIS}
+			SWE_309 = {add_core = THIS}
+			badboy = 16
+		}
+	}
+	
+	greenvictory = {
+		picture = "winning"
+		potential = {
+			tag = RUS
+			has_country_flag = earlygamerussia
+			has_country_flag = warplangreen
+			has_country_flag = warprogressing
+			NOT = {has_country_flag = greenvictory}
+		}
+		allow = {
+			SWE_308 = {owned_by = THIS}
+			SWE_309 = {owned_by = THIS}
+			war = no
+		}
+		effect = {
+			set_country_flag = greenvictory
+			clr_country_flag = warprogressing
+			prestige = 15
+		}
+	}
+	
+	siberian_ports = {
+		picture = "begin_drain"
+		potential = {
+			has_country_flag = pacific_focus
+			tag = RUS
+			NOT = {has_country_flag = starttheports}
+		}
+		allow = {
+			money = 100000
+			1082 = {
+				owned_by = THIS
+				has_building = naval_base
+			}
+			1074 = {
+				owned_by = THIS
+				has_building = naval_base
+			}
+			1481 = {
+				owned_by = THIS
+				has_building = naval_base
+			}
+		}
+		effect = {
+			set_country_flag = starttheports
+			treasury = -100000
+			prestige = 10
+			1082 = {
+				add_province_modifier = {
+					name = pacific_ports
+					duration -1
+				}
+				assimilate = yes
+			}
+			1074 = {
+				add_province_modifier = {
+					name = pacific_ports
+					duration -1
+				}
+				assimilate = yes
+			}
+			1481 = {
+				add_province_modifier = {
+					name = pacific_ports
+					duration -1
+				}
+				assimilate = yes
+			}
+						1085 = {
+				trade_goods = timber
+				assimilate = yes
+			}
+			2617 = {
+				trade_goods = sulphur
+				assimilate = yes
+			}
+			1084 = {
+				trade_goods = iron
+				assimilate = yes
+			}
+			1083 = {
+				assimilate = yes
+			}
+			1086 = {
+				secede_province = THIS
+			}
+			1087 = {
+				secede_province = THIS
+			}
+			CHI_1086 = {add_core = THIS}
+		}
+	}
+	
+	alaskan_ports = {
+		picture = "begin_drain"
+		potential = {
+			has_country_flag = pacific_focus
+			tag = RUS
+			has_country_flag = starttheports
+			NOT = {has_country_flag = alaskaports}
+		}
+		allow = {
+			money = 100000
+			1 = {
+				owned_by = THIS
+				has_building = naval_base
+			}
+		}
+		effect = {
+			money = -100000
+			prestige = 10
+			1 = {
+				add_province_modifier = {
+					name = pacific_ports
+					duration -1
+				}
+				life_rating = 10
+			}
+			2 = {
+				life_rating = 10
+			}
+			3 = {
+				life_rating = 10
+			}
+			4 = {
+				life_rating = 10
+			}
+			5 = {
+				life_rating = 10
+			}
+			2630 = {
+				secede_province = THIS
+				life_rating = 15
+			}
+			2631 = {
+				secede_province = THIS
+				life_rating = 15
+			}
+			2599 = {
+				secede_province = THIS
+				life_rating = 15
+			}
+			activate_technology = battleship_column_doctrine
+			set_country_flag = alaskaports
+		}
+	}
+	
+	far_east_armory = {
+		picture = "Emergency_ship_building_effort"
+		potential = {
+			owns = 1082
+			has_country_flag = pacific_focus
+			NOT = {has_country_flag = armory_up}
+		}
+		allow = {
+			experimental_railroad = 1
+			mechanical_production = 1
+			money = 100000
+			1084 = {
+				is_colonial = no
+			}
+		}
+		effect = {
+			treasury = -100000
+			1085 = {
+				trade_goods = timber
+				assimilate = yes
+			}
+			2617 = {
+				trade_goods = sulphur
+				assimilate = yes
+			}
+			1084 = {
+				trade_goods = iron
+				assimilate = yes
+			}
+			1082 = {
+				assimilate = yes
+			}
+			1083 = {
+				assimilate = yes
+			}
+			CHI_1082 = {
+				infrastructure = 3
+				add_province_modifier = {
+					name = britishraj
+					duration = 3650
+				}
+			}
+			set_country_flag = armory_up
+		}
+	}
+	
+	oregon_party = {
+		potential = {
+			has_country_flag = pacific_focus
+			tag = RUS
+			has_country_flag = alaskaports
+			NOT = {has_country_flag = oregonparty}
+		}
+		allow = {
+			1 = {
+				owned_by = THIS
+			}
+			NOT = {badboy = 0.4}
+			iron_breech_loaded_artillery = 1
+		}
+		effect = {
+			set_country_flag = oregonparty
+			ENG_22 = {add_core = THIS}
+			USA_78 = {add_core = THIS}
+			USA_81 = {add_core = THIS}
+			USA_91 = {add_core = THIS}
+			USA_116 = {add_core = THIS}
+			USA_1 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 3650
+				}
+			}
+			badboy = 24
+		}
+	}
+	
+	russian_naval_guns = {
+		picture = "Emergency_ship_building_effort"
+		potential = {
+			tag = RUS
+			has_country_flag = pacific_focus
+			has_country_flag = starttheports
+			NOT = {has_country_flag = gunnaz}
+		}
+		allow = {
+			fire_control_systems = 1
+			steel_breech_loaded_artillery = 1
+			iron_steamers = 1
+			money = 500000
+		}
+		effect = {
+			set_country_flag = gunnaz
+			treasury = -500000
+			prestige = 10
+			activate_technology = main_armament
+			activate_technology = weapon_platforms
+		}
+	}
+	
+	pacific_islanders = {
+		picture = "continue_drain"
+		potential = {
+			tag = RUS
+			has_country_flag = pacific_focus
+			has_country_flag = starttheports
+			NOT = {has_country_flag = mauihead}
+		}
+		allow = {
+			money = 500000
+			NOT = {year = 1870}
+			steamers = 1
+			1082 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			treasury = -500000
+			prestige = 15
+			2525 = {
+				secede_province = THIS
+				add_core = THIS
+				add_province_modifier = {
+					name = britishraj
+					duration = 3650
+				}
+			}
+			2524 = {
+				secede_province = THIS
+				add_core = THIS
+				add_province_modifier = {
+					name = britishraj
+					duration = 3650
+				}
+			}
+			2519 = {
+				secede_province = THIS
+				add_core = THIS
+				add_province_modifier = {
+					name = britishraj
+					duration = 3650
+				}
+			}
+		}
+	}
+	
+	pacific_coast_party = {
+		potential = {
+			tag = RUS
+			has_country_flag = pacific_focus
+			NOT = {has_country_flag = partyrockers}
+			owns = 1082
+			owns = 1
+			owns = 78
+		}
+		allow = {
+			owns = 1082
+			owns = 1
+			owns = 78
+			owns = 81
+			owns = 89
+			owns = 14
+			owns = 1481
+			owns = 2525
+			owns = 2524
+			money = 2000000
+			big_producer = liquor
+			big_producer = steamer_convoy
+			big_producer = clipper_convoy
+		}
+		effect = {
+			treasury = -2000000
+			country_event = {id = 19000187 days = 1}
+			set_country_flag = partyrockers
+		}
+	}
+}

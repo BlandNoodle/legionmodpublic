@@ -28,7 +28,7 @@ dreadnought = {
 		artillery = 60
 		canned_food = 750
 		telephones = 10
-		fuel = 20
+		fuel = 25
 	}
 	min_port_level = 5
 	limit_per_port = -1
@@ -39,13 +39,14 @@ dreadnought = {
 		steamer_convoy = 3.3
 		artillery = 0.075
 		canned_food = 0.5
-		fuel = 1.75
+		fuel = 2
 		ammunition = 0.18
+		telephones = 0.02
 	}
 	
 	#Naval Abilties
 	hull = 120
 	gun_power = 80
-	fire_range = 1.25
+	fire_range = 1.50
 	evasion = 0
 }

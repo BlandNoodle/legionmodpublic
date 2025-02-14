@@ -50,34 +50,17 @@ political_decisions = {
 			}
 		}
 		effect = {
-		diplomatic_influence = {
-			who = HND
-			value = 300    }
+			diplomatic_influence = {
+				who = HND
+				value = 300    
+			}
 			release = PAN
 			HND = {	
-			inherit = NAG
-			inherit = ORI
-			inherit = AWA
-			inherit = BAS
-			inherit = GWA
-			inherit = SIK
-			inherit = BUN
-			inherit = BIK
-			inherit = BHO
-			inherit = HYD
-			inherit = IND
-			inherit = JAI
-			inherit = JAS
-			inherit = JOD
-			inherit = MEW
-			inherit = BER
-			inherit = MYS
-			inherit = TRA
-			inherit = KUT
-			inherit = PAN
-			government = hms_government
-			political_reform = landed_voting
-			political_reform = secret_ballots
+				inherit = ORI
+				inherit = PAN
+				government = hms_government
+				political_reform = landed_voting
+				political_reform = secret_ballots
 			}
 			prestige = 25
 			any_pop = {
@@ -267,7 +250,15 @@ southaf = {
 		
 		effect = {
 			set_country_flag = safintegrate
-			SAF = { all_core = { add_core = ENG } }
+			SAF = { 
+				all_core = { 
+					add_core = ENG 
+					add_province_modifier = {
+							name = britishraj
+							duration = 1825
+					}
+				} 
+			}
 			add_accepted_culture = boer
 			treasury = -500000
 		}
@@ -397,57 +388,62 @@ southaf = {
 		}
 		allow = {
 			war = no
-			HND = {
-				exists = yes
-				vassal_of = ENG
-				civilized = yes
+			NOT = {
+				any_owned = {
+					is_core = HND
+				}
 			}
+			nationalism_n_imperialism = 1
+			muzzle_loaded_rifles = 1
 		}
 		effect = {
 			set_country_flag = colonizer
 			prestige = 15
-			ENG_58 = {
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = CAN
+						is_core = AST
+						is_core = NZL
+						is_core = NEN
+						is_core = EGY
+					}
+				}
 				add_province_modifier = {
 					name = britishraj
 					duration = 10950
 				}
 			}
-			ENG_36 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
-				}
+		}
+	}
+	
+	please_redeem = {
+		picture = "dk2"
+		potential = {
+			tag = ENG
+			NOT = {has_country_flag = empress_of_india}
+			NOT = {has_country_flag = colonizer2}
+			year = 1840
+		}
+		allow = {
+			war = no
+			NOT = {is_our_vassal = HND}
+			NOT = {is_our_vassal = ORI}
+		}
+		effect = {
+			set_country_flag = colonizer2
+			prestige = 1
+			casus_belli = {
+				target = HND
+				type = conquest
+				months = 60
 			}
-			ENG_9 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
-				}
+			casus_belli = {
+				target = ORI
+				type = conquest
+				months = 60
 			}
-			ENG_22 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
-				}
-			}
-			ENG_2513 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
-				}
-			}
-			ENG_2497 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
-				}
-			}
-			ENG_2468 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 10950
-				}
-			}
+			badboy = 15
 		}
 	}
 }

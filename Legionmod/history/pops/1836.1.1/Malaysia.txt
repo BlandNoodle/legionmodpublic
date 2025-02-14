@@ -19,7 +19,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 500
+        size = 1600
     }
 
     clergymen = {
@@ -37,13 +37,13 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 4700
+        size = 8700
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 1100
+        size = 1500
     }
 }
 #Malacca (52800/13200 POPS)
@@ -51,55 +51,55 @@
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 50
+        size = 500
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 1450
+        size = 3450
     }
 
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 1500
+        size = 78800
     }
 
     aristocrats = {
         culture = asian_minor
         religion = animist
-        size = 175
+        size = 575
     }
 
     bureaucrats = {
         culture = asian_minor
         religion = animist
-        size = 25
+        size = 679
     }
 
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 100
+        size = 500
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 500
+        size = 1200
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 100
+        size = 2000
     }
 
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 9300
+        size = 45300
     }
 }
 #Penang (84000/21000 POPS)
@@ -188,7 +188,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 22050
+        size = 89050
     }
 
     clergymen = {
@@ -200,7 +200,7 @@
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 1450
+        size = 1950
     }
 
     farmers = {
@@ -256,7 +256,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 1100
+        size = 7900
     }
 }
 #Kuantan (32000/8000 POPS)
@@ -264,31 +264,31 @@
     aristocrats = {
         culture = asian_minor
         religion = animist
-        size = 75
+        size = 750
     }
 
     clergymen = {
         culture = asian_minor
         religion = animist
-        size = 75
+        size = 1205
     }
 
     artisans = {
         culture = asian_minor
         religion = animist
-        size = 400
+        size = 3700
     }
 
     soldiers = {
         culture = asian_minor
         religion = animist
-        size = 75
+        size = 3050
     }
 
     labourers = {
         culture = asian_minor
         religion = animist
-        size = 7375
+        size = 150375
     }
 }
 #Ipoh (116000/29000 POPS)
@@ -320,7 +320,7 @@
     labourers = {
         culture = asian_minor
         religion = animist
-        size = 25900
+        size = 45900
     }
 
     clergymen = {
@@ -338,7 +338,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 2000
+        size = 6000
     }
 }
 #under Overlordship of Siam 1836 (284000)
@@ -371,7 +371,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 44640
+        size = 89640
     }
 
     clergymen = {
@@ -389,7 +389,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 1980
+        size = 5980
     }
 }
 #Kota Bharu (168000/42000 POPS)
@@ -421,7 +421,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 66285
+        size = 99285
     }
 
     clergymen = {
@@ -439,7 +439,7 @@
     farmers = {
         culture = asian_minor
         religion = animist
-        size = 1980
+        size = 12980
     }
 }
 #Northern Borneo Region (252000)
@@ -455,7 +455,7 @@
     bureaucrats = {
         culture = indonesian
         religion = animist
-        size = 50
+        size = 500
     }
 
     officers = {
@@ -467,7 +467,7 @@
     clergymen = {
         culture = indonesian
         religion = animist
-        size = 50
+        size = 500
     }
 
     artisans = {
@@ -479,13 +479,13 @@
     soldiers = {
         culture = indonesian
         religion = animist
-        size = 75
+        size = 750
     }
 
     farmers = {
         culture = indonesian
         religion = animist
-        size = 5425
+        size = 23425
     }
 }
 #Kuching (88000/22000 POPS)

@@ -135,9 +135,9 @@ FRA_1097;Joker Islands;;;;;;x
 reelin_in_the_spuds_title;Reeling in the Spuds;;;;;;x
 reelin_in_the_spuds_desc;Never meet your heroes, cause they usually are bastards from southern Ireland. Spudguns from Scotland though, so he lives for now.;;;;;;x
 southaf_title;Cockwhip the Boers;;;;;;;x
-southaf_desc;We gotta cockwhip em so we can run it down on the lesser folk, you know. like the germans. what? you thought i was talking about them [fine gentlemen]? we already killed them.;;;;;;;x
+southaf_desc;We gotta cockwhip em so we can run it down on the lesser folk, you know. like the germans. what? you thought i was talking about them? we already killed them.;;;;;;;x
 trash_title;Better Than Napoleon;;;;;;x
-trash_desc;Nappy couldn't contain the [well-groomed] fellows across the sea, but they dont know how to run a state so they still fighting, ripe for taking!;;;;;;;x
+trash_desc;Nappy couldn't contain the fellows across the sea, but they dont know how to run a state so they still fighting, ripe for taking!;;;;;;;x
 ybarra_title;Crown of Ybarras;;;;;;;x
 ybarra_desc;Claim crown of Ybarra's! Cinco de Mayo but win! SO MUCH WIN!;;;;;;;;x
 low_opium;Low Opium Trade;;;;;;;;x
@@ -207,7 +207,7 @@ money_hoarder_7;fat fuck BROLY;;;;;;x
 money_hoarder_7_desc;start burning it;;;;;;x
 war_propaganda;Propaganda;;;;;;;;x
 war_propaganda_desc;fight, my legions;;;;;;x
-healthcare_poorly_funded_a;broke [fellow] alert;;;;;;x
+healthcare_poorly_funded_a;broke alert;;;;;;x
 healthcare_poorly_funded_b;broke!;;;;;;x
 healthcare_poorly_funded_c;brokie;;;;;;x
 healthcare_poorly_funded_d;ur still broke;;;;;;x
@@ -215,7 +215,7 @@ low_schools_fully_funded;der garten;;;;;;x
 acceptable_schools_fully_funded;der kinder garten;;;;;;;x
 good_schools_fully_funded;der highschoolen;;;;;;;x
 education_fully_funded;der universalis;;;;;;x
-neglected_education;broke [fellow] alarm;;;;;;;x
+neglected_education;broke alarm;;;;;;;x
 EVTNAME19000094;State of Asia;;;;;;;;x
 EVTDESC19000094;With the loss of our New World holdings and consolidation of India, we have large deficits left to fill and yet we were unable to prevent the wealth we had left from spilling into Qing coffers. The growing demand for chinese goods in Europe has far outscaled any efforts to wrestle their monopoly away on tea and silk. However, the climate in India is suitable for poppy production, allowing us to exchange opium for tea at an unprecedented scale. Unfortunately, the Qing have begun to notice this activity and while undoubtedly clamp down on the trade.;;;;;;x
 EVTOPTA19000094;Utilise the Opium;;;;;;x
@@ -283,7 +283,7 @@ organize_colonial_armies_title;Organize Colonial Armies;;;;;;x
 organize_colonial_armies_desc;If you do this decision you can promote more soldier pops in colonies, sorry I don't remember what the percentage increase is but it is worth the meager payment, I know you got cash;;;;;;;x
 indiacountry;Raj Academics;;;;;;x
 EVTNAME19000125;Disaster at Annual;;;;;;x
-EVTDESC19000125;The overstretched Spanish military build-up in the Eastern Spanish Protectorate in Morocco crumbled. After the battle, the Rifians advanced eastward and overran more than 130 Spanish blockhouses. The Spanish garrisons were destroyed without mounting a coordinated response to the attacks. By the end of August, Spain had lost all the territories that it had gained in the area since 1909. General Silvestre disappeared and his remains were never found. According to one report, Spanish sergeant Francisco Basallo Becerra from the Kandussi garrison, an outpost east of Annual, identified the remains of Silvestre by his general's sash.[20] A Moorish courier from Kaddur Namar said that eight days after the battle, he saw the corpse of the general lying face down on the battlefield and still recognizable by his sash and epaulettes.;;;;;;x
+EVTDESC19000125;The overstretched Spanish military build-up in the Eastern Spanish Protectorate in Morocco crumbled. After the battle, the Rifians advanced eastward and overran more than 130 Spanish blockhouses. The Spanish garrisons were destroyed without mounting a coordinated response to the attacks. By the end of August, Spain had lost all the territories that it had gained in the area since 1909. General Silvestre disappeared and his remains were never found. According to one report, Spanish sergeant Francisco Basallo Becerra from the Kandussi garrison, an outpost east of Annual, identified the remains of Silvestre by his general's sash. A Moorish courier from Kaddur Namar said that eight days after the battle, he saw the corpse of the general lying face down on the battlefield and still recognizable by his sash and epaulettes.;;;;;;x
 EVTOPTA19000125;Chicken meat is cheap (war will be declared);;;;;;;x
 EVTOPTB19000125;Its jover. . .(let em go);;;;;;x
 EVTNAME19000126;Prepare for War;;;;;;;x
@@ -318,7 +318,7 @@ EVTNAME19000130;Lu Bu defeated;;;;;;x
 EVTDESC19000130;In a dramatic and unprecedented turn of events, the seemingly unstoppable march of Warlord Lu Bu's conquest has met a climactic end at the hands of an international coalition determined to halt his reign of terror. Today marks a historic chapter as forces from various nations joined together to face the formidable adversary head-on.The battle reached its climax as the coalition's forces managed to encircle and isolate Lu Bu from his command center. Despite his legendary combat skills, the Warlord found himself overwhelmed by the sheer force of the coordinated assault. The turning tide became apparent as the allied generals strategically exploited weaknesses in Lu Bu's defenses, gradually wearing down his forces. As the dust settled on the battlefield, the once indomitable Lu Bu was forced to concede defeat. The international coalition emerged victorious, marking the end of an era defined by tyranny and unbridled ambition. The conquered territories, long held captive by fear, erupted in a mixture of relief and jubilation as news of the coalition's success spread.;;;;;;x
 EVTOPTA19000130;Owari Da;;;;;;x
 EVTNAME19000131;Surrender or Face Unthinkable Consequences;;;;;;x
-EVTDESC19000131;I pen this missive to you as a last opportunity for reason before the storm that shall soon befall you and your pitiful forces. The winds of war are at our backs, and the drums of impending doom resonate in every footstep of my advancing army. Let it be known that my patience wears thin, and the time for negotiation is swiftly closing its door. I, Lu Bu, Warlord of the [Name of Lu Bu's Faction], demand your immediate and unconditional surrender. Your defiance has not gone unnoticed, but your feeble attempts at resistance will only prolong the agony that awaits you. Should you choose to ignore this final warning, the consequences shall be severe and unforgiving. My forces are relentless, and I will not hesitate to unleash the full fury of my wrath upon your lands. You will witness the annihilation of all you hold dear ? your armies will crumble, your cities will burn, and your people will be subjected to a fate so gruesome that it will be spoken of in hushed tones for generations to come. Do not delude yourself into thinking that help will come to your aid, for I have cast a shadow so vast that no ally can emerge from it. Resistance is futile, and your only sensible course of action is to submit to my will. Surrender now, and perhaps I will be merciful in victory. Delay, and you shall face a calamity that will haunt the annals of history as a testament to your arrogance and folly. Choose wisely, for the consequences of your decision are upon you.;;;;;;x
+EVTDESC19000131;I pen this missive to you as a last opportunity for reason before the storm that shall soon befall you and your pitiful forces. The winds of war are at our backs, and the drums of impending doom resonate in every footstep of my advancing army. Let it be known that my patience wears thin, and the time for negotiation is swiftly closing its door. I, Lu Bu, Warlord of the, demand your immediate and unconditional surrender. Your defiance has not gone unnoticed, but your feeble attempts at resistance will only prolong the agony that awaits you. Should you choose to ignore this final warning, the consequences shall be severe and unforgiving. My forces are relentless, and I will not hesitate to unleash the full fury of my wrath upon your lands. You will witness the annihilation of all you hold dear ? your armies will crumble, your cities will burn, and your people will be subjected to a fate so gruesome that it will be spoken of in hushed tones for generations to come. Do not delude yourself into thinking that help will come to your aid, for I have cast a shadow so vast that no ally can emerge from it. Resistance is futile, and your only sensible course of action is to submit to my will. Surrender now, and perhaps I will be merciful in victory. Delay, and you shall face a calamity that will haunt the annals of history as a testament to your arrogance and folly. Choose wisely, for the consequences of your decision are upon you.;;;;;;x
 EVTOPTA19000131;Nonsense!;;;;;;x
 EVTNAME19000132;Lu Bu's Warpath;;;;;;x
 EVTDESC19000132;The conquered country is subjected to a harsh and uncompromising rule under Lu Bu's iron fist. Those who resist face brutal reprisals, and dissent is swiftly crushed. The once-thriving economy is plundered for the spoils of war, and the populace is subjected to heavy taxation and forced labor. The devastation wrought by Lu Bu's conquest is not only physical but also psychological. The people are left traumatized, their sense of security shattered. The scars of war run deep, and the conquered country is forever changed by the ruthless ambition of Lu Bu and his insatiable lust for power. The legacy of his conquest serves as a grim reminder of the price paid by those who dared to oppose the might of the Warlord.;;;;;;;x
@@ -637,7 +637,7 @@ thesource_desc;Time to finish them from the source, and then keep going to reuni
 developdonbass_title;Develop Donbass Region;;;;;;;;x
 developdonbass_desc;As the Industrial Revolution took hold across Europe, the vast coal resources of the region, discovered in 1721, began to be exploited in the mid-late 19th century. A map of the sparsely populated Wild Fields in the 17th century It was at this point that the name Donbas came into use, derived from the term "Donets Coal Basin" referring to the area along the Donets river where most of the coal reserves were found. The rise of the coal industry led to a population boom in the region, largely driven by Russian settlers.;;;;;;;;x
 donbass;Donbass;;;;;;x
-donbass_desc;Donbass has been industrialized;;;;;x
+donbass_desc;Donbass has been industrialized;;;;;;x
 octoberrev_title;The October Revolution;;;;;;;x
 octoberrev_desc;Socialism hasn't gone far enough. . . . §R(This will have severe consequences depending on how well you are doing)§W;;;;;;;x
 firstpolitiburo_title;Establish the First Politiburo;;;;;;x

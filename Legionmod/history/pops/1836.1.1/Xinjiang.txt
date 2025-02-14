@@ -5,711 +5,711 @@
 1594 = {
     aristocrats = {
         culture = asian_minor
-        religion = animist
-        size = 794
+        religion = sunni
+        size = 539
     }
 
     bureaucrats = {
-        culture = manchu
-        religion = animist
-        size = 250
+        culture = kazak
+        religion = sunni
+        size = 170
     }
 
     officers = {
-        culture = manchu
-        religion = animist
-        size = 325
+        culture = kazak
+        religion = sunni
+        size = 221
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 525
+        culture = kazak
+        religion = sunni
+        size = 357
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 2600
+        culture = kazak
+        religion = sunni
+        size = 1768
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 525
+        culture = kazak
+        religion = sunni
+        size = 357
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 46775
+        culture = kazak
+        religion = sunni
+        size = 31807
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 225
+        culture = kazak
+        religion = sunni
+        size = 153
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 125
+        culture = kazak
+        religion = sunni
+        size = 85
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 575
+        culture = kazak
+        religion = sunni
+        size = 391
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 100
+        culture = kazak
+        religion = sunni
+        size = 68
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 10975
+        culture = kazak
+        religion = sunni
+        size = 7463
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 500
+        culture = kazak
+        religion = sunni
+        size = 340
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 1450
+        culture = kazak
+        religion = sunni
+        size = 986
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 975
+        culture = kazak
+        religion = sunni
+        size = 663
     }
 }
 #Ili (168000/42000 POPS)
 1595 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 575
+        culture = kazak
+        religion = sunni
+        size = 391
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 300
+        culture = kazak
+        religion = sunni
+        size = 204
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 1500
+        culture = kazak
+        religion = sunni
+        size = 1020
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 300
+        culture = kazak
+        religion = sunni
+        size = 204
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 27325
+        culture = kazak
+        religion = sunni
+        size = 18581
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 100
+        culture = kazak
+        religion = sunni
+        size = 68
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 300
+        culture = kazak
+        religion = sunni
+        size = 204
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 5475
+        culture = kazak
+        religion = sunni
+        size = 3723
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 20
+        culture = kazak
+        religion = sunni
+        size = 13
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 20
+        culture = kazak
+        religion = sunni
+        size = 13
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 10
+        culture = kazak
+        religion = sunni
+        size = 6
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 900
+        culture = kazak
+        religion = sunni
+        size = 612
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 100
+        culture = kazak
+        religion = sunni
+        size = 68
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 250
+        culture = kazak
+        religion = sunni
+        size = 170
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 4550
+        culture = kazak
+        religion = sunni
+        size = 3094
     }
 }
 #Tulta (88000/22000 POPS)
 1596 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 125
+        culture = kazak
+        religion = sunni
+        size = 85
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 350
+        culture = kazak
+        religion = sunni
+        size = 238
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 6375
+        culture = kazak
+        religion = sunni
+        size = 4335
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 125
+        culture = kazak
+        religion = sunni
+        size = 85
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 350
+        culture = kazak
+        religion = sunni
+        size = 238
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 6375
+        culture = kazak
+        religion = sunni
+        size = 4335
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 20
+        culture = kazak
+        religion = sunni
+        size = 13
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 20
+        culture = kazak
+        religion = sunni
+        size = 13
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 10
+        culture = kazak
+        religion = sunni
+        size = 6
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 900
+        culture = kazak
+        religion = sunni
+        size = 612
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 125
+        culture = kazak
+        religion = sunni
+        size = 85
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 350
+        culture = kazak
+        religion = sunni
+        size = 238
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 6375
+        culture = kazak
+        religion = sunni
+        size = 4335
     }
 }
 #Aksu (192000/48000 POPS)
 1597 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 950
+        culture = kazak
+        religion = sunni
+        size = 646
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 500
+        culture = kazak
+        religion = sunni
+        size = 340
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 2400
+        culture = kazak
+        religion = sunni
+        size = 1632
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 500
+        culture = kazak
+        religion = sunni
+        size = 340
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 43650
+        culture = kazak
+        religion = sunni
+        size = 29682
     }
 }
 #Khotan (88000/22000 POPS)
 1598 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 425
+        culture = kazak
+        religion = sunni
+        size = 289
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 225
+        culture = kazak
+        religion = sunni
+        size = 153
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 1100
+        culture = kazak
+        religion = sunni
+        size = 748
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 225
+        culture = kazak
+        religion = sunni
+        size = 153
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 20025
+        culture = kazak
+        religion = sunni
+        size = 13617
     }
 }
 #Kumul (188000/47000 POPS)
 1599 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 850
+        culture = kazak
+        religion = sunni
+        size = 578
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 425
+        culture = kazak
+        religion = sunni
+        size = 289
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 2150
+        culture = kazak
+        religion = sunni
+        size = 1462
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 425
+        culture = kazak
+        religion = sunni
+        size = 289
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 39200
+        culture = kazak
+        religion = sunni
+        size = 26656
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 150
+        culture = kazak
+        religion = sunni
+        size = 102
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 2700
+        culture = kazak
+        religion = sunni
+        size = 1836
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 900
+        culture = kazak
+        religion = sunni
+        size = 612
     }
 }
 #Urumqi (332000/83000 POPS)
 1600 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 1200
+        culture = kazak
+        religion = sunni
+        size = 816
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 600
+        culture = kazak
+        religion = sunni
+        size = 408
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 3300
+        culture = kazak
+        religion = sunni
+        size = 2244
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 675
+        culture = kazak
+        religion = sunni
+        size = 459
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 60225
+        culture = kazak
+        religion = sunni
+        size = 40953
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 125
+        culture = kazak
+        religion = sunni
+        size = 85
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 400
+        culture = kazak
+        religion = sunni
+        size = 272
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 7325
+        culture = kazak
+        religion = sunni
+        size = 4981
     }
 
     bureaucrats = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 150
+        culture = kazak
+        religion = sunni
+        size = 102
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 2750
+        culture = kazak
+        religion = sunni
+        size = 1870
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 100
+        culture = kazak
+        religion = sunni
+        size = 68
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 1800
+        culture = kazak
+        religion = sunni
+        size = 1224
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 200
+        culture = kazak
+        religion = sunni
+        size = 136
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 3600
+        culture = kazak
+        religion = sunni
+        size = 2448
     }
 }
 #Lopnur (32000/8000 POPS)
 2607 = {
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 250
+        culture = kazak
+        religion = sunni
+        size = 170
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 4575
+        culture = kazak
+        religion = sunni
+        size = 3111
     }
 
     aristocrats = {
-        culture = manchu
-        religion = animist
-        size = 50
+        culture = kazak
+        religion = sunni
+        size = 34
     }
 
     clergymen = {
-        culture = manchu
-        religion = animist
-        size = 75
+        culture = kazak
+        religion = sunni
+        size = 51
     }
 
     artisans = {
-        culture = manchu
-        religion = animist
-        size = 150
+        culture = kazak
+        religion = sunni
+        size = 102
     }
 
     soldiers = {
-        culture = manchu
-        religion = animist
-        size = 25
+        culture = kazak
+        religion = sunni
+        size = 17
     }
 
     farmers = {
-        culture = manchu
-        religion = animist
-        size = 2700
+        culture = kazak
+        religion = sunni
+        size = 1836
     }
 }

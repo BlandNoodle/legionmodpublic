@@ -2,7 +2,7 @@ country_event = {
 	id = 500059
 	title = "EVTNAME500059" #Infamy too high
 	desc = "EVTDESC500059"
-	picture = "bad_badboy"
+	picture = "cry"
 	
 	trigger = {
 		ai = no
@@ -42,5 +42,31 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT500059A"
+	}
+}
+
+country_event = {
+	id = 500060
+	title = "Redemption"
+	desc = "We are chill now brothers, continue as per usual."
+	picture = "saxonyfallen"
+	
+	trigger = {
+		ai = no
+		NOT = {badboy = 1.2}
+		OR = {
+			has_country_modifier = kinda_bad_badboy 
+			has_country_modifier = bad_badboy 
+		}
+	}
+		
+	mean_time_to_happen = { days = 2 }
+
+	immediate = {
+		remove_country_modifier = kinda_bad_badboy
+	}
+	
+	option = {
+		name = "Real Spill"
 	}
 }

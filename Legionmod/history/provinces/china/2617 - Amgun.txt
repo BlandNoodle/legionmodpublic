@@ -1,6 +1,6 @@
-owner = MCK
-controller = MCK
-add_core = MCK
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = coal
 life_rating = 32
 1861.1.1 = {
@@ -8,5 +8,3 @@ life_rating = 32
 	controller = RUS
 	colonial = 2
 }
-
-add_core = CHI

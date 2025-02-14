@@ -48,7 +48,8 @@ political_decisions = {
 			invention = machine_tools
 		}
 		
-		effect = {					define_general = {
+		effect = {					
+			define_general = {
 				name = "Gerhard Broder"
 				personality = defence_5.1
 				background = attack_5.1

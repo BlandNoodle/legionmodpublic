@@ -740,6 +740,7 @@ darwinism = {
 	}
 	effect = {
 		education_efficiency = 0.15
+		increase_research = 0.05
 	}
 }
 social_darwinism = {
@@ -758,6 +759,7 @@ social_darwinism = {
 	}
 	effect = {
 		war_exhaustion = -0.05
+		increase_research = 0.05
 	}
 }
 #social_science
@@ -775,7 +777,10 @@ sociology = {
 			scientific_management = 1
 		}
 	}
-	core_pop_consciousness_modifier = 0.01
+	effect = {
+		core_pop_consciousness_modifier = 0.01
+		increase_research = 0.05
+	}
 }
 social_psychology = {
 	limit = { social_science = 1 }
@@ -791,7 +796,10 @@ social_psychology = {
 			behaviorism = 1
 		}
 	}
-	core_pop_consciousness_modifier = 0.01
+	effect = {
+		core_pop_consciousness_modifier = 0.01
+		increase_research = 0.05
+	}
 }
 political_science = {
 	limit = { social_science = 1 }
@@ -811,7 +819,10 @@ political_science = {
 			naval_directionism = 1
 		}
 	}
-	core_pop_consciousness_modifier = 0.01
+	effect = {
+		core_pop_consciousness_modifier = 0.01
+		increase_research = 0.05
+	}
 }
 social_anthropology = {
 	limit = { social_science = 1 }
@@ -828,7 +839,26 @@ social_anthropology = {
 		}
 	}
 	effect = {
-		colonial_prestige = 0.1 
+		colonial_prestige = 0.1
+		increase_research = 0.05
+	}
+}
+vilfredo_pareto = {
+	limit = { social_science = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 1
+			ruling_party_ideology = liberal
+		}
+	}
+	effect = {
+		increase_research = 0.05
 	}
 }
 #social_alienation
@@ -865,7 +895,9 @@ the_decline_of_the_west_and_the_lost_generation = {
 			invention = mission_to_civilize
 		}
 	}
-	core_pop_consciousness_modifier = -0.03
+	effect = {
+		core_pop_consciousness_modifier = -0.03
+	}
 }
 #the rights of man - called enlightenment_thought in files...
 paternalism = {
@@ -882,7 +914,9 @@ paternalism = {
 			vote_franschise = landed_voting
 		}
 	}
-	org_regain = 0.05
+	effect = {
+		org_regain = 0.05
+	}
 }
 constitutionalism = {
 	limit = { enlightenment_thought = 1 }
@@ -987,7 +1021,9 @@ authoritarianism = {
 				}
 		}
 	}
-	core_pop_consciousness_modifier = -0.02
+	effect = {
+		core_pop_consciousness_modifier = -0.02
+	}
 }
 hierarchical_order = {
 	news = no
@@ -1010,8 +1046,10 @@ hierarchical_order = {
 			government = prussian_constitutionalism
 		}
 	}
-	core_pop_militancy_modifier = -0.01
-	core_pop_consciousness_modifier = 0.01
+	effect = {
+		core_pop_militancy_modifier = -0.01
+		core_pop_consciousness_modifier = 0.01
+	}
 }
 traditionalism = {
 	limit = { ideological_thought = 1 }
@@ -1753,4 +1791,30 @@ the_talkies = {
 		suppression_points_modifier = -0.05
 	}
 	core_pop_consciousness_modifier = 0.01
+}
+
+## RENO Focus Inventions
+
+pop_shift_invention_2 = {
+	limit = { phenomenalism = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+pop_shift_invention_3 = {
+	limit = { experimental_psychology = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+
+pop_shift_invention_4 = {
+	limit = { psychoanalysis = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
 }

@@ -41,17 +41,6 @@ country_event = {
 		soldiers = {
 			militancy = 8
 		}
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_religion = sunni
-					has_pop_culture = nanfaren
-					has_pop_culture = zhuang
-					has_pop_culture = asian_minor
-				}
-			}
-			militancy = 5
-		}
 		activate_technology = bronze_muzzle_loaded_artillery
 		activate_technology = military_staff_system
 		activate_technology = private_banks
@@ -74,6 +63,7 @@ country_event = {
 			wool = 100
 			artillery = 25
 			ammunition = 30
+			activate_technology = strategic_mobility
 		}
 		set_global_flag = taiping_has_happened
 	}
@@ -96,17 +86,6 @@ country_event = {
 		}
 		soldiers = {
 			militancy = 8
-		}
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_religion = sunni
-					has_pop_culture = nanfaren
-					has_pop_culture = zhuang
-					has_pop_culture = asian_minor
-				}
-			}
-			militancy = 5
 		}		
 		war = {
 			target = TPG
@@ -122,6 +101,7 @@ country_event = {
 			wool = 100
 			artillery = 25
 			ammunition = 30
+			activate_technology = strategic_mobility
 		}
 		set_global_flag = taiping_has_happened
 		change_tag_no_core_switch = TPG
@@ -214,9 +194,10 @@ country_event = {
 				controlled_by = TPG
 				province_control_days = 15
 				NOT = { is_core = TPG }
-				}
+				is_capital = no
 			}
 		}
+	}
 	mean_time_to_happen = {
 		months = 1
 	}
@@ -229,6 +210,6 @@ country_event = {
 			}
 			secede_province = TPG
 			add_core = TPG
-			}
 		}
 	}
+}

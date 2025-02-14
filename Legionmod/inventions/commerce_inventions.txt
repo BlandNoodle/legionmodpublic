@@ -951,24 +951,6 @@ jules_dupuit = {
 		permanent_prestige = 1 
 	}
 }
-vilfredo_pareto = {
-	limit = { neoclassical_theory = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 1
-			ruling_party_ideology = liberal
-		}
-	}
-	effect = {
-		permanent_prestige = 1 
-	}
-}
 knut_wicksell = {
 	limit = { neoclassical_theory = 1 }
 	news = no
@@ -1258,6 +1240,29 @@ patent = {
 		factory_cost = -0.03
 	}
 }
+pareto_efficiency = {
+	limit = { market_structure = 1 }
+	news = no
+	chance = {
+		base = -3
+		modifier = {
+			factor = 2
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 2
+			ruling_party_ideology = socialist
+		}
+		modifier = {
+			factor = 4
+			invention = vilfred_pareto
+		}
+	}
+	effect = {
+		core_pop_consciousness_modifier = 0.01
+		factory_input = -0.02
+	}
+}
 trademark = {
 	limit = { business_regulations = 1 }
 	news = no
@@ -1453,22 +1458,28 @@ autarky = {
 	limit = { government_interventionism = 1 }
 	news = no
 	chance = {
-		base = 2
+		base = -4
 		modifier = {
-			factor = 3
+			factor = 4
 			economic_policy = planned_economy
 		}
 		modifier = {
 			factor = 2
-			ruling_party_ideology = socialist
+			economic_policy = state_capitalism
 		}
-		#modifier = {
-		#	factor = 100
-		#	stupidity = yes
-		#}
+		modifier = {
+			factor = 4
+			ruling_party_ideology = communist
+		}
+		modifier = {
+			factor = 4
+			ruling_party_ideology = fascist
+		}
 	}
 	effect = {
-		loan_interest = -0.005
+		loan_interest = -0.01
+		factory_input = 0.08
+		rgo_throughput = 0.22
 	}
 }
 import_substitution_industrialization = {
@@ -1495,6 +1506,29 @@ import_substitution_industrialization = {
 	}
 	effect = {
 		activate_building = synthetic_oil_factory
+	}
+}
+game_theory = {
+	news = no
+	limit = { government_interventionism = 1 }
+	chance = {
+		base = -3
+		modifier = {
+			factor = 2
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 2
+			ruling_party_ideology = socialist
+		}
+		modifier = {
+			factor = 4
+			invention = pareto_efficiency
+		}
+	}
+	effect = {
+		core_pop_consciousness_modifier = 0.01
+		factory_input = -0.02
 	}
 }
 #organized_factories

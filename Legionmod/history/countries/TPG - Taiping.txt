@@ -55,6 +55,7 @@ mechanical_production = 1
 medicine = 1
 late_enlightenment_philosophy = 1
 post_napoleonic_thought = 1
+strategic_mobility = 1
 
 # Inventions
 

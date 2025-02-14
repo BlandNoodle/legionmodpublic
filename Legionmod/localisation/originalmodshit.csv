@@ -256,10 +256,10 @@ conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
 demand_reperations;Reparations;;;;;;;;x
 demand_reperations_short;We will snatch $RECIPIENT$'s foams!;;;;;x
 demand_reperations_setup;We will snatch $RECIPIENT$'s foams!;;;;;x
-demand_reperations_desc;Pay up [Caucasian Brother]!;;;;;;;;x
+demand_reperations_desc;Pay up!;;;;;;;;x
 negotiated_transfer;Negotiated Transfer;;;;;;;;;x
-negotiated_transfer_short;Snatch a state from $RECIPIENT$;;;;;;x
-negotiated_transfer_setup;Snatch a state from $RECIPIENT$;;;;;;x
+negotiated_transfer_short;Snatch $STATE$ from $RECIPIENT$;;;;;;x
+negotiated_transfer_setup;Snatch $STATE$ from $RECIPIENT$;;;;;;x
 negotiated_transfer_desc;transfer a state;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
 AGRESSION_WAR_NEGOTIATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x

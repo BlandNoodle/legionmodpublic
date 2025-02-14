@@ -61,7 +61,6 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
-		is_independant = yes
 		year = 1836
 		ai = no
 		NOT = {
@@ -70,13 +69,13 @@ country_event = {
 		NOT = {
 			OR = {
 				has_leader = "Goku"
-				has_leader = "Emperor-Frieza"
+				has_leader = "Frieza"
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 1
 		
 	}
 	immediate = {
@@ -91,18 +90,16 @@ country_event = {
 				personality = defence_5.1
 				background = attack_1.1
 			}
-			prestige = 5
 		}
 		
 		option = {
 			name = "EVTOPTB19000093"
+			remove_country_flag = choosing
 				define_general = {
-					name = Emperor-Frieza
+					name = Frieza
 					personality = defence_1.1
 					background = attack_5.1
 				}
-			prestige = 5
-			remove_country_flag = choosing
 		}
 	}
 	

@@ -24,17 +24,7 @@ country_event = {
 				NOT = {
 					tag = THIS
 				}
-				OR = {
-					tag = MCK
-					tag = TIB
-					tag = NAN
-					tag = QNG
-					tag = NGB
-					tag = SHA
-					tag = HKG
-					tag = FZH
-					tag = MAC
-				}
+				tag = TIB
 			}
 			country_event = { id=90901 days=0 }
 		}
@@ -206,17 +196,8 @@ country_event = {
 		war = no
 		civilized = yes
 		OR = {
-			NOT = {has_country_modifier = {yatsen}}
+			NOT = {has_country_modifier = yatsen}
 			year = 1910
-		}
-		AND = {
-			NOT = {exists = SHA}
-			NOT = {exists = QNG}
-			NOT = {exists = NGB}
-			NOT = {exists = HKG}
-			NOT = {exists = FZH}
-			NOT = {exists = NAN}
-			NOT = {exists = MAC}
 		}
 	}
 	
@@ -226,13 +207,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000123"
-		SHA = {all_core = {remove_core = SHA}}
-		QNG = {all_core = {remove_core = QNG}}
-		NGB = {all_core = {remove_core = NGB}}
-		HKG = {all_core = {remove_core = HKG}}
-		FZH = {all_core = {remove_core = FZH}}
-		NAN = {all_core = {remove_core = NAN}}
-		MAC = {all_core = {remove_core = MAC}}
 		CHI_1600 = {add_core = XIN}
 		release = XIN
 		CHI_2608 = {add_core = MGL}

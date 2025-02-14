@@ -33,8 +33,12 @@ post_napoleonic_army_doctrine = {
 			#attack = 0.35
 			defence = 0.7
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 0.7
+		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
@@ -44,6 +48,7 @@ post_napoleonic_army_doctrine = {
 	}
 }
 #strategic_mobility
+
 field_fortifications = {
 	limit = { strategic_mobility = 1 }
 	chance = {
@@ -86,8 +91,12 @@ field_fortifications = {
 			#attack = 0.35
 			defence = 0.7
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 0.7
+		}
 		guard = {
-			attack = 0.85
+			#attack = 0.85
 			defence = 0.85
 		}
 		engineer = {
@@ -184,9 +193,13 @@ flexible_firepower = {
 			#attack = 0.7
 			defence = 1.05
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 1.05
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			#attack = 0.85
+			defence = 2.25
 		}
 		engineer = {
 			#attack = 1.2
@@ -273,9 +286,14 @@ trench_systems = {
 			#attack = 1.05
 			defence = 1.4
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 6.25
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			#attack = 0.85
+			defence = 6.25
+			discipline = 0.05
 		}
 		engineer = {
 			#attack = 1.8
@@ -384,9 +402,13 @@ low_echelon_fire_support = {
 			#attack = 0.7
 			defence = 1.05
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 2.25
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			#attack = 0.85
+			defence = 2.25
 		}
 		engineer = {
 			#attack = 1.2
@@ -496,9 +518,13 @@ firepower_vs_mobility = {
 			#attack = 0.70
 			defence = 1.05
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 2.5
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			#attack = 0.85
+			defence = 2.25
 		}
 		engineer = {
 			#attack = 1.2
@@ -574,9 +600,13 @@ flintlock_rifle_armament = {
 			attack = 0.7
 			#defence = 0.35
 		}
+		chinese_militia = {
+			attack = 0.7
+			#defence = 0.35
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			attack = 1.5
+			#defence = 0.85
 		}
 		engineer = {
 			attack = 1.2
@@ -627,9 +657,13 @@ muzzle_loaded_rifle_armament = {
 			attack = 0.7
 			#defence = 0.35
 		}
+		chinese_militia = {
+			attack = 0.7
+			#defence = 0.35
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			attack = 1.5
+			#defence = 0.85
 		}
 		engineer = {
 			attack = 1.2
@@ -681,9 +715,13 @@ breech_loaded_rifle_armament = {
 			attack = 1.05
 			#defence = 0.35
 		}
+		chinese_militia = {
+			attack = 1.05
+			#defence = 0.35
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			attack = 2.25
+			#defence = 0.85
 		}
 		engineer = {
 			siege = 1
@@ -736,9 +774,13 @@ machine_gun_armament = {
 			attack = 1.4
 			#defence = 0.35
 		}
+		chinese_militia = {
+			attack = 3
+			#defence = 0.35
+		}
 		guard = {
-			attack = 0.85
-			defence = 4
+			attack = 3
+			#defence = 4
 		}
 		engineer = {
 			siege = 1
@@ -850,9 +892,14 @@ bolt_action_rifle_armament = {
 			attack = 1.05
 			#defence = 0.35
 		}
+		chinese_militia = {
+			attack = 5.5
+			#defence = 0.35
+		}
 		guard = {
-			attack = 4
-			defence = 0.85
+			attack = 5.75
+			#defence = 0.85
+			discipline = 0.05
 		}
 		engineer = {
 			siege = 1
@@ -911,9 +958,14 @@ interwar_troops = {
 			attack = 1.05
 			#defence = 0.35
 		}
+		chinese_militia = {
+			#attack = 0.35
+			defence = 0.75
+		}
 		guard = {
-			attack = 0.85
-			defence = 0.85
+			attack = 2.5
+			#defence = 0.85
+			discipline = 0.05
 		}
 		engineer = {
 			siege = 1
@@ -968,6 +1020,7 @@ tankette = {
 			attack = 11.25
 			defence = 11.25
 			supply_consumption = 0.05
+			discipline = 0.15
 		}
 	}
 }
@@ -990,6 +1043,7 @@ light_tank = {
 			defence = 11.25
 			maximum_speed = 1
 			supply_consumption = 0.1
+			discipline = 0.2
 		}
 	}
 }
@@ -1015,6 +1069,7 @@ armoured_cars = {
 			attack = 11.25
 			defence = 11.25
 			supply_consumption = 0.05
+			discipline = 0.15
 		}
 	}
 }
@@ -1883,6 +1938,9 @@ army_alternative_plans = {
 		}
 		irregular = {
 			maximum_speed = 1
+		}
+		chinese_militia = {
+			maximum_speed = 2
 		}
 		guard = {
 			maximum_speed = 1

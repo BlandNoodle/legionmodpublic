@@ -120,8 +120,7 @@ country_event = {
 			inherit = THIS
 		}
 		ai_chance = {
-			factor = 25
-			is_independant = yes
+			factor = 1
 		}
 	}
 
@@ -135,10 +134,6 @@ country_event = {
 		any_pop = {
 			militancy = 3
 			consciousness = 2
-		}
-		ai_chance = {
-			factor = 25
-			is_independant = no
 		}
 	}
 }

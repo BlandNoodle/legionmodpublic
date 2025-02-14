@@ -71,12 +71,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_natfocus_strip"
 		textureFile = "gfx\\interface\\province_natfocus_strip.dds"
-		noOfFrames = 31
+		noOfFrames = 44
 	}
 	spriteType = {
 		name = "GFX_province_natfocus_strip_small"
 		textureFile = "gfx\\interface\\province_natfocus_strip_small.dds"
-		noOfFrames = 31
+		noOfFrames = 44
 	}
 	spriteType = {
 		name = "GFX_province_fort_strip"
@@ -242,98 +242,98 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_terrainimg_mountain"
-		texturefile = "gfx\\interface\\terrain_mountains.tga"
+		texturefile = "gfx\\interface\\terrain_mountains.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_steppe"
-		texturefile = "gfx\\interface\\terrain_steppe.tga"
+		texturefile = "gfx\\interface\\terrain_steppe.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_farmlands"
-		texturefile = "gfx\\interface\\terrain_farmlands.tga"
+		texturefile = "gfx\\interface\\terrain_farmlands.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_forest"
-		texturefile = "gfx\\interface\\terrain_forest.tga"
+		texturefile = "gfx\\interface\\terrain_forest.dds"
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_terrainimg_woods"
-		texturefile = "gfx\\interface\\terrain_woods.tga"
+		texturefile = "gfx\\interface\\terrain_woods.dds"
 		norefcount = yes
 	}
 		
 	spriteType = {
 		name = "GFX_terrainimg_marsh"
-		texturefile = "gfx\\interface\\terrain_marsh.tga"
+		texturefile = "gfx\\interface\\terrain_marsh.dds"
 		norefcount = yes
 	}
 		
 	spriteType = {
 		name = "GFX_terrainimg_plains"
-		texturefile = "gfx\\interface\\terrain_plains.tga"
+		texturefile = "gfx\\interface\\terrain_plains.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_urban"
-		texturefile = "gfx\\interface\\terrain_farmlands.tga"
+		texturefile = "gfx\\interface\\terrain_farmlands.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_hills"
-		texturefile = "gfx\\interface\\terrain_hills.tga"
+		texturefile = "gfx\\interface\\terrain_hills.dds"
 		norefcount = yes
 	}
 		
 	spriteType = {
 		name = "GFX_terrainimg_jungle"
-		texturefile = "gfx\\interface\\terrain_jungle.tga"
+		texturefile = "gfx\\interface\\terrain_jungle.dds"
 		norefcount = yes
 	}
 
 	spriteType = {
 		name = "GFX_terrainimg_desert"
-		texturefile = "gfx\\interface\\terrain_desert.tga"
+		texturefile = "gfx\\interface\\terrain_desert.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_arctic"
-		texturefile = "gfx\\interface\\terrain_arctic.tga"
+		texturefile = "gfx\\interface\\terrain_arctic.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_urban"
-		texturefile = "gfx\\interface\\terrain_urban.tga"
+		texturefile = "gfx\\interface\\terrain_urban.dds"
 		norefcount = yes
 	}
 	
 	spriteType = {
 		name = "GFX_terrainimg_ocean"
-		texturefile = "gfx\\interface\\terrain_mountains.tga"
+		texturefile = "gfx\\interface\\terrain_mountains.dds"
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_invest_rail_button"
-		texturefile = "gfx\\interface\\invest_rail_button.tga"
+		texturefile = "gfx\\interface\\invest_rail_button.dds"
 	}
 	spriteType = {
 		name = "GFX_invest_factory_button"
-		texturefile = "gfx\\interface\\invest_factory_button.tga"
+		texturefile = "gfx\\interface\\invest_factory_button.dds"
 	}
 	spriteType = {
 		name = "GFX_investrail_progress_overlay"
-		texturefile = "gfx\\interface\\investrail_progress_overlay.tga"
+		texturefile = "gfx\\interface\\investrail_progress_overlay.dds"
 		allwaystransparent = yes
 	}
 	

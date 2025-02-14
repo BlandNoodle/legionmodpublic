@@ -950,38 +950,30 @@ country_event = {
 		set_country_flag = earlygamerussia
 		add_country_modifier = {
 			name = earlygamerussia
-			duration = 10950
+			duration = 3650
 		}
 		ai_chance = {
 			factor = 25
 		}
-		activate_technology = muzzle_loaded_rifles
+		activate_technology = army_professionalism
 	}
 	
 	option = {
 		name = "EVTOPTB19000150"
-		set_country_flag = midgamerussia
-		add_country_modifier = {
-			name = midgamerussia
-			duration = 10950
-		}
+		set_country_flag = central_asia_focus
 		ai_chance = {
-			factor = 1
+			factor = 50
 		}
-		activate_technology = experimental_railroad
+		
 	}
 	
 	option = {
 		name = "EVTOPTC19000150"
-		set_country_flag = lategamerussia
-		add_country_modifier = {
-			name = lategamerussia
-			duration = 10950
-		}
+		set_country_flag = pacific_focus
 		ai_chance = {
-			factor = 75
+			factor = 1
 		}
-		activate_technology = positivism
+
 	}
 }
 
@@ -1059,4 +1051,31 @@ country_event = {
 			factor = 1
 		}
 	}
+}
+
+###Pacific Coast Party###
+country_event = {
+	id = 19000187
+	title = "EVTNAME19000187"
+	desc = "EVTDESC19000187"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000187"
+		prestige_factor = 2
+		add_accepted_culture = yankee
+		add_accepted_culture = anglo_canadian
+		add_accepted_culture = manchu
+		define_admiral = {
+			name = Smash Mouth
+			personality = defence_2.1
+			background = attack_5.1
+		}
+		ai_chance = {
+			factor = 99
+		}
+	}
+	
 }

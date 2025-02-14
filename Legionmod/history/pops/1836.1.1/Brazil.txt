@@ -628,31 +628,31 @@
 	}
 
 	clergymen = {
-		culture = afro_antillean
+		culture = afro_caribeno
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = afro_antillean
+		culture = afro_caribeno
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = afro_antillean
+		culture = afro_caribeno
 		religion = catholic
 		size = 10
 	}
 
 	farmers = {
-		culture = afro_antillean
+		culture = afro_caribeno
 		religion = catholic
 		size = 150
 	}
 
 	slaves = {
-		culture = afro_antillean
+		culture = afro_caribeno
 		religion = catholic
 		size = 680
 	}

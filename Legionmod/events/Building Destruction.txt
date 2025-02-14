@@ -7,13 +7,30 @@ province_event = {
 	
 	trigger = {
 		OR = {
+			NOT = {controlled_by = THIS}
 			unit_in_battle = yes
 			country_units_in_province = REB
 		}
 		has_building = fort
 	}
 	
-	mean_time_to_happen = { months = 500 }
+	mean_time_to_happen = { 
+		months = 500 
+	
+		modifier = {
+			factor = 0.9
+			province_control_days = 120
+		}
+		modifier = {
+			factor = 0.9
+			province_control_days = 240
+		}
+		modifier = {
+			factor = 0.9
+			province_control_days = 360
+		}
+		
+	}
 	
 	option = {
 		name = "EVT60168004OPTA"
@@ -30,13 +47,29 @@ province_event = {
 	
 	trigger = {
 		OR = {
+			NOT = {controlled_by = THIS}
 			unit_in_battle = yes
 			country_units_in_province = REB
 		}
 		has_building = railroad
 	}
 	
-	mean_time_to_happen = { months = 400 }
+	mean_time_to_happen = {
+		months = 500
+		
+		modifier = {
+			factor = 0.9
+			province_control_days = 120
+		}
+		modifier = {
+			factor = 0.9
+			province_control_days = 240
+		}
+		modifier = {
+			factor = 0.9
+			province_control_days = 360
+		}
+	}
 	
 	option = {
 		name = "EVT60168005OPTA"

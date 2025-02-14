@@ -1,7 +1,5 @@
-owner = FZH
-controller = FZH
-add_core = FZH
+owner = CHI
+controller = CHI
+add_core = CHI
 trade_goods = fish
 life_rating = 32
-
-add_core = CHI

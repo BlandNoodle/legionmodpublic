@@ -43,32 +43,10 @@ unshakable_autocracy = {
 }
 
 earlygamerussia = {
-	mobilisation_size = 0.01
-	research_points_on_conquer = 4
-	education_efficiency_modifier = -0.45
-	cb_generation_speed_modifier = 0.35
+	mobilisation_size = 0.005
+	cb_generation_speed_modifier = 0.50
 	icon = 15
 }
-
-midgamerussia = {
-	research_points_modifier = 2
-	military_tech_research_bonus = 0.20
-	navy_tech_research_bonus = 0.25
-	culture_tech_research_bonus = -0.50
-	industry_tech_research_bonus = -0.50
-	education_efficiency_modifier = -0.35
-	icon = 9
-}
-
-lategamerussia = {
-	influence_modifier = 0.33
-	education_efficiency_modifier = 0.25
-	army_tech_research_bonus = -0.15
-	political_reform_desire = 0.50
-	mobilisation_size = -0.01
-	icon = 17
-}
-
 
 ##### POLITICAL EVENTS ######
 government_sanitarium = {
@@ -169,21 +147,21 @@ national_tragedy = {
 
 ##### CIVILIZATION AND GUNBOATS #####
 western_influences = {
-	global_pop_militancy_modifier = 0.1
-	global_pop_consciousness_modifier = 0.05
-	research_points_modifier = 0.2
+	global_pop_militancy_modifier = 0.05
+	global_pop_consciousness_modifier = 0.02
+	research_points_modifier = 0.1
 	icon = 10
 }
 
 uncivilized_isolationism = {
-	global_pop_militancy_modifier = -0.1
-	global_pop_consciousness_modifier = -0.05
-	research_points_modifier = -0.2
+	global_pop_militancy_modifier = -0.05
+	global_pop_consciousness_modifier = -0.02
+	research_points_modifier = -0.1
 	icon = 10
 }
 
 western_presence = {
-	pop_militancy_modifier = 0.05
+	pop_militancy_modifier = 0.02
 	research_points_modifier = 0.01
 	icon = 9
 }
@@ -869,21 +847,21 @@ large_opium = {
 century_humiliate = {
 	icon = 8
 	prestige = -0.02
-	org_regain = -0.30
-	supply_consumption = -0.30
-	research_points_on_conquer = -4
+	supply_consumption = -0.10
+	research_points_on_conquer = -1
+	research_points_modifier = -1
 }
 
 yatsen = {
-	supply_consumption = -0.40
-	administrative_efficiency_modifier = 0.33
-	education_efficiency_modifier = 0.5
-	culture_tech_research_bonus = 0.60
+	supply_consumption = -0.50
+	administrative_efficiency_modifier = 0.50
+	education_efficiency_modifier = 0.75
+	culture_tech_research_bonus = 0.75
 	army_tech_research_bonus = 0.60
 	commerce_tech_research_bonus = 0.60
 	social_reform_desire = 0.75
 	mobilisation_size = -0.06
-	research_points = 4
+	research_points = 6
 	icon = 17
 }
 
@@ -1029,10 +1007,11 @@ liberian_research_boost = {
 }
 
 reform_our_empire = {
-	education_efficiency_modifier = 0.15
+	education_efficiency_modifier = 0.25
 	research_points_modifier = 0.15
 	tax_efficiency = 0.05
-	administrative_efficiency_modifier = 0.05
+	administrative_efficiency_modifier = 0.15
+	mobilisation_size = 0.01
 	icon = 5
 }
 new_crops = {
@@ -1067,7 +1046,6 @@ An_mein_Volk = {
 	icon = 15
 }
 schlieffens_plan = {
-	import_cost = 0.5
 	core_pop_militancy_modifier = -0.01
 	org_regain = 0.2
 	land_organisation = 0.2
@@ -1229,7 +1207,7 @@ fredbear = {
 	non_accepted_pop_consciousness_modifier = 0.33
 	mobilisation_size = 0.1
 	badboy = -0.25
-	soldiers = 0.06
+	supply_consumption = -0.5
 	cb_generation_speed_modifier = 2
 	org_regain = 0.5
 	unit_start_experience = 20
@@ -1444,34 +1422,11 @@ freedomfighters = {
 	icon = 17
 }
 
-lubu = {
-	supply_consumption = -0.75
-	land_organisation = 0.75
-	land_unit_start_experience = 70
-	org_regain = 0.8
-	research_points_ = 10
-	army_tech_research_bonus = 0.85
-	navy_tech_research_bonus = 0.85
-	culture_tech_research_bonus = 0.85
-	commerce_tech_research_bonus = 0.85
-	mobilisation_size = 0.10
-	icon = 17
-}
-
 devastation = {
 	assimilation_rate = 5
 	immigrant_push = 3
 	population_growth = -0.016
 	icon = 20
-}
-
-chinadead = {
-	core_pop_consciousness_modifier = 0.2
-	core_pop_militancy_modifier = 0.2
-	non_accepted_pop_militancy_modifier = 0.3
-	non_accepted_pop_consciousness_modifier = 0.3
-	mobilisation_size = -0.30
-	icon = 12
 }
 
 circs = {
@@ -1648,7 +1603,7 @@ american_pride = {
 britishraj = {
 	assimilation_rate = 1
 	immigrant_attract = 0.33
-	population_growth = 0.004
+	population_growth = 0.003
 	icon = 9
 }
 
@@ -1807,4 +1762,45 @@ bulgars = {
 	assimilation_rate = 1
 	immigrant_attract = 0.25
 	icon = 7
+}
+
+switched_production = {
+	icon = 14
+}
+
+rgo_changed_mine = {
+	icon = 12
+}
+
+rgo_changed_farm = {
+	icon = 12
+}
+
+landes = {
+	local_RGO_throughput = 0.5
+	farm_rgo_size = -0.33
+	icon = 11
+}
+
+pacific_ports = {
+	local_repair = 0.6
+	local_ship_build = -0.2
+	icon = 15
+}
+
+black_hand = {
+	mobilisation_size = 0.03
+	mobilisation_economy_impact = -0.5
+	supply_consumption = -0.25
+	org_regain = 0.20
+	icon = 15
+}
+
+kane1 = {
+	badboy = -0.1
+	diplomatic_points_modifier = 2
+	global_assimilation_rate = 2
+	education_efficiency_modifier = 0.5
+	research_points = 2
+	icon = 15
 }

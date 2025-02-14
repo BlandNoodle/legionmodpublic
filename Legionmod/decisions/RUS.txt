@@ -249,11 +249,11 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			has_global_flag = treaty_ports_activated
-			MCK = {
+			CHI = {
 					owns = 1082 }
 			NOT = {
 				has_country_flag = peking_convention
-				war_with = MCK
+				war_with = CHI
 			}
 		}
 		
@@ -264,15 +264,13 @@ political_decisions = {
 		effect = {
 			CHI_1082 = {
 				add_core = RUS
-				remove_core = MCK
 				remove_core = CHI
 			}
 			1481 = {
-				remove_core  = MCK
 				remove_core  = CHI
 			}
 			set_country_flag = peking_convention			
-			MCK = {
+			CHI = {
 				country_event = { id=80000 days=0 }
 			}
 			prestige = 2
@@ -390,6 +388,7 @@ political_decisions = {
 			tag = RUS
 			NOT = { has_country_flag = colonize_uriankhai }
 			has_global_flag = the_century
+			has_country_flag = pacific_focus
 		}
 		
 		allow = {
@@ -397,16 +396,57 @@ political_decisions = {
 			owns = 1063
 			is_greater_power = yes
 			war = no
+			money = 500000
 		}
 		
 		effect = {
 			set_country_flag = colonize_uriankhai
-			prestige = 2
+			prestige = 5
 			1469 = { add_core = RUS }
      	    1469 = {
       	      secede_province = RUS
       		  }
-			
+			CHI_2608 = {add_core = RUS}
+			money = -500000
+			random_country = {
+				limit = { 
+					exists = yes
+					OR = {
+						tag = CHI
+					}
+				}
+				relation = { who = THIS value = -100 }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	colonize_sinkiang = {
+		picture = uriankhai_colony
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = colonize_sinkiang }
+			has_global_flag = the_century
+			has_country_flag = central_asia_focus
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 1063
+			is_greater_power = yes
+			war = no
+			money = 1000000
+		}
+		
+		effect = {
+			set_country_flag = colonize_sinkiang
+			prestige = 5
+			1469 = { add_core = RUS }
+     	    1469 = {
+      	      secede_province = RUS
+      		  }
+			CHI_1600 = {add_core = RUS}
+			money = -1000000
 			random_country = {
 				limit = { 
 					exists = yes
@@ -517,7 +557,7 @@ political_decisions = {
 							935 = {
 								owner = { alliance_with = THIS }
 							}
-							year = 1880
+							year = 1870
 							owns = 935
 						}
 						is_our_vassal = AFG
@@ -533,7 +573,7 @@ political_decisions = {
 							}
 							owns = 935
 						}
-						year = 1890
+						year = 1880
 						owns = 860
 						PER = { in_sphere = THIS }
 					}
@@ -547,6 +587,51 @@ political_decisions = {
 		}
 	}
 	
+	russianpersia2 = {
+		picture = "central_asia"
+		potential = {
+			tag = RUS
+			has_country_flag = central_asia_focus
+			has_global_flag = we_have_a_winner
+			NOT = {has_country_flag = russianpersiareal}
+		}
+		allow = {
+			is_our_vassal = PER
+			war = no
+			money = 1000000
+			owns = 1102
+		}
+		effect = {
+			money = -1000000
+			inherit = PER
+			add_accepted_culture = azerbaijani
+			prestige = 25
+			add_country_flag = russianpersiareal
+		}
+	}
+
+	
+	russianafghan = {
+		picture = "central_asia"
+		potential = {
+			tag = RUS
+			has_country_flag = central_asia_focus
+			has_global_flag = we_have_a_winner
+			NOT = {has_country_flag = russianafghanreal}
+		}
+		allow = {
+			is_our_vassal = AFG
+			war = no
+			money = 500000
+		}
+		effect = {
+			money = -500000
+			inherit = AFG
+			prestige = 15
+			add_country_flag = russianafghanreal
+		}
+	}
+
 	develop_moscow = {
 		potential = {
 			year = 1850
@@ -648,6 +733,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = {has_country_flag = kazakhstrong}
+			has_country_flag = central_asia_focus
 		}
 		allow = {
 			tag = RUS
@@ -665,4 +751,5 @@ political_decisions = {
 			set_country_flag = kazakhstrong
 		}
 	}
+	
 }

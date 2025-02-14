@@ -169,17 +169,7 @@ conquest = {
 			tag = JAN
 		}
 		NOT = { 
-			OR = {
-				tag = NAN
-				tag = MAC
-				tag = HKG
-				tag = FZH
-				tag = NGB
-				tag = SHA
-				tag = QNG
-				tag = BEI
-				tag = SAX
-			}
+			primary_culture = hans
 		}
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
@@ -245,16 +235,8 @@ conquer_south_america = {
 		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
 		THIS = { tag = BRZ }
-		OR = {
-			tag = CLM
-			tag = VNZ
-			tag = ECU
-			tag = PEU
-			tag = BOL
-			tag = PRG
-			tag = URU
-			tag = ARG
-			tag = CHL
+		capital_scope = {
+			continent = south_america
 		}
 		is_independant = yes
 	}
@@ -651,8 +633,8 @@ acquire_treaty_port = {
 				owns = 1566
 				owns = 1481
 			}
+		}
 	}
-}
 
 	allowed_states = {
 		any_owned_province = {
@@ -683,7 +665,7 @@ acquire_state = {
 	months = 12
 	construction_speed = 1
 	
-	badboy_factor = 2.2
+	badboy_factor = 2.5
 	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -704,19 +686,7 @@ acquire_state = {
 			tag = JAN
 		}
 		NOT = { 
-			OR = {
-				tag = NAN
-				tag = MAC
-				tag = HKG
-				tag = FZH
-				tag = NGB
-				tag = SHA
-				tag = QNG
-				tag = BEI
-				tag = BAV
-				tag = SAX
-				tag = HAN
-			}
+			tag = SAX
 		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
@@ -818,7 +788,7 @@ acquire_capital = {
 	months = 12
 	construction_speed = 1
 	
-	badboy_factor = 3.2
+	badboy_factor = 2.5
 	prestige_factor = 2
 	peace_cost_factor = 1.5
 	penalty_factor = 1
@@ -840,15 +810,6 @@ acquire_capital = {
 		}
 		NOT = { 
 			OR = {
-				tag = NAN
-				tag = MAC
-				tag = HKG
-				tag = FZH
-				tag = NGB
-				tag = SHA
-				tag = QNG
-				tag = BEI
-				tag = CHI
 				tag = SAX
 				tag = BAV
 				tag = WUR
@@ -1611,16 +1572,7 @@ demand_concession_casus_belli = {
 			tag = JAN
 		}
 		NOT = { 
-			OR = {
-				tag = NAN
-				tag = MAC
-				tag = HKG
-				tag = FZH
-				tag = NGB
-				tag = SHA
-				tag = QNG
-				tag = BEI
-			}
+			primary_culture = hans
 		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
@@ -1677,16 +1629,7 @@ establish_protectorate_casus_belli = {
 			tag = JAN
 		}
 		NOT = { 
-			OR = {
-				tag = NAN
-				tag = MAC
-				tag = HKG
-				tag = FZH
-				tag = NGB
-				tag = SHA
-				tag = QNG
-				tag = BEI
-			}
+			primary_culture = hans
 		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
@@ -2231,6 +2174,8 @@ demand_reperations = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
 	}
 
 	po_disarmament = no
@@ -2332,14 +2277,9 @@ conquer_germany = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		THIS = {
-			OR = {
-				tag = PRU
-				tag = NGF
-				tag = SGF
-				tag = AUS
-				tag = GER
-			}
+		OR = {
+			primary_culture = north_german
+			primary_culture = south_german
 		}
 	}
 	

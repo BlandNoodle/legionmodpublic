@@ -6,19 +6,19 @@
 	aristocrats = {
 		culture = spanish
 		religion = catholic
-		size = 200
+		size = 800
 	}
 
 	bureaucrats = {
 		culture = spanish
 		religion = catholic
-		size = 400
+		size = 1600
 	}
 
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 250
+		size = 950
 	}
 
 	artisans = {
@@ -30,13 +30,13 @@
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 100
+		size = 2000
 	}
 
 	aristocrats = {
 		culture = filipino
 		religion = catholic
-		size = 1250
+		size = 1550
 	}
 
 	bureaucrats = {
@@ -54,19 +54,19 @@
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
 		culture = filipino
 		religion = catholic
-		size = 9000
+		size = 5000
 	}
 
 	soldiers = {
@@ -78,7 +78,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 136550
+		size = 239550
 	}
 
 	artisans = {
@@ -114,7 +114,7 @@
 	farmers = {
 		culture = malay
 		religion = catholic
-		size = 17725
+		size = 1456
 	}
 }
 #Vigan (608000/152000 POPS)
@@ -146,7 +146,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 134525
+		size = 164525
 	}
 
 	clergymen = {
@@ -170,7 +170,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = catholic
-		size = 6650
+		size = 9650
 	}
 }
 #Legazpi (564000/141000 POPS)
@@ -202,7 +202,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 122525
+		size = 172525
 	}
 
 	clergymen = {
@@ -226,7 +226,7 @@
 	farmers = {
 		culture = malay
 		religion = catholic
-		size = 8350
+		size = 14350
 	}
 }
 #Mindoro (224000/56000 POPS)
@@ -258,7 +258,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 38875
+		size = 68875
 	}
 
 	clergymen = {
@@ -282,7 +282,7 @@
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 11025
+		size = 17025
 	}
 
 }
@@ -299,7 +299,7 @@
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 25
+		size = 250
 	}
 
 	artisans = {
@@ -317,7 +317,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 3700
+		size = 8700
 	}
 
 	aristocrats = {
@@ -371,7 +371,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 9375
+		size = 15375
 	}
 }
 #Iloilo (312000/78000 POPS)
@@ -385,7 +385,7 @@
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 350
+		size = 650
 	}
 
 	artisans = {
@@ -403,7 +403,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 64750
+		size = 94750
 	}
 
 	clergymen = {
@@ -427,7 +427,7 @@
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 7325
+		size = 11325
 	}
 }
 #Tacloban (348000/87000 POPS)
@@ -441,7 +441,7 @@
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 625
+		size = 925
 	}
 
 	artisans = {
@@ -459,7 +459,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 80125
+		size = 130125
 	}
 }
 #Cebu (304000/76000 POPS)
@@ -473,7 +473,7 @@
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 50
+		size = 300
 	}
 
 	soldiers = {
@@ -515,7 +515,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 64050
+		size = 94050
 	}
 
 	clergymen = {
@@ -539,7 +539,7 @@
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 5375
+		size = 11375
 	}
 
 }
@@ -550,31 +550,31 @@
 	bureaucrats = {
 		culture = spanish
 		religion = catholic
-		size = 75
+		size = 750
 	}
 
 	clergymen = {
 		culture = spanish
 		religion = catholic
-		size = 50
+		size = 850
 	}
 
 	soldiers = {
 		culture = spanish
 		religion = catholic
-		size = 25
+		size = 1200
 	}
 
 	aristocrats = {
 		culture = filipino
 		religion = catholic
-		size = 100
+		size = 500
 	}
 
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 100
+		size = 400
 	}
 
 	artisans = {
@@ -586,13 +586,13 @@
 	soldiers = {
 		culture = filipino
 		religion = catholic
-		size = 1100
+		size = 2100
 	}
 
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 14800
+		size = 129800
 	}
 
 	aristocrats = {
@@ -616,13 +616,13 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 100
+		size = 1200
 	}
 
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 11100
+		size = 45100
 	}
 
 	farmers = {
@@ -658,7 +658,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 7375
+		size = 9375
 	}
 }
 #Under rule of Sultans of Sulu in 1836
@@ -685,19 +685,19 @@
 	soldiers = {
 		culture = filipino
 		religion = sunni
-		size = 500
+		size = 1500
 	}
 
 	farmers = {
 		culture = filipino
 		religion = sunni
-		size = 44900
+		size = 89900
 	}
 
 	clergymen = {
 		culture = filipino
 		religion = catholic
-		size = 50
+		size = 1200
 	}
 
 	artisans = {
@@ -709,7 +709,7 @@
 	farmers = {
 		culture = filipino
 		religion = catholic
-		size = 12200
+		size = 32200
 	}
 
 	slaves = {
@@ -745,7 +745,7 @@
 	farmers = {
 		culture = asian_minor
 		religion = animist
-		size = 8525
+		size = 12525
 	}
 }
 #Jolo (44000/11000 POPS)
@@ -789,7 +789,7 @@
 	farmers = {
 		culture = malay
 		religion = sunni
-		size = 9825
+		size = 15825
 	}
 
 }

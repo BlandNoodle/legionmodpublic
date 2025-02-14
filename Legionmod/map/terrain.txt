@@ -10,7 +10,7 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.5
 		mine_rgo_eff = 0.0
-		supply_limit = 33
+		supply_limit = 50
 		defence = 2
 		fort_level = 2
 	}
@@ -61,7 +61,7 @@ categories =  {
 
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
-		mine_rgo_size = 0.0
+		mine_rgo_size = 0.1
 		mine_rgo_eff = 0.0
 		supply_limit = 6
 		min_build_railroad = 1
@@ -86,7 +86,7 @@ categories =  {
 		color = { 117 108 119 }
 		farm_rgo_size = 0
 		farm_rgo_eff = -0.25
-		mine_rgo_size = 0.0
+		mine_rgo_size = 0.2
 		mine_rgo_eff = 0.0
 		supply_limit = 2
 		

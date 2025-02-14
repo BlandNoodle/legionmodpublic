@@ -1,6 +1,6 @@
-owner = SHA
-controller = SHA
-add_core = SHA
+owner = CHI
+controller = CHI
+add_core = CHI
 add_core = TPG
 trade_goods = tea
 life_rating = 32
@@ -11,4 +11,3 @@ terrain = urban
 	
 }
 
-add_core = CHI

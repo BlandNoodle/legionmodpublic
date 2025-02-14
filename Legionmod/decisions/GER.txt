@@ -7,39 +7,27 @@ political_decisions = {
 		}
 		allow = {
 			is_greater_power = yes
-			MEC = {all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
-				}
+			MEC = {
+			in_sphere = THIS
 			}
-			HAN = {all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-						}
-					}
-				}
+			HAN = {
+				in_sphere = THIS
 			}
 		}
 		effect = {
-			set_country_flag = intenorth
 			any_country = {
 				limit = {
 					in_sphere = THIS
 					OR = {
-						tag = MEC
-						tag = HAN
 						tag = SCH
 						tag = HOL
 					}
 				}
 				country_event = { id=11101 days=0 }
 			}
+			inherit = MEC
+			inherit = HAN
+			set_country_flag = intenorth
 		}
 	}
 	
@@ -130,8 +118,9 @@ political_decisions = {
 		effect = {
 			set_country_flag = intesouth
 			inherit = BAD
-			inherit = WUR
-			inherit = BAV
+			571 = {owner = {571 = {secede_province = THIS} } }
+			create_vassal = BAV
+			create_vassal = WUR
 		}
 	}
 	

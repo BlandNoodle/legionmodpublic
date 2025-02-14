@@ -139,7 +139,6 @@ steam_turbine = {
 
 	mine_rgo_eff = 0.15
 	farm_rgo_eff = 0.15
-	factory_cost = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -184,7 +183,6 @@ combustion_engine = {
 
 	mine_rgo_eff = 0.25
 	farm_rgo_eff = 0.25
-	factory_cost = 0.1
 	ai_chance = {
 		factor = 1.25
 		modifier = {
@@ -392,7 +390,7 @@ semi_automatization = {
 	year = 1850
 	cost = 14400
 	factory_throughput = 0.05
-	factory_cost = -0.1 
+	factory_cost = 0.1 
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -426,7 +424,7 @@ assembly_line = {
 	year = 1870
 	cost = 18000
 	factory_throughput = 0.15
-	factory_cost = -0.1 
+	factory_cost = 0.1 
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -452,9 +450,9 @@ shift_work = {
 	year = 1900
 	cost = 21600
 
-	
 	rgo_output = 0.1
 	factory_throughput = 0.15
+	factory_cost = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -799,7 +797,8 @@ electric_furnace = {
 	area = metallurgy
 	year = 1900
 	cost = 21600
-
+	
+	factory_cost = 0.1
 	factory_goods_output = {
 		steel = 0.15 
 	}

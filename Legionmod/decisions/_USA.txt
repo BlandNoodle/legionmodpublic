@@ -7,6 +7,11 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 			}
 			tag = USA
+			JAP = {
+				NOT = {
+					civilized = yes
+				}
+			}
 			NOT = { has_country_flag = commodore_perry_expedition }
 		}
 
@@ -19,26 +24,23 @@ political_decisions = {
 			war = no
 			total_amount_of_ships = 4
 			JAP = {
-			part_of_sphere = no
-			government = shogunate
-				}
+				part_of_sphere = no
+				government = shogunate
+			}
 		}
 
 		effect = {
-		set_country_flag = commodore_perry_expedition
-					JAP = {
+			set_country_flag = commodore_perry_expedition
+			JAP = {
 				country_event = { id=99900021 days=1 }
-						}
-		THIS = {
-		diplomatic_influence = {
-			who = JAP
-			value = 300
-		}
-		random_country = {
-				limit = { 
-					exists = yes
-						tag = JAP
+			}
+			THIS = {
+				diplomatic_influence = {
+					who = JAP
+					value = 300
 				}
+			}
+			JAP = {
 				relation = { who = THIS value = -200 }
 			}
 			badboy = 5
@@ -51,7 +53,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-}
+
 
 	monroecanada = {
 		picture = "monroe"

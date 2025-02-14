@@ -930,7 +930,7 @@ iranian_turanian = {
 	is_overseas = no
 	unit = MiddleEasternGC
 	persian = {
-		color = {144 88 81}
+		color = {217 144 88}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -956,7 +956,7 @@ iranian_turanian = {
 			}
 	}
 	kazak = {
-		color = {83 102 46}
+		color = {67 179 174}
 		first_names = {
 			Ablai "Abu al-Khayr" Aryn Bukei Chokan 
 			Dulat Ibirai Isatai Ishim Jangir Kenisary 
@@ -1124,7 +1124,17 @@ south_asian = {
 		last_names = { Singha Aideo Dogoi Bora Khan Purnananda Phukan               
 		}
 	}
+	indians = {
+		color = {102 76 40}
+		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
+
+		}
+		last_names = { Jafar Muhammad Sarfaraz Ali "Qasim Ali" Najabut Bahadur Mirza Singh Valmiki Janak Jarasandh Mishra
+               
+		}
+	}
 	bengali = {
+
 		color = {156 134 112}
 		first_names = { Murshid Quli Shujauddin Alauddin Alivardi Sirajuddaula "Mir Muhammad" Najimuddin Reza Saifuddaula Zainul Ahmad Mansur Mubarak Hasan Wasif Waris
 			
@@ -1425,7 +1435,7 @@ southeast_asian = {
 		}
 	}
 	asian_minor = {
-		color = {99 150 72}
+		color = {27 77 62}
 		first_names = { Abdul Vijaya Rajkumari Aurobindo Chandrashekhar Gopal Motilal Sardar Sarojini Subhas Srinivasa Mridula Gupinath Chittaranjan
 			
 		}
@@ -1496,6 +1506,13 @@ east_asian = {
 		first_names = { Ma Deng zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
 		}
 		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
+		}
+	}
+	hans = {
+		color = {170 56 30}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye LÅETian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
 	beifaren = {

@@ -1,0 +1,393 @@
+#Outer Mongolia Region (1292000)
+#Outer Mongolia Region (1292000)
+#under the rule of China in 1836
+#Ugra (376000/94000 POPS)
+1465 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 1336
+    }
+
+    bureaucrats = {
+        culture = manchu
+        religion = animist
+        size = 53
+    }
+
+    officers = {
+        culture = manchu
+        religion = animist
+        size = 234
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 2890
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 3251
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 765
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 60942
+    }
+
+    bureaucrats = {
+        culture = mongol
+        religion = animist
+        size = 90
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 53
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 289
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 85
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 2384
+    }
+}
+#Dalandzadgad (212000/53000 POPS)
+1466 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 758
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 396
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 1914
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 467
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 34824
+    }
+}
+#Bayan Tumen (176000/44000 POPS)
+1467 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 595
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 306
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 1480
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 361
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 26930
+    }
+
+    aristocrats = {
+        culture = asian_minor
+        religion = animist
+        size = 50
+    }
+
+    clergymen = {
+        culture = asian_minor
+        religion = animist
+        size = 50
+    }
+
+    artisans = {
+        culture = asian_minor
+        religion = animist
+        size = 125
+    }
+
+    soldiers = {
+        culture = asian_minor
+        religion = animist
+        size = 25
+    }
+
+    farmers = {
+        culture = asian_minor
+        religion = animist
+        size = 2750
+    }
+}
+#Uliastay (140000/35000 POPS)
+1468 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 469
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 252
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 1263
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 297
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 23047
+    }
+}
+#Sainshand (71100/17775 POPS)
+2207 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 252
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 125
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 631
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 148
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 11704
+    }
+}
+#Khatgal (152000/38000 POPS)
+2608 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 541
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 270
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 1083
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 318
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 25287
+    }
+}
+#Bulgan (84000/21000 POPS)
+2678 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 289
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 144
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 758
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 191
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 12372
+    }
+}
+#Khovd (120000/30000 POPS)
+2679 = {
+    aristocrats = {
+        culture = mongol
+        religion = animist
+        size = 252
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 125
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 650
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 148
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 11849
+    }
+
+    aristocrats = {
+        culture = mongol
+        religion = animist
+        size = 144
+    }
+
+    clergymen = {
+        culture = mongol
+        religion = animist
+        size = 72
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 433
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 106
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 7928
+    }
+}
+#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia  Tatar = Tuvan
+1469 = {
+    aristocrats = {
+        culture = manchu
+        religion = animist
+        size = 150
+    }
+
+    clergymen = {
+        culture = manchu
+        religion = animist
+        size = 75
+    }
+
+    artisans = {
+        culture = mongol
+        religion = animist
+        size = 400
+    }
+
+    soldiers = {
+        culture = mongol
+        religion = animist
+        size = 75
+    }
+
+    farmers = {
+        culture = mongol
+        religion = animist
+        size = 7300
+    }
+}

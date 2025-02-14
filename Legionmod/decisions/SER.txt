@@ -1,0 +1,97 @@
+political_decisions = {
+	form_black_hand = {
+		potential = {
+			tag = SER
+			is_independant = yes
+			NOT = {has_country_flag = blackhandhasarrived}
+		}
+		allow = {
+			treasury = 100000
+			army_professionalism = 1
+			romanticism = 1
+		}
+		effect = {
+			money = -100000
+			any_owned = {
+				fort = 2
+			}
+			add_country_modifier = {
+				name = black_hand
+				duration = -1
+			}
+			activate_technology = associationism
+			set_country_flag = blackhandhasarrived
+		}
+	}
+	kane = {
+		potential = {
+			tag = SER
+			is_independant = yes
+			has_country_flag = blackhandhasarrived
+			NOT = {has_country_flag = peacethroughpower}
+		}
+		allow = {
+			treasury = 500000
+			biologism = 1
+			machine_guns = 1
+		}
+		effect = {
+			money = -500000
+			any_owned = {
+				limit = {
+					is_core = THIS
+				}
+				fort = 2
+			}
+			add_country_modifier = {
+				name = kane1
+				duration = 7300
+			}
+			activate_technology = analytic_philosophy
+			set_country_flag = peacethroughpower
+		}
+	}
+	temple_prime = {
+		potential = {
+			tag = SER
+			is_independant = yes
+			has_country_flag = blackhandhasarrived
+			NOT = {has_country_flag = templeprimeup}
+		}
+		allow = {
+			783 = {owned_by = THIS}
+			all_core = {owned_by = THIS}
+			treasury = 1000000
+			cheap_steel = 1
+			combustion_engine = 1
+			steel_railroad = 1
+		}
+		effect = {
+			capital = 783
+			783 = {
+				change_province_name = "Temple Prime"
+				trade_goods = sulphur
+				assimilate = yes
+			}
+			788 = {
+				change_province_name = "Tiberium Field 1"
+				trade_goods = sulphur
+			}
+			789 = {
+				change_province_name = "Tiberium Field 2"
+				trade_goods = sulphur
+			}
+			784 = {
+				change_province_name = "Tiberium Field 3"
+				trade_goods = sulphur
+			}
+			money = -1000000
+			EGY = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = templeprimeup
+		}
+	}
+}

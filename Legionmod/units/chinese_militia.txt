@@ -1,0 +1,37 @@
+chinese_militia = {
+	icon = 22
+	
+	type = land
+	sprite = Irregular
+	active = no
+	unit_type = infantry
+	floating_flag = yes
+	
+	#Core Abilities
+	priority = 10
+	max_strength = 3
+	default_organisation = 10
+	maximum_speed = 4.00
+	weighted_value = 2.0
+
+
+	#Building Costs
+	build_time = 35
+	build_cost = {
+		grain = 2
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		grain = 0.02
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 1
+	attack = 2
+	defence = 2
+	discipline = 0.9
+	support = 0.5
+	maneuver = 2
+}

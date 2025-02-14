@@ -184,6 +184,7 @@ luderitz_expedition = {
 			NOT = {
 				tech_school = prussian_tech_school
 			}
+			NOT = {has_country_flag = ruhr_boomed}
 		}
 		
 		allow = {
@@ -206,6 +207,7 @@ luderitz_expedition = {
 		effect = {
 			tech_school = prussian_tech_school
 			prestige = 5
+			set_country_flag = ruhr_boomed
 		}
 	}	
 	
@@ -379,6 +381,7 @@ luderitz_expedition = {
 				is_greater_power = yes
 				invention = national_fraternity
 			}
+			owns = 533
 			money = 4000001
 		}
 		

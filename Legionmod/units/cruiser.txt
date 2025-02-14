@@ -37,14 +37,14 @@ cruiser = {
 		steamer_convoy = 0.5
 		artillery = 0.16
 		canned_food = 0.14
-		fuel = 0.14
+		coal = 0.55
 		ammunition = 0.1
 	}
 	
 	#Naval Abilties
 	hull = 30
 	gun_power = 20
-	fire_range = 0.75
-	evasion = 0.0
+	fire_range = 0.85
+	evasion = 0.3
 	torpedo_attack = 0
 }

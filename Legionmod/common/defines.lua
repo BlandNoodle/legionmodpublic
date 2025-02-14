@@ -52,7 +52,7 @@ country = {
 	MILITARY_REFORM_UH_FACTOR = -0.40,
 	WRONG_REFORM_RADICAL_IMPACT = 15,
 	TECH_YEAR_SPAN = 140,
-	TECH_FACTOR_VASSAL = 0.8, -- cost reduction factor if overlord has research the tech
+	TECH_FACTOR_VASSAL = 0.5, -- cost reduction factor if overlord has research the tech
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
 	MIN_MOBILIZE_LIMIT = 3,
@@ -610,7 +610,7 @@ diplomacy = {
 	TWS_FULFILLED_IDLE_SPACE = 0.75, -- How much % the CB fulfillment must done, so TWS starts ticking.
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
-	LARGE_POPULATION_INFLUENCE_PENALTY = 0,
+	LARGE_POPULATION_INFLUENCE_PENALTY = -0.2,
 	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
 },  
 
@@ -688,8 +688,8 @@ pops = {
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
 	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
 	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
-	LARGE_POPULATION_LIMIT = 9000000,
-	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,
+	LARGE_POPULATION_LIMIT = 10000000,
+	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 500000,
 },
 
 ai =
@@ -703,7 +703,7 @@ ai =
 	CAPITALIST_FRACTION = 0.002, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 0.05, -- ai weight for new production
 	SPAM_PENALTY = 20, -- makes certain diplomatic action less common 
-	ONE_SIDE_MAX_WARSCORE = 100, -- don't add too many wargoals to one side in a war
+	ONE_SIDE_MAX_WARSCORE = 101, -- don't add too many wargoals to one side in a war
 	POP_PROJECT_INVESTMENT_MAX_BUDGET_FACTOR = 0.9, -- how much % of our current budget can be spend on the pop project investments.
 	RELATION_LIMIT_NO_ALLIANCE_OFFER = 0, -- if relation lower then this value, AI will not ally
 	NAVAL_SUPPLY_PENALTY_LIMIT = 0.2, -- AI will allow to have max X% of supply penalty (when too little naval bases)

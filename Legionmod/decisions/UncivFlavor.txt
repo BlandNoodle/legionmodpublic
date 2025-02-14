@@ -195,12 +195,12 @@ political_decisions = {
 			activate_technology = iron_muzzle_loaded_artillery
 			activate_technology = military_staff_system
 			define_general = {
-				name = Son-Goku
+				name = Son Goku
 				personality = defence5.1
 				background = attack1.1
 			}
 			define_general = {
-				name = Prince-Vegeta
+				name = Prince Vegeta
 				personality = defence1.1
 				background = attack5.1
 			}
@@ -559,6 +559,27 @@ political_decisions = {
 			money = -200000
 			prestige = 20
 			set_country_flag = byemafia
+		}
+	}
+	
+	build_newdelhi = {
+		potential = {
+			tag = HND
+			capital = 1236
+			civilized = yes
+		}
+		allow = {
+			money = 1000000
+			iron_railroad = 1
+			high_n_low_pressure_steam_engines = 1
+			clean_coal = 1
+		}
+		effect = {
+			1236 = {
+				life_rating = 6
+				change_province_name = "New Delhi"
+			}
+			prestige = 15
 		}
 	}
 }
