@@ -3,6 +3,7 @@ political_decisions = {
 		potential = {
 			is_greater_power = yes
 			primary_culture = south_german
+			NOT = {tag = GER}
 			NOT = {
 				exists = SGF
 				tag = KUK
@@ -93,6 +94,7 @@ political_decisions = {
 		potential = {
 			is_greater_power = yes
 			primary_culture = south_german
+			NOT = {tag = GER}
 			NOT = {
 				exists = SGF
 				tag = KUK

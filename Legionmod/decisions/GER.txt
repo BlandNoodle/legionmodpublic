@@ -4,6 +4,7 @@ political_decisions = {
 			owns = 549
 			is_core = 549
 			NOT = {has_country_flag = intenorth}
+			NOT = {tag = GER}
 		}
 		allow = {
 			is_greater_power = yes
@@ -37,6 +38,7 @@ political_decisions = {
 			is_core = 549
 			NOT = {has_country_flag = intecenter}
 			has_country_flag = intenorth
+			NOT = {tag = GER}
 		}
 		allow = {
 			is_greater_power = yes
@@ -83,6 +85,7 @@ political_decisions = {
 			is_core = 549
 			NOT = {has_country_flag = intesouth}
 			has_country_flag = intecenter
+			NOT = {tag = GER}
 		}
 		allow = {
 			is_greater_power = yes
