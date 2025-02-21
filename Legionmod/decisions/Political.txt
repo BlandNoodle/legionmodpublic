@@ -608,5 +608,95 @@ enact_liquor_prohibition = {
 			country_event = { id = 91306 days = 0 }
 		}
 	}
+	
+	increase_healthcare = {
+		potential = {
+			has_country_flag = inteyes
+			civilized = yes
+			OR = {
+				health_care = no_health_care
+				health_care = trinket_health_care
+				health_care = low_health_care
+				health_care = acceptable_health_care
+			}
+		}
+		allow = {
+			OR = {
+				THIS = {
+					health_care = no_health_care
+					has_country_flag = medicine_invented
+					money = 500000
+				}
+				THIS = {
+					health_care = trinket_health_care
+					has_country_flag = germs_invented
+					money = 750000
+				}
+				THIS = {
+					health_care = low_health_care
+					has_country_flag = gaslights_invented
+					money = 1000000
+				}
+				THIS = {
+					health_care = acceptable_health_care
+					has_country_flag = electricity_invented
+					money = 2000000
+				}
+			}
+			NOT = { has_country_modifier = health_care_change }
+		}
+		effect = {
+			add_country_modifier = { name = health_care_change duration = 1825 }
+			random_owned = { limit = { owner = { health_care = acceptable_health_care } } owner = { social_reform = good_health_care money = -2000000 } }
+			random_owned = { limit = { owner = { health_care = low_health_care } } owner = { social_reform = acceptable_health_care money = -1000000 } }
+			random_owned = { limit = { owner = { health_care = trinket_health_care } } owner = { social_reform = low_health_care money = -750000 } }
+			random_owned = { limit = { owner = { health_care = no_health_care } } owner = { social_reform = trinket_health_care money = -500000 } }
+		}
+	}
+
+	increase_school_system = {
+		potential = {
+			has_country_flag = inteyes
+			civilized = yes
+			OR = {
+				school_reforms = no_schools
+				school_reforms = low_schools
+				school_reforms = acceptable_schools
+				school_reforms = good_schools
+			}
+		}
+		allow = {
+			OR = {
+				THIS = {
+					school_reforms = no_schools
+					malthusian_thought = 1
+					money = 250000
+				}
+				THIS = {
+					school_reforms = low_schools
+					positivism = 1
+					money = 500000
+				}
+				THIS = {
+					school_reforms = acceptable_schools
+					biologism = 1
+					money = 750000
+				}
+				THIS = {
+					school_reforms = good_schools
+					social_science = 1
+					money = 1000000
+				}
+			}
+			NOT = { has_country_modifier = schooling_change }
+		}
+		effect = {
+			add_country_modifier = { name = schooling_change duration = 1825 }
+			random_owned = { limit = { owner = { school_reforms = good_schools } } owner = { social_reform = mandatory_schools money = -2000000 } }
+			random_owned = { limit = { owner = { school_reforms = acceptable_schools } } owner = { social_reform = good_schools money = -1000000 } }
+			random_owned = { limit = { owner = { school_reforms = decent_schools } } owner = { social_reform = acceptable_schools money = -500000 } }
+			random_owned = { limit = { owner = { school_reforms = no_schools } } owner = { social_reform = low_schools money = -250000 } }
+		}
+	}
 
 }

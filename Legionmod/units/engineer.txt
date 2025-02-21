@@ -17,9 +17,9 @@ engineer = {
 	#Building Costs
 	build_time = 90
 	build_cost = {
-		small_arms = 75
-		canned_food = 10
-		regular_clothes = 2
+		small_arms = 100
+		canned_food = 15
+		regular_clothes = 5
 	}
 	
 	supply_consumption = 1.0

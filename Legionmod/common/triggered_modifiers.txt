@@ -23,9 +23,8 @@ help_ai = {
 	min_tariff = 3
 	max_tariff = 3
 	mobilisation_economy_impact = -0.20
-	supply_consumption = -0.10
-	rgo_throughput = 0.1
-	education_efficiency_modifier = 0.10
+	supply_consumption = -0.15
+	education_efficiency_modifier = 0.25
 }
 
 help_CSA = {
@@ -382,55 +381,6 @@ money_hoarder_7 = {
 	icon = 1
 }
 
-
-low_schools_fully_funded = {
-    trigger = {
-        exists = yes
-        school_reforms = low_schools
-        education_spending = 0.3
-    }
-    education_efficiency_modifier = 0.05
-    icon = 19
-}
-
-acceptable_schools_fully_funded = {
-    trigger = {
-        exists = yes
-        school_reforms = acceptable_schools
-        education_spending = 0.4
-    }
-    education_efficiency_modifier = 0.075
-    icon = 19
-}
-
-good_schools_fully_funded = {
-    trigger = {
-        exists = yes
-        school_reforms = good_schools
-        education_spending = 0.5
-    }
-    education_efficiency_modifier = 0.1
-    icon = 19
-}
-
-education_fully_funded = {
-    trigger = {
-        exists = yes
-        school_reforms = good_schools
-        OR = {
-            AND = {
-                ai = yes
-                education_spending = 0.5
-            }
-            AND = {
-                ai = no
-                education_spending = 0.99
-            }
-        }
-    }
-    education_efficiency_modifier = 0.1
-    icon = 19
-}
 neglected_education = {
     trigger = {
         exists = yes
@@ -455,4 +405,56 @@ neglected_education = {
     }
     education_efficiency_modifier = -1
     icon = 19
+}
+
+trinket_health_care_funding = {
+    trigger = {
+        exists = yes
+        civilized = yes
+        OR = {
+            health_care = trinket_health_care
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+        administration_spending  = 0.25
+    }
+    global_population_growth = 0.001
+}
+
+low_health_care_funding = {
+    trigger = {
+        exists = yes
+        civilized = yes
+        OR = {
+            health_care = low_health_care
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+        administration_spending  = 0.50
+    }
+    global_population_growth = 0.001
+}
+
+acceptable_health_care_funding = {
+    trigger = {
+        exists = yes
+        civilized = yes
+        OR = {
+            health_care = acceptable_health_care
+            health_care = good_health_care
+        }
+        administration_spending  = 0.75
+    }
+    global_population_growth = 0.001
+}
+
+good_health_care_funding = {
+    trigger = {
+        exists = yes
+        civilized = yes
+        health_care = good_health_care
+        administration_spending = 1
+    }
+    global_population_growth = 0.001
 }

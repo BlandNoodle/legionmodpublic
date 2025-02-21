@@ -23,10 +23,10 @@ party = {
 
 	ideology = conservative
 
-	economic_policy = laissez_faire
+	economic_policy = state_capitalism
 	trade_policy = protectionism
 	religious_policy = pluralism
-	citizenship_policy = residency
+	citizenship_policy = limited_citizenship
 	war_policy = pro_military
 }
 

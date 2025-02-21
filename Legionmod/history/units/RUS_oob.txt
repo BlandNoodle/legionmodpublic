@@ -102,68 +102,7 @@ DEN = {
 	value = 125
 }
 
-leader = {
-	name = "Prince Vasilchikov"
-	date = 1801.1.1
-	type = land
-	personality = competent
-	background = powerful_friends
-	prestige = 0.4
-}
 
-leader = {
-	name = "Prince Mikhail Vorontsov"
-	date = 1814.1.1
-	type = land
-	personality = daring
-	background = gifted_administrator
-	prestige = 0.3
-}
-
-leader = {
-	name = "Pyotr Chicherin"
-	date = 1835.1.1
-	type = land
-	personality = earnest
-	background = cavalry_school
-	prestige = 0.1
-}
-
-leader = {
-	name = "Alexander Chernyshev"
-	date = 1821.1.1
-	type = land
-	personality = intelligent
-	background = diplomat
-	prestige = 0.1
-}
-
-leader = {
-	name = "Prince Menshikov"
-	date = 1833.1.1
-	type = sea
-	personality = lackluster
-	background = clueless
-	prestige = 0.1
-}
-
-leader = {
-	name = " Ivan Paskevich"
-	date = 1812.1.1
-	type = land
-	personality = merciless
-	background = school_of_offense
-	prestige = 0.3
-}
-
-leader = {
-	name = "Matvey Khrapovitsky"
-	date = 1835.1.1
-	type = land
-	personality = able
-	background = war_college
-	prestige = 0.1
-}
 
 leader = {
 	name = "Mikhail Lazarev"

@@ -234,7 +234,6 @@ conquer_south_america = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
-		THIS = { tag = BRZ }
 		capital_scope = {
 			continent = south_america
 		}
@@ -814,6 +813,7 @@ acquire_capital = {
 				tag = BAV
 				tag = WUR
 				tag = BAD
+				tag = CHI
 			}
 		}
 		NOT = { is_our_vassal = THIS }

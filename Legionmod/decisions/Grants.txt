@@ -69,6 +69,7 @@ political_decisions = {
 			small_arms = 200
 			canned_food = 100
 			artillery = 100
+			leadership = 100
 		}
 	}
 	
@@ -89,6 +90,7 @@ political_decisions = {
 			small_arms = 100
 			canned_food = 50
 			artillery = 50
+			leadership = 40
 		}
 	}
 	
@@ -108,6 +110,7 @@ political_decisions = {
 			clipper_convoy = 25
 			small_arms = 50
 			opium = 1
+			leadership = 20
 		}
 	}
 	

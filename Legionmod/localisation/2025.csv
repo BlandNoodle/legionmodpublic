@@ -138,3 +138,33 @@ siege_country_title;Siege All Target Countries to the Occupier;;;;;;;;;;;;;;;;;;
 siege_country_desc;Click this to siege all target countries to the occupier you picked earlier;;;;;;;;;;;;;;;;;;;;;;;;;x
 ARMY_TECHNOLOGY_LEVELS; ;;;;;;;;;;;x
 NAVY_TECHNOLOGY_LEVELS; ;;;;;;;;;;;x
+increase_healthcare_title;Improve Healthcare;;;;;;;;x
+increase_healthcare_desc;Hallo;;;;;;;;;;x
+increase_school_system_title;Improve School System;;;;;;;;x
+increase_school_system_desc;Hallo;;;;;;;;;;x
+trinket_health_care_funding;Trinket Healthcare;;;;;;;;x
+low_health_care_funding;Low Healthcare;;;;;;;;;x
+acceptable_health_care_funding;Acceptable Healthcare;;;;;;;;x
+good_health_care_funding;Good Healthcare;;;;;;;;x
+medicine_flags_title;medicine flags;;;;;;;;x
+medicine_flags_desc;lalalala;;;;;;;;x
+health_care_change;Healthcare Change;;;;;;;x
+health_care_change_desc;allo;;;;;;;;x
+schooling_change;Schools Out;;;;;x
+schooling_change_desc;for Summer;;;;;;;x
+medicine_invented;Medicine Invented;;;;;;;x
+medicine_invented_desc;good job;;;;;;;;x
+germs_invented;Germs Invented;;;;;;;x
+germs_invented_desc;good job;;;;;;;;x
+gaslights_invented;You Didn't Invent This;;;;;;;x
+gaslights_invented_desc;You literally didnt invent gaslights;;;;;;;;x
+electricity_invented;Electro Wizard Invented;;;;;;;x
+electricity_invented_desc;El-ectr-citity!;;;;;;;;x
+claim_manchuria_title;Claim Manchuria Proper;;;;;;;x
+claim_manchuria_desc;Our preparations around the source of the heavenly Mandate are complete. With one order, we can begin marching into Manchuria to setup our first of many outposts.;;;;;;;x
+mughals_title;Son of Timur;;;;;;;x
+mughals_desc;Its the Green its the green its the green you need!!! Who needs Samarkand when you have India Super Power 1920!;;;;;x
+build_newdelhi;Build New Delhi;;;;;;x
+build_newdelhi;We are building the mother of all call centers, Jack! You're gonna have to crack a few whips. . .;;;;;;x
+timurlane_home_title;Timurlane's Home;;;;;;;x
+timurlane_home_desc;ITS COMING HOME! SHES COMIN HOME TO SAMARKAND!;;;;;;;x

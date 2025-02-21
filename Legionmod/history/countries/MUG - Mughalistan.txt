@@ -1,10 +1,5 @@
 capital = 1236
-primary_culture = asian_minor
-culture = telegu
-culture = marathi
-culture = rajput
-culture = gujarati
-religion = animist
+primary_culture = indians
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order

@@ -60,7 +60,7 @@ country_event = {
 	allow_multiple_instance= yes
 	
 	trigger = {
-		civilized = yes
+		ai = no
 		year = 1836
 		ai = no
 		NOT = {

@@ -169,21 +169,21 @@ political_decisions = {
 			1082 = {
 				add_province_modifier = {
 					name = pacific_ports
-					duration -1
+					duration = -1
 				}
 				assimilate = yes
 			}
 			1074 = {
 				add_province_modifier = {
 					name = pacific_ports
-					duration -1
+					duration = -1
 				}
 				assimilate = yes
 			}
 			1481 = {
 				add_province_modifier = {
 					name = pacific_ports
-					duration -1
+					duration = -1
 				}
 				assimilate = yes
 			}
@@ -226,6 +226,7 @@ political_decisions = {
 				owned_by = THIS
 				has_building = naval_base
 			}
+			NOT = {battleship_column_doctrine = 1}
 		}
 		effect = {
 			money = -100000
@@ -233,7 +234,7 @@ political_decisions = {
 			1 = {
 				add_province_modifier = {
 					name = pacific_ports
-					duration -1
+					duration = -1
 				}
 				life_rating = 10
 			}
@@ -261,7 +262,7 @@ political_decisions = {
 				secede_province = THIS
 				life_rating = 15
 			}
-			activate_technology = battleship_column_doctrine
+			random_owned = { limit = { owner = { NOT = {battleship_column_doctrine = 1 } } } owner = { activate_technology = battleship_column_doctrine } }
 			set_country_flag = alaskaports
 		}
 	}
@@ -285,21 +286,12 @@ political_decisions = {
 			treasury = -100000
 			1085 = {
 				trade_goods = timber
-				assimilate = yes
 			}
 			2617 = {
 				trade_goods = sulphur
-				assimilate = yes
 			}
 			1084 = {
 				trade_goods = iron
-				assimilate = yes
-			}
-			1082 = {
-				assimilate = yes
-			}
-			1083 = {
-				assimilate = yes
 			}
 			CHI_1082 = {
 				infrastructure = 3
@@ -361,8 +353,8 @@ political_decisions = {
 			set_country_flag = gunnaz
 			treasury = -500000
 			prestige = 10
-			activate_technology = main_armament
-			activate_technology = weapon_platforms
+			random_owned = { limit = { owner = { NOT = {main_armament = 1 } } } owner = { activate_technology = main_armament } }
+			random_owned = { limit = { owner = { NOT = {weapon_platforms = 1 } } } owner = { activate_technology = weapon_platforms } }
 		}
 	}
 	
@@ -409,6 +401,7 @@ political_decisions = {
 					duration = 3650
 				}
 			}
+			set_country_flag = mauihead
 		}
 	}
 	
@@ -432,9 +425,6 @@ political_decisions = {
 			owns = 2525
 			owns = 2524
 			money = 2000000
-			big_producer = liquor
-			big_producer = steamer_convoy
-			big_producer = clipper_convoy
 		}
 		effect = {
 			treasury = -2000000

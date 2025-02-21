@@ -314,7 +314,7 @@ anti__rationalism = {
 	year = 1900
 	cost = 21600
 
-	increase_research = 0.50
+	increase_research = 0.10
 	ai_chance = {
 		factor = 51
 		modifier = {
@@ -386,7 +386,7 @@ functionalism = {
 	cost = 10800
 
 	colonial_migration = 0.05
-	education_efficiency = 0.10
+	education_efficiency = 0.15
 	increase_research = 0.10
 	
 	ai_chance = {
@@ -430,7 +430,7 @@ social_science = {
 	cost = 18000
 
 	colonial_migration = 0.1
-	education_efficiency = 0.15
+	education_efficiency = 0.20
 	increase_research = 0.25
 	
 	ai_chance = {
@@ -452,8 +452,8 @@ social_alienation = {
 	cost = 21600
 	
 	colonial_migration = 0.15
-	education_efficiency = 0.15
-	increase_research = 0.50
+	education_efficiency = 0.20
+	increase_research = 0.10
 	
 	ai_chance = {
 		factor = 1.01

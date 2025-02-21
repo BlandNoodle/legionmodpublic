@@ -29,32 +29,64 @@ political_decisions = {
 			civilized = yes
 		}
 		effect = {
-			activate_technology = water_wheel_power
-			activate_technology = practical_steam_engine
-			activate_technology = private_banks
-			activate_technology = publishing_industry
-			activate_technology = experimental_railroad
-			activate_technology = mechanical_production
-			activate_technology = mechanized_mining
-			activate_technology = no_standard
-			activate_technology = medicine
-			activate_technology = late_enlightenment_philosophy
-			activate_technology = idealism
-			activate_technology = malthusian_thought
-			activate_technology = enlightenment_thought
-			activate_technology = ideological_thought
-			activate_technology = early_classical_theory_and_critique
-			activate_technology = army_command_principle
-			activate_technology = flintlock_rifles
-			activate_technology = post_napoleonic_thought
-			activate_technology = military_staff_system
-			activate_technology = bronze_muzzle_loaded_artillery
-			activate_technology = post_nelsonian_thought
-			activate_technology = clipper_design
-			activate_technology = naval_design_bureaus
-			activate_technology = freedom_of_trade
+			random_owned = { limit = { owner = { NOT = {water_wheel_power = 1 } } } owner = { activate_technology = water_wheel_power } }
+			random_owned = { limit = { owner = { NOT = {practical_steam_engine = 1 } } } owner = { activate_technology = practical_steam_engine } }
+			random_owned = { limit = { owner = { NOT = {private_banks = 1 } } } owner = { activate_technology = private_banks } }
+			random_owned = { limit = { owner = { NOT = {publishing_industry = 1 } } } owner = { activate_technology = publishing_industry } }
+			random_owned = { limit = { owner = { NOT = {experimental_railroad = 1 } } } owner = { activate_technology = experimental_railroad } }
+			random_owned = { limit = { owner = { NOT = {mechanical_production = 1 } } } owner = { activate_technology = mechanical_production } }
+			random_owned = { limit = { owner = { NOT = {mechanized_mining = 1 } } } owner = { activate_technology = mechanized_mining } }
+			random_owned = { limit = { owner = { NOT = {no_standard = 1 } } } owner = { activate_technology = no_standard } }
+			random_owned = { limit = { owner = { NOT = {medicine = 1 } } } owner = { activate_technology = medicine } }
+			random_owned = { limit = { owner = { NOT = {late_enlightenment_philosophy = 1 } } } owner = { activate_technology = late_enlightenment_philosophy } }
+			random_owned = { limit = { owner = { NOT = {idealism = 1 } } } owner = { activate_technology = idealism } }
+			random_owned = { limit = { owner = { NOT = {malthusian_thought = 1 } } } owner = { activate_technology = malthusian_thought } }
+			random_owned = { limit = { owner = { NOT = {enlightenment_thought = 1 } } } owner = { activate_technology = enlightenment_thought } }
+			random_owned = { limit = { owner = { NOT = {ideological_thought = 1 } } } owner = { activate_technology = ideological_thought } }
+			random_owned = { limit = { owner = { NOT = {early_classical_theory_and_critique = 1 } } } owner = { activate_technology = early_classical_theory_and_critique } }
+			random_owned = { limit = { owner = { NOT = {army_command_principle = 1 } } } owner = { activate_technology = army_command_principle } }
+			random_owned = { limit = { owner = { NOT = {flintlock_rifles = 1 } } } owner = { activate_technology = flintlock_rifles } }
+			random_owned = { limit = { owner = { NOT = {post_napoleonic_thought = 1 } } } owner = { activate_technology = post_napoleonic_thought } }
+			random_owned = { limit = { owner = { NOT = {military_staff_system = 1 } } } owner = { activate_technology = military_staff_system } }
+			random_owned = { limit = { owner = { NOT = {bronze_muzzle_loaded_artillery = 1 } } } owner = { activate_technology = bronze_muzzle_loaded_artillery } }
+			random_owned = { limit = { owner = { NOT = {post_nelsonian_thought = 1 } } } owner = { activate_technology = post_nelsonian_thought } }
+			random_owned = { limit = { owner = { NOT = {clipper_design = 1 } } } owner = { activate_technology = clipper_design } }
+			random_owned = { limit = { owner = { NOT = {naval_design_bureaus = 1 } } } owner = { activate_technology = naval_design_bureaus } }
+			random_owned = { limit = { owner = { NOT = {freedom_of_trade = 1 } } } owner = { activate_technology = freedom_of_trade } }
 			research_points = 7200
 			set_country_flag = needtech
+		}
+	}
+	
+	claim_manchuria = {
+		potential = {
+			OR = {
+				tag = JAP
+				tag = RUS
+			}
+			NOT = {has_global_flag = manchu_it_up}
+		}
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					owns = 1481
+					owns = 1619
+				}
+				AND = {
+					owns = 1481
+					owns = 1082
+				}
+			}
+			money = 1000000
+			nationalism_n_imperialism = 1
+			iron_railroad = 1
+		}
+		effect = {
+			set_global_flag = manchu_it_up
+			CHI_1553 = {add_core = THIS}
+			prestige = 15
+			money = -1000000
 		}
 	}
 	

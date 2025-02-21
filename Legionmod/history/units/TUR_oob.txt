@@ -87,14 +87,7 @@ leader = {
 	prestige = 0.2
 }
 
-leader = {
-	name = "Wojciech Chrzanowski"
-	date = 1836.1.1
-	type = land
-	personality = romantic
-	background = cartographer
-	prestige = 0.1
-}
+
 
 leader = {
 	name = "Helmuth von Moltke"
@@ -105,50 +98,7 @@ leader = {
 	prestige = 0.0
 }
 
-leader = {
-	name = "Abdi Pasha"
-	date = 1836.1.1
-	type = land
-	personality = merciless
-	background = old_school
-	prestige = 0.0
-}
 
-leader = {
-	name = "Hafiz Osman Pasha"
-	date = 1836.1.1
-	type = land
-	personality = inept
-	background = yesman
-	prestige = 0.0
-}
-
-leader = {
-	name = "Namik Pasha"
-	date = 1836.1.1
-	type = land
-	personality = expert
-	background = diplomat
-	prestige = 0.0
-}
-
-leader = {
-	name = "Abdülkerim Pasha"
-	date = 1836.1.1
-	type = land
-	personality = active_p
-	background = war_college
-	prestige = 0.0
-}
-
-leader = {
-	name = "Yaver Pasha"
-	date = 1836.1.1
-	type = sea
-	personality = diplomatic
-	background = gifted_administrator
-	prestige = 0.1
-}
 
 army = {
 	name = "Imperial Guards"
