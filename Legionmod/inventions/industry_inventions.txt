@@ -1148,6 +1148,23 @@ nitroglycerin = {
 		mine_RGO_eff = 0.22
 	}
 }
+germ_theory = {
+	limit = { inorganic_chemistry = 1 }
+	chance = {
+		base = 1
+		modifier = {
+			factor = 5
+			organic_chemistry = 1
+		}
+		modifier = {
+			factor = 5
+			invention = vaccination
+		}
+	}
+	effect = {
+		shared_prestige = 10
+	}
+}
 chemical_wood_pulp_process = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
