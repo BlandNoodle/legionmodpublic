@@ -3,5 +3,5 @@ controller = CHI
 
 trade_goods = cattle
 life_rating = 32
-
+add_core = MGL
 add_core = CHI

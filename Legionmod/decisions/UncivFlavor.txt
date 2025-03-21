@@ -1,26 +1,5 @@
 political_decisions = {
-	an_elephant_for_america = {
-		potential = {
-			tag = SIA
-			year = 1861
-			exists = USA
-			NOT = {
-				has_country_flag = sent_an_elephant_to_america
-			}
-		}
-		allow = {
-			relation = {
-				who = USA
-				value = 0
-			}
-		}
-		effect = {
-			USA = {
-				country_event = { id=13350 days=0 }
-			}
-			set_country_flag = sent_an_elephant_to_america
-		}
-	}
+
 	torching_of_the_summer_palace = {
 		potential = {
 			NOT = {
@@ -46,33 +25,6 @@ political_decisions = {
 				country_event = { id=13355 days=0 }
 			}
 			set_global_flag = summer_palace_torched
-		}
-	}
-	
-	clear_out_the_manchu_elite = {
-		potential = {
-			tag = CHI
-			government = absolute_monarchy
-			is_greater_power = no
-			civilized = no
-			year = 1860
-			NOT = {
-				has_country_flag = manchu_elite_cleared_out
-			}
-		}
-		allow = {
-			average_consciousness = 3
-		}
-		effect = {
-			years_of_research = 0.5
-			any_pop = {
-				limit = {
-					has_pop_culture = manchu
-				}
-				militancy = 2
-				consciousness = 1
-			}
-			set_country_flag = manchu_elite_cleared_out
 		}
 	}
 	
@@ -246,32 +198,6 @@ political_decisions = {
 		}
 	}
 	
-	
-	build_the_tower_of_babylon = {
-		potential = {
-			tag = IRQ
-			is_greater_power = yes
-		}
-		
-		allow = {
-			advanced_metallurgy = 1
-			the_historical_theory = 1
-		}
-		
-		effect = {
-			IRQ = {
-				all_core = {
-					add_core = BAB
-				}
-			}
-			926 = {
-				change_province_name = Babylon
-			}
-			change_tag = BAB
-			prestige = 100
-		}
-	}
-	
 	organize_colonial_armies = {
         picture = gurkha
         potential = {
@@ -285,8 +211,9 @@ political_decisions = {
 
         allow = {
             naval_logistics = 1
-            invention = bell_n_greys_telephones
-            money = 510000
+            steel_railroad = 1
+			invention = colonial_negotiations
+            money = 500001
         }
 
         effect = {
@@ -424,22 +351,18 @@ political_decisions = {
 		picture = "get_stockpile_big"
 		potential = {
 			civilized = yes
-			NOT = {tag = ALB}
+			NOT = {tag = GHO}
 			NOT = {has_country_modifier = casino_cooldown}
 			NOT = {has_country_modifier = casino_banned}
-			exists = ALB
-			year = 1844
+			year = 1840
 			NOT = {has_global_flag = activegambler}
 		}
 		allow = {
 			money = 100000
-			NOT = {war_with = ALB}
 		}
 		effect = {
 			money = -100000
-			ALB = {
-				money = 100000
-				research_points = 200
+			GHO = {
 				country_event = {id = 19000166 days = 1}
 			}
 			add_country_modifier = {

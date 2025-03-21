@@ -246,11 +246,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA13015"
-		casus_belli = {
-			target = FROM
-			type = cut_down_to_size
-			months = 12
-		}
+		
 		relation = {
 			who = FROM
 			value = -50
@@ -998,28 +994,14 @@ country_event = {
 	option = {
 		name = "EVTOPTA13170"
 		prestige = 5
-		casus_belli = {
-			target = FROM
-			type = cut_down_to_size
-			months = 12
-		}
+		
 	}
 
 	option = {
 		name = "DIPLO_CALL_ALLIES"
 		prestige = 5
-		casus_belli = {
-			target = FROM
-			type = cut_down_to_size
-			months = 12
-		}
-		war = {
-			target = FROM
-			call_ally = yes
-			attacker_goal = {
-				casus_belli = cut_down_to_size
-			}
-		}
+		
+		
 	}
 
 	option = {
@@ -1148,17 +1130,7 @@ country_event = {
 			who = FROM
 			value = -200
 		}
-		casus_belli = {
-			target = FROM
-			type = add_to_sphere
-			months = 12
-		}
-		war = {
-			target = FROM
-			attacker_goal = {
-				casus_belli = add_to_sphere
-			}
-		}
+		
 	}
 
 	option = {
@@ -1167,18 +1139,7 @@ country_event = {
 			who = FROM
 			value = -100
 		}
-		casus_belli = {
-			target = FROM
-			type = cut_down_to_size
-			months = 12
-		}
-		war = {
-			target = FROM
-			call_ally = yes
-			attacker_goal = {
-				casus_belli = cut_down_to_size
-			}
-		}
+		
 	}
 
 	option = {
@@ -1289,11 +1250,7 @@ province_event = {
 				who = THIS
 				value = -30
 			}
-			casus_belli = {
-				target = THIS
-				type = humiliate
-				months = 12
-			}
+			
 		}
 		owner = {
 			badboy = 2
@@ -1487,14 +1444,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA13270"
 		prestige = -5
-			war = {
-				target = ENG
-				attacker_goal = { casus_belli = acquire_core_state state_province_id = 1496 }
-				defender_goal = { casus_belli = humiliate }
-				call_ally = yes
-				}
 			
-			}
 		}
 
 
@@ -1606,11 +1556,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA13356"
 		prestige = -5
-		casus_belli = {
-			target = FROM
-			type = cut_down_to_size_boxer
-			months = 12
-		}
+		
 	}
 }
 
@@ -1676,11 +1622,7 @@ country_event = {
 
 	option = {				
 		name = "EVTOPTA90950"
-		casus_belli = {
-			target = FROM
-			type = make_puppet
-			months = 12
-		}
+		
 		
 		relation = {
 			who = FROM

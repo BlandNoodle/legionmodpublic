@@ -284,15 +284,6 @@ political_decisions = {
 		}
 		effect = {
 			treasury = -100000
-			1085 = {
-				trade_goods = timber
-			}
-			2617 = {
-				trade_goods = sulphur
-			}
-			1084 = {
-				trade_goods = iron
-			}
 			CHI_1082 = {
 				infrastructure = 3
 				add_province_modifier = {

@@ -604,7 +604,7 @@ political_decisions = {
 		effect = {
 			money = -1000000
 			inherit = PER
-			add_accepted_culture = azerbaijani
+			add_accepted_culture = persian
 			prestige = 25
 		}
 	}
@@ -676,8 +676,8 @@ political_decisions = {
 			political_reform = gerrymandering
 			political_reform = free_press
 			social_reform = trinket_subsidies
-			social_reform = trinket_health_care
-			years_of_research = 0.5
+			social_reform = good_schools
+			years_of_research = 1
 			set_country_flag = modernized_rus
 		}
 	}

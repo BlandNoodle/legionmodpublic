@@ -20,11 +20,23 @@ help_ai = {
 		ai = yes
 		NOT = {has_country_flag = ghostland}
 	}
-	min_tariff = 3
-	max_tariff = 3
 	mobilisation_economy_impact = -0.20
 	supply_consumption = -0.15
-	education_efficiency_modifier = 0.25
+	tax_efficiency = 0.05 #5% increase
+	education_efficiency_modifier = 1.0 #100% boost
+ 	loan_interest = -0.03 #3% less interest on debts
+}
+
+player_unciv_mobilization = {
+	trigger = {
+		ai = no
+		civilized = no
+		NOT = { ai = yes }
+		NOT = { civilized = yes }
+	}
+
+	mobilisation_size = 0.02
+	icon = 9
 }
 
 help_CSA = {
@@ -304,81 +316,6 @@ greater_germany = {
     administrative_efficiency_modifier = -0.2
     prestige = 0.03
     icon = 19
-}
-
-fuck_usa = {
-	trigger = {
-		tag = USA
-		ai = yes
-	}
-	icon = 19
-	prestige = -1
-	global_immigrant_attract = -1
-}
-
-the_british_raj = {
-    trigger = {
-        exists = yes
-        ai = no
-        OR = {
-            government = absolute_monarchy
-            government = prussian_constitutionalism
-            government = hms_government
-            government = fascist_dictatorship
-            government = democracy
-            government = absolute_monarchy
-        }
-        NOT = { is_culture_group = indo_iranian }
-        NOT = { is_culture_group = south_asian }
-        1227 = {
-            is_colonial = yes
-            owned_by = THIS
-        }
-        1236 = {
-            is_colonial = yes
-            owned_by = THIS
-        }
-        1251 = {
-            is_colonial = yes
-            owned_by = THIS
-        }
-        1297 = {
-            is_colonial = yes
-            owned_by = THIS
-        }
-    }
-    core_pop_militancy_modifier = -0.1
-    supply_consumption = 0.1
-    mobilisation_size = 0.02
-	land_organisation = 0.15
-    prestige = 0.02
-    icon = 19
-}
-
-money_hoarder_6 = {
-	trigger = {
-		money = 60000000
-		NOT = { money = 100000000 }
-		NOT = {has_country_flag = ghostland}
-	}
-	tax_efficiency = -0.75
-	max_tariff = -0.75
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
-}
-
-money_hoarder_7 = {
-	trigger = {
-		money = 100000000
-		NOT = {has_country_flag = ghostland}
-	}
-	max_tariff = -1
-	max_tax = -1
-	tax_efficiency = -1
-	min_social_spending = 1
-	min_military_spending = 1
-	icon = 1
 }
 
 neglected_education = {

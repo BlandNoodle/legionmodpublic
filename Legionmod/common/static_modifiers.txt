@@ -67,7 +67,7 @@ overseas = {
 }
 
 coastal = {
-	supply_limit = 3
+
 }
 
 non_coastal = {
@@ -145,12 +145,12 @@ war = {
 peace = {
 	max_war_exhaustion = 50			#base max at peace.
 	war_exhaustion = -1
-	badboy = -0.2
+	badboy = -0.1
 	mobilisation_economy_impact = 2.0
 }
 
 disarming = {
-	badboy = -0.3
+	badboy = -0.1
 }
 
 war_exhaustion = {
@@ -159,6 +159,7 @@ war_exhaustion = {
 	RGO_throughput	= -0.02 #-0.01
 	tax_efficiency = -0.0002   #CE addition
     pop_militancy_modifier = 0.001 #CE addition
+	supply_consumption = 0.001 #10%
 	cb_generation_speed_modifier = -0.02
 }
 
@@ -187,19 +188,20 @@ great_power = {
 second_power = {
 	prestige = 0.025
 	research_points = 1.25
-	diplomatic_points_modifier = 0.25
+	diplomatic_points_modifier = 0.50
 	leadership = 1.0
 }
 
 civ_nation = {
 	prestige = 0.01
 	research_points = 1
+	diplomatic_points_modifier = 0.50
 	leadership = 0.5
 }
 
 unciv_nation = {
 	#mobilisation_size = -0.1
-	diplomatic_points_modifier = -0.25
+	#diplomatic_points_modifier = -0.25
 	cb_generation_speed_modifier = 0.8
 }
 

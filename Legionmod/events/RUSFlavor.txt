@@ -356,10 +356,23 @@ country_event = {
 			secede_province = USA
 			remove_core = RUS
 		}
-		any_owned = {
-			limit = {
-				continent = north_america
-			}
+		1 = {
+			secede_province = USA
+			remove_core = RUS
+		}
+		2 = {
+			secede_province = USA
+			remove_core = RUS
+		}
+		3 = {
+			secede_province = USA
+			remove_core = RUS
+		}
+		4 = {
+			secede_province = USA
+			remove_core = RUS
+		}
+		5 = {
 			secede_province = USA
 			remove_core = RUS
 		}

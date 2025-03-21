@@ -539,3 +539,37 @@ country_event = {
 			}
 		}
 	}
+	
+	country_event = {
+	id = 19000190
+	title = "EVTNAME19000190"
+	desc = "EVTDESC19000190"
+	picture = "gandalf"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000190"
+		tech_school = army_tech_school
+	}
+	
+	option = {
+		name = "EVTOPTB19000190"
+		tech_school = naval_tech_school
+	}
+	
+	option = {
+		name = "EVTOPTC19000190"
+		tech_school = industrial_tech_school
+	}
+	
+	option = {
+		name = "EVTOPTD19000190"
+		tech_school = culture_tech_school
+	}
+	
+	option = {
+		name = "EVTOPTE19000190"
+		tech_school = commerce_tech_school
+	}
+}

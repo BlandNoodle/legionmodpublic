@@ -739,7 +739,7 @@ darwinism = {
 		}
 	}
 	effect = {
-		education_efficiency = 0.15
+		education_efficiency = 0.25
 		increase_research = 0.05
 	}
 }

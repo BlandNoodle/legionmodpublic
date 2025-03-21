@@ -57,39 +57,7 @@ political_decisions = {
 			set_country_flag = needtech
 		}
 	}
-	
-	claim_manchuria = {
-		potential = {
-			OR = {
-				tag = JAP
-				tag = RUS
-			}
-			NOT = {has_global_flag = manchu_it_up}
-		}
-		allow = {
-			war = no
-			OR = {
-				AND = {
-					owns = 1481
-					owns = 1619
-				}
-				AND = {
-					owns = 1481
-					owns = 1082
-				}
-			}
-			money = 1000000
-			nationalism_n_imperialism = 1
-			iron_railroad = 1
-		}
-		effect = {
-			set_global_flag = manchu_it_up
-			CHI_1553 = {add_core = THIS}
-			prestige = 15
-			money = -1000000
-		}
-	}
-	
+		
 	form_kwantung = {
 		potential = {
 			is_ideology_enabled = fascist

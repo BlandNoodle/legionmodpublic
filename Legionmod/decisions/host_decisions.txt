@@ -1,4 +1,53 @@
 political_decisions = {
+	
+	day_one_setup = {
+		potential = {
+			tag = GHO
+			NOT = { has_global_flag = day_one_grants }
+		}
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = { is_greater_power = yes }
+				money = 200000
+				clipper_convoy = 50
+				small_arms = 200
+				canned_food = 100
+				artillery = 100
+				leadership = 100
+			}
+			any_country = {
+				limit = { is_secondary_power = yes }
+				money = 100000
+				clipper_convoy = 25
+				small_arms = 100
+				canned_food = 50
+				artillery = 50
+				leadership = 40
+			}
+			any_country = {
+				limit = { 
+					AND = {
+						is_greater_power = no 
+						is_secondary_power_power = no
+					}
+				}
+				money = 50000
+				clipper_convoy = 25
+				small_arms = 50
+				opium = 1
+				leadership = 20
+			}
+			set_global_flag = day_one_grants
+			GHO = {
+				country_event = { id=700700 days=0 }
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
 	become_host_nation = {
 	picture = host
 		alert = no

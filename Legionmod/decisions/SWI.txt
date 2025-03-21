@@ -58,6 +58,10 @@ political_decisions = {
 				name = swiss_boni
 				duration = -1
 			}
+			add_country_modifier = {
+				name = neutrality
+				duration = -1
+			}
 			money = 2000000
 			money = 2000000
 			artillery = 2000
