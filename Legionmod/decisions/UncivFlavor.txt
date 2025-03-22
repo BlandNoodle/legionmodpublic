@@ -213,12 +213,12 @@ political_decisions = {
             naval_logistics = 1
             steel_railroad = 1
 			invention = colonial_negotiations
-            money = 500001
+            money = 2000000
         }
 
         effect = {
             set_country_flag = colonial_armies
-            treasury = -500000
+            money = -2000000
         }
         ai_will_do = {  factor = 1 }
     }

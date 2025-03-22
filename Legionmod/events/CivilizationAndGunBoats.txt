@@ -1427,7 +1427,6 @@ country_event = {
 				who = THIS
 				value = -5
 			}
-			country_event = { id=13270 days=0 }
 		}
 	}
 }
@@ -1444,8 +1443,15 @@ country_event = {
 	option = {
 		name = "EVTOPTA13270"
 		prestige = -5
-			
+		war = {
+			target = ENG
+			attacker_goal = {casus_belli = acquire_core_state_tiny}
+			defender_goal = {casus_belli = humiliate}
+			call_ally = no
 		}
+	}
+}
+
 
 
 

@@ -6,12 +6,11 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
-		year = 1836
 	}
 	fire_only_once = yes
 	
 	mean_time_to_happen = {
-		months = 1
+		days = 1
 	}
 
     option = {
@@ -51,22 +50,6 @@ country_event = {
 			}
 		}
     }
-	
-	option = {
-	name = "EVTOPTB19000094"
-	ai_chance = { factor = 0 }
-	prestige = -10
-	add_country_modifier = {
-			name = strict_china_trade
-			duration = -1
-		}
-	HND = {
-			add_country_modifier = {
-				name = indiacountry
-				duration = -1
-			}
-		}
-	}
 }
 
 country_event = {
@@ -75,17 +58,8 @@ country_event = {
     desc = "EVTDESC19000095"
     picture = "opiumouch"
 
-	trigger = {
-		tag = ENG
-		has_global_flag = confrontation
-		has_global_flag = underground_za
-	}
-	fire_only_once = yes
+	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		months = 2
-	}
-
     option = {
 	name = "EVTOPTA19000095"
 	ai_chance = { factor = 1 }
@@ -116,6 +90,7 @@ country_event = {
 				}
 			}
 			set_global_flag = kongers
+			ENG = {country_event = {id = 99900009 days = 180}}
 		}
     }
 country_event = {
@@ -124,27 +99,15 @@ country_event = {
     desc = "EVTDESC99900009"
     picture = "Expansion"
 
-	trigger = {
-		tag = CHI
-		AND = {
-			year = 1839
-			has_global_flag = kongers
-		}
-		NOT =  {has_global_flag = treaty_ports_activated}
-	}
+	is_triggered_only = yes
 	
 	major = yes
-	fire_only_once = yes
-	
-	mean_time_to_happen = {
-		months = 5
-	}
 
     option = {
 	name = "Treaty Ports"
 	ai_chance = { factor = 1 }
 	set_global_flag = treaty_ports_activated
-	country_event = { id=13270 days=0 }
+	country_event = { id=13270 days=7 }
 	CHI_1600 = {remove_core = CHI}
 	CHI_2608 = {remove_core = CHI}
     }
@@ -204,11 +167,12 @@ country_event = {
 	major = yes
 	
     option = {
-	name = "Opium Confiscated"
-	ai_chance = { factor = 1 }
-	1496 = {
-		secede_province = ENG
+		name = "Opium Confiscated"
+		ai_chance = { factor = 1 }
+		1496 = {
+			secede_province = ENG
 		}
+		ENG = {country_event = {id = 19000095 days = 180}}
     }
 }
 
@@ -220,7 +184,6 @@ country_event = {
 	trigger = {
 		tag = CHI
 		AND = {
-			year = 1839
 			war = no
 			has_recently_lost_war = yes
 			NOT = { owns = 1496 }

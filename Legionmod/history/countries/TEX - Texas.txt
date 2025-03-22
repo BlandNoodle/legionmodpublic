@@ -9,6 +9,7 @@ literacy = 0.50
 civilized = yes
 prestige = 5
 
+has_country_flag = north_american_immigrant_nation
 
 # Political reforms
 slavery = yes_slavery

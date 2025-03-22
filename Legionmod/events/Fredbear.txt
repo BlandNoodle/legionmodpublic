@@ -42,7 +42,7 @@ country_event = {
 				}
 				add_casus_belli = {
 					target = THIS
-					type = cut_down_to_size
+					type = demand_reperations
 					months = 24
 				}
 			}
@@ -60,8 +60,6 @@ country_event = {
 	allow_multiple_instance= yes
 	
 	trigger = {
-		ai = no
-		year = 1836
 		ai = no
 		NOT = {
 			has_country_flag = choosing
@@ -84,7 +82,7 @@ country_event = {
 	
 		option = {
 			name = "EVTOPTA19000093"
-			remove_country_flag = choosing
+			clear_country_flag = choosing
 			define_general = {
 				name = Goku
 				personality = defence_5.1
@@ -94,7 +92,7 @@ country_event = {
 		
 		option = {
 			name = "EVTOPTB19000093"
-			remove_country_flag = choosing
+			clear_country_flag = choosing
 				define_general = {
 					name = Frieza
 					personality = defence_1.1
@@ -571,5 +569,10 @@ country_event = {
 	option = {
 		name = "EVTOPTE19000190"
 		tech_school = commerce_tech_school
+	}
+	
+	option = {
+		name = "EVTOPTF19000190"
+		remove_country_modifier = academic_confusion
 	}
 }

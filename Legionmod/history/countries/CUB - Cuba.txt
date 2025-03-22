@@ -7,6 +7,7 @@ nationalvalue = nv_order
 literacy = 0.17
 civilized = yes
 
+set_country_flag = south_american_immigrant_nation
 
 # Political reforms
 slavery = no_slavery

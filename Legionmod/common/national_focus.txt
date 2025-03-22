@@ -87,7 +87,7 @@ tier1_focus =
 	}
 
 	promote_soldiers = {
-        soldiers = 0.3 #30% more likely to become this type
+        soldiers = 0.2 #20% more likely to become this type
         icon = 15
         outliner_show_as_percent = yes
         limit = {
@@ -98,6 +98,10 @@ tier1_focus =
 				}
 				AND = {
 					tag = HND
+					state_scope = {soldiers = 0.02}
+				}
+				AND = {
+					state_scope = {is_colonial = yes}
 					state_scope = {soldiers = 0.02}
 				}
 			}
@@ -351,6 +355,12 @@ tier4_focus =
 		limit = {
 			owner = { 
 				has_country_flag = tier_4
+			}
+			NOT = {
+				AND = {
+					state_scope = {is_colonial = yes}
+					state_scope = {soldiers = 0.02}
+				}
 			}
 		}
 		outliner_show_as_percent = yes

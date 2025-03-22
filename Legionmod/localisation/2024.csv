@@ -98,8 +98,8 @@ EVTDESC19000147;We gave up Saxony a little easy, our subordinates will think the
 EVTOPTA19000147;Shitty Mod Dev +1;;;;;;x
 dominatepersia_title;Dominate Persia;;;;;;;x
 dominatepersia_desc;Imma stop yapping, only kramer diplo getting you this far;;;;;;;x
-force_conflict_title;Force a Confrontation;;;;;;;;x
-force_conflict_desc;Our operatives smuggling opium to balance our trade with China have yet to be detected it seems, without a full-scale war we cannot justify any further action against the Qing's policies. Perhaps we can change that. . . \nThis will progress over the course of roughly 2 years.;;;;;;;x
+force_conflict_title;§RForce a Confrontation§B;;;;;;;;x
+force_conflict_desc;Our operatives smuggling opium to balance our trade with China have yet to be detected it seems, without a full-scale war we cannot justify any further action against the Qing's policies. Perhaps we can change that. . . \n§GThis will progress over the course of roughly 1-2 years§B.;;;;;;;x
 britishrajinfancy;Academic Recovery;;;;;;x
 britishrajinfancy_desc;We are recovering from a long period of academic decline;;;;;;x
 mexicotreaty_title;Treaty of Guadelupe Hidalgo;;;;;;x
@@ -222,13 +222,13 @@ change_national_value_off_desc;TURN IT OFF!!!!;;;;;;;;;;;;x
 change_national_value_on_title;Change National Value On;;;;;;;;;;;;x
 change_national_value_on_desc;Let me cook!!!!;;;;;;;;;;;;x
 switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +50%§W;;;;;;;;;;;;;x
+switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +25%§W;;;;;;;;;;;;;x
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +25%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
+switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +35%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +5%\nLand Unit Starting Experience: +15\nLeadership Points Gain: +50%\nArmy Tech Research Bonus: +5%\n Core Pop Militancy -0.05§W;;;;;;;;;;;;;x
+switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +10%\n5% Supply Consumption Reduction\nLeadership Points Gain: +50%\nArmy Tech Research Bonus: +5%\n Core Pop Militancy -0.05§W;;;;;;;;;;;;;x
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +10%\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +15%\n§GCommerce Tech Research Bonus: +10%\nIndustry Tech Research Bonus: +10%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x

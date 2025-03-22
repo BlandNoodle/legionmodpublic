@@ -9,6 +9,7 @@ literacy = 0.12
 civilized = yes
 prestige = 3
 
+set_country_flag = south_american_immigrant_nation
 
 # Political reforms
 slavery = no_slavery

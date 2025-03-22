@@ -372,7 +372,7 @@ southaf = {
 			money = -20000
 			badboy = 5
 			prestige = 5
-			CHI = {country_event = { id = 19000098 days = 7 } }
+			CHI = {country_event = { id = 19000098 days = 180 } }
 			set_country_flag = confrontational
 			set_global_flag = confrontation
 		}

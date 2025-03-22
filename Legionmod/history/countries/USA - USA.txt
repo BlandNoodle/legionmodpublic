@@ -5,10 +5,11 @@ culture = texan
 religion = protestant
 government = democracy
 plurality = 25.0
-nationalvalue = nv_equality
+nationalvalue = nv_order
 literacy = 0.50
 civilized = yes
 
+has_country_flag = north_american_immigrant_nation
 
 #GreaterPowers = prestige
 prestige = 15

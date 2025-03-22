@@ -114,9 +114,9 @@ please_redeem_title;Retake India;;;;;;x
 please_redeem_desc;They got away somehow. . . (release the other one by decision if you only lost one puppet).;;;;;;;x
 ARMY_TECHNOLOGY_LEVELS; ;;;;;;;;;;;x
 NAVY_TECHNOLOGY_LEVELS; ;;;;;;;;;;;x
-increase_healthcare_title;Improve Healthcare;;;;;;;;x
+increase_healthcare_title;§RImprove Healthcare§B;;;;;;;;x
 increase_healthcare_desc;You need to pay your admin for this to do anything;;;;;;;;;;x
-increase_school_system_title;Improve School System;;;;;;;;x
+increase_school_system_title;§GImprove School System§B;;;;;;;;x
 increase_school_system_desc;Hallo;;;;;;;;;;x
 trinket_health_care_funding;Trinket Healthcare;;;;;;;;x
 low_health_care_funding;Low Healthcare;;;;;;;;;x
@@ -152,9 +152,12 @@ generic_neutrality;Generic Neutrality;;;;;;x
 day_one_setup_title;Day One Setup;;;;;;;;;x
 day_one_setup_desc;Set me up!;;;;;;;x
 EVTNAME19000190;Switch Schools;;;;;;x
-EVTDESC19000190;Switch it up!\n§BArmy School - §G% Army and Industry\n§BNavy School - §G5% Commerce and Navy\n§BIndustry School - §G5% Industry and Commerce \n§BCulture School - §G 10% Culture and 5% Commerce \n§BCommerce School - §G10% Commerce and 5% Industry;;;;;;;;x
+EVTDESC19000190;Switch it up!\n§BArmy School - §G10% Army and 5% Industry\n§BNavy School - §G10% Navy and 5% Industry\n§BIndustry School - §G10% Industry and 5% Commerce \n§BCulture School - §G10% Culture and 5% Industry \n§BCommerce School - §G10% Commerce and 5% Army;;;;;;;;x
 EVTOPTA19000190;§RArmy;;;;;;;x
 EVTOPTB19000190;§bNavy;;;;;;;x
 EVTOPTC19000190;§RIndustry;;;;;;;x
 EVTOPTD19000190;§bCulture;;;;;;;x
 EVTOPTE19000190;§RCommerce;;;;;;;x
+EVTOPTF19000190;Nevermind. . .;;;;;;;x
+national_confusion;National Confusion;;;;;;;x
+national_confusion_desc;10 Year Cooldown;;;;;;;x

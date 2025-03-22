@@ -114,6 +114,11 @@ academic_confusion = {
 	icon = 6
 }
 
+national_confusion = {
+	research_points_modifier = -0.01
+	icon = 6
+}
+
 ##### LIBERAL REVOLUTIONS #####
 liberal_agitation = {
 	pop_consciousness_modifier = 0.1
@@ -633,7 +638,7 @@ egyptian_excavations = {
 }
 
 international_negotiations = {
-	badboy = -0.05
+	badboy = -0.01
 	unit_start_experience = 10
 	org_regain = -0.1
 	icon = 17

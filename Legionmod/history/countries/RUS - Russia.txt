@@ -6,7 +6,7 @@ culture = ugrian
 religion = orthodox
 government = absolute_monarchy
 plurality = 25
-nationalvalue = nv_order
+nationalvalue = nv_diplomacy
 literacy = 0.1
 civilized = yes
 

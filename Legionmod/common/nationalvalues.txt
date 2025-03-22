@@ -14,8 +14,8 @@ nv_equality = {
 nv_productivity = {
 	factory_input = -0.05
 	factory_output = 0.15
-	commerce_tech_research_bonus = 0.10
-	industry_tech_research_bonus = 0.10
+	commerce_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
 }
 
 nv_education = {
@@ -27,5 +27,5 @@ nv_diplomacy = {
 	diplomatic_points_modifier = 2
 	influence_modifier = 0.5
 	badboy = -0.05
-	cb_generation_speed_modifier = 0.5
+	cb_generation_speed_modifier = 0.25
 }

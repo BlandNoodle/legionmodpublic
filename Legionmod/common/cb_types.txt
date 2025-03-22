@@ -186,8 +186,8 @@ conquest = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		total_pops = 400000
 		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
@@ -379,7 +379,7 @@ add_to_sphere = {
 			OR = { 
 				has_country_modifier = neutrality
 				has_country_modifier = generic_neutrality
-				tag = CHI
+				primary_culture = hans
 			}
 		}
 		THIS = { NOT = {
@@ -950,8 +950,8 @@ acquire_state_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1050,10 +1050,10 @@ acquire_chinese_state_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-	tag = CHI
+	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { tag = CHI } }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1177,8 +1177,8 @@ acquire_state_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1282,10 +1282,10 @@ acquire_chinese_state_small = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-	tag = CHI
+	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { tag = CHI } }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1511,8 +1511,8 @@ acquire_state_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1612,10 +1612,10 @@ acquire_chinese_state_medium = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-	tag = CHI
+	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { tag = CHI } }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1740,8 +1740,8 @@ acquire_state_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1841,10 +1841,10 @@ acquire_chinese_state_large = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-	tag = CHI
+	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { tag = CHI } }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -1969,8 +1969,8 @@ acquire_state_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2070,10 +2070,10 @@ acquire_chinese_state_huge = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-	tag = CHI
+	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { tag = CHI } }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2198,8 +2198,8 @@ place_in_the_sun_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2279,8 +2279,8 @@ place_in_the_sun_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2359,8 +2359,8 @@ place_in_the_sun_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2439,8 +2439,8 @@ place_in_the_sun_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -2519,8 +2519,8 @@ place_in_the_sun_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -3660,8 +3660,8 @@ demand_concession_casus_belli_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -3735,8 +3735,8 @@ demand_concession_casus_belli_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -3810,8 +3810,8 @@ demand_concession_casus_belli_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -3885,8 +3885,8 @@ demand_concession_casus_belli_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -3960,8 +3960,8 @@ demand_concession_casus_belli_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -4556,8 +4556,8 @@ conquest_low = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = {	total_pops = 400000 }
 		NOT = { 
@@ -4654,8 +4654,8 @@ take_capital = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { tag = CHI }
-		this = { NOT = { tag = CHI } }
+		NOT = { primary_culture = hans }
+		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
@@ -5073,7 +5073,7 @@ make_puppet_large = {
 		}
 		this = { NOT = { badboy = 1 } }
 		NOT = { is_our_vassal = THIS }
-		NOT = { tag = CHI }
+		NOT = { primary_culture = hans }
 		is_greater_power = no
 		is_vassal = no
   		
