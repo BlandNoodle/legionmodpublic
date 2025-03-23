@@ -1445,7 +1445,7 @@ country_event = {
 		prestige = -5
 		war = {
 			target = ENG
-			attacker_goal = {casus_belli = acquire_core_state_tiny}
+			attacker_goal = {casus_belli = humiliate}
 			defender_goal = {casus_belli = humiliate}
 			call_ally = no
 		}

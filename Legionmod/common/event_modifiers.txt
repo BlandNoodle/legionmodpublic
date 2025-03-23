@@ -50,6 +50,22 @@ theraj = {
 	local_ruling_party_support = 0.25
 	icon = 1
 }
+
+millionsmustdie = {
+	leadership_modifier = 4
+	pop_militancy_modifier = -0.3
+	population_growth = 0.0012
+	org_regain = 0.8
+	supply_consumption = -0.5
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.2
+	soldiers = 0.50
+	icon = 1
+}
+
+militiaraised = {
+	icon = 5
+}
 	
 #### RUSSIAN MANIFESTO ON UNSHAKABLE AUTOCRACY ####
 alexanderii = {
@@ -878,7 +894,7 @@ century_humiliate = {
 	icon = 8
 	prestige = -0.02
 	supply_consumption = -0.15
-	research_points_on_conquer = -1
+	research_points_on_conquer = -2
 	research_points_modifier = -1
 }
 

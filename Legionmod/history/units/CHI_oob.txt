@@ -135,4 +135,59 @@ army = {
 
 }
 
+navy = {
+	name = "Emperor's Fist"
+	location = 1617 #Tianjin
+	ship = {
+		name= "Schlogger"
+		type = manowar
+	}
+
+	ship = {
+		name= "Oklahoma Ogre Defence"
+		type = frigate
+	}
+
+	ship = {
+		name= "Chinese Trolls 1"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 2"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 3"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 4"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 5"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 6"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 7"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 8"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 9"
+		type = clipper_transport
+	}
+	ship = {
+		name= "Chinese Trolls 10"
+		type = clipper_transport
+	}
+}
+
 

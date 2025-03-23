@@ -31,11 +31,25 @@ country_event = {
 			}
 			secede_province = TPG
 		}
+		add_country_modifier = {
+				name = millionsmustdie
+				duration = 1825
+			}
 		TPG = {
 			capital = 2221
 			any_pop = {
 				consciousness = -5
 				militancy = -5
+			}
+			wool = 1500
+			artillery = 500
+			ammunition = 500
+			activate_technology = strategic_mobility
+			activate_technology = flintlock_rifles
+			activate_technology = army_command_principle
+			add_country_modifier = {
+				name = millionsmustdie
+				duration = 1825
 			}
 		}
 		soldiers = {
@@ -49,6 +63,8 @@ country_event = {
 		activate_technology = water_wheel_power
 		activate_technology = basic_chemistry
 		activate_technology = iron_muzzle_loaded_artillery
+		activate_technology = flintlock_rifles
+		activate_technology = army_command_principle	
 		war = {
 			target = TPG
 			attacker_goal = {
@@ -59,12 +75,7 @@ country_event = {
 				casus_belli = civil_war
 			}
 		}
-		TPG = {
-			wool = 100
-			artillery = 25
-			ammunition = 30
-			activate_technology = strategic_mobility
-		}
+
 		set_global_flag = taiping_has_happened
 	}
 	
@@ -77,16 +88,18 @@ country_event = {
 			}
 			secede_province = TPG
 		}
-		TPG = {
-			capital = 2221
-			any_pop = {
-				consciousness = -5
-				militancy = -5
-			}
-		}
 		soldiers = {
 			militancy = 8
-		}		
+		}
+		activate_technology = bronze_muzzle_loaded_artillery
+		activate_technology = military_staff_system
+		activate_technology = private_banks
+		activate_technology = no_standard
+		activate_technology = freedom_of_trade
+		activate_technology = water_wheel_power
+		activate_technology = basic_chemistry
+		activate_technology = iron_muzzle_loaded_artillery
+		activate_technology = flintlock_rifles		
 		war = {
 			target = TPG
 			attacker_goal = {
@@ -98,10 +111,16 @@ country_event = {
 			}
 		}
 		TPG = {
-			wool = 100
-			artillery = 25
-			ammunition = 30
+			wool = 1500
+			artillery = 500
+			ammunition = 500
 			activate_technology = strategic_mobility
+			activate_technology = flintlock_rifles
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
 		}
 		set_global_flag = taiping_has_happened
 		change_tag_no_core_switch = TPG
@@ -207,6 +226,7 @@ country_event = {
 			limit = {
 				controlled_by = TPG
 				province_control_days = 15
+				is_capital = no
 			}
 			secede_province = TPG
 			add_core = TPG

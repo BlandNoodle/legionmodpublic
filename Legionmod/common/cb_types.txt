@@ -1035,7 +1035,7 @@ acquire_chinese_state_tiny = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.0
 	prestige_factor = 2
 	peace_cost_factor = 0.003
 	penalty_factor = 1
@@ -1050,17 +1050,15 @@ acquire_chinese_state_tiny = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-	primary_culture = hans
+		primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
 				has_country_modifier = generic_neutrality
-				
-				civilized = no
+
 			}
 		}
 		THIS = { NOT = {
@@ -1076,26 +1074,6 @@ acquire_chinese_state_tiny = {
 		any_owned_province = {
 			not = { is_core = THIS }
 			is_colonial = no
-		}
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
 		}
 	}
 	
@@ -1267,7 +1245,7 @@ acquire_chinese_state_small = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.0
 	prestige_factor = 2
 	peace_cost_factor = 0.006
 	penalty_factor = 1
@@ -1285,14 +1263,11 @@ acquire_chinese_state_small = {
 	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
 				has_country_modifier = generic_neutrality
-				
-				civilized = no
 			}
 			OR = {
 			has_country_flag = north_american_immigrant_nation
@@ -1313,27 +1288,7 @@ acquire_chinese_state_small = {
 			not = { is_core = THIS }
 			is_colonial = no
 		}
-				
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
+	
 	}
 	
 	allowed_states = {
@@ -1597,7 +1552,7 @@ acquire_chinese_state_medium = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.2
 	prestige_factor = 2
 	peace_cost_factor = 0.008
 	penalty_factor = 1
@@ -1615,14 +1570,11 @@ acquire_chinese_state_medium = {
 	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { primary_culture = hans } }
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
 				has_country_modifier = generic_neutrality
-				
-				civilized = no
 			}
 		}
 		THIS = { NOT = {
@@ -1640,26 +1592,7 @@ acquire_chinese_state_medium = {
 			is_colonial = no
 		}
 				
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
+
 	}
 	
 	allowed_states = {
@@ -1826,7 +1759,7 @@ acquire_chinese_state_large = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.5
 	prestige_factor = 2
 	peace_cost_factor = 0.012
 	penalty_factor = 1
@@ -1844,14 +1777,13 @@ acquire_chinese_state_large = {
 	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { primary_culture = hans } }
+
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
 				has_country_modifier = generic_neutrality
-				
-				civilized = no
+
 			}
 		}
 		THIS = { NOT = {
@@ -1869,26 +1801,7 @@ acquire_chinese_state_large = {
 			is_colonial = no
 		}
 				
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
+		
 	}
 	
 	allowed_states = {
@@ -2055,7 +1968,7 @@ acquire_chinese_state_huge = {
 	months = 12
 	construction_speed = 0.5
 	
-	badboy_factor = 1.1
+	badboy_factor = 2.5
 	prestige_factor = 2
 	peace_cost_factor = 0.016
 	penalty_factor = 1
@@ -2073,13 +1986,13 @@ acquire_chinese_state_huge = {
 	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { primary_culture = hans } }
+
 		this = { NOT = { badboy = 1 } }
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
 				has_country_modifier = generic_neutrality
-				civilized = no
+
 			}
 		}
 		THIS = { NOT = {
@@ -2096,27 +2009,7 @@ acquire_chinese_state_huge = {
 			not = { is_core = THIS }
 			is_colonial = no
 		}
-				
-		OR = {
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = yes
-				}
-			}
-			AND = {
-				civilized = yes
-				THIS = {
-					civilized = no
-				}
-			}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = no
-				}
-			}
-		}
+		
 	}
 	
 	allowed_states = {

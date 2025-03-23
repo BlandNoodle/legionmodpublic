@@ -90,7 +90,7 @@ country_event = {
 				}
 			}
 			set_global_flag = kongers
-			ENG = {country_event = {id = 99900009 days = 180}}
+			CHI = {country_event = {id = 99900009 days = 180}}
 		}
     }
 country_event = {

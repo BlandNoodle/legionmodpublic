@@ -154,15 +154,9 @@ political_decisions = {
 		effect = {
 			change_tag = GER
 			add_accepted_culture = north_german
-			add_accepted_culture = south_german			
-			any_country = {
-				limit = {
-					is_culture_group = germanic
-					in_sphere = THIS
-					NOT = { tag = AUS }
-				}
-				country_event = { id=11101 days=0 }
-			}
+			add_accepted_culture = south_german
+			inherit = WUR
+			inherit = BAV
 		}
 	}
 }

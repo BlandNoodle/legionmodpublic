@@ -52,25 +52,25 @@
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2800
 	}
@@ -120,25 +120,25 @@
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 925
 	}
@@ -170,31 +170,31 @@
 	}
 
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -203,31 +203,31 @@
 #Eden (12000/3000 POPS)
 2472 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -283,31 +283,31 @@
 	}
 
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -316,31 +316,31 @@
 #Ophir (8000/2000 POPS)
 2471 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -348,31 +348,31 @@
 #Moree (8000/2000 POPS)
 2474 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -380,31 +380,31 @@
 #Broken Hill (12000/3000 POPS)
 2475 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2700
 	}
@@ -414,31 +414,31 @@
 #Melbourne (12000/3000 POPS)
 2476 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2700
 	}
@@ -446,31 +446,31 @@
 #Warnambool (8000/2000 POPS)
 2477 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -478,31 +478,31 @@
 #Ballarat (8000/2000 POPS)
 2478 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -510,31 +510,31 @@
 #Sale (8000/2000 POPS)
 2479 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -542,31 +542,31 @@
 #Beechworth (4000/1000 POPS)
 2480 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -574,31 +574,31 @@
 #Swan Hill (4000/1000 POPS)
 2481 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -644,31 +644,31 @@
 #2483 - Brisbane (12000/3000 POPS)
 2483 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -701,31 +701,31 @@
 #Gladstone (8000/2000 POPS)
 2484 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -733,31 +733,31 @@
 #Clermont (4000/1000 POPS)
 2485 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -765,31 +765,31 @@
 #Toowoomba (8000/2000 POPS)
 2486 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -797,31 +797,31 @@
 #Townsville (8000/2000 POPS)
 2487 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -829,31 +829,31 @@
 #Cooktown (10000/2500 POPS)
 2488 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 125
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2275
 	}
@@ -861,31 +861,31 @@
 #Longreach (4000/1000 POPS)
 2489 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -893,31 +893,31 @@
 #Charleville (4000/1000 POPS)
 2490 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -926,31 +926,31 @@
 #Normanton (6000/1500 POPS)
 2604 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1370
 	}
@@ -960,31 +960,31 @@
 #Adelaide (12000/3000 POPS)
 2491 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2700
 	}
@@ -992,31 +992,31 @@
 #Port Lincoln (4000/1000 POPS)
 2492 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1024,31 +1024,31 @@
 #Robe (4000/1000 POPS)
 2493 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1056,31 +1056,31 @@
 #Port Augusta (4000/1000 POPS)
 2494 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1088,31 +1088,31 @@
 #Oodnadatta (4000/1000 POPS)
 2495 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1120,31 +1120,31 @@
 #Tarcoola (4000/1000 POPS)
 2496 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1179,31 +1179,31 @@
 	}
 
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 4500
 	}
@@ -1211,31 +1211,31 @@
 #Kojonup (12000/3000 POPS)
 2498 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2700
 	}
@@ -1244,31 +1244,31 @@
 #Geraldton (8000/2000 POPS)
 2499 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -1276,31 +1276,31 @@
 #Kalgoorlie (4000/1000 POPS)
 2500 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1308,31 +1308,31 @@
 #Broome (8000/2000 POPS)
 2501 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -1340,31 +1340,31 @@
 #Dampier (2000/500 POPS)
 2502 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 450
 	}
@@ -1372,31 +1372,31 @@
 #Laverton (2800/700 POPS)
 2503 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 35
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 630
 	}
@@ -1404,31 +1404,31 @@
 #Esperance (4000/1000 POPS)
 2504 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 900
 	}
@@ -1437,31 +1437,31 @@
 #Halls Creek (2000/500 POPS)
 2601 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 450
 	}
@@ -1469,31 +1469,31 @@
 #Roebourne (2000/500 POPS)
 2602 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 450
 	}
@@ -1501,31 +1501,31 @@
 #Wiluna (3200/800 POPS)
 2605 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 40
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 725
 	}
@@ -1535,31 +1535,31 @@
 #Palmerston (20000/5000 POPS)
 2505 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 4500
 	}
@@ -1567,31 +1567,31 @@
 #Tennant Creek (8000/2000 POPS)
 2506 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 1750
 	}
@@ -1599,31 +1599,31 @@
 #Alice Springs (2800/700 POPS)
 2507 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 35
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 10
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 630
 	}
@@ -1632,31 +1632,31 @@
 #Lajamanu (1200/300 POPS)
 2603 = {
 	aristocrats = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 2
 	}
 
 	clergymen = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 3
 	}
 
 	artisans = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 15
 	}
 
 	soldiers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = aborigine
+		culture = british
 		religion = animist
 		size = 275
 	}

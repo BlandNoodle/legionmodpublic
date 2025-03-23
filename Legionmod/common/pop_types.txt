@@ -276,6 +276,17 @@ demotion_chance =
 migration_chance = 
 {
 	factor = 0.25
+	
+#stop indian and chinese takeovers
+	group = {
+
+		
+		modifier = {
+			factor = -100000
+			culture = hans
+			state_scope = {is_colonial = yes}
+		}
+	}
 
 #If pop group is 70%/80%/90%/99% literacy, is not primary culture, and is in a colony then 2.5% chance to migrate to another state for each threshold. (Chance for colonial pops to migrate to home states once they reach some literacy thresholds)	(10% total)
 #	group = { ############### DOES NOT WORK
@@ -877,6 +888,16 @@ emigration_chance =
 	
 ###Negative Factors for Emigration (good)###
 
+#Stop the indian and chinese takeovers
+
+	group = {
+
+		modifier = {
+			factor = -1000000
+			state_scope = {is_colonial = yes}
+			culture = hans
+		}
+	}
 #If pop group is at least 1/2/3/4/5/6/7/8/9/9.9	consciousness, then -0.05% chance to emigrate for each threshold.	(-0.25% total)
 	group = {
 		modifier = {
@@ -1038,7 +1059,16 @@ emigration_chance =
 assimilation_chance = {
 	factor = 1
 	
-
+#Indian solution
+	group = {
+		modifier = {
+			factor = 10000000
+			state_scope = {is_colonial = yes}
+			culture = indians
+			NOT = {is_core = HND}
+			NOT = {tag = HND}
+		}
+	}
 
 #IMPORTANT DO NOT DELETE - blocks assimilation if the state is colonial and/or the country trying to assimilate pops is unciv and/or the pop is below 100% life needs.	
 	modifier = {
@@ -1216,44 +1246,44 @@ assimilation_chance = {
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 0.3
 			literacy = 0.7
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -0.2975
 			literacy = 0.7
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 0.3
 			literacy = 0.8
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -0.2975
 			literacy = 0.8
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 0.3
 			literacy = 0.9
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -0.2975
 			literacy = 0.9
 			has_culture_core = no
 		}
 	}
 	group = {
 		modifier = {
-			factor = 0.25
+			factor = 0.3
 			literacy = 0.99
 		}
 		modifier = {
-			factor = -0.2475
+			factor = -0.2975
 			literacy = 0.99
 			has_culture_core = no
 		}

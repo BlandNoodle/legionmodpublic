@@ -82,7 +82,7 @@ country_event = {
 	
 		option = {
 			name = "EVTOPTA19000093"
-			clear_country_flag = choosing
+			clr_country_flag = choosing
 			define_general = {
 				name = Goku
 				personality = defence_5.1
@@ -92,7 +92,7 @@ country_event = {
 		
 		option = {
 			name = "EVTOPTB19000093"
-			clear_country_flag = choosing
+			clr_country_flag = choosing
 				define_general = {
 					name = Frieza
 					personality = defence_1.1

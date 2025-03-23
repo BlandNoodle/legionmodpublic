@@ -399,7 +399,7 @@ campsystem = {
 				duration = 1825
 			}
 			prestige = 10
-			add_country_flag = stopthem
+			set_country_flag = stopthem
 		}
 	}
 }

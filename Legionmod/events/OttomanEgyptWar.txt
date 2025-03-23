@@ -331,12 +331,12 @@ country_event = {
 		leave_alliance = TUR
 		casus_belli = {
 			target = TUR
-			type = liberate_country country = ROM
+			type = free_peoples_medium country = ROM
 			months = 24
 		}
 		war = {
 			target = TUR
-			attacker_goal = { casus_belli = liberate_country country = ROM }
+			attacker_goal = { casus_belli = free_peoples_medium country = ROM }
 			defender_goal = { casus_belli = humiliate }
 			call_ally = yes
 		}
@@ -487,12 +487,12 @@ country_event = {
 		prestige = 10
 		casus_belli = {
 			target = TUR
-			type = liberate_country country = ROM
+			type = free_peoples_small country = ROM
 			months = 24
 		}
 		war = {
 			target = TUR
-			attacker_goal = { casus_belli = liberate_country country = ROM }
+			attacker_goal = { casus_belli = free_peoples_small country = ROM }
 			defender_goal = { casus_belli = humiliate }
 			call_ally = yes
 		}

@@ -56,7 +56,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA19000103"
 		release = SEP
-		country_event = { id = 19000107 days = 60 }
+		country_event = { id = 19000107 days = 240 }
 		SEP = { country_event = { id = 19000104 days = 0 }
 		}
 	}
@@ -101,245 +101,21 @@ country_event = {
 			personality = defence_4.1
 			background = attack_2.1
 		}
-		1236 = {
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = hussar
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
+		add_country_modifier = {
+			name = millionsmustdie
+			duration = 720
 		}
-		1240 = {
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = hussar
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-		}
-		1244 = {
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = hussar
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-		}
-		1243 = {
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = hussar
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-		}
-		1250 = {
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = hussar
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-		}
-		1264 = {
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = infantry
-				value = current
-			}
-			sub_unit = {
-				type = hussar
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
-			sub_unit = {
-				type = artillery
-				value = current
-			}
+			money = 1000000
+			wool = 1900
+			artillery = 1900
+			ammunition = 1900
+			artillery = 1900
+			small_arms = 2000
+			canned_food = 1900
+			regular_clothes = 2000
+			luxury_clothes = 2000
+		any_owned = {
+			fort = 2
 		}
 		ENG = {
 			clr_country_flag = prepared
@@ -363,6 +139,16 @@ country_event = {
 				defender_goal = { casus_belli = conquest }
 				call_ally = yes
 			}
+		}
+		SEP = {
+			money = 500000
+			artillery = 500
+			ammunition = 500
+			artillery = 500
+			small_arms = 1000
+			canned_food = 500
+			regular_clothes = 500
+			luxury_clothes = 500
 		}
 	}
 
