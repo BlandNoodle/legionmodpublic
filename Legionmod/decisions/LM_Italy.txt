@@ -18,8 +18,15 @@ political_decisions = {
 		effect = {
 			set_country_flag = croatsslovenesaccepted
 			prestige = 5
-			add_accepted_culture = croat
-			add_accepted_culture = slovene
+			any_owned = {
+				limit = {
+					is_core = CRO
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_core = 774
 			add_core = 773
 			add_core = 768
@@ -67,7 +74,15 @@ political_decisions = {
 			set_country_flag = catalanaccepted
 			CAT = { all_core = { add_core = THIS } }
 			prestige = 5
-			add_accepted_culture = catalan
+			any_owned = {
+				limit = {
+					is_core = CAT
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 		}
 	}
 	

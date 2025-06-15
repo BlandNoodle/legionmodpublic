@@ -47,7 +47,7 @@ party = {
 
 party = {
 	name = "RUS_communist_2"
-	start_date = 1903.1.1
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = communist
@@ -61,7 +61,7 @@ party = {
 
 party = {
 	name = "RUS_socialist"
-	start_date = 1903.1.1
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = socialist
@@ -159,7 +159,7 @@ party = {
 
 party = {
 	name = "RUS_fascist"
-	start_date = 1905.1.1
+	start_date = 1880.1.1
 	end_date = 2000.1.1
 
 	ideology = fascist

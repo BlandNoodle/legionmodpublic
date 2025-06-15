@@ -189,7 +189,7 @@ conquest = {
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
 		total_pops = 400000
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -389,7 +389,7 @@ add_to_sphere = {
 				}
 			 } 
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		part_of_sphere = no
@@ -888,7 +888,7 @@ acquire_substate_region = {
 				}
 			 } 
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		num_of_substates = 1 # if has any substate
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -952,7 +952,7 @@ acquire_state_tiny = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1053,7 +1053,7 @@ acquire_chinese_state_tiny = {
 		primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1157,7 +1157,7 @@ acquire_state_small = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1263,7 +1263,7 @@ acquire_chinese_state_small = {
 	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1369,7 +1369,7 @@ acquire_state_small_americas = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		OR = {
 			has_country_flag = north_american_immigrant_nation
 			has_country_flag = south_american_immigrant_nation
@@ -1468,7 +1468,7 @@ acquire_state_medium = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1570,7 +1570,7 @@ acquire_chinese_state_medium = {
 	primary_culture = hans
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1675,7 +1675,7 @@ acquire_state_large = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1778,7 +1778,7 @@ acquire_chinese_state_large = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
 
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1884,7 +1884,7 @@ acquire_state_huge = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1987,7 +1987,7 @@ acquire_chinese_state_huge = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
 
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2093,7 +2093,7 @@ place_in_the_sun_tiny = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2174,7 +2174,7 @@ place_in_the_sun_small = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2254,7 +2254,7 @@ place_in_the_sun_medium = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2334,7 +2334,7 @@ place_in_the_sun_large = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2414,7 +2414,7 @@ place_in_the_sun_huge = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3126,7 +3126,7 @@ free_peoples_huge = {
 #		}
 #		NOT = { has_country_flag = conquerable_1865 }
 #		year = 1900
-#		this = { NOT = { badboy = 1 } }
+#		
 #		NOT = { 
 #			OR = { 
 #				has_country_modifier = neutrality
@@ -3233,7 +3233,7 @@ dismantle_forts = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3302,7 +3302,7 @@ release_puppet = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		num_of_vassals_no_substates = 1
 		
 	}
@@ -3355,7 +3355,7 @@ make_puppet = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3497,7 +3497,7 @@ humiliate = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3555,7 +3555,7 @@ demand_concession_casus_belli_tiny = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3630,7 +3630,7 @@ demand_concession_casus_belli_small = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3705,7 +3705,7 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3780,7 +3780,7 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3855,7 +3855,7 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3931,7 +3931,7 @@ establish_protectorate_casus_belli = {
 		NOT = {
 		is_culture_group = central_african
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			civilized = yes
 		}
@@ -4004,7 +4004,7 @@ unification_humiliate_cb = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -4183,7 +4183,7 @@ unification_annex_casus_belli = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -4451,7 +4451,7 @@ conquest_low = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = {	total_pops = 400000 }
 		NOT = { 
 			OR = { 
@@ -4549,7 +4549,7 @@ take_capital = {
 		NOT = { tag = GHO }
 		NOT = { primary_culture = hans }
 		this = { NOT = { primary_culture = hans } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4729,7 +4729,7 @@ establish_colonial_protectorate_casus_belli = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
 		is_culture_group = central_african
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4874,7 +4874,7 @@ make_puppet_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -4964,7 +4964,7 @@ make_puppet_large = {
 			ai = yes
 			year = 1900
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { is_our_vassal = THIS }
 		NOT = { primary_culture = hans }
 		is_greater_power = no

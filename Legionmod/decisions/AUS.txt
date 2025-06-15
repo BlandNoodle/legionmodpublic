@@ -3,8 +3,8 @@ political_decisions = {
 		potential = {
 			tag = AUS
 			war = no
-			any_owned_province = {
-				is_core = HUN
+			HUN = {
+				vassal_of = THIS
 			}
 			NOT = {
 				has_country_flag = dual_monarchy_done
@@ -62,9 +62,8 @@ political_decisions = {
 				}
 				militancy = 2
 			}
-						
+			inherit = HUN
 			add_accepted_culture = hungarian
-			add_accepted_culture = croat
 			change_tag = KUK
 			set_country_flag = dual_monarchy_done
 		}
@@ -193,100 +192,4 @@ political_decisions = {
 	}
 }
 
-	restore_order_hun = {
-		potential = {
-			OR = {
-				tag = AUS
-				tag = SGF
-			}
-			has_country_flag = hunrevolt
-			has_country_flag = hunfight
-			exists = HUN
-			NOT = {has_country_flag = hunrestored}
-		}
-		allow = {
-			war = no
-			is_our_vassal = HUN
-			state_n_government = 1
-		}
-		effect = {
-			inherit = HUN
-			prestige = 10
-			HUN = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			set_country_flag = hunrestored
-		}
-	}
-	
-	restore_order_hun2 = {
-		picture = "restore_order_hun"
-		potential = {
-			OR = {
-				tag = AUS
-				tag = SGF
-			}
-			has_country_flag = hunrevolt
-			has_country_flag = hunfriend
-			exists = HUN
-			NOT = {has_country_flag = hunrestored}
-		}
-		allow = {
-			war = no
-			is_our_vassal = HUN
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			inherit = HUN
-			add_accepted_culture = hungarian
-			prestige = 10
-			HUN = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			set_country_flag = hunrestored
-		}
-	}
-	
-	hungryhippos = {
-		potential = {
-			OR = {
-				tag = GER
-				tag = SGF
-			}
-			exists = HUN
-			NOT = {has_country_flag = huneaten}
-		}
-		allow = {
-			tag = GER
-			war = no
-			HUN = {in_sphere = THIS}
-			is_our_vassal = HUN
-			revolution_n_counterrevolution = 1
-		}
-		effect = {
-			inherit = HUN
-			add_accepted_culture = hungarian
-			prestige = 15
-			HUN = {
-				all_core = {
-					add_core = THIS
-				}
-			}
-			any_greater_power = {
-				limit = {
-					NOT = {alliance_with = THIS }
-				}
-				casus_belli = {
-					target = THIS
-					type = liberate_country
-					months = 48
-				}
-			}
-			set_country_flag = huneaten
-		}
-	}
 }

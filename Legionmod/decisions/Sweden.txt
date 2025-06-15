@@ -168,9 +168,19 @@ political_decisions = {
 			RUS_360 = {add_core = THIS}
 			prestige = 15
 			set_country_flag = balts
-			add_accepted_culture = estonian
-			add_accepted_culture = latvian
-			add_accepted_culture = lithuanian
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = EST
+						is_core = LAT
+						is_core = LIT
+					}
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 		}
 	}
 	

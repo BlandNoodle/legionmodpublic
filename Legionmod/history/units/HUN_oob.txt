@@ -1,0 +1,82 @@
+#Sphere of Influence
+
+PRU = {
+	value = 125
+}
+
+RUS = {
+	value = 100
+}
+
+ANH = {
+	value = -150
+	level = 0
+}
+
+
+#Army
+
+army = {
+	name = "Soge Army"
+	location = 641
+	regiment = {
+		name= "Hussar"
+		type = hussar
+		home = 641
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 642
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 643
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 644
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 647
+	}
+
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 648
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 649
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 702
+	}
+	
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 704
+	}
+
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 705
+	}
+}
+

@@ -69,7 +69,6 @@ political_decisions = {
 			967 = { add_core = OTC }
 			964 = { add_core = OTC }
 			966 = { add_core = OTC }
-			AZB = { all_core = {add_core = OTC } }
 			prestige = 10
 			set_global_flag = caliphate_formed	
 		}
@@ -115,7 +114,7 @@ political_decisions = {
 			}
 			AZB = {add_casus_belli = {
 				target = THIS
-				type = conquest_low
+				type = conquest
 				months = 36
 				}
 			}
@@ -140,12 +139,14 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = persian
-			add_accepted_culture = azerbaijani
 			money = -2000000
 			PER = {
 				all_core = {
 					add_core = THIS
+					add_province_modifier = {
+						name = assimilation_buff
+						duration = 1825
+					}
 				}
 			}
 			prestige = 10
@@ -178,13 +179,15 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_accepted_culture = maghrebi
-			add_accepted_culture = misri
 			money = -2000000
 			EGY = { 
 				all_core = {
 					add_core = OTC
 					remove_core = EGY
+					add_province_modifier = {
+						name = assimilation_buff
+						duration = 3650
+					}
 				}
 			}
 			inherit = EGY
@@ -210,8 +213,15 @@ political_decisions = {
 		effect = {
 			THIS = {inherit = BOS}
 			prestige = 10
-			add_accepted_culture = bosniak
-			BOS = {all_core = {add_core = THIS}}
+			BOS = {
+				all_core = {
+					add_core = THIS
+					add_province_modifier = {
+						name = assimilation_buff
+						duration = 1825
+					}
+				}
+			}
 		}
 	}
 }

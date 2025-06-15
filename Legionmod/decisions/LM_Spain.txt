@@ -144,4 +144,114 @@ political_decisions = {
 			add_accepted_culture = maghrebi
 		}
 	}
+	
+	gameimpactbomb = {
+		picture = "headstartchina"
+		potential = {
+			primary_culture = spanish
+			NOT = {
+				has_country_flag = broughtgameimpact
+			}
+			NOT = {has_country_flag = filipino_accepted}
+			ai = no
+		}
+
+		allow = {
+			NOT = {nationalism_n_imperialism = 1}
+			NOT = {government = democracy}
+		}
+
+		effect = {
+			badboy = 11
+			casus_belli = {
+				target = VNZ
+				type = make_puppet
+				months = 72
+			}
+			casus_belli = {
+				target = CLM
+				type = make_puppet
+				months = 72
+			}
+			2217 = {add_core = SPA}
+			2235 = {add_core = SPA}
+			2234 = {add_core = SPA}
+			set_country_flag = broughtgameimpact
+		}
+	}
+	
+	gameimpactbomb2 = {
+		picture = "hollow_earth"
+		potential = {
+			primary_culture = spanish
+			has_country_flag = broughtgameimpact
+			NOT = {
+				has_country_flag = broughtgameimpact2
+			}
+			NOT = {has_country_flag = filipino_accepted}
+			ai = no
+		}
+
+		allow = {
+			NOT = {nationalism_n_imperialism = 1}
+			NOT = {government = democracy}
+			CLM = {vassal_of = THIS}
+			VNZ = {vassal_of = THIS}
+		}
+
+		effect = {
+			badboy = 11
+			prestige = 25
+			inherit = VNZ
+			inherit = CLM
+			VNZ = {
+				all_core = {
+					remove_core = VNZ
+					add_core = IBE
+				} 
+			}
+			CLM = {
+				all_core = {
+					remove_core = CLM
+					add_core = IBE
+				} 
+			}
+			set_country_flag = broughtgameimpact2
+		}
+	}
+	
+	newgranada = {
+		potential = {
+			primary_culture = spanish
+			has_country_flag = broughtgameimpact2
+			NOT = {
+				has_country_flag = broughtgameimpact3
+			}
+			NOT = {has_country_flag = filipino_accepted}
+			ai = no
+		}
+
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {government = democracy}
+			money = 2000000
+		}
+
+		effect = {
+			money = -2000000
+			badboy = 5
+			prestige = 10
+			any_owned = {
+				limit = {
+					continent = south_america
+					NOT = {is_core = BRZ}
+				}
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+			}
+			set_country_flag = broughtgameimpact3
+		}
+	}
 }

@@ -117,13 +117,7 @@ HES = {
 
 }
 
-KRA = {
 
-	value = 125
-	level = 4
-	influence_value = 25
-
-}
 LIP = {
 
 	value = 125

@@ -40,12 +40,6 @@ AFG = {
 	influence_value = 25
 }
 
-KRA = {
-	
-	value = 125
-	level = 4
-	influence_value = 25
-}
 
 SWI = {
 	value = -200		#relation

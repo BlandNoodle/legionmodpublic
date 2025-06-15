@@ -1078,9 +1078,18 @@ country_event = {
 	option = {
 		name = "EVTOPTA19000187"
 		prestige_factor = 2
-		add_accepted_culture = yankee
-		add_accepted_culture = anglo_canadian
-		add_accepted_culture = manchu
+		any_owned = {
+				limit = {
+					OR = {
+						is_core = CHI
+						is_core = JAP
+					}
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 3650
+				}
+			}
 		define_admiral = {
 			name = Smash Mouth
 			personality = defence_2.1

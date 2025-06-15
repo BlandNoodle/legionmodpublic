@@ -470,10 +470,18 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_accepted_culture = hungarian
+			any_owned = {
+				limit = {
+					is_core = HUN
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 1825
+				duration = 912
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -493,10 +501,18 @@ political_decisions = {
 			owns = 832
 		}
 		effect = {
-			add_accepted_culture = greek
+			any_owned = {
+				limit = {
+					is_core = BUL
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 1825
+				duration = 912
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -515,10 +531,18 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_accepted_culture = bulgarian
+			any_owned = {
+				limit = {
+					is_core = BUL
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 1825
+				duration = 912
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -554,10 +578,18 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_accepted_culture = romanian
+			any_owned = {
+				limit = {
+					is_core = ROM
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 1825
+				duration = 912
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -607,10 +639,18 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_accepted_culture = ukrainian
+			any_owned = {
+				limit = {
+					is_core = UKR
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 1825
+				duration = 912
 			}
 			clr_country_flag = eyaletchoice
 		}
@@ -660,10 +700,18 @@ political_decisions = {
 			
 		}
 		effect = {
-			add_accepted_culture = south_italian
+			any_owned = {
+				limit = {
+					is_core = SIC
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			add_country_modifier = {
 				name = eyalet_cooldown
-				duration = 1825
+				duration = 912
 			}
 			clr_country_flag = eyaletchoice
 		}

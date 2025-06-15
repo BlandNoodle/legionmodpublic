@@ -5,11 +5,12 @@ religion = catholic
 government = democracy
 plurality = 33.0
 nationalvalue = nv_equality
-literacy = 0.12
+literacy = 0.18
 civilized = yes
 prestige = 3
 
 set_country_flag = south_american_immigrant_nation
+set_country_flag = new_world_nation
 
 # Political reforms
 slavery = no_slavery

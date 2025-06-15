@@ -36,6 +36,20 @@ country_event = {
 			set_country_flag = bank_on
 			country_event = { id=4760042 days=0 }
 		}
+		AUS = { 
+			any_pop = {
+				limit = {
+					has_pop_culture = czech
+				}
+				literacy = 0.20
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = polish
+				}
+				literacy = 0.10
+			}
+		}
     }
 }
 

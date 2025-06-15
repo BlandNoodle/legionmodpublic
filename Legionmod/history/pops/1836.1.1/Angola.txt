@@ -4,33 +4,33 @@
 #Luanda (164000/41000 POPS)
 1999 = {
 	aristocrats = {
-		culture = portuguese
+		culture = african_minor
 		religion = catholic
-		size = 150
+		size = 550
 	}
 
 	clergymen = {
-		culture = portuguese
+		culture = african_minor
 		religion = catholic
-		size = 50
+		size = 850
 	}
 
 	bureaucrats = {
-		culture = portuguese
+		culture = african_minor
 		religion = catholic
-		size = 50
+		size = 650
 	}
 
 	artisans = {
-		culture = portuguese
+		culture = african_minor
 		religion = catholic
-		size = 500
+		size = 1500
 	}
 
 	soldiers = {
-		culture = portuguese
+		culture = african_minor
 		religion = catholic
-		size = 50
+		size = 2050
 	}
 
 	aristocrats = {
@@ -253,6 +253,12 @@
 		religion = animist
 		size = 250
 	}
+	
+	bureaucrats = {
+		culture = african_minor
+		religion = catholic
+		size = 650
+	}
 
 	artisans = {
 		culture = african_minor
@@ -287,6 +293,12 @@
 		culture = african_minor
 		religion = animist
 		size = 125
+	}
+	
+	bureaucrats = {
+		culture = african_minor
+		religion = catholic
+		size = 650
 	}
 
 	clergymen = {
@@ -358,31 +370,37 @@
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 300
+		size = 900
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 300
+		size = 1200
+	}
+	
+	bureaucrats = {
+		culture = african_minor
+		religion = catholic
+		size = 950
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 1500
+		size = 2000
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 300
+		size = 2300
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 20800
+		size = 78800
 	}
 
 	slaves = {
@@ -396,31 +414,31 @@
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 300
+		size = 900
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 600
+		size = 900
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 750
+		size = 2000
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 300
+		size = 1600
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 21250
+		size = 89250
 	}
 
 	slaves = {

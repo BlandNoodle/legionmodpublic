@@ -127,7 +127,7 @@ political_decisions = {
 			GEO = {
 				add_casus_belli = {
 					target = THIS
-					type = conquest_low
+					type = conquest
 					months = 48
 				}
 			}
@@ -156,11 +156,19 @@ political_decisions = {
 					remove_core = GEO
 				}
 			}
-			add_accepted_culture = georgian
+			any_owned = {
+				limit = {
+					is_core = GEO
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 1825
+				}
+			}
 			AZB = {
 				add_casus_belli = {
 					target = THIS
-					type = conquest_low
+					type = conquest
 					months = 48
 				}
 			}
@@ -604,7 +612,15 @@ political_decisions = {
 		effect = {
 			money = -1000000
 			inherit = PER
-			add_accepted_culture = persian
+			any_owned = {
+				limit = {
+					is_core = PER
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 3650
+				}
+			}
 			prestige = 25
 		}
 	}
@@ -745,7 +761,15 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
-			add_accepted_culture = kazak
+			any_owned = {
+				limit = {
+					pop_majority_culture = kazak
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 3650
+				}
+			}
 			set_country_flag = kazakhstrong
 		}
 	}

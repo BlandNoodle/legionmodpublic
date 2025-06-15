@@ -8,6 +8,7 @@ political_decisions = {
 				exists = SGF
 				tag = KUK
 			}
+			NOT = {tag = AUS}
 			NOT = {has_country_flag = germanwinner}
 		}	
 		allow = {
@@ -99,6 +100,7 @@ political_decisions = {
 				exists = SGF
 				tag = KUK
 			}
+			NOT = {tag = AUS}
 			NOT = {has_country_flag = supersgf}
 			has_country_flag = germanwinner
 		}	

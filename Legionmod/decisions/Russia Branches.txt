@@ -349,53 +349,6 @@ political_decisions = {
 		}
 	}
 	
-	pacific_islanders = {
-		picture = "continue_drain"
-		potential = {
-			tag = RUS
-			has_country_flag = pacific_focus
-			has_country_flag = starttheports
-			NOT = {has_country_flag = mauihead}
-		}
-		allow = {
-			money = 500000
-			NOT = {year = 1870}
-			steamers = 1
-			1082 = {
-				owned_by = THIS
-			}
-		}
-		effect = {
-			treasury = -500000
-			prestige = 15
-			2525 = {
-				secede_province = THIS
-				add_core = THIS
-				add_province_modifier = {
-					name = britishraj
-					duration = 3650
-				}
-			}
-			2524 = {
-				secede_province = THIS
-				add_core = THIS
-				add_province_modifier = {
-					name = britishraj
-					duration = 3650
-				}
-			}
-			2519 = {
-				secede_province = THIS
-				add_core = THIS
-				add_province_modifier = {
-					name = britishraj
-					duration = 3650
-				}
-			}
-			set_country_flag = mauihead
-		}
-	}
-	
 	pacific_coast_party = {
 		potential = {
 			tag = RUS
@@ -413,8 +366,8 @@ political_decisions = {
 			owns = 89
 			owns = 14
 			owns = 1481
-			owns = 2525
-			owns = 2524
+			owns = 1628
+			owns = 2562
 			money = 2000000
 		}
 		effect = {

@@ -10,7 +10,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 750
     }
@@ -424,7 +424,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 475
     }
@@ -598,7 +598,7 @@
     }
 
     bureaucrats = {
-        culture = south_german
+        culture = hungarian
         religion = catholic
         size = 450
     }

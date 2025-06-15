@@ -165,3 +165,28 @@ millionsmustdie;Millions Must Die!;;;;;;;x
 millionsmustdie_desc;how many?;;;;;;;;;x
 militiaraised;Militia Raised;;;;;;x
 militiaraised_desc;Militia have been raised here already;;;;;;x
+EVTNAME91102;EUREKA!;;;;;;;
+EVTDESC91102;I just scienced all over the place. . . ;;;;;;;x
+EVTOPTA91102;Unbelievable;;;;;;;x
+expand_naval_base_title;Expand Naval Bases;;;;;;x
+expand_naval_base_desc;This instantly builds naval bases up to their level researched. IMPORTANT! It cannot place them down for you at level 1. It also won't bankrupt you, it will only take whats available. Naval bases that are already built up will still count towards the cost so its all or nothing SORRY!! The prices increase as usual although not according to material costs.;;;;;;;;x
+built_naval_base;Naval Base Built;;;;;x
+built_naval_base_desc;Research the next tech;;;;;;x
+assimilation_buff;Assimilation Buff;;;;;;x
+assimilation_buff_desc;Green cards;;;;;;x
+start_fake_war_title;Start Fake War;;;;;;x
+start_fake_war_desc;Use this to take control of puppet units;;;;;x
+end_fake_war_title;End Fake War;;;;;;x
+end_fake_war_desc;Return units and such;;;;;;x
+hungary_puppet;Hungary Mobs;;;;;x
+hungary_puppet_desc;Removes Hungarian Mobs until KuK is formed;;;;;x
+JAP_1666;Shikoku;;;;;;x
+JAP_1640;Chigoku;;;;;;x
+JAP_1660;Northern Kyushu;;;;;x
+JAP_1662;Southern Kyushu;;;;;x
+newgranada_title;Revive the Old Viceroyalty;;;;;;x
+newgranada_desc;Mexico is old news, what we have will shine brighter than anything in North America!;;;;;;x
+MOZ;Mozambique;;;;;;x
+ANG;Angola;;;;;;;x
+MOZ_ADJ;Mozambique;;;;;;;x
+ANG_ADJ;Angolan;;;;;;;x

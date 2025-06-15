@@ -2,6 +2,10 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+built_naval_base = {
+	icon = 7
+}
+
 ###PUIR - Generic Neutrality###
 generic_neutrality = {
 	max_military_spending = -0.25
@@ -99,6 +103,7 @@ government_confusion = {
 	research_points_modifier = -0.1
 	global_assimilation_rate = -0.1
 	influence_modifier = -0.25
+	icon = 12
 }
 
 craftsmen_fix_cooldown = {
@@ -602,7 +607,7 @@ destitution_and_poverty = {
 liquor_prohibition = {
 	pop_militancy_modifier = 0.01
 	tax_efficiency = -0.05
-	global_population_growth = 0.006
+	
 
 	icon = 2
 }
@@ -1857,4 +1862,10 @@ schooling_change = {
 
 health_care_change = {
 	icon = 2
+}
+
+assimilation_buff = {
+	pop_militancy_modifier = -0.2
+	assimilation_rate = 2
+	icon = 9
 }

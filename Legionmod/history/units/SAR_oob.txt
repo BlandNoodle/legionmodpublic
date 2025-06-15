@@ -81,6 +81,46 @@ army = {
 	}
 }
 
+army = {
+	name = "Arma del Juicers"
+	location = 724
+	regiment = {
+		name= "The Horse"
+		type = hussar
+		home = 3249
+	}
+
+	regiment = {
+		name= "Hoovy"
+		type = infantry
+		home = 3249
+	}
+
+	regiment = {
+		name= "Medic"
+		type = infantry
+		home = 3249
+	}
+	
+	regiment = {
+		name= "Soger"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "Scunt"
+		type = infantry
+		home = 724
+	}
+	
+	regiment = {
+		name= "Engineer"
+		type = engineer
+		home = 725
+	}
+}
+
 navy = {
 	name = "Armata di Mare"
 	location = 724
