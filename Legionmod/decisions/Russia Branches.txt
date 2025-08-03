@@ -19,7 +19,7 @@ political_decisions = {
 			set_country_flag = warprogressing
 			PRU_690 = {add_core = THIS}
 			PRU_695 = {add_core = THIS}
-			badboy = 16
+			badboy = 12
 		}
 	}
 	
@@ -41,6 +41,8 @@ political_decisions = {
 			set_country_flag = greyvictory
 			clr_country_flag = warprogressing
 			prestige = 15
+			build_factory_in_capital_state = machine_parts_factory
+			build_factory_in_capital_state = steel_factory
 		}
 	}
 	
@@ -89,6 +91,8 @@ political_decisions = {
 			set_country_flag = pinkvictory
 			clr_country_flag = warprogressing
 			prestige = 15
+			build_factory_in_capital_state = canned_food_factory
+			build_factory_in_capital_state = artillery_factory
 		}
 	}
 	
@@ -115,6 +119,7 @@ political_decisions = {
 			set_country_flag = warprogressing
 			SWE_308 = {add_core = THIS}
 			SWE_309 = {add_core = THIS}
+			SWE_313 = [add_core = THIS}
 			badboy = 16
 		}
 	}
@@ -131,11 +136,13 @@ political_decisions = {
 		allow = {
 			SWE_308 = {owned_by = THIS}
 			SWE_309 = {owned_by = THIS}
+			SWE_313 = {owned_by = THIS}
 			war = no
 		}
 		effect = {
 			set_country_flag = greenvictory
 			clr_country_flag = warprogressing
+			research_points = 7200
 			prestige = 15
 		}
 	}

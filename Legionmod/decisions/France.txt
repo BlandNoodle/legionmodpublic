@@ -442,7 +442,7 @@ political_decisions = {
 			}
 			casus_belli = {
 				target = HES
-				type = acquire_state_small
+				type = acquire_state_tiny
 				months = 24
 
 			}
