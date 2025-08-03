@@ -316,7 +316,6 @@ flintlock_rifles = {
 	
 	mobilisation_size = 0.02
 	activate_unit = infantry
-	combat_width = -1
 
 	ai_chance = {
 		factor = 1.1

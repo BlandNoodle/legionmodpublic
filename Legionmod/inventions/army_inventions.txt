@@ -554,7 +554,6 @@ grand_battle_plan_vs_superior_firepower = {
 		}
 	}
 	effect = {
-		combat_width = 2
 		army_base = {
 			default_organisation = 10
 			supply_consumption = 0.05
@@ -1145,7 +1144,6 @@ armoured_cars = {
 		}
 	}
 	effect = {
-		combat_width = 2
 		tank = {
 			attack = 11.25
 			defence = 11.25
