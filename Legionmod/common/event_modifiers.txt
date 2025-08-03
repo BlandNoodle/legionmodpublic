@@ -1866,6 +1866,6 @@ health_care_change = {
 
 assimilation_buff = {
 	pop_militancy_modifier = -0.2
-	assimilation_rate = 2
+	assimilation_rate = 3
 	icon = 9
 }

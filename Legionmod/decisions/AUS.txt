@@ -16,15 +16,13 @@ political_decisions = {
 				AND = {
 					exists = ITA
 					exists = GER
+					exists = HUN
 					state_n_government = 1
 				}
 				revolution_n_counterrevolution = 1
 			     }
 			NOT = {
-				OR = {
-					exists = HUN
-					exists = KUK
-				}
+				exists = KUK
 			}
 		}
 	

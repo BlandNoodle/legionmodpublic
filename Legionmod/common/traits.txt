@@ -1302,6 +1302,12 @@ personality = {
 background = {
 	no_background = {
 		reliability = 0.1
+		attack = -2
+		defence = -2
+		morale = -0.20
+		organisation = -0.20
+		speed = -0.10
+		experience = -0.5
 	}
 	attack_1.1 = {
 		attack = 1

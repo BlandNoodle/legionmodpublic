@@ -103,7 +103,6 @@ political_decisions = {
 			}
 			state_n_government = 1
 			EGY = {
-				is_greater_power = no
 				in_sphere = THIS
 			}
 			
@@ -114,7 +113,7 @@ political_decisions = {
 			EGY = {
 				in_sphere = THIS
 				NOT = {vassal_of = TUR}
-				is_secondary_power = no
+				is_greater_power = no
 			}
 		}
 		effect = {

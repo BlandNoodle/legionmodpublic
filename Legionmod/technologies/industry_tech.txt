@@ -975,7 +975,7 @@ integral_rail_system = {
 }
 limited_access_roads = {
 	area = tech_infrastructure
-	year = 1919
+	year = 1910
 	cost = 21600
 
 	max_railroad = 1
@@ -1152,7 +1152,7 @@ electricity = {
 }
 synthetic_polymers = {
 	area = chemistry_and_electricity
-	year = 1919
+	year = 1910
 	cost = 21600
 
 	supply_limit = 0.50

@@ -1,4 +1,6 @@
 color = { 152  85  92 }
+absolute_monarchy = { 223 183 177 }
+prussian_constitutionalism = { 223 183 177 }
 graphical_culture = AustriaHungaryGC
 
 party = {

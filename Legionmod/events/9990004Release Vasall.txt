@@ -41,8 +41,8 @@ country_event = {
 				NOT = { has_country_flag = raider_group_doctrine_invented }
 			}
 			AND = {
-				high_sea_battle_fleet = 1
-				NOT = { has_country_flag = high_sea_battle_fleet_invented }
+				blue_and_brown_water_schools = 1
+				NOT = { has_country_flag = blue_and_brown_water_schools_invented }
 			}
 			AND = {
 				high_sea_battle_fleet = 1

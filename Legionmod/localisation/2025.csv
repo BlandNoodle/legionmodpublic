@@ -190,3 +190,8 @@ MOZ;Mozambique;;;;;;x
 ANG;Angola;;;;;;;x
 MOZ_ADJ;Mozambique;;;;;;;x
 ANG_ADJ;Angolan;;;;;;;x
+light_artillery;Light Artillery;;;;;;x
+medium_artillery;Medium Artillery;;;;;;x
+heavy_artillery;Heavy Artillery;;;;;;;x
+anti_aircraft_artillery;Anti Aircraft Guns;;;;;;x
+improved_anti_aircraft_artillery;Flak Anti-Air;;;;;;x

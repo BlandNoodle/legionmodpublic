@@ -19,17 +19,6 @@ rebel =
 
 can_build = yes
 
-{
-	cavalry = 0
-	artillery = 0.1
-	cuirassier = 0
-	dragoon = 0
-	guard = 0.3
-	hussar = 0
-	infantry = 0.6
-	irregular = 0
-}
-
 everyday_needs = {
 	coal = 20
 	paper = 25

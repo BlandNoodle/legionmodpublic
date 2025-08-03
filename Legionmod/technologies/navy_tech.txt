@@ -380,7 +380,7 @@ high_sea_battle_fleet = {
 }
 modern_naval_doctrine = {
 	area = naval_doctrine
-	year = 1914
+	year = 1910
 	cost = 21600
 	unciv_military = yes
 	max_naval_base = 1
@@ -862,7 +862,7 @@ steam_turbine_ships = {
 }
 oil_driven_ships = {
 	area = ship_construction
-	year = 1919
+	year = 1910
 	cost = 21600
 	unciv_military = yes
 	navy_base = { supply_consumption = 0.2 } 
@@ -1380,7 +1380,7 @@ advanced_naval_design = {
 }
 modern_naval_design = {
 	area = naval_engineering
-	year = 1919
+	year = 1910
 	cost = 21600
 	unciv_military = yes
 	navy_base = { build_time = -10 }
@@ -1675,7 +1675,7 @@ naval_directionism = {
 }
 naval_integration = {
 	area = naval_science
-	year = 1919
+	year = 1910
 	cost = 21600
 	unciv_military = yes
 	supply_range = 0.10
@@ -2149,7 +2149,7 @@ naval_nco_training = {
 }
 modern_naval_training = {
 	area = naval_leadership
-	year = 1919
+	year = 1910
 	cost = 21600
 	unciv_military = yes
 	navy_base = {
