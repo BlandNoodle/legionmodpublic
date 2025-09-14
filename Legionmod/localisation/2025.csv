@@ -152,7 +152,7 @@ generic_neutrality;Generic Neutrality;;;;;;x
 day_one_setup_title;Day One Setup;;;;;;;;;x
 day_one_setup_desc;Set me up!;;;;;;;x
 EVTNAME19000190;Switch Schools;;;;;;x
-EVTDESC19000190;Switch it up!\n§BArmy School - §G10% Army and 5% Industry\n§BNavy School - §G10% Navy and 5% Industry\n§BIndustry School - §G10% Industry and 5% Commerce \n§BCulture School - §G10% Culture and 5% Industry \n§BCommerce School - §G10% Commerce and 5% Army;;;;;;;;x
+EVTDESC19000190;Switch it up!\n§BArmy School - §G10% Army and 5% Industry\n§BNavy School - §G10% Navy and 5% Industry\n§BIndustry School - §G10% Industry and 5% Commerce \n§BCulture School - §G10% Culture and 5% Industry \n§BCommerce School - §G10% Commerce and 5% Army§b;;;;;;;;x
 EVTOPTA19000190;§RArmy;;;;;;;x
 EVTOPTB19000190;§bNavy;;;;;;;x
 EVTOPTC19000190;§RIndustry;;;;;;;x
@@ -195,3 +195,26 @@ medium_artillery;Medium Artillery;;;;;;x
 heavy_artillery;Heavy Artillery;;;;;;;x
 anti_aircraft_artillery;Anti Aircraft Guns;;;;;;x
 improved_anti_aircraft_artillery;Flak Anti-Air;;;;;;x
+puppet_war_event;Puppet War Cooldown;;;;;;;x
+puppet_war_event_desc;cooldown so event doesnt spam you;;;;;;;x
+EVTNAME19000192;Puppet Truce Blocked;;;;;;x
+EVTDESC19000192;This event makes it so you are at war with everyone's puppets regardless of truces.\n§BO.K. Garmin!\n§RCall in my vassals!§b;;;;;;;;x
+EVTOPTA19000192;§RSomehow this works§b;;;;;;;x
+EVTNAME19000193;Infamy Tech;;;;;;;x
+EVTDESC19000193;Hide yo kids. Hide yo wife. And hide yo husband. Cause they be rapin er'body up here!;;;;;;;x
+EVTOPTA19000193;We gon' find you...;;;;;;;x
+infamy_tech1;infamy tech 1;;;;;;x
+infamy_tech1_desc;Hi;;;;;;x
+infamy_tech2;infamy tech 2;;;;;;x
+infamy_tech2_desc;Hello-;;;;;;x
+infamy_tech3;infamy tech 3;;;;;;x
+infamy_tech3_desc;:>;;;;;;x
+infamy_tech4;infamy tech 4;;;;;;x
+infamy_tech4_desc;0-o;;;;;;x
+infamy_tech1;infamy tech 5;;;;;;x
+infamy_tech5_desc;Burn and Plunder, until nothing remains.;;;;;;x
+market_structure;Market Structure (Infamy);;;;;;;x
+business_regulations;Business Regulations (Infamy);;;;;;;x
+market_regulations;Market Regulations (Infamy);;;;;;;x
+economic_responsibility;Economic Responsibility (Infamy);;;;;;x
+government_interventionism;Government Interventionism (Infamy);;;;;;x

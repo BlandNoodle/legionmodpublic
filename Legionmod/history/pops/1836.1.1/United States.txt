@@ -8507,7 +8507,7 @@
     bureaucrats = {
         culture = yankee
         religion = protestant
-        size = 1800
+        size = 1900
     }
 
     officers = {
@@ -8519,27 +8519,27 @@
     capitalists = {
         culture = yankee
         religion = protestant
-        size = 25
+        size = 250
     }
 
     clergymen = {
         culture = yankee
         religion = protestant
-        size = 550
+        size = 650
     }
 
     clerks = {
         culture = yankee
         religion = protestant
-        size = 60
+        size = 500
     }
 
     craftsmen = {
         culture = yankee
         religion = protestant
-        size = 1200
+        size = 10000
     }
-
+	
     artisans = {
         culture = yankee
         religion = protestant
@@ -9045,7 +9045,7 @@
     craftsmen = {
         culture = yankee
         religion = protestant
-        size = 6500
+        size = 9500
     }
 
     artisans = {

@@ -1,7 +1,7 @@
-color = { 91 160 82 }
-democracy = { 178 65 81 }
+color = { 163 94 255 }
+democracy = { 163 94 255 }
 proletarian_dictatorship = { 196 0 81 }
-fascist_dictatorship = { 231 181 12 }
+fascist_dictatorship = { 229 126 0 }
 graphical_culture = SpanishGC
 
 party = {

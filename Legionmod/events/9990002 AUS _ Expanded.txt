@@ -37,3 +37,57 @@ country_event = {
 	}
 }
 }
+
+country_event = {
+
+	id = 19000192
+
+	title = "EVTNAME19000192"
+	desc = "EVTDESC19000192"
+	picture = "garmin"
+
+	trigger = {
+		NOT = {has_country_flag = truceblockedvassal}
+		NOT = {has_country_modifier = puppet_war_event}
+		war = yes
+		ai = no
+		war_countries = {
+			AND = {
+				num_of_vassals_no_substates = 1
+				is_vassal = no
+			}
+		}
+	}
+	
+	mean_time_to_happen =  {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = truceblockedvassal
+	}
+	option = {
+		name = "EVTOPTA19000192"		
+		any_country = {
+			limit = {
+				is_vassal = yes
+				overlord = {
+					war_with = THIS
+				}
+				truce_with = THIS
+				NOT = {war_with = THIS}
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = status_quo }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = yes
+			}
+		}
+		add_country_modifier = {
+			name = puppet_war_event
+			duration = 365
+		}
+		clr_country_flag = truceblockedvassal
+	}
+}

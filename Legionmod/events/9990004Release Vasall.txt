@@ -133,3 +133,118 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	title = EVTNAME19000193
+	desc = EVTDESC19000193
+	id = 19000193
+	picture = hide
+
+	trigger = {
+		OR = {
+			AND = {
+				market_structure = 1
+				NOT = { has_country_flag = market_structure_invented }
+			}
+			AND = {
+				business_regulations = 1
+				NOT = { has_country_flag = business_regulations_invented }
+			}
+			AND = {
+				market_regulations = 1
+				NOT = { has_country_flag = market_regulations_invented }
+			}
+			AND = {
+				economic_responsibility = 1
+				NOT = { has_country_flag = economic_responsibility_invented }
+			}
+			AND = {
+				government_interventionism = 1
+				NOT = { has_country_flag = government_interventionism_invented }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA19000193"
+		random_owned = {
+			limit = {
+				owner = {
+					market_structure = 1
+					NOT = { has_country_flag = market_structure_invented }
+				}
+			}
+			owner = {
+				set_country_flag = market_structure_invented
+				add_country_modifier = {
+					name = infamy_tech1
+					duration = -1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					business_regulations = 1
+					NOT = { has_country_flag = business_regulations_invented }
+				}
+			}
+			owner = {
+				set_country_flag = business_regulations_invented
+				add_country_modifier = {
+					name = infamy_tech2
+					duration = -1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					market_regulations = 1
+					NOT = { has_country_flag = market_regulations_invented }
+				}
+			}
+			owner = {
+				set_country_flag = market_regulations_invented
+				add_country_modifier = {
+					name = infamy_tech3
+					duration = -1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					economic_responsibility = 1
+					NOT = { has_country_flag = economic_responsibility_invented }
+				}
+			}
+			owner = {
+				set_country_flag = economic_responsibility_invented
+				add_country_modifier = {
+					name = infamy_tech4
+					duration = -1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					government_interventionism = 1
+					NOT = { has_country_flag = government_interventionism_invented }
+				}
+			}
+			owner = {
+				set_country_flag = government_interventionism_invented
+				add_country_modifier = {
+					name = infamy_tech5
+					duration = -1
+				}
+			}
+		}
+	}
+}

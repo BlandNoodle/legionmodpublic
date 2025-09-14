@@ -32,6 +32,7 @@ monitor = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
+		small_arms = 0.01
 		steamer_convoy = 0.36
 		artillery = 0.3
 		ammunition = 0.8

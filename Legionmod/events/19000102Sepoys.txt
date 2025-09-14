@@ -312,7 +312,7 @@ country_event = {
 			who = SEP
 			value = 100
 		}
-		SEP = {country_event = {id = 19000185 days = 30} }
+		SEP = {country_event = {id = 19000191 days = 30} }
 		clr_country_flag = sepoy_rebellion
 	}
 	
@@ -335,15 +335,15 @@ country_event = {
 }
 
 country_event = {
-	id = 19000185
-	name = "EVTNAME19000185"
-	desc = "EVTDESC19000185"
+	id = 19000191
+	name = "EVTNAME19000191"
+	desc = "EVTDESC1900011"
 	picture = "india"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA19000185"
+		name = "EVTOPTA19000191"
 		money = 500000
 		research_points = 7200
 		capital = 1236

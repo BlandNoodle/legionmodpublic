@@ -33,7 +33,8 @@ commerce_raider = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.24
+		small_arms = 0.01
+		steamer_convoy = 0.22
 		artillery = 0.06
 		canned_food = 0.32
 	}

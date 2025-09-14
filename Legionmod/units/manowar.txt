@@ -33,7 +33,8 @@ manowar = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.14
+		small_arms = 0.01
+		clipper_convoy = 0.12
 		artillery = 0.02
 		canned_food = 0.1		#0.16
 	}

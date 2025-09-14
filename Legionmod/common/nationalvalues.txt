@@ -7,15 +7,15 @@ nv_order = {
 }
 
 nv_equality = {
-	non_accepted_pop_militancy_modifier = -0.1
+	non_accepted_pop_militancy_modifier = -0.5
 	culture_tech_research_bonus = 0.05
 }
 
 nv_productivity = {
 	factory_input = -0.05
 	factory_output = 0.15
-	commerce_tech_research_bonus = 0.1
-	industry_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
 }
 
 nv_education = {
@@ -26,6 +26,6 @@ nv_education = {
 nv_diplomacy = {
 	diplomatic_points_modifier = 2
 	influence_modifier = 0.5
-	badboy = -0.05
+	commerce_tech_research_bonus = 0.10
 	cb_generation_speed_modifier = 0.25
 }

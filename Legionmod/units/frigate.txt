@@ -31,7 +31,8 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		clipper_convoy = 0.08
+		small_arms = 0.01
+		clipper_convoy = 0.06
 		artillery = 0.01
 		canned_food = 0.05
 	}

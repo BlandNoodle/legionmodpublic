@@ -604,6 +604,7 @@ market_regulations = {
 	influence = 0.2
 	farm_rgo_eff = 0.1
 	mine_rgo_eff = 0.1
+
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -633,6 +634,7 @@ economic_responsibility = {
 	influence = 0.2
 	farm_rgo_eff = 0.20
 	mine_rgo_eff = 0.20
+
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -660,8 +662,9 @@ government_interventionism = {
 	cost = 21600
 
 	influence = 0.25
-	farm_rgo_eff = 0.25
-	mine_rgo_eff = 0.25
+	farm_rgo_eff = 0.20
+	mine_rgo_eff = 0.20
+
 	ai_chance = {
 		factor = 1.01
 		modifier = {

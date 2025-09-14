@@ -88,7 +88,7 @@ political_decisions = {
 			NOT = {exists = ARM}
 		}
 		effect = {
-			badboy = 5
+			badboy = 3
 			set_country_flag = byearms
 			any_owned = {
 				limit = {
@@ -114,7 +114,7 @@ political_decisions = {
 			}
 			AZB = {add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = establish_protectorate_casus_belli
 				months = 36
 				}
 			}

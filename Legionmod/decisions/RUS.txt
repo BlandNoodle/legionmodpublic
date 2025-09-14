@@ -105,7 +105,7 @@ political_decisions = {
 			NOT = {constructing_cb_progress = 0.1}
 		}
 		effect = {
-			badboy = 5
+			badboy = 2
 			set_country_flag = ripcircassia
 			any_owned = {
 				limit = {
@@ -124,12 +124,10 @@ political_decisions = {
 				}
 				reduce_pop = 0.33
 			}
-			GEO = {
-				add_casus_belli = {
-					target = THIS
-					type = conquest
-					months = 48
-				}
+			casus_belli = {
+				target = GEO
+				type = conquest
+				months = 48
 			}
 		}
 	}
@@ -146,7 +144,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			badboy = 5
+			badboy = 3
 			set_country_flag = higeorgia
 			RUS_1090 = {
 				add_core = THIS
@@ -165,12 +163,10 @@ political_decisions = {
 					duration = 1825
 				}
 			}
-			AZB = {
-				add_casus_belli = {
-					target = THIS
-					type = conquest
-					months = 48
-				}
+			casus_belli = {
+				target = AZB
+				type = establish_protectorate_casus_belli
+				months = 48
 			}
 		}
 	}

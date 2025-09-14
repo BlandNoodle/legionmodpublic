@@ -222,13 +222,13 @@ change_national_value_off_desc;TURN IT OFF!!!!;;;;;;;;;;;;x
 change_national_value_on_title;Change National Value On;;;;;;;;;;;;x
 change_national_value_on_desc;Let me cook!!!!;;;;;;;;;;;;x
 switch_to_diplomacy_title;Embrace the Ideal of Diplomacy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nInfamy Decay Speed: -0.05\nFaster CB Generation Speed: +25%§W;;;;;;;;;;;;;x
+switch_to_diplomacy_desc;The channels of power require an eye for detail, a fine touch, and a silver tongue. Let our people focus our energies into refining these qualities so we may be masters over those who are less.. refined.\n\n§YThe modifiers for this NV are:§W\n§GDiplomatic Points Generation: +200%\nBase Influence Points Generation: +50%\nCommerce Tech Research Bonus: +10%\nFaster CB Generation Speed: +25%§W;;;;;;;;;;;;;x
 switch_to_education_title;Embrace the Ideal of Education;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_education_desc;Our people must look forward, ignoring the wanton worries of our rivals. Wield logic and rationality to march forward!\n\n§YThe modifiers for this NV are:§W\n§GEducation Efficiency: +35%\nCulture Tech Research Bonus: +5%§W;;;;;;;;;;;;;x
 switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_order_desc;The foreigners progress and dominate through an orderly and organized society, based on a sense of duty to their country. If we were to embrace this ideal, we might strive as they do.\n\n§YThe modifiers for this NV are:§W\n§GOrganization Regain Rate: +10%\n5% Supply Consumption Reduction\nLeadership Points Gain: +50%\nArmy Tech Research Bonus: +5%\n Core Pop Militancy -0.05§W;;;;;;;;;;;;;x
 switch_to_production_title;Embrace the Ideal of Productivity;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +15%\n§GCommerce Tech Research Bonus: +10%\nIndustry Tech Research Bonus: +10%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+switch_to_production_desc;The foreigners progress through an industrious society based on hard work. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GFactory Input: -5%\nFactory Output: +15%\n§GCommerce Tech Research Bonus: +5%\nIndustry Tech Research Bonus: +10%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_title;Embrace the Ideal of Autocracy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_autocracy_desc;The foreigners progress through a society based on strong leadership, obedience and loyalty. If we were to embrace this ideal, we might progress as they do.\n\n§YThe modifiers for this NV are:§W\n§GRuling Party Support: +30%\nLeadership Modifier: +100%\nArmy Tech Research Bonus: +5%§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x
@@ -541,9 +541,9 @@ landes;Landes Forest;;;;;;x
 landes_desc;The Swamp has been drained;;;;;;x
 landes_forest_title;Revitalize Gascogne;;;;;;x
 landes_forest_desc;Most of the region now occupied by the Landes forest was swampy land that was sparsely inhabited until the 19th century, when the 19 June 1857 law ended traditional pastoralism and led to wide scale reforestation, in order to rehabilitate the landscape and provide for regional economic development. Prior to this period, the people of the Landes used stilt-walking to move from place to place in the wet terrain. Since the 1970s, parts of the forest have given way to intensive agriculture.;;;;;;;x
-EVTNAME19000185;Britain Negotiates;;;;;;x
-EVTDESC19000185;After many lives were lost, India's cause has been won through victory on the field and now victory at the negotiating table.;;;;;x
-EVTOPTA19000185;Yummers;;;;;;x
+EVTNAME19000191;Britain Negotiates;;;;;;x
+EVTDESC19000191;After many lives were lost, India's cause has been won through victory on the field and now victory at the negotiating table.;;;;;x
+EVTOPTA19000191;Yummers;;;;;;x
 EVTNAME19000188;Britain Doubles Down!;;;;;;x
 EVTDESC19000188;Oh, he thought colonization was forever! He mad! \n§R(They have a CB to full annex you, love.)§b;;;;;;;x
 EVTOPTA19000188;I need a trusted adult;;;;;;;x

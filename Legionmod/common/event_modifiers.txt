@@ -702,14 +702,14 @@ prussian_general_staff = {
 }
 
 hollowearthp = {
-	immigrant_attract = 0.15
+	immigrant_attract = 1
 	mine_rgo_size = 0.6
-	population_growth = 0.001
+	population_growth = 0.006
 	icon = 13
 }
 
 hyperboreaexodus = {
-	immigrant_push = 0.25
+	immigrant_push = 0.20
 	pop_militancy_modifier = 0.01
 	pop_consciousness_modifier = 0.25
 	icon = 12
@@ -848,9 +848,9 @@ low_opium = {
 strict_china_trade = {
 	icon = 6
 	rgo_throughput = -0.20
-	badboy = -0.01
-	tariff_efficiency_modifier = -0.25
-	commerce_tech_research_bonus = -0.15
+	badboy = -0.05
+	tariff_efficiency_modifier = -0.15
+	commerce_tech_research_bonus = -0.25
 }
 
 opium_market_low = {
@@ -1868,4 +1868,33 @@ assimilation_buff = {
 	pop_militancy_modifier = -0.2
 	assimilation_rate = 3
 	icon = 9
+}
+
+puppet_war_event = {
+	icon = 2
+}
+
+infamy_tech1 = {
+	badboy = -0.02
+	icon = 3
+}
+
+infamy_tech2 = {
+	badboy = -0.02
+	icon = 3
+}
+
+infamy_tech3 = {
+	badboy = -0.02
+	icon = 3
+}
+
+infamy_tech4 = {
+	badboy = -0.02
+	icon = 3
+}
+
+infamy_tech5 = {
+	badboy = -0.02
+	icon = 3
 }

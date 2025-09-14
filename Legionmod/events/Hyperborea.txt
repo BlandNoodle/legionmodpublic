@@ -18,17 +18,16 @@ country_event = {
 		set_country_flag = hollow_earth
 		307 = {
 				naval_base = 4
-				add_province_modifier = { name = hollowearthp duration = -1 }
-				trade_goods = precious_metal
-			}
+				add_province_modifier = { name = hollowearthp duration = 10950 }
+		}
 		any_state = {
 			limit = {
 				is_primary_culture = yes
 			}
 			any_owned = {
 				add_province_modifier = { name = hyperboreaexodus duration = 9001 }
-				}
 			}
+		}
 			
 		treasury = -300000
 		}

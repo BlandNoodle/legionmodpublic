@@ -127,7 +127,7 @@ vassal = {
 }
 
 # AUS HUN
-vassal = {
+substate = {
 	first = AUS
 	second = HUN
 	start_date = 1800.1.1
