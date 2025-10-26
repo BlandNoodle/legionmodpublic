@@ -1,0 +1,53 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Zion Defense Force"
+location = 919
+
+regiment = {
+name = "Acre Defense Brigade"
+type = infantry
+home = 916
+}
+
+regiment = {
+name = "Nablus Defense Brigade"
+type = infantry
+home = 918
+}
+
+regiment = {
+name = "1st Jaffa Defense Brigade"
+type = infantry
+home = 919
+}
+
+regiment = {
+name = "2nd Jaffa Defense Brigade"
+type = infantry
+home = 919
+}
+
+regiment = {
+name = "Beersheba Defense Brigade"
+type = artillery
+home = 921
+}
+
+regiment = {
+name = "Mount Sinai Defense Brigade"
+type = artillery
+home = 1757
+}
+
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

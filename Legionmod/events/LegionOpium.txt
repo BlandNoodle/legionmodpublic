@@ -6,6 +6,7 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
+		NOT = {year = 1836}
 	}
 	fire_only_once = yes
 	
@@ -106,7 +107,6 @@ country_event = {
     option = {
 	name = "Treaty Ports"
 	ai_chance = { factor = 1 }
-	set_global_flag = treaty_ports_activated
 	country_event = { id=13270 days=7 }
 	CHI_1600 = {remove_core = CHI}
 	CHI_2608 = {remove_core = CHI}

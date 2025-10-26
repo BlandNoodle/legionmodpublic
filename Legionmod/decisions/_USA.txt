@@ -78,7 +78,7 @@ political_decisions = {
 			badboy = 10
 			ENG={add_casus_belli = {
 				target = THIS
-				type = liberate_country country = CAN
+				type = free_peoples country = CAN
 				months = 36
 				}
 			}

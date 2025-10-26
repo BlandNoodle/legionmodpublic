@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
-add_core = EGY
-trade_goods = fruit
+owner = ZIN
+controller = ZIN
+add_core = ZIN
+trade_goods = iron
 life_rating = 35

@@ -111,7 +111,7 @@ kane_desc;Peace Through Power will be the slogan to unite Earth!;;;;;;x
 temple_prime_title;Construct Temple Prime;;;;;;;x
 temple_prime_desc;Serbia has treated us well, but it is time we expand our operation and begin mining Tiberium in earnest. . .;;;;;;;x
 please_redeem_title;Retake India;;;;;;x
-please_redeem_desc;They got away somehow. . . (release the other one by decision if you only lost one puppet).;;;;;;;x
+please_redeem_desc;They got away somehow. . . §RThis will instantly declare war on India!§b(release the other one by decision if you only lost one puppet).;;;;;;;x
 ARMY_TECHNOLOGY_LEVELS; ;;;;;;;;;;;x
 NAVY_TECHNOLOGY_LEVELS; ;;;;;;;;;;;x
 increase_healthcare_title;§RImprove Healthcare§B;;;;;;;;x
@@ -218,3 +218,210 @@ business_regulations;Business Regulations (Infamy);;;;;;;x
 market_regulations;Market Regulations (Infamy);;;;;;;x
 economic_responsibility;Economic Responsibility (Infamy);;;;;;x
 government_interventionism;Government Interventionism (Infamy);;;;;;x
+please_redeem2_title;India Freedom;;;;;;;;x
+please_redeem2_desc;Click this for India gaming;;;;;;;x
+EVTNAME19000194;Halt!;;;;;;;x
+EVTDESC19000194;Stop trying to ally the Space Marines in the mountains, they are neutral.;;;;;;;x
+EVTOPTA19000194;You've Violated the Law. . ..;;;;;;;x
+subdue_the_south_title;Subdue the South;;;;;;x
+subdue_the_south_desc;Its time to prove who runs this peninsula;;;;;;x
+accept_the_south_title;Accept the South;;;;;;x
+accept_the_south_desc;We arent gonna give them anything we just gonna let them vote dont worry;;;;;x
+pardo;Pardo;;;;;;x
+regency;Regency;;;;;;;x
+regency_desc;The King/Queen is not in Town;;;;;;;x
+pedro2;Dom Pedro II "The Magnanimous";;;;;;;x
+pedro2_desc;Pedro de Alcântara João Carlos Leopoldo Salvador Bibiano Francisco Xavier de Paula Leocádio Miguel Gabriel Rafael Gonzaga;;;;;;;x
+BRZ_hms_government;Empire of Brazil;;;;;;x
+BRZ_absolute_monarchy;Empire of Brazil;;;;;;x
+BRZ_pedro;Pedro Supporters;;;;;;;x
+EVTNAME19000195;Brazilian Regency;;;;;;;x
+EVTDESC19000195;During the early 19th Century, Brazil experienced a period of extreme unrest before Dom Pedro II was of age.;;;;;;;x
+EVTOPTA19000195;Nah, I'd Win.;;;;;;x
+cooldown;Cooldown;;;;;;x
+cooldown_desc;Generic Cooldown;;;;;;x
+EVTNAME19000196;Slave Traders;;;;;;;x
+EVTDESC19000196;Despite earlier efforts and legislation, the slave trade still exists due to a lack of enforcement. Eventhough Great Britain threatens us with punitive action over it, economic incentives are a difficult force to overcome. . .;;;;;;;x
+EVTOPTA19000196;I'm actually just too lazy.;;;;;;x
+EVTNAME19000197;Manumission;;;;;;;x
+EVTDESC19000197;Institutional reform has failed many, so those who wish to see change act on their own to bring about a new future. There are slave owners who free their slaves in their wills.;;;;;;;x
+EVTOPTA19000197;Hopium Administered;;;;;;x
+dompedro2_title;Pedro II's Coronation;;;;;;x
+dompedro2_desc;The regency is plaguing the country with instability and corruption, but we need kid Pedro to be an adult to be declared King. We could just say he is old enough I guess. . .\n§G This will lock you out of the oligarch path and lead you down a path of internal reform and freeing the slaves!§b;;;;;;;x
+pedroeducation_title;Pedro's Basics in Education;;;;;;x
+pedroeducation_desc;Pedro II was an avid enthusiast of education, claiming that teaching was the most noble profession. He is responsible for Brazil's oldest universities and research campuses, promoting the democratization of the academic world.;;;;;;;x
+overthrowmonarchy_title;Replace the Monarchy;;;;;;x
+overthrowmonarchy_desc;The monarchy is an old institution that needs to be fully removed in order to protect the interests of the nation. Currently, it prevents us from effectively leading the nation as the heir is not of age yet.\n§R This will lock you out of Pedro II's decisions and lead you down a path of expansion and enslavement.§b;;;;;;x
+braziloligarchy;The Oligarchy;;;;;;x
+braziloligarchy_desc;evil fellas;;;;;;x
+form_sau_title;Form the South American Union;;;;;x
+form_sau_desc;next, The World. . .. ;;;;;;x
+form_bpa_title;Form the Empire of Brazil, Portugal, and the Algarves;;;;;;;x
+BPA;Empire of Brazil, Portugal, and the Algarves;;;;;;x
+BPA_ADJ;Brazilian;;;;;;x
+endslavery_title;End Slavery;;;;;;x
+endslavery_desc;Although previous efforts have reduced slavery greatly, it is still technically present within our great nation. With the Lei Áurea, we will end this institution nationwide!;;;;;;;x
+encourage_slavery_title;Openly Trade in Slaves;;;;;;x
+encourage_slavery_desc;Yeah we are straight evil. Time to start enslaving natives n such for profit.\n(This will stop the random events and give a decision instead);;;;;;x
+blood_diamonds_title;Blood Diamond Mine;;;;;;x
+blood_diamonds_desc;Minas Gerais has a wealth of gems, minerals, and metals. With our newly acquired labor force, we could exploit this resource. . . .;;;;;x
+buy_slaves_title;Buy Slaves;;;;;;x
+buy_slaves_desc;Exactly what the title says. Of course if no one is selling, we cant buy.;;;;;x
+blooddiamonds;Blood Diamonds;;;;;;x
+blooddiamonds_desc;The cruelest place on Earth...;;;;;;x
+cisplatina_title;Reclaim Cisplatina;;;;;x
+cisplatina_desc;Due to our failure to crush our enemies in the Cisplatine War, we ended up being forced to grant Uruguay independence. It's time that we strike them back and bring Cisplatina into our fold again!;;;;;;x
+minas_gerais_mines_title;Subsidize Industry in Minas Gerais;;;;;x
+minas_gerais_mines_desc;Theres a wealth of minerals and metals that pickaxes and wheelbarrows cannot excavate. We should purchase modern equipment from Europe to transform the state into the world's source of coal and iron.;;;;;;x
+PROV3254;Meleiha;;;;;;;x
+PROV3255;Al Dhaba;;;;;;x
+PROV3256;Moghara;;;;;;x
+PROV3257;El Alamein;;;;;;x
+PROV3258;Ras Sedr;;;;;;;x
+PROV3259;Abu Durba;;;;;;x
+PROV3260;Saint Catherine;;;;;;x
+PROV3261;Abu Zemina;;;;;;x
+PROV3262;Bir El Malhi;;;;;;x
+PROV3263;Al Qusaymah;;;;;;;x
+EGY_1753;Mersa Matruh;;;;;;x
+EGY_1771;Central Egypt;;;;;;;x
+EGY_1767;Upper Egypt;;;;;;;;x
+EGY_1758;Desert of Egypt;;;;;;x
+SYR_ADJ;Syrian;Syrian;Syrian;;;;;;;;;;;x;
+SYR;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_proletarian_dictatorship;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_presidential_dictatorship;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_bourgeois_dictatorship;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_fascist_dictatorship;Asad Regime;Asad Regime;Asad Regime;;;;;;;;;;;x;
+SYR_absolute_monarchy;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_prussian_constitutionalism;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_hms_government;Syria;Syria;Syria;;;;;;;;;;;x;
+SYR_democracy;Syrian Republic;Syrian Republic;Syrian Republic;;;;;;;;;;;x;
+SYR_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+SYR_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+SYR_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+SYR_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+SYR_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+SYR_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+SYR_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+SYR_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+SYR_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
+EGY_1838;West Sudan;;;;;;;;x
+EGY_1835;Dongola;;;;;;;;x
+ZIN_ADJ;Zionist;Zionist;Zionist;;;;;;;;;;;x;
+ZIN;Zion;Zion;Zion;;;;;;;;;;;x;
+ZIN_proletarian_dictatorship;Zion;Zion;Zion;;;;;;;;;;;x;
+ZIN_presidential_dictatorship;Zion;Zion;Zion;;;;;;;;;;;x;
+ZIN_bourgeois_dictatorship;Zion;Zion;Zion;;;;;;;;;;;x;
+ZIN_fascist_dictatorship;Israel;Israel;Israel;;;;;;;;;;;x;
+ZIN_absolute_monarchy;Kingdom of David;Kingdom of David;Kingdom of David;;;;;;;;;;;x;
+ZIN_prussian_constitutionalism;Zion;Zion;Zion;;;;;;;;;;;x;
+ZIN_hms_government;Zion;Zion;Zion;;;;;;;;;;;x;
+ZIN_democracy;Republic of Zion;Republic of Zion;Republic of Zion;;;;;;;;;;;x;
+ZIN_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+ZIN_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+ZIN_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+ZIN_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+ZIN_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+ZIN_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+ZIN_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+ZIN_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+ZIN_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
+crocodile_start_title;Start Scheming;;;;;;x
+crocodile_start_desc;Now that the Great Egyptian Civil War has started, we must act quickly to reunite the region under Mr. 1's rule. We may hope to find ancient treasures along the way...;;;;;;x
+tacitus_retrieval_title;Retrieve the Tacitus;;;;;;;x
+tacitus_retrieval_desc;An ancient artefact buried deep within Alexandria holds the secrets to our success. We must retreive this artefact!;;;;;;x
+EVTNAME19000211;Jumpscare Fin;;;;;;;x
+EVTDESC19000211;Scary;;;;;;;x
+OPTA19000211;Its over;;;;;;;x
+ROC_ADJ;Pirate;Pirate;Pirate;;;;;;;;;;;x;
+ROC;Barbary Pirates;Barbary Pirates;Barbary Pirates;;;;;;;;;;;x;
+ROC_proletarian_dictatorship;Barbary Pirates;Barbary Pirates;Barbary Pirates;;;;;;;;;;;x;
+ROC_presidential_dictatorship;Rocks Pirates;Rocks Pirates;Rocks Pirates;;;;;;;;;;;x;
+ROC_bourgeois_dictatorship;Barbary Pirates;Barbary Pirates;Barbary Pirates;;;;;;;;;;;x;
+ROC_fascist_dictatorship;Shiki Pirates;Shiki Pirates;Shiki Pirates;;;;;;;;;;;x;
+ROC_absolute_monarchy;Rocks Pirates;Rocks Pirates;Rocks Pirates;;;;;;;;;;;x;
+ROC_prussian_constitutionalism;Barbary Pirates;Barbary Pirates;Barbary Pirates;;;;;;;;;;;x;
+ROC_hms_government;Barbary Pirates;Barbary Pirates;Barbary Pirates;;;;;;;;;;;x;
+ROC_democracy;Barbary Pirates;Barbary Pirates;Barbary Pirates;;;;;;;;;;;x;
+ROC_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+ROC_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+ROC_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+ROC_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+ROC_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+ROC_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+ROC_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+ROC_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+ROC_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
+KNG_ADJ;Pharoah's;Pharoah's;Pharoah's;;;;;;;;;;;x;
+KNG;Pharoah's Realm;Pharoah's Realm;Pharoah's Realm;;;;;;;;;;;x;
+KNG_proletarian_dictatorship;Skeleton's Republic of the Pharoah;Skeleton's Republic of the Pharoah;Skeleton's Republic of the Pharoah;;;;;;;;;;;x;
+KNG_presidential_dictatorship;Pharoah's Realm;Pharoah's Realm;Pharoah's Realm;;;;;;;;;;;x;
+KNG_bourgeois_dictatorship;Pharoah's Realm;Pharoah's Realm;Pharoah's Realm;;;;;;;;;;;x;
+KNG_fascist_dictatorship;Neo-Pharoah Empire;Neo-Pharoah Empire;Neo-Pharoah Empire;;;;;;;;;;;x;
+KNG_absolute_monarchy;Pharoah's Realm;Pharoah's Realm;Pharoah's Realm;;;;;;;;;;;x;
+KNG_prussian_constitutionalism;Pharoah's Realm;Pharoah's Realm;Pharoah's Realm;;;;;;;;;;;x;
+KNG_hms_government;His Pharoah's Government;His Pharoah's Government;His Pharoah's Government;;;;;;;;;;;x;
+KNG_democracy;Republic of Pharoahs;Republic of Pharoahs;Republic of Pharoahs;;;;;;;;;;;x;
+KNG_conservative_92;Conservatives;Conservatives;Conservatives;;;;;;;;;;;x;
+KNG_liberal_79;Liberals;Liberals;Liberals;;;;;;;;;;;x;
+KNG_liberal_87;National Liberals;National Liberals;National Liberals;;;;;;;;;;;x;
+KNG_socialist_85;Socialists;Socialists;Socialists;;;;;;;;;;;x;
+KNG_socialist_99;National Socialists;National Socialists;National Socialists;;;;;;;;;;;x;
+KNG_reactionary_84;Monarchy Leadership;Monarchy Leadership;Monarchy Leadership;;;;;;;;;;;x;
+KNG_anarcho_liberal_93;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;;x;
+KNG_communist_86;Communists;Communists;Communists;;;;;;;;;;;x;
+KNG_fascist_72;Fascists;Fascists;Fascists;;;;;;;;;;;x;
+pharoahreawakened;Pharoah's March;;;;;;;x
+pharoahreawakened_desc;The Pharoah shall rule Egypt once more!;;;;;;x
+pirateking;Pirate King;;;;;;x
+pirateking_desc;Vohahaha!;;;;;;x
+awakenlubu_title;Awaken Lu Bu;;;;;;x
+awakenlubu_desc;Let the battle begin!;;;;;;x
+rocks_title;Rocks;;;;;;;x
+rocks_desc;Vohahaha;;;;;x
+pharoahsmarch_title;Pharoah's March;;;;;;;x
+pharoahsmarch_desc;Begin the conquest of Egypt!;;;;;;x
+active_war;Active Egypt War;;;;;;x
+active_war_desc;End your current campaign to start another;;;;;x
+end_pirates_title;Attack the Pirates;;;;;;x
+end_pirates_desc;Our next opponent should be the Pirates!;;;;;;;x
+end_egypt_title;Attack the Legitimists;;;;;;x
+end_egypt_desc;Our next opponent should be the Legitimists!;;;;;;x
+end_skeletons_title;Attack the Pharoahs;;;;;;x
+end_skeletons_desc;Our next opponent should be the Pharoah!;;;;;;x
+end_david_title;Attack the Zionists;;;;;;x
+end_david_desc;Our next opponent should be the Zionists!;;;;;;x
+end_syria_title;Attack the Syrians;;;;;;x
+end_syria_desc;Our next opponent should be the Syria Rebels!;;;;;;x
+end_iraq_title;Attack the Iraqis;;;;;x
+end_iraq_desc;Our next opponent should be the Iraqi Warriors!;;;;;;x
+triumph_pirates_title;Victory Against Pirates;;;;;;x
+triumph_pirates_desc;The Pirates are down....;;;;;;;x
+triumph_egypt_title;Victory Against Legitimists;;;;;;x
+triumph_egypt_desc;The Legitimists are down....;;;;;;x
+triumph_skeletons_title;Victory Against Pharoahs;;;;;;x
+triumph_skeletons_desc;The Pharoahs are down....;;;;;;x
+triumph_david_title;Victory Against Zionists;;;;;;x
+triumph_david_desc;The Zionists are down....;;;;;;x
+triumph_syria_title;Victory Against Syrians;;;;;;x
+triumph_syria_desc;The Syrians are down....;;;;;;x
+triumph_iraq_title;Victory Against Iraqis;;;;;x
+triumph_iraq_desc;The Iraqis are down....;;;;;;x
+EVTNAME19000213;Jewish Emmigration;;;;;;x
+EVTDESC19000213;The promise of a Jewish homeland, despite regional conflicts, has drawn them away from our nation and towards the Middle East.;;;;;;x
+EVTOPTA19000213;Bye bye!;;;;;;x
+charlesdarwin_title;Speak with Mr. Darwin;;;;;;x
+charlesdarwin_desc;Charles has been around South America researching the next big thing, im sure he would stop by to entertain the Emperor for a bit on the subject.;;;;;;x
+christtheredeemer_title;Build Christ the Redeemer;;;;;;x
+christtheredeemer_desc;In a collaboration between Paul Landowski, Heitor da Silva Costa, Gheorghe Leonida, and Albert Caquot, a statue of Jesus Christ was created overlooking Rio de Janeiro. It stands 30m high on a 700m peak with its arms stretched out towards the world.;;;;;x
+theredeemer;Christ the Redeemer;;;;;;x
+theredeemer_desc;The Brazilian Statue;;;;;;x
+theworld_title;§RTHE WORLD§b;;;;;;;x
+theworld_desc;§bThis is it, what everything has culminated towards, the enslavement of THE WORLD itself. . .;;;;;;;x
+poseidon_title;§BPoseidon§b;;;;;;;;;x
+poseidon_desc;There are records in Alexandria of an Ancient Weapon buried deep under Malta, we must find it!;;;;;;x
+pluton_title;§GPluton§b;;;;;;;;;x
+pluton_desc;There are records in Alexandria of an Ancient Weapon buried deep under Baghdad, we must find it!;;;;;;x
+uranus_title;§RUranus§b;;;;;;;;;x
+uranus_desc;There are records in Alexandria of an Ancient Weapon buried deep under Khartoum, we must find it!;;;;;;x

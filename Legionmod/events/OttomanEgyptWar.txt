@@ -8,7 +8,7 @@ country_event = {
 	
 	trigger = {
 		tag = TUR
-		year = 1837
+		NOT = {year = 1836} #disabled
 		EGY = { in_sphere = TUR }
 		NOT = { has_country_flag = oriental_crisis }
 	}

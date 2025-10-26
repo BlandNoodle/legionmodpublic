@@ -3089,7 +3089,7 @@
     }
 
     artisans = {
-        culture = 
+        culture = hans
         religion = mahayana
         size = 4913
     }

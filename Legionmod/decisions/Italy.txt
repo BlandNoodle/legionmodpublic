@@ -1,16 +1,7 @@
 political_decisions = {
 	cavours_diplomacy = {
 		potential = {
-			OR = {
-				AND = { 
-					tag = ITA
-					NOT = { exists = SAR }
-				}
-				AND = { 
-					tag = SAR
-					NOT = { exists = ITA }
-				}
-			}
+			tag = ITA
 			NOT = {
 				has_country_flag = cavour_has_done_his
 			}
@@ -35,13 +26,13 @@ political_decisions = {
 				value = 20
 			}
 			726 = {
-				add_core = SAR
+				add_core = ITA
 			}
 			727 = {
-				add_core = SAR
+				add_core = ITA
 			}
 			728 = {
-				add_core = SAR
+				add_core = ITA
 			}
 			465 = {
 				add_core = FRA
@@ -81,7 +72,7 @@ political_decisions = {
 	
 	statuto_albertino = {
 		potential = {
-			tag = SAR
+			tag = ITA
 			government = absolute_monarchy
 			NOT = {
 				has_country_flag = get_your_statuto_albertino_here
@@ -192,6 +183,17 @@ political_decisions = {
 			capital = 749
 			prestige = 5
 			badboy = -2
+			any_owned = {
+				limit = {
+					is_core = PAP
+				}
+				add_core = THIS
+				remove_core = PAP
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 3650
+				}
+			}
 		}
 	}
 	
@@ -281,6 +283,58 @@ political_decisions = {
 			}
 			2582 = {
 				add_core = ITA
+			}
+		}
+	}
+	
+	subdue_the_south = {
+	picture = "subduesouth"
+		potential = {
+			tag = ITA
+			owns = 749
+			NOT = {has_country_flag = thesouthwillriseagain}
+		}
+		
+		allow = {
+			exists = SIC
+		}
+		
+		effect = {
+			prestige = 10
+			SIC = {
+				war = {
+					target = ITA
+					attacker_goal = { casus_belli = conquest }
+					defender_goal = { casus_belli = conquest }
+					call_ally = no
+				}
+			}
+			set_country_flag = thesouthwillriseagain
+		}
+	}
+	
+	accept_the_south = {
+	picture = "acceptsouth"
+		potential = {
+			tag = ITA
+			has_country_flag = thesouthwillriseagain
+			NOT = {accepted_culture = south_italian}
+		}
+		
+		allow = {
+			literacy = 0.5
+			NOT = {unemployment = 0.05}
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = south_italian
+			any_owned = {
+				limit = {
+					is_core = SIC
+				}
+				add_core = ITA
+				remove_core = SIC
 			}
 		}
 	}

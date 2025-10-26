@@ -1,5 +1,10 @@
 #Relations
 
+BRZ = {
+	value = -200		#relation
+
+}
+
 leader = {
 	name = "de Kalbermatten"
 	date = 1815.1.1

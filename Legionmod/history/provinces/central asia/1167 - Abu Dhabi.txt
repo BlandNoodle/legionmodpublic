@@ -1,5 +1,5 @@
-owner = ABU
-controller = ABU
-add_core = ABU
+owner = ARA
+controller = ARA
+add_core = ARA
 trade_goods = opium
 life_rating = 35

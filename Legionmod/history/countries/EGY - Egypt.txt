@@ -4,8 +4,9 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.07
+literacy = 0.22
 non_state_culture_literacy = 0.05
+civilized = yes
 
 ruling_party = EGY_conservative
 upper_house = {
@@ -18,23 +19,30 @@ upper_house = {
 	communist = 0
 }
 
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-land_reform = yes_land_reform
-
-# Technology
-
-pre_indust = modern_chemistry
-foreign_training = modern_rifles
-admin_reform = modern_administration
-
-basic_chemistry = 1
-water_wheel_power = 1
+# Technologies
+post_napoleonic_thought = 1
 flintlock_rifles = 1
-stock_exchange = 1
-private_banks = 1
+bronze_muzzle_loaded_artillery = 1
 army_command_principle = 1
+post_nelsonian_thought = 1
+the_command_principle = 1
+private_banks = 1
 no_standard = 1
+guild_based_production = 1
+classicism_n_early_romanticism = 1
+late_enlightenment_philosophy = 1
+positivism = 1
+enlightenment_thought = 1
+water_wheel_power = 1
+publishing_industry = 1
+mechanized_mining = 1
+basic_chemistry = 1
+medicine = 1
+malthusian_thought = 1
+clipper_design = 1
+naval_design_bureaus = 1
+freedom_of_trade = 1
+early_classical_theory_and_critique = 1
 
 
 # Starting Consciousness
@@ -43,15 +51,17 @@ nonstate_consciousness = 0
 
 oob = "EGY_oob.txt"
 
+# Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = no_meeting
+public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = underground_parties
+voting_system = first_past_the_post
+political_parties = non_secret_ballots
 
+# Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety

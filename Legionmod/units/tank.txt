@@ -39,9 +39,9 @@ tank = {
 
 	#Land Abilties
 	reconnaissance = 3
-	attack = 22
-	defence = 22
-	discipline = 1.5
+	attack = 44
+	defence = 44
+	discipline = 2
 	support = 0.0
 	maneuver = 3
 	siege = 2

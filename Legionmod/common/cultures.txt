@@ -45,7 +45,7 @@ germanic = {
 		"Graf von Scheuchenstuel" "von Schemua" "von Steinstätten" "von Nádas" "von Waldstätten" "von Webenau" "von Wurm"}
 	}
 	ashkenazi = { 
-		color = { 36 206 6 }
+		color = { 100 149 237 }
 		first_names = { Abraham Albert Benjamin Daniel David Franz Gustav Heinrich Hermann Isaak Ignatz Jakob Jeremias Josef Leonhard Michael Mose Salomon Saul Shmuel
 		Sigmund Simon Theodor }
 
@@ -2038,7 +2038,7 @@ african_diaspora_cultures = {
 		Peraza Pérez Piñeiro Pozo Repilado Rodríguez Santamaría Schomburg Valdés Villa }
 	}
 	afro_brazilian = {
-		color = {25 115 44}
+		color = {43 43 43}
 		first_names = { Afonso Aleixo Alexandre Anderson André Artur Cândido Carlos Denílson Djalma
 		Félix Francisco Guilherme Itamar João Joaquim Jorge José Kléber Leandro
 		Luís Manuel Marco Marcos Maurício Mauro Nilo Procópio Ricardo Ronaldo }
@@ -2046,6 +2046,20 @@ african_diaspora_cultures = {
 		last_names = { Aragão Assunçao Bahia Barbosa Borges "de Cruz e Sousa" "da Lima" "de Lima Barreto" "de Ouro" "de Sousa"
 		"de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes Oliveira
 		Otelo Paim Pandeiro Peçanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
+	}
+	pardo = {
+		color = {119 168 5}
+		first_names = { Afonso Aleixo Alexandre Anderson André Artur Cândido Carlos Denílson Djalma
+		Félix Francisco Guilherme Itamar João Joaquim Jorge José Kléber Leandro
+		Luís Manuel Marco Marcos Maurício Mauro Nilo Procópio Ricardo Ronaldo Aniceto Antonio Bartolomé Camilo Carlos Claudio David Emiliano Eugenio Felipe
+		Félix Fernando Gregorio Jacinto Jesús José Juan Julio Luis Manuel
+		Marcos Máximo Narciso Pablo Pedro Rodrigo Roque Simón Teodoro Víctor}
+	
+		last_names = { Aragão Assunçao Bahia Barbosa Borges "de Cruz e Sousa" "da Lima" "de Lima Barreto" "de Ouro" "de Sousa"
+		"de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes Oliveira
+		Otelo Paim Pandeiro Peçanha Pereira Pitanga Rodrigues Santos Silva Teixeira Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano 
+		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
+		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi}
 	}
 	afro_antillean = { 
 		color = {24 44 49}

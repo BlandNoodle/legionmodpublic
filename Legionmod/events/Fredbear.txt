@@ -8,7 +8,7 @@ country_event = {
 	trigger = {
 		civilized = yes
 		is_independant = yes
-		year = 1850
+		NOT = {year = 1836} ##disabled##
 		NOT = {
 			has_global_flag = fredbear
 		}
@@ -118,6 +118,7 @@ country_event = {
 		owns = 1690
 		year = 1914
 		NOT = {has_country_flag = alrif}
+		NOT = {has_country_flag = morocco_integrated}
 	}
 	
 	mean_time_to_happen = {
@@ -575,4 +576,396 @@ country_event = {
 		name = "EVTOPTF19000190"
 		remove_country_modifier = academic_confusion
 	}
+}
+
+country_event = {
+	id = 19000194
+	title = "EVTNAME19000194"
+	desc = "EVTDESC19000194"
+	picture = "lawbreaker"
+	
+	trigger = {
+		THIS = {
+			OR = {
+				alliance_with = SWI
+				SWI = {
+					in_sphere = THIS
+				}
+				relation = { who = SWI value = 0 }
+			}
+		}
+	}
+	
+	immediate = {
+		add_country_flag = swissmiss
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000194"
+		remove_country_flag = swissmiss
+		diplomatic_influence = {
+			who = SWI
+			value = -300
+		}
+		relation = {
+			who = SWI
+			value = -200
+		}
+		leave_alliance = SWI
+	}
+	
+}
+
+country_event = {
+	id = 19000198
+	title = "Jumpscare"
+	desc = "Scary"
+	picture = "foxy14"
+	
+	trigger = {
+		ai = no
+		war = no
+		NOT = {has_country_flag = jumpscared}
+	}
+	
+	immediate = {
+		add_country_flag = jumpscared
+		THIS = {country_event = {id= 19000199 days = 0}}
+	}
+	
+	mean_time_to_happen = {
+		months = 4000
+		
+		modifier = {
+			factor = 0.90
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.90
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.90
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.50
+			war_exhaustion = 50
+		}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000199
+	title = "Jumpscare2"
+	desc = "Scary"
+	picture = "foxy13"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000200 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000200
+	title = "Jumpscare3"
+	desc = "Scary"
+	picture = "foxy12"
+
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000201 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000201
+	title = "Jumpscare4"
+	desc = "Scary"
+	picture = "foxy11"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000202 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000202
+	title = "Jumpscare5"
+	desc = "Scary"
+	picture = "foxy10"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000203 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000203
+	title = "Jumpscare6"
+	desc = "Scary"
+	picture = "foxy9"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000204 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000204
+	title = "Jumpscare7"
+	desc = "Scary"
+	picture = "foxy8"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000205 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000205
+	title = "Jumpscare8"
+	desc = "Scary"
+	picture = "foxy7"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000206 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000206
+	title = "Jumpscare9"
+	desc = "Scary"
+	picture = "foxy6"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000207 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000207
+	title = "Jumpscare10"
+	desc = "Scary"
+	picture = "foxy5"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000208 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000208
+	title = "Jumpscare11"
+	desc = "Scary"
+	picture = "foxy4"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000209 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000209
+	title = "Jumpscare12"
+	desc = "Scary"
+	picture = "foxy3"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000210 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000210
+	title = "Jumpscare13"
+	desc = "Scary"
+	picture = "foxy2"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		THIS = {country_event = {id= 19000211 days = 0}}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000211
+	title = "EVTNAME19000211"
+	desc = "EVTDESC19000211"
+	picture = "foxy1"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OPTA19000211"
+	}
+	
+}
+
+country_event = {
+	id = 19000212
+	title = "Oh that's a body..."
+	desc = "Oh thats a dead body on Markiplier's video. He has removed the video but someone reuploaded it"
+	picture = "scarymark1"
+	
+	trigger = {
+		ai = no
+		war = no
+		NOT = {has_country_flag = jumpscared2}
+	}
+	
+	immediate = {
+		add_country_flag = jumpscared2
+	}
+	
+	mean_time_to_happen = {
+		months = 4000
+		
+		modifier = {
+			factor = 0.90
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.90
+			average_militancy = 7
+		}
+		modifier = {
+			factor = 0.90
+			average_militancy = 8
+		}
+		modifier = {
+			factor = 0.50
+			war_exhaustion = 50
+		}
+	}
+	
+	option = {
+		name = "Boo"
+	}
+	
+}
+
+country_event = {
+	id = 19000213
+	title = "EVTNAME19000213"
+	desc = "EVTDESC19000213"
+	picture = "zionimmigrants"
+	
+	trigger = {
+		any_pop = {
+			has_pop_culture = ashkenazi
+		}
+		NOT = {tag = ZIN}
+		exists = ZIN
+		919 = {
+			owned_by = ZIN
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+	}
+	
+	option = {
+		name = "EVTOPTA19000213"
+		any_pop = {
+			limit = {
+				has_pop_culture = ashkenazi
+			}
+			move_pop = 919
+		}
+	}
+	
 }

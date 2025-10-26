@@ -350,48 +350,6 @@ army = {
 
 }
 
-army = {
-	name = "Army of Arabia"
-	location = 925
-	regiment = {
-		name= "12. Piyade Tümeni"
-		type = hussar
-		home = 925
-	}
-
-	regiment = {
-		name= "13. Piyade Tümeni"
-		type = artillery
-		home = 925
-	}
-
-	regiment = {
-		name= "14. Piyade Tümeni"
-		type = artillery
-		home = 926
-	}
-
-	regiment = {
-		name= "1. Redif Halab"
-		type = artillery
-		home = 923
-	}
-
-	regiment = {
-		name= "2. Redif Halab"
-		type = artillery
-		home = 923
-	}
-
-	regiment = {
-		name= "3. Redif Halab"
-		type = artillery
-		home = 923
-	}
-
-}
-
-
 navy = {
 	name = "Ottoman Navy"
 	location = 860

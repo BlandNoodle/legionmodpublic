@@ -41,8 +41,15 @@ political_decisions = {
 			set_country_flag = greyvictory
 			clr_country_flag = warprogressing
 			prestige = 15
-			build_factory_in_capital_state = machine_parts_factory
-			build_factory_in_capital_state = steel_factory
+			any_owned = {
+				limit = {
+					is_core = POL
+				}
+				add_province_modifier = {
+					name = assimilation_buff
+					duration = 3650
+				}
+			}
 		}
 	}
 	
@@ -69,7 +76,7 @@ political_decisions = {
 			set_country_flag = warprogressing
 			AUS_702 = {add_core = THIS}
 			AUS_662 = {add_core = THIS}
-			badboy = 16
+			badboy = 12
 		}
 	}
 	
@@ -91,8 +98,12 @@ political_decisions = {
 			set_country_flag = pinkvictory
 			clr_country_flag = warprogressing
 			prestige = 15
-			build_factory_in_capital_state = canned_food_factory
-			build_factory_in_capital_state = artillery_factory
+			any_owned = {
+				limit = {
+					is_core = UKR
+				}
+				life_rating = 2
+			}
 		}
 	}
 	
@@ -119,8 +130,8 @@ political_decisions = {
 			set_country_flag = warprogressing
 			SWE_308 = {add_core = THIS}
 			SWE_309 = {add_core = THIS}
-			SWE_313 = [add_core = THIS}
-			badboy = 16
+			SWE_313 = {add_core = THIS}
+			badboy = 12
 		}
 	}
 	
@@ -142,7 +153,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = greenvictory
 			clr_country_flag = warprogressing
-			research_points = 7200
+			research_points = 3600
 			prestige = 15
 		}
 	}

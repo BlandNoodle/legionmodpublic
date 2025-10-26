@@ -1,4 +1,24 @@
 political_decisions = {
+	
+	awakenlubu = {
+		potential = {
+			tag = CHI
+			NOT = {has_country_flag = lubuawake}
+		}
+		allow = {
+		}
+		effect = {
+			money = 2000000
+			set_country_flag = lubuawake
+			add_country_modifier = {
+				name = freedomfighters
+				duration = 9125
+			}
+			inherit = TIB
+			add_accepted_culture = asian_minor
+		}
+	}
+	
 	chinese_reform = {
 		potential = {
 			tag = CHI
@@ -6,12 +26,17 @@ political_decisions = {
 			NOT = {has_country_flag = sunyatsen}
 		}
 		allow = {
-			year = 1900
+			OR = {
+				year = 1900
+				AND = {
+					has_country_flag = lubuawakened
+					NOT = {has_country_modifier = freedomfighters}
+				}
+			}
 		}
 		effect = {
 			money = 2000000
 			civilized = yes
-			add_accepted_culture = hans
 			government = democracy
 			political_reform = wealth_voting
 			political_reform = state_equal_weight

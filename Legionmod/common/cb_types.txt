@@ -186,8 +186,8 @@ conquest = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		total_pops = 400000
 		
 		NOT = { is_our_vassal = THIS }
@@ -956,8 +956,8 @@ acquire_state_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -1161,8 +1161,8 @@ acquire_state_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -1472,8 +1472,8 @@ acquire_state_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -1679,8 +1679,8 @@ acquire_state_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -1888,8 +1888,8 @@ acquire_state_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -2097,8 +2097,8 @@ place_in_the_sun_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -2178,8 +2178,8 @@ place_in_the_sun_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -2258,8 +2258,8 @@ place_in_the_sun_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -2338,8 +2338,8 @@ place_in_the_sun_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -2418,8 +2418,8 @@ place_in_the_sun_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -3559,8 +3559,8 @@ demand_concession_casus_belli_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -3634,8 +3634,8 @@ demand_concession_casus_belli_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -3709,8 +3709,8 @@ demand_concession_casus_belli_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -3784,8 +3784,8 @@ demand_concession_casus_belli_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -3859,8 +3859,8 @@ demand_concession_casus_belli_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -4456,8 +4456,8 @@ conquest_low = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = {	total_pops = 400000 }
 		NOT = { 
@@ -4554,8 +4554,8 @@ take_capital = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		NOT = { primary_culture = hans }
-		this = { NOT = { primary_culture = hans } }
+		#NOT = { primary_culture = hans }
+		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 

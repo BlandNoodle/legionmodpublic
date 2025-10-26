@@ -1,0 +1,165 @@
+
+
+#========================= L A N D =========================
+leader = {
+	name = "Rocks D. Xebec"
+	date = 1836.1.1
+	type = land
+	personality = attack_5.1
+	background = defence_5.1
+	prestige = 0.75
+}
+
+army = {
+name = "The Crew"
+location = 854
+
+regiment = {
+name = "Scallywags"
+type = infantry
+home = 854
+}
+
+regiment = {
+name = "Land-Lubbers"
+type = infantry
+home = 1733
+}
+
+regiment = {
+name = "Knaves"
+type = infantry
+home = 1734
+}
+
+regiment = {
+name = "Scoundrels"
+type = infantry
+home = 1735
+}
+
+regiment = {
+name = "Swindlers"
+type = artillery
+home = 2355
+}
+
+regiment = {
+name = "Rapscallions"
+type = artillery
+home = 3256
+}
+
+regiment = {
+name = "Blackguard"
+type = artillery
+home = 3257
+}
+
+regiment = {
+name = "Frauds"
+type = artillery
+home = 848
+}
+
+regiment = {
+name = "Miscreants"
+type = artillery
+home = 847
+}
+
+}
+
+
+#========================= S E A =========================
+
+navy = {
+	name = "The Fleet"
+	location = 854
+	
+	ship = {
+		name= "Sabre of Xebec"
+		type = manowar
+	}
+	
+	ship = {
+		name= "Thriller Bark"
+		type = manowar
+	}
+	
+	ship = {
+		name= "1000 Sunny"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Big Top"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Flying Dutchman"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Moby Dick"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Oro Jackson"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+	
+}
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

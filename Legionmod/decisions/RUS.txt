@@ -689,7 +689,7 @@ political_decisions = {
 			political_reform = free_press
 			social_reform = trinket_subsidies
 			social_reform = good_schools
-			years_of_research = 1
+			research_points = 3600
 			set_country_flag = modernized_rus
 		}
 	}
@@ -757,15 +757,7 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 5
-			any_owned = {
-				limit = {
-					pop_majority_culture = kazak
-				}
-				add_province_modifier = {
-					name = assimilation_buff
-					duration = 3650
-				}
-			}
+			add_accepted_culture = kazak
 			set_country_flag = kazakhstrong
 		}
 	}

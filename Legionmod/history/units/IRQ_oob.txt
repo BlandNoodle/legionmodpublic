@@ -1,0 +1,47 @@
+army = {
+	name = "Baghdad Guards"
+	location = 926
+	regiment = {
+		name= "Gunnas"
+		type = infantry
+		home = 923
+	}
+
+	regiment = {
+		name= "Blastas"
+		type = infantry
+		home = 923
+	}
+	
+	regiment = {
+		name= "Shootas"
+		type = infantry
+		home = 923
+	}
+
+	regiment = {
+		name= "Choppas"
+		type = cuirassier
+		home = 923
+	}
+	
+	regiment = {
+		name= "Boomas"
+		type = artillery
+		home = 925
+	}
+	
+	regiment = {
+		name= "Blowas"
+		type = artillery
+		home = 925
+	}
+	
+	regiment = {
+		name= "Blowas"
+		type = artillery
+		home = 927
+	}
+
+}
+

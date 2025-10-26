@@ -1,0 +1,982 @@
+#Bolivia Decisions
+political_decisions = {
+#####chummy with peru#####
+	lm_befriend_peru = {
+		picture = puppet_peru_bolivia
+		
+		potential = {
+			tag = BOL
+			exists = PEU
+			PEU = {
+				is_independant = yes
+			}
+		}
+		
+		allow = {
+			war = no
+			alliance_with = PEU
+			relation = { who = PEU value = 150 }
+		}
+		
+		effect = {
+			create_vassal = PEU
+			relation = { who = CHL value = -50 }
+		}
+	}
+	
+	lm_integrate_peru = {
+		picture = integrate_peru
+		
+		potential = {
+			tag = BOL
+			is_our_vassal = PEU
+		}
+		
+		allow = {
+			war = no
+			is_our_vassal = PEU
+			relation = { who = PEU value = 200 }
+			year = 1837
+		}
+		
+		effect = {
+			inherit = PEU
+			badboy = 8
+			set_country_flag = lm_annex_peru
+			relation = { who = CHL value = -100 }
+			relation = { who = ECU value = -50 }
+		}
+	}
+	
+	lm_form_peru_bolivia = {
+		picture = form_peru_bolivia
+		
+		potential = {
+			tag = BOL
+			has_country_flag = lm_annex_peru			
+		}
+		
+		allow = {
+			war = no
+			owns = 2295
+			year = 1838
+		}
+		
+		effect = {
+			prestige = 5
+			change_tag = PBV
+			add_accepted_culture = south_andean
+			add_accepted_culture = quechua
+			add_accepted_culture = aimara
+			all_core = { add_core = PBV }
+			PEU = { 
+				all_core = {
+					add_core = PBV
+				}
+			}
+			add_core = 2371
+			add_core = 2369
+			add_core = 2372
+			nationalvalue = nv_equality
+		}
+	}
+#####Peru-Bolivia Decisions#####
+	lm_atacama_boom = {
+		picture = atacama_boom
+		
+		potential = {
+			tag = PBV
+			war = no
+			NOT = {
+				has_country_flag = atacama_boom_happened
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 2305
+			experimental_railroad = 1
+			clean_coal = 1
+		}
+		
+		effect = {
+			2305 = {
+				infrastructure = 5
+				add_province_modifier = {
+				name = atacama_boom
+				duration = 5475
+				}
+			}
+			2307 = {
+				infrastructure = 5
+				add_province_modifier = {
+				name = atacama_boom
+				duration = 5475
+				}
+			}
+			2308 = {
+				infrastructure = 5
+				add_province_modifier = {
+				name = atacama_boom
+				duration = 5475
+				}
+			}
+			2309 = {
+				infrastructure = 5
+				add_province_modifier = {
+				name = atacama_boom
+				duration = 5475
+				}
+			}
+			2312 = {
+				infrastructure = 5
+				add_province_modifier = {
+				name = atacama_boom
+				duration = 5475
+				}
+			}
+			2314 = {
+				infrastructure = 5
+				add_province_modifier = {
+				name = atacama_boom
+				duration = 5475
+				}
+			}			
+			set_country_flag = atacama_boom_happened
+		}
+	}
+	lm_claim_ecuador = {
+		picture = claim_ecuador
+		potential = {
+			tag = PBV
+			NOT = {
+				has_country_flag = ecuador_claimed
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 2286
+			owns = 2287
+			owns = 2288
+			owns = 2289
+		}
+		
+		effect = {
+			set_country_flag = ecuador_claimed
+			ECU = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			badboy = 7
+		}
+	}
+	lm_claim_chile = {
+		picture = claim_chile
+		
+		potential = {
+			tag = PBV
+			NOT = {
+				has_country_flag = chile_claimed
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 2315
+			owns = 2370
+			owns = 2371
+			owns = 2369
+			owns = 2368
+			owns = 2372
+			owns = 2375
+		}
+		
+		effect = {
+			set_country_flag = chile_claimed
+			CHL = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			badboy = 9
+		}
+	}
+#####Post Lichdom Decisions#####
+	lm_claim_natural_borders = {
+		picture = bol_claim_sa
+		
+		potential = {
+			tag = PBV
+			has_country_flag = evo_morales_lichdom
+			NOT = {
+				has_country_flag = bol_natrual_borders
+			}
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			biologism = 1
+			idealism = 1
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		
+		effect = {
+			set_country_flag = bol_natrual_borders
+			ARG = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			PRG = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			CLM = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			VNZ = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			URU = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			add_core = 2416
+			add_core = 2419
+			add_core = 2418
+			add_core = 2417
+			add_core = 2550
+			add_core = 2421
+			add_core = 2422
+			badboy = 13
+		}
+	}
+	lm_claim_brazil = {
+		picture = claim_brazil
+		
+		potential = {
+			tag = PBV
+			has_country_flag = bol_natrual_borders
+			NOT = {
+				has_country_flag = brazil_claimed
+			}
+		}
+		
+		allow = {
+			war = no
+			all_core = { owned_by = THIS }
+		}
+		
+		effect = {
+			set_country_flag = brazil_claimed
+			BRZ = {
+				all_core = {
+					add_core = PBV
+				}
+			}
+			badboy = 10
+		}
+	}
+#####Pop acceptance decisions#####
+	lm_accept_north_andean = {
+		picture = simon_bolivar
+		
+		potential = {
+			tag = PBV
+			has_country_flag = bol_natrual_borders
+			NOT = {
+				has_country_flag = north_andean_accepted
+			}
+		}
+		
+		allow = {
+			war = no
+			CLM = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			ECU = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			VNZ = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = north_andean
+			set_country_flag = north_andean_accepted
+		}
+	}	
+	lm_accept_platinean = {
+		picture = messi
+		
+		potential = {
+			tag = PBV
+			has_country_flag = bol_natrual_borders
+			NOT = {
+				has_country_flag = platinean_accepted
+			}
+		}
+		
+		allow = {
+			war = no
+			ARG = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			PRG = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			URU = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = platinean
+			set_country_flag = platinean_accepted
+		}
+	}
+	lm_accept_brazilian = {
+		picture = pele
+		
+		potential = {
+			tag = PBV
+			has_country_flag = brazil_claimed
+			NOT = {
+				has_country_flag = brazilian_accepted
+			}
+		}
+		
+		allow = {
+			war = no
+			BRZ = {
+				all_core = {
+					owned_by = THIS
+				}
+			}			
+		}
+		
+		effect = {
+			prestige = 5
+			add_accepted_culture = brazilian
+			set_country_flag = brazilian_accepted
+		}
+	}
+#####Final Decision#####
+	lm_bolivian_domination = {
+		picture = josh
+		
+		potential = {
+			tag = PBV
+			has_country_flag = brazil_claimed
+			NOT = {
+				has_country_flag = bolivian_domination
+			}
+		}
+		
+		allow = {
+			war = no
+			all_core = {
+				owned_by = THIS
+			}
+			empiricism = 1
+			battleship_column_doctrine = 1
+		}
+		
+		effect = {
+			set_country_flag = bolivian_domination
+			prestige = 10
+			all_core = {
+				limit = {
+					is_core = THIS
+				}
+				remove_core = CLM
+				remove_core = PEU
+				remove_core = CHL
+				remove_core = ECU
+				remove_core = BRZ
+				remove_core = VNZ
+				remove_core = PNM
+				remove_core = GCO
+				remove_core = PRG
+				remove_core = URU
+				remove_core = ARG
+				remove_core = BOL
+				remove_core = NET
+				remove_core = ENG
+				remove_core = FRA
+			}
+			tech_school = bolivian_tech_school
+			2305 = {
+				naval_base = 5
+				add_province_modifier = {
+					name = bolivian_port_of_the_new_world
+					duration = -1
+				}
+			}
+		}
+	}
+#############Brazil#############
+	dompedro2 = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingsgone
+			NOT = {
+				OR = {
+					has_country_flag = kingshere
+					has_country_flag = oligarchybrazil
+				}
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+		}
+		
+		effect = {
+			prestige = 5
+			remove_country_modifier = regency
+			add_country_modifier = {
+				name = pedro2
+				duration = -1
+			}
+			set_country_flag = kingshere
+		}
+	}
+	
+	overthrowmonarchy = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingsgone
+			NOT = {
+				OR = {
+					has_country_flag = kingshere
+					has_country_flag = oligarchybrazil
+				}
+			}
+		}
+		
+		allow = {
+			malthusian_thought = 1
+		}
+		
+		effect = {
+			prestige = 2
+			remove_country_modifier = regency
+			add_country_modifier = {
+				name = braziloligarchy
+				duration = -1
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = conservative
+				}
+				ideology = {
+					value = reactionary
+					factor = 0.75
+				}
+			}
+			set_country_flag = oligarchybrazil
+		}
+	}
+	
+	pedroeducation = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingshere
+			NOT = {
+				has_country_flag = kingseducation
+			}
+		}
+		
+		allow = {
+			functionalism = 1
+			money = 200000
+		}
+		
+		effect = {
+			money = -200000
+			prestige = 5
+			social_reform = acceptable_schools
+			random_owned = { 
+				limit = {
+					owner = {
+						NOT = {idealism = 1}
+					}
+				}
+				owner = {
+					activate_technology = idealism
+				}
+			}
+			set_country_flag = kingseducation
+		}
+	}
+	
+	charlesdarwin = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingshere
+			NOT = {
+				has_country_flag = biologismrushed
+			}
+			has_country_flag = kingseducation
+		}
+		
+		allow = {
+			functionalism = 1
+			idealism = 1
+			year = 1850
+			money = 50000
+			NOT = {biologism = 1}
+		}
+		
+		effect = {
+			money = -50000
+			prestige = 15
+			social_reform = acceptable_schools
+			activate_technology = biologism
+			set_country_flag = biologismrushed
+		}
+	}
+	
+	christtheredeemer = {
+		potential = {
+			NOT = {
+				has_country_flag = redeemer_has_been_built
+			}
+			OR = {
+				tag = BRZ
+				tag = BPA
+			}
+			has_country_flag = kingshere
+		}
+	
+		allow = {
+			cheap_steel = 1
+			expressionism = 1
+			money = 4000000
+		}
+	
+		effect = {
+			set_country_flag = redeemer_has_been_built
+			money = -2000000
+			money = -2000000
+			any_pop = {
+				militancy = -1
+			}
+			add_country_modifier = {
+				name = theredeemer
+				duration = -1
+			}
+		}
+	}
+	
+	minais_gerais_mines = {
+	picture = "minasgerais"
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingseducation
+			NOT = {has_country_flag = minasgeraismines}
+		}
+		
+		allow = {
+			interchangeable_parts = 1
+			iron_railroad = 1
+			clean_coal = 1
+			money = 750000
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = minasgeraismines
+			money = -750000
+			2442 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+				infrastructure = 3
+			}
+			2441 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+				infrastructure = 3
+			}
+			2443 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+				infrastructure = 3
+			}
+			2444 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+				infrastructure = 3
+				trade_goods = coal
+			}
+			2445 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+				infrastructure = 3
+				trade_goods = coal
+			}
+			2446 = {
+				add_province_modifier = {
+					name = britishraj
+					duration = 1825
+				}
+				infrastructure = 3
+				trade_goods = iron
+			}
+		}
+	}
+	
+	endslavery = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingshere
+			NOT = {has_country_flag = slavesfree}
+			slavery = yes_slavery
+		}
+		
+		allow = {
+			biologism = 1
+			invention = national_fraternity
+			money = 500000
+		}
+		
+		effect = {
+			money = -500000
+			prestige = 25
+			political_reform = no_slavery
+			add_accepted_culture = afro_brazilian
+			remove_country_modifier = the_slavery_debate
+			set_country_flag = slavesfree
+			set_country_flag = slavebanenforced
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = brazilian
+						has_pop_culture = pardo
+					}
+					OR = {
+						type = officers
+						type = capitalists
+						type = bureaucrats
+						type = aristocrats
+					}
+				}
+			militancy = 3
+			consciousness = 2
+			}
+		}
+	}
+	
+	form_sau = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = oligarchybrazil
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			owns = 2344
+			owns = 2348
+			owns = 2324
+			owns = 2310
+			owns = 2295
+			owns = 2279
+			owns = 2264
+			owns = 2247
+			war = no
+		}
+		
+		effect = {
+			prestige = 15
+			change_tag = SAU
+			add_accepted_culture = south_andean
+			add_accepted_culture = north_andean
+			add_accepted_culture = platinean
+			any_owned = {
+				limit = {
+					NOT = {is_core = THIS}
+					continent = south_america
+				}
+				add_core = SAU
+			}
+			badboy = 8
+		}
+	}
+	
+	form_bpa = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = kingshere
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {exists = POR}
+			war = no
+		}
+		
+		effect = {
+			prestige = 25
+			change_tag = BPA
+			add_accepted_culture = portugese
+			POR_521 = {add_core = BPA}
+			POR_525 = {add_core = BPA}
+			POR_2134 = {add_core = BPA}
+			POR_518 = {add_core = BPA}
+			badboy = 5
+		}
+	}
+	
+	cisplatina = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = oligarchybrazil
+			NOT = {has_country_flag = cisplatinareclaimed}
+		}
+		
+		allow = {
+			state_n_government = 1
+			war = no
+		}
+		
+		effect = {
+			URU = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			set_country_flag = cisplatinareclaimed
+			badboy = 5
+		}
+	}
+	
+	encourage_slavery = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = oligarchybrazil
+			NOT = {has_country_flag = slaveryencouraged}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = slaveryencouraged
+			add_country_modifier = {
+				name = cooldown
+				duration = 365
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = african_minor
+						has_pop_culture = guarani
+						has_pop_culture = aimara
+						has_pop_culture = patagonian
+					}
+					NOT = {type = slaves}
+				}
+				pop_type = slaves
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = conservative
+				}
+				ideology = {
+					value = reactionary
+					factor = 0.25
+				}
+			}
+			badboy = 4
+		}
+	}
+	
+	blood_diamonds = {
+	picture = "minasgerais"
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = oligarchybrazil
+			has_country_flag = slaveryencouraged
+			NOT = {has_country_flag = blood_diamonds}
+		}
+		
+		allow = {
+			interchangeable_parts = 1
+			iron_railroad = 1
+			money = 300000
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = blood_diamonds
+			money = -300000
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = african_minor
+						has_pop_culture = guarani
+						has_pop_culture = aimara
+						has_pop_culture = amazonian
+						has_pop_culture = patagonian
+					}
+					NOT = {type = slaves}
+				}
+				pop_type = slaves
+			}
+			any_pop = {
+				limit = {
+					type = slaves
+				}
+				move_pop = 2441
+			}
+			2441 = {
+				add_province_modifier = {
+					name = blooddiamonds
+					duration = -1
+				}
+			}
+			badboy = 6
+		}
+	}
+	
+	buy_slaves = {
+		
+		potential = {
+			primary_culture = brazilian
+			has_country_flag = oligarchybrazil
+			has_country_flag = slaveryencouraged
+		}
+		
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			OR = {
+				FRA = {
+					slavery = yes_slavery
+				}
+				USA = {
+					slavery = yes_slavery
+				}
+				SOK = {
+					exists = yes
+				}
+				MOZ = {
+					exists = yes
+				}
+				ANG = {
+					exists = yes
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = slaveryencouraged
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+			any_pop = {
+				limit = {
+					has_pop_culture = afro_brazilian
+					type = slaves
+				}
+				reduce_pop = 1.15
+				militancy = 1
+				consciousness = 1
+			}
+			any_pop = {
+				limit = {
+					pop_majority_ideology = conservative
+					pop_majority_ideology = liberal
+				}
+				ideology = {
+					value = reactionary
+					factor = 0.50
+				}
+			}
+			badboy = 2
+		}
+	}
+	
+	theworld = {
+		
+		potential = {
+			tag = SAU
+		}
+		
+		allow = {
+			revolution_n_counterrevolution = 1
+			SAU = {
+				all_core = {
+					owned_by = THIS
+				}
+				slavery = yes_slavery
+			}
+			war = no
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					civilized = yes
+				}
+				add_core = THIS
+			}
+			badboy = 32
+		}
+	}
+	
+}

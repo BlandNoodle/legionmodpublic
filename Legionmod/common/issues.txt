@@ -216,11 +216,9 @@ political_reforms = {
 		no_slavery = {
 			rules = { slavery_allowed = no }
 			allow = { 
-				OR = {
 					NOT = { 
 						has_country_flag = the_slavery_debate
 					}
-					year = 1875
 				}
 			}
 

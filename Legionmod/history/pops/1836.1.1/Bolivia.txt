@@ -36,7 +36,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 2200
+		size = 2500
 	}
 
 	farmers = {
@@ -60,7 +60,7 @@
 	soldiers = {
 		culture = aimara
 		religion = catholic
-		size = 2150
+		size = 2550
 	}
 
 	farmers = {
@@ -116,7 +116,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 2200
+		size = 2600
 	}
 
 	farmers = {
@@ -140,7 +140,7 @@
 	soldiers = {
 		culture = quechua
 		religion = catholic
-		size = 2200
+		size = 2600
 	}
 
 	farmers = {
@@ -172,7 +172,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = catholic
-		size = 100
+		size = 1100
 	}
 
 	farmers = {

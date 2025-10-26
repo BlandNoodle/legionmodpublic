@@ -1,8 +1,7 @@
-owner = TUR
-controller = TUR
-add_core = TUR
-add_core = EGY
-trade_goods = grain
+owner = ZIN
+controller = ZIN
+add_core = ZIN
+trade_goods = wool
 life_rating = 35
 
 1861.1.1 = {

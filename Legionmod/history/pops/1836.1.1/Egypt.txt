@@ -667,8 +667,222 @@
         size = 2700
     }
 }
+3255 = {
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 337
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 187
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 900
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 1650
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 15225
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 75
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 150
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 2700
+    }
+}
+3256 = {
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 337
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 187
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 900
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 1650
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 15225
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 75
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 150
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 2700
+    }
+}
+3257 = {
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 337
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 187
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 900
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 1650
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 15225
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 75
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 150
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 2700
+    }
+}
 #Sidi Barrani (20000/5000 POPS)
 1753 = {
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 75
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 250
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 4575
+    }
+}
+3254 = {
     aristocrats = {
         culture = bedouin
         religion = sunni
@@ -780,6 +994,201 @@
 #Al Arish (16000/4000 POPS)
 1756 = {
     aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 150
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 225
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1500
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 2700
+    }
+	
+	farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 7278
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 1800
+    }
+}
+3258 = {
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 125
+    }
+
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 250
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 500
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 2700
+    }
+	
+	farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 5675
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 1800
+    }
+}
+3262 = {
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 37
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 75
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 150
+    }
+
+    soldiers = {
+        culture = misri
+        religion = sunni
+        size = 37
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 2700
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 1800
+    }
+}
+3263 = {
+    aristocrats = {
         culture = misri
         religion = sunni
         size = 37
@@ -841,6 +1250,213 @@
 }
 #Sharm al Shaykh (12000/3000 POPS)
 1757 = {
+    aristocrats = {
+        culture = misri
+        religion = sunni
+        size = 250
+    }
+	
+	bureaucrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 1000
+    }
+
+    clergymen = {
+        culture = misri
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 250
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 2500
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 1350
+    }
+	
+	farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 71350
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 1800
+    }
+}
+3259 = {
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 50
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = jewish
+        size = 80
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 126
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 750
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 1350
+    }
+	
+	farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 5667
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 1800
+    }
+}
+3260 = {
+    aristocrats = {
+        culture = ashkenazi
+        religion = jewish
+        size = 120
+    }
+
+    clergymen = {
+        culture = ashkenazi
+        religion = sunni
+        size = 125
+    }
+
+    artisans = {
+        culture = misri
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 800
+    }
+
+    farmers = {
+        culture = misri
+        religion = sunni
+        size = 1350
+    }
+	
+	farmers = {
+        culture = ashkenazi
+        religion = jewish
+        size = 7350
+    }
+
+    aristocrats = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    clergymen = {
+        culture = bedouin
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = bedouin
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = bedouin
+        religion = sunni
+        size = 25
+    }
+
+    farmers = {
+        culture = bedouin
+        religion = sunni
+        size = 1800
+    }
+}
+3261 = {
     aristocrats = {
         culture = misri
         religion = sunni

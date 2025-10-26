@@ -1468,8 +1468,10 @@ freedomfighters = {
 	supply_consumption = -0.75
 	land_organisation = 0.5
 	land_unit_start_experience = 35
-	reinforce_rate = 0.15
+	org_regain = 0.25
 	research_points_modifier = 1
+	war_exhaustion = -0.5
+	mobilisation_size = 0.06
 	icon = 17
 }
 
@@ -1537,13 +1539,12 @@ peacetime_mobilization = {
 }
 
 devastating_flood = { 
-	population_growth = -0.001
 	immigrant_push = 1
 	farm_rgo_size = -0.2
 	mine_rgo_size = -0.2
-	supply_limit = -10
+	supply_limit = -20
 	movement_cost = 5
-	attrition = 20
+	attrition = 25
 	combat_width = -16
 	fort_level = 8
 	icon = 9
@@ -1897,4 +1898,83 @@ infamy_tech4 = {
 infamy_tech5 = {
 	badboy = -0.02
 	icon = 3
+}
+
+regency = {
+	administrative_efficiency_modifier = -0.1
+	tax_efficiency = -0.025
+	ruling_party_support = -0.3
+	naval_organisation = -0.1
+	land_organisation = -0.1
+	political_reform_desire = 0.25
+	icon = 18
+}
+
+pedro2 = {
+	prestige = 0.02
+	administrative_efficiency_modifier = 0.1
+	ruling_party_support = 0.25
+	core_pop_militancy_modifier = -0.01
+	icon = 17
+}
+
+braziloligarchy = {
+	administrative_efficiency_modifier = 0.15
+	ruling_party_support = 0.15
+	political_reform_desire = -0.33
+	core_pop_consciousness_modifier_modifier = -0.02
+	supply_consumption = -0.05
+	icon = 17
+}
+
+cooldown = {
+	icon = 4
+}
+
+blooddiamonds = {
+	mine_rgo_size = 8
+	pop_militancy_modifier = 0.05
+	population_growth = -0.0008
+	icon = 14
+}
+
+tacitus = {
+	unit_start_experience = 25
+	research_points = 5
+	leadership_modifier = 1
+	factory_cost = -0.5
+	icon = 7
+}
+
+pirateking = {
+	naval_unit_start_experience = 25
+	naval_organisation = 0.33
+	mobilisation_economy_impact = -0.5
+	navy_base = {
+		supply_consumption = -0.70
+	}
+	icon = 5
+}
+
+pharoahreawakened = {
+	unit_start_experience = 30
+	leadership_modifier = 0.5
+	org_regain = 0.5
+	war_exhaustion = -0.5
+	army_base = {
+		supply_consumption = -0.5
+	}
+	icon = 17
+}
+
+theredeemer = {
+	global_immigrant_attract = 2
+	global_pop_militancy_modifier = -0.05
+	influence_modifier = 0.5
+	badboy = -0.01
+	icon = 9
+}
+
+active_war = {
+	icon = 4
 }

@@ -26,6 +26,24 @@ army = {
 		type = infantry
 		home = 2311
 	}
+	
+	regiment = {
+		name= "4. Brigada de Infanteria"
+		type = infantry
+		home = 2312
+	}
+	
+	regiment = {
+		name= "4. Brigada de Infanteria"
+		type = hussar
+		home = 2310
+	}
+	
+	regiment = {
+		name= "4. Brigada de Infanteria"
+		type = artillery
+		home = 2311
+	}
 }
 
 PEU=

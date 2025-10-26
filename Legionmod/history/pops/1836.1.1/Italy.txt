@@ -12,7 +12,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 1050
+        size = 1350
     }
 
     officers = {
@@ -166,7 +166,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 225
+        size = 525
     }
 
     farmers = {
@@ -282,7 +282,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 600
+        size = 700
     }
 
     officers = {
@@ -998,7 +998,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 262
+        size = 762
     }
 
     officers = {
@@ -1043,7 +1043,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 225
+        size = 425
     }
 
     officers = {
@@ -1067,7 +1067,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 2000
+        size = 3000
     }
 
     farmers = {
@@ -1099,7 +1099,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1650
+        size = 2650
     }
 
     farmers = {
@@ -1121,7 +1121,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 425
+        size = 625
     }
 
     officers = {
@@ -1183,7 +1183,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 450
+        size = 1450
     }
 
     farmers = {
@@ -1215,7 +1215,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 650
+        size = 1650
     }
 
     farmers = {
@@ -1237,7 +1237,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 925
+        size = 1325
     }
 
     officers = {
@@ -1317,7 +1317,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {
@@ -1361,7 +1361,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {
@@ -1393,7 +1393,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {
@@ -1414,7 +1414,7 @@
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 70
+        size = 270
     }
 
     officers = {
@@ -1444,7 +1444,7 @@
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {
@@ -1552,7 +1552,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {
@@ -1598,7 +1598,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {
@@ -1630,7 +1630,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 450
+        size = 1450
     }
 
     farmers = {
@@ -1675,7 +1675,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 2500
+        size = 3500
     }
 
     farmers = {
@@ -1781,7 +1781,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 6250
+        size = 8250
     }
 
     farmers = {
@@ -1813,7 +1813,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 2500
+        size = 3500
     }
 
     farmers = {
@@ -1845,7 +1845,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 1875
+        size = 2875
     }
 
     farmers = {
@@ -2167,7 +2167,7 @@
     bureaucrats = {
         culture = south_italian
         religion = catholic
-        size = 175
+        size = 375
     }
 
     officers = {
@@ -2191,7 +2191,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 2000
+        size = 3000
     }
 
     farmers = {
@@ -2223,7 +2223,7 @@
     soldiers = {
         culture = south_italian
         religion = catholic
-        size = 1100
+        size = 2100
     }
 
     farmers = {

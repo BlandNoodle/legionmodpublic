@@ -343,25 +343,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1150
 	}
@@ -369,7 +369,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2500
+		size = 4500
 	}
 
 	aristocrats = {
@@ -435,33 +435,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 25
+		size = 250
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 10
+		size = 100
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 315
+		size = 815
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 600
+		size = 2600
 	}
 
 	clergymen = {
@@ -654,7 +654,7 @@
 	slaves = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 680
+		size = 2680
 	}
 
 	clergymen = {
@@ -1167,33 +1167,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 250
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 250
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 1650
+		size = 3650
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3000
+		size = 5000
 	}
 }
 #Under loose authority of Brazil 1836
@@ -1356,27 +1356,27 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 230
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 150
+		size = 550
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 5025
+		size = 7025
 	}
 
 	slaves = {
@@ -1474,33 +1474,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 175
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 900
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 175
+		size = 475
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 5850
+		size = 6850
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 11000
+		size = 14000
 	}
 }
 #Oieras (44000/11000 POPS)
@@ -1594,33 +1594,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 500
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 1650
+		size = 3650
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3000
+		size = 5000
 	}
 }
 #Fortaleza (180000/45000 POPS)
@@ -1668,33 +1668,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 275
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 850
+		size = 1150
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 175
+		size = 475
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 5900
+		size = 9900
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 10000
+		size = 12000
 	}
 }
 #Crato (52000/13000 POPS)
@@ -1730,33 +1730,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
+		religion = catholic
+		size = 350
+	}
+
+	soldiers = {
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
-	soldiers = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 50
-	}
-
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 1650
+		size = 4650
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3000
+		size = 5000
 	}
 }
 #Natal (132000/33000 POPS)
@@ -1792,33 +1792,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 175
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 750
+		size = 950
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 150
+		size = 350
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 5025
+		size = 9025
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 9000
+		size = 11000
 	}
 }
 #Pernambuco Region (516000)
@@ -1868,33 +1868,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 175
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 3000
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 175
+		size = 875
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 3750
+		size = 8750
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 10000
+		size = 12000
 	}
 }
 #Cabreibo (80000/20000 POPS)
@@ -1930,33 +1930,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 600
+		size = 800
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 125
+		size = 425
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 4225
+		size = 8225
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 7000
+		size = 9000
 	}
 }
 #Maceio (152000/38000 POPS)
@@ -1992,33 +1992,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 75
-	}
-
-	artisans = {
-		culture = afro_brazilian
-		religion = catholic
-		size = 800
-	}
-
-	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 175
 	}
 
-	farmers = {
-		culture = afro_brazilian
+	artisans = {
+		culture = pardo
 		religion = catholic
-		size = 4950
+		size = 1100
+	}
+
+	soldiers = {
+		culture = pardo
+		religion = catholic
+		size = 775
+	}
+
+	farmers = {
+		culture = pardo
+		religion = catholic
+		size = 8950
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 10000
+		size = 12000
 	}
 }
 #Aracaju (120000/30000 POPS)
@@ -2054,33 +2054,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 650
+		size = 850
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 125
+		size = 525
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 4175
+		size = 9175
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 8000
+		size = 12000
 	}
 }
 #Bahia Region (896000)
@@ -2142,25 +2142,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 5500
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 6050
 	}
@@ -2168,7 +2168,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 18000
+		size = 22000
 	}
 }
 #Juazeiro (180000/45000 POPS)
@@ -2204,25 +2204,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 125
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1300
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 275
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 8300
 	}
@@ -2230,7 +2230,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 16000
+		size = 19000
 	}
 }
 #Vila do Barra (140000/35000 POPS)
@@ -2266,25 +2266,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 5025
 	}
@@ -2292,7 +2292,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 9000
+		size = 13000
 	}
 }
 #Porto Seguro (120000/30000 POPS)
@@ -2328,25 +2328,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 650
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 125
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 4175
 	}
@@ -2354,7 +2354,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 8000
+		size = 11000
 	}
 }
 #Vitoria da Conquista (100000/25000 POPS)
@@ -2390,25 +2390,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 700
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 5575
 	}
@@ -2416,7 +2416,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 8500
+		size = 12500
 	}
 }
 #Minas Gerais Region (716000)
@@ -2426,25 +2426,25 @@
 	aristocrats = {
 		culture = brazilian
 		religion = catholic
-		size = 1175
+		size = 1375
 	}
 
 	bureaucrats = {
 		culture = brazilian
 		religion = catholic
-		size = 300
+		size = 600
 	}
 
 	officers = {
 		culture = brazilian
 		religion = catholic
-		size = 225
+		size = 425
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = catholic
-		size = 475
+		size = 775
 	}
 
 	artisans = {
@@ -2466,33 +2466,33 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 100
+		size = 300
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 225
+		size = 525
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 9125
+		size = 14125
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 13000
+		size = 19000
 	}
 }
 #Sabara (104000/26000 POPS)
@@ -2506,55 +2506,55 @@
 	clergymen = {
 		culture = brazilian
 		religion = catholic
-		size = 200
+		size = 400
 	}
 
 	artisans = {
 		culture = brazilian
 		religion = catholic
-		size = 525
+		size = 825
 	}
 
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size = 425
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 13200
+		size = 18200
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 650
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 125
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 4175
+		size = 9175
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 8000
+		size = 15000
 	}
 }
 #Januaria (100000/25000 POPS)
@@ -2590,25 +2590,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 5025
 	}
@@ -2616,7 +2616,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 9000
+		size = 11000
 	}
 }
 #Paracatu (80000/20000 POPS)
@@ -2652,25 +2652,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 450
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 2900
 	}
@@ -2678,7 +2678,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 5500
+		size = 8500
 	}
 }
 #Uberaba (68000/17000 POPS)
@@ -2714,25 +2714,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 500
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 3350
 	}
@@ -2740,7 +2740,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 6000
+		size = 9000
 	}
 }
 #Sao Joao del Rey (132000/33000 POPS)
@@ -2776,25 +2776,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 200
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 6700
 	}
@@ -2802,7 +2802,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 12000
+		size = 15000
 	}
 }
 #Rio de Janeiro Region (976000)
@@ -2870,25 +2870,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 2350
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 9200
 	}
@@ -2896,7 +2896,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 18000
+		size = 19000
 	}
 }
 #Campos (160000/40000 POPS)
@@ -2932,25 +2932,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1100
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 200
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 8100
 	}
@@ -2958,7 +2958,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 12000
+		size = 14000
 	}
 }
 #Vitoria (120000/30000 POPS)
@@ -2994,25 +2994,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 600
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 125
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 4225
 	}
@@ -3020,7 +3020,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 7000
+		size = 9000
 	}
 }
 #Sao Paulo Region (580000)
@@ -3092,13 +3092,13 @@
 	bureaucrats = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size = 525
 	}
 
 	officers = {
 		culture = brazilian
 		religion = catholic
-		size = 150
+		size = 350
 	}
 
 	clergymen = {
@@ -3116,43 +3116,43 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 1100
+		size = 1300
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 42900
+		size = 52900
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 275
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 750
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 150
+		size = 450
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 5025
+		size = 8025
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 9000
+		size = 16000
 	}
 }
 #Santos (132000/33000 POPS)
@@ -3188,25 +3188,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 500
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 3350
 	}
@@ -3214,7 +3214,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 6000
+		size = 9000
 	}
 }
 #Campiras (64000/16000 POPS)
@@ -3250,25 +3250,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 300
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 2075
 	}
@@ -3276,7 +3276,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3500
+		size = 6500
 	}
 }
 #Assis (52000/14000 POPS)
@@ -3312,25 +3312,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1200
 	}
@@ -3338,7 +3338,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2500
+		size = 6500
 	}
 }
 #Iguape (64000/16000 POPS)
@@ -3374,25 +3374,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1700
 	}
@@ -3400,7 +3400,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3000
+		size = 4000
 	}
 }
 #Araraquara (8000/2000 POPS)
@@ -3506,25 +3506,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1700
 	}
@@ -3532,7 +3532,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3000
+		size = 6000
 	}
 }
 #Garapuava (40000/10000 POPS)
@@ -3568,25 +3568,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1250
 	}
@@ -3594,7 +3594,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 1750
+		size = 3750
 	}
 
 	clergymen = {
@@ -3654,25 +3654,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1200
 	}
@@ -3680,7 +3680,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2500
+		size = 4500
 	}
 
 	aristocrats = {
@@ -3746,25 +3746,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1200
 	}
@@ -3772,7 +3772,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2500
+		size = 3500
 	}
 
 	clergymen = {
@@ -3822,43 +3822,43 @@
 	soldiers = {
 		culture = brazilian
 		religion = catholic
-		size = 175
+		size = 575
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 14525
+		size = 18525
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 250
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 300
+		size = 600
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 75
+		size = 275
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 2075
+		size = 6075
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3500
+		size = 7500
 	}
 }
 #Sao Miguel (80000/20000 POPS)
@@ -3894,25 +3894,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 350
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 2500
 	}
@@ -3920,7 +3920,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 4000
+		size = 6000
 	}
 }
 #Sao Pedro Region (532000)
@@ -3936,13 +3936,13 @@
 	bureaucrats = {
 		culture = brazilian
 		religion = catholic
-		size = 200
+		size = 400
 	}
 
 	officers = {
 		culture = brazilian
 		religion = catholic
-		size = 125
+		size = 225
 	}
 
 	clergymen = {
@@ -3966,37 +3966,37 @@
 	farmers = {
 		culture = brazilian
 		religion = catholic
-		size = 38475
+		size = 67475
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 50
+		size = 150
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 650
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 125
+		size = 325
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
-		size = 4175
+		size = 12175
 	}
 
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 8000
+		size = 13000
 	}
 }
 #Sao Pedro (44000/11000 POPS)
@@ -4032,25 +4032,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1200
 	}
@@ -4058,7 +4058,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 2500
+		size = 6500
 	}
 }
 #Passo Fundo (112000/28000 POPS)
@@ -4094,25 +4094,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 1700
 	}
@@ -4120,7 +4120,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3000
+		size = 5000
 	}
 
 	clergymen = {
@@ -4180,25 +4180,25 @@
 	}
 
 	clergymen = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 300
 	}
 
 	soldiers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = afro_brazilian
+		culture = pardo
 		religion = catholic
 		size = 2075
 	}
@@ -4206,7 +4206,7 @@
 	slaves = {
 		culture = afro_brazilian
 		religion = catholic
-		size = 3500
+		size = 6500
 	}
 }
 #Alegrete (64000/16000 POPS)

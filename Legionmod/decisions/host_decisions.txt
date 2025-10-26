@@ -40,6 +40,7 @@ political_decisions = {
 				leadership = 20
 			}
 			set_global_flag = day_one_grants
+			set_global_flag = treaty_ports_activated
 			GHO = {
 				country_event = { id=700700 days=0 }
 			}

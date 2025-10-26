@@ -1,0 +1,53 @@
+
+
+#========================= L A N D =========================
+
+army = {
+name = "Syrian Liberation Army"
+location = 897
+
+regiment = {
+name = "Bashar Blasters"
+type = artillery
+home = 897
+}
+
+regiment = {
+name = "Prison Busters"
+type = artillery
+home = 897
+}
+
+regiment = {
+name = "1st Border Guards"
+type = guard
+home = 902
+}
+
+regiment = {
+name = "2nd Border Guards"
+type = guard
+home = 902
+}
+
+regiment = {
+name = "Bomb Defusal Team"
+type = engineer
+home = 913
+}
+
+regiment = {
+name = "Port Garrison"
+type = cuirassier
+home = 905
+}
+
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

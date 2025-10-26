@@ -46,18 +46,10 @@ vassal = {
 # Turkey
 vassal = {
 	first = TUR
-	second = MOL
+	second = ROM
 	start_date = 1815.1.1
 	end_date = 1890.11.23
 }
-
-vassal = {
-	first = TUR
-	second = WAL
-	start_date = 1815.1.1
-	end_date = 1890.11.23
-}
-
 
 vassal = {
 	first = TUR
@@ -114,14 +106,6 @@ vassal = {
 vassal = {
 	first = ENG
 	second = KAS
-	start_date = 1861.1.1
-	end_date = 1936.1.1
-}
-
-# OE - Hejaz 
-vassal = {
-	first = TUR
-	second = HDJ
 	start_date = 1861.1.1
 	end_date = 1936.1.1
 }

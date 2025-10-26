@@ -1,6 +1,6 @@
 capital = 1600
 primary_culture = asian_minor
-culture = uighur
+culture = hans
 religion = animist
 government = absolute_monarchy
 plurality = 0.0

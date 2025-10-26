@@ -4,27 +4,27 @@
 #Khartoum (344000/86000 POPS)
 1827 = {
     aristocrats = {
-        culture = african_minor
-        religion = sunni
+        culture = misri
+        religion = shiite
         size = 650
     }
 
     bureaucrats = {
-        culture = african_minor
-        religion = sunni
-        size = 40
+        culture = misri
+        religion = shiite
+        size = 500
     }
 
     officers = {
-        culture = african_minor
-        religion = sunni
-        size = 110
+        culture = misri
+        religion = shiite
+        size = 210
     }
 
     clergymen = {
-        culture = african_minor
-        religion = sunni
-        size = 425
+        culture = misri
+        religion = shiite
+        size = 925
     }
 
     artisans = {
@@ -34,21 +34,15 @@
     }
 
     soldiers = {
-        culture = african_minor
-        religion = sunni
+        culture = misri
+        religion = shiite
         size = 4000
     }
 
     farmers = {
-        culture = african_minor
-        religion = sunni
-        size = 35150
-    }
-
-    bureaucrats = {
         culture = misri
-        religion = sunni
-        size = 75
+        religion = shiite
+        size = 167150
     }
 
     officers = {
@@ -108,15 +102,15 @@
 #Wadi Madani (136000/34000 POPS)
 1828 = {
     aristocrats = {
-        culture = african_minor
-        religion = sunni
+        culture = misri
+        religion = shiite
         size = 375
     }
 
     clergymen = {
-        culture = african_minor
-        religion = sunni
-        size = 225
+        culture = misri
+        religion = shiite
+        size = 525
     }
 
     artisans = {
@@ -126,15 +120,15 @@
     }
 
     soldiers = {
-        culture = african_minor
-        religion = sunni
-        size = 1100
+        culture = misri
+        religion = shiite
+        size = 3100
     }
 
     farmers = {
-        culture = african_minor
-        religion = sunni
-        size = 20250
+        culture = misri
+        religion = shiite
+        size = 80250
     }
 
     slaves = {
@@ -348,15 +342,15 @@
 #Rabak (128000/32000 POPS)
 1831 = {
     aristocrats = {
-        culture = african_minor
-        religion = sunni
-        size = 350
+        culture = misri
+        religion = shiite
+        size = 500
     }
 
     clergymen = {
-        culture = african_minor
-        religion = sunni
-        size = 200
+        culture = misri
+        religion = shiite
+        size = 500
     }
 
     artisans = {
@@ -366,15 +360,15 @@
     }
 
     soldiers = {
-        culture = african_minor
-        religion = sunni
-        size = 1100
+        culture = misri
+        religion = shiite
+        size = 2200
     }
 
     farmers = {
-        culture = african_minor
-        religion = sunni
-        size = 17475
+        culture = misri
+        religion = shiite
+        size = 41475
     }
 
     aristocrats = {
@@ -714,45 +708,45 @@
 #Dunqulah (84000/21000 POPS)
 1835 = {
     aristocrats = {
-        culture = african_minor
-        religion = sunni
-        size = 50
+        culture = misri
+        religion = shiite
+        size = 300
     }
 
     bureaucrats = {
-        culture = african_minor
-        religion = sunni
-        size = 10
+        culture = misri
+        religion = shiite
+        size = 250
     }
 
     officers = {
-        culture = african_minor
-        religion = sunni
-        size = 40
+        culture = misri
+        religion = shiite
+        size = 200
     }
 
     clergymen = {
-        culture = african_minor
-        religion = sunni
-        size = 75
+        culture = misri
+        religion = shiite
+        size = 750
     }
 
     artisans = {
         culture = african_minor
         religion = sunni
-        size = 150
+        size = 1150
     }
 
     soldiers = {
-        culture = african_minor
-        religion = sunni
-        size = 75
+        culture = misri
+        religion = shiite
+        size = 1250
     }
 
     farmers = {
-        culture = african_minor
-        religion = sunni
-        size = 2600
+        culture = misri
+        religion = shiite
+        size = 76600
     }
 
     aristocrats = {

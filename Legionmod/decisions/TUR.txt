@@ -178,9 +178,7 @@ political_decisions = {
 	annex_romania = {
 		potential = {
 			tag = TUR
-			AND = { exists = WAL
-				exists = MOL
-				}
+			exists = ROM
 			NOT = {
 				has_country_flag = annexed_romania
 			}
@@ -192,8 +190,7 @@ political_decisions = {
 		allow = {
 			war = no
 			nationalism_n_imperialism = 1
-			is_our_vassal = WAL
-			is_our_vassal = MOL
+			is_our_vassal = ROM
 		}
 		
 		effect = {				

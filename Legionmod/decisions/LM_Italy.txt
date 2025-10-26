@@ -110,6 +110,7 @@ political_decisions = {
 			464 = { add_core = THIS }
 			FRA_451 = { add_core = THIS }
 			FRA_461 = { add_core = THIS }
+			SAR_466 = ( add_core = THIS }
 		}
 	}
 	

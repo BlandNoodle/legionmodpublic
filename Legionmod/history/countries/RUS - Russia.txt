@@ -70,7 +70,6 @@ publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
 naval_plans = 1
-medicine = 1
 freedom_of_trade = 1
 
 

@@ -195,6 +195,7 @@ country_event = {
 		tag = CHI
 		war = no
 		civilized = yes
+		has_country_flag = heavenwarover
 		OR = {
 			NOT = {has_country_modifier = yatsen}
 			year = 1910
@@ -243,7 +244,6 @@ country_event = {
 	
 	trigger = {
 		tag = CHI
-		year = 1900
 		has_country_flag = lubuawake
 		NOT = {has_country_modifier = chinadead}
 		NOT = {has_country_flag = heavenwar}
@@ -258,7 +258,7 @@ country_event = {
 		name = "EVTOPTA19000128"
 			random_country = {
 				limit = {
-					NOT = {alliance_with = THIS}
+					NOT = {truce_with = THIS}
 					neighbour = THIS
 				}
 				country_event = {id=19000131 days = 5}
@@ -279,10 +279,9 @@ country_event = {
 	
 	trigger = {
 		tag = CHI
-		year = 1900
 		has_country_flag = heavenwar
 		NOT = {has_country_flag = heavenwarover}
-		has_recently_lost_war = no
+		NOT = {has_global_flag = summer_palace_torched}
 		war = no
 	}
 	
@@ -307,9 +306,11 @@ country_event = {
 	
 	trigger = {
 		tag = CHI
-		year = 1900
 		has_country_flag = heavenwar
-		has_recently_lost_war = yes
+		AND = {
+			has_recently_lost_war = yes
+			has_global_flag = summer_palace_torched
+		}
 		war = no
 	}
 	
@@ -344,8 +345,8 @@ country_event = {
 		CHI = {
 			war = {
 				target = THIS
-				attacker_goal = { casus_belli = conquest }
-				defender_goal = { casus_belli = cut_down_to_size_boxer }
+				attacker_goal = { casus_belli = humiliate }
+				defender_goal = { casus_belli = status_quo }
 			}
 		}
 	}
@@ -358,7 +359,6 @@ country_event = {
 	picture = "devastation"
 	
 	trigger = {
-		year = 1900
 		war_with = CHI
 		any_owned_province = {
 			AND = {
@@ -386,7 +386,7 @@ country_event = {
 			add_core = CHI
 			add_province_modifier = {
 				name = devastation
-				duration = 3650
+				duration = 365
 				}
 			}
 		}

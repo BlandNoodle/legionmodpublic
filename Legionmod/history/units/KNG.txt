@@ -1,0 +1,73 @@
+
+
+#========================= L A N D =========================
+
+leader = {
+	name = "The Pharoah"
+	date = 1836.1.1
+	type = land
+	personality = attack_5.1
+	background = defence_1.1
+	prestige = 0.5
+}
+
+army = {
+name = "Pharoah's Retinue"
+location = 1827
+
+regiment = {
+name = "Skeleton Guard 1"
+type = guard
+home = 1827
+}
+
+regiment = {
+name = "Skeleton Guard 2"
+type = guard
+home = 1827
+}
+
+regiment = {
+name = "Skeleton Mob 1"
+type = infantry
+home = 1835
+}
+
+regiment = {
+name = "Skeleton Mob 1"
+type = infantry
+home = 1828
+}
+
+regiment = {
+name = "Skeleton Mob 2"
+type = infantry
+home = 1828
+}
+
+regiment = {
+name = "Skeleton Mob 3"
+type = infantry
+home = 1829
+}
+
+regiment = {
+name = "Skeleton Mob 4"
+type = infantry
+home = 1830
+}
+
+regiment = {
+name = "Skeleton Mob 5"
+type = infantry
+home = 1831
+}
+}
+
+
+#========================= S E A =========================
+
+
+
+#========================= Vic_Nation_Establisher by Diamond.David =========================
+

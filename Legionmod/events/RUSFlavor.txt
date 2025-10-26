@@ -968,7 +968,7 @@ country_event = {
 		ai_chance = {
 			factor = 25
 		}
-		activate_technology = army_professionalism
+		activate_technology = medicine
 	}
 	
 	option = {
@@ -1090,11 +1090,6 @@ country_event = {
 					duration = 3650
 				}
 			}
-		define_admiral = {
-			name = Smash Mouth
-			personality = defence_2.1
-			background = attack_5.1
-		}
 		ai_chance = {
 			factor = 99
 		}

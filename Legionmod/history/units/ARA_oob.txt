@@ -1,0 +1,35 @@
+army = {
+	name = "Army of the Sultan of Arabia"
+	location = 1155
+	regiment = {
+		name= "Shahada"
+		type = cuirassier
+		home = 1153
+	}
+
+	regiment = {
+		name= "Salah"
+		type = cuirassier
+		home = 1151
+	}
+
+	regiment = {
+		name= "Zakat"
+		type = cuirassier
+		home = 1155
+	}
+	
+	regiment = {
+		name= "Sawm"
+		type = cuirassier
+		home = 1159
+	}
+	
+	regiment = {
+		name= "Hajj"
+		type = cuirassier
+		home = 1161
+	}
+
+}
+
