@@ -4,12 +4,14 @@ political_decisions = {
 		potential = {
 			tag = CHI
 			NOT = {has_country_flag = lubuawake}
+			NOT = {has_country_flag = lubu2}
 		}
 		allow = {
 		}
 		effect = {
 			money = 2000000
 			set_country_flag = lubuawake
+			set_country_flag = lubu2
 			add_country_modifier = {
 				name = freedomfighters
 				duration = 9125

@@ -245,7 +245,6 @@ country_event = {
 	trigger = {
 		tag = CHI
 		has_country_flag = lubuawake
-		NOT = {has_country_modifier = chinadead}
 		NOT = {has_country_flag = heavenwar}
 		war = no
 	}
@@ -324,10 +323,6 @@ country_event = {
 			clr_country_flag = heavenwar
 			set_country_flag = heavenwarover
 			prestige = -1000
-			add_country_modifier = {
-				name = chinadead
-				duration = 1080
-			}
 			remove_country_modifier = lubu
 		}
 	}

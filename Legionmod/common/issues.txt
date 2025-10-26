@@ -216,9 +216,8 @@ political_reforms = {
 		no_slavery = {
 			rules = { slavery_allowed = no }
 			allow = { 
-					NOT = { 
-						has_country_flag = the_slavery_debate
-					}
+				NOT = { 
+					has_country_flag = the_slavery_debate
 				}
 			}
 

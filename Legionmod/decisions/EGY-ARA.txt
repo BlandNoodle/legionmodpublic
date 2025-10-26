@@ -200,7 +200,7 @@ political_decisions = {
 		picture = triumphegypt
 		potential = {
 			has_country_flag = endpirates
-			NOT = {has_country_flag = triumphedegypt}
+			NOT = {has_country_flag = triumphedpirates}
 		}
 		allow = {
 			has_country_modifier = active_war
@@ -487,7 +487,7 @@ political_decisions = {
 		}
 		effect = {
 			remove_country_modifier = active_war
-			set_country_flag = triumphedegypt
+			set_country_flag = triumphediraq
 			any_owned = {
 				limit = {
 					is_core = IRQ
@@ -555,7 +555,7 @@ political_decisions = {
 			NOT = {has_country_flag = plutonfound}
 		}
 		allow = {
-			owns = 964
+			owns = 926
 			war = no
 			money = 2000000
 		}
@@ -563,7 +563,7 @@ political_decisions = {
 			money = -2000000
 			activate_technology = aeronautics
 			set_country_flag = plutonfound
-			964 = {
+			926 = {
 				sub_unit = {
 					type = plane
 					value = current

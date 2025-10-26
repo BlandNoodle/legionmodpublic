@@ -715,6 +715,7 @@ political_decisions = {
 		potential = {
 			primary_culture = brazilian
 			has_country_flag = oligarchybrazil
+			NOT = {tag = SAU}
 		}
 		
 		allow = {
@@ -752,6 +753,7 @@ political_decisions = {
 		potential = {
 			primary_culture = brazilian
 			has_country_flag = kingshere
+			NOT = {tag = BPA}
 		}
 		
 		allow = {
@@ -763,7 +765,7 @@ political_decisions = {
 		effect = {
 			prestige = 25
 			change_tag = BPA
-			add_accepted_culture = portugese
+			add_accepted_culture = portuguese
 			POR_521 = {add_core = BPA}
 			POR_525 = {add_core = BPA}
 			POR_2134 = {add_core = BPA}
@@ -973,7 +975,9 @@ political_decisions = {
 				limit = {
 					civilized = yes
 				}
-				add_core = THIS
+				any_owned = {
+					add_core = THIS
+				}
 			}
 			badboy = 32
 		}
