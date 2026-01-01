@@ -1,6 +1,6 @@
-owner = ROC
-controller = ROC
-add_core = ROC
+owner = EGY
+controller = EGY
+add_core = EGY
 add_core = GRE
 trade_goods = fruit
 life_rating = 35

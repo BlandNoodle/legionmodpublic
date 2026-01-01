@@ -248,8 +248,8 @@ political_decisions = {
 			activate_technology = late_enlightenment_philosophy
 			activate_technology = medicine
 			define_general = {
-				name = Sir-Crocodile
-				personality = defence_5.1
+				name = Mr.2
+				personality = defence_3.1
 				background = attack_3.1
 			}
 			clr_country_flag = oriental_crisis

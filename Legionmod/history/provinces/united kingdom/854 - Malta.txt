@@ -1,9 +1,8 @@
-owner = ROC
-controller = ROC
-add_core = ROC
+owner = ENG
+controller = ENG
+add_core = ENG
 trade_goods = fish
 life_rating = 35
-
 naval_base = 1
 1861.1.1 = { 
 	naval_base = 2 #Valetta

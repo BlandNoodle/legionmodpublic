@@ -195,11 +195,7 @@ country_event = {
 		tag = CHI
 		war = no
 		civilized = yes
-		has_country_flag = heavenwarover
-		OR = {
-			NOT = {has_country_modifier = yatsen}
-			year = 1910
-		}
+		year = 1900
 	}
 	
 	mean_time_to_happen = {
@@ -208,30 +204,11 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19000123"
-		CHI_1600 = {add_core = XIN}
 		release = XIN
-		CHI_2608 = {add_core = MGL}
 		release = MGL
-		CHI_1557 = {add_core = XBI}
-		CHI_1490 = {add_core = XBI}
-		CHI_2062 = {add_core = XBI}
-		1535 = {add_core = XBI}
-		1532 = {add_core = XBI}
 		release = XBI
-		CHI_1578 = {add_core = YNN}
-		CHI_1601 = {add_core = YNN}
-		CHI_1581 = {add_core = YNN}
 		release = YNN
-		CHI_1504 = {add_core = GXI}
-		CHI_1499 = {add_core = GXI}
-		CHI_1494 = {add_core = GXI}
 		release = GXI
-		activate_technology = enlightenment_thought
-		activate_technology = ideological_thought
-		activate_technology = state_n_government
-		activate_technology = nationalism_n_imperialism
-		activate_technology = water_wheel_power
-		activate_technology = mechanized_mining
 	}
 }
 		

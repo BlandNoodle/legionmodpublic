@@ -993,42 +993,13 @@
 }
 #Al Arish (16000/4000 POPS)
 1756 = {
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 150
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 225
-    }
-
-    artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 500
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 1500
-    }
-
+    
     farmers = {
         culture = misri
         religion = sunni
         size = 2700
     }
 	
-	farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 7278
-    }
-
     aristocrats = {
         culture = bedouin
         religion = sunni
@@ -1060,29 +1031,6 @@
     }
 }
 3258 = {
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 50
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 125
-    }
-
-    artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 250
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 500
-    }
 
     farmers = {
         culture = misri
@@ -1090,12 +1038,6 @@
         size = 2700
     }
 	
-	farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 5675
-    }
-
     aristocrats = {
         culture = bedouin
         religion = sunni
@@ -1255,12 +1197,6 @@
         religion = sunni
         size = 250
     }
-	
-	bureaucrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 1000
-    }
 
     clergymen = {
         culture = misri
@@ -1274,24 +1210,12 @@
         size = 250
     }
 
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 2500
-    }
-
     farmers = {
         culture = misri
         religion = sunni
         size = 1350
     }
 	
-	farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 71350
-    }
-
     aristocrats = {
         culture = bedouin
         religion = sunni
@@ -1323,28 +1247,11 @@
     }
 }
 3259 = {
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 50
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 80
-    }
 
     artisans = {
         culture = misri
         religion = sunni
         size = 126
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 750
     }
 
     farmers = {
@@ -1353,11 +1260,6 @@
         size = 1350
     }
 	
-	farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 5667
-    }
 
     aristocrats = {
         culture = bedouin
@@ -1390,28 +1292,11 @@
     }
 }
 3260 = {
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 120
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = sunni
-        size = 125
-    }
 
     artisans = {
         culture = misri
         religion = sunni
         size = 100
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 800
     }
 
     farmers = {
@@ -1420,11 +1305,6 @@
         size = 1350
     }
 	
-	farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 7350
-    }
 
     aristocrats = {
         culture = bedouin

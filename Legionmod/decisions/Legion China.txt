@@ -1,25 +1,25 @@
 political_decisions = {
 	
-	awakenlubu = {
-		potential = {
-			tag = CHI
-			NOT = {has_country_flag = lubuawake}
-			NOT = {has_country_flag = lubu2}
-		}
-		allow = {
-		}
-		effect = {
-			money = 2000000
-			set_country_flag = lubuawake
-			set_country_flag = lubu2
-			add_country_modifier = {
-				name = freedomfighters
-				duration = 9125
-			}
-			inherit = TIB
-			add_accepted_culture = asian_minor
-		}
-	}
+#	awakenlubu = {
+#		potential = {
+#			tag = CHI
+#			NOT = {has_country_flag = lubuawake}
+#			NOT = {has_country_flag = lubu2}
+#		}
+#		allow = {
+#		}
+#		effect = {
+#			money = 2000000
+#			set_country_flag = lubuawake
+#			set_country_flag = lubu2
+#			add_country_modifier = {
+#				name = freedomfighters
+#				duration = 9125
+#			}
+#			inherit = TIB
+#			add_accepted_culture = asian_minor
+#		}
+#	}
 	
 	chinese_reform = {
 		potential = {
@@ -28,13 +28,7 @@ political_decisions = {
 			NOT = {has_country_flag = sunyatsen}
 		}
 		allow = {
-			OR = {
-				year = 1900
-				AND = {
-					has_country_flag = lubuawakened
-					NOT = {has_country_modifier = freedomfighters}
-				}
-			}
+			year = 1880
 		}
 		effect = {
 			money = 2000000
@@ -54,6 +48,29 @@ political_decisions = {
 				remove_country_modifier = free_china_trade
 				remove_country_modifier = large_opium
 			}
+		}
+	}
+	
+	chinese_reform_2 = {
+		potential = {
+			primary_culture = hans
+			civilized = yes
+			NOT = {has_country_flag = reformtwo}
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = reformtwo
+			activate_technology = enlightenment_thought
+			activate_technology = ideological_thought
+			activate_technology = state_n_government
+			activate_technology = nationalism_n_imperialism
+			activate_technology = water_wheel_power
+			activate_technology = mechanized_mining
+			activate_technology = post_napoleonic_thought
+			activate_technology = strategic_mobility
+			activate_technology = point_defense_system
+			activate_technology = army_command_principle
 		}
 	}
 	

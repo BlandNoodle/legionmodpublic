@@ -378,36 +378,8 @@ pirateking;Pirate King;;;;;;x
 pirateking_desc;Vohahaha!;;;;;;x
 awakenlubu_title;Awaken Lu Bu;;;;;;x
 awakenlubu_desc;Let the battle begin!;;;;;;x
-rocks_title;Rocks;;;;;;;x
-rocks_desc;Vohahaha;;;;;x
-pharoahsmarch_title;Pharoah's March;;;;;;;x
-pharoahsmarch_desc;Begin the conquest of Egypt!;;;;;;x
 active_war;Active Egypt War;;;;;;x
 active_war_desc;End your current campaign to start another;;;;;x
-end_pirates_title;Attack the Pirates;;;;;;x
-end_pirates_desc;Our next opponent should be the Pirates!;;;;;;;x
-end_egypt_title;Attack the Legitimists;;;;;;x
-end_egypt_desc;Our next opponent should be the Legitimists!;;;;;;x
-end_skeletons_title;Attack the Pharoahs;;;;;;x
-end_skeletons_desc;Our next opponent should be the Pharoah!;;;;;;x
-end_david_title;Attack the Zionists;;;;;;x
-end_david_desc;Our next opponent should be the Zionists!;;;;;;x
-end_syria_title;Attack the Syrians;;;;;;x
-end_syria_desc;Our next opponent should be the Syria Rebels!;;;;;;x
-end_iraq_title;Attack the Iraqis;;;;;x
-end_iraq_desc;Our next opponent should be the Iraqi Warriors!;;;;;;x
-triumph_pirates_title;Victory Against Pirates;;;;;;x
-triumph_pirates_desc;The Pirates are down....;;;;;;;x
-triumph_egypt_title;Victory Against Legitimists;;;;;;x
-triumph_egypt_desc;The Legitimists are down....;;;;;;x
-triumph_skeletons_title;Victory Against Pharoahs;;;;;;x
-triumph_skeletons_desc;The Pharoahs are down....;;;;;;x
-triumph_david_title;Victory Against Zionists;;;;;;x
-triumph_david_desc;The Zionists are down....;;;;;;x
-triumph_syria_title;Victory Against Syrians;;;;;;x
-triumph_syria_desc;The Syrians are down....;;;;;;x
-triumph_iraq_title;Victory Against Iraqis;;;;;x
-triumph_iraq_desc;The Iraqis are down....;;;;;;x
 EVTNAME19000213;Jewish Emmigration;;;;;;x
 EVTDESC19000213;The promise of a Jewish homeland, despite regional conflicts, has drawn them away from our nation and towards the Middle East.;;;;;;x
 EVTOPTA19000213;Bye bye!;;;;;;x
@@ -425,3 +397,28 @@ pluton_title;§GPluton§b;;;;;;;;;x
 pluton_desc;There are records in Alexandria of an Ancient Weapon buried deep under Baghdad, we must find it!;;;;;;x
 uranus_title;§RUranus§b;;;;;;;;;x
 uranus_desc;There are records in Alexandria of an Ancient Weapon buried deep under Khartoum, we must find it!;;;;;;x
+form_iberia_title; Form the Iberian Union;;;;;;;;;;;;;;x
+form_iberia_desc;From 1580 to 1640 existed a dynastic union of the Kingdom of Spain and the Kingdom of Portugal under the Spanish Crown, also known as the Union Iberica. It was the most powerful and respected country in the world and streched from China to Mexico, it was the first empire, where the sun never set. To reignite the glory of the old empire, we shall unite again!;;;;;;;;;;;;;;x
+form_caliphate_title;Form the Caliphate;;;;;;;;;;;;;;x
+form_caliphate_desc;We must unite the Islamic World under our banner, like the prophet wanted it. Allahu Akbar!;;;;;;;;;;;;;;x
+annex_romania_title;Centralize the Danubian Principalities;;;;;;;;;;;;;;x
+annex_romania_desc;§RThis will antagonize Russia.§b The Treaty of Kucuk Kaynarca authorised the Russian ambassador in Istanbul to defend the autonomy of Moldavia and Wallachia in 1774. After the Russo-Turkish War of 1828/1829, the Treaty of Adrianople strengthened the autonomy of the Danubian Principalities even further. We will not make the same mistake twice, we will unite the empire fully under the leadership of the Sublime Porte!;;;;;;;;;;;;;;x
+form_italy_peacefully_title;Form Italy peacefully;;;;;;;;;;;;;;x
+form_italy_peacefully_desc;For too long the national ambition of the Italian people have been ignored. If we cannot unite all Italians by force, we must unite all that we can.;;;;;;;;;;;;;;x
+unite_the_south_of_south_america_title;Unite the South;;;;;;;;;;;;;;x
+unite_the_south_of_south_america_desc;We have united the south and have incorporated their cultures into our own.;;;;;;;;;;;;;;x
+unite_the_north_of_south_america_title;Unite the North;;;;;;;;;;;;;;x
+unite_the_north_of_south_america_desc;We have united the north and have incorporated their cultures into our own.;;;;;;;;;;;;;;x
+unite_south_america_title;Unite all of South America;;;;;;;;;;;;;;x
+unite_south_america_desc;We have united all of South America and are ready to take our rightful place among the other Great Powers.;;;;;;;;;;;;;;x
+claim_central_america_title;Claim Central America;;;;;;;;;;;;;;x
+claim_central_america_desc;Central America is weak and without a leader. We must take charge and restore order.;;;;;;;;;;;;;;x
+integrate_egypt_title;Integrate Egypt;;;;;;;;;;;;;;x
+integrate_egypt_desc;Once we have total control of the Egyptian lands, we can bring them back to the loving and embracing arms of Allah.;;;;;;;;;;;;;;
+form_benelux_title;Unite the Netherlands;;;;;;;;;;;;;;x
+form_benelux_desc;The United Netherlands was created in the aftermath of the Napoleonic Wars through the fusion of territories that had belonged to the former Dutch Republic and Austrian Netherlands in order to form a buffer state between the major European powers. The polity collapsed in 1830 with the outbreak of the Belgian Revolution. With the de facto secession of Belgium, the Netherlands was left as a rump state and refused to recognise Belgian independence. Now it is time to reunite our people into the United Kingdom of the Netherlands!;;;;;;;;;;;;;;x
+annex_luxemburg_title;Annex Luxemburg;;;;;;;;;;;;;;x
+annex_luxemburg_desc;After the defeat of Napoleon in 1815, the Duchy of Luxemburg was restored. At the Congress of Vienna the great powers decided that Luxemburg would become a member state of the newly formed German Confederation, but at the same time William I of the Netherlands, the King of the Netherlands, would become, in personal union, the head of state. Now we shall make it a integral part of the Netherlands.;;;;;;;;;;;;;;x
+switch_to_dutch_tech_school_title;Switch to Dutch Merchant Fleet Tech School;;;;;;;;;;;;;;x
+switch_to_dutch_tech_school_desc;Our long naval and commercial tradition will give us an edge in these fields;;;;;;;;;;;;;;x
+dutch_tech_school;Dutch Merchant Fleet;;;;;;;;;;;;;x

@@ -956,8 +956,14 @@ acquire_state_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
-		#this = { NOT = { primary_culture = hans } }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
+		#THIS = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
 			OR = { 
@@ -1161,7 +1167,13 @@ acquire_state_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -1472,7 +1484,13 @@ acquire_state_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -1679,7 +1697,13 @@ acquire_state_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -1888,7 +1912,13 @@ acquire_state_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -2097,7 +2127,13 @@ place_in_the_sun_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -2178,7 +2214,13 @@ place_in_the_sun_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -2258,7 +2300,13 @@ place_in_the_sun_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -2338,7 +2386,13 @@ place_in_the_sun_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 
@@ -2418,7 +2472,13 @@ place_in_the_sun_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				THIS = {invention = colonial_negotiations}
+			}
+		}
 		#this = { NOT = { primary_culture = hans } }
 		
 		NOT = { 

@@ -1,6 +1,7 @@
-owner = ROC
-controller = ROC
-add_core = ROC
+owner = TUR
+controller = TUR
+add_core = TUR
+colonial = 2
 trade_goods = fruit
 life_rating = 35
 naval_base = 1

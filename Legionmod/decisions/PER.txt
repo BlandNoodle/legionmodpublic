@@ -34,19 +34,22 @@ political_decisions = {
 		allow = {
 			literacy = 0.30
 			civilized = yes
+			money = 250000
+			owns = 1121
+			owns = 1113
 		}
 		effect = {
 			money = -250000
 			set_country_flag = silkedup
 			1121 = {
-				trade_goods = {silk}
+				trade_goods = silk
 				add_province_modifier = {
 					name = persianrugs
 					duration = -1
 				}
 			}
 			1113 = {
-				trade_goods = {silk}
+				trade_goods = silk
 				add_province_modifier = {
 					name = persianrugs
 					duration = -1

@@ -953,34 +953,34 @@ political_decisions = {
 		}
 	}
 	
-	theworld = {
-		
-		potential = {
-			tag = SAU
-		}
-		
-		allow = {
-			revolution_n_counterrevolution = 1
-			SAU = {
-				all_core = {
-					owned_by = THIS
-				}
-				slavery = yes_slavery
-			}
-			war = no
-		}
-		
-		effect = {
-			any_country = {
-				limit = {
-					civilized = yes
-				}
-				any_owned = {
-					add_core = THIS
-				}
-			}
-			badboy = 32
-		}
-	}
-	
+#	theworld = {
+#		
+#		potential = {
+#			tag = SAU
+#		}
+#		
+#		allow = {
+#			revolution_n_counterrevolution = 1
+#			SAU = {
+#				all_core = {
+#					owned_by = THIS
+#				}
+#				slavery = yes_slavery
+#			}
+#			war = no
+#		}
+#		
+#		effect = {
+#			any_country = {
+#				limit = {
+#					civilized = yes
+#				}
+#				any_owned = {
+#					add_core = THIS
+#				}
+#			}
+#			badboy = 32
+#		}
+#	}
+#	
 }

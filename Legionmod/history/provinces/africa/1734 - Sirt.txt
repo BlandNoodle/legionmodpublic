@@ -1,5 +1,6 @@
-owner = ROC
-controller = ROC
-add_core = ROC
+owner = TUR
+controller = TUR
+add_core = TUR
+colonial = 2
 trade_goods = wool
 life_rating = 30
