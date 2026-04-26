@@ -1978,3 +1978,11 @@ theredeemer = {
 active_war = {
 	icon = 4
 }
+
+hegemony_reaction = {	
+	prestige = -0.02
+	cb_generation_speed_modifier = 0.33
+	org_regain = 0.20
+	mobilisation_size = 0.02
+	icon = 5
+}

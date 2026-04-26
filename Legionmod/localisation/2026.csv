@@ -1,3 +1,77 @@
 ;;;;;;;;;;;;;;x
 chinese_reform_2_title;Chinese Reform Two;;;;;;;;x
 chinese_reform_2_edsc;yada yada;;;;;;;;;x
+auftragstaktik;Auftragstaktik;;;;;;x
+auftragstaktik_desc;Germany got shootas;;;;;;x
+EVTNAME19000214;Imperial Hegemony;;;;;;;x
+EVTDESC19000214;The Hegemony Decisions are now available! Happy hunting.....;;;;;;x
+EVTOPTA19000214;Gaming....;;;;;;x
+heg_central_africa;Hegemony of Central Africa;;;;;;x
+heg_central_africa_desc;Hegemony of Central Africa;;;;;;x
+hegemony_central_africa;Hegemony over Central Africa;;;;;;;x
+heg_north_africa;Hegemony of North Africa;;;;;;x
+heg_north_africa_desc;Hegemony of North Africa;;;;;;x
+hegemony_north_africa;Hegemony over North Africa;;;;;;;x
+heg_west_africa;Hegemony of West Africa;;;;;;x
+heg_west_africa_desc;Hegemony of West Africa;;;;;;x
+hegemony_west_africa;Hegemony over West Africa;;;;;;;x
+heg_south_africa;Hegemony of South Africa;;;;;;x
+heg_south_africa_desc;Hegemony of South Africa;;;;;;x
+hegemony_south_africa;Hegemony over South Africa;;;;;;;x
+heg_middle_east;Hegemony of the Middle East;;;;;;x
+heg_middle_east_desc;Hegemony of the Middle East;;;;;;x
+hegemony_middle_east;Hegemony over the Middle East;;;;;;;x
+heg_india;Hegemony of India;;;;;;x
+heg_india_desc;Hegemony of India;;;;;;x
+hegemony_india;Hegemony over India;;;;;;;x
+heg_oceania;Hegemony of Oceania;;;;;;x
+heg_oceania_desc;Hegemony of Oceania;;;;;;x
+hegemony_oceania;Hegemony over Oceania;;;;;;;x
+heg_south_china;Hegemony of South China;;;;;;x
+heg_south_china_desc;Hegemony of South China;;;;;;x
+hegemony_south_china;Hegemony over South China;;;;;;;x
+heg_north_china;Hegemony of North China;;;;;;x
+heg_north_china_desc;Hegemony of North China;;;;;;x
+hegemony_north_china;Hegemony over North China;;;;;;;x
+openhegemony_title;Open Hegemony Decisions;;;;;;x
+openhegemony_desc;These decisions grant an exclusive, permanent technology unlock for owning an entire region as a great power.\n§RNo one else can claim the same hegemony after it has been claimed.\nAll other Great Powers will lose infamy, get increased CB generation speed, and a small mobilization bonus when you declare a hegemony!;;;;;;x
+closehegemony_title;Close Hegemony Decisions;;;;;;;x
+closehegemony_desc;Get this off my screen!;;;;;;;;x
+EVTNAME19000215;$FROMCOUNTRY$ Declares Hegemony!;;;;;;x
+EVTDESC19000215;$FROMCOUNTRY$ has grown bold enough to declare that they and they alone control a significant chunk of the world and that no-one can stop them from not only believing so but actually practicing such a belief. Citizens across our nation, across every race, background, and class have taken it as a personal slight and have unified, at least for now.;;;;;;;x
+EVTOPTA19000215;§RPerhaps we should put $FROMCOUNTRY$ in their place.....;;;;;;;x
+hegemony_reaction;Hegemony Reaction;;;;;;x
+hegemony_reaction_desc;Our nation is reeling from the news of a recent hegemony....;;;;;;;x
+heg_wafrica_title;Declare West African Hegemony;;;;;;x
+heg_wafrica_desc;Total West African Victory;;;;;;;x
+heg_meast_title;Declare Middle Eastern Hegemony;;;;;;x
+heg_meast_desc;Total Middle Eastern Victory;;;;;;;x
+heg_nafrica_title;Declare North African Hegemony;;;;;;x
+heg_nafrica_desc;Total North African Victory;;;;;;;x
+heg_cafrica_title;Declare Central African Hegemony;;;;;;x
+heg_cafrica_desc;Total Central African Victory;;;;;;;x
+heg_safrica_title;Declare South African Hegemony;;;;;;x
+heg_safrica_desc;Total South African Victory;;;;;;;x
+heg_india_title;Declare Indian Hegemony;;;;;;x
+heg_india_desc;Total Indian Victory;;;;;;;x
+heg_oceania_title;Declare Oceania Hegemony;;;;;;x
+heg_oceania_desc;Total Oceania Victory;;;;;;;x
+heg_schina_title;Declare South Chinese Hegemony;;;;;;x
+heg_schina_desc;Total South Chinese Victory;;;;;;;x
+heg_nchina_title;Declare North Chinese Hegemony;;;;;;x
+heg_nchina_desc;Total North Chinese Victory;;;;;;;x
+byepersia_title;Annex Persia;;;;;;;x
+byepersia_desc;Time to cash in on our long-term investment!;;;;;;x
+byeafghanistan_title;Annex Afghanistan;;;;;;;x
+byeafghanistan_desc;Time to integrate the Afghani tribes into our colonial government!;;;;;;;x
+civilwarhappen_title;Civil War Please;;;;;;;x
+civilwarhappen_desc;I am impatient and want to scale without worrying about some bums inting me!;;;;;;x
+EVTNAME19000216;Ur A Gay;;;;;;;;x
+EVTDESC19000216;So you conquered the nation cause it made you feel insecure? Cause it called you gay?;;;;;;x
+EVTOPTA19000216;Yup;;;;;;;x
+EVTNAME19000217;§Rwe gonna kill you!!!;;;;;;;;x
+EVTDESC19000217;Here's a crumpled $20 bill from my back pocket to make it better;;;;;;x
+EVTOPTA19000217;Thanks?;;;;;;;x
+EVTNAME19000218;§Rwe should kill him!;;;;;;;;x
+EVTDESC19000218;§RLash out....;;;;;;x
+EVTOPTA19000218;§RMy eyes are blinded by rage;;;;;;;x

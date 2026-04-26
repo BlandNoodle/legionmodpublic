@@ -969,3 +969,58 @@ country_event = {
 	}
 	
 }
+
+country_event = {
+	id = 19000214
+	title = "EVTNAME19000214"
+	desc = "EVTDESC19000214"
+	major = yes
+	
+	trigger = {
+		year = 1870
+		tag = LIC
+		NOT = {has_global_flag = hegemony_enabled}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000214"
+		set_global_flag = hegemony_enabled
+	}
+	
+}
+
+country_event = {
+	id = 19000215
+	title = "EVTNAME19000215"
+	desc = "EVTDESC19000215"
+	picture = "hegemony_news"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000215"
+		badboy = -20
+		add_country_modifier = {
+			name = hegemony_reaction
+			duration = 720
+		}
+		any_owned = {
+			limit = {
+				is_core = THIS
+			}
+			any_pop = {
+				militancy = -3
+				consciousness = -3
+				dominant_issue = {
+					factor = 0.20
+					value = jingoism
+				}
+			}
+		}
+	}
+	
+}

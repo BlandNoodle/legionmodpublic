@@ -33,3 +33,84 @@ country_event = {
 		}
 		
 	}
+	
+country_event = {
+	id = 19000216
+	title = "EVTNAME19000216"
+	desc = "EVTDESC19000216"
+	picture = "uragay"
+	
+	trigger = {
+		ai = no
+		NOT = {has_country_flag = uragaylol}
+		NOT = {tag = URU}
+		any_owned_province = {
+			is_core = URU
+		}
+	}
+	mean_time_to_happen = {
+		months = 1 
+	}
+	
+	option = {
+		name = "EVTOPTA19000216"
+		set_country_flag = uragaylol
+		prestige = -5
+	}
+}
+
+country_event = {
+	id = 19000217
+	title = "EVTNAME19000217"
+	desc = "EVTDESC19000217"
+	picture = "wegonnakillyou"
+	
+	trigger = {
+		ai = no
+		NOT = {has_global_flag = wegonnakillyoudog}
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		any_neighbor_country = {ai = no}
+		war = no
+	}
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = {
+		name = "EVTOPTA19000217"
+		set_global_flag = wegonnakillyoudog
+		money = 20
+		any_neighbor_country = {
+			limit = {
+				AND = {
+					war = no
+					NOT = { truce_with = THIS }
+					ai = no
+				}
+			}
+			country_event = {id = 19000218 days = 1}
+		}
+	}
+}
+
+country_event = {
+	id = 19000218
+	title = "EVTNAME19000218"
+	desc = "EVTDESC19000218"
+	picture = "theygonnakillyou"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000218"
+		money = 30
+		casus_belli = {
+			target = FROM
+			type = humiliate
+			months = 24
+		}
+	}
+}

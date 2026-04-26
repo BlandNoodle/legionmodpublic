@@ -412,7 +412,7 @@ unite_the_north_of_south_america_desc;We have united the north and have incorpor
 unite_south_america_title;Unite all of South America;;;;;;;;;;;;;;x
 unite_south_america_desc;We have united all of South America and are ready to take our rightful place among the other Great Powers.;;;;;;;;;;;;;;x
 claim_central_america_title;Claim Central America;;;;;;;;;;;;;;x
-claim_central_america_desc;Central America is weak and without a leader. We must take charge and restore order.;;;;;;;;;;;;;;x
+claim_central_america_desc;Central America is weak and without a leader. We must take charge and restore order.\n§RThis gives 10 infamy;;;;;;;;;;;;;;x
 integrate_egypt_title;Integrate Egypt;;;;;;;;;;;;;;x
 integrate_egypt_desc;Once we have total control of the Egyptian lands, we can bring them back to the loving and embracing arms of Allah.;;;;;;;;;;;;;;
 form_benelux_title;Unite the Netherlands;;;;;;;;;;;;;;x

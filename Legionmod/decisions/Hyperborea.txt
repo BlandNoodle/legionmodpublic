@@ -872,5 +872,364 @@ expand_naval_base = {
 			}
 		}
 	}
-
+	openhegemony = {
+		potential = {
+			ai = no
+			is_greater_power = yes
+			NOT = {has_country_flag = hegemonyopened}
+			has_global_flag = hegemony_enabled
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = hegemonyopened
+		}
+	}
+	
+	closehegemony = {
+		potential = {
+			ai = no
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			has_global_flag = hegemony_enabled
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = hegemonyopened
+		}
+	}
+	
+	heg_wafrica = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_wafrica}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 1783
+			owns = 1785
+			owns = 1879
+			owns = 1884
+			owns = 1887
+			owns = 1892
+			owns = 1909
+			owns = 1914
+			owns = 1919
+			owns = 1928
+			owns = 1931
+			owns = 1953
+			owns = 1816
+			owns = 1942
+		}
+		effect = {
+			set_country_flag = hegemony_west_africa
+			set_global_flag = hegemony_wafrica
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_nafrica = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_nafrica}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 1691
+			owns = 1680
+			owns = 1687
+			owns = 1700
+			owns = 1725
+			owns = 1731
+			owns = 1735
+			owns = 1753
+			owns = 1751
+			owns = 1745
+			owns = 1705
+			owns = 1695
+			owns = 1755
+		}
+		effect = {
+			set_country_flag = hegemony_north_africa
+			set_global_flag = hegemony_nafrica
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_cafrica = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_cafrica}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 1958
+			owns = 1961
+			owns = 1966
+			owns = 1974
+			owns = 2624
+			owns = 1983
+			owns = 1994
+			owns = 1993
+			owns = 1997
+			owns = 1989
+			owns = 2020
+			owns = 2034
+			owns = 2042
+			owns = 2045
+			owns = 2017
+			owns = 2027
+			owns = 2030
+			owns = 1845
+		}
+		effect = {
+			set_country_flag = hegemony_central_africa
+			set_global_flag = hegemony_cafrica
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_safrica = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_safrica}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 2087
+			owns = 2096
+			owns = 2092
+			owns = 2111
+			owns = 2103
+			owns = 2105
+			owns = 2083
+			owns = 2049
+			owns = 2057
+			owns = 2003
+			owns = 1999
+			owns = 2002
+			owns = 2069
+			owns = 790
+		}
+		effect = {
+			set_country_flag = hegemony_south_africa
+			set_global_flag = hegemony_safrica
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_meast = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_meast}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 918
+			owns = 913
+			owns = 902
+			owns = 897
+			owns = 926
+			owns = 923
+			owns = 1157
+			owns = 1151
+			owns = 1412
+			owns = 1166
+			owns = 1168
+			owns = 1132
+			owns = 932
+			owns = 1108
+			owns = 1102
+		}
+		effect = {
+			set_country_flag = hegemony_middle_east
+			set_global_flag = hegemony_meast
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_india = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_ind}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			OR = {
+				AND = {
+					all_core = {
+						owned_by = HND
+					}
+					HND = {in_sphere = THIS}
+				}
+				HND = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+			owns = 1214
+			owns = 1209
+			owns = 1332
+		}
+		effect = {
+			set_country_flag = hegemony_india
+			set_global_flag = hegemony_ind
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_oceania = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_oceana}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 1384
+			owns = 1405
+			owns = 1403
+			owns = 1413
+			owns = 1446
+			owns = 1426
+			owns = 1393
+			owns = 1430
+			owns = 1453
+			owns = 2528
+			owns = 2530
+			owns = 2497
+			owns = 2476
+			owns = 2468
+			owns = 2485
+			owns = 2505
+			owns = 2516
+		}
+		effect = {
+			set_country_flag = hegemony_oceania
+			set_global_flag = hegemony_oceana
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_schina = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_schin}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 1346
+			owns = 1380
+			owns = 1369
+			owns = 1455
+			owns = 1460
+			owns = 1463
+			owns = 1498
+			owns = 1496
+			owns = 2562
+			owns = 1377
+			owns = 1367
+			owns = 1482
+			owns = 1495
+			owns = 1608
+		}
+		effect = {
+			set_country_flag = hegemony_south_china
+			set_global_flag = hegemony_schin
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
+	
+	heg_nchina = {
+		potential = {
+			is_greater_power = yes
+			has_country_flag = hegemonyopened
+			NOT = {has_global_flag = hegemony_nchin}
+		}
+		allow = {
+			war = no
+			NOT = {has_country_modifier = cooldown}
+			owns = 1538
+			owns = 1566
+			owns = 1481
+			owns = 1619
+			owns = 1627
+			owns = 1624
+			owns = 1635
+			owns = 1661
+			owns = 1082
+			owns = 1555
+			owns = 1642
+			owns = 1087
+			owns = 2641
+			owns = 1074
+		}
+		effect = {
+			set_country_flag = hegemony_north_china
+			set_global_flag = hegemony_nchin
+			prestige = 25
+			any_greater_power = {country_event = {id = 19000215 days = 1} }
+			add_country_modifier = {
+				name = cooldown
+				duration = 1825
+			}
+		}
+	}
 }

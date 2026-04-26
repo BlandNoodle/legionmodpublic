@@ -322,12 +322,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			literacy = 0.5
+			revolution_n_counterrevolution = 1
 			NOT = {unemployment = 0.05}
 		}
 		
 		effect = {
-			prestige = 5
+			prestige = 15
 			add_accepted_culture = south_italian
 			any_owned = {
 				limit = {

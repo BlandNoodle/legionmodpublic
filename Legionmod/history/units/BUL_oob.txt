@@ -1,12 +1,12 @@
 army = {
 	name = "Bulgar Legion"
 	leader = {
-		name = "Bulgaria Strong"
+		name = "Brasil Ball"
 		date = 1830.1.1
 		type = land
-		personality = defence_4.1
-		background = attack_1.1
-		prestige = 0.3
+		personality = defence_3.1
+		background = attack_4.1
+		prestige = 0.8
 	}
 	location = 809
 	regiment = {

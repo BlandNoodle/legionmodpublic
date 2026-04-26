@@ -960,7 +960,7 @@ acquire_state_tiny = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#THIS = { NOT = { primary_culture = hans } }
@@ -1171,7 +1171,7 @@ acquire_state_small = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -1488,7 +1488,7 @@ acquire_state_medium = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -1701,7 +1701,7 @@ acquire_state_large = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -1916,7 +1916,7 @@ acquire_state_huge = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -2131,7 +2131,7 @@ place_in_the_sun_tiny = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -2218,7 +2218,7 @@ place_in_the_sun_small = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -2304,7 +2304,7 @@ place_in_the_sun_medium = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -2390,7 +2390,7 @@ place_in_the_sun_large = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -2476,7 +2476,7 @@ place_in_the_sun_huge = {
 			NOT = { primary_culture = hans }
 			AND = {
 				primary_culture = hans
-				THIS = {invention = colonial_negotiations}
+				year = 1880
 			}
 		}
 		#this = { NOT = { primary_culture = hans } }
@@ -3619,6 +3619,13 @@ demand_concession_casus_belli_tiny = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				year = 1880
+			}
+		}
 		#NOT = { primary_culture = hans }
 		#this = { NOT = { primary_culture = hans } }
 		
@@ -3694,6 +3701,13 @@ demand_concession_casus_belli_small = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				year = 1880
+			}
+		}
 		#NOT = { primary_culture = hans }
 		#this = { NOT = { primary_culture = hans } }
 		
@@ -3769,6 +3783,13 @@ demand_concession_casus_belli_medium = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				year = 1880
+			}
+		}
 		#NOT = { primary_culture = hans }
 		#this = { NOT = { primary_culture = hans } }
 		
@@ -3844,6 +3865,13 @@ demand_concession_casus_belli_large = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				year = 1880
+			}
+		}
 		#NOT = { primary_culture = hans }
 		#this = { NOT = { primary_culture = hans } }
 		
@@ -3919,6 +3947,13 @@ demand_concession_casus_belli_huge = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				year = 1880
+			}
+		}
 		#NOT = { primary_culture = hans }
 		#this = { NOT = { primary_culture = hans } }
 		

@@ -391,4 +391,22 @@ political_decisions = {
 			clr_country_flag = panic37
 		}
 	}
+	
+	civilwarhappen = {
+		potential = {
+			tag = USA
+			has_country_flag = the_slavery_debate
+			NOT = {has_global_flag = american_civil_war_has_happened}
+			NOT = {has_country_flag = civilwarhappened}
+		}
+		allow = {
+			year = 1870
+			war = no
+		}
+		effect = {
+			prestige = -5
+			country_event = {id = 16000 days = 1}
+			set_country_flag = civilwarhappened
+		}
+	}
 }
