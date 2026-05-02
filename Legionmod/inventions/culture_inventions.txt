@@ -1504,6 +1504,9 @@ heg_north_africa = {
 		tank = {
 			maximum_speed = 1
 		}
+		plane = {
+			maximum_speed = 1
+		}
 	}
 }
 

@@ -1003,6 +1003,7 @@ acquire_state_tiny = {
 				civilized = no
 				THIS = {
 					civilized = no
+					NOT = { tag = CHI }
 				}
 			}
 		}
@@ -1219,6 +1220,7 @@ acquire_state_small = {
 				civilized = no
 				THIS = {
 					civilized = no
+					NOT = { tag = CHI }
 				}
 			}
 		}
@@ -1532,6 +1534,7 @@ acquire_state_medium = {
 				civilized = no
 				THIS = {
 					civilized = no
+					NOT = { tag = CHI }
 				}
 			}
 		}
@@ -1745,6 +1748,7 @@ acquire_state_large = {
 				civilized = no
 				THIS = {
 					civilized = no
+					NOT = { tag = CHI }
 				}
 			}
 		}
@@ -1960,6 +1964,7 @@ acquire_state_huge = {
 				civilized = no
 				THIS = {
 					civilized = no
+					NOT = { tag = CHI }
 				}
 			}
 		}
@@ -3587,8 +3592,8 @@ humiliate = {
 		}
 	}
 	on_po_accepted = {
-		prestige_factor = -0.2
-		THIS = { prestige_factor = 0.05 }
+		prestige_factor = -0.25
+		THIS = { prestige_factor = 0.5 }
 	}
 }
 
@@ -4345,7 +4350,7 @@ rude_boy = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
 		NOT = { is_our_vassal = THIS }
-		badboy = 1
+		badboy = 1.3
 	}
 	
 	po_remove_prestige = yes
@@ -4649,8 +4654,13 @@ take_capital = {
 	can_use = {
 		NOT = { tag = LIC }
 		NOT = { tag = GHO }
-		#NOT = { primary_culture = hans }
-		#this = { NOT = { primary_culture = hans } }
+		OR = {
+			NOT = { primary_culture = hans }
+			AND = {
+				primary_culture = hans
+				year = 1880
+			}
+		}
 		
 		NOT = { 
 			OR = { 
@@ -4695,6 +4705,7 @@ take_capital = {
 				civilized = yes
 				THIS = {
 					civilized = no
+					NOT = { tag = CHI }
 				}
 			}
 		}

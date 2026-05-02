@@ -104,7 +104,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			literacy = 0.1
+			literacy = 0.15
 		}
 		effect = {
 			years_of_research = 4

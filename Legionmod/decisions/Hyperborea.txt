@@ -1232,4 +1232,22 @@ expand_naval_base = {
 			}
 		}
 	}
+	
+	general_fix = {
+		potential = {
+			ai = no
+			has_country_flag = choosing
+			NOT = {
+				OR = {
+					has_leader = "Goku"
+					has_leader = "Frieza"
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = choosing
+		}
+	}
 }

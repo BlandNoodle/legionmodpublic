@@ -1,12 +1,10 @@
-PER = { truce_until = 1840.1.1 }
-
 
 leader = {
 	name = "Dost Mohammed"
 	type = land
 	date = 1836.1.1
-	personality = stalwart
-	background = debutante
+	personality = defence_2.1
+	background = attack_1.1
 }
 
 leader = {

@@ -72,7 +72,7 @@
     bureaucrats = {
         culture = azerbaijani
         religion = shiite
-        size = 48
+        size = 548
     }
 
     clergymen = {

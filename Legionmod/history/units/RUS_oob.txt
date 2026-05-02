@@ -14,7 +14,7 @@ GEO = {
 }
 
 AZB = {
-	value = 125
+	value = 100
 	level = 4
 	influence_value = 25
 }
