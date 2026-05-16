@@ -329,14 +329,15 @@ country_event = {
 		name = "EVTOPTC19000170"
 		prestige = 10
 		leave_alliance = TUR
+		badboy = -10
 		casus_belli = {
 			target = TUR
-			type = free_peoples_medium country = ROM
+			type = humiliate
 			months = 24
 		}
 		war = {
 			target = TUR
-			attacker_goal = { casus_belli = free_peoples_medium country = ROM }
+			attacker_goal = { casus_belli = humiliate }
 			defender_goal = { casus_belli = humiliate }
 			call_ally = yes
 		}
@@ -485,14 +486,15 @@ country_event = {
 	option = {
 		name = "EVTOPTA19000177"
 		prestige = 10
+		badboy = -5
 		casus_belli = {
 			target = TUR
-			type = free_peoples_small country = ROM
+			type = humiliate
 			months = 24
 		}
 		war = {
 			target = TUR
-			attacker_goal = { casus_belli = free_peoples_small country = ROM }
+			attacker_goal = { casus_belli = humiliate }
 			defender_goal = { casus_belli = humiliate }
 			call_ally = yes
 		}

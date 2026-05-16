@@ -1093,19 +1093,16 @@ expand_naval_base = {
 		allow = {
 			war = no
 			NOT = {has_country_modifier = cooldown}
-			OR = {
-				AND = {
-					all_core = {
-						owned_by = HND
-					}
-					HND = {in_sphere = THIS}
-				}
-				HND = {
-					all_core = {
-						owned_by = THIS
-					}
-				}
-			}
+			owns = 1322
+			owns = 1307
+			owns = 1251
+			owns = 1297
+			owns = 1291
+			owns = 1236
+			owns = 1229
+			owns = 1288
+			owns = 1222
+			owns = 1272
 			owns = 1214
 			owns = 1209
 			owns = 1332
