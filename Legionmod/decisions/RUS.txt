@@ -218,8 +218,13 @@ political_decisions = {
 		}
 		
 		allow = {
-			exists = ROM
-			is_sphere_leader_of = ROM
+			OR = {
+				AND = {
+					owns = 664
+					owns = 672
+				}
+				is_sphere_leader_of = ROM
+			}
 			NOT = {
 				relation = {
 					who = TUR

@@ -2794,7 +2794,7 @@ free_peoples_tiny = {
 	can_use = {
 		NOT = { tag = LIC tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		
-		NOT = { year = 1870 }
+		
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2873,7 +2873,7 @@ free_peoples_small = {
 	can_use = {
 		NOT = { tag = LIC tag = GHO  tag = TIN tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		
-		NOT = { year = 1870 }
+		
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -2952,7 +2952,7 @@ free_peoples_medium = {
 	can_use = {
 		NOT = { tag = LIC tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		
-		NOT = { year = 1870 }
+		
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -3031,7 +3031,7 @@ free_peoples_large = {
 	can_use = {
 		NOT = { tag = LIC tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		
-		NOT = { year = 1870 }
+		
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
@@ -3110,7 +3110,7 @@ free_peoples_huge = {
 	can_use = {
 		NOT = { tag = LIC tag = GHO  tag = TIN	tag = SMA  tag = MED  tag = LRG  tag = HUG }
 		
-		NOT = { year = 1870 }
+		
 		NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } }
 		THIS = { NOT = { OR = { has_country_modifier = neutrality has_country_modifier = generic_neutrality } } 
 		}
