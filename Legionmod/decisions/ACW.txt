@@ -153,28 +153,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
-	custers_expedition = {
-		potential = {
-			tag = USA
-			NOT = {
-				has_country_flag = custers_expedition_sent
-			}
-			owns = 122
-			year = 1874
-		}
-		
-		allow = {
-			122 = {
-				units_in_province = 1
-			}
-		}
-		
-		effect = {
-			prestige = 1
-			set_country_flag = custers_expedition_sent
-		}
-	}
+
 	
 	enact_the_homestead_act = {
 		potential = {
@@ -195,25 +174,6 @@ political_decisions = {
 				name = the_homestead_act
 				duration = -1
 			}
-		}
-	}
-			
-	bixby_letter = {
-		potential = {
-			tag = USA
-			not = {
-				has_country_flag = bixby_letter_sent
-			}
-			war_with = CSA
-		}
-		
-		allow = {
-			war_exhaustion = 6
-		}
-		
-		effect = {
-			set_country_flag = bixby_letter_sent
-			war_exhaustion = -2
 		}
 	}
 	
@@ -389,132 +349,6 @@ political_decisions = {
 	
 		}
 	}
-	gag_rule = {
-		potential = {
-			tag = USA
-			average_consciousness = 1
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = house_gag_rule_enacted
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 3
-		}
-		
-		effect = {
-			any_pop = {
-				consciousness = -1
-			}
-			set_country_flag = house_gag_rule_enacted
-		}
-	}
-
-	clay_and_douglas_draft = {
-		
-		potential = {
-			tag = USA
-			average_consciousness = 3
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = clay_and_douglas_draft_enacted
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 4
-		}
-		
-		effect = {
-			any_pop = {
-				consciousness = -2
-			}
-			set_country_flag = clay_and_douglas_draft_enacted
-		}
-	}
-	
-	corwin_amendment = {
-		
-		potential = {
-			tag = USA
-			average_consciousness = 4
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = corwin_amendment_enacted
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 7
-		}
-		
-		effect = {
-			any_pop = {
-				consciousness = -2
-			}
-			set_country_flag = corwin_amendment_enacted
-		}
-	}
-	
-	fugitive_slave_act = {
-		potential = {
-			tag = USA
-			average_consciousness = 4
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = fugitive_slave_act_enacted
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 5
-		}
-		
-		effect = {
-			any_state = {
-				limit = {
-					is_slave = yes
-				}
-				any_pop = {
-					consciousness = -2
-				}
-			}
-			set_country_flag = fugitive_slave_act_enacted
-		}
-	}
-	
-	nashville_convention = {
-		potential = {
-			tag = USA
-			average_consciousness = 5
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = nashville_convention_held
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 6
-		}
-		
-		effect = {
-			any_state = {
-				limit = {
-					is_slave = yes
-				}
-				any_pop = {
-					consciousness = -3
-				}
-			}
-			set_country_flag = nashville_convention_held
-		}
-	}
 	
 	ostend_manifesto = {
 		potential = {
@@ -562,82 +396,6 @@ political_decisions = {
 				factor = 0
 				prestige = 25
 			}
-		}
-	}
-	
-	kansas_nebraska_act = {
-		potential = {
-			tag = USA
-			average_consciousness = 1
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = kansas_nebraska_act_acting
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 3
-		}
-		
-		effect = {
-			any_state = {
-				limit = {
-					is_slave = yes
-				}
-				any_pop = { consciousness = -2 }
-			}
-			any_state = {
-				limit = {
-					is_slave = no
-				}
-				any_pop = { consciousness = 1 }
-			}
-			set_country_flag = kansas_nebraska_act_acting
-		}
-	}
-	
-	wilmot_proviso = {
-		potential = {
-			tag = USA
-			average_consciousness = 1
-			slavery = yes_slavery
-			NOT = {
-				has_country_flag = wilmot_proviso_providing
-				has_global_flag = american_civil_war_has_happened
-			}
-		}
-		
-		allow = {
-			average_consciousness = 4
-			owns = 103
-			owns = 104
-			owns = 105
-			owns = 108
-			owns = 107
-			owns = 84
-			owns = 87
-			owns  = 89
-		}
-		
-		effect = {
-			any_state = {
-				limit = {
-					is_slave = no
-				}
-				any_pop = {
-					consciousness = -2
-				}
-			}
-			any_state = {
-				limit = {
-					is_slave = yes
-				}
-				any_pop = {
-					consciousness = 1
-				}
-			}
-			set_country_flag = wilmot_proviso_providing
 		}
 	}
 	
@@ -757,9 +515,6 @@ political_decisions = {
 		
 		allow = {
 			money = 500001
-			NOT = {
-				average_militancy = 4
-			}
 		}
 		effect = {
 			money = -500000
@@ -768,8 +523,8 @@ political_decisions = {
 				limit = {
 					has_pop_culture = dixie
 				}
-				consciousness = -5
-				militancy = -5
+				consciousness = -4
+				militancy = -2
 			}
 			set_country_flag = has_used_radical_reconstruction
 		}

@@ -1979,6 +1979,16 @@ active_war = {
 	icon = 4
 }
 
+inward_perfection = {
+	mobilisation_size = -0.02
+	administrative_efficiency_modifier = 0.25
+	cb_generation_speed_modifier = -0.5
+	influence_modifier = -1
+	army_tech_research_bonus = -0.15
+	culture_tech_research_bonus = 0.1
+	icon = 17
+}
+
 hegemony_reaction = {	
 	prestige = -0.02
 	cb_generation_speed_modifier = 0.33

@@ -977,16 +977,20 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		
+		activate_technology = ideological_thought
 	}
 	
 	option = {
 		name = "EVTOPTC19000150"
-		set_country_flag = pacific_focus
+		set_country_flag = inward_focus
 		ai_chance = {
 			factor = 1
 		}
-
+		activate_technology = positivism
+		add_country_modifier = {
+			name = inward_perfection
+			duration = 8760
+		}
 	}
 }
 
@@ -1092,6 +1096,48 @@ country_event = {
 			}
 		ai_chance = {
 			factor = 99
+		}
+	}
+	
+}
+
+###Ukrainians###
+country_event = {
+	id = 19000219
+	title = "EVTNAME19000219"
+	desc = "EVTDESC19000219"
+	picture = "ukraini"
+	
+	trigger = {
+		any_owned_province = {
+			AND = {
+				is_core = UKR
+				NOT = {
+					has_province_modifier = bread_basketm
+				}
+			}
+		}
+		THIS = {
+			NOT = {
+				tag = UKR
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTA19000219"
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			add_province_modifier = {
+				name = bread_basketm
+				duration = -1
+			}
 		}
 	}
 	

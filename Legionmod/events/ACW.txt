@@ -11,11 +11,9 @@ country_event = {
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
 		}
-		has_country_flag = john_browns_raid
-		has_country_flag = dred_scott_decision
-		upper_house = {
-			ideology = liberal
-			value = 0.4
+		AND = {
+			year = 1861
+			month = 4
 		}
 	}
 	
@@ -27,27 +25,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
-		modifier = {
-			factor = 20
-			NOT = {
-				year = 1845
-			}
-		}
-		modifier = {
-			factor = 10
-			year = 1845
-			NOT = {
-				year = 1855
-			}
-		}
-		modifier = {
-			factor = 5
-			year = 1855
-			NOT = {
-				year = 1860
-			}
-		}
+		days = 1
 	}
 	
 	option = {
@@ -189,38 +167,14 @@ country_event = {
 			has_country_flag = john_browns_raid
 			has_global_flag = american_civil_war_has_happened
 		}
-		any_state = {
-			is_slave = no
-			average_consciousness = 6
-		}
-		upper_house = {
-			ideology = liberal
-			value = 0.1
+		AND = {
+			year = 1859
+			month = 10
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 10
-		modifier = {
-			factor = 20
-			NOT = {
-				year = 1845
-			}
-		}
-		modifier = {
-			factor = 10
-			year = 1845
-			NOT = {
-				year = 1855
-			}
-		}
-		modifier = {
-			factor = 5
-			year = 1855
-			NOT = {
-				year = 1860
-			}
-		}
+		days = 1 
 	}
 	
 	option = {
@@ -250,38 +204,14 @@ country_event = {
 			has_country_flag = dred_scott_decision
 			has_global_flag = american_civil_war_has_happened
 		}
-		any_state = {
-			is_slave = yes
-			average_consciousness = 5
-		}
-		upper_house = {
-			ideology = liberal
-			value = 0.1
+		AND = {
+			year = 1857
+			month = 3
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 10
-		modifier = {
-			factor = 20
-			NOT = {
-				year = 1845
-			}
-		}
-		modifier = {
-			factor = 10
-			year = 1845
-			NOT = {
-				year = 1855
-			}
-		}
-		modifier = {
-			factor = 5
-			year = 1855
-			NOT = {
-				year = 1860
-			}
-		}
+		days = 1
 	}
 	
 	option = {

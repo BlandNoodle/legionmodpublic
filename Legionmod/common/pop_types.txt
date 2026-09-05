@@ -280,11 +280,18 @@ migration_chance =
 #stop indian and chinese takeovers
 	group = {
 
+		modifier = {
+			factor = -1000000
+			state_scope = {is_colonial = yes}
+			culture = hans
+		}
 		
 		modifier = {
-			factor = -100000
-			culture = hans
+			factor = 10000000
 			state_scope = {is_colonial = yes}
+			culture = indians
+			NOT = {is_core = HND}
+			NOT = {tag = HND}
 		}
 	}
 
@@ -888,16 +895,6 @@ emigration_chance =
 	
 ###Negative Factors for Emigration (good)###
 
-#Stop the indian and chinese takeovers
-
-	group = {
-
-		modifier = {
-			factor = -1000000
-			state_scope = {is_colonial = yes}
-			culture = hans
-		}
-	}
 #If pop group is at least 1/2/3/4/5/6/7/8/9/9.9	consciousness, then -0.05% chance to emigrate for each threshold.	(-0.25% total)
 	group = {
 		modifier = {
@@ -1059,16 +1056,6 @@ emigration_chance =
 assimilation_chance = {
 	factor = 1
 	
-#Indian solution
-	group = {
-		modifier = {
-			factor = 10000000
-			state_scope = {is_colonial = yes}
-			culture = indians
-			NOT = {is_core = HND}
-			NOT = {tag = HND}
-		}
-	}
 
 #IMPORTANT DO NOT DELETE - blocks assimilation if the state is colonial and/or the country trying to assimilate pops is unciv and/or the pop is below 100% life needs.	
 	modifier = {
@@ -1076,6 +1063,18 @@ assimilation_chance = {
 		OR = {
 			AND = {
 				has_pop_culture = afro_american
+				country = {
+					is_culture_group = american_cultures
+				}
+			}
+			AND = {
+				has_pop_culture = dixie
+				country = {
+					is_culture_group = american_cultures
+				}
+			}
+			AND = {
+				has_pop_culture = anglo_canadian
 				country = {
 					is_culture_group = american_cultures
 				}

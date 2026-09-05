@@ -165,17 +165,125 @@ political_decisions = {
 			any_pop = {
 				militancy = -1
 			}
-			country_event = {id = 19000185 days=0}
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					relation = {
-						who = USA
-						value = 100
-					}
+	}
+	
+	statue_to_usa = {
+		potential = {
+			tag = FRA
+			has_global_flag = statue_of_liberty_has_been_built
+			NOT = {has_country_flag = statue_received}
+			exists = USA
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = statue_received
+			USA = {
+				add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+				}
+			}
+		}
+	}
+	statue_to_can = {
+		potential = {
+			tag = FRA
+			has_global_flag = statue_of_liberty_has_been_built
+			NOT = {has_country_flag = statue_received}
+			exists = CAN
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = statue_received
+			CAN = {
+				add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+				}
+			}
+		}
+	}
+	statue_to_mex = {
+		potential = {
+			tag = FRA
+			has_global_flag = statue_of_liberty_has_been_built
+			NOT = {has_country_flag = statue_received}
+			exists = MEX
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = statue_received
+			MEX = {
+				add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+				}
+			}
+		}
+	}
+	statue_to_uca = {
+		potential = {
+			tag = FRA
+			has_global_flag = statue_of_liberty_has_been_built
+			NOT = {has_country_flag = statue_received}
+			exists = UCA
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = statue_received
+			UCA = {
+				add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+				}
+			}
+		}
+	}
+	statue_to_brz = {
+		potential = {
+			tag = FRA
+			has_global_flag = statue_of_liberty_has_been_built
+			NOT = {has_country_flag = statue_received}
+			exists = BRZ
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = statue_received
+			BRZ = {
+				add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
+				}
+			}
+		}
+	}
+	statue_to_pbv = {
+		potential = {
+			tag = FRA
+			has_global_flag = statue_of_liberty_has_been_built
+			NOT = {has_country_flag = statue_received}
+			exists = PBV
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = statue_received
+			PBV = {
+				add_country_modifier = {
+				name = the_statue_of_liberty
+				duration = -1
 				}
 			}
 		}

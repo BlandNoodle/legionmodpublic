@@ -93,6 +93,7 @@ political_decisions = {
 		}
 		
 		allow = {
+			ai = no
 			war = no
 			owns = 2305
 			experimental_railroad = 1

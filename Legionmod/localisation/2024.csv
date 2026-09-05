@@ -117,8 +117,8 @@ choosethebuild_desc;As a backwards but politically powerful nation, we have the 
 EVTNAME19000150;Picking the Build;;;;;;;x
 EVTDESC19000150;Our advisors have agreed to three options we have to secure our position as a Great European Power, which do you prefer?;;;;;;x
 EVTOPTA19000150;Early Game Russia (Europe);;;;;;x
-EVTOPTB19000150;Central Asia Focus (Sleeper Build);;;;;;x
-EVTOPTC19000150;Pacific Coast Party! (Colonies);;;;;;x
+EVTOPTB19000150;Central Asia (Sleeper Build);;;;;;x
+EVTOPTC19000150;Inward-Perfection (0 Game Impact);;;;;;x
 thefourthoption_title;The Fourth Option;;;;;;;x
 thefourthoption_desc;Appearantly, a council of wizards has arrived from 'Hyperborea' to give advice to the Tsar, they were late due to poor temporal weather, whatever the hell that means. Since you didn't opt for any of the other advisors offers perhaps its worth hearing them out;;;;;;x
 gameimpact;Game Impact In-Progress;;;;;;x

@@ -156,7 +156,7 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
-					is_core = GEO
+					culture = georgian
 				}
 				add_province_modifier = {
 					name = assimilation_buff
@@ -520,31 +520,6 @@ political_decisions = {
 			951 = { any_pop = { limit = { has_pop_culture = polish } move_pop = 708 } }
 		}
 		ai_will_do = { factor = 1 }
-	}
-	ukraine_slava = {
-		potential = {
-			AND = {
-				accepted_culture = ukrainian
-				owns = 958
-			}
-		NOT = { has_country_flag = get_to_work }
-		}
-		allow = {
-			mechanical_production = 1
-			money = 200001
-		}
-		effect = {
-			money = -200000
-			any_owned = {
-				limit = {
-					culture = ukrainian
-				}
-				add_province_modifier = {
-				name = bread_basketm
-				duration = -1 }
-			}
-		set_country_flag = get_to_work
-		}
 	}
 	
 	russianpersia = {

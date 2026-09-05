@@ -6,37 +6,6 @@ auftragstaktik_desc;Germany got shootas;;;;;;x
 EVTNAME19000214;Imperial Hegemony;;;;;;;x
 EVTDESC19000214;The Hegemony Decisions are now available! Happy hunting.....;;;;;;x
 EVTOPTA19000214;Gaming....;;;;;;x
-heg_central_africa;Hegemony of Central Africa;;;;;;x
-heg_central_africa_desc;Hegemony of Central Africa;;;;;;x
-hegemony_central_africa;Hegemony over Central Africa;;;;;;;x
-heg_north_africa;Hegemony of North Africa;;;;;;x
-heg_north_africa_desc;Hegemony of North Africa;;;;;;x
-hegemony_north_africa;Hegemony over North Africa;;;;;;;x
-heg_west_africa;Hegemony of West Africa;;;;;;x
-heg_west_africa_desc;Hegemony of West Africa;;;;;;x
-hegemony_west_africa;Hegemony over West Africa;;;;;;;x
-heg_south_africa;Hegemony of South Africa;;;;;;x
-heg_south_africa_desc;Hegemony of South Africa;;;;;;x
-hegemony_south_africa;Hegemony over South Africa;;;;;;;x
-heg_middle_east;Hegemony of the Middle East;;;;;;x
-heg_middle_east_desc;Hegemony of the Middle East;;;;;;x
-hegemony_middle_east;Hegemony over the Middle East;;;;;;;x
-heg_india;Hegemony of India;;;;;;x
-heg_india_desc;Hegemony of India;;;;;;x
-hegemony_india;Hegemony over India;;;;;;;x
-heg_oceania;Hegemony of Oceania;;;;;;x
-heg_oceania_desc;Hegemony of Oceania;;;;;;x
-hegemony_oceania;Hegemony over Oceania;;;;;;;x
-heg_south_china;Hegemony of South China;;;;;;x
-heg_south_china_desc;Hegemony of South China;;;;;;x
-hegemony_south_china;Hegemony over South China;;;;;;;x
-heg_north_china;Hegemony of North China;;;;;;x
-heg_north_china_desc;Hegemony of North China;;;;;;x
-hegemony_north_china;Hegemony over North China;;;;;;;x
-openhegemony_title;Open Hegemony Decisions;;;;;;x
-openhegemony_desc;These decisions grant an exclusive, permanent technology unlock for owning an entire region as a great power.\n§RNo one else can claim the same hegemony after it has been claimed.\nAll other Great Powers will lose infamy, get increased CB generation speed, and a small mobilization bonus when you declare a hegemony!;;;;;;x
-closehegemony_title;Close Hegemony Decisions;;;;;;;x
-closehegemony_desc;Get this off my screen!;;;;;;;;x
 EVTNAME19000215;$FROMCOUNTRY$ Declares Hegemony!;;;;;;x
 EVTDESC19000215;$FROMCOUNTRY$ has grown bold enough to declare that they and they alone control a significant chunk of the world and that no-one can stop them from not only believing so but actually practicing such a belief. Citizens across our nation, across every race, background, and class have taken it as a personal slight and have unified, at least for now.;;;;;;;x
 EVTOPTA19000215;§RPerhaps we should put $FROMCOUNTRY$ in their place.....;;;;;;;x
@@ -78,3 +47,21 @@ EVTOPTA19000218;§RMy eyes are blinded by rage;;;;;;;x
 general_fix_title;General Event Fix;;;;;;;x
 general_fix_desc;Use this if you have no Goku or Frieza and aren't getting the event.\nIf you use this to spam the general event, the host will give you sanctions/max infamy;;;;;;x
 PER_1144;Sistan;;;;;;;x
+SAR_469;Southern Savoie;;;;;;;;x
+statue_to_usa_title;Give it to USA;;;;;;;x
+statue_to_usa_desc;Rather self-explanatory;;;;;;x
+statue_to_can_title;Give it to Canada;;;;;;;x
+statue_to_can_desc;Rather self-explanatory;;;;;;x
+statue_to_mex_title;Give it to Mexico;;;;;;;x
+statue_to_mex_desc;Rather self-explanatory;;;;;;x
+statue_to_uca_title;Give it to Central America;;;;;;;x
+statue_to_uca_desc;Why;;;;;;x
+statue_to_pbv_title;Give it to Peru-Bolivia;;;;;;;x
+statue_to_pbv_desc;evil;;;;;;x
+statue_to_brz_title;Give it to Brasil;;;;;;;x
+statue_to_brz_desc;Brasil melhor do mundo;;;;;;x
+inward_perfection;Inward Perfection;;;;;;;x
+inward_perfection_desc;The Flesh is Weak;;;;;;;;x
+EVTNAME19000219;Slava Ukraini;;;;;;;;x
+EVTDESC19000219;The Ukrainians yearn for the fields.;;;;;;;x
+EVTOPTA19000219;Oink.;;;;;;;;;;;x

@@ -1284,9 +1284,9 @@
     }
 
     bureaucrats = {
-        culture = ukrainian
+        culture = russian
         religion = orthodox
-        size = 250
+        size = 550
     }
 
     officers = {
@@ -1979,8 +1979,8 @@
     }
 
     bureaucrats = {
-        culture = tatar
-        religion = sunni
+        culture = russian
+        religion = orthodox
         size = 750
     }
 
@@ -2559,7 +2559,7 @@
     }
 
     bureaucrats = {
-        culture = ukrainian
+        culture = russian
         religion = orthodox
         size = 75
     }
@@ -3249,9 +3249,9 @@
     }
 
     bureaucrats = {
-        culture = ukrainian
+        culture = russian
         religion = orthodox
-        size = 50
+        size = 150
     }
 
     officers = {

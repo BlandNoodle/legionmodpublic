@@ -161,7 +161,7 @@ political_decisions = {
 	siberian_ports = {
 		picture = "begin_drain"
 		potential = {
-			has_country_flag = pacific_focus
+			has_country_flag = inward_focus
 			tag = RUS
 			NOT = {has_country_flag = starttheports}
 		}
@@ -230,66 +230,11 @@ political_decisions = {
 		}
 	}
 	
-	alaskan_ports = {
-		picture = "begin_drain"
-		potential = {
-			has_country_flag = pacific_focus
-			tag = RUS
-			has_country_flag = starttheports
-			NOT = {has_country_flag = alaskaports}
-		}
-		allow = {
-			money = 100000
-			1 = {
-				owned_by = THIS
-				has_building = naval_base
-			}
-			NOT = {battleship_column_doctrine = 1}
-		}
-		effect = {
-			money = -100000
-			prestige = 10
-			1 = {
-				add_province_modifier = {
-					name = pacific_ports
-					duration = -1
-				}
-				life_rating = 10
-			}
-			2 = {
-				life_rating = 10
-			}
-			3 = {
-				life_rating = 10
-			}
-			4 = {
-				life_rating = 10
-			}
-			5 = {
-				life_rating = 10
-			}
-			2630 = {
-				secede_province = THIS
-				life_rating = 15
-			}
-			2631 = {
-				secede_province = THIS
-				life_rating = 15
-			}
-			2599 = {
-				secede_province = THIS
-				life_rating = 15
-			}
-			random_owned = { limit = { owner = { NOT = {battleship_column_doctrine = 1 } } } owner = { activate_technology = battleship_column_doctrine } }
-			set_country_flag = alaskaports
-		}
-	}
-	
 	far_east_armory = {
 		picture = "Emergency_ship_building_effort"
 		potential = {
 			owns = 1082
-			has_country_flag = pacific_focus
+			has_country_flag = inward_focus
 			NOT = {has_country_flag = armory_up}
 		}
 		allow = {
@@ -313,85 +258,6 @@ political_decisions = {
 		}
 	}
 	
-	oregon_party = {
-		potential = {
-			has_country_flag = pacific_focus
-			tag = RUS
-			has_country_flag = alaskaports
-			NOT = {has_country_flag = oregonparty}
-		}
-		allow = {
-			1 = {
-				owned_by = THIS
-			}
-			NOT = {badboy = 0.4}
-			iron_breech_loaded_artillery = 1
-		}
-		effect = {
-			set_country_flag = oregonparty
-			ENG_22 = {add_core = THIS}
-			USA_78 = {add_core = THIS}
-			USA_81 = {add_core = THIS}
-			USA_91 = {add_core = THIS}
-			USA_116 = {add_core = THIS}
-			USA_1 = {
-				add_province_modifier = {
-					name = britishraj
-					duration = 3650
-				}
-			}
-			badboy = 24
-		}
-	}
 	
-	russian_naval_guns = {
-		picture = "Emergency_ship_building_effort"
-		potential = {
-			tag = RUS
-			has_country_flag = pacific_focus
-			has_country_flag = starttheports
-			NOT = {has_country_flag = gunnaz}
-		}
-		allow = {
-			fire_control_systems = 1
-			steel_breech_loaded_artillery = 1
-			iron_steamers = 1
-			money = 500000
-		}
-		effect = {
-			set_country_flag = gunnaz
-			treasury = -500000
-			prestige = 10
-			random_owned = { limit = { owner = { NOT = {main_armament = 1 } } } owner = { activate_technology = main_armament } }
-			random_owned = { limit = { owner = { NOT = {weapon_platforms = 1 } } } owner = { activate_technology = weapon_platforms } }
-		}
-	}
 	
-	pacific_coast_party = {
-		potential = {
-			tag = RUS
-			has_country_flag = pacific_focus
-			NOT = {has_country_flag = partyrockers}
-			owns = 1082
-			owns = 1
-			owns = 78
-		}
-		allow = {
-			owns = 1082
-			owns = 1
-			owns = 78
-			owns = 81
-			owns = 89
-			owns = 14
-			owns = 1481
-			owns = 1628
-			owns = 2562
-			money = 2000000
-		}
-		effect = {
-			treasury = -2000000
-			country_event = {id = 19000187 days = 1}
-			set_country_flag = partyrockers
-		}
-	}
 }
