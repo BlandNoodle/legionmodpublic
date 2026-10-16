@@ -65,3 +65,11 @@ inward_perfection_desc;The Flesh is Weak;;;;;;;;x
 EVTNAME19000219;Slava Ukraini;;;;;;;;x
 EVTDESC19000219;The Ukrainians yearn for the fields.;;;;;;;x
 EVTOPTA19000219;Oink.;;;;;;;;;;;x
+spain_choice_title;Choose Your Path;;;;;;;x
+spain_choice_desc;The colony path lets you accept filipino and maghrebi. It also gives cores on your caribbean land. The South America path helps you annex Colombia and Venezuela then accept the Hispanic pops there. The last decision grants cores and a pop growth modifier on all South American land that is owned besides Brazilian cores.;;;;;;x
+EVTNAME19000220;Which Way?;;;;;;;;x
+EVTDESC19000220;Time to Choose...;;;;;;;x
+EVTOPTA19000220;Colonies n Chill;;;;;;;;;;;x
+EVTOPTB19000220;South American Blood-bath;;;;;;;;;;;x
+blood_n_bacon_title;The Scaling Button;;;;;;x
+blood_n_bacon_desc;Button that does something award.;;;;;;;x

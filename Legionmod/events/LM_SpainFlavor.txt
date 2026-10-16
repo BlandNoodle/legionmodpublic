@@ -95,3 +95,22 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = 19000220
+	title = "EVTNAME19000220"
+	desc = "EVTDESC19000220"
+	picture = "theygonnakillyou"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA19000220"
+		set_country_flag = sp_co
+	}
+	
+	option = {
+		name = "EVTOPTB19000220"
+		set_country_flag = sp_sa
+	}
+}

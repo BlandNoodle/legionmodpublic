@@ -612,6 +612,9 @@ political_decisions = {
 				who = UKR
 				value = 125
 			}
+			UKR = {
+				owns = 958
+			}
 		}
 		effect = {
 			inherit = UKR

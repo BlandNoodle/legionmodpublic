@@ -126,7 +126,8 @@ political_decisions = {
 		effect = {
 			any_owned = {
 				limit = {
-					is_core = THIS
+					is_core = NET
+					NOT = {is_core = BEL}
 					continent = europe
 				}
 				add_province_modifier = {
@@ -138,7 +139,7 @@ political_decisions = {
 			THIS = {
 				add_country_modifier = {
 					name = dutch_flood_cooldown
-					duration = 1000
+					duration = 1500
 				}
 			}
 		}

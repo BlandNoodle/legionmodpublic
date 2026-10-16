@@ -20,8 +20,19 @@ political_decisions = {
 			add_accepted_culture = wallonian
 			add_accepted_culture = flemish
 			nationalvalue = nv_equality
-			NET = { all_core = { remove_core = NET } }
-			BEL = { all_core = { remove_core = BEL } }
+			NET = { 
+				all_core = { 
+					add_core = THIS
+				} 
+			}
+			BEL = {
+				all_core = { 
+					remove_core = BEL
+					remove_core = NET
+					remove_core = FLA
+					remove_core = WLL
+				} 
+			}
 			prestige = 10
 			badboy = 6
 		}
@@ -224,13 +235,13 @@ political_decisions = {
 				tag = NET
 				tag = BNX
 			}
-			NOT = {owns = 387}
-			NOT = {owns = 375}
 			NOT = {has_country_flag = relocated}
 			ai = no
 		}
 		allow = {
 			owns = 1413
+			NOT = {owns = 387}
+			NOT = {owns = 375}
 		}
 		effect = {
 			prestige = 10

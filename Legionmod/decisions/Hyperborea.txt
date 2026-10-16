@@ -27,6 +27,9 @@ political_decisions = {
 		allow = {
 			war = no
 			tag = NGF
+			SWE = {
+				ai = yes
+			}
 			AND = {
 				SWE = {
 					all_core = {

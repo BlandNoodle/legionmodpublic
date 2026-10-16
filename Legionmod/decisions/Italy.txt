@@ -322,7 +322,13 @@ political_decisions = {
 		}
 		
 		allow = {
-			revolution_n_counterrevolution = 1
+			OR = {
+				revolution_n_counterrevolution = 1
+				AND = {
+					exists = KUK
+					nationalism_n_imperialism = 1
+				}
+			}
 			NOT = {unemployment = 0.05}
 		}
 		

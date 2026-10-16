@@ -116,7 +116,7 @@ country_event = {
 		owns = 1680
 		owns = 1688
 		owns = 1690
-		year = 1914
+		year = 1925
 		NOT = {has_country_flag = alrif}
 		NOT = {has_country_flag = morocco_integrated}
 	}
@@ -977,7 +977,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		year = 1870
+		year = 1936
 		tag = LIC
 		NOT = {has_global_flag = hegemony_enabled}
 	}

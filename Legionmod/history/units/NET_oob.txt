@@ -5,31 +5,37 @@ army = {
 	location = 375 
 	regiment = {
 		name= "1e Cavalerie Brigade"
-		type = cuirassier
+		type = artillery
 		home = 375
+	}
+	
+	regiment = {
+		name= "1e Cavalerie Brigade"
+		type = artillery
+		home = 383
 	}
 
 	regiment = {
 		name= "2e Cavalerie Brigade"
-		type = cuirassier
+		type = artillery
 		home = 383
 	}
 
 	regiment = {
 		name= "3e Cavalerie Brigade"
-		type = cuirassier
+		type = artillery
 		home = 380
 	}
 
 	regiment = {
 		name = "1e Infanterie Brigade"
-		type = infantry
+		type = artillery
 		home = 376
 	}
 
 	regiment = {
 		name = "2e Infanterie Brigade"
-		type = infantry
+		type = cuirassier
 		home = 381
 	}
 
@@ -38,12 +44,7 @@ army = {
 		type = infantry
 		home = 377
 	}
-
-}
-
-army = {
-	name = "2e Divisie"
-	location = 381
+	
 	regiment = {
 		name = "4e Infanterie Brigade"
 		type = infantry
@@ -65,29 +66,6 @@ army = {
 }
 
 army = {
-	name = "3e Divisie"
-	location = 375
-	regiment = {
-		name = "7e Infanterie Brigade"
-		type = infantry
-		home = 383
-	}
-
-	regiment = {
-		name = "8e Infanterie Brigade"
-		type = infantry
-		home = 384
-	}
-
-	regiment = {
-		name = "9e Infanterie Brigade"
-		type = infantry
-		home = 385
-	}
-
-}
-
-army = {
 	name = "K.N.I.L."
 	location = 1413
 	regiment = {
@@ -98,8 +76,20 @@ army = {
 
 	regiment = {
 		name = "Banisaren Korps"
-		type = irregular
+		type = cuirassier
 		home = 1421
+	}
+	
+	regiment = {
+		name = "Banisaren Korps 2"
+		type = artillery
+		home = 1414
+	}
+	
+	regiment = {
+		name = "Banisaren Korps 3"
+		type = cuirassier
+		home = 1415
 	}
 }
 
@@ -155,12 +145,22 @@ navy = {
 		name= "Orpheus"
 		type = frigate
 	}
-
+	
+	ship = {
+		name= "Admiraal Generaal"
+		type = manowar
+	}
 
 	ship = {
-		name= "1e Transport Eskader"
-		type = clipper_transport
+		name= "Diana"
+		type = frigate
 	}
+
+	ship = {
+		name= "Hoop"
+		type = frigate
+	}
+
 }
 
 navy = {
@@ -200,30 +200,10 @@ navy = {
 		name= "2e Transport Eskader"
 		type = clipper_transport
 	}
-}
-
-navy = {
-	name = "Koninklijke WI Marine"
-	location = 2234 #Curacao
-
+	
 	ship = {
-		name= "Admiraal Generaal"
-		type = manowar
-	}
-
-	ship = {
-		name= "Diana"
-		type = frigate
-	}
-
-	ship = {
-		name= "Hoop"
-		type = frigate
-	}
-
-	ship = {
-		name= "3e Transport Eskader"
+		name= "1e Transport Eskader"
 		type = clipper_transport
 	}
-
 }
+
