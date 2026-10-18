@@ -318,7 +318,7 @@ political_decisions = {
 			tag = UCA
 			has_country_flag = dongexpansion4
 			NOT = {has_country_flag = dongexpansion8}
-			CSA = exists
+			year = 1850
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -391,7 +391,7 @@ political_decisions = {
 		potential = {
 			tag = UCA
 			has_country_flag = dongexpansion8
-			NOT = {has_country_flag = dongexpansion9}
+			NOT = {has_country_flag = dongexpansion10}
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
@@ -406,7 +406,7 @@ political_decisions = {
 			prestige = 100
 			USA = {all_core = {add_core = THIS} }
 			money = 2000000
-			set_country_flag = dongexpansion9
+			set_country_flag = dongexpansion10
 		}
 	}
 }
